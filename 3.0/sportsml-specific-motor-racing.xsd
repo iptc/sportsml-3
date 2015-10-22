@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<!--
+IPTC - International Press Telecommunications Council
+20 Garrick Street, London WC2E 9BT, United Kingdom
+www.iptc.org
+
+See sportsml.xsd to view Non-Exclusive License Agreement for 
+International Press Telecommunications Council, which
+applies to this specification.
+-->
+
+<!-- ========================================================================================= -->
+<!--        SportsML MotorRacing plugin               -->	
+<!-- ========================================================================================= -->	
+
+<xs:schema 
+	xmlns="http://iptc.org/std/nar/2006-10-01/" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	version="3.0">
+	
+	<!-- ========================================================================================= -->
+	<!--        Motor racing metadata complex types               -->	
+	<!-- ========================================================================================= -->	
+	
+		<xs:complexType name="motorRacingEventMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the event itself. | Includes what state the game is in.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="eventStateMotorRacing"/>
+		</xs:complexType>
+	
+		<xs:complexType name="motorRacingTeamMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the team. | Specific to the sport of motor racing.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="metadata-motor-racing-vehicle" type="motorRacingMetadataVehicleComplexType" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+		</xs:complexType>
+
+		<xs:complexType name="motorRacingPlayerMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the driver. | Specific to the sport of motor racing.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="metadata-motor-racing-vehicle" type="motorRacingMetadataVehicleComplexType" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+		</xs:complexType>
+
+		<xs:complexType name="motorRacingAssociateMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the associate. | Specific to the sport of motor racing.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="metadata-motor-racing-vehicle" type="motorRacingMetadataVehicleComplexType" minOccurs="0"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+		</xs:complexType>
+
+		<xs:complexType name="motorRacingMetadataVehicleComplexType">
+			<xs:annotation>
+				<xs:documentation>Details on the car, motorcycle, etc., being driven. | Includes manufacturing information.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="make-name" type="ConceptNameType" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>A display-name for the make-key.</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attribute name="number" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number written on the side of the vehicle.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="make-key" type="QCodeType" use="optional">
+				<xs:annotation>
+					<xs:documentation>A unique identifier for the make of the car. For example: m.dodge</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sponsor" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The name of the sponsor for the car.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="chassis" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The type of chassis.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="engine" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The type of engine.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tire" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The type of tire.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+	<!-- ========================================================================================= -->
+	<!--        Motor Racing stats complex types               -->	
+	<!-- ========================================================================================= -->	
+
+	
+		<xs:complexType name="motorRacingTeamStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Specific statistics for motor racing. | Includes stats about the qualifying round, as well as for the race itself.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseMotorRacingPlayerStatsComplexType"></xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	
+	<xs:complexType name="motorRacingPlayerStatsComplexType">
+		<xs:annotation>
+			<xs:documentation>Specific statistics for motor racing. | Includes stats about the qualifying round, as well as for the race itself.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="baseMotorRacingPlayerStatsComplexType"></xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+	<xs:complexType name="baseMotorRacingPlayerStatsComplexType">
+		<xs:annotation>
+			<xs:documentation>Specific statistics for motor racing. | Includes stats about the qualifying round, as well as for the race itself.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="stats-motor-racing-qualifying" type="motorRacingStatsQualifyingComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="stats-motor-racing-race" type="motorRacingStatsRaceComplexType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="commonAttributes"/>
+		<xs:attributeGroup ref="coverageAttributes"/>
+	</xs:complexType>
+	
+	
+	
+	<xs:complexType name="motorRacingEventStatsComplexType">
+		<xs:annotation>
+			<xs:documentation>Statistics about the event itself. | Includes the total number of lead changes, and the average speed.</xs:documentation>
+		</xs:annotation>
+		<xs:attributeGroup ref="commonAttributes"/>
+		<xs:attributeGroup ref="coverageAttributes"/>
+		<xs:attribute name="speed-average-race" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The average speed of the race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="speed-units" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The units used for speed-average. For example: mph.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="lead-changes" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The number of times the lead changed in this race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="lead-changes-drivers" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Total number of drivers that comprised the lead changes.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="margin-of-victory" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Time behind leader for 2nd place driver.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="caution-flags" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Total number of flags for race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="caution-flags-laps" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Total number of laps there were caution flags.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="laps-total" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Total number of laps for race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="distance-lap" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Length of one lap.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="distance-total" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Total distance of race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="distance-units" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Unit of measure for distance-lap and distance-total.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	
+	<xs:complexType name="motorRacingStatsQualifyingComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics for the qualifying round of a race. | Includes pole position and qualifying times.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="grid" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The arrangement or order of cars in the starting lineup.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="pole-position" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Position relative to the inside wall, at the start of the race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="pole-wins" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times this driver or team had a pole position of 1.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="qualifying-speed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Speed of lap which qualified the driver.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="qualifying-speed-units" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Units used for qualifying-speed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="qualifying-time" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Time received for qualifying lap.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="qualifying-position" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Where the car had ranked within the preliminary round.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="motorRacingStatsRaceComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics for the race itself. | Includes time information and can include cumulative stats for the driver or team.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="stats-motor-racing-lap" type="motorRacingStatsLapComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="time-behind-leader" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of time this driver was behind the car that is currently in first place.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="laps-behind-leader" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of laps this driver was behind the car that is currently in first place.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="time-ahead-follower" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of time this driver was ahead of the car immediately behind it.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="laps-ahead-follower" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of laps this driver was ahead of the car immediately behind it.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="time" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total amount of time this driver has been competing in the race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="points" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total accumulation of points in the league-authorized standings for the season.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="points-rookie" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total accumulation of points in the league-authorized standings for the season, amongst other drivers who are competing in their first year.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bonus" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of bonus points driver has earned in this race. For example, NASCAR drivers may receive five bonus points for leading a lap, and an additional five points for leading the most laps.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="laps-completed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of laps this driver has completed during this race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="laps-leading-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of laps in which this driver has led the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="distance-leading" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Distance (in, say, miles or kilometers) that driver has led the race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="distance-completed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Distance (in, say, miles or kilometers) that driver has completed in this race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="distance-units" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The unit of measure used for distances.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="speed-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average speed during the race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="speed-units" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Units used for denoting the speed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="status" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Whether the driver is running, or is out of the race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="finishes-top-5" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of top-5 finishes this driver has had.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="finishes-top-10" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of top-10 finishes this driver has had.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="starts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of races this driver had started.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="finishes" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of races this driver had finished.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="non-finishes" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of races this driver had started but had not finished.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="wins" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of races this driver had won.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="races-leading" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of races in which this driver has held a lead.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="money" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of money this driver had won.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="money-units" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Units in which the money attribute is specified.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="leads-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of total leads this driver has had, presumably during this race.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="comment" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>A comment or highlight on this driver.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="motorRacingStatsLapComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics for a particular lap. | Can be used for all laps in a race, or just say for the fastest lap.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="speed-range" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Either fastest or slowest.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="lap-number" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The lap number in question.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="start-time-elapsed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The time since the start of the race at which this lap was begun.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="speed-average-lap" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average speed of this lap.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="speed-units" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The units used for speed-average.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="duration" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The length of time this lap (or partial lap) was completed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="split-location" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Used when partial laps are being timed. If omitted, it is assumed that the stats herein are for the entire lap. Sample values include: start | stretch | finish | marker-1 | marker-2</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+	<!-- ========================================================================================= -->
+	<!--        Motor racing event actions               -->	
+	<!-- ========================================================================================= -->	
+	
+<!--		<xs:complexType name="motorRacingEventActionsComplexType">
+			<xs:annotation>
+				<xs:documentation>A container for specific motor-racing actions. | Generally ordered chronologically.</xs:documentation>
+			</xs:annotation>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="flag-change" type="motorRacingActionFlagChangeComplexType"/>
+				<xs:element name="position-change" type="motorRacingActionPositionChangeComplexType"/>
+				<xs:element name="other" type="motorRacingActionOtherComplexType"/>
+			</xs:choice>
+			<xs:attributeGroup ref="commonAttributes"/>
+		</xs:complexType>
+-->	
+<!--		<xs:complexType name="motorRacingActionFlagChangeComplexType">
+			<xs:annotation>
+				<xs:documentation>Used when a flag is changed from one to another. | Signals the start of race, or a switch to caution mode.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseEventActionComplexType">
+					<xs:attributeGroup ref="eventStateMotorRacing"/>
+					<xs:attribute name="flag-original" type="flagType.MotorRacing" use="optional">
+						<xs:annotation>
+							<xs:documentation>A key for the original flag.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="flag-new" type="flagType.MotorRacing" use="optional">
+						<xs:annotation>
+							<xs:documentation>A key for the new flag.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	
+		<xs:complexType name="motorRacingActionPositionChangeComplexType">
+			<xs:annotation>
+				<xs:documentation>Used when one driver passes another. | Could be used to just track the leaders, or could track the relative shiftings of all drivers in the race.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseEventActionComplexType">
+				
+			<xs:attribute name="passer-type" use="required">
+				<xs:annotation>
+					<xs:documentation>Whether the passer is a team or a player.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="team"/>
+						<xs:enumeration value="player"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="passer-idref" type="xs:IDREF" use="optional">
+				<xs:annotation>
+					<xs:documentation>An IDREF for the passer.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passer-key" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>A key for the passer.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="position-original" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The original position of the passer, with respect to the race leader.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="position-new" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>the new position of the passer, following the pass.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+
+	<xs:complexType name="motorRacingActionOtherComplexType">
+		<xs:annotation>
+			<xs:documentation>A custom action. | For use when none of the pre-build actions	apply.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="genericEventActionComplexType">
+				<xs:attributeGroup ref="eventStateMotorRacing"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+-->
+	<!-- ========================================================================================= -->
+	<!--        Motor Racing Attribute groups               -->	
+	<!-- ========================================================================================= -->	
+
+	<xs:attributeGroup name="eventStateMotorRacing">
+		<xs:attribute name="lap" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>An integer. 1,2,3,4 for the current lap that (generally) the leader of the race is amidst.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="laps-remaining" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The number of laps (generally for the leader) that are remaining in the race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="time-elapsed" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The time elapsed in the race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="flag-state" type="QCodeType" use="optional">
+			<xs:annotation>
+				<xs:documentation>The current flag issued within the race.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	
+
+</xs:schema>

@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ ../sportsml.xsd"
+ xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.0" version="1"
+ conformance="power" xml:lang="en-GB" guid="tt.se.20141202092343-755363-post-event">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
+    <itemMeta>
+        <itemClass qcode="ninat:text"/>
+        <provider qcode="web:tt.se">
+            <name>TT Nyhetsbyrån.</name>
+        </provider>
+        <versionCreated>2014-12-02T09:23:43+01:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
+        <fileName>tt.se.20141202092343-755363-post-event</fileName>
+        <link rel="path:fixture" href="event-stats"/>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2014-12-02T09:23:43+01:00</contentCreated>
+        <language tag="sv"/>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-GB">sport</name>
+        </subject>
+        <subject qcode="subj:15065000">
+            <name xml:lang="en-GB">Tennis</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <subject type="cpnat:event" qcode="event:tt.se:xtz123">
+            <name>Davis Cup</name>
+        </subject>
+        <subject type="spcpnat:season" literal="2011"/>
+        <headline>Davis Cup 2011</headline>
+        <description role="drol:summary">NOTE: This is a constructed sample and the stats from the game in the first final game is from another game.</description>
+    </contentMeta>
+    <contentSet>
+        <inlineXML contenttype="application/sportsml+xml">
+            <sports-content>
+
+                <tournament><!-- The tournament is the World Group in Davis Cup tennis. It is a tournament between countries where the gameplay is between individuals or pairs -->
+                    <tournament-division>
+                        <tournament-division-metadata>
+                            <sports-content-codes>
+                                <sports-content-code code-type="subj:qual">
+                                    <sports-content-qualifier gender="male" participant-count="individual"/>
+                                </sports-content-code>
+                            </sports-content-codes>
+                            <name>World group</name>
+                        </tournament-division-metadata>
+                        <!-- The first tournament part has the final and illustrates sport specific metadata.
+                        The second part illustrates the special construction of davis cup with games between countries built on sub-events with games between individuals.-->
+
+                        <tournament-part> <!-- Tournament part with the final. Note that the stats used is from another tennis game.  -->
+                            <tournament-part-metadata type="tpt:final">
+                                <name>Final</name>
+                            </tournament-part-metadata>
+
+                            <sports-event>
+                                <event-metadata start-date-time="2011-12-02T10:00:00+02:00"
+                                    event-status="evst:mid-event">
+                                    <site>
+                                        <site-metadata surface="Red clay" site_style="site:indoor">
+                                            <name>Olympic stadium</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Seville</name></locality><country><name>Spain</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </site-metadata>
+                                    </site>
+                                    <event-metadata-tennis number-of-sets="5"/>
+                                </event-metadata>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Spain</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="undecided"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>Argentina</name>
+                                    </team-metadata>
+                                    <team-stats score="0" event-outcome="undecided"/>
+                                </team>
+                                <sports-event>
+                                    <event-metadata event-number="1"/>
+
+                                    <player id="p_1">
+                                        <player-metadata>
+                                            <name role="nrol:first">Rafael</name>
+                                            <name role="nrol:last">Nadal</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><country><name>Spain</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+
+                                        <player-stats event-outcome="win" score="3">
+                                            <rank value="2" type="rt:single"/>
+                                            <player-stats-tennis unforced-errors="21"
+                                                points-won="93" winners="29" net-points-played="19"
+                                                net-points-won="15" net-points-won-pct="79">
+                                                <stats-tennis-service serve-points-played="90"
+                                                  aces="5" double-faults="3"
+                                                  first-services-good="62"
+                                                  first-services-good-pct="69"
+                                                  first-services-points-won="48"
+                                                  first-services-points-won-pct="77"
+                                                  second-services-good="25"
+                                                  second-services-good-pct="89"
+                                                  second-services-points-won="18"
+                                                  second-services-points-won-pct="64"
+                                                  break-points-played="4" break-points-saved="4"
+                                                  break-points-saved-pct="100"
+                                                  first-serve-average-speed="115"
+                                                  first-service-top-speed="127"
+                                                  second-serve-average-speed="90" speed-units="mph"/>
+                                                <stats-tennis-return returns-played="81"
+                                                  receive-points-won="27"
+                                                  receive-points-won-pct="33"
+                                                  break-points-played="6" break-points-converted="4"
+                                                  break-points-converted-pct="67"/>
+                                                <stats-tennis-set set-number="1" score="6"
+                                                  duration="34" unforced-errors="3" points-won="26"
+                                                  winners="9" net-points-played="3"
+                                                  net-points-won="2" net-points-won-pct="67">
+                                                  <stats-tennis-service serve-points-played="20"
+                                                  aces="4" double-faults="1"
+                                                  first-services-good="12"
+                                                  first-services-good-pct="60"
+                                                  first-services-points-won="11"
+                                                  first-services-points-won-pct="92"
+                                                  second-services-good="7"
+                                                  second-services-good-pct="86"
+                                                  second-services-points-won="5"
+                                                  second-services-points-won-pct="63"
+                                                  break-points-played="0" break-points-saved="0"
+                                                  break-points-saved-pct="0"/>
+                                                  <stats-tennis-return returns-played="25"
+                                                  receive-points-won="10"
+                                                  receive-points-won-pct="40"
+                                                  break-points-played="4" break-points-converted="2"
+                                                  break-points-converted-pct="50"/>
+                                                </stats-tennis-set>
+                                                <stats-tennis-set set-number="2" score="7"
+                                                  duration="54" unforced-errors="12" points-won="36"
+                                                  winners="10" net-points-played="13"
+                                                  net-points-won="11" net-points-won-pct="85">
+                                                  <stats-tennis-service serve-points-played="40"
+                                                  aces="1" double-faults="2"
+                                                  first-services-good="26"
+                                                  first-services-good-pct="65"
+                                                  first-services-points-won="19"
+                                                  first-services-points-won-pct="73"
+                                                  second-services-good="12"
+                                                  second-services-good-pct="85"
+                                                  second-services-points-won="9"
+                                                  second-services-points-won-pct="64"
+                                                  break-points-played="3" break-points-saved="3"
+                                                  break-points-saved-pct="100"/>
+                                                  <stats-tennis-return returns-played="28"
+                                                  receive-points-won="8" receive-points-won-pct="29"
+                                                  break-points-played="1" break-points-converted="1"
+                                                  break-points-converted-pct="100"/>
+                                                </stats-tennis-set>
+                                                <stats-tennis-set set-number="3" score="6"
+                                                  duration="45" unforced-errors="6" points-won="31"
+                                                  winners="10" net-points-played="3"
+                                                  net-points-won="2" net-points-won-pct="67">
+                                                  <stats-tennis-service serve-points-played="30"
+                                                  aces="0" double-faults="0"
+                                                  first-services-good="24"
+                                                  first-services-good-pct="80"
+                                                  first-services-points-won="18"
+                                                  first-services-points-won-pct="75"
+                                                  second-services-good="6"
+                                                  second-services-good-pct="100"
+                                                  second-services-points-won="4"
+                                                  second-services-points-won-pct="67"
+                                                  break-points-played="1" break-points-saved="1"
+                                                  break-points-saved-pct="100"/>
+                                                  <stats-tennis-return returns-played="28"
+                                                  receive-points-won="9" receive-points-won-pct="32"
+                                                  break-points-played="1" break-points-converted="1"
+                                                  break-points-converted-pct="100"/>
+                                                </stats-tennis-set>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                    <player id="p_2">
+                                        <player-metadata>
+                                            <name role="nrol:first">David</name>
+                                            <name role="nrol:last">Nalbandian</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><country><name>Argentina</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats event-outcome="loss" score="0">
+                                            <rank type="rt:single" value="12"/>
+                                            <player-stats-tennis unforced-errors="17"
+                                                points-won="78" winners="27" net-points-played="31"
+                                                net-points-won="19" net-points-won-pct="61">
+                                                <stats-tennis-service serve-points-played="81"
+                                                  aces="13" double-faults="0"
+                                                  first-services-good="48"
+                                                  first-services-good-pct="59"
+                                                  first-services-points-won="35"
+                                                  first-services-points-won-pct="73"
+                                                  second-services-good="33"
+                                                  second-services-good-pct="100"
+                                                  second-services-points-won="19"
+                                                  second-services-points-won-pct="58"
+                                                  break-points-played="6" break-points-saved="2"
+                                                  break-points-saved-pct="33"
+                                                  first-serve-average-speed="124"
+                                                  first-service-top-speed="135"
+                                                  second-serve-average-speed="95" speed-units="mph"/>
+                                                <stats-tennis-return returns-played="90"
+                                                  receive-points-won="24"
+                                                  receive-points-won-pct="27"
+                                                  break-points-played="4" break-points-converted="0"
+                                                  break-points-converted-pct="0"/>
+
+                                                <stats-tennis-set set-number="1" score="3"
+                                                  duration="34" unforced-errors="3" points-won="19"
+                                                  winners="9" net-points-played="7"
+                                                  net-points-won="5" net-points-won-pct="71">
+                                                  <stats-tennis-service serve-points-played="25"
+                                                  aces="3" double-faults="0"
+                                                  first-services-good="12"
+                                                  first-services-good-pct="48"
+                                                  first-services-points-won="8"
+                                                  first-services-points-won-pct="67"
+                                                  second-services-good="13"
+                                                  second-services-good-pct="100"
+                                                  second-services-points-won="7"
+                                                  second-services-points-won-pct="54"
+                                                  break-points-played="4" break-points-saved="2"
+                                                  break-points-saved-pct="50"/>
+                                                  <stats-tennis-return returns-played="20"
+                                                  receive-points-won="4" receive-points-won-pct="20"
+                                                  break-points-played="0" break-points-converted="0"
+                                                  break-points-converted-pct="0"/>
+                                                </stats-tennis-set>
+                                                <stats-tennis-set set-number="2" score="5"
+                                                  duration="54" unforced-errors="11" points-won="32"
+                                                  winners="10" net-points-played="11"
+                                                  net-points-won="6" net-points-won-pct="55">
+                                                  <stats-tennis-service serve-points-played="28"
+                                                  aces="7" double-faults="0"
+                                                  first-services-good="18"
+                                                  first-services-good-pct="64"
+                                                  first-services-points-won="14"
+                                                  first-services-points-won-pct="78"
+                                                  second-services-good="10"
+                                                  second-services-good-pct="100"
+                                                  second-services-points-won="6"
+                                                  second-services-points-won-pct="60"
+                                                  break-points-played="3" break-points-saved="0"
+                                                  break-points-saved-pct="0"/>
+                                                  <stats-tennis-return returns-played="40"
+                                                  receive-points-won="12"
+                                                  receive-points-won-pct="30"
+                                                  break-points-played="1" break-points-converted="0"
+                                                  break-points-converted-pct="0"/>
+                                                </stats-tennis-set>
+                                                <stats-tennis-set set-number="3" score="4"
+                                                  duration="45" unforced-errors="3" points-won="27"
+                                                  winners="8" net-points-played="13"
+                                                  net-points-won="8" net-points-won-pct="62">
+                                                  <stats-tennis-service serve-points-played="28"
+                                                  aces="3" double-faults="0"
+                                                  first-services-good="18"
+                                                  first-services-good-pct="64"
+                                                  first-services-points-won="13"
+                                                  first-services-points-won-pct="72"
+                                                  second-services-good="10"
+                                                  second-services-good-pct="100"
+                                                  second-services-points-won="6"
+                                                  second-services-points-won-pct="60"
+                                                  break-points-played="1" break-points-saved="0"
+                                                  break-points-saved-pct="0"/>
+                                                  <stats-tennis-return returns-played="30"
+                                                  receive-points-won="8" receive-points-won-pct="27"
+                                                  break-points-played="1" break-points-converted="0"
+                                                  break-points-converted-pct="0"/>
+                                                </stats-tennis-set>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                    <actions>
+                                        <!-- OBS: This is not real data, just made up to test the event-actions constructions. -->
+                                        <action set="3" game="10">
+                                            <action shot-type="tennis:volley"
+                                                receiver-score="tennis:30"
+                                                serve-number="tennis:first"
+                                                server-score="tennis:game">
+                                                <participant idref="p_1" role="tennis:server"/>
+                                                <participant idref="p_2" role="tennis:receiver"/>
+                                                <participant idref="p_1" role="tennis:ball_winner"/>
+                                            </action>
+                                        </action>
+                                    </actions>
+                                </sports-event>
+                            </sports-event>
+                        </tournament-part>
+
+                        <tournament-part><!-- The second round in this file is the semifinal round with two games. The first complete and the second just the game result. -->
+                            
+                            <tournament-part-metadata type="trt:semifinal" status="tps:post-event"
+                                start-date-time="2011-09-16" end-date-time="2011-09-18">
+                                <name>Semi-final</name>
+                            </tournament-part-metadata>
+
+                            <sports-event><!-- A Davis Cup game is between two countries. But the action takes place in sub-events with matches. -->
+
+                                <event-metadata event-status="tps:post-event">
+                                    <sports-property value="Dunlop Fort All Court"
+                                        formal-name="Ball"/>
+                                    <site>
+                                        <site-metadata surface="Hard (Acrylic)" style="indoor">
+                                            <name>Belgrade Arena</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </site-metadata>
+                                    </site>
+                                </event-metadata>
+
+                                <team id="DC_Seribia"><!-- One team in this game is Serbia -->
+                                    
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Serbia</name>
+                                    </team-metadata>
+                                    <team-stats score="2" event-outcome="loss"/>
+                                    <player>
+                                        <player-metadata/>
+                                    </player>
+                                </team>
+
+                                <team id="DC_Argentina"><!-- The other team is Argentina -->
+                                    
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>Argentina</name>
+                                    </team-metadata>
+                                    <team-stats score="3" event-outcome="win"/>
+                                </team>
+
+                                <sports-event><!-- This is the first sub-event with a singles match -->
+
+                                    <event-metadata event-number="1" event-status="tps:post-event"
+                                        start-date-time="2011-09-16T15:00:00"
+                                        end-date-time="2011-09-16">
+                                        <event-metadata-tennis number-of-sets="5"/>
+                                    </event-metadata>
+
+                                    <player>
+                                        <player-metadata team-idref="DC_Serbia"
+                                            date-of-birth="1986-02-10" gender="male"
+                                            nationality="Serbian">
+                                            <name role="nrol:first">Viktor</name>
+                                            <name role="nrol:last">Troicki</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="1" event-outcome="loss">
+                                            <rank value="17" type="rt:single"/>
+                                            <rank value="90" type="rt:double"/>
+                                            <sub-score score="4" period-value="1"/>
+                                            <!-- The set result can be listed using the sub-score -->
+                                            <sub-score score="6" period-value="2"/>
+                                            <sub-score score="2" period-value="3"/>
+                                            <sub-score score="3" period-value="4"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="4"/>
+                                                <!-- Or the set results can be listed using the tennis specific construction. -->
+                                                <stats-tennis-set set-number="2" score="6"/>
+                                                <stats-tennis-set set-number="3" score="2"/>
+                                                <stats-tennis-set set-number="4" score="3"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                    <player>
+                                        <player-metadata date-of-birth="1982-01-01" gender="male"
+                                            nationality="Argentinian">
+                                            <name role="nrol:first">David</name>
+                                            <name role="nrol:last">Nalbandian</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Cordoba</name></locality><country><name>Argentina</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="3" event-outcome="win">
+                                            <rank value="57" type="rt:single"/>
+                                            <sub-score score="6" period-value="1"/>
+                                            <sub-score score="4" period-value="2"/>
+                                            <sub-score score="6" period-value="3"/>
+                                            <sub-score score="6" period-value="4"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="6"/>
+                                                <stats-tennis-set set-number="2" score="4"/>
+                                                <stats-tennis-set set-number="3" score="6"/>
+                                                <stats-tennis-set set-number="4" score="6"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                </sports-event>
+
+                                <sports-event><!-- Second match in this game. -->
+
+                                    <event-metadata event-number="2" event-status="tps:post-event"
+                                        start-date-time="2011-09-16" end-date-time="2011-09-16">
+                                        <event-metadata-tennis number-of-sets="5"/>
+                                    </event-metadata>
+
+                                    <player>
+                                        <player-metadata date-of-birth="1986-02-10" gender="male"
+                                            nationality="Serbian">
+                                            <name role="nrol:first">Janko</name>
+                                            <name role="nrol:last">Tipsarevic</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Servia</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="0" event-outcome="loss">
+                                            <rank value="13" type="rt:single"/>
+                                            <rank value="69" type="rt:double"/>
+                                            <sub-score score="5" period-value="1"/>
+                                            <sub-score score="3" period-value="2"/>
+                                            <sub-score score="4" period-value="3"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="5"/>
+                                                <stats-tennis-set set-number="2" score="3"/>
+                                                <stats-tennis-set set-number="3" score="4"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                    <player>
+                                        <player-metadata date-of-birth="1988-09-23" gender="male"
+                                            nationality="Argentinian">
+                                            <name role="nrol:first">Juan Martin</name>
+                                            <name role="nrol:last">Del Potro</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Tandil</name></locality><country><name>Argentina</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="3" event-outcome="win">
+                                            <rank value="14" type="rt:single"/>
+                                            <rank value="169" type="rt:double"/>
+                                            <sub-score score="7" period-value="1"/>
+                                            <sub-score score="6" period-value="2"/>
+                                            <sub-score score="6" period-value="3"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="7"/>
+                                                <stats-tennis-set set-number="2" score="6"/>
+                                                <stats-tennis-set set-number="3" score="6"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                </sports-event>
+
+                                <sports-event><!-- The third match is a doubles match so the participants are teams with the players listed under each team. -->
+
+                                    <event-metadata event-number="3" start-date-time="2011-09-17"
+                                        end-date-time="2011-09-17T15:00:00"
+                                        event-status="tps:post-event">
+                                        <sports-property formal-name="playertype" value="double"/>
+                                        <event-metadata-tennis number-of-sets="5"/>
+                                    </event-metadata>
+                                    <team>
+                                        <team-metadata>
+                                            <name>Serbia</name>
+                                        </team-metadata>
+                                        <team-stats score="3" event-outcome="win">
+                                            <sub-score score="7" period-value="1"/>
+                                            <sub-score score="6" period-value="2"/>
+                                            <sub-score score="6" period-value="3"/>
+                                            <team-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="7"
+                                                  score-tiebreaker="7"/>
+                                                <!-- Here the use of stats-tennis-set is needed if we want to record the result from the tiebreaker. -->
+                                                <stats-tennis-set set-number="2" score="6"/>
+                                                <stats-tennis-set set-number="3" score="6"/>
+                                            </team-stats-tennis>
+                                        </team-stats>
+
+                                        <player>
+                                            <player-metadata team-idref="DC_Serbia"
+                                                date-of-birth="1986-02-10" gender="male"
+                                                nationality="Serbian">
+                                                <name role="nrol:first">Viktor</name>
+                                                <name role="nrol:last">Troicki</name>
+                                                <home-location>
+                                                  <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
+                                                  </POIDetails>
+                                                </home-location>
+                                            </player-metadata>
+                                            <player-stats>
+                                                <rank value="17" type="rt:single"/>
+                                                <rank value="90" type="rt:double"/>
+                                            </player-stats>
+                                        </player>
+                                        <player>
+                                            <player-metadata team-idref="DC_Serbia"
+                                                date-of-birth="1986-02-10" gender="male"
+                                                nationality="Serbian">
+                                                <name role="nrol:first">Nenad</name>
+                                                <name role="nrol:last">Zimonjic</name>
+                                                <home-location>
+                                                  <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
+                                                  </POIDetails>
+                                                </home-location>
+                                            </player-metadata>
+                                            <player-stats>
+                                                <rank value="3" type="rt:double"/>
+                                            </player-stats>
+                                        </player>
+                                    </team>
+
+                                    <team>
+                                        <team-metadata>
+                                            <name>Argentina</name>
+                                        </team-metadata>
+                                        <team-stats score="0" event-outcome="loss">
+                                            <sub-score score="6" period-value="1"/>
+                                            <sub-score score="4" period-value="2"/>
+                                            <sub-score score="2" period-value="3"/>
+                                            <team-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="6"
+                                                  score-tiebreaker="4"/>
+                                                <stats-tennis-set set-number="2" score="4"/>
+                                                <stats-tennis-set set-number="3" score="2"/>
+                                            </team-stats-tennis>
+                                        </team-stats>
+
+                                        <player>
+                                            <player-metadata team-idref="DC_Argentina"
+                                                date-of-birth="1979-08-30" gender="male"
+                                                nationality="Serbian">
+                                                <name role="nrol:first">Juan Ignacio</name>
+                                                <name role="nrol:last">Chela</name>
+                                                <home-location>
+                                                  <POIDetails>
+                                                  <address><locality><name>Buenos Aires</name></locality><country><name>Argentina</name></country></address>
+                                                  </POIDetails>
+                                                </home-location>
+                                            </player-metadata>
+                                            <player-stats>
+                                                <rank value="28" type="rt:single"/>
+                                                <rank value="51" type="rt:double"/>
+                                            </player-stats>
+                                        </player>
+                                        <player>
+                                            <player-metadata team-idref="DC_Argentina"
+                                                date-of-birth="1984-03-29" gender="male"
+                                                nationality="Serbian">
+                                                <name role="nrol:first">Juan</name>
+                                                <name role="nrol:last">Monaco</name>
+                                                <home-location>
+                                                  <POIDetails>
+                                                  <address><locality><name>Buenos Aires</name></locality><country><name>Argentina</name></country></address>
+                                                  </POIDetails>
+                                                </home-location>
+                                            </player-metadata>
+                                            <player-stats>
+                                                <rank value="41" type="rt:single"/>
+                                                <rank value="181" type="rt:double"/>
+                                            </player-stats>
+                                        </player>
+                                    </team>
+
+                                </sports-event>
+
+                                <sports-event>
+
+                                    <event-metadata event-number="4" event-status="tps:post-event"
+                                        start-date-time="2011-09-18T14:00:00"
+                                        end-date-time="2011-09-18">
+                                        <event-metadata-tennis number-of-sets="5"/>
+                                    </event-metadata>
+
+                                    <player>
+                                        <player-metadata team-idref="DC_Serbia"
+                                            date-of-birth="1987-05-22" gender="male"
+                                            nationality="Serbian">
+                                            <name role="nrol:first">Novak</name>
+                                            <name role="nrol:last">Djokovic</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="0" event-outcome="loss">
+                                            <rank value="1" type="rt:single"/>
+                                            <rank value="241" type="rt:double"/>
+                                            <sub-score score="6" period-value="1"/>
+                                            <sub-score score="0" period-value="2"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="6"
+                                                  score-tiebreaker="5"/>
+                                                <stats-tennis-set set-number="2" score="0"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                    <player>
+                                        <player-metadata date-of-birth="1988-09-23" gender="male"
+                                            nationality="Argentinian">
+                                            <name role="nrol:first">Juan Martin</name>
+                                            <name role="nrol:last">Del Potro</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Tandil</name></locality><country><name>Argentina</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="2" event-outcome="win">
+                                            <rank value="12" type="rt:single"/>
+                                            <rank value="183" type="rt:double"/>
+                                            <sub-score score="7" period-value="1"/>
+                                            <sub-score score="3" period-value="2"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="7"
+                                                  score-tiebreaker="7"/>
+                                                <stats-tennis-set set-number="2" score="3"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                </sports-event>
+
+                                <sports-event>
+
+                                    <event-metadata event-number="5" event-status="tps:post-event"
+                                        start-date-time="2011-09-18" end-date-time="2011-09-18">
+                                        <event-metadata-tennis number-of-sets="5"/>
+                                    </event-metadata>
+
+                                    <player>
+                                        <player-metadata date-of-birth="1986-02-10" gender="male"
+                                            nationality="Serbian">
+                                            <name role="nrol:first">Janko</name>
+                                            <name role="nrol:last">Tipsarevic</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Belgrade</name></locality><country><name>Servia</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="1" event-outcome="win">
+                                            <rank value="13" type="rt:single"/>
+                                            <rank value="69" type="rt:double"/>
+                                            <sub-score score="6" period-value="1"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="6"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                    <player>
+                                        <player-metadata date-of-birth="1984-03-29" gender="male"
+                                            nationality="Argentinian">
+                                            <name role="nrol:first">Juan</name>
+                                            <name role="nrol:last">Monaco</name>
+                                            <home-location>
+                                                <POIDetails>
+                                                  <address><locality><name>Buenos Aires</name></locality><country><name>Argentina</name></country></address>
+                                                </POIDetails>
+                                            </home-location>
+                                        </player-metadata>
+                                        <player-stats score="0" event-outcome="loss">
+                                            <rank value="34" type="rt:single"/>
+                                            <rank value="178" type="rt:double"/>
+                                            <sub-score score="2" period-value="1"/>
+                                            <player-stats-tennis>
+                                                <stats-tennis-set set-number="1" score="2"/>
+                                            </player-stats-tennis>
+                                        </player-stats>
+                                    </player>
+
+                                </sports-event>
+
+
+                            </sports-event>
+
+                            <sports-event>
+                                <!-- The other semi final. -->
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Spain</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>France</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                            </sports-event>
+
+                        </tournament-part>
+
+                        <tournament-part> <!-- Tournament part with quarterfinals. Four games with end results -->
+                            <tournament-part-metadata type="tpt:Quearterfinals"
+                                status="tps:post-event" start-date-time="2011-07-08"
+                                end-date-time="2011-07-10">
+                                <name>Quarterfinals</name>
+                            </tournament-part-metadata>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Serbia</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away">
+                                        <name>Sweden</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home">
+                                        <name>Kazakhstan</name>
+                                    </team-metadata>
+                                    <team-stats score="0" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>Argentina</name>
+                                    </team-metadata>
+                                    <team-stats score="5" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>USA</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>Spain</name>
+                                    </team-metadata>
+                                    <team-stats score="3" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home">
+                                        <name>Germany</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>France</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                        </tournament-part>
+
+                        <tournament-part> <!-- Tournament part with first rount. 8 games with just end results -->
+                            <tournament-part-metadata type="tpt:first" status="tps:post-event"
+                                start-date-time="2011-03-04" end-date-time="2011-03-06">
+                                <name>First round</name>
+                            </tournament-part-metadata>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Serbia</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away">
+                                        <name>India</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Russia</name>
+                                    </team-metadata>
+                                    <team-stats score="2" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away">
+                                        <name>Sweden</name>
+                                    </team-metadata>
+                                    <team-stats score="3" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Czech Republic</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away">
+                                        <name>Kazakhstan</name>
+                                    </team-metadata>
+                                    <team-stats score="3" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home" round-position="seeded">
+                                        <name>Argentina</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away">
+                                        <name>Romania</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home">
+                                        <name>Chile</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>USA</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home">
+                                        <name>Belgium</name>
+                                    </team-metadata>
+                                    <team-stats score="1" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>Spain</name>
+                                    </team-metadata>
+                                    <team-stats score="4" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home">
+                                        <name>Germany</name>
+                                    </team-metadata>
+                                    <team-stats score="3" event-outcome="win"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>Croatia</name>
+                                    </team-metadata>
+                                    <team-stats score="2" event-outcome="loss"/>
+                                </team>
+                            </sports-event>
+                            <sports-event>
+                                <event-metadata event-status="tps:post-event"/>
+                                <team>
+                                    <team-metadata alignment="home">
+                                        <name>Austria</name>
+                                    </team-metadata>
+                                    <team-stats score="2" event-outcome="loss"/>
+                                </team>
+                                <team>
+                                    <team-metadata alignment="away" round-position="seeded">
+                                        <name>France</name>
+                                    </team-metadata>
+                                    <team-stats score="3" event-outcome="win"/>
+                                </team>
+                            </sports-event>
+                        </tournament-part>
+
+                    </tournament-division>
+                </tournament>
+            </sports-content>
+        </inlineXML>
+    </contentSet>
+
+
+</newsItem>

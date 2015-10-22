@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               xmlns:newsml="http://iptc.org/std/nar/2006-10-01/"
+               standard="NewsML-G2"
+               standardversion="2.18"
+               conformance="power"
+               guid="urn:newsml:iptc.org:20080229:srcncdki-spsocposition"
+               version="1">
+      <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+      <rightsInfo>
+         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC - International Press Telecommunications Council</name>
+         </copyrightHolder>
+         <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+         <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+      </rightsInfo>
+      <itemMeta>
+         <itemClass qcode="cinat:scheme"/>
+         <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC</name>
+         </provider>
+         <versionCreated>2015-10-22T05:36:54-04:00</versionCreated>
+         <pubStatus qcode="stat:usable"/>
+      </itemMeta>
+      <contentMeta>
+         <contentCreated>2015-10-22T05:36:54-04:00</contentCreated>
+         <infoSource literal="IPTC"/>
+         <creator qcode="web:iptc.org">
+            <name>International Press Telecommunications Council (IPTC)</name>
+         </creator>
+         <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+         </subject>
+         <subject qcode="subj:15054000">
+            <name xml:lang="en-US">soccer</name>
+            <broader qcode="subj:15000000"/>
+         </subject>
+         <description/>
+      </contentMeta>
+      <conceptSet>
+         <concept id="spsocpositionright-fullback">
+            <conceptId qcode="spsocposition:right-fullback"/>
+            <name xml:lang="en-GB">right-fullback</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionleft-fullback">
+            <conceptId qcode="spsocposition:left-fullback"/>
+            <name xml:lang="en-GB">left-fullback</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionsweeper">
+            <conceptId qcode="spsocposition:sweeper"/>
+            <name xml:lang="en-GB">sweeper</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionstopper">
+            <conceptId qcode="spsocposition:stopper"/>
+            <name xml:lang="en-GB">stopper</name>
+            <definition>DEPRECATED: Use central-defender instead.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositiondefenseman">
+            <conceptId qcode="spsocposition:defenseman"/>
+            <name xml:lang="en-GB">defenseman</name>
+            <definition>DEPRECATED: Use defender instead</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionleft-mid-fielder">
+            <conceptId qcode="spsocposition:left-mid-fielder"/>
+            <name xml:lang="en-GB">left-mid-fielder</name>
+            <definition>DEPRECATED: Use left-midfielder instead</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionright-mid-fielder">
+            <conceptId qcode="spsocposition:right-mid-fielder"/>
+            <name xml:lang="en-GB">right-mid-fielder</name>
+            <definition>DEPRECATED: Use right-midfielder instead</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositioncenter-mid-fielders">
+            <conceptId qcode="spsocposition:center-mid-fielders"/>
+            <name xml:lang="en-GB">center-mid-fielders</name>
+            <definition>DEPRECATED: Use center-midfielder instead</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionmid-fielder">
+            <conceptId qcode="spsocposition:mid-fielder"/>
+            <name xml:lang="en-GB">mid-fielder</name>
+            <definition>DEPRECATED: Use midfielder instead</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositiondefender">
+            <conceptId qcode="spsocposition:defender"/>
+            <name xml:lang="en-GB">defender</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositioncentral-defender">
+            <conceptId qcode="spsocposition:central-defender"/>
+            <name xml:lang="en-GB">central-defender</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionright-midfielder">
+            <conceptId qcode="spsocposition:right-midfielder"/>
+            <name xml:lang="en-GB">right-midfielder</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionleft-midfielder">
+            <conceptId qcode="spsocposition:left-midfielder"/>
+            <name xml:lang="en-GB">left-midfielder</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositioncenter-midfielder">
+            <conceptId qcode="spsocposition:center-midfielder"/>
+            <name xml:lang="en-GB">center-midfielder</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionmidfielder">
+            <conceptId qcode="spsocposition:midfielder"/>
+            <name xml:lang="en-GB">midfielder</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionattacking-midfielder">
+            <conceptId qcode="spsocposition:attacking-midfielder"/>
+            <name xml:lang="en-GB">attacking-midfielder</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositiondefensive-midfielder">
+            <conceptId qcode="spsocposition:defensive-midfielder"/>
+            <name xml:lang="en-GB">defensive-midfielder</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionhalf-backs">
+            <conceptId qcode="spsocposition:half-backs"/>
+            <name xml:lang="en-GB">half-backs</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionright-wing">
+            <conceptId qcode="spsocposition:right-wing"/>
+            <name xml:lang="en-GB">right-wing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionleft-wing">
+            <conceptId qcode="spsocposition:left-wing"/>
+            <name xml:lang="en-GB">left-wing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositioncenter-forward">
+            <conceptId qcode="spsocposition:center-forward"/>
+            <name xml:lang="en-GB">center-forward</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionforward">
+            <conceptId qcode="spsocposition:forward"/>
+            <name xml:lang="en-GB">forward</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionstriker">
+            <conceptId qcode="spsocposition:striker"/>
+            <name xml:lang="en-GB">striker</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositiongoalkeeper">
+            <conceptId qcode="spsocposition:goalkeeper"/>
+            <name xml:lang="en-GB">goalkeeper</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositioncoach">
+            <conceptId qcode="spsocposition:coach"/>
+            <name xml:lang="en-GB">coach</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionassistant-coach">
+            <conceptId qcode="spsocposition:assistant-coach"/>
+            <name xml:lang="en-GB">assistant-coach</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionreferee">
+            <conceptId qcode="spsocposition:referee"/>
+            <name xml:lang="en-GB">referee</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositionassistant-referee">
+            <conceptId qcode="spsocposition:assistant-referee"/>
+            <name xml:lang="en-GB">assistant-referee</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+         <concept id="spsocpositiongoalie">
+            <conceptId qcode="spsocposition:goalie"/>
+            <name xml:lang="en-GB">goalie</name>
+            <definition>DEPRECATED: Use goalkeeper instead</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
+         </concept>
+      </conceptSet>
+      <schemeMeta uri="http://cv.iptc.org/newscodes/spsocstat/"
+               authority="http://www.iptc.org"
+               preferredalias="spsocstat">
+         <definition xml:lang="en-GB"/>
+         <name xml:lang="en-GB">Soccer Statistics</name>
+         <related qcode="spsocposition:right-fullback" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:left-fullback" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:sweeper" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:stopper" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:defenseman" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:left-mid-fielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:right-mid-fielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:center-mid-fielders" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:mid-fielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:defender" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:central-defender" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:right-midfielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:left-midfielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:center-midfielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:midfielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:attacking-midfielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:defensive-midfielder" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:half-backs" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:right-wing" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:left-wing" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:center-forward" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:forward" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:striker" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:goalkeeper" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:coach" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:assistant-coach" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:referee" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:assistant-referee" rel="skos:hasTopConcept"/>
+         <related qcode="spsocposition:goalie" rel="skos:hasTopConcept"/>
+         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+      </schemeMeta>
+   </knowledgeItem>

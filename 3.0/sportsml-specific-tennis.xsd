@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+IPTC - International Press Telecommunications Council
+20 Garrick Street, London WC2E 9BT, United Kingdom
+www.iptc.org
+
+See sportsml.xsd to view Non-Exclusive License Agreement for 
+International Press Telecommunications Council, which
+applies to this specification.
+		
+
+-->
+
+<!-- ========================================================================================= -->
+<!--        SportsML Soccer plugin               -->	
+<!-- ========================================================================================= -->	
+
+<xs:schema 
+    xmlns="http://iptc.org/std/nar/2006-10-01/" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    elementFormDefault="qualified" 
+    attributeFormDefault="unqualified" 
+    version="3.0">
+    
+    <xs:annotation>
+        <xs:documentation>Tennis scoring: A game is a subpart of a set and a tennis match is played in best of 3 or 5 sets. A set is played within matches and you need 6 games to win the set. Sets are won by two games unless games are tied 6-6, in which case a tie-breaker ensues with the set won 7-6. The tie-break is counted point by point and is won at 7 by a two-point margin. Play will continue past 7 until that margin is achieved. In games the count proceeds from "love" (0) to 15, 30 and 40, after which the game must be won. If it is not 40-40, the player winning the next point has an "advantage" and if winning the next point too it means winning the game. Otherwise it is back to 40-40 and a continued play for advantage followed by a second winning point to win the game. A game won off an opponent's serve is called a break.</xs:documentation>
+    </xs:annotation>
+
+    <!-- ========================================================================================= -->
+    <!--        Tennis metadata complex types               -->	
+    <!-- ========================================================================================= -->	
+    
+        <xs:complexType name="tennisTournamentMetadataComplexType">
+            <xs:annotation>
+                <xs:documentation>For holding metadata having to do with a tennis tournament. Includes an attribute for the name of the tennis tour.</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="tour-name" type="ConceptNameType"  minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>The name of the tour.</xs:documentation>
+                    </xs:annotation>
+                </xs:element>
+            </xs:sequence>
+            <xs:attributeGroup ref="commonAttributes"/>
+        </xs:complexType>
+
+        <xs:complexType name="tennisEventMetadataComplexType">
+            <xs:annotation>
+                <xs:documentation>Metadata about the specific tennis match. | When in the match this document was issued.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="eventStateTennis"/>
+            <xs:attribute name="number-of-sets" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many sets the match is played for. Normally 3 or 5.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+
+    
+    <!-- ========================================================================================= -->
+    <!--        Tennis Stats complex types               -->	
+    <!-- ========================================================================================= -->	
+    
+    <xs:complexType name="tennisPlayerStatsComplexType">
+        <xs:annotation>
+            <xs:documentation>Holds tennis-specific stats. Used for singles matches. | Generally having to do with the score of the match.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="baseTennisStatsComplexType">
+                <xs:sequence>
+                    <xs:element name="stats-tennis-set" type="tennisStatsSetComplexType" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:complexType name="tennisTeamStatsComplexType">
+            <xs:annotation>
+                <xs:documentation>Holds tennis-specific stats. Used for doubles matches. | Generally having to do with the score of the match.</xs:documentation>
+            </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="baseTennisStatsComplexType">
+                <xs:sequence>
+                    <xs:element name="stats-tennis-set" type="tennisStatsSetComplexType" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+        </xs:complexType>
+
+    <xs:complexType name="tennisStatsSetComplexType">
+        <xs:annotation>
+            <xs:documentation>Holds the score of a set. | Includes an attribute for a set's tiebreaker score.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="baseTennisStatsComplexType">
+                <xs:sequence>
+                    <xs:element name="stats-tennis-game" type="tennisStatsGameComplexType" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+                <xs:attribute name="score" use="optional"  type="xs:string">
+                    <xs:annotation>
+                        <xs:documentation>Either love, 15, 30, 40, or game.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="duration" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The length in minutes of the set or game where it is inserted.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="set-number" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>An integer, generally 1 through 7.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="score-tiebreaker" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>An integer. Generally 0 through 7.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:complexType name="tennisStatsGameComplexType">
+        <xs:annotation>
+            <xs:documentation>Holds the score of a game. | Also holds details of each point.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="baseTennisStatsComplexType">
+                <xs:attribute name="score" use="optional"  type="gameResult.Tennis">
+                    <xs:annotation>
+                        <xs:documentation>Either love, 15, 30, 40, or game.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="duration" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The length in minutes of the set or game where it is inserted.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <xs:complexType name="baseTennisStatsComplexType">
+        <xs:annotation>
+            <xs:documentation>Basic elements and attributes for tennis statistics</xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <xs:element name="stats-tennis-service" type="tennisStatsServiceComplexType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="stats-tennis-return" type="tennisStatsReturnComplexType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attributeGroup ref="commonAttributes"/>
+        <xs:attributeGroup ref="coverageAttributes"/>
+        <xs:attributeGroup ref="statsTennis"/>
+    </xs:complexType>
+
+    <xs:complexType name="tennisStatsServiceComplexType">
+            <xs:annotation>
+                <xs:documentation>Stats for the play where the player served.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+            <xs:attribute name="aces" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many serve-aces the player shot.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-services-good" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Number of first serves that were good.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-services-good-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of good first serves.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-services-points-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points won after the first serve was good.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-services-points-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Percentage of games won after first serve was good.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-services-points-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points won after the second serve was good.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-services-points-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Percentage of games won after second serve was good.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="service-games-played" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many games in the match or set this player or team served.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="service-games-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Number of games won in which the player served.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="service-games-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of games won in which the player served.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="break-points-against" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many break-points did the other team/player have against the serving player.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="break-points-saved" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many of these break-points were saved by the serving player.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="break-points-saved-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of breakpoints saved. (There is some discussion on whether to include all possible break-points or just the deciding ones.)</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="serve-points-played" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points were played with this player/team serving. New attribute and therefore using the more proper term serve instead of service.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="service-points-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Total points won where the player served. This should be the same as a sum of first-service-points-won and second-service-points-won.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="service-points-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of points won by the serving player. Should be possible to calculate from other attributes here.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="double-faults" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many double-faults committed by the serving player.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-service-top-speed" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The top speed recorded among the serves from this player/team.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-serve-average-speed" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The average speed recorded among the first serves from this player/team. New attribute and therefore using the more proper term serve instead of service.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-services-good" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The number of good second serves.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-services-good-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of good second serves.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-serve-average-speed" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The average speed recorded among the second serves from this player/team. New attribute and therefore using the more proper term serve instead of service.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="speed-units" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The measurement unit used for the various speed attributes. Normally mph, but can be m/s or km/h or something else.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+
+        <xs:complexType name="tennisStatsReturnComplexType">
+            <xs:annotation>
+                <xs:documentation>Stats for play where the player is receiving the serve.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+            <xs:attribute name="returns-played" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points played where this player/team received the serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="receive-points-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points won by the receiving player. New attribute using the term receive which is preferred to return.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="receive-points-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of points won by the receiving player. New attribute using the term receive which is preferred to return.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-service-return-points-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points won by the player after receiving the first serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="first-service-return-points-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of points won by the player after receiving the first serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-service-return-points-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many points won after receiving the second serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="second-service-return-points-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of points won after receiving the second serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="return-games-played" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>And how does this compare to the returns-played and matches-played above?</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="return-games-won" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many games won after receiving the serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="return-games-won-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of games won after receiving the serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="break-points-played" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How many possible break-points the receiving player/team had.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="break-points-converted" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The number of break-points that resulted in actually breaking the serve.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="break-points-converted-pct" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The percentage of converted break-points.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+
+    <!-- ========================================================================================= -->
+    <!--        Tennis Event Actions complex types               -->	
+    <!-- ========================================================================================= -->	
+    
+<!--        <xs:complexType name="tennisEventActionsComplexType">
+            <xs:annotation>
+                <xs:documentation>A holder for actions taking place in a tennis match. | Either a point, or a custom action.</xs:documentation>
+            </xs:annotation>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="point" type="tennisActionPointComplexType"/>
+                <xs:element name="other" type="tennisActionOtherComplexType"/>
+            </xs:choice>
+            <xs:attributeGroup ref="commonAttributes"/>
+        </xs:complexType>
+-->    
+<!--        <xs:complexType name="tennisActionPointComplexType">
+            <xs:annotation>
+                <xs:documentation>Can be recorded whenever a point is won. | Includes an identifier for how that point was won.</xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="baseEventActionComplexType">
+                    <xs:attributeGroup ref="eventStateTennis"/>
+                    <xs:attribute name="winner-idref" type="xs:IDREF" use="optional">
+                        <xs:annotation>
+                            <xs:documentation>A pointer to the player or team (for doubles) who won the point.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="win-type" type="winType.Tennis" use="optional">
+                        <xs:annotation>
+                            <xs:documentation>If the point was forced or unforced. The meaning will be a bit different depending on weather the point was awarded due to a ball out or not.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                    <xs:attribute name="shot-type" type="shotType.Tennis" use="optional">
+                        <xs:annotation>
+                            <xs:documentation>What type of shot (or mistake by the opponent) resulted in the point.</xs:documentation>
+                        </xs:annotation>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    
+        <xs:complexType name="tennisActionOtherComplexType">
+            <xs:annotation>
+                <xs:documentation>A custom action. | For use when none of the pre-build actions apply.</xs:documentation>
+            </xs:annotation>
+            <xs:complexContent>
+                <xs:extension base="genericEventActionComplexType">
+                    <xs:attributeGroup ref="eventStateTennis"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+-->
+
+    <!-- ========================================================================================= -->
+    <!--        Tennis Attribute Groups               -->	
+    <!-- ========================================================================================= -->	
+
+    <xs:annotation>
+        <xs:documentation>Summary of statistcs used for tennis.</xs:documentation>
+    </xs:annotation>
+    
+    <xs:attributeGroup name="statsTennis">
+        <xs:attribute name="net-points-won" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Points won after the player went forward close to the net.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="net-points-played" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Number of points played where the player went forward to the net.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="net-points-won-pct" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Percentage of points won after the player went forward close to the net. Should be possible to calculate from the other net-xxx attributes.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="points-won" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Total number of points won.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="winners" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Total number of winning strokes.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="winners-forehand" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Total number of winning strokes using the forehand.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="winners-backhand" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Total number of winning strokes using the backhand.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="winners-volley" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Total number of winning strokes using volley.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="unforced-errors" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Total number of unforced errors performed.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:attributeGroup>
+
+    <xs:attributeGroup name="eventStateTennis">
+        <xs:annotation>
+            <xs:documentation>A group of attributes (set, game, server, server-score, receiver receiver-score, serve-number) that can be used for tennis actions.</xs:documentation>
+        </xs:annotation>
+        <xs:attribute name="set" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Which set in the game this item covers. Normally 1,2,3,4 or 5.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="game" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Wich game in the current set this item covers. Generally 1 through 7.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="server-idref" type="xs:IDREF" use="optional">
+            <xs:annotation>
+                <xs:documentation>A pointer to the player-id or team-id who served the ball on this point.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="server-score" use="optional" type="gameResult.Tennis">
+            <xs:annotation>
+                <xs:documentation>The score of the player or team presently serving, either love, 15, 30, 40, game.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="receiver-idref" type="xs:IDREF" use="optional">
+            <xs:annotation>
+                <xs:documentation>A pointer to the player-id or team-id who received the served ball on this point.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="receiver-score" use="optional" type="gameResult.Tennis">
+            <xs:annotation>
+                <xs:documentation>The score of the player or team presently receiving, either love, 15, 30, 40, game.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="serve-number" use="optional">
+            <xs:annotation>
+                <xs:documentation>Identifying either the first or second serve.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="first"/>
+                    <xs:enumeration value="second"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:attributeGroup>
+    
+    
+    <!-- Vocabulary definitions for tennis schema -->
+
+    <xs:simpleType name="gameResult.Tennis">
+            <xs:annotation>
+                <xs:documentation>The score of the player or team presently serving, either love, 15, 30, 40, game.</xs:documentation>
+            </xs:annotation>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="love"/>
+                <xs:enumeration value="15"/>
+                <xs:enumeration value="30"/>
+                <xs:enumeration value="40"/>
+                <xs:enumeration value="game"/>
+                <xs:enumeration value="ad"/>
+                <xs:enumeration value="deuce"/>
+            </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

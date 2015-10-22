@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ ../sportsml.xsd"
+    xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.20"
+    version="1" conformance="power" xml:lang="en-GB" guid="tt.se.20141130192343-vasaloppet-955362">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
+    <itemMeta>
+        <itemClass qcode="ninat:text"/>
+        <provider qcode="nprov:tt.se">
+            <name>TT Nyhetsbyrån.</name>
+        </provider>
+        <versionCreated>2014-11-30T19:23:43+01:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
+        <fileName>tt.se.20141130192343-skidskytte-vcmixed-955362</fileName>
+        <link rel="path:fixture" href="event-stats"/>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2014-11-30T19:23:43+01:00</contentCreated>
+        <language tag="sv"/>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-GB">sport</name>
+        </subject>
+        <subject qcode="subj:15009000">
+            <name xml:lang="en-GB">Biathlon</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <headline>Östersund, mixed stafett</headline>
+        <description role="drol:summary">NOTE: Showing SportsML 3.x with ranked competition in team
+            relay.</description>
+    </contentMeta>
+    <contentSet>
+        <inlineXML contenttype="application/sportsml+xml">
+            <sports-content>
+                <sports-event>
+                    <event-metadata start-date-time="2014-11-30T14:30:00+01:00">
+                        <site>
+                            <site-metadata>
+                                <name>Östersunds skidstadion</name>
+                                <home-location>
+                                    <name>Östersund</name>
+                                </home-location>
+                            </site-metadata>
+                        </site>
+                    </event-metadata>
+
+                    <team id="BIB6">
+                        <team-metadata nationality="France" key="BIB:6">
+                            <name>France</name>
+                        </team-metadata>
+                        <team-stats score="1.15.05,5">
+                            <rank value="1"/>
+                            <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                            <sub-score period-value="1" score="4" sub-score-name="Extra shots"/>
+                            <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                            <sub-score period-value="2" score="7" sub-score-name="Extra shots"/>
+                        </team-stats>
+                        <player>
+                            <player-metadata team-idref="BIB6" nationality="France" gender="female"
+                                uniform-number="6-1">
+                                <name part="np:first">Anais</name>
+                                <name part="np:last">Bescond</name>
+                            </player-metadata>
+                            <player-stats score="18.20,6">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="0" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="3" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+                        <player>
+                            <player-metadata team-idref="BIB6" nationality="France" gender="female"
+                                uniform-number="6-2">
+                                <name part="np:first">Anais</name>
+                                <name part="np:last">Chevalier</name>
+                            </player-metadata>
+                            <player-stats score="19.26,8">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="3" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="2" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+                        <player>
+                            <player-metadata team-idref="BIB6" nationality="France" gender="male"
+                                uniform-number="6-3">
+                                <name part="np:first">Simon</name>
+                                <name part="np:last">Fourcade</name>
+                            </player-metadata>
+                            <player-stats score="19.13,2">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="1" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+                        <player>
+                            <player-metadata team-idref="BIB6" nationality="France" gender="male"
+                                uniform-number="6-4">
+                                <name part="np:first">Martin</name>
+                                <name part="np:last">Fourcade</name>
+                            </player-metadata>
+                            <player-stats score="18.05,5">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="0" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="2" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+
+                    </team>
+
+                    <team id="BIB2">
+                        <team-metadata nationality="Norway" key="BIB:2">
+                            <name>Norway</name>
+                        </team-metadata>
+                        <team-stats score="1.15.05,7">
+                            <rank value="2"/>
+                            <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                            <sub-score period-value="1" score="4" sub-score-name="Extra shots"/>
+                            <sub-score period-value="2" score="1" sub-score-name="Penaltyrounds"/>
+                            <sub-score period-value="2" score="7" sub-score-name="Extra shots"/>
+                        </team-stats>
+                        <player>
+                            <player-metadata team-idref="BIB2" nationality="Norway" gender="female"
+                                uniform-number="2-1">
+                                <name part="np:first">Synnoeve</name>
+                                <name part="np:last">Solemdal</name>
+                            </player-metadata>
+                            <player-stats score="19.39,0">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="3" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="1" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="3" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+                        <player>
+                            <player-metadata team-idref="BIB2" nationality="Norway" gender="female"
+                                uniform-number="2-2">
+                                <name part="np:first">Tiril</name>
+                                <name part="np:last">Eckhoff</name>
+                            </player-metadata>
+                            <player-stats score="18.27,2">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="1" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="1" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+                        <player>
+                            <player-metadata team-idref="BIB2" nationality="Norway" gender="male"
+                                uniform-number="2-3">
+                                <name part="np:first">Vetle Sjastad</name>
+                                <name part="np:last">Christiansen</name>
+                            </player-metadata>
+                            <player-stats score="18.46,3">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="0" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="3" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+                        <player>
+                            <player-metadata team-idref="BIB2" nationality="Norway" gender="male"
+                                uniform-number="2-4">
+                                <name part="np:first">Lars Helge</name>
+                                <name part="np:last">Birkeland</name>
+                            </player-metadata>
+                            <player-stats score="18.57,2">
+                                <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="1" score="0" sub-score-name="Extra shots"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Penaltyrounds"/>
+                                <sub-score period-value="2" score="0" sub-score-name="Extra shots"/>
+                            </player-stats>
+                        </player>
+
+                    </team>
+                </sports-event>
+            </sports-content>
+        </inlineXML>
+    </contentSet>
+</newsItem>

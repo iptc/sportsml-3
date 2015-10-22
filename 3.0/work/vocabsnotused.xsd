@@ -1,0 +1,1236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!-- Vocabs not used?? -->
+
+    <xs:simpleType name="eventStatusReason.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>the reason for the event-status</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="withdrawal">
+                <xs:annotation>
+                    <xs:documentation>A forfeited or canceled event because a participant
+                        withdrew.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="postponementStatus.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Either none, weather-delay, or other.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="weather-delay"/>
+            <xs:enumeration value="other"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="phaseType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="scholastic"/>
+            <xs:enumeration value="college"/>
+            <xs:enumeration value="amateur"/>
+            <xs:enumeration value="professional"/>
+            <xs:enumeration value="semi-professional"/>
+            <xs:enumeration value="former-professional"/>
+            <xs:enumeration value="released"/>
+            <xs:enumeration value="free-agent"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="locationType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="birth">
+                <xs:annotation>
+                    <xs:documentation>The place of birth of the athlete.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="hometown">
+                <xs:annotation>
+                    <xs:documentation>The location which best describes the place of origin of the
+                        athlete. Could be different from place of birth.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="residence">
+                <xs:annotation>
+                    <xs:documentation>The current place of residence of the athlete.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="representative">
+                <xs:annotation>
+                    <xs:documentation>The place an athlete is representing. Could be different from
+                        birth and residence location.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="start-location">
+                <xs:annotation>
+                    <xs:documentation>The starting point of the event.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="stage-location">
+                <xs:annotation>
+                    <xs:documentation>The location of an intermediate stage of the
+                        event.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="end-location">
+                <xs:annotation>
+                    <xs:documentation>The end-point of the event.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="training-location">
+                <xs:annotation>
+                    <xs:documentation>The place where the athlete trains.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="phaseStatus.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="active">
+                <xs:annotation>
+                    <xs:documentation>Currently active and able to play.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="injured">
+                <xs:annotation>
+                    <xs:documentation>Unable to play due to injury.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="disabled-list">
+                <xs:annotation>
+                    <xs:documentation>Unable to play due to injury. Deemed long-term.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="try-out">
+                <xs:annotation>
+                    <xs:documentation>Not on time, attempting to make the lineup.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="inactive">
+                <xs:annotation>
+                    <xs:documentation>Inactive, not playing.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="physically-unable">
+                <xs:annotation>
+                    <xs:documentation>Unable to play for physical reason, not necessarily
+                        injury.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="siteSurface.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Describes the surface upon which events are played.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hard-court"/>
+            <xs:enumeration value="clay"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tournamentStageType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="hosted">
+                <xs:annotation>
+                    <xs:documentation>For a tournament that holds stages in different locations. Eg.
+                        different host cities/countries for PGA, FIS, Diamond League (IAAF) and even
+                        Tour de France</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="group">
+                <xs:annotation>
+                    <xs:documentation>Groups of competitors vie for placement in the group table in
+                        order to qualify for the next stage of competition.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="single-group">
+                <xs:annotation>
+                    <xs:documentation>The stage involves only a single group of competitors. For
+                        example Italian Serie A where teams vie for placement in the league table.
+                        Also, a single group competition in a multi-group stage, such as the World
+                        Cup group stage.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="series">
+                <xs:annotation>
+                    <xs:documentation>A stage in which two competitors face off in a series of games
+                        (eg. best 3 of 5) the winner of which proceeds to the next stage, or wins
+                        the tournament.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="single-elimination">
+                <xs:annotation>
+                    <xs:documentation>A stage in which two competitors face off in a single match to
+                        determine who proceeds to the next stage, or wins the tournament. Eg.
+                        elimination stage of World Cup of Soccer or NFL playoffs.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="home-and-home">
+                <xs:annotation>
+                    <xs:documentation>A stage in which two competitors face off in a two matches (or
+                        legs) at each team's home location. The overall winner proceeds ahead.
+                        Usually culiminates in a single-elimination match at a neutral location i.e.
+                        UEFA Champions League.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="qualification">
+                <xs:annotation>
+                    <xs:documentation>The stage, usually prior to a group or elimination stage, where
+                        entities compete to qualify for the later "playoff" stage.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="winType.Tennis.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="forced">
+                <xs:annotation>
+                    <xs:documentation>The point was made while the opponent for example advanced towards the net.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="unforced">
+                <xs:annotation>
+                    <xs:documentation>The point was made regardless of specific actions by the opponent.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="shotType.Tennis.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="crosscourt"/>
+            <xs:enumeration value="drop"/>
+            <xs:enumeration value="lob"/>
+            <xs:enumeration value="slice"/>
+            <xs:enumeration value="smash"/>
+            <xs:enumeration value="volley"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="participantRole.Curling.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="skip"/>
+            <xs:enumeration value="lead"/>
+            <xs:enumeration value="second"/>
+            <xs:enumeration value="thirc"/>
+            <xs:enumeration value="vice-skip"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptType.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="penalty">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made as a penalty kick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="drop">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made as a drop kick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="conversion">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made as a try conversion.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptResult.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="missed">
+                <xs:annotation>
+                    <xs:documentation>The kick fell below or outside the uprights.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="blocked">
+                <xs:annotation>
+                    <xs:documentation>The kick was blocked.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="out-of-bounds">
+                <xs:annotation>
+                    <xs:documentation>The kick went out of bounds.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyType.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="offensive"/>
+            <xs:enumeration value="defensive"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyLevel.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="yellow-card">
+                <xs:annotation>
+                    <xs:documentation>Penalty shown by a yellow card - also known as a caution.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="red-card">
+                <xs:annotation>
+                    <xs:documentation>Penalty shown as a red card - also known as an ejection.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="foulResult.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="play-on">
+                <xs:annotation>
+                    <xs:documentation>Fouled team has advantage of the ball and is allowed to play on.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="freekick">
+                <xs:annotation>
+                    <xs:documentation>Fouled team is awarded a freekick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="penalty-kick">
+                <xs:annotation>
+                    <xs:documentation>The fouled team is awarded a penalty kick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="penalty-try">
+                <xs:annotation>
+                    <xs:documentation>The fouled team is awarded a penalty kick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="caution">
+                <xs:annotation>
+                    <xs:documentation>The player is beeing cautioned. Indicated by a yellow card. Suffered team get a freekick or penalty-shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="ejection">
+                <xs:annotation>
+                    <xs:documentation>The player is beeing ejected from the game. Shown by a red card. Suffered team get a freekick or penalty shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="foulName.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="knock-on"/>
+            <xs:enumeration value="kicking-player"/>
+            <xs:enumeration value="cursing"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="substitutionType.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="blood">
+                <xs:annotation>
+                    <xs:documentation>A temporary replacement in which the player must return to the field within 15 minutes</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="regular">
+                <xs:annotation>
+                    <xs:documentation>One of seven allowed permanent player substitutions.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="participantRole.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="on-field"/>
+            <xs:enumeration value="scorer"/>
+            <xs:enumeration value="assist"/>
+            <xs:enumeration value="shooter"/>
+            <xs:enumeration value="blocker"/>
+            <xs:enumeration value="penalty-committed-by"/>
+            <xs:enumeration value="penalty-committed-against"/>
+            <xs:enumeration value="thrower"/>
+            <xs:enumeration value="offside"/>
+            <xs:enumeration value="free-kicker"/>
+            <xs:enumeration value="penalty-kicker"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="driveResult.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="score"/>
+            <xs:enumeration value="score-attempt"/>
+            <xs:enumeration value="punt"/>
+            <xs:enumeration value="fumble"/>
+            <xs:enumeration value="interception"/>
+            <xs:enumeration value="marker-not-reached">
+                <xs:annotation>
+                    <xs:documentation>On the final down, the team in possession did not reach the first-down marker.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreType.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="touchdown"/>
+            <xs:enumeration value="safety"/>
+            <xs:enumeration value="conversion"/>
+            <xs:enumeration value="conversion-1pt"/>
+            <xs:enumeration value="conversion-2pt"/>
+            <xs:enumeration value="field-goal"/>
+            <xs:enumeration value="extra-point"/>
+            <xs:enumeration value="single-point">
+                <xs:annotation>
+                    <xs:documentation>In Canadian football, a single point is awarded when a kick landing in the end zone cannot be returned.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreSubType.AmericanFootball.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>The type of touchdown.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="fumble-return"/>
+            <xs:enumeration value="interception-return"/>
+            <xs:enumeration value="blocked-field-goal">
+                <xs:annotation>
+                    <xs:documentation>Scored when the opposing team recovers the live ball off a blocked field goal and returns to its end zone.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="missed-field-goal">
+                <xs:annotation>
+                    <xs:documentation>Scored when the opposing team opts to return a missed field goal and runs ball to its end zone.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="blocked-punt">
+                <xs:annotation>
+                    <xs:documentation>Scored when the opposing team recovers the live ball off a blocked punt and returns to its end zone.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="punt-return"/>
+            <xs:enumeration value="kickoff-return"/>
+            <xs:enumeration value="pass"/>
+            <xs:enumeration value="rush"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltySide.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="offensive"/>
+            <xs:enumeration value="defensive"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyLevel.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="delay-of-game"/>
+            <xs:enumeration value="encroachment"/>
+            <xs:enumeration value="false-start"/>
+            <xs:enumeration value="offside"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="timeoutType.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="2-minute"/>
+            <xs:enumeration value="1-minute"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="role.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="snapper"/>
+            <xs:enumeration value="snap-receiver"/>
+            <xs:enumeration value="handoff-receiver"/>
+            <xs:enumeration value="lateral-receiver"/>
+            <xs:enumeration value="rusher"/>
+            <xs:enumeration value="tackler"/>
+            <xs:enumeration value="kick-blocker"/>
+            <xs:enumeration value="passer"/>
+            <xs:enumeration value="receiver"/>
+            <xs:enumeration value="kicker"/>
+            <xs:enumeration value="fumble-returner"/>
+            <xs:enumeration value="kick-blocker"/>
+            <xs:enumeration value="missed-field-goal-returner"/>
+            <xs:enumeration value="blocked-field-goal-returner"/>
+            <xs:enumeration value="kick-returner"/>
+            <xs:enumeration value="tackle-assistant"/>
+            <xs:enumeration value="punter"/>
+            <xs:enumeration value="punt-blocker"/>
+            <xs:enumeration value="punt-returner"/>
+            <xs:enumeration value="blocked-punt-returner"/>
+            <xs:enumeration value="sacker"/>
+            <xs:enumeration value="sack-assistant"/>
+            <xs:enumeration value="fumbler"/>
+            <xs:enumeration value="penalty-recipient"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="result.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="tackle"/>
+            <xs:enumeration value="sack"/>
+            <xs:enumeration value="forward-pass"/>
+            <xs:enumeration value="lateral-pass"/>
+            <xs:enumeration value="incomplete-pass"/>
+            <xs:enumeration value="kick"/>
+            <xs:enumeration value="handoff"/>
+            <xs:enumeration value="fumble"/>
+            <xs:enumeration value="ball-grounded"/>
+            <xs:enumeration value="ball-out-of-bounds"/>
+            <xs:enumeration value="score"/>
+            <xs:enumeration value="miss"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="kickType.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="punt"/>
+            <xs:enumeration value="onside"/>
+            <xs:enumeration value="extra-point"/>
+            <xs:enumeration value="field-goal-attempt"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyType.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="batting-ball"/>
+            <xs:enumeration value="blitzing-infraction"/>
+            <xs:enumeration value="clipping"/>
+            <xs:enumeration value="delay-of-game"/>
+            <xs:enumeration value="encroachment"/>
+            <xs:enumeration value="excessive-time-outs"/>
+            <xs:enumeration value="excessive-crowd-noise"/>
+            <xs:enumeration value="fair-catch-interference"/>
+            <xs:enumeration value="facemask-incidental"/>
+            <xs:enumeration value="facemask-flagrant"/>
+            <xs:enumeration value="false-start"/>
+            <xs:enumeration value="helping-runner"/>
+            <xs:enumeration value="holding"/>
+            <xs:enumeration value="illegal-block"/>
+            <xs:enumeration value="illegal-contact"/>
+            <xs:enumeration value="illegal-formation"/>
+            <xs:enumeration value="illegal-forward-pass"/>
+            <xs:enumeration value="illegal-motion"/>
+            <xs:enumeration value="illegal-procedure"/>
+            <xs:enumeration value="illegal-return"/>
+            <xs:enumeration value="illegal-shift"/>
+            <xs:enumeration value="illegal-substitution"/>
+            <xs:enumeration value="ineligible-player-downfield"/>
+            <xs:enumeration value="ineligible-downfield-kick"/>
+            <xs:enumeration value="invalid-fair-catch"/>
+            <xs:enumeration value="intentional-grounding"/>
+            <xs:enumeration value="kick-out-of-bounds"/>
+            <xs:enumeration value="motion-more-than-one"/>
+            <xs:enumeration value="neutral-zone-infraction"/>
+            <xs:enumeration value="offside"/>
+            <xs:enumeration value="offensive-pass-interference"/>
+            <xs:enumeration value="pass-beyond-scrimmage"/>
+            <xs:enumeration value="pass-interference"/>
+            <xs:enumeration value="personal-foul"/>
+            <xs:enumeration value="piling-on"/>
+            <xs:enumeration value="pyramiding"/>
+            <xs:enumeration value="roughing-passer"/>
+            <xs:enumeration value="roughing-kicker"/>
+            <xs:enumeration value="snap-infraction"/>
+            <xs:enumeration value="tandem-block"/>
+            <xs:enumeration value="too-many-players"/>
+            <xs:enumeration value="tripping"/>
+            <xs:enumeration value="under-seven-line"/>
+            <xs:enumeration value="under-five-line"/>
+            <xs:enumeration value="unnecessary-roughness"/>
+            <xs:enumeration value="unsportsmanlike-conduct"/>
+            <xs:enumeration value="other"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="caller.AmericanFootball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="team"/>
+            <xs:enumeration value="official"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="pitchType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="curveball"/>
+            <xs:enumeration value="fastball"/>
+            <xs:enumeration value="slider"/>
+            <xs:enumeration value="knuckleball"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="strikeType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="called"/>
+            <xs:enumeration value="swinging"/>
+            <xs:enumeration value="foul"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="ballLocation.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="high"/>
+            <xs:enumeration value="low"/>
+            <xs:enumeration value="inside"/>
+            <xs:enumeration value="outside"/>
+        </xs:restriction>
+    </xs:simpleType>
+ 
+    <xs:simpleType name="playType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="walk"/>
+            <xs:enumeration value="hit"/>
+            <xs:enumeration value="hit-by-pitch"/>
+            <xs:enumeration value="stolen-base"/>
+            <xs:enumeration value="out"/>
+            <xs:enumeration value="strikeout"/>
+            <xs:enumeration value="caught-stealing"/>
+            <xs:enumeration value="pickoff"/>
+            <xs:enumeration value="single"/>
+            <xs:enumeration value="double"/>
+            <xs:enumeration value="triple"/>
+            <xs:enumeration value="home-run"/>
+            <xs:enumeration value="defensive-indifference"/>
+            <xs:enumeration value="pickoff-error"/>
+            <xs:enumeration value="wild-pitch"/>
+            <xs:enumeration value="passed-ball"/>
+            <xs:enumeration value="balk"/>
+            <xs:enumeration value="other-advance"/>
+            <xs:enumeration value="foul-error"/>
+            <xs:enumeration value="interference"/>
+            <xs:enumeration value="error"/>
+            <xs:enumeration value="fielders-choice"/>
+            <xs:enumeration value="missing-play"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="walkType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="intentional"/>
+            <xs:enumeration value="unintentional"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="hitType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="single"/>
+            <xs:enumeration value="double"/>
+            <xs:enumeration value="triple"/>
+            <xs:enumeration value="home-run"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="hitByPitchType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="intentional"/>
+            <xs:enumeration value="unintentional"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="outType.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="strikeout"/>
+            <xs:enumeration value="strikeout-thrown-to-first"/>
+            <xs:enumeration value="fielders-choice"/>
+            <xs:enumeration value="throw-out"/>
+            <xs:enumeration value="fly-ball"/>
+            <xs:enumeration value="fly-ball-line-drive"/>
+            <xs:enumeration value="fly-ball-popup"/>
+            <xs:enumeration value="pickoff"/>
+            <xs:enumeration value="caught-stealing"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="participantRole.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="fielder"/>
+            <xs:enumeration value="official"/>
+            <xs:enumeration value="auxilliary"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptType.Basketball.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>What type of shot it was. </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="free-throw">
+                <xs:annotation>
+                    <xs:documentation>A foul shot, worth one point.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="fg">
+                <xs:annotation>
+                    <xs:documentation>A two-point field goal.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="fg3">
+                <xs:annotation>
+                    <xs:documentation>A three-pointer.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptResult.Basketball.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>The reason the ball did not go through the basket.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="missed"/>
+            <xs:enumeration value="blocked"/>
+            <xs:enumeration value="turnover"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltySide.Basketball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="offensive"/>
+            <xs:enumeration value="defensive"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyLevel.Basketball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="regular"/>
+            <xs:enumeration value="flagrant"/>
+            <xs:enumeration value="technical"/>
+            <xs:enumeration value="illegal-defense"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="playType.Basketball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="shot"/>
+            <xs:enumeration value="rebound"/>
+            <xs:enumeration value="jump-ball"/>
+            <xs:enumeration value="turnover"/>
+            <xs:enumeration value="throw-in"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="participantRole.Basketball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="on-court"/>
+            <xs:enumeration value="scorer"/>
+            <xs:enumeration value="assist"/>
+            <xs:enumeration value="shooter"/>
+            <xs:enumeration value="blocker"/>
+            <xs:enumeration value="penalty-committed-by"/>
+            <xs:enumeration value="penalty-committed-against"/>
+            <xs:enumeration value="jump-ball-winner"/>
+            <xs:enumeration value="jump-ball-loser"/>
+            <xs:enumeration value="giveaway"/>
+            <xs:enumeration value="takeaway"/>
+            <xs:enumeration value="rebounder-offense"/>
+            <xs:enumeration value="rebounder-defense"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="shotType.Golf.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="drive"/>
+            <xs:enumeration value="putt"/>
+            <xs:enumeration value="pitch"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="landing.Golf.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="fairway"/>
+            <xs:enumeration value="sand"/>
+            <xs:enumeration value="water"/>
+            <xs:enumeration value="rough"/>
+            <xs:enumeration value="green"/>
+            <xs:enumeration value="hole"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptType.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="regular">
+                <xs:annotation>
+                    <xs:documentation>Occurs while both teams have an equal number of players on the ice.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="penalty-shot">
+                <xs:annotation>
+                    <xs:documentation>Occurs while shooting player is taking a penalty shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="empty-net">
+                <xs:annotation>
+                    <xs:documentation>Occurs when shot is taken on net vacated by goalie who has been replaced on the ice by a non-goalie.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="shootout">
+                <xs:annotation>
+                    <xs:documentation>Occurs when a shot is taken during a game-ending shootout situation.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="own-goal">
+                <xs:annotation>
+                    <xs:documentation>Occurs when shot is inadvertantly scored into the wrong goal.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="awarded">
+                <xs:annotation>
+                    <xs:documentation>Occurs when own-goals are not awarded and not opponent has contact with puck. Goal is awarded to non-participant on opposing team of actual scorer.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptResult.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="missed">
+                <xs:annotation>
+                    <xs:documentation>The puck missed the goal.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="saved">
+                <xs:annotation>
+                    <xs:documentation>The goalie has stopped the shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="blocked">
+                <xs:annotation>
+                    <xs:documentation>A non-goalie diverted the shot from reaching the goal.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="off-post">
+                <xs:annotation>
+                    <xs:documentation>The framework of the goal itself blocked the shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyLevel.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="minor">
+                <xs:annotation>
+                    <xs:documentation>A two-minute penalty given to a player.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="bench-minor">
+                <xs:annotation>
+                    <xs:documentation>A two-minute penalty given to a team (served by player on that team).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="double-minor">
+                <xs:annotation>
+                    <xs:documentation>A four-minute penalty given to a player.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="major">
+                <xs:annotation>
+                    <xs:documentation>A five-minute penalty given to a player.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="misconduct">
+                <xs:annotation>
+                    <xs:documentation>A ten-minute penalty given to a player.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="match">
+                <xs:annotation>
+                    <xs:documentation>A player is removed for the balance of the game. A substitute is allowed after five minutes.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="game-misconduct">
+                <xs:annotation>
+                    <xs:documentation>Suspension of a player for the balance of the game. A substitute is permitted to replace the penalized player immediately.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="gross-misconduct">
+                <xs:annotation>
+                    <xs:documentation>Suspension of any player, coach or trainer for the balance of the game. A substitute is permitted to replace the penalized player immediately.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="penalty-shot">
+                <xs:annotation>
+                    <xs:documentation>For certain penalities, a free shot is awarded instead of a player being required to serve penalty time.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyType.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="abuse-of-officials"/>
+            <xs:enumeration value="adjustment-to-clothing-equipment">
+                <xs:annotation>
+                    <xs:documentation>A penalty may be assessed when a player adjusting his equipment delays the game.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="attempt-to-injure"/>
+            <xs:enumeration value="boarding"/>
+            <xs:enumeration value="broken-stick"/>
+            <xs:enumeration value="butt-ending"/>
+            <xs:enumeration value="charging"/>
+            <xs:enumeration value="checking-from-behind"/>
+            <xs:enumeration value="clipping"/>
+            <xs:enumeration value="closing-hand-on-puck"/>
+            <xs:enumeration value="cross-checking"/>
+            <xs:enumeration value="delay-of-game"/>
+            <xs:enumeration value="deliberate-injury"/>
+            <xs:enumeration value="diving"/>
+            <xs:enumeration value="elbowing"/>
+            <xs:enumeration value="falling-on-puck"/>
+            <xs:enumeration value="fighting"/>
+            <xs:enumeration value="goalie-interference"/>
+            <xs:enumeration value="gross-misconduct"/>
+            <xs:enumeration value="head-butting"/>
+            <xs:enumeration value="high-sticking"/>
+            <xs:enumeration value="holding"/>
+            <xs:enumeration value="holding-the-stick"/>
+            <xs:enumeration value="hooking"/>
+            <xs:enumeration value="illegal-stick"/>
+            <xs:enumeration value="instigator"/>
+            <xs:enumeration value="interference"/>
+            <xs:enumeration value="interference-by-with-spectator"/>
+            <xs:enumeration value="kicking"/>
+            <xs:enumeration value="kneeing"/>
+            <xs:enumeration value="leaving-the-bench-penalty"/>
+            <xs:enumeration value="left-crease"/>
+            <xs:enumeration value="ob-high-sticking"/>
+            <xs:enumeration value="ob-holding"/>
+            <xs:enumeration value="ob-holding-the-stick"/>
+            <xs:enumeration value="ob-hooking"/>
+            <xs:enumeration value="ob-interference"/>
+            <xs:enumeration value="ob-tripping"/>
+            <xs:enumeration value="obscene-language"/>
+            <xs:enumeration value="refusal-to-start-play"/>
+            <xs:enumeration value="roughing"/>
+            <xs:enumeration value="slashing"/>
+            <xs:enumeration value="spearing"/>
+            <xs:enumeration value="too-many-men-on-ice"/>
+            <xs:enumeration value="tripping"/>
+            <xs:enumeration value="unsportsmanlike-conduct"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="zone.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="offense"/>
+            <xs:enumeration value="defense"/>
+            <xs:enumeration value="neutral"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="strength.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="even-strength"/>
+            <xs:enumeration value="power-play"/>
+            <xs:enumeration value="short-handed"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="playType.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="substitution"/>
+            <xs:enumeration value="shot"/>
+            <xs:enumeration value="hit"/>
+            <xs:enumeration value="faceoff"/>
+            <xs:enumeration value="turnover"/>
+            <xs:enumeration value="penalty-shot"/>
+            <xs:enumeration value="shootout"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="participantRole.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="on-ice"/>
+            <xs:enumeration value="scorer"/>
+            <xs:enumeration value="assist"/>
+            <xs:enumeration value="goaltender"/>
+            <xs:enumeration value="shooter"/>
+            <xs:enumeration value="blocker"/>
+            <xs:enumeration value="hitter"/>
+            <xs:enumeration value="hittee"/>
+            <xs:enumeration value="shot"/>
+            <xs:enumeration value="penalty-committed-by"/>
+            <xs:enumeration value="penalty-committed-against"/>
+            <xs:enumeration value="penalty-served-by"/>
+            <xs:enumeration value="faceoff-winner"/>
+            <xs:enumeration value="faceoff-loser"/>
+            <xs:enumeration value="giveaway"/>
+            <xs:enumeration value="takeaway"/>
+            <xs:enumeration value="off-ice"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptType.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="regular">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made during regular play.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="penalty">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made as a penalty shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="freekick">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made as a free kick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="corner-kick">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made as a kick from the
+                        corner.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="open-goal"> 
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made when there is no goal-keeper in place, but still on the field.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            
+            <xs:enumeration value="own-goal">
+                <xs:annotation>
+                    <xs:documentation>The score attempt is made towards the own goal.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptMethod.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="head"/>
+            <xs:enumeration value="bicycle-kick"/>
+            <xs:enumeration value="lob" />
+            <xs:enumeration value="chip" />
+            <xs:enumeration value="foot"/>
+            <xs:enumeration value="chest"/>
+            <xs:enumeration value="knee"/>
+            <xs:enumeration value="thigh"/>
+            <xs:enumeration value="back"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreAttemptResult.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="missed">
+                <xs:annotation>
+                    <xs:documentation>The ball missed the goal completely.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="blocked">
+                <xs:annotation>
+                    <xs:documentation>A non-goalkeeper diverted the shot from reaching the
+                        goal.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="saved">
+                <xs:annotation>
+                    <xs:documentation>The goalie has stopped the shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="off-post">
+                <xs:annotation>
+                    <xs:documentation>The side framework of the goal blocked the
+                        shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="off-bar">
+                <xs:annotation>
+                    <xs:documentation>The top framework of the goal blocked the
+                        shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltySide.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="offensive"/>
+            <xs:enumeration value="defensive"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyLevel.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="yellow-card">
+                <xs:annotation>
+                    <xs:documentation>Foul shown by a yellow card - also known as a caution.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="yellow-red-card">
+                <xs:annotation>
+                    <xs:documentation>Foul shown as a second yellow card then followed by a red card - also known as an ejection.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="red-card">
+                <xs:annotation>
+                    <xs:documentation>Foul shown as a red card - also known as an ejection.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyResult.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="play-on">
+                <xs:annotation>
+                    <xs:documentation>Fouled team has advantage of the ball and is allowed to play on.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="freekick">
+                <xs:annotation>
+                    <xs:documentation>Fouled team is awarded a freekick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            
+            <xs:enumeration value="indirect-freekick">
+                <xs:annotation>
+                    <xs:documentation>Fouled team is awarded a freekick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="direct-freekick">
+                <xs:annotation>
+                    <xs:documentation>Fouled team is awarded a freekick.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="penalty-shot">
+                <xs:annotation>
+                    <xs:documentation>The foul occured in the penalty-shot area so the fouled team is
+                        awarded a penalty-shot.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="penaltyType.Soccer.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Describes the type of penalty/foul was commited.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="serious-foul-play">
+                <xs:annotation>
+                    <xs:documentation>The player has committed a serious foul play. | 
+                        This leads to a player being sent of the field (red card).</xs:documentation>
+                </xs:annotation>			
+            </xs:enumeration>
+            <xs:enumeration value="violent-conduct">
+                <xs:annotation>
+                    <xs:documentation>The player has committed a violent conduct. | 
+                        This leads to a player being sent off the field (red card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="spitting"> 
+                <xs:annotation>
+                    <xs:documentation>The player has spitted at an opponent or any other person. |
+                        This leads to a player being sent off the field (red card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="offensive-language">
+                <xs:annotation>
+                    <xs:documentation>The player has used offensive, insulting or abusive language. | 
+                        This leads to a player being sent off the field (red card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="offensive-gestures">
+                <xs:annotation>
+                    <xs:documentation>The player has used offensive, insulting or abusive gestures. | 
+                        This leads to a player being sent off the field (red card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="professional-foul"> 
+                <xs:annotation>
+                    <xs:documentation>When a player denies another player an obvious goalscoring opportunity by foul. | 
+                        This action leads to the player being sent off the field.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="unsporting-behaviour">
+                <xs:annotation>
+                    <xs:documentation>The player has been doing unsporting behaviour. | 
+                        This leads to a player being given a caution (yellow card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="delaying-restart">
+                <xs:annotation>
+                    <xs:documentation>The player has delayed the restart of play. | 
+                        This leads to a player being given a caution (yellow card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="illegal-reentry">
+                <xs:annotation>
+                    <xs:documentation>The player re-entered the ﬁeld of play without the referee’s permission. | 
+                        This leads to a player being given a caution (yellow card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="illegal-entry">
+                <xs:annotation>
+                    <xs:documentation>The player entered the ﬁeld of play without the referee’s permission. | 
+                        This leads to a player being given a caution (yellow card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="required-distance-foul">
+                <xs:annotation>
+                    <xs:documentation>The played has failed to respect the required distance when play is restarted 
+                        with a corner kick, free kick or throw-in. | 
+                        This leads to a player being given a caution (yellow card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>	
+            <xs:enumeration value="illegal-exit">
+                <xs:annotation>
+                    <xs:documentation>The player has deliberately left the field of play without the referee’s permission. | 
+                        This leads to a player being given a caution (yellow card).</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="hand-ball"/>
+            <xs:enumeration value="tackle"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="playType.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="shot"/>
+            <xs:enumeration value="offside"/>
+            <xs:enumeration value="foul"/>
+            <xs:enumeration value="corner"/>
+            <xs:enumeration value="throw-in"/>
+            <xs:enumeration value="pass"/>
+            <xs:enumeration value="penalty"/>
+            <xs:enumeration value="timeout" />
+            <xs:enumeration value="cross" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="participantRole.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="on-field"/>
+            <xs:enumeration value="scorer"/>
+            <xs:enumeration value="assist"/>
+            <xs:enumeration value="shooter"/>
+            <xs:enumeration value="blocker"/>
+            <xs:enumeration value="penalty-committed-by"/>
+            <xs:enumeration value="penalty-committed-against"/>
+            <xs:enumeration value="giveaway"/>
+            <xs:enumeration value="takeaway"/>
+            <xs:enumeration value="thrower"/>
+            <xs:enumeration value="corner-kicker"/>
+            <xs:enumeration value="offside"/>
+            <xs:enumeration value="free-kicker"/>
+            <xs:enumeration value="penalty-kicker"/>
+            <xs:enumeration value="goalkeeper"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    
+</xs:schema>

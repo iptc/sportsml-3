@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:newsml="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-sptenstat" version="1">
+  <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+  <rightsInfo>
+    <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+      <name>IPTC - International Press Telecommunications Council</name>
+    </copyrightHolder>
+    <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+    <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+  </rightsInfo>
+  <itemMeta>
+    <itemClass qcode="cinat:scheme"/>
+    <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+      <name>IPTC</name>
+    </provider>
+    <versionCreated>2015-10-20T17:04:19-04:00</versionCreated>
+    <pubStatus qcode="stat:usable"/>
+  </itemMeta>
+  <contentMeta>
+    <contentCreated>2015-10-20T17:04:19-04:00</contentCreated>
+    <infoSource literal="IPTC"/>
+    <creator qcode="web:iptc.org">
+      <name>International Press Telecommunications Council (IPTC)</name>
+    </creator>
+    <subject qcode="subj:15000000">
+      <name xml:lang="en-US">sport</name>
+    </subject>
+    <subject qcode="subj:15065000">
+      <name xml:lang="en-US">tennis</name>
+      <broader qcode="subj:15000000"/>
+    </subject>
+    <description>Vocabulary of statistics for Tennis</description>
+  </contentMeta>
+  <conceptSet>
+    <concept id="sptenstatscore">
+      <conceptId qcode="sptenstat:score"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">score</name>
+      <definition>Either love, 15, 30, 40, or game.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatduration">
+      <conceptId qcode="sptenstat:duration"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">duration</name>
+      <definition>The length in minutes of the set or game where it is inserted.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatset-number">
+      <conceptId qcode="sptenstat:set-number"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">set-number</name>
+      <definition>An integer, generally 1 through 7.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatscore-tiebreaker">
+      <conceptId qcode="sptenstat:score-tiebreaker"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">score-tiebreaker</name>
+      <definition>An integer. Generally 0 through 7.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstataces">
+      <conceptId qcode="sptenstat:aces"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">aces</name>
+      <definition>How many serve-aces the player shot.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-services-good">
+      <conceptId qcode="sptenstat:first-services-good"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-services-good</name>
+      <definition>Number of first serves that were good.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-services-good-pct">
+      <conceptId qcode="sptenstat:first-services-good-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-services-good-pct</name>
+      <definition>The percentage of good first serves.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-services-points-won">
+      <conceptId qcode="sptenstat:first-services-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-services-points-won</name>
+      <definition>How many points won after the first serve was good.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-services-points-won-pct">
+      <conceptId qcode="sptenstat:first-services-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-services-points-won-pct</name>
+      <definition>Percentage of games won after first serve was good.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-services-points-won">
+      <conceptId qcode="sptenstat:second-services-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-services-points-won</name>
+      <definition>How many points won after the second serve was good.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-services-points-won-pct">
+      <conceptId qcode="sptenstat:second-services-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-services-points-won-pct</name>
+      <definition>Percentage of games won after second serve was good.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatservice-games-played">
+      <conceptId qcode="sptenstat:service-games-played"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">service-games-played</name>
+      <definition>How many games in the match or set this player or team served.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatservice-games-won">
+      <conceptId qcode="sptenstat:service-games-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">service-games-won</name>
+      <definition>Number of games won in which the player served.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatservice-games-won-pct">
+      <conceptId qcode="sptenstat:service-games-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">service-games-won-pct</name>
+      <definition>The percentage of games won in which the player served.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatbreak-points-against">
+      <conceptId qcode="sptenstat:break-points-against"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">break-points-against</name>
+      <definition>How many break-points did the other team/player have against the serving player.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatbreak-points-saved">
+      <conceptId qcode="sptenstat:break-points-saved"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">break-points-saved</name>
+      <definition>How many of these break-points were saved by the serving player.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatbreak-points-saved-pct">
+      <conceptId qcode="sptenstat:break-points-saved-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">break-points-saved-pct</name>
+      <definition>The percentage of breakpoints saved. (There is some discussion on whether to include all possible break-points or just the deciding ones.)</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatserve-points-played">
+      <conceptId qcode="sptenstat:serve-points-played"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">serve-points-played</name>
+      <definition>How many points were played with this player/team serving. New attribute and therefore using the more proper term serve instead of service.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatservice-points-won">
+      <conceptId qcode="sptenstat:service-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">service-points-won</name>
+      <definition>Total points won where the player served. This should be the same as a sum of first-service-points-won and second-service-points-won.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatservice-points-won-pct">
+      <conceptId qcode="sptenstat:service-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">service-points-won-pct</name>
+      <definition>The percentage of points won by the serving player. Should be possible to calculate from other attributes here.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatdouble-faults">
+      <conceptId qcode="sptenstat:double-faults"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">double-faults</name>
+      <definition>How many double-faults committed by the serving player.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-service-top-speed">
+      <conceptId qcode="sptenstat:first-service-top-speed"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-service-top-speed</name>
+      <definition>The top speed recorded among the serves from this player/team.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-serve-average-speed">
+      <conceptId qcode="sptenstat:first-serve-average-speed"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-serve-average-speed</name>
+      <definition>The average speed recorded among the first serves from this player/team. New attribute and therefore using the more proper term serve instead of service.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-services-good">
+      <conceptId qcode="sptenstat:second-services-good"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-services-good</name>
+      <definition>The number of good second serves.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-services-good-pct">
+      <conceptId qcode="sptenstat:second-services-good-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-services-good-pct</name>
+      <definition>The percentage of good second serves.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-serve-average-speed">
+      <conceptId qcode="sptenstat:second-serve-average-speed"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-serve-average-speed</name>
+      <definition>The average speed recorded among the second serves from this player/team. New attribute and therefore using the more proper term serve instead of service.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatspeed-units">
+      <conceptId qcode="sptenstat:speed-units"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">speed-units</name>
+      <definition>The measurement unit used for the various speed attributes. Normally mph, but can be m/s or km/h or something else.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatreturns-played">
+      <conceptId qcode="sptenstat:returns-played"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">returns-played</name>
+      <definition>How many points played where this player/team received the serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatreceive-points-won">
+      <conceptId qcode="sptenstat:receive-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">receive-points-won</name>
+      <definition>How many points won by the receiving player. New attribute using the term receive which is preferred to return.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatreceive-points-won-pct">
+      <conceptId qcode="sptenstat:receive-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">receive-points-won-pct</name>
+      <definition>The percentage of points won by the receiving player. New attribute using the term receive which is preferred to return.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-service-return-points-won">
+      <conceptId qcode="sptenstat:first-service-return-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-service-return-points-won</name>
+      <definition>How many points won by the player after receiving the first serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatfirst-service-return-points-won-pct">
+      <conceptId qcode="sptenstat:first-service-return-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">first-service-return-points-won-pct</name>
+      <definition>The percentage of points won by the player after receiving the first serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-service-return-points-won">
+      <conceptId qcode="sptenstat:second-service-return-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-service-return-points-won</name>
+      <definition>How many points won after receiving the second serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatsecond-service-return-points-won-pct">
+      <conceptId qcode="sptenstat:second-service-return-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">second-service-return-points-won-pct</name>
+      <definition>The percentage of points won after receiving the second serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatreturn-games-played">
+      <conceptId qcode="sptenstat:return-games-played"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">return-games-played</name>
+      <definition>And how does this compare to the returns-played and matches-played above?</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatreturn-games-won">
+      <conceptId qcode="sptenstat:return-games-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">return-games-won</name>
+      <definition>How many games won after receiving the serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatreturn-games-won-pct">
+      <conceptId qcode="sptenstat:return-games-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">return-games-won-pct</name>
+      <definition>The percentage of games won after receiving the serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatbreak-points-played">
+      <conceptId qcode="sptenstat:break-points-played"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">break-points-played</name>
+      <definition>How many possible break-points the receiving player/team had.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatbreak-points-converted">
+      <conceptId qcode="sptenstat:break-points-converted"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">break-points-converted</name>
+      <definition>The number of break-points that resulted in actually breaking the serve.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatbreak-points-converted-pct">
+      <conceptId qcode="sptenstat:break-points-converted-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">break-points-converted-pct</name>
+      <definition>The percentage of converted break-points.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatnet-points-won">
+      <conceptId qcode="sptenstat:net-points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">net-points-won</name>
+      <definition>Points won after the player went forward close to the net.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatnet-points-played">
+      <conceptId qcode="sptenstat:net-points-played"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">net-points-played</name>
+      <definition>Number of points played where the player went forward to the net.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatnet-points-won-pct">
+      <conceptId qcode="sptenstat:net-points-won-pct"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">net-points-won-pct</name>
+      <definition>Percentage of points won after the player went forward close to the net. Should be possible to calculate from the other net-xxx attributes.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatpoints-won">
+      <conceptId qcode="sptenstat:points-won"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">points-won</name>
+      <definition>Total number of points won.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatwinners">
+      <conceptId qcode="sptenstat:winners"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">winners</name>
+      <definition>Total number of winning strokes.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatwinners-forehand">
+      <conceptId qcode="sptenstat:winners-forehand"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">winners-forehand</name>
+      <definition>Total number of winning strokes using the forehand.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatwinners-backhand">
+      <conceptId qcode="sptenstat:winners-backhand"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">winners-backhand</name>
+      <definition>Total number of winning strokes using the backhand.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatwinners-volley">
+      <conceptId qcode="sptenstat:winners-volley"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">winners-volley</name>
+      <definition>Total number of winning strokes using volley.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="sptenstatunforced-errors">
+      <conceptId qcode="sptenstat:unforced-errors"/>
+      <type qcode="spct:general"/>
+      <name xml:lang="en-GB">unforced-errors</name>
+      <definition>Total number of unforced errors performed.</definition>
+      <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
+    </concept>
+  </conceptSet>
+  <schemeMeta uri="http://cv.iptc.org/newscodes/sptenstat/" authority="http://www.iptc.org" preferredalias="sptenstat">
+    <definition xml:lang="en-GB">Vocabulary of statistics for Tennis</definition>
+    <name xml:lang="en-GB">Tennis Statistics</name>
+    <related qcode="sptenstat:score" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:duration" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:set-number" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:score-tiebreaker" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:aces" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-services-good" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-services-good-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-services-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-services-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-services-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-services-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:service-games-played" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:service-games-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:service-games-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:break-points-against" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:break-points-saved" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:break-points-saved-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:serve-points-played" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:service-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:service-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:double-faults" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-service-top-speed" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-serve-average-speed" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-services-good" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-services-good-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-serve-average-speed" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:speed-units" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:returns-played" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:receive-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:receive-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-service-return-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:first-service-return-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-service-return-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:second-service-return-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:return-games-played" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:return-games-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:return-games-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:break-points-played" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:break-points-converted" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:break-points-converted-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:net-points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:net-points-played" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:net-points-won-pct" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:points-won" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:winners" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:winners-forehand" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:winners-backhand" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:winners-volley" rel="skos:hasTopConcept"/>
+    <related qcode="sptenstat:unforced-errors" rel="skos:hasTopConcept"/>
+    <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+  </schemeMeta>
+</knowledgeItem>

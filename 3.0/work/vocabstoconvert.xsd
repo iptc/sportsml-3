@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<!-- Vocabularies that need to be converted to knowledge items (or moved into the schema again.) -->
+
+
+    <xs:simpleType name="weekdayType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="sunday"/>
+            <xs:enumeration value="monday"/>
+            <xs:enumeration value="tuesday"/>
+            <xs:enumeration value="wednesday"/>
+            <xs:enumeration value="thursday"/>
+            <xs:enumeration value="friday"/>
+            <xs:enumeration value="saturday"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="wageringPrediction.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="favorite"/>
+            <xs:enumeration value="underdog"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="dateCoverageType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="period"/>
+            <xs:enumeration value="event"/>
+            <xs:enumeration value="tournament"/>
+            <xs:enumeration value="tournament-pool"/>
+            <xs:enumeration value="tournament-seed"/>
+            <xs:enumeration value="recent-ten-events"/>
+            <xs:enumeration value="hourly"/>
+            <xs:enumeration value="daily"/>
+            <xs:enumeration value="weekly"/>
+            <xs:enumeration value="monthly"/>
+            <xs:enumeration value="preseason"/>
+            <xs:enumeration value="season-exhibition"/>
+            <xs:enumeration value="season-regular">
+                <xs:annotation>
+                    <xs:documentation>The default value.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="season-playoffs"/>
+            <xs:enumeration value="season-full"/>
+            <xs:enumeration value="career"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="competitionScope.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="events-all">
+                <xs:annotation>
+                    <xs:documentation>Every event played, including those played against teams in the
+                        same division or conference. The default option.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="division">
+                <xs:annotation>
+                    <xs:documentation>Events played within a league's division.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="division-opposing"/>
+            <xs:enumeration value="conference">
+                <xs:annotation>
+                    <xs:documentation>Events played within a league's conference.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="conference-opposing"/>
+            <xs:enumeration value="team-opposing">
+                <xs:annotation>
+                    <xs:documentation>Events against a specific team.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="player-opposing">
+                <xs:annotation>
+                    <xs:documentation>
+                        <xs:annotation>
+                            <xs:documentation>Events against a specific player.</xs:documentation>
+                        </xs:annotation>
+                    </xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="tournament">
+                <xs:annotation>
+                    <xs:documentation>Events from a specific tournament.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="league"/>
+            <xs:enumeration value="top-25"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="codeType.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>What type of item is being coded.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="sport-class"/>
+            <xs:enumeration value="sport-category"/>
+            <xs:enumeration value="sport"/>
+            <xs:enumeration value="sport-competition"/>
+            <xs:enumeration value="league"/>
+            <xs:enumeration value="conference"/>
+            <xs:enumeration value="division"/>
+            <xs:enumeration value="team"/>
+            <xs:enumeration value="special-event"/>
+            <xs:enumeration value="site"/>
+            <xs:enumeration value="article-ref"/>
+            <xs:enumeration value="photo-ref"/>
+            <xs:enumeration value="audio-ref"/>
+            <xs:enumeration value="video-ref"/>
+            <xs:enumeration value="xref-key"/>
+            <xs:enumeration value="slug"/>
+            <xs:enumeration value="slug-category"/>
+            <xs:enumeration value="season">
+                <xs:annotation>
+                    <xs:documentation>The year or name of the season</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="season-type">
+                <xs:annotation>
+                    <xs:documentation>Which segment of the season: pre-season, post-season, regular,
+                        etc.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="publisher">
+                <xs:annotation>
+                    <xs:documentation>The source of the data/content.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="distributor">
+                <xs:annotation>
+                    <xs:documentation>The source of the data/content.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="priority"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="eventStatus.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>pre-event, mid-event, post-event.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pre-event">
+                <xs:annotation>
+                    <xs:documentation>Any time before an event begins.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="mid-event">
+                <xs:annotation>
+                    <xs:documentation>Any time while an event is in-play.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="post-event">
+                <xs:annotation>
+                    <xs:documentation>Any time after an event is finished.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="postponed">
+                <xs:annotation>
+                    <xs:documentation>The putting off of an event until a later date, before the event
+                        has begun, for whatever reason.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="suspended">
+                <xs:annotation>
+                    <xs:documentation>An event is stopped with the intention of resumption at a later
+                        date.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="halted">
+                <xs:annotation>
+                    <xs:documentation>An event is stopped and not resumed or ended.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="forfeited">
+                <xs:annotation>
+                    <xs:documentation>A team declines or is unable to play and loses by default. The
+                        opponent is awarded the win.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="rescheduled">
+                <xs:annotation>
+                    <xs:documentation>An event is given a new time and date.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="delayed">
+                <xs:annotation>
+                    <xs:documentation>An event is held up, for example by inclement weather. Can happen
+                        before or during an event.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="canceled">
+                <xs:annotation>
+                    <xs:documentation>An event is never played and not re-scheduled.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="intermission">
+                <xs:annotation>
+                    <xs:documentation>A planned or scheduled break in play after which play
+                        resumes.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="if-necessary">
+                <xs:annotation>
+                    <xs:documentation>An event whose commencement is dependant upon the outcome of
+                        prior events.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="discarded">
+                <xs:annotation>
+                    <xs:documentation>A cancelled event because the event was
+                        unnecessary.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="seasonType.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>A subcategory of the season</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pre-season">
+                <xs:annotation>
+                    <xs:documentation>Events played in an exhibition before the regular phase when
+                        standings points are awarded.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="season-regular">
+                <xs:annotation>
+                    <xs:documentation>The phase of a league competition when standings points are
+                        awarded toward a points-based championship or position in a post-season
+                        phase.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="post-season">
+                <xs:annotation>
+                    <xs:documentation>A championship phase of a league competition, usually comprosed
+                        of elimination rounds until one team has prevailed.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="all-star-game">
+                <xs:annotation>
+                    <xs:documentation>Some leagues have an all-star break and game comprised of the
+                        best players.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="exhibition">
+                <xs:annotation>
+                    <xs:documentation>A game or phase with no standings points awarded.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="recordMakingScope.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="high"/>
+            <xs:enumeration value="low"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    <xs:simpleType name="status.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Whether a player starts playing at the beginning of a sports-event, joins
+                mid-game, or is not available to participate.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="starter">
+                <xs:annotation>
+                    <xs:documentation>A member of the lineup that enters the field at the commencement
+                        of play.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="bench">
+                <xs:annotation>
+                    <xs:documentation>Does not enter field at commencement of play, is substituted in
+                        or remains on bench.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="scratched">
+                <xs:annotation>
+                    <xs:documentation>Does not dress for event, usually for having not earned a slot in
+                        the lineup.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="injured">
+                <xs:annotation>
+                    <xs:documentation>Unable to play due to injury.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="suspended">
+                <xs:annotation>
+                    <xs:documentation>Unable to play due to suspension due to
+                        transgression.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="sidelined">
+                <xs:annotation>
+                    <xs:documentation>Does not play for other reason.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="health.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>An indication of the health of the player.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="injured"/>
+            <xs:enumeration value="fine"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="specialGroup.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>If the events covered are for special groups. Can be school-oriented,
+                age-oriented, or group names, like Firefighters.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="college"/>
+            <xs:enumeration value="senior"/>
+            <xs:enumeration value="junior"/>
+            <xs:enumeration value="high-school"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="specialNeeds.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Events for persons with special-needs.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="none"/>
+            <xs:enumeration value="disabled"/>
+            <xs:enumeration value="deaf"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="bodySide.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>General purpose vocabulary for various properties describing the the side
+                with which a player shoots, kicks, catches, bats, etc. Also to describe injury
+                side.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="right"/>
+            <xs:enumeration value="left"/>
+            <xs:enumeration value="both"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="siteStyle.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Whether it is an indoor or outdoor site.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="indoor"/>
+            <xs:enumeration value="outdoor"/>
+            <xs:enumeration value="retractable-dome"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="weatherPrediction.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Describes expected weather conditions for event.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="rain"/>
+            <xs:enumeration value="sunny"/>
+            <xs:enumeration value="clear"/>
+            <xs:enumeration value="cloudy"/>
+            <xs:enumeration value="windy"/>
+            <xs:enumeration value="windy"/>
+            <xs:enumeration value="mostly-fair"/>
+            <xs:enumeration value="snow"/>
+            <xs:enumeration value="showers"/>
+            <xs:enumeration value="mostly-cloudy,rain"/>
+            <xs:enumeration value="partly-sunny,rain"/>
+            <xs:enumeration value="partly-cloudy,rain"/>
+            <xs:enumeration value="mostly-cloudy,snow"/>
+            <xs:enumeration value="partly-sunny,snow"/>
+            <xs:enumeration value="partly-cloudy,snow"/>
+            <xs:enumeration value="mostly-cloudy,showers"/>
+            <xs:enumeration value="partly-sunny,showers"/>
+            <xs:enumeration value="partly-cloudy,showers"/>
+            <xs:enumeration value="partly-cloudy"/>
+            <xs:enumeration value="partly-sunny"/>
+            <xs:enumeration value="mostly-cloudy"/>
+            <xs:enumeration value="mostly-sunny"/>
+            <xs:enumeration value="mostly-clear"/>
+            <xs:enumeration value="indoor-play"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="scoreUnits.Core.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>Describes how the score and score-opposing is valued.</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="time-absolute">
+                <xs:annotation>
+                    <xs:documentation>Total time to complete competition, not measured in comparison to
+                        other competitors</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="time-relative">
+                <xs:annotation>
+                    <xs:documentation>Time difference compared (usually) to closest competitor or
+                        first-place finalist. First place commonly has absolute
+                        value.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="against-par"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="resultEffect.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="qualification"/>
+            <xs:enumeration value="promotion"/>
+            <xs:enumeration value="demotion"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="awardType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="medal"/>
+            <xs:enumeration value="trophy"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="statusChangeType.Core.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="injury"/>
+            <xs:enumeration value="trade"/>
+            <xs:enumeration value="cut"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="flagType.MotorRacing.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="green"/>
+            <xs:enumeration value="yellow"/>
+            <xs:enumeration value="white"/>
+            <xs:enumeration value="checkered"/>
+            <xs:enumeration value="red"/>
+            <xs:enumeration value="black"/>
+            <xs:enumeration value="black-with-x"/>
+            <xs:enumeration value="blue-with-orange-stripe"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+<!-- All these should be in one list for role -->
+    
+    <xs:simpleType name="participantRoleType">
+        <xs:union memberTypes="QCodeType commonParticipantRoleTypes baseballRoleType curlingRoleType americanFootballRoleType tennisRoleType motorRacingRoleType hockeyRoleType basketRoleType soccerRoleType"/>
+    </xs:simpleType>
+    
+    <xs:simpleType name="commonParticipantRoleTypes">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="sportsml_role:caller"/>
+            <xs:enumeration value="sportsml_role:recipient"/>
+            <xs:enumeration value="sportsml_role:served-by"/> <!-- When another player is serving the penalty. Can happen with a team-foul or a goal-keeper foul. -->
+            <xs:enumeration value="sportsml_role:replaced"/>
+            <xs:enumeration value="sportsml_role:replacing"/>
+            <xs:enumeration value="sportsml_role:infracted"/>
+            <xs:enumeration value="sportsml_role:infractor"/>
+            <xs:enumeration value="sportsml_role:offside"/>
+            <xs:enumeration value="sportsml_role:passer"/>
+            <xs:enumeration value="sportsml_role:reciever"/>
+            <xs:enumeration value="sportsml_role:interceptor"/>
+            <xs:enumeration value="sportsml_role:blocker"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="baseballRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="baseball:fielder"/>
+            <xs:enumeration value="baseball:official"/>
+            <xs:enumeration value="baseball:auxilliary"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tennisRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="tennis:server"/>
+            <xs:enumeration value="tennis:reciever"/>
+            <xs:enumeration value="tennis:ball-winner"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="motorRacingRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="motor-racing:driver"/>
+            <xs:enumeration value="motor-racing:passer"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="basketRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="basket:jump-ball"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="hockeyRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="hockey:faceoff"/>
+            <xs:enumeration value="hockey:on-ice"/>
+            <xs:enumeration value="hockey:scorer"/>
+            <xs:enumeration value="hockey:assist"/>
+            <xs:enumeration value="hockey:goaltender"/>
+            <xs:enumeration value="hockey:shooter"/>
+            <xs:enumeration value="hockey:blocker"/>
+            <xs:enumeration value="hockey:hitter"/>
+            <xs:enumeration value="hockey:hittee"/>
+            <xs:enumeration value="hockey:shot"/>
+            <xs:enumeration value="hockey:penalty-committed-by"/>
+            <xs:enumeration value="hockey:penalty-committed-against"/>
+            <xs:enumeration value="hockey:penalty-served-by"/>
+            <xs:enumeration value="hockey:faceoff-winner"/>
+            <xs:enumeration value="hockey:faceoff-loser"/>
+            <xs:enumeration value="hockey:giveaway"/>
+            <xs:enumeration value="hockey:takeaway"/>
+            <xs:enumeration value="hockey:off-ice"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="curlingRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="curling:skipper"/>
+            <xs:enumeration value="curling:broomer"/>
+            <xs:enumeration value="curling:player"/>
+            <xs:enumeration value="curling:stone"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="americanFootballRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="amfoot:snapper"/>
+            <xs:enumeration value="amfoot:snap-receiver"/>
+            <xs:enumeration value="amfoot:handoff-receiver"/>
+            <xs:enumeration value="amfoot:lateral-receiver"/>
+            <xs:enumeration value="amfoot:interceptor"/>
+            <xs:enumeration value="amfoot:rusher"/>
+            <xs:enumeration value="amfoot:tackler"/>
+            <xs:enumeration value="amfoot:kicker"/>
+            <xs:enumeration value="amfoot:fumble-returner"/>
+            <xs:enumeration value="amfoot:kick-blocker"/>
+            <xs:enumeration value="amfoot:missed-field-goal-returner"/>
+            <xs:enumeration value="amfoot:blocked-field-goal-returner"/>
+            <xs:enumeration value="amfoot:kick-returner"/>
+            <xs:enumeration value="amfoot:tackle-assistant"/>
+            <xs:enumeration value="amfoot:punter"/>
+            <xs:enumeration value="amfoot:punt-blocker"/>
+            <xs:enumeration value="amfoot:punt-returner"/>
+            <xs:enumeration value="amfoot:blocked-punt-returner"/>
+            <xs:enumeration value="amfoot:sacker"/>
+            <xs:enumeration value="amfoot:sack-assistant"/>
+            <xs:enumeration value="amfoot:fumbler"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="soccerRoleType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="soccer:on-field"/>
+            <xs:enumeration value="soccer:scorer"/>
+            <xs:enumeration value="soccer:assist"/>
+            <xs:enumeration value="soccer:shooter"/>
+            <xs:enumeration value="soccer:blocker"/>
+            <xs:enumeration value="soccer:penalty-committed-by"/>
+            <xs:enumeration value="soccer:penalty-committed-against"/>
+            <xs:enumeration value="soccer:giveaway"/>
+            <xs:enumeration value="soccer:takeaway"/>
+            <xs:enumeration value="soccer:thrower"/>
+            <xs:enumeration value="soccer:corner-kicker"/>
+            <xs:enumeration value="soccer:offside"/>
+            <xs:enumeration value="soccer:free-kicker"/>
+            <xs:enumeration value="soccer:penalty-kicker"/>
+            <xs:enumeration value="soccer:goalkeeper"/>
+        </xs:restriction>
+    </xs:simpleType>
+        <xs:simpleType name="participantRole.Curling.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="skip"/>
+            <xs:enumeration value="lead"/>
+            <xs:enumeration value="second"/>
+            <xs:enumeration value="thirc"/>
+            <xs:enumeration value="vice-skip"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+
+
+
+<!-- All these should be in one list for position:  (Some could be repeted?)-->
+    <xs:simpleType name="position.Common">
+        <xs:union memberTypes="QCodeType position.AmericanFootball.Vocabulary position.Baseball.Vocabulary position.Basketball.Vocabulary position.IceHockey.Vocabulary position.Soccer.Vocabulary position.Curling.Vocabulary position.Rugby.Vocabulary"/>
+    </xs:simpleType>
+    <xs:simpleType name="position.AmericanFootball.Vocabulary">
+        <xs:annotation>
+            <xs:documentation>.american-football</xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="guard"/>
+            <xs:enumeration value="tackle-offensive"/>
+            <xs:enumeration value="tight-end"/>
+            <xs:enumeration value="wide-receiver"/>
+            <xs:enumeration value="fullback"/>
+            <xs:enumeration value="running-back"/>
+            <xs:enumeration value="tail-back"/>
+            <xs:enumeration value="h-back"/>
+            <xs:enumeration value="halfback"/>
+            <xs:enumeration value="wingback"/>
+            <xs:enumeration value="slotback"/>
+            <xs:enumeration value="quarterback"/>
+            <xs:enumeration value="defensive-end"/>
+            <xs:enumeration value="tackle-defensive"/>
+            <xs:enumeration value="guard-defensive"/>
+            <xs:enumeration value="nose-tackle"/>
+            <xs:enumeration value="linebacker-outside"/>
+            <xs:enumeration value="linebacker-middle"/>
+            <xs:enumeration value="linebacker-inside"/>
+            <xs:enumeration value="cornerback"/>
+            <xs:enumeration value="nickelback"/>
+            <xs:enumeration value="dimeback"/>
+            <xs:enumeration value="defensive-quarterback"/>
+            <xs:enumeration value="defensive-halfback"/>
+            <xs:enumeration value="safety-free"/>
+            <xs:enumeration value="safety-strong"/>
+            <xs:enumeration value="kicker"/>
+            <xs:enumeration value="punter"/>
+            <xs:enumeration value="kickoff-returner"/>
+            <xs:enumeration value="punt-returner"/>
+            <xs:enumeration value="long-snapper"/>
+            <xs:enumeration value="holder"/>
+            <xs:enumeration value="lineman-offensive"/>
+            <xs:enumeration value="lineman-defensive"/>
+            <xs:enumeration value="defensive-back"/>
+            <xs:enumeration value="safety"/>
+            <xs:enumeration value="linebacker"/>
+            <xs:enumeration value="kick-returner"/>
+            <xs:enumeration value="referee"/>
+            <xs:enumeration value="linesman"/>
+            <xs:enumeration value="line-judge"/>
+            <xs:enumeration value="back-judge"/>
+            <xs:enumeration value="side-judge"/>
+            <xs:enumeration value="field-judge"/>
+            <xs:enumeration value="coach"/>
+            <xs:enumeration value="assistant-coach"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="position.Baseball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="1">
+                <xs:annotation>
+                    <xs:documentation>pitcher</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="2">
+                <xs:annotation>
+                    <xs:documentation>catcher</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="3">
+                <xs:annotation>
+                    <xs:documentation>first baseman</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="4">
+                <xs:annotation>
+                    <xs:documentation>second baseman</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="5">
+                <xs:annotation>
+                    <xs:documentation>third baseman</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="6">
+                <xs:annotation>
+                    <xs:documentation>shortstop</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="7">
+                <xs:annotation>
+                    <xs:documentation>left fielder</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="8">
+                <xs:annotation>
+                    <xs:documentation>center fielder</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="9">
+                <xs:annotation>
+                    <xs:documentation>right fielder</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="10">
+                <xs:annotation>
+                    <xs:documentation>tenth man (for softball), playing in the outfield</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="dh">
+                <xs:annotation>
+                    <xs:documentation>designated hitter</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="ph">
+                <xs:annotation>
+                    <xs:documentation>pinch hitter</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="pr">
+                <xs:annotation>
+                    <xs:documentation>pinch runner</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="manager"/>
+            <xs:enumeration value="coach"/>
+            <xs:enumeration value="coach-first-base"/>
+            <xs:enumeration value="coach-third-base"/>
+            <xs:enumeration value="umpire"/>
+            <xs:enumeration value="umpire-2">
+                <xs:annotation>
+                    <xs:documentation>home plate umpire</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="umpire-3">
+                <xs:annotation>
+                    <xs:documentation>first base umpire</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="umpire-4">
+                <xs:annotation>
+                    <xs:documentation>second base umpire</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="umpire-5">
+                <xs:annotation>
+                    <xs:documentation>third base umpire</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="umpire-7">
+                <xs:annotation>
+                    <xs:documentation>left field umpire</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="umpire-9">
+                <xs:annotation>
+                    <xs:documentation>right field umpire</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="official-scorekeeper"/>
+            <xs:enumeration value="technical-commissioner"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="position.Basketball.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="guard"/>
+            <xs:enumeration value="point-guard"/>
+            <xs:enumeration value="shooting-guard"/>
+            <xs:enumeration value="forward"/>
+            <xs:enumeration value="power-forward">
+                <xs:annotation>
+                    <xs:documentation>Forward who mostly plays defense.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="small-forward">
+                <xs:annotation>
+                    <xs:documentation>Forward who mostly tries to score.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="referee"/>
+            <xs:enumeration value="umpire"/>
+            <xs:enumeration value="scorekeeper"/>
+            <xs:enumeration value="timekeeper"/>
+            <xs:enumeration value="shot-clock-operator"/>
+            <xs:enumeration value="coach"/>
+            <xs:enumeration value="assistant-coach"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="position.IceHockey.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="defenseman"/>
+            <xs:enumeration value="left-defenseman"/>
+            <xs:enumeration value="right-defenseman"/>
+            <xs:enumeration value="forward"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="left-forward"/>
+            <xs:enumeration value="right-forward"/>
+            <xs:enumeration value="goalie"/>
+            <xs:enumeration value="referee"/>
+            <xs:enumeration value="linesman"/>
+            <xs:enumeration value="goal-judge"/>
+            <xs:enumeration value="penalty-timekeeper"/>
+            <xs:enumeration value="official-scorer"/>
+            <xs:enumeration value="game-timekeeper"/>
+            <xs:enumeration value="coach"/>
+            <xs:enumeration value="assistant-coach"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="position.Soccer.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="right-fullback"/>
+            <xs:enumeration value="left-fullback"/>
+            <xs:enumeration value="sweeper"/>
+            <xs:enumeration value="defender"/>
+            <xs:enumeration value="central-defender"/>
+            <xs:enumeration value="right-midfielder" />
+            <xs:enumeration value="left-midfielder" />
+            <xs:enumeration value="center-midfielder"/>
+            <xs:enumeration value="midfielder"/>
+            <xs:enumeration value="attacking-midfielder"/>
+            <xs:enumeration value="defensive-midfielder"/>
+            <xs:enumeration value="half-backs"/>
+            <xs:enumeration value="right-wing"/>
+            <xs:enumeration value="left-wing"/>
+            <xs:enumeration value="center-forward"/>
+            <xs:enumeration value="forward"/> 
+            <xs:enumeration value="striker"/>
+            <xs:enumeration value="goalkeeper"/>
+            <xs:enumeration value="coach"/>
+            <xs:enumeration value="assistant-coach"/>
+            <xs:enumeration value="referee"/>
+            <xs:enumeration value="assistant-referee"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="position.Curling.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="A">
+                <xs:annotation>
+                    <xs:documentation>The player is a reserv for the team.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="1">
+                <xs:annotation>
+                    <xs:documentation>The player plays the first stones for the team. In a four player team the player plays stones 1 and 2. If the team only has three players the first player plays stones 1-3.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="2">
+                <xs:annotation>
+                    <xs:documentation>The player plays second for the team, stones 3 and 4 when the team has four players, stones 4-6 if a three player team.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="3">
+                <xs:annotation>
+                    <xs:documentation>The player plays third for the team, stones 5 and 6 if the team has four players, the last two stones if a three player team.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="4">
+                <xs:annotation>
+                    <xs:documentation>The player plays the last two stones if the team has four players.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="position.Rugby.Vocabulary">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="loose-forward"/>
+            <xs:enumeration value="prop-loosehead"/>
+            <xs:enumeration value="prop-tighthead"/>
+            <xs:enumeration value="prop"/>
+            <xs:enumeration value="hooker"/>
+            <xs:enumeration value="second-row"/>
+            <xs:enumeration value="lock"/>
+            <xs:enumeration value="flanker-blindside"/>
+            <xs:enumeration value="flanker-openside"/>
+            <xs:enumeration value="number-eight"/>
+            <xs:enumeration value="scrum-half"/>
+            <xs:enumeration value="fly-half"/>
+            <xs:enumeration value="stand-off"/>
+            <xs:enumeration value="inside-center"/>
+            <xs:enumeration value="outside-center"/>
+            <xs:enumeration value="center"/>
+            <xs:enumeration value="left-wing"/>
+            <xs:enumeration value="right-wing"/>
+            <xs:enumeration value="fullback"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="participantPositionType">
+        <xs:union memberTypes="QCodeType commonParticipantPositonTypes americanFootballPositonTypes baseballPositionTypes basketballPositionTypes hockeyPositionType rugbyPositionType soccerPositionType"/>
+    </xs:simpleType>
+    
+    <xs:simpleType name="commonParticipantPositonTypes">
+        <xs:restriction base="QCodeType">
+            
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="baseballPositionTypes">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="baseball:1"/> <!-- Pitcher -->
+            <xs:enumeration value="baseball:2"/> <!-- Catcher -->
+            <xs:enumeration value="baseball:3"/> <!-- First baseman -->
+            <xs:enumeration value="baseball:4"/> <!-- second baseman -->
+            <xs:enumeration value="baseball:5"/> <!-- third baseman -->
+            <xs:enumeration value="baseball:6"/> <!-- shortstop -->
+            <xs:enumeration value="baseball:7"/> <!-- left fielder -->
+            <xs:enumeration value="baseball:8"/> <!-- center fielder -->
+            <xs:enumeration value="baseball:9"/> <!-- right fielder -->
+            <xs:enumeration value="baseball:10"/>  <!-- tenth man (for softball), playing in the outfield -->
+            <xs:enumeration value="baseball:dh"/> <!-- designated hitter -->
+            <xs:enumeration value="baseball:ph"/> <!-- pinch hitter -->
+            <xs:enumeration value="baseball:pr"/> <!-- pinch runner -->
+            <xs:enumeration value="baseball:manager"/> <!--  -->
+            <xs:enumeration value="baseball:coach"/> <!--  -->
+            <xs:enumeration value="baseball:coach-first-base"/> <!--  -->
+            <xs:enumeration value="baseball:coach-third-base"/> <!--  -->
+            <xs:enumeration value="baseball:umpire"/> <!--  -->
+            <xs:enumeration value="baseball:umpire-2"/>  <!-- home plate umpire -->
+            <xs:enumeration value="baseball:umpire-3"/>  <!-- first base umpire -->
+            <xs:enumeration value="baseball:umpire-4"/>  <!-- second base umpire -->
+            <xs:enumeration value="baseball:umpire-5"/>  <!-- third base umpire -->
+            <xs:enumeration value="baseball:umpire-7"/>  <!-- left field umpire -->
+            <xs:enumeration value="baseball:umpire-9"/>  <!-- right field umpire -->
+            <xs:enumeration value="baseball:official-scorekeeper"/> <!--  -->
+            <xs:enumeration value="baseball:technical-commissioner"/> <!--  -->
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="basketballPositionTypes">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="basketball:guard"/>
+            <xs:enumeration value="basketball:point-guard"/>
+            <xs:enumeration value="basketball:shooting-guard"/>
+            <xs:enumeration value="basketball:forward"/>
+            <xs:enumeration value="basketball:power-forward">
+                <xs:annotation>
+                    <xs:documentation>Forward who mostly plays defense.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="basketball:small-forward">
+                <xs:annotation>
+                    <xs:documentation>Forward who mostly tries to score.</xs:documentation>
+                </xs:annotation>
+            </xs:enumeration>
+            <xs:enumeration value="basketball:center"/>
+            <xs:enumeration value="basketball:referee"/>
+            <xs:enumeration value="basketball:umpire"/>
+            <xs:enumeration value="basketball:scorekeeper"/>
+            <xs:enumeration value="basketball:timekeeper"/>
+            <xs:enumeration value="basketball:shot-clock-operator"/>
+            <xs:enumeration value="basketball:coach"/>
+            <xs:enumeration value="basketball:assistant-coach"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="americanFootballPositonTypes">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="amfoot:center"/>
+            <xs:enumeration value="amfoot:referee"/>
+            <xs:enumeration value="amfoot:linesman"/>
+            <xs:enumeration value="amfoot:coach"/>
+            <xs:enumeration value="amfoot:assistant-coach"/>
+            <xs:enumeration value="amfoot:guard"/>
+            <xs:enumeration value="amfoot:tackle-offensive"/>
+            <xs:enumeration value="amfoot:tight-end"/>
+            <xs:enumeration value="amfoot:wide-receiver"/>
+            <xs:enumeration value="amfoot:fullback"/>
+            <xs:enumeration value="amfoot:running-back"/>
+            <xs:enumeration value="amfoot:tail-back"/>
+            <xs:enumeration value="amfoot:h-back"/>
+            <xs:enumeration value="amfoot:halfback"/>
+            <xs:enumeration value="amfoot:wingback"/>
+            <xs:enumeration value="amfoot:slotback"/>
+            <xs:enumeration value="amfoot:quarterback"/>
+            <xs:enumeration value="amfoot:defensive-end"/>
+            <xs:enumeration value="amfoot:tackle-defensive"/>
+            <xs:enumeration value="amfoot:guard-defensive"/>
+            <xs:enumeration value="amfoot:nose-tackle"/>
+            <xs:enumeration value="amfoot:linebacker-outside"/>
+            <xs:enumeration value="amfoot:linebacker-middle"/>
+            <xs:enumeration value="amfoot:linebacker-inside"/>
+            <xs:enumeration value="amfoot:cornerback"/>
+            <xs:enumeration value="amfoot:nickelback"/>
+            <xs:enumeration value="amfoot:dimeback"/>
+            <xs:enumeration value="amfoot:defensive-quarterback"/>
+            <xs:enumeration value="amfoot:defensive-halfback"/>
+            <xs:enumeration value="amfoot:safety-free"/>
+            <xs:enumeration value="amfoot:safety-strong"/>
+            <xs:enumeration value="amfoot:kicker"/>
+            <xs:enumeration value="amfoot:punter"/>
+            <xs:enumeration value="amfoot:kickoff-returner"/>
+            <xs:enumeration value="amfoot:punt-returner"/>
+            <xs:enumeration value="amfoot:long-snapper"/>
+            <xs:enumeration value="amfoot:holder"/>
+            <xs:enumeration value="amfoot:lineman-offensive"/>
+            <xs:enumeration value="amfoot:lineman-defensive"/>
+            <xs:enumeration value="amfoot:defensive-back"/>
+            <xs:enumeration value="amfoot:safety"/>
+            <xs:enumeration value="amfoot:linebacker"/>
+            <xs:enumeration value="amfoot:kick-returner"/>
+            <xs:enumeration value="amfoot:line-judge"/>
+            <xs:enumeration value="amfoot:back-judge"/>
+            <xs:enumeration value="amfoot:side-judge"/>
+            <xs:enumeration value="amfoot:field-judge"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="hockeyPositionType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="hockey:defenseman"/>
+            <xs:enumeration value="hockey:left-defenseman"/>
+            <xs:enumeration value="hockey:right-defenseman"/>
+            <xs:enumeration value="hockey:forward"/>
+            <xs:enumeration value="hockey:center"/>
+            <xs:enumeration value="hockey:left-forward"/>
+            <xs:enumeration value="hockey:right-forward"/>
+            <xs:enumeration value="hockey:goalkeeper"/>
+            <xs:enumeration value="hockey:referee"/>
+            <xs:enumeration value="hockey:linesman"/>
+            <xs:enumeration value="hockey:goal-judge"/>
+            <xs:enumeration value="hockey:penalty-timekeeper"/>
+            <xs:enumeration value="hockey:official-scorer"/>
+            <xs:enumeration value="hockey:game-timekeeper"/>
+            <xs:enumeration value="hockey:coach"/>
+            <xs:enumeration value="hockey:assistant-coach"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="rugbyPositionType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="rugby:loose-forward"/>
+            <xs:enumeration value="rugby:prop-loosehead"/>
+            <xs:enumeration value="rugby:prop-tighthead"/>
+            <xs:enumeration value="rugby:prop"/>
+            <xs:enumeration value="rugby:hooker"/>
+            <xs:enumeration value="rugby:second-row"/>
+            <xs:enumeration value="rugby:lock"/>
+            <xs:enumeration value="rugby:flanker-blindside"/>
+            <xs:enumeration value="rugby:flanker-openside"/>
+            <xs:enumeration value="rugby:number-eight"/>
+            <xs:enumeration value="rugby:scrum-half"/>
+            <xs:enumeration value="rugby:fly-half"/>
+            <xs:enumeration value="rugby:stand-off"/>
+            <xs:enumeration value="rugby:inside-center"/>
+            <xs:enumeration value="rugby:outside-center"/>
+            <xs:enumeration value="rugby:center"/>
+            <xs:enumeration value="rugby:left-wing"/>
+            <xs:enumeration value="rugby:right-wing"/>
+            <xs:enumeration value="rugby:fullback"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="soccerPositionType">
+        <xs:restriction base="QCodeType">
+            <xs:enumeration value="soccer:right-fullback"/>
+            <xs:enumeration value="soccer:left-fullback"/>
+            <xs:enumeration value="soccer:sweeper"/>
+            <xs:enumeration value="soccer:defender"/>
+            <xs:enumeration value="soccer:central-defender"/>
+            <xs:enumeration value="soccer:right-midfielder" />
+            <xs:enumeration value="soccer:left-midfielder" />
+            <xs:enumeration value="soccer:center-midfielder"/>
+            <xs:enumeration value="soccer:midfielder"/>
+            <xs:enumeration value="soccer:attacking-midfielder"/>
+            <xs:enumeration value="soccer:defensive-midfielder"/>
+            <xs:enumeration value="soccer:half-back"/>
+            <xs:enumeration value="soccer:right-wing"/>
+            <xs:enumeration value="soccer:left-wing"/>
+            <xs:enumeration value="soccer:center-forward"/>
+            <xs:enumeration value="soccer:forward"/> 
+            <xs:enumeration value="soccer:striker"/>
+            <xs:enumeration value="soccer:goalkeeper"/>
+            <xs:enumeration value="soccer:coach"/>
+            <xs:enumeration value="soccer:assistant-coach"/>
+            <xs:enumeration value="soccer:referee"/>
+            <xs:enumeration value="soccer:assistant-referee"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+</xs:schema>

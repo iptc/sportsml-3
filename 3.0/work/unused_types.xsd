@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+
+    <!-- ========================================================================================= -->
+    <!--        Base Event Action Complex type                                                   -->	
+    <!-- ========================================================================================= -->	
+    <xs:complexType name="baseEventActionComplexType">
+        <xs:annotation>
+            <xs:documentation>Base structure for one event action.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+        <xs:attribute name="sport" type="QCodeType" use="optional">
+            <xs:annotation>
+                <xs:documentation>The sport to which the stats belong.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="date-time" type="TruncatedDateTimeType" use="optional">
+            <xs:annotation>
+                <xs:documentation>When the action occured.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="sequence-number" type="xs:nonNegativeInteger" use="optional">
+            <xs:annotation>
+                <xs:documentation>Sequence number of the action.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="comment" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>Textual comment about the action.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <!-- ========================================================================================= -->
+    <!--        Generic Event Action type                                                           -->	
+    <!-- ========================================================================================= -->	
+    <xs:complexType name="genericEventActionComplexType">
+        <xs:annotation>
+            <xs:documentation>Generic action that can be used instead of sport specific actions.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="baseEventActionComplexType">
+                <xs:attribute name="action-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A selection from a controlled-vocabulary list maintained by the publisher.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <!--
+       The content of these things should be built as attribute groups for the generic play
+		<xs:choice>
+			<xs:element name="american-football" type="americanFootballEventActionsComplexType"/>
+			<xs:element name="baseball" type="baseballEventActionsComplexType"/>
+			<xs:element name="basketball" type="basketballEventActionsComplexType"/>
+			<xs:element name="golf" type="golfEventActionsComplexType"/>
+			<xs:element name="ice-hockey" type="iceHockeyEventActionsComplexType"/>
+			<xs:element name="soccer" type="soccerEventActionsComplexType"/>
+			<xs:element name="tennis" type="tennisEventActionsComplexType"/>
+			<xs:element name="motor-racing" type="motorRacingEventActionsComplexType"/>
+			<xs:element name="curling" type="curlingEventActionsComplexType"/>
+			<xs:element name="rugby" type="rugbyEventActionsComplexType"/>
+			<xs:element name="event-action" type="genericEventActionComplexType" minOccurs="0" maxOccurs="unbounded"/>
+		
+		</xs:choice>
+-->		
+    
+    
+    <xs:element name="fixture-name" type="ConceptNameType" minOccurs="0" maxOccurs="unbounded" >					
+        <xs:annotation><xs:documentation>A publisher-created subset of the fixture-key.</xs:documentation></xs:annotation>
+    </xs:element>
+    
+    
+    
+    <xs:element name="team-metadata-american-football" type="americanFootballTeamMetadataComplexType"/>
+    <xs:complexType name="americanFootballTeamMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Metadata about a particular team. | Reserved for future football-specific attributes.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    <xs:element name="player-metadata-american-football" type="americanFootballPlayerMetadataComplexType"/>
+    <xs:complexType name="americanFootballPlayerMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Player metadata that is specific to football. | Reserved for future use.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    
+    
+    <xs:element name="team-stats-golf" type="golfTeamStatsComplexType"/>
+    <xs:complexType name="golfTeamStatsComplexType">
+        <xs:annotation>
+            <xs:documentation>Holds statistics particular to a team of golf players. | Reserved for future use.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="baseGolfStatsComplexType"></xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    
+    <xs:element name="team-metadata-tennis" type="tennisTeamMetadataComplexType"/>
+    <xs:complexType name="tennisTeamMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>A placeholder for event metadata specific for tennis. | Reserved for future use.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    <xs:element name="player-metadata-tennis" type="tennisPlayerMetadataComplexType"/>
+    <xs:complexType name="tennisPlayerMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Holds metadata specific to a tennis player. | Reserved for future use.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    <!-- ========================================================================================= -->
+    <!--        Basketball metadata complex types               -->	
+    <!-- ========================================================================================= -->	
+    
+    <xs:element name="event-metadata-basketball" type="basketballEventMetadataComplexType"/>
+    <xs:element name="team-metadata-basketball" type="basketballTeamMetadataComplexType"/>
+    <xs:complexType name="basketballEventMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Metadata about the event itself. | Placeholder in case needed</xs:documentation>
+        </xs:annotation>
+    </xs:complexType>
+    
+    <xs:complexType name="basketballTeamMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Metadata about the team. | Specific to the sport of basketball.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    <xs:element name="player-metadata-basketball" type="basketballPlayerMetadataComplexType"/>
+    <xs:complexType name="basketballPlayerMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Metadata about the player. | Specific to the sport of basketball.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    
+    <xs:element name="team-metadata-ice-hockey" type="iceHockeyTeamMetadataComplexType"/>
+    <xs:complexType name="iceHockeyTeamMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Metadata about one team. | Specific to ice-hockey.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    <xs:element name="team-metadata-soccer" type="soccerTeamMetadataComplexType"/>
+    <xs:complexType name="soccerTeamMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Soccer specific metadata for one team. | The team-metadata that is specific for soccer and does not apply in all sports.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    <xs:element name="player-metadata-rugby" type="rugbyPlayerMetadataComplexType"/>
+    <xs:complexType name="rugbyPlayerMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>Player metadata specific to rugby. | Metadata for one player, specific to rugby.</xs:documentation>
+        </xs:annotation>
+        <xs:attributeGroup ref="commonAttributes"/>
+    </xs:complexType>
+    
+    
+</xs:schema>

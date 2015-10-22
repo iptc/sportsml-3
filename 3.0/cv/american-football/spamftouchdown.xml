@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+  <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spamftouchdown" version="1">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <rightsInfo>
+      <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+        <name>IPTC - International Press Telecommunications Council</name>
+      </copyrightHolder>
+      <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+      <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+    </rightsInfo>
+    <itemMeta>
+      <itemClass qcode="cinat:scheme"/>
+      <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+        <name>IPTC</name>
+      </provider>
+      <versionCreated>2015-10-21T15:15:32-04:00</versionCreated>
+      <pubStatus qcode="stat:usable"/>
+    </itemMeta>
+    <contentMeta>
+      <contentCreated>2015-10-21T15:15:32-04:00</contentCreated>
+      <infoSource literal="IPTC"/>
+      <creator qcode="web:iptc.org">
+        <name>International Press Telecommunications Council (IPTC)</name>
+      </creator>
+      <subject qcode="subj:15000000">
+        <name xml:lang="en-US">sport</name>
+      </subject>
+      <subject qcode="subj:15003000">
+        <name xml:lang="en-US">american-football</name>
+        <broader qcode="subj:15000000"/>
+      </subject>
+      <description>Types of touchdown in American football.</description>
+    </contentMeta>
+    <conceptSet>
+      <concept id="spamftouchdownfumble-return">
+        <conceptId qcode="spamftouchdown:fumble-return"/>
+        <name xml:lang="en-GB">fumble-return</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdowninterception-return">
+        <conceptId qcode="spamftouchdown:interception-return"/>
+        <name xml:lang="en-GB">interception-return</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownblocked-field-goal">
+        <conceptId qcode="spamftouchdown:blocked-field-goal"/>
+        <name xml:lang="en-GB">blocked-field-goal</name>
+        <definition>Scored when the opposing team recovers the live ball off a blocked field goal and returns to its end zone.</definition>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownmissed-field-goal">
+        <conceptId qcode="spamftouchdown:missed-field-goal"/>
+        <name xml:lang="en-GB">missed-field-goal</name>
+        <definition>Scored when the opposing team opts to return a missed field goal and runs ball to its end zone.</definition>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownblocked-punt">
+        <conceptId qcode="spamftouchdown:blocked-punt"/>
+        <name xml:lang="en-GB">blocked-punt</name>
+        <definition>Scored when the opposing team recovers the live ball off a blocked punt and returns to its end zone.</definition>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownpunt-return">
+        <conceptId qcode="spamftouchdown:punt-return"/>
+        <name xml:lang="en-GB">punt-return</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownkickoff-return">
+        <conceptId qcode="spamftouchdown:kickoff-return"/>
+        <name xml:lang="en-GB">kickoff-return</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownpass">
+        <conceptId qcode="spamftouchdown:pass"/>
+        <name xml:lang="en-GB">pass</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spamftouchdownrush">
+        <conceptId qcode="spamftouchdown:rush"/>
+        <name xml:lang="en-GB">rush</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
+      </concept>
+    </conceptSet>
+    <schemeMeta uri="http://cv.iptc.org/newscodes/spamfstat/" authority="http://www.iptc.org" preferredalias="spamfstat">
+      <definition xml:lang="en-GB">Types of touchdown in American football.</definition>
+      <name xml:lang="en-GB">American Football Statistics</name>
+      <related qcode="spamftouchdown:fumble-return" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:interception-return" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:blocked-field-goal" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:missed-field-goal" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:blocked-punt" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:punt-return" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:kickoff-return" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:pass" rel="skos:hasTopConcept"/>
+      <related qcode="spamftouchdown:rush" rel="skos:hasTopConcept"/>
+      <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+    </schemeMeta>
+  </knowledgeItem>

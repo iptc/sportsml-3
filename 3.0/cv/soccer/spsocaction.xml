@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+  <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spsocaction" version="1">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <rightsInfo>
+      <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+        <name>IPTC - International Press Telecommunications Council</name>
+      </copyrightHolder>
+      <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+      <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+    </rightsInfo>
+    <itemMeta>
+      <itemClass qcode="cinat:scheme"/>
+      <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+        <name>IPTC</name>
+      </provider>
+      <versionCreated>2015-10-21T15:15:32-04:00</versionCreated>
+      <pubStatus qcode="stat:usable"/>
+    </itemMeta>
+    <contentMeta>
+      <contentCreated>2015-10-21T15:15:32-04:00</contentCreated>
+      <infoSource literal="IPTC"/>
+      <creator qcode="web:iptc.org">
+        <name>International Press Telecommunications Council (IPTC)</name>
+      </creator>
+      <subject qcode="subj:15000000">
+        <name xml:lang="en-US">sport</name>
+      </subject>
+      <subject qcode="subj:15054000">
+        <name xml:lang="en-US">soccer</name>
+        <broader qcode="subj:15000000"/>
+      </subject>
+      <description/>
+    </contentMeta>
+    <conceptSet>
+      <concept id="spsocactionshot">
+        <conceptId qcode="spsocaction:shot"/>
+        <name xml:lang="en-GB">shot</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionoffside">
+        <conceptId qcode="spsocaction:offside"/>
+        <name xml:lang="en-GB">offside</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionfoul">
+        <conceptId qcode="spsocaction:foul"/>
+        <name xml:lang="en-GB">foul</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactioncorner">
+        <conceptId qcode="spsocaction:corner"/>
+        <name xml:lang="en-GB">corner</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionthrow-in">
+        <conceptId qcode="spsocaction:throw-in"/>
+        <name xml:lang="en-GB">throw-in</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionpass">
+        <conceptId qcode="spsocaction:pass"/>
+        <name xml:lang="en-GB">pass</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionpenalty">
+        <conceptId qcode="spsocaction:penalty"/>
+        <name xml:lang="en-GB">penalty</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiontimeout">
+        <conceptId qcode="spsocaction:timeout"/>
+        <name xml:lang="en-GB">timeout</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactioncross">
+        <conceptId qcode="spsocaction:cross"/>
+        <name xml:lang="en-GB">cross</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionthrow-in">
+        <conceptId qcode="spsocaction:throw-in"/>
+        <name xml:lang="en-GB">throw-in</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionfree-kick">
+        <conceptId qcode="spsocaction:free-kick"/>
+        <name xml:lang="en-GB">free-kick</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiongoalkeeper-throw">
+        <conceptId qcode="spsocaction:goalkeeper-throw"/>
+        <name xml:lang="en-GB">goalkeeper-throw</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiongoaltender-kick">
+        <conceptId qcode="spsocaction:goaltender-kick"/>
+        <name xml:lang="en-GB">goaltender-kick</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiontake-on">
+        <conceptId qcode="spsocaction:take-on"/>
+        <name xml:lang="en-GB">take-on</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiontackle">
+        <conceptId qcode="spsocaction:tackle"/>
+        <name xml:lang="en-GB">tackle</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionturnover">
+        <conceptId qcode="spsocaction:turnover"/>
+        <name xml:lang="en-GB">turnover</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionclaim">
+        <conceptId qcode="spsocaction:claim"/>
+        <name xml:lang="en-GB">claim</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionclearance">
+        <conceptId qcode="spsocaction:clearance"/>
+        <name xml:lang="en-GB">clearance</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionsubstitution">
+        <conceptId qcode="spsocaction:substitution"/>
+        <name xml:lang="en-GB">substitution</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionsub-on">
+        <conceptId qcode="spsocaction:sub-on"/>
+        <name xml:lang="en-GB">sub-on</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionsub-off">
+        <conceptId qcode="spsocaction:sub-off"/>
+        <name xml:lang="en-GB">sub-off</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionplayer-retired">
+        <conceptId qcode="spsocaction:player-retired"/>
+        <name xml:lang="en-GB">player-retired</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionplayer-returned">
+        <conceptId qcode="spsocaction:player-returned"/>
+        <name xml:lang="en-GB">player-returned</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactioncondition-change">
+        <conceptId qcode="spsocaction:condition-change"/>
+        <name xml:lang="en-GB">condition-change</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionofficial-change">
+        <conceptId qcode="spsocaction:official-change"/>
+        <name xml:lang="en-GB">official-change</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionaerial-dual">
+        <conceptId qcode="spsocaction:aerial-dual"/>
+        <name xml:lang="en-GB">aerial-dual</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactionchallenge">
+        <conceptId qcode="spsocaction:challenge"/>
+        <name xml:lang="en-GB">challenge</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiongiveaway">
+        <conceptId qcode="spsocaction:giveaway"/>
+        <name xml:lang="en-GB">giveaway</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactiontakeaway">
+        <conceptId qcode="spsocaction:takeaway"/>
+        <name xml:lang="en-GB">takeaway</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactioncross">
+        <conceptId qcode="spsocaction:cross"/>
+        <name xml:lang="en-GB">cross</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+      <concept id="spsocactioncross">
+        <conceptId qcode="spsocaction:cross"/>
+        <name xml:lang="en-GB">cross</name>
+        <definition/>
+        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
+      </concept>
+    </conceptSet>
+    <schemeMeta uri="http://cv.iptc.org/newscodes/spsocstat/" authority="http://www.iptc.org" preferredalias="spsocstat">
+      <definition xml:lang="en-GB"/>
+      <name xml:lang="en-GB">Soccer Statistics</name>
+      <related qcode="spsocaction:shot" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:offside" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:foul" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:corner" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:throw-in" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:pass" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:penalty" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:timeout" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:cross" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:throw-in" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:free-kick" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:goalkeeper-throw" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:goaltender-kick" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:take-on" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:tackle" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:turnover" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:claim" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:clearance" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:substitution" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:sub-on" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:sub-off" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:player-retired" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:player-returned" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:condition-change" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:official-change" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:aerial-dual" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:challenge" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:giveaway" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:takeaway" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:cross" rel="skos:hasTopConcept"/>
+      <related qcode="spsocaction:cross" rel="skos:hasTopConcept"/>
+      <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+    </schemeMeta>
+  </knowledgeItem>
