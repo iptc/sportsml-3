@@ -234,7 +234,11 @@ Removed unused components from the plugins
         </xs:annotation>
         <xs:complexContent>
             <xs:extension base="baseTournamentMetadataComplexType">
-                <xs:attribute name="type" type="QCodeType" use="required"/>
+                <xs:attribute name="type" type="QCodeType" use="required">
+                    <xs:annotation>
+                        <xs:documentation>The type of phase of the tournament: group, elimination, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentstage/</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
@@ -661,17 +665,17 @@ Removed unused components from the plugins
                         <xs:documentation>How many spectators can fill the site.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="site_style" type="QCodeType" use="optional">
+                <xs:attribute name="site-style" type="QCodeType" use="optional">
                     <xs:annotation>
                         <xs:documentation>Whether it is an indoor or outdoor site.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="surface" type="xs:string" use="optional">
+                <xs:attribute name="surface" type="QCodeType" use="optional">
                     <xs:annotation>
                         <xs:documentation>Describes the surface upon which events are played. For example, in tennis, could be hard-court or grass or clay.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="shape" type="xs:string" use="optional">
+                <xs:attribute name="shape" type="QCodeType" use="optional">
                     <xs:annotation>
                         <xs:documentation>A controlled vocabulary for the site's shape. Example for motor-racing: oval.</xs:documentation>
                     </xs:annotation>
@@ -2360,9 +2364,9 @@ Removed unused components from the plugins
     </xs:attributeGroup>
     
     <xs:attributeGroup name="curlingEquipmentAttributes">
-        <xs:attribute name="stone_color" use="optional" type="xs:string"/>
-        <xs:attribute name="stone_id" use="optional" type="xs:string"/>
-        <xs:attribute name="stone_number" use="optional" type="xs:integer"/>
+        <xs:attribute name="stone-color" use="optional" type="xs:string"/>
+        <xs:attribute name="stone-id" use="optional" type="xs:string"/>
+        <xs:attribute name="stone-number" use="optional" type="xs:integer"/>
     </xs:attributeGroup>
     
     <!-- ========================================================================================= -->
@@ -2405,7 +2409,7 @@ Removed unused components from the plugins
                 </xs:attribute>
                 <xs:attribute name="event-status-reason" type="xs:string" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The reason for the event status. Eg. why the cancellation, postponement, etc. CHECK!!</xs:documentation>
+                        <xs:documentation>The reason for the event status. Eg. why the cancellation, postponement, etc.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="event-status-note" type="xs:string" use="optional">
@@ -2462,7 +2466,7 @@ Removed unused components from the plugins
                 </xs:attribute>
                 <xs:attribute name="season-type" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>A subcategory of the season.</xs:documentation>
+                        <xs:documentation>A subcategory of the season. SportsML vocab uri: http://cv.iptc.org/newscodes/spseasontype/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="series-index" type="xs:string" use="optional">
@@ -2526,7 +2530,7 @@ Removed unused components from the plugins
                             extended format: YYYY-MM-DDTHH:MM:SS+HH:MM. Use YYYY-MM-DD when no time is available.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="height" type="xs:nonNegativeInteger" use="optional">
+                <xs:attribute name="height" type="xs:string" use="optional">
                     <xs:annotation>
                         <xs:documentation>Height of the person. Generally in cm.</xs:documentation>
                     </xs:annotation>
@@ -2580,6 +2584,10 @@ Removed unused components from the plugins
         </xs:annotation>
         <xs:complexContent>
             <xs:extension base="basePersonMetadataComplexType">
+                <xs:choice minOccurs="0">
+                    <xs:element name="career-phase" type="baseCareerPhaseMetadataComplexType"/>
+                    <xs:element name="injury-phase" type="baseInjuryPhaseMetadataComplexType"/>
+                </xs:choice>
                 <xs:attribute name="team-idref" type="xs:string" use="optional">
                     <xs:annotation>
                         <xs:documentation>A reference to the team for which this player competes.</xs:documentation>
@@ -2618,6 +2626,147 @@ Removed unused components from the plugins
                 <xs:attribute name="round-position" type="xs:string" use="optional">
                     <xs:annotation>
                         <xs:documentation>The seed or position in this particular round for which this player started. Useful for bracketed tournaments, such as tennis.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <!-- ========================================================================================= -->
+    <!-- Career phase metadata complex type -->
+    <!-- ========================================================================================= -->
+    <xs:complexType name="baseCareerPhaseMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>A description of where a player is playing, or has previously played. | Can be used to state where the player went to college. Can also list previous teams of the player.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="basePlayerMetadataComplexType">
+                <xs:attribute name="phase-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Value can be college or professional, etc.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="start-date" type="TruncatedDateTimeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>When the player started this phase in the career, normalized to ISO 8601 extended format: YYYY-MM-DDTHH:MM:SS+HH:MM. Use YYYY-MM-DD when no time is available.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="end-date" type="TruncatedDateTimeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>When the player ended this phase in the career, normalized to ISO 8601 extended format: YYYY-MM-DDTHH:MM:SS+HH:MM. Use YYYY-MM-DD when no time is available.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="duration" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>In lieu of a start-date and end-date. Generally in years. Could hold the number of years that a player was a pro. Use temporal-unti vocabulary.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="subphase-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A subcategory of the phase-type, for example could be sophomore or rookie.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="phase-status" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Player's status within a particular phase. For example, active, injured, etc.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="phase-caliber" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A controlled vocabulary for the name attribute. States organization this player was in, for the duration of the phase. For example, league or team.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="phase-caliber-key" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The metadata key within the phase-caliber. For example, l.nfl.com if phase-caliber is league. Or l.nfl.com-t.2 if phase-caliber is team.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="entry-reason" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The reason why the player entered this phase. For example, draft or trade.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="selection-level" type="xs:integer" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The level within which the player was selected to enter this phase. For example, 1, if drafted in 1st round.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="selection-sublevel" type="xs:integer" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The sublevel of the selection-level. For example, 27, if picked as 27th selection in 1st round.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="selection-overall" type="xs:integer" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The total ranking amongst all levels in a draft.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="exit-reason" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The reason why the player exitted this phase. For example, retired or waived.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    
+    <!-- ========================================================================================= -->
+    <!-- Career phase metadata complex type -->
+    <!-- ========================================================================================= -->
+    <xs:complexType name="baseInjuryPhaseMetadataComplexType">
+        <xs:annotation>
+            <xs:documentation>A description of where a player is playing, or has previously played. | Can be used to state where the player went to college. Can also list previous teams of the player.</xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="basePlayerMetadataComplexType">
+                <xs:attribute name="phase-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Value can be college or professional, etc.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="start-date" type="TruncatedDateTimeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>When the player started this phase in the career, normalized to ISO 8601 extended format: YYYY-MM-DDTHH:MM:SS+HH:MM. Use YYYY-MM-DD when no time is available.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="end-date" type="TruncatedDateTimeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>When the player ended this phase in the career, normalized to ISO 8601 extended format: YYYY-MM-DDTHH:MM:SS+HH:MM. Use YYYY-MM-DD when no time is available.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="phase-status" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Player's status within a particular phase. For example, active, injured, etc.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="injury-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A controlled vocabulary for the injury. For example, thigh or hand or lower-back.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="injury-side" type="bodySideList" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A controlled vocabulary for the body side of the injury. For example, left or right.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="upcoming-event-date" type="TruncatedDateTimeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Generally, the date on which this player has a non-injured status, and has some probability of playing again.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="upcoming-event-key" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The key for the forthcoming event taking place on upcoming-event-date.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="upcoming-event-status" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A measurement of the status of the player for that upcoming event. For example, probable or likely.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="comment" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>A textual description for the injury phase.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
             </xs:extension>
@@ -2977,7 +3126,7 @@ Removed from genericStatAttributes:
             <xs:annotation>
                 <xs:documentation>Describes the effect that the result of the event or rank changing
                     has had on the team. Example: Whether or not a team has qualified for the
-                    playoffs, or has been promoted or demoted to a different division.</xs:documentation>
+                    playoffs, or has been promoted or demoted to a different division. SportsML vocab uri: http://cv.iptc.org/newscodes/spresulteffect/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="event-outcome" type="QCodeType" use="optional">

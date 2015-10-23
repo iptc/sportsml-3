@@ -32,7 +32,9 @@
          <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
          </subject>
-         <description/>
+         <description>Describes the effect that the result of the event or rank changing
+            has had on the team. Example: Whether or not a team has qualified for the
+            playoffs, or has been promoted or demoted to a different division.</description>
       </contentMeta>
       <conceptSet>
          <concept id="spresulteffectqualification">
@@ -58,7 +60,7 @@
                authority="http://www.iptc.org"
                preferredalias="spstat">
          <definition xml:lang="en-GB"/>
-         <name xml:lang="en-GB">Core Statistics</name>
+         <name xml:lang="en-GB">Result Effect</name>
          <related qcode="spresulteffect:qualification" rel="skos:hasTopConcept"/>
          <related qcode="spresulteffect:promotion" rel="skos:hasTopConcept"/>
          <related qcode="spresulteffect:demotion" rel="skos:hasTopConcept"/>

@@ -25,7 +25,7 @@
       <subject qcode="subj:15000000">
         <name xml:lang="en-US">sport</name>
       </subject>
-      <description/>
+      <description>What type of outcome. Includes overtime, random (eg. by coin toss), etc.</description>
     </contentMeta>
     <conceptSet>
       <concept id="speventoutcometyperegular">
@@ -67,7 +67,7 @@
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spstat/" authority="http://www.iptc.org" preferredalias="spstat">
       <definition xml:lang="en-GB"/>
-      <name xml:lang="en-GB">Core Statistics</name>
+      <name xml:lang="en-GB">Event Outcome Type</name>
       <related qcode="speventoutcometype:regular" rel="skos:hasTopConcept"/>
       <related qcode="speventoutcometype:overtime" rel="skos:hasTopConcept"/>
       <related qcode="speventoutcometype:shootout" rel="skos:hasTopConcept"/>

@@ -32,7 +32,7 @@
          <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
          </subject>
-         <description/>
+         <description>The type of phase of the tournament: group, elimination, etc.</description>
       </contentMeta>
       <conceptSet>
          <concept id="sptournamentstagehosted">
@@ -103,7 +103,7 @@
                authority="http://www.iptc.org"
                preferredalias="spstat">
          <definition xml:lang="en-GB"/>
-         <name xml:lang="en-GB">Core Statistics</name>
+         <name xml:lang="en-GB">Tournament Stage</name>
          <related qcode="sptournamentstage:hosted" rel="skos:hasTopConcept"/>
          <related qcode="sptournamentstage:group" rel="skos:hasTopConcept"/>
          <related qcode="sptournamentstage:single-group" rel="skos:hasTopConcept"/>
