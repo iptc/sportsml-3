@@ -69,8 +69,6 @@ Removed unused components from the plugins
 2015-10-16 JL added outcome-result with attributes and the attribute period-start(and end)-date-time to coverageAttributes
 -->
     
-    <!-- NOTE: Places marked with Check!! need to be checked and discussed. -->
-    
     <xs:annotation>
         <xs:appinfo>SportsML</xs:appinfo>
         <xs:documentation>SportsML is a global XML standard for the interchange of sports data.
@@ -494,10 +492,10 @@ Removed unused components from the plugins
                 <xs:annotation>
                     <xs:documentation>One specific gender or mixed.</xs:documentation>
                 </xs:annotation>
-                <xs:restriction base="xs:string">
-                    <xs:enumeration value="male"/>
-                    <xs:enumeration value="female"/>
-                    <xs:enumeration value="mixed"/>
+                <xs:restriction id="genderQual" base="xs:string">
+                    <xs:enumeration id="genderQualMale" value="male"/>
+                    <xs:enumeration id="genderQualFemale" value="female"/>
+                    <xs:enumeration id="genderQualMixed" value="mixed"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -732,10 +730,10 @@ Removed unused components from the plugins
             <xs:annotation>
                 <xs:documentation>Statistics about the site, accurate for a particular occasion. home means the site is home for one of the teams or players. neutral that it is neutral to all participants in the event.</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="siteAlignment">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="home"/>
-                    <xs:enumeration value="neutral"/>
+                    <xs:enumeration id="siteAlignmentHome" value="home"/>
+                    <xs:enumeration id="siteAlignmentNeutral" value="neutral"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -1886,11 +1884,11 @@ Removed unused components from the plugins
                             does not necessarily indicate that it is the geographical home-site of
                             the team or player.</xs:documentation>
                     </xs:annotation>
-                    <xs:simpleType>
+                    <xs:simpleType id="alignment">
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value="home"/>
-                            <xs:enumeration value="away"/>
-                            <xs:enumeration value="none"/>
+                            <xs:enumeration id="alignmentHome" value="home"/>
+                            <xs:enumeration id="alignmentAway" value="away"/>
+                            <xs:enumeration id="alignmentNone" value="none"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:attribute>
@@ -1972,15 +1970,27 @@ Removed unused components from the plugins
 
     <!-- Compilation of attributes used in actions -->
     <xs:attributeGroup name="actionAttributes">
-        <xs:attributeGroup ref="commonAttributes"/>
-        <!-- Common attributes -->
+        <xs:attributeGroup ref="commonAttributes">
+            <xs:annotation>
+                <xs:documentation>Common attributes</xs:documentation>
+            </xs:annotation>
+        </xs:attributeGroup>
         <xs:attributeGroup ref="baseEventStateAttributeGroup"/>
-        <xs:attribute name="team-idref" type="xs:string" use="optional"/>
-        <!-- This is considered the "current" team in action -->
-        <xs:attribute name="opposing-team-idref" type="xs:string" use="optional"/>
-        <!-- This is the opposing team, if any -->
-        <xs:attribute name="created" type="xs:dateTime" use="optional"/>
-        <!-- Date and time when this play/action was created -->
+        <xs:attribute name="team-idref" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>This is considered the "current" team in action</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="opposing-team-idref" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>This is the opposing team, if any</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="created" type="xs:dateTime" use="optional">
+            <xs:annotation>
+                <xs:documentation>Date and time when this play/action was created</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
         <xs:attribute name="result" use="optional" type="QCodeType">
             <xs:annotation>
                 <xs:documentation>The result of the play or action. See "result" SportsML vocabs for various sports:
@@ -2171,10 +2181,10 @@ Removed unused components from the plugins
         </xs:attribute>
         <xs:attribute name="penalty-status" use="optional">
             <!-- If this action marks the start or the end of the penalty time -->
-            <xs:simpleType>
+            <xs:simpleType id="penaltyStatus">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="start"/>
-                    <xs:enumeration value="end"/>
+                    <xs:enumeration id="penaltyStatusStart" value="start"/>
+                    <xs:enumeration id="penaltyStatusEnd" value="end"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -2336,10 +2346,10 @@ Removed unused components from the plugins
             <xs:annotation>
                 <xs:documentation>Whether the participant in the play can be given credit for the goal or score.</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="scoreCredit">
                 <xs:restriction base="xs:integer">
-                    <xs:enumeration value="1"/>
-                    <xs:enumeration value="0"/>
+                    <xs:enumeration id="scoreCredit1" value="1"/>
+                    <xs:enumeration id="scoreCredit0" value="0"/>
                 </xs:restriction>
             </xs:simpleType>            
         </xs:attribute>
@@ -2457,10 +2467,10 @@ Removed unused components from the plugins
                     <xs:annotation>
                         <xs:documentation>For TBA times.</xs:documentation>
                     </xs:annotation>
-                    <xs:simpleType>
+                    <xs:simpleType id="timeCertainty">
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value="certain"/>
-                            <xs:enumeration value="to-be-announced"/>
+                            <xs:enumeration id="timeCertaintyCertain" value="certain"/>
+                            <xs:enumeration id="timeCertaintyTo-be-announced" value="to-be-announced"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:attribute>
@@ -2569,10 +2579,10 @@ Removed unused components from the plugins
                     <xs:annotation>
                         <xs:documentation>Male or female.</xs:documentation>
                     </xs:annotation>
-                    <xs:simpleType>
+                    <xs:simpleType id="gender">
                         <xs:restriction base="xs:string">
-                            <xs:enumeration value="male"/>
-                            <xs:enumeration value="female"/>
+                            <xs:enumeration id="genderMale" value="male"/>
+                            <xs:enumeration id="genderFemale" value="female"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:attribute>
@@ -2843,22 +2853,6 @@ Removed unused components from the plugins
     </xs:complexType>
     
     <!-- ========================================================================================= -->
-    <!-- Attribute groups -->
-    <!-- ========================================================================================= -->
-    <!--
-Removed from genericStatAttributes:
-<xs:attribute name="period- value" type="xs:nonNegativeInteger" use="optional">
-<xs:annotation>
-<xs:documentation>Qualifier of "period" value for temporal-unit attribute. Specify the period number to which the stats apply.</xs:documentation>
-</xs:annotation>
-</xs:attribute>
-<xs:attribute name="role" type="xs:string" use="optional">
-<xs:annotation>
-<xs:documentation>The position or role the player played when generating these stats. [NOTE: Need to access all the sport-specific position vocabs here.]</xs:documentation>
-</xs:annotation>
-</xs:attribute>
--->
-    <!-- ========================================================================================= -->
     <!-- Coverage Attributes -->
     <!-- ========================================================================================= -->
     <xs:attributeGroup name="coverageAttributes">
@@ -2872,15 +2866,15 @@ Removed from genericStatAttributes:
                 <xs:documentation>Indicates whether the item contains information about one team, or
                     many teams.</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="teamCoverage">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="single-team">
+                    <xs:enumeration id="teamCoverageSingle-team" value="single-team">
                         <xs:annotation>
                             <xs:documentation>Contains only information about a single
                                 team.</xs:documentation>
                         </xs:annotation>
                     </xs:enumeration>
-                    <xs:enumeration value="multi-team">
+                    <xs:enumeration id="teamCoverageMulti-team" value="multi-team">
                         <xs:annotation>
                             <xs:documentation>Contains information about many or all teams in a
                                 league.</xs:documentation>
@@ -2898,14 +2892,14 @@ Removed from genericStatAttributes:
             <xs:annotation>
                 <xs:documentation>Indicates that the included statistics apply only to events played either at home or away.</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="alignmentScope">
                 <xs:annotation>
                     <xs:documentation>Every event played, including those played at home and hope so. The default option.</xs:documentation>
                 </xs:annotation>
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="events-all"/>
-                    <xs:enumeration value="events-home"/>
-                    <xs:enumeration value="events-away"/>
+                    <xs:enumeration id="alignmentScopeEvents-all" value="events-all"/>
+                    <xs:enumeration id="alignmentScopeEvents-home" value="events-home"/>
+                    <xs:enumeration id="alignmentScopeEvents-away" value="events-away"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3045,24 +3039,7 @@ Removed from genericStatAttributes:
             </xs:annotation>
         </xs:attribute>
     </xs:attributeGroup>
-    <!-- Removed from coverageAttributes:
-<xs:attribute name="date-coverage-type" type="QCodeType" use="optional">
-<xs:annotation>
-<xs:documentation>Describes what time period the statistics describe. Examples: just this week, this event, or this playoff season.</xs:documentation>
-</xs:annotation>
-</xs:attribute>
-<xs:attribute name="date-coverage-value" type="xs:string" use="optional">
-<xs:annotation>
-<xs:documentation>Value that further describes the dates covered. Example: if type is season, value can be 2001-2002.</xs:documentation>
-</xs:annotation>
-</xs:attribute>
-<xs:attribute name="competition-scope" type="QCodeType" use="optional">
-<xs:annotation>
-<xs:documentation>Indicates that the included statistics apply only to events against particular groups of opponents, such as those in the same division.</xs:documentation>
-</xs:annotation>
-</xs:attribute>
--->
-    
+
     <!-- ========================================================================================= -->
     <!-- Stat Attributes -->
     <!-- ========================================================================================= -->
@@ -3225,10 +3202,10 @@ Removed from genericStatAttributes:
         </xs:attribute>
         <xs:attribute name="clock-state" use="optional">
             <!-- Whether the clock is running or stopped. -->
-            <xs:simpleType>
+            <xs:simpleType id="clockState">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="stopped"/>
-                    <xs:enumeration value="running"/>
+                    <xs:enumeration id="clockStateStopped" value="stopped"/>
+                    <xs:enumeration id="clockStateRunning" value="running"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3241,10 +3218,10 @@ Removed from genericStatAttributes:
             <xs:annotation>
                 <xs:documentation>Which side of the field the event is taking place.  Either "home" or "away".</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="fieldSide">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="home"/>
-                    <xs:enumeration value="away"/>
+                    <xs:enumeration id="fieldSideHome" value="home"/>
+                    <xs:enumeration id="fieldSideAway" value="away"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3311,10 +3288,10 @@ Removed from genericStatAttributes:
         <xs:attribute name="error-type" use="optional" type="QCodeType"/>
         <!-- -->
         <xs:attribute name="hit-by-pitch-type" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="hitByPitchType">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="intentional"/>
-                    <xs:enumeration value="unintentional"/>
+                    <xs:enumeration id="hitByPitchTypeIntentional" value="intentional"/>
+                    <xs:enumeration id="hitByPitchTypeUnintentional" value="unintentional"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3326,10 +3303,10 @@ Removed from genericStatAttributes:
         <xs:attribute name="inning-exiting" use="optional" type="QCodeType"/>
         <!-- -->
         <xs:attribute name="inning-half" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="inningHalf">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="top"/>
-                    <xs:enumeration value="bottom"/>
+                    <xs:enumeration id="inningHalfTop" value="top"/>
+                    <xs:enumeration id="inningHalfBottom" value="bottom"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3384,10 +3361,10 @@ Removed from genericStatAttributes:
         <xs:attribute name="sacrifice-type" use="optional" type="QCodeType"/>
         <!-- -->
         <xs:attribute name="strikeout-type" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="strikeoutType">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="called"/>
-                    <xs:enumeration value="swinging"/>
+                    <xs:enumeration id="strikeoutTypeCalled" value="called"/>
+                    <xs:enumeration id="strikeoutTypeSwinging" value="swinging"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3401,10 +3378,10 @@ Removed from genericStatAttributes:
         <xs:attribute name="velocity" use="optional" type="QCodeType"/>
         <!-- -->
         <xs:attribute name="walk-type" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="walkType">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="intentional"/>
-                    <xs:enumeration value="unintentional"/>
+                    <xs:enumeration id="walkTypeIntentional" value="intentional"/>
+                    <xs:enumeration id="walkTypeUnintentional" value="unintentional"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3425,19 +3402,19 @@ Removed from genericStatAttributes:
         <xs:attribute name="pitch-velocity" use="optional" type="xs:decimal"/>
         <!-- -->
         <xs:attribute name="pitch-units" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="pitchUnits">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="kph"/>
-                    <xs:enumeration value="mph"/>
+                    <xs:enumeration id="pitchUnitsKph" value="kph"/>
+                    <xs:enumeration id="pitchUnitsMph" value="mph"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
         <xs:attribute name="strike-type" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="strikeType">
             <xs:restriction base="xs:string">
-                <xs:enumeration value="called"/>
-                <xs:enumeration value="swinging"/>
-                <xs:enumeration value="foul"/>
+                <xs:enumeration id="strikeTypeCalled" value="called"/>
+                <xs:enumeration id="strikeTypeSwinging" value="swinging"/>
+                <xs:enumeration id="strikeTypeFoul" value="foul"/>
             </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3446,11 +3423,11 @@ Removed from genericStatAttributes:
             <xs:annotation>
                 <xs:documentation>The net result of the pitch.</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="umpireCall">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="ball"/>
-                    <xs:enumeration value="strike"/>
-                    <xs:enumeration value="in-play"/>
+                    <xs:enumeration id="umpireCallBall" value="ball"/>
+                    <xs:enumeration id="umpireCallStrike" value="strike"/>
+                    <xs:enumeration id="umpireCallIn-play" value="in-play"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
@@ -3473,15 +3450,15 @@ Removed from genericStatAttributes:
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="turn" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="turn">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="inturn">
+                    <xs:enumeration id="turnInturn" value="inturn">
                         <xs:annotation>
                             <xs:documentation>When the stone is released with a clock-wise
                                 turn.</xs:documentation>
                         </xs:annotation>
                     </xs:enumeration>
-                    <xs:enumeration value="outturn">
+                    <xs:enumeration id="turnOutturn" value="outturn">
                         <xs:annotation>
                             <xs:documentation>When the stone is released with a anti-clock-wise
                                 turn.</xs:documentation>
@@ -3596,15 +3573,15 @@ Removed from genericStatAttributes:
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="win-type" use="optional">
-            <xs:simpleType>
+            <xs:simpleType id="winType">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="forced">
+                    <xs:enumeration id="winTypeForced" value="forced">
                         <xs:annotation>
                             <xs:documentation>The point was made while the opponent for example
                                 advanced towards the net.</xs:documentation>
                         </xs:annotation>
                     </xs:enumeration>
-                    <xs:enumeration value="unforced">
+                    <xs:enumeration id="winTypeUnforced" value="unforced">
                         <xs:annotation>
                             <xs:documentation>The point was made regardless of specific actions by
                                 the opponent.</xs:documentation>
@@ -3648,14 +3625,14 @@ Removed from genericStatAttributes:
         <xs:union memberTypes="xs:time xs:nonNegativeInteger MinutesAndSeconds"/>
     </xs:simpleType>
     
-    <xs:simpleType name="bodySideList">
+    <xs:simpleType id="bodySideList" name="bodySideList">
         <xs:annotation>
             <xs:documentation>General purpose vocabulary for various properties describing the the side with which a player shoots, kicks, catches, bats, etc. Also to describe injury side.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
-            <xs:enumeration value="right"/>
-            <xs:enumeration value="left"/>
-            <xs:enumeration value="both"/>
+            <xs:enumeration id="bodySideListRight" value="right"/>
+            <xs:enumeration id="bodySideListLeft" value="left"/>
+            <xs:enumeration id="bodySideListBoth" value="both"/>
         </xs:restriction>
     </xs:simpleType>
     
@@ -3777,11 +3754,11 @@ Removed from genericStatAttributes:
             <xs:annotation>
                 <xs:documentation>An indication of whether this line is a current line, or a repeat of a special-interest line from the past.</xs:documentation>
             </xs:annotation>
-            <xs:simpleType>
+            <xs:simpleType id="context">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration value="opening"/>
-                    <xs:enumeration value="closing"/>
-                    <xs:enumeration value="current"/>
+                    <xs:enumeration id="contextOpening" value="opening"/>
+                    <xs:enumeration id="contextClosing" value="closing"/>
+                    <xs:enumeration id="contextCurrent" value="current"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
