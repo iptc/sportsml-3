@@ -2063,7 +2063,11 @@ Removed unused components from the plugins
                 <xs:documentation>Who called the timeout, either team or official. ID is given under participant.  SportsML vocab uri: http://cv.iptc.org/newscodes/spamfcaller/ </xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="strength" use="optional" type="QCodeType"/>
+        <xs:attribute name="strength" use="optional" type="QCodeType">
+            <xs:annotation>
+                <xs:documentation>Even strength, power play, short handed, etc.  SportsML vocab uri: http://cv.iptc.org/newscodes/spichstrength/ </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
         <xs:attribute name="points" use="optional" type="xs:integer">
             <xs:annotation>
                 <xs:documentation>How many points this score was worth for the scoring team.</xs:documentation>
@@ -2125,6 +2129,7 @@ Removed unused components from the plugins
                 <xs:documentation>The type of shot taken. See "infractionresult" SportsML vocabs for various sports:
                     http://cv.iptc.org/newscodes/spgolshot/
                     http://cv.iptc.org/newscodes/sptenshot/
+                    http://cv.iptc.org/newscodes/spcurshot/
                 </xs:documentation>
             </xs:annotation>
         </xs:attribute>

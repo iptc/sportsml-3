@@ -36,7 +36,7 @@
             <name xml:lang="en-US">icehockey</name>
             <broader qcode="subj:15000000"/>
          </subject>
-         <description/>
+         <description>Ice Hockey player positions</description>
       </contentMeta>
       <conceptSet>
          <concept id="spichpositiondefenseman">
@@ -140,7 +140,7 @@
                authority="http://www.iptc.org"
                preferredalias="spichstat">
          <definition xml:lang="en-GB"/>
-         <name xml:lang="en-GB">Ice Hockey Statistics</name>
+         <name xml:lang="en-GB">Ice Hockey player positions</name>
          <related qcode="spichposition:defenseman" rel="skos:hasTopConcept"/>
          <related qcode="spichposition:left-defenseman" rel="skos:hasTopConcept"/>
          <related qcode="spichposition:right-defenseman" rel="skos:hasTopConcept"/>
