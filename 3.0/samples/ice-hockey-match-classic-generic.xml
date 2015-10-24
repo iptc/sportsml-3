@@ -4,7 +4,7 @@
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd">
+    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
     <sports-metadata date-time="2015-10-07T22:14:50-04:00"
         doc-id="xt.nhl.20001-BXG-20151007T221450-0400-FIN-FC0" language="en-US"
         fixture-key="nhldoc:event-stats-progressive" document-class="event-summary">
@@ -107,7 +107,7 @@
                     <stat class="spstatclass:offensive" stat-type="spihostat:giveaways" value="4"/>
                     <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                         value="14"/>
-                    <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
+                    <stat class="spstatclass:offensive" stat-type="spihostat:shot-attempts-blocked"
                         value="15"/>
                     <stat class="spstatclass:offensive" stat-type="spihostat:shots-power-play"
                         value="4"/>
@@ -208,8 +208,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="3"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -269,8 +269,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -328,7 +328,7 @@
                         <stat stat-type="spcorstat:count" value="0"/>
                         <stat stat-type="spcorstat:value" value="0"/>
                         <stat stat-type="spcorstat:value" value="2"/>
-                        <stat stat-type="none:name" value="Second Star"/>
+                        <stat stat-type="spihostat:name" value="Second Star"/>
                         <stat class="spstatclass:offensive" stat-type="spcorstat:points" value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:goals-power-play"
                             value="0"/>
@@ -349,8 +349,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:saves" value="27"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:save-percentage"
                             value="0.931"/>
@@ -405,8 +405,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -466,8 +466,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -534,8 +534,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -602,8 +602,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -663,8 +663,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -724,8 +724,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="4"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="4"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="4"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -785,8 +785,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -846,8 +846,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -907,8 +907,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -968,8 +968,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1029,8 +1029,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1090,8 +1090,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -1151,8 +1151,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1236,8 +1236,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:saves" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:save-percentage"
                             value="NaN"/>
@@ -1292,8 +1292,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="3"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="2"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1353,8 +1353,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="4"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1414,8 +1414,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1512,7 +1512,7 @@
                     <stat class="spstatclass:offensive" stat-type="spihostat:giveaways" value="9"/>
                     <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                         value="16"/>
-                    <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
+                    <stat class="spstatclass:offensive" stat-type="spihostat:shot-attempts-blocked"
                         value="9"/>
                     <stat class="spstatclass:offensive" stat-type="spihostat:shots-power-play"
                         value="0"/>
@@ -1613,8 +1613,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1698,8 +1698,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:saves" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:save-percentage"
                             value="NaN"/>
@@ -1754,8 +1754,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -1815,8 +1815,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1876,8 +1876,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="3"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -1937,8 +1937,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="1"/>
@@ -1998,8 +1998,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2039,7 +2039,7 @@
                         <stat stat-type="spcorstat:count" value="0"/>
                         <stat stat-type="spcorstat:value" value="0"/>
                         <stat stat-type="spcorstat:value" value="3"/>
-                        <stat stat-type="none:name" value="Third Star"/>
+                        <stat stat-type="spihostat:name" value="Third Star"/>
                         <stat stat-type="spihostat:plus-minus" value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spcorstat:points" value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:goals-power-play"
@@ -2061,8 +2061,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2122,8 +2122,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="2"/>
@@ -2183,8 +2183,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2244,8 +2244,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2305,8 +2305,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2366,8 +2366,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2434,8 +2434,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="3"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="3"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="3"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2495,8 +2495,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2554,7 +2554,7 @@
                         <stat stat-type="spcorstat:count" value="0"/>
                         <stat stat-type="spcorstat:value" value="0"/>
                         <stat stat-type="spcorstat:value" value="1"/>
-                        <stat stat-type="none:name" value="First Star"/>
+                        <stat stat-type="spihostat:name" value="First Star"/>
                         <stat class="spstatclass:offensive" stat-type="spcorstat:points" value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:goals-power-play"
                             value="0"/>
@@ -2575,8 +2575,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:saves" value="36"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:save-percentage"
                             value="0.973"/>
@@ -2631,8 +2631,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="2"/>
@@ -2692,8 +2692,8 @@
                             value="1"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2753,8 +2753,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="0"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="2"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2821,8 +2821,8 @@
                             value="0"/>
                         <stat class="spstatclass:offensive" stat-type="spihostat:shots-missed"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spihostat:shots-blocked"
-                            value="1"/>
+                        <stat class="spstatclass:offensive"
+                            stat-type="spihostat:shot-attempts-blocked" value="1"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:hits" value="0"/>
                         <stat class="spstatclass:defensive" stat-type="spihostat:takeaways"
                             value="0"/>
@@ -2919,50 +2919,55 @@
                 <participant idref="l.nhl.com-p.8476808" team-idref="l.nhl.com-t.8"
                     assists-cumulative="1" role="spihorole:assist"/>
             </action>
-            <action class="spactionclass:infraction" sequence-number="100" recipient-type="player"
-                team-idref="l.nhl.com-t.10" penalty-name="Boarding" penalty-length="2"
-                zone="spihofieldzone:offensive" period-value="1" period-time-elapsed="05:11">
+            <action class="spactionclass:infraction" sequence-number="100"
+                recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
+                penalty-name="Boarding" penalty-length="2" zone="spihofieldzone:offensive"
+                period-value="1" period-time-elapsed="05:11">
                 <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8474056" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-against"/>
             </action>
-            <action class="spactionclass:infraction" sequence-number="101" recipient-type="player"
-                team-idref="l.nhl.com-t.8" penalty-name="Roughing" penalty-length="2"
-                zone="spihofieldzone:defensive" period-value="1" period-time-elapsed="05:11">
+            <action class="spactionclass:infraction" sequence-number="101"
+                recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
+                penalty-name="Roughing" penalty-length="2" zone="spihofieldzone:defensive"
+                period-value="1" period-time-elapsed="05:11">
                 <participant idref="l.nhl.com-p.8475758" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-against"/>
             </action>
-            <action class="spactionclass:infraction" sequence-number="102" recipient-type="player"
-                team-idref="l.nhl.com-t.10" penalty-name="Interference" penalty-length="2"
-                zone="spihofieldzone:offensive" period-value="1" period-time-elapsed="12:17">
+            <action class="spactionclass:infraction" sequence-number="102"
+                recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
+                penalty-name="Interference" penalty-length="2" zone="spihofieldzone:offensive"
+                period-value="1" period-time-elapsed="12:17">
                 <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8471296" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-against"/>
             </action>
-            <action class="spactionclass:infraction" sequence-number="103" recipient-type="player"
-                team-idref="l.nhl.com-t.8" penalty-name="Interference on goalkeeper"
-                penalty-length="2" zone="spihofieldzone:offensive" period-value="2"
-                period-time-elapsed="00:13">
+            <action class="spactionclass:infraction" sequence-number="103"
+                recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
+                penalty-name="Interference on goalkeeper" penalty-length="2"
+                zone="spihofieldzone:offensive" period-value="2" period-time-elapsed="00:13">
                 <participant idref="l.nhl.com-p.8475848" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8473541" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-against"/>
             </action>
-            <action class="spactionclass:infraction" sequence-number="104" recipient-type="player"
-                team-idref="l.nhl.com-t.8" penalty-name="Tripping" penalty-length="2"
-                zone="spihofieldzone:offensive" period-value="2" period-time-elapsed="08:11">
+            <action class="spactionclass:infraction" sequence-number="104"
+                recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
+                penalty-name="Tripping" penalty-length="2" zone="spihofieldzone:offensive"
+                period-value="2" period-time-elapsed="08:11">
                 <participant idref="l.nhl.com-p.8474189" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-against"/>
             </action>
-            <action class="spactionclass:infraction" sequence-number="105" recipient-type="player"
-                team-idref="l.nhl.com-t.8" penalty-name="Interference" penalty-length="2"
-                zone="spihofieldzone:defensive" period-value="3" period-time-elapsed="14:17">
+            <action class="spactionclass:infraction" sequence-number="105"
+                recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
+                penalty-name="Interference" penalty-length="2" zone="spihofieldzone:defensive"
+                period-value="3" period-time-elapsed="14:17">
                 <participant idref="l.nhl.com-p.8471338" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"

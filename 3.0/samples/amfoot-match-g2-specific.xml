@@ -5,7 +5,7 @@
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" standard="NewsML-G2"
     standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd"
+    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd"
     guid="xt.22956338-box">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <itemMeta>
@@ -63,12 +63,13 @@
     <contentSet>
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content
-                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd">
+                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
                 <sports-event>
                     <event-metadata key="tsnevent:l.nfl.com-2014-e.4481"
                         temporal-unit-value="vendor:l.nfl.com-2014-e.4481"
                         event-status="spevstatus:post-event" duration="PT3H36M"
                         start-date-time="2015-02-01T18:30:00-05:00">
+                        <sports-content-codes/>
                         <site>
                             <site-metadata>
                                 <home-location>
@@ -79,6 +80,7 @@
                             </site-metadata>
                             <site-stats attendance="70288"/>
                         </site>
+                        <event-metadata-american-football/>
                     </event-metadata>
                     <team id="l.nfl.com-t.4">
                         <team-metadata key="tsnteam:l.nfl.com-t.4" alignment="away">
@@ -87,7 +89,7 @@
                             <name part="nprt:nickname">Patriots</name>
                         </team-metadata>
                         <team-stats time-of-possession="33:46" score="28" score-opposing="24"
-                            event-outcome="win">
+                            event-outcome="speventoutcome:win">
                             <sub-score period-value="1" score="0"/>
                             <sub-score period-value="2" score="14"/>
                             <sub-score period-value="3" score="0"/>
@@ -95,8 +97,8 @@
                             <team-stats-american-football>
                                 <stats-american-football-offensive offensive-plays-yards="377"
                                     offensive-plays-number="72"
-                                    offensive-plays-average-yards-per="5.2" tackles="2"
-                                    tackles-assists="0">
+                                    offensive-plays-average-yards-per="5.2" tackles-offense="2"
+                                    tackles-assists-offense="0">
                                     <stats-american-football-passing passes-yards-net="320"
                                         passes-yards-gross="328" times-thrown-total="1"
                                         passes-yards-lost="8" passes-attempts="50"
@@ -130,9 +132,9 @@
                                     field-goal-attempts="0" field-goals-blocked="0"
                                     safeties-against="0" two-point-conversions-made="0"
                                     two-point-conversions-attempts="0"/>
-                                <stats-american-football-special-teams tackles="2"
-                                    tackles-assists="0" punts-total="4" punts-average="49.0"
-                                    punts-average-net="42.5" punts-blocked="0"
+                                <stats-american-football-special-teams tackles-special-teams="2"
+                                    tackles-assists-special-teams="0" punts-total="4"
+                                    punts-average="49.0" punts-average-net="42.5" punts-blocked="0"
                                     total-return-yardage-not-kickoffs="30" returns-punt-total="3"
                                     returns-punt-yards="27" returns-punt-touchdown="0"
                                     returns-kickoff-total="3" returns-kickoff-yards="49"
@@ -186,16 +188,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="1"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="1"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -206,16 +208,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -243,16 +245,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="1"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="1"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -287,16 +289,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="3"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -307,16 +309,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="3"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="1" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -327,16 +329,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="3"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="3" interceptions-total="1"
                                         interceptions-yards="3" interceptions-longest="3"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -347,16 +349,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="1"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -367,16 +369,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="6"
                                         tackles-assists="2" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -406,8 +408,8 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="1"
-                                        tackles-assists="0">
+                                    <stats-american-football-offensive tackles-offense="1"
+                                        tackles-assists-offense="0">
                                         <stats-american-football-passing receptions-total="9"
                                             receptions-yards="109"
                                             receptions-average-yards-per="12.1"
@@ -424,10 +426,10 @@
                                     <stats-american-football-scoring touchdowns-receptions="1"
                                         touchdowns-rushing="0" touchdowns-total="1"
                                         safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0" fair-catches="2" returns-punt-total="3"
-                                        returns-punt-yards="27" returns-punt-longest="15"
-                                        returns-punt-touchdown="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0" fair-catches="2"
+                                        returns-punt-total="3" returns-punt-yards="27"
+                                        returns-punt-longest="15" returns-punt-touchdown="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -471,16 +473,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="3"
                                         tackles-assists="2" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -508,16 +510,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="3"
                                         tackles-assists="0" sacks-total="1" sacks-yards="3"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -546,16 +548,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="4"
                                         tackles-assists="1" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -566,16 +568,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="3"
                                         tackles-assists="3" sacks-total="1" sacks-yards="8"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -586,16 +588,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="1"
                                         tackles-assists="0" sacks-total="1" sacks-yards="2"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -606,16 +608,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="1"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="1" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -626,16 +628,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="2" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -646,16 +648,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="1"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="1"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -687,16 +689,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -708,7 +710,7 @@
                             <name part="nprt:nickname">Seahawks</name>
                         </team-metadata>
                         <team-stats time-of-possession="26:14" score="24" score-opposing="28"
-                            event-outcome="loss">
+                            event-outcome="speventoutcome:loss">
                             <sub-score period-value="1" score="0"/>
                             <sub-score period-value="2" score="14"/>
                             <sub-score period-value="3" score="10"/>
@@ -716,8 +718,8 @@
                             <team-stats-american-football>
                                 <stats-american-football-offensive offensive-plays-yards="396"
                                     offensive-plays-number="53"
-                                    offensive-plays-average-yards-per="7.5" tackles="1"
-                                    tackles-assists="0">
+                                    offensive-plays-average-yards-per="7.5" tackles-offense="1"
+                                    tackles-assists-offense="0">
                                     <stats-american-football-passing passes-yards-net="234"
                                         passes-yards-gross="247" times-thrown-total="3"
                                         passes-yards-lost="13" passes-attempts="21"
@@ -751,9 +753,9 @@
                                     field-goal-attempts="1" field-goals-blocked="0"
                                     safeties-against="0" two-point-conversions-made="0"
                                     two-point-conversions-attempts="0"/>
-                                <stats-american-football-special-teams tackles="5"
-                                    tackles-assists="0" punts-total="6" punts-average="44.8"
-                                    punts-average-net="40.3" punts-blocked="0"
+                                <stats-american-football-special-teams tackles-special-teams="5"
+                                    tackles-assists-special-teams="0" punts-total="6"
+                                    punts-average="44.8" punts-average-net="40.3" punts-blocked="0"
                                     total-return-yardage-not-kickoffs="20" returns-punt-total="2"
                                     returns-punt-yards="6" returns-punt-touchdown="0"
                                     returns-kickoff-total="0" returns-kickoff-yards="0"
@@ -771,16 +773,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="2" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -809,16 +811,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -829,16 +831,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="7"
                                         tackles-assists="3" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -849,16 +851,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="1"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="1"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -896,16 +898,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="0" sacks-total="1" sacks-yards="8"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -916,16 +918,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="1"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="1"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -954,16 +956,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="1" interceptions-total="1"
                                         interceptions-yards="14" interceptions-longest="14"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -974,8 +976,8 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="1"
-                                        tackles-assists="0">
+                                    <stats-american-football-offensive tackles-offense="1"
+                                        tackles-assists-offense="0">
                                         <stats-american-football-passing receptions-total="3"
                                             receptions-yards="59"
                                             receptions-average-yards-per="19.7" receptions-looks="5"
@@ -988,8 +990,8 @@
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring touchdowns-receptions="0"
                                         safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1041,16 +1043,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="5"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1061,16 +1063,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="1"
                                         tackles-assists="1" sacks-total="0" sacks-yards="0"
                                         passes-defensed="1" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1097,16 +1099,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1117,16 +1119,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="2"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="2"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1137,16 +1139,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="1" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1157,16 +1159,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="1" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1177,16 +1179,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="0"
                                         tackles-assists="0" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="1"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="1"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1197,16 +1199,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="8"
                                         tackles-assists="1" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1234,16 +1236,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="10"
                                         tackles-assists="2" sacks-total="0" sacks-yards="0"
                                         passes-defensed="1" interceptions-total="1"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1273,16 +1275,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="2"
                                         tackles-assists="1" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>
@@ -1317,16 +1319,16 @@
                             </player-metadata>
                             <player-stats>
                                 <player-stats-american-football>
-                                    <stats-american-football-offensive tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-offensive tackles-offense="0"
+                                        tackles-assists-offense="0"/>
                                     <stats-american-football-defensive tackles-solo="10"
                                         tackles-assists="1" sacks-total="0" sacks-yards="0"
                                         passes-defensed="0" interceptions-total="0"
                                         interceptions-yards="0" interceptions-longest="0"
                                         interceptions-touchdown="0"/>
                                     <stats-american-football-scoring safeties-against="0"/>
-                                    <stats-american-football-special-teams tackles="0"
-                                        tackles-assists="0"/>
+                                    <stats-american-football-special-teams tackles-special-teams="0"
+                                        tackles-assists-special-teams="0"/>
                                 </player-stats-american-football>
                             </player-stats>
                         </player>

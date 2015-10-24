@@ -1223,7 +1223,7 @@ applies to this specification.
 					<xs:documentation>The number of tackles made while playing for a special-team.</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
-			<xs:attribute name="tackles-special-teams-assists" type="xs:string" use="optional">
+			<xs:attribute name="tackles-assists-special-teams" type="xs:string" use="optional">
 				<xs:annotation>
 					<xs:documentation>The number of tackle assists performed while on special-teams.</xs:documentation>
 				</xs:annotation>

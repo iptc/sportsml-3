@@ -51,7 +51,7 @@
                             <sports-content-codes>
                                 <sports-content-code code-type="subj:qual">
                                     <sports-content-qualifier gender="male"
-                                        participant-count="individual"/>
+                                        participant-count="spparticipantcount:individual"/>
                                 </sports-content-code>
                             </sports-content-codes>
                         </tournament-division-metadata>
@@ -186,7 +186,7 @@
                             <sports-content-codes>
                                 <sports-content-code code-type="subj:qual">
                                     <sports-content-qualifier gender="female"
-                                        participant-count="individual"/>
+                                        participant-count="spparticipantcount:individual"/>
                                 </sports-content-code>
                             </sports-content-codes>
                         </tournament-division-metadata>
