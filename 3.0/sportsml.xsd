@@ -2243,17 +2243,17 @@ Removed unused components from the plugins
         </xs:attribute>
         <xs:attribute name="body-part" use="optional" type="QCodeType">
             <xs:annotation>
-                <xs:documentation>Angle on the field of the play.</xs:documentation>
+                <xs:documentation>Body part used to perform an action.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="field-location" use="optional" type="xs:string">
+        <xs:attribute name="field-location" use="optional" type="gridType">
             <xs:annotation>
-                <xs:documentation>Recommended x,y 0-100.</xs:documentation>
+                <xs:documentation>Recommended x,y 0-100. The location of the action on the field of play represented as a grid.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="goal-location" use="optional" type="xs:string">
+        <xs:attribute name="goal-location" use="optional" type="gridType">
             <xs:annotation>
-                <xs:documentation>Recommended x,y 0-100.</xs:documentation>
+                <xs:documentation>Recommended x,y 0-100. The location on goal-mouth grid in which the ball/puck entered.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="time-addition" use="optional" type="xs:string">
@@ -2673,7 +2673,7 @@ Removed unused components from the plugins
                 </xs:attribute>
                 <xs:attribute name="duration" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>In lieu of a start-date and end-date. Generally in years. Could hold the number of years that a player was a pro. Use temporal-unti vocabulary.</xs:documentation>
+                        <xs:documentation>In lieu of a start-date and end-date. Generally in years. Could hold the number of years that a player was a pro. Use temporal-unit vocabulary.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="subphase-type" type="QCodeType" use="optional">
@@ -3036,6 +3036,11 @@ Removed unused components from the plugins
         <xs:attribute name="distance-minimum" type="xs:string" use="optional">
             <xs:annotation>
                 <xs:documentation>Minimum distance for the generated stat.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="measurement-units" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>The type of unit used to measure distance, speed, etc. Could be mph, kph, metres, yards, etc.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
     </xs:attributeGroup>
@@ -3611,7 +3616,7 @@ Removed unused components from the plugins
             <xs:documentation>The origin (0,0) and granularity may be determined by the  distributor.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
-            <xs:pattern value="\d+:\d+"/>
+            <xs:pattern value="\d+(\.\d{1,2})?,\d+(\.\d{1,2})?"/>
         </xs:restriction>
     </xs:simpleType>
 
