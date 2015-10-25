@@ -2773,24 +2773,24 @@
                         </player>
                     </team>
                     <actions>
-                        <action class="spplayclass:play" id="play.68" sequence-number="68"
+                        <action class="spactionclass:play" id="play.68" sequence-number="68"
                             type="spbblactiontype:double" play-scorekeepers-notation="5"
                             hit-type="spbblhittype:single"
                             comment="Troy Tulowitzki singled to third and advanced to second on Martin Prado's throwing error. Runner on second with one out and Carlos Gonzalez due up."
                             inning-value="8" inning-half="bottom" outs="1" batter-advance="2"
                             runner-on-first="false" runner-on-second="false" runner-on-third="false"
                             runs-this-inning-half="0" batter-side="right">
-                            <action class="spplayclass:play" type="spbblactiontype:pitch"
+                            <action class="spactionclass:play" type="spbblactiontype:pitch"
                                 sequence-number="1" umpire-call="strike" strike-type="swinging"
                                 strikes="1" balls="0"/>
-                            <action class="spplayclass:play" type="spbblactiontype:pitch"
+                            <action class="spactionclass:play" type="spbblactiontype:pitch"
                                 sequence-number="2" umpire-call="ball" strikes="1" balls="1"/>
-                            <action class="spplayclass:play" type="spbblactiontype:pitch"
+                            <action class="spactionclass:play" type="spbblactiontype:pitch"
                                 sequence-number="3" umpire-call="strike" strike-type="called"
                                 strikes="2" balls="1"/>
-                            <action class="spplayclass:play" type="spbblactiontype:pitch"
+                            <action class="spactionclass:play" type="spbblactiontype:pitch"
                                 sequence-number="4" umpire-call="ball" strikes="2" balls="2"/>
-                            <action class="spplayclass:play" type="spbblactiontype:pitch"
+                            <action class="spactionclass:play" type="spbblactiontype:pitch"
                                 sequence-number="5" strikes="3" balls="2"/>
                             <participant idref="l.mlb.com-p.23884" team-idref="l.mlb.com-t.16"
                                 role="spbblrole:pitcher"/>

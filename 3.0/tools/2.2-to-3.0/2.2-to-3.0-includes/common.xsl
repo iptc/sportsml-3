@@ -385,7 +385,7 @@
 
     <xsl:template match="sportsml:play">
         <xsl:call-template name="action">
-            <xsl:with-param name="action-class" select="substring-after(@class,'spplayclass:')"/>
+            <xsl:with-param name="action-class" select="substring-after(@class,'spactionclass:')"/>
         </xsl:call-template>
     </xsl:template>
     
