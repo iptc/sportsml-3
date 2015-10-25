@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spactiontype" version="1">
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spactionclass" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
       <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -28,52 +28,52 @@
       <description>High-level categories of on-field action in all sports.</description>
     </contentMeta>
     <conceptSet>
-      <concept id="spactiontypetimeout">
-        <conceptId qcode="spactiontype:timeout"/>
+      <concept id="spactionclasstimeout">
+        <conceptId qcode="spactionclass:timeout"/>
         <name xml:lang="en-GB">timeout</name>
         <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spactiontype/" rel="skos:inScheme"/>
+        <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
       </concept>
-      <concept id="spactiontypeplay">
-        <conceptId qcode="spactiontype:play"/>
+      <concept id="spactionclassplay">
+        <conceptId qcode="spactionclass:play"/>
         <name xml:lang="en-GB">play</name>
         <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spactiontype/" rel="skos:inScheme"/>
+        <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
       </concept>
-      <concept id="spactiontypesubstitution">
-        <conceptId qcode="spactiontype:substitution"/>
+      <concept id="spactionclasssubstitution">
+        <conceptId qcode="spactionclass:substitution"/>
         <name xml:lang="en-GB">substitution</name>
         <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spactiontype/" rel="skos:inScheme"/>
+        <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
       </concept>
-      <concept id="spactiontypepenalty">
-        <conceptId qcode="spactiontype:penalty"/>
+      <concept id="spactionclasspenalty">
+        <conceptId qcode="spactionclass:penalty"/>
         <name xml:lang="en-GB">penalty</name>
         <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spactiontype/" rel="skos:inScheme"/>
+        <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
       </concept>
-      <concept id="spactiontypescore">
-        <conceptId qcode="spactiontype:score"/>
+      <concept id="spactionclassscore">
+        <conceptId qcode="spactionclass:score"/>
         <name xml:lang="en-GB">score</name>
         <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spactiontype/" rel="skos:inScheme"/>
+        <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
       </concept>
-      <concept id="spactiontypeinfraction">
-        <conceptId qcode="spactiontype:infraction"/>
+      <concept id="spactionclassinfraction">
+        <conceptId qcode="spactionclass:infraction"/>
         <name xml:lang="en-GB">infraction</name>
         <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spactiontype/" rel="skos:inScheme"/>
+        <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
       </concept>
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spstat/" authority="http://www.iptc.org" preferredalias="spstat">
       <definition xml:lang="en-GB">High-level categories of on-field action in all sports.</definition>
       <name xml:lang="en-GB">unknown Statistics</name>
-      <related qcode="spactiontype:timeout" rel="skos:hasTopConcept"/>
-      <related qcode="spactiontype:play" rel="skos:hasTopConcept"/>
-      <related qcode="spactiontype:substitution" rel="skos:hasTopConcept"/>
-      <related qcode="spactiontype:penalty" rel="skos:hasTopConcept"/>
-      <related qcode="spactiontype:score" rel="skos:hasTopConcept"/>
-      <related qcode="spactiontype:infraction" rel="skos:hasTopConcept"/>
+      <related qcode="spactionclass:timeout" rel="skos:hasTopConcept"/>
+      <related qcode="spactionclass:play" rel="skos:hasTopConcept"/>
+      <related qcode="spactionclass:substitution" rel="skos:hasTopConcept"/>
+      <related qcode="spactionclass:penalty" rel="skos:hasTopConcept"/>
+      <related qcode="spactionclass:score" rel="skos:hasTopConcept"/>
+      <related qcode="spactionclass:infraction" rel="skos:hasTopConcept"/>
       <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
   </knowledgeItem>

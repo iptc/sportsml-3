@@ -558,7 +558,7 @@
 
 	<!-- General sport vocabularies appicable to all sports -->
 	<scheme alias="spct" uri="http://cv.iptc.org/newscodes/spct/" />
-	<scheme alias="spactiontype" uri="http://cv.iptc.org/newscodes/spactiontype/" />
+	<scheme alias="spactionclass" uri="http://cv.iptc.org/newscodes/spactionclass/" />
 	<scheme alias="spaward" uri="http://cv.iptc.org/newscodes/spaward/" />
 	<scheme alias="spcode" uri="http://cv.iptc.org/newscodes/spcode/" />
 	<scheme alias="spcompetitionscope" uri="http://cv.iptc.org/newscodes/spcompetitionscope/" />
@@ -610,7 +610,7 @@
 	<scheme alias="spamftimeout" uri="http://cv.iptc.org/newscodes/spamftimeout/" />
 	<scheme alias="spamftouchdown" uri="http://cv.iptc.org/newscodes/spamftouchdown/" />
 	
-	<!-- Sport concepts for Baseball (proceeding alphabetically through the sports) -->
+	<!-- Sport concepts for Baseball -->
 	
 	<scheme alias="spbblaction" uri="http://cv.iptc.org/newscodes/spbblaction/" />
 	<scheme alias="spbblballlocation" uri="http://cv.iptc.org/newscodes/spbblballlocation/" />

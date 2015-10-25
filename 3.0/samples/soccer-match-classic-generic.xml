@@ -56,11 +56,11 @@
                     <stat stat-type="spcorstat:event-outcome" value="loss"/>
                     <stat stat-type="spcorstat:time-of-possession-percentage" value="31.6"/>
                     <stat stat-type="spsocstat:line-formation" value="433"/>
-                    <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total" value="6"/>
-                    <stat class="spstatclass:offensive" stat-type="spsocstat:shots-on-goal-total"
+                    <stat class="spct:offense" stat-type="spsocstat:shots-total" value="6"/>
+                    <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
                         value="1"/>
-                    <stat class="spstatclass:offensive" stat-type="spsocstat:corner-kicks" value=""/>
-                    <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited" value="4"/>
+                    <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value=""/>
+                    <stat class="spct:infraction" stat-type="spsocstat:fouls-commited" value="4"/>
                 </stats>
                 <sub-score period-value="1" score="0"/>
                 <sub-score period-value="2" score="0"/>
@@ -76,22 +76,22 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="45"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="32"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="18"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="14"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="11"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:saves" value="5"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:save-percentage"
+                        <stat class="spct:defense" stat-type="spsocstat:saves" value="5"/>
+                        <stat class="spct:defense" stat-type="spsocstat:save-percentage"
                             value="0.714"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:catches-punches"
+                        <stat class="spct:defense" stat-type="spsocstat:catches-punches"
                             value="3"/>
                     </stats>
                 </player-stats>
@@ -108,33 +108,33 @@
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:aerials-won" value="1"/>
                         <stat stat-type="spsocstat:touches" value="70"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:crosses-18-yard-plus" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="41"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="29"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="12"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="7"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="6"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="5"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-outfielder" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-cross" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="2"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="2"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -150,31 +150,31 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="51"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="31"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="25"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="6"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="4"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-outfielder" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-cross" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="8"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="1"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -191,31 +191,31 @@
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:aerials-won" value="4"/>
                         <stat stat-type="spsocstat:touches" value="47"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="20"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="14"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="6"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="5"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="3"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-outfielder" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="14"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="5"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -231,27 +231,27 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="50"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="26"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="15"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="11"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="5"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-outfielder" value="3"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-cross" value="4"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="3"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -267,33 +267,33 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="73"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:crosses-18-yard-plus" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="56"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="53"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="3"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="12"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="3"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="4"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="1"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="2"/>
                     </stats>
                 </player-stats>
@@ -309,35 +309,35 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="61"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="47"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="41"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="6"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="2"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-outfielder" value="3"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="3"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -353,35 +353,35 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="68"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="45"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="40"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="5"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="8"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="4"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="3"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -397,23 +397,23 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="71"/>
                         <stat stat-type="spsocstat:touches" value="34"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="21"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="12"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="9"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="4"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="2"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -430,21 +430,21 @@
                         <stat stat-type="spcorstat:time-played-total" value="61"/>
                         <stat stat-type="spsocstat:aerials-won" value="3"/>
                         <stat stat-type="spsocstat:touches" value="17"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="8"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="3"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="5"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
                     </stats>
                 </player-stats>
@@ -460,25 +460,25 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="71"/>
                         <stat stat-type="spsocstat:touches" value="19"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-on-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:crosses-18-yard-plus" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="11"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="7"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="4"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="2"/>
                     </stats>
                 </player-stats>
@@ -500,23 +500,23 @@
                     <stats temporal-unit-type="sptunit:single-event" team="spteam:o.thefa.com-t.2">
                         <stat stat-type="spcorstat:time-played-total" value="19"/>
                         <stat stat-type="spsocstat:touches" value="8"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="6"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="2"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
                     </stats>
                 </player-stats>
@@ -539,17 +539,17 @@
                         <stat stat-type="spcorstat:time-played-total" value="29"/>
                         <stat stat-type="spsocstat:aerials-won" value="1"/>
                         <stat stat-type="spsocstat:touches" value="16"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="14"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="10"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="4"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
                     </stats>
                 </player-stats>
@@ -578,23 +578,23 @@
                     <stats temporal-unit-type="sptunit:single-event" team="spteam:o.thefa.com-t.2">
                         <stat stat-type="spcorstat:time-played-total" value="19"/>
                         <stat stat-type="spsocstat:touches" value="15"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="5"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="5"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="0"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="3"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="2"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="2"/>
                     </stats>
                 </player-stats>
@@ -619,11 +619,11 @@
                     <stat stat-type="spcorstat:event-outcome" value="win"/>
                     <stat stat-type="spcorstat:time-of-possession-percentage" value="68.4"/>
                     <stat stat-type="spsocstat:line-formation" value="442"/>
-                    <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total" value="27"/>
-                    <stat class="spstatclass:offensive" stat-type="spsocstat:shots-on-goal-total"
+                    <stat class="spct:offense" stat-type="spsocstat:shots-total" value="27"/>
+                    <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
                         value="7"/>
-                    <stat class="spstatclass:offensive" stat-type="spsocstat:corner-kicks" value="7"/>
-                    <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited" value="6"/>
+                    <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="7"/>
+                    <stat class="spct:infraction" stat-type="spsocstat:fouls-commited" value="6"/>
                 </stats>
                 <sub-score period-value="1" score="0"/>
                 <sub-score period-value="2" score="2"/>
@@ -640,21 +640,21 @@
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:aerials-won" value="1"/>
                         <stat stat-type="spsocstat:touches" value="27"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="21"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="15"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="6"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="5"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:saves" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:save-percentage"
+                        <stat class="spct:defense" stat-type="spsocstat:saves" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:save-percentage"
                             value="NaN"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:catches-punches"
+                        <stat class="spct:defense" stat-type="spsocstat:catches-punches"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -670,28 +670,28 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="72"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="51"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="45"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="6"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="14"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="3"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -707,30 +707,30 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="100"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="87"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="83"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="4"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="5"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-cross" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="5"/>
                     </stats>
                 </player-stats>
@@ -747,26 +747,26 @@
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:aerials-won" value="4"/>
                         <stat stat-type="spsocstat:touches" value="72"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-on-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="64"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="59"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="5"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="3"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="2"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -783,42 +783,42 @@
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:aerials-won" value="2"/>
                         <stat stat-type="spsocstat:touches" value="102"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="5"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:crosses-18-yard-plus" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:free-kicks"
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="67"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="57"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="10"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="10"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="5"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="2"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="1"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:cautions-total"
+                        <stat class="spct:infraction" stat-type="spsocstat:cautions-total"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -834,28 +834,28 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="91"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="9"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:crosses-18-yard-plus" value="3"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:assists-total"
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="64"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="56"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="8"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="28"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:clearances-successful" value="1"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="2"/>
                     </stats>
                 </player-stats>
@@ -872,31 +872,31 @@
                         <stat stat-type="spcorstat:time-played-total" value="56"/>
                         <stat stat-type="spsocstat:aerials-won" value="2"/>
                         <stat stat-type="spsocstat:touches" value="72"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="67"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="58"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="9"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="13"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="1"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -913,32 +913,32 @@
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:aerials-won" value="1"/>
                         <stat stat-type="spsocstat:touches" value="150"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-total"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-left-foot"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-right-foot"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-head"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-on-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="142"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="128"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="14"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="32"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="4"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:shots-blocked-outfielder" value="1"/>
                     </stats>
                 </player-stats>
@@ -955,37 +955,37 @@
                         <stat stat-type="spcorstat:time-played-total" value="84"/>
                         <stat stat-type="spsocstat:aerials-won" value="2"/>
                         <stat stat-type="spsocstat:touches" value="104"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="4"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-on-goal-total" value="2"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:free-kicks"
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="82"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="71"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="11"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="40"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="2"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-suffered"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-suffered"
                             value="2"/>
                     </stats>
                 </player-stats>
@@ -1002,29 +1002,29 @@
                         <stat stat-type="spcorstat:time-played-total" value="64"/>
                         <stat stat-type="spsocstat:aerials-won" value="2"/>
                         <stat stat-type="spsocstat:touches" value="40"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:crosses-18-yard"
+                        <stat class="spct:offense" stat-type="spsocstat:crosses-18-yard"
                             value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="26"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="21"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="5"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="10"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:foul" stat-type="spsocstat:fouls-commited"
+                        <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
                             value="1"/>
                     </stats>
                 </player-stats>
@@ -1040,36 +1040,36 @@
                         <stat stat-type="spcorstat:events-started" value="1"/>
                         <stat stat-type="spcorstat:time-played-total" value="90"/>
                         <stat stat-type="spsocstat:touches" value="50"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-total"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-left-foot"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-right-foot"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:goals-head"
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head"
                             value="0"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="4"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-on-goal-total" value="2"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="2"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="30"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="27"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="3"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="17"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:shutouts" value="1"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
                     </stats>
                 </player-stats>
@@ -1091,25 +1091,25 @@
                     <stats temporal-unit-type="sptunit:single-event" team="spteam:o.thefa.com-t.12">
                         <stat stat-type="spcorstat:time-played-total" value="26"/>
                         <stat stat-type="spsocstat:touches" value="42"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:assists-total"
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="41"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="40"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="7"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-long" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
                     </stats>
                 </player-stats>
@@ -1131,15 +1131,15 @@
                     <stats temporal-unit-type="sptunit:single-event" team="spteam:o.thefa.com-t.12">
                         <stat stat-type="spcorstat:time-played-total" value="6"/>
                         <stat stat-type="spsocstat:touches" value="12"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="10"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="9"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="3"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
                     </stats>
                 </player-stats>
@@ -1155,29 +1155,29 @@
                         <stat stat-type="spcorstat:time-played-total" value="34"/>
                         <stat stat-type="spsocstat:aerials-won" value="1"/>
                         <stat stat-type="spsocstat:touches" value="30"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:shots-total"
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total"
                             value="2"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-on-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:shots-off-goal-total" value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-total"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total"
                             value="24"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-complete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete"
                             value="21"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:passes-incomplete"
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
                             value="3"/>
-                        <stat class="spstatclass:offensive"
+                        <stat class="spct:offense"
                             stat-type="spsocstat:passes-complete-3rd-final" value="4"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-total"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-won"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won"
                             value="1"/>
-                        <stat class="spstatclass:offensive" stat-type="spsocstat:tackles-lost"
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost"
                             value="0"/>
-                        <stat class="spstatclass:defensive"
+                        <stat class="spct:defense"
                             stat-type="spsocstat:goals-against-total" value="0"/>
-                        <stat class="spstatclass:defensive" stat-type="spsocstat:interceptions"
+                        <stat class="spct:defense" stat-type="spsocstat:interceptions"
                             value="1"/>
                     </stats>
                 </player-stats>
