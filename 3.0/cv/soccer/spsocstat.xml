@@ -426,6 +426,20 @@
       <definition>Total number of ejections.</definition>
       <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
     </concept>
+    <concept id="spsocstatejections-second-caution">
+      <conceptId qcode="spsocstat:ejections-second-caution"/>
+      <type qcode="spct:penalty"/>
+      <name xml:lang="en-GB">ejections-second-caution</name>
+      <definition>Number of ejections as a result of two cautions received.</definition>
+      <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="spsocstatejections-straight">
+      <conceptId qcode="spsocstat:ejections-straight"/>
+      <type qcode="spct:penalty"/>
+      <name xml:lang="en-GB">ejections-straight</name>
+      <definition>Number of ejections with no caution.</definition>
+      <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
+    </concept>
     <concept id="spsocstattouches">
       <conceptId qcode="spsocstat:touches"/>
       <type qcode="spct:general"/>
@@ -445,6 +459,13 @@
       <type qcode="spct:offense"/>
       <name xml:lang="en-GB">passes-complete</name>
       <definition>Number of passes attempted which were successful.</definition>
+      <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="spsocstatpasses-complete-percentage">
+      <conceptId qcode="spsocstat:passes-complete-percentage"/>
+      <type qcode="spct:offense"/>
+      <name xml:lang="en-GB">passes-complete-percentage</name>
+      <definition>Percentage of successful complete passes.</definition>
       <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
     </concept>
     <concept id="spsocstatpasses-incomplete">
@@ -475,6 +496,13 @@
       <definition>Gained possession after an aerial duel.</definition>
       <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
     </concept>
+    <concept id="spsocstatcrosses-18-yard">
+      <conceptId qcode="spsocstat:crosses-18-yard"/>
+      <type qcode="spct:offense"/>
+      <name xml:lang="en-GB">crosses-18-yard-plus</name>
+      <definition>A cross pass less than 18 yards from the byline which was caught by the goalkeeper.</definition>
+      <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
+    </concept>
     <concept id="spsocstatcrosses-18-yard-plus">
       <conceptId qcode="spsocstat:crosses-18-yard-plus"/>
       <type qcode="spct:offense"/>
@@ -494,6 +522,13 @@
       <type qcode="spct:offense"/>
       <name xml:lang="en-GB">tackles-won</name>
       <definition>The number of total tackles won by the player</definition>
+      <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
+    </concept>
+    <concept id="spsocstattackles-won-percentage">
+      <conceptId qcode="spsocstat:tackles-won-percentage"/>
+      <type qcode="spct:offense"/>
+      <name xml:lang="en-GB">tackles-won-percentage</name>
+      <definition>Percentage of successful tackles.</definition>
       <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
     </concept>
     <concept id="spsocstattackles-lost">
@@ -608,16 +643,21 @@
     <related qcode="spsocstat:caution-points-total" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:caution-points-pending" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:ejections-total" rel="skos:hasTopConcept"/>
+    <related qcode="spsocstat:ejections-second-caution" rel="skos:hasTopConcept"/>
+    <related qcode="spsocstat:ejections-straight" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:touches" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:passes-total" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:passes-complete" rel="skos:hasTopConcept"/>
+    <related qcode="spsocstat:passes-complete-percentage" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:passes-incomplete" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:passes-complete-3rd-final" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:passes-complete-long" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:aerials-won" rel="skos:hasTopConcept"/>
+    <related qcode="spsocstat:crosses-18-yard" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:crosses-18-yard-plus" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:tackles-total" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:tackles-won" rel="skos:hasTopConcept"/>
+    <related qcode="spsocstat:tackles-won-percentage" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:tackles-lost" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:shots-blocked-outfielder" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:shots-blocked-cross" rel="skos:hasTopConcept"/>

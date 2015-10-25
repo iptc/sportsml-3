@@ -12,8 +12,9 @@
     	<xsl:if test="@date-coverage-type">
     	    <xsl:attribute name="temporal-unit-type">
         	        <xsl:choose>
-            <xsl:when test="@date-coverage-type='event'">sptunit:single-event</xsl:when>
-            <xsl:when test="@date-coverage-type='period'">sptunit:period</xsl:when>
+            <xsl:when test="@date-coverage-type='season'">sptemporalunit:season</xsl:when>
+            <xsl:when test="@date-coverage-type='event'">sptemporalunit:single-event</xsl:when>
+            <xsl:when test="@date-coverage-type='period'">sptemporalunit:period</xsl:when>
             <xsl:otherwise>
 			</xsl:otherwise>
         </xsl:choose>
@@ -142,9 +143,10 @@
     	<xsl:if test="@date-coverage-type">
         	<xsl:attribute name="temporal-unit-type">
         	        <xsl:choose>
-            <xsl:when test="@date-coverage-type='event'">sptunit:single-event</xsl:when>
-            <xsl:when test="@date-coverage-type='season-regular'">sptunit:season-regular</xsl:when>
-            <xsl:when test="@date-coverage-type='season-exhibition'">sptunit:pre-season</xsl:when>
+            <xsl:when test="@date-coverage-type='season'">sptemporalunit:season</xsl:when>
+            <xsl:when test="@date-coverage-type='event'">sptemporalunit:single-event</xsl:when>
+            <xsl:when test="@date-coverage-type='season-regular'">sptemporalunit:season-regular</xsl:when>
+            <xsl:when test="@date-coverage-type='season-exhibition'">sptemporalunit:pre-season</xsl:when>
             <xsl:otherwise>
 			</xsl:otherwise>
         </xsl:choose>
@@ -207,7 +209,7 @@
                     >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
-                <xsl:otherwise></xsl:otherwise>
+                <xsl:otherwise><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         	<stat>

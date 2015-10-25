@@ -133,6 +133,8 @@ applies to this specification.
 		</xs:sequence>
 		<xs:attributeGroup ref="commonAttributes"/>
 		<xs:attributeGroup ref="coverageAttributes"/>
+		<xs:attribute name="touches" type="xs:string" use="optional"/>
+		<xs:attribute name="aerials-won" type="xs:string" use="optional"/>
 	</xs:complexType>
 	
 	
@@ -289,7 +291,20 @@ applies to this specification.
 					<xs:documentation>Unopposed kicks on the field awarded to a team due to an opposing	team's infraction.</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
-		</xs:complexType>
+		<xs:attribute name="goals-left-foot" type="xs:string" use="optional"/>
+		<xs:attribute name="goals-right-foot" type="xs:string" use="optional"/>
+		<xs:attribute name="goals-head" type="xs:string" use="optional"/>
+		<xs:attribute name="passes-total" type="xs:string" use="optional"/>
+		<xs:attribute name="passes-complete" type="xs:string" use="optional"/>
+		<xs:attribute name="passes-complete-percentage" type="xs:string" use="optional"/>
+		<xs:attribute name="passes-incomplete" type="xs:string" use="optional"/>
+		<xs:attribute name="passes-complete-3rd-final" type="xs:string" use="optional"/>
+		<xs:attribute name="passes-complete-long" type="xs:string" use="optional"/>
+		<xs:attribute name="tackles-total" type="xs:string" use="optional"/>
+		<xs:attribute name="tackles-won" type="xs:string" use="optional"/>
+		<xs:attribute name="tackles-won-percentage" type="xs:string" use="optional"/>
+		<xs:attribute name="tackles-lost" type="xs:string" use="optional"/>
+	</xs:complexType>
 
 		<xs:complexType name="soccerStatsDefensiveComplexType">
 			<xs:annotation>
@@ -367,6 +382,12 @@ applies to this specification.
 						score.</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
+			<xs:attribute name="crosses-18-yard-plus" type="xs:string" use="optional"/>
+			<xs:attribute name="crosses-18-yard" type="xs:string" use="optional"/>
+			<xs:attribute name="shots-blocked-outfielder" type="xs:string" use="optional"/>
+			<xs:attribute name="shots-blocked-cross" type="xs:string" use="optional"/>
+			<xs:attribute name="clearances-successful" type="xs:string" use="optional"/>
+			<xs:attribute name="interceptions" type="xs:string" use="optional"/>
 		</xs:complexType>
 
 		<xs:complexType name="soccerStatsFoulComplexType">
@@ -416,6 +437,8 @@ applies to this specification.
 					<xs:documentation>Total number of ejections.</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
+			<xs:attribute name="ejections-second-caution" type="xs:string" use="optional"/>
+			<xs:attribute name="ejections-straight" type="xs:string" use="optional"/>
 		</xs:complexType>
 
 	<!-- ========================================================================================= -->

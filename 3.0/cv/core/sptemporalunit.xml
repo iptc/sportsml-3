@@ -119,9 +119,9 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
          </concept>
-         <concept id="sptemporalunitseason-full">
-            <conceptId qcode="sptemporalunit:season-full"/>
-            <name xml:lang="en-GB">season-full</name>
+         <concept id="sptemporalunitseason">
+            <conceptId qcode="sptemporalunit:season"/>
+            <name xml:lang="en-GB">season</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
          </concept>
@@ -151,7 +151,7 @@
          <related qcode="sptemporalunit:season-exhibition" rel="skos:hasTopConcept"/>
          <related qcode="sptemporalunit:season-regular" rel="skos:hasTopConcept"/>
          <related qcode="sptemporalunit:season-playoffs" rel="skos:hasTopConcept"/>
-         <related qcode="sptemporalunit:season-full" rel="skos:hasTopConcept"/>
+         <related qcode="sptemporalunit:season" rel="skos:hasTopConcept"/>
          <related qcode="sptemporalunit:career" rel="skos:hasTopConcept"/>
          <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
       </schemeMeta>

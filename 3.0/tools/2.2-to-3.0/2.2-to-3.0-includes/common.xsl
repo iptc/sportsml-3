@@ -45,7 +45,7 @@
                             <xsl:otherwise>unknown</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
-    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd</xsl:variable>
+    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
 	    <xsl:variable name="schema-specific">
 	    	<xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/svn/2.2/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
 	    </xsl:variable>
@@ -1072,28 +1072,7 @@
     <xsl:template match="sportsml:event-metadata-soccer/@period-time-elapsed"/>
     <xsl:template match="sportsml:event-metadata-rugby/@period-time-elapsed"/>
     <xsl:template match="sportsml:event-metadata-soccer/@minutes-elapsed"/>
-    
-    <!-- remove stats not yet in spec -->
-    <xsl:template match="@touches"/>
-    <xsl:template match="@passes-total"/>
-    <xsl:template match="@passes-complete"/>
-    <xsl:template match="@passes-incomplete"/>
-    <xsl:template match="@passes-complete-3rd-final"/>
-    <xsl:template match="@passes-complete-long"/>
-    <xsl:template match="@aerials-won"/>
-    <xsl:template match="@crosses-18-yard-plus"/>
-    <xsl:template match="@tackles-total"/>
-    <xsl:template match="@tackles-won"/>
-    <xsl:template match="@tackles-lost"/>
-    <xsl:template match="@shots-blocked-outfielder"/>
-    <xsl:template match="@shots-blocked-cross"/>
-    <xsl:template match="@clearances-successful"/>
-    <xsl:template match="@interceptions"/>
-    <xsl:template match="@goals-left-foot"/>
-    <xsl:template match="@goals-right-foot"/>
-    <xsl:template match="@goals-head"/>
-    
-    
+        
     <!-- remove these elements -->
     <xsl:template match="sportsml:sports-title"/>
     <xsl:template match="sportsml:event-metadata-basketball"/>
