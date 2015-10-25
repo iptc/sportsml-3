@@ -1089,10 +1089,6 @@
     <xsl:template match="@shots-blocked-cross"/>
     <xsl:template match="@clearances-successful"/>
     <xsl:template match="@interceptions"/>
-    <xsl:template match="@shots-blocked-outfielder"/>
-    <xsl:template match="@shots-blocked-cross"/>
-    <xsl:template match="@clearances-successful"/>
-    <xsl:template match="@crosses-18-yard"/>
     <xsl:template match="@goals-left-foot"/>
     <xsl:template match="@goals-right-foot"/>
     <xsl:template match="@goals-head"/>
