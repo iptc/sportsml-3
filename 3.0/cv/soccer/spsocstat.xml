@@ -623,10 +623,6 @@
     <related qcode="spsocstat:shots-blocked-cross" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:clearances-successful" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:interceptions" rel="skos:hasTopConcept"/>
-    <related qcode="spsocstat:shots-blocked-outfielder" rel="skos:hasTopConcept"/>
-    <related qcode="spsocstat:shots-blocked-cross" rel="skos:hasTopConcept"/>
-    <related qcode="spsocstat:clearances-successful" rel="skos:hasTopConcept"/>
-    <related qcode="spsocstat:crosses-18-yard" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:goals-left-foot" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:goals-right-foot" rel="skos:hasTopConcept"/>
     <related qcode="spsocstat:goals-head" rel="skos:hasTopConcept"/>
