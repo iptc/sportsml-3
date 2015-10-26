@@ -591,7 +591,7 @@
 	<scheme alias="spstreaktype" uri="http://cv.iptc.org/newscodes/spstreaktype/" />
 	<scheme alias="spteamcoverage" uri="http://cv.iptc.org/newscodes/spteamcoverage/" />
 	<scheme alias="sptemporalunit" uri="http://cv.iptc.org/newscodes/sptemporalunit/" />
-	<scheme alias="sptournamentstage" uri="http://cv.iptc.org/newscodes/sptournamentstage/" />
+	<scheme alias="sptournamentpart" uri="http://cv.iptc.org/newscodes/sptournamentpart/" />
 	<scheme alias="spweatherprediction" uri="http://cv.iptc.org/newscodes/spweatherprediction/" />
 	
 	<!-- Sport concepts for American Football (proceeding alphabetically through the sports) -->

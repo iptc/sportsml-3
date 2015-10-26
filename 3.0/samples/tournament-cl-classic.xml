@@ -21,18 +21,18 @@
     </sports-metadata>
     <tournament>
         <tournament-metadata temporal-unit-type="spct:tournament" temporal-unit-value="vendor:2014"
-            key="optaperson:CFBB5">
+            key="optacomp:CFBB5">
             <name role="nrol:full">Champions League</name>
             <name part="nprt:common">Champions League</name>
         </tournament-metadata>
         <tournament-part>
-            <tournament-part-metadata key="tpt:CFBB52014S1" type="tpt:group" number="1"
+            <tournament-part-metadata key="opta:CFBB52014S1" type="sptournamentpart:group" number="1"
                 maximum-subparts="8" minimum-subparts="8">
                 <name role="nrol:full">Champions League</name>
                 <name part="nprt:common">Champions League</name>
             </tournament-part-metadata>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R3" number="3" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R3" number="3" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -658,7 +658,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R4" number="4" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R4" number="4" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -1461,7 +1461,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R1" number="1" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R1" number="1" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -2226,7 +2226,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R2" number="2" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R2" number="2" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -2986,7 +2986,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R6" number="6" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R6" number="6" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -3742,7 +3742,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R8" number="8" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R8" number="8" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -4516,7 +4516,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R7" number="7" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R7" number="7" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -5343,7 +5343,7 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S1R5" number="5" type="tpt:single-group"
+                <tournament-part-metadata key="opta:CFBB52014S1R5" number="5" type="sptournamentpart:single-group"
                     maximum-subparts="12" minimum-subparts="12">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
@@ -6140,14 +6140,14 @@
             </tournament-part>
         </tournament-part>
         <tournament-part>
-            <tournament-part-metadata key="tpt:CFBB52014S2" type="tpt:elimination" number="2"
+            <tournament-part-metadata key="opta:CFBB52014S2" type="sptournamentpart:elimination" number="2"
                 maximum-subparts="4" minimum-subparts="4">
                 <name role="nrol:full">Champions League</name>
                 <name part="nprt:common">Champions League</name>
             </tournament-part-metadata>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S2R1" number="1"
-                    type="tpt:home-and-home" maximum-subparts="16" minimum-subparts="16">
+                <tournament-part-metadata key="opta:CFBB52014S2R1" number="1"
+                    type="sptournamentpart:home-and-home" maximum-subparts="16" minimum-subparts="16">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
                 </tournament-part-metadata>
@@ -7353,8 +7353,8 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S2R2" number="2"
-                    type="tpt:home-and-home" maximum-subparts="8" minimum-subparts="8">
+                <tournament-part-metadata key="opta:CFBB52014S2R2" number="2"
+                    type="sptournamentpart:home-and-home" maximum-subparts="8" minimum-subparts="8">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
                 </tournament-part-metadata>
@@ -7897,8 +7897,8 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S2R3" number="3"
-                    type="tpt:home-and-home" maximum-subparts="4" minimum-subparts="4">
+                <tournament-part-metadata key="opta:CFBB52014S2R3" number="3"
+                    type="sptournamentpart:home-and-home" maximum-subparts="4" minimum-subparts="4">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
                 </tournament-part-metadata>
@@ -8202,8 +8202,8 @@
                 </sports-event>
             </tournament-part>
             <tournament-part>
-                <tournament-part-metadata key="tpt:CFBB52014S2R4" number="4"
-                    type="tpt:single-elimination" maximum-subparts="1" minimum-subparts="1">
+                <tournament-part-metadata key="opta:CFBB52014S2R4" number="4"
+                    type="sptournamentpart:single-elimination" maximum-subparts="1" minimum-subparts="1">
                     <name role="nrol:full">Champions League</name>
                     <name part="nprt:common">Champions League</name>
                 </tournament-part-metadata>

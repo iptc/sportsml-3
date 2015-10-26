@@ -710,13 +710,13 @@
 
     <xsl:template match="@stage-type">
         <xsl:attribute name="type">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat('sptournamentpart:',.)"/>
         </xsl:attribute>
     </xsl:template>
 
     <xsl:template match="@stage-key">
         <xsl:attribute name="key">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat($publisher-code,':',.)"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -728,13 +728,13 @@
 
     <xsl:template match="@round-type">
         <xsl:attribute name="type">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat('sptournamentpart:',.)"/>
         </xsl:attribute>
     </xsl:template>
 
     <xsl:template match="@round-key">
         <xsl:attribute name="key">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat($publisher-code,':',.)"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -838,7 +838,7 @@
     </xsl:template>
     <xsl:template match="@tournament-key">
         <xsl:attribute name="key">
-            <xsl:value-of select="concat($publisher-code,'person:',.)"/>
+            <xsl:value-of select="concat($publisher-code,'comp:',.)"/>
         </xsl:attribute>
     </xsl:template>
     

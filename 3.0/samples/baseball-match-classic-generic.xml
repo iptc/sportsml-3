@@ -68,57 +68,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="5"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="2"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".364"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".364"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".391"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".431"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".431"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="8"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -126,14 +115,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
-                            value="2"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="2"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -145,57 +132,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="2"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".286"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".286"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".322"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".368"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".368"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="1"/>
@@ -203,14 +179,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -222,57 +196,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="2"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
-                            value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="2"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".236"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".236"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".328"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".547"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".547"/>
                     </stats>
                 </player-stats>
             </player>
@@ -284,57 +247,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".333"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".333"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".383"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".573"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".573"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="10"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -342,14 +294,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
-                            value="2"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="2"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -361,57 +311,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="2"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".278"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".278"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".335"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".379"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".379"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="2"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -419,14 +358,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -438,57 +375,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="1"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".221"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".221"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".284"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".287"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".287"/>
                     </stats>
                 </player-stats>
             </player>
@@ -500,57 +426,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="4"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".230"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".230"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".256"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".368"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".368"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="6"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -558,14 +473,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="1"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
+                            value="1"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
-                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -577,57 +490,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".305"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".305"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".337"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".405"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".405"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="4"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="1"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -635,14 +537,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
-                            value="2"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="2"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -655,89 +555,74 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="2"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".053"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".053"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".053"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".053"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".053"/>
                         <stat class="spct:pitching" stat-type="spbblstat:innings-pitched"
                             value="7.0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed"
-                            value="1"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed" value="1"/>
                         <stat class="spct:pitching" stat-type="spbblstat:hits" value="8"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs"
-                            value="1"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-doubles-against" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-triples-against" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs" value="1"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-doubles-against"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-triples-against"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:home-runs-allowed"
                             value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls"
-                            value="1"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts"
-                            value="6"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:errors-hit-with-pitch" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls" value="1"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls-intentional"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts" value="6"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:errors-hit-with-pitch"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:errors-wild-pitch"
                             value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:balks" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-flies-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-hits-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-total-against" value="28"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-at-bats-against" value="27"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-flies-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-hits-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-total-against"
+                            value="28"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-at-bats-against"
+                            value="27"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-strikes"
                             value="70"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-pitches"
@@ -754,14 +639,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="1"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
+                            value="1"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
-                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -773,57 +656,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".283"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".283"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".336"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".325"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".325"/>
                     </stats>
                 </player-stats>
             </player>
@@ -836,89 +708,74 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".000"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".000"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".000"/>
                         <stat class="spct:pitching" stat-type="spbblstat:innings-pitched"
                             value="0.1"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed"
-                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs"
+                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-doubles-against"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-doubles-against" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-triples-against" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-triples-against"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:home-runs-allowed"
                             value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls"
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts"
+                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:errors-hit-with-pitch"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:errors-hit-with-pitch" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:errors-wild-pitch"
                             value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:balks" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-flies-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-hits-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-total-against" value="2"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-at-bats-against" value="2"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-flies-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-hits-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-total-against"
+                            value="2"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-at-bats-against"
+                            value="2"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-strikes"
                             value="5"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-pitches"
@@ -1099,57 +956,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".261"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".261"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".338"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".427"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".427"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="2"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1157,14 +1003,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1176,57 +1020,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="2"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".333"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".333"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".391"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".428"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".428"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="4"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="4"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1234,14 +1067,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
-                            value="1"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="1"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1253,57 +1084,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="3"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="1"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".303"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".303"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".326"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".494"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".494"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="1"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="3"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1311,14 +1131,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
-                            value="1"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="1"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1330,57 +1148,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="2"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".229"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".229"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".306"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".337"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".337"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="1"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1388,14 +1195,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1407,57 +1212,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".281"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".281"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".318"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".551"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".551"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="3"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1465,14 +1259,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1484,57 +1276,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="2"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".333"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".333"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".390"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".630"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".630"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="10"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="1"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1542,14 +1323,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
-                            value="1"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="1"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1561,57 +1340,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".299"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".299"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".333"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".469"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".469"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="4"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1619,14 +1387,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1638,57 +1404,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="1"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="1"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".347"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".347"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".385"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".449"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".449"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="2"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
@@ -1696,14 +1451,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1716,89 +1469,74 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".000"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".000"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".000"/>
                         <stat class="spct:pitching" stat-type="spbblstat:innings-pitched"
                             value="5.1"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed"
-                            value="6"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed" value="6"/>
                         <stat class="spct:pitching" stat-type="spbblstat:hits" value="11"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs"
-                            value="6"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-doubles-against" value="1"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-triples-against" value="1"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs" value="6"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-doubles-against"
+                            value="1"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-triples-against"
+                            value="1"/>
                         <stat class="spct:pitching" stat-type="spbblstat:home-runs-allowed"
                             value="1"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls"
-                            value="2"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts"
-                            value="3"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:errors-hit-with-pitch" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls" value="2"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls-intentional"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts" value="3"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:errors-hit-with-pitch"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:errors-wild-pitch"
                             value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:balks" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-flies-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-hits-allowed" value="2"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-total-against" value="28"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-at-bats-against" value="24"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-flies-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-hits-allowed"
+                            value="2"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-total-against"
+                            value="28"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-at-bats-against"
+                            value="24"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-strikes"
                             value="54"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-pitches"
@@ -1815,14 +1553,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1835,89 +1571,74 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".000"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".000"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".000"/>
                         <stat class="spct:pitching" stat-type="spbblstat:innings-pitched"
                             value="0.2"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed"
-                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs"
+                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-doubles-against"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-doubles-against" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-triples-against" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-triples-against"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:home-runs-allowed"
                             value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls"
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts"
-                            value="1"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:errors-hit-with-pitch" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts" value="1"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:errors-hit-with-pitch"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:errors-wild-pitch"
                             value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:balks" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-flies-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-hits-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-total-against" value="2"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-at-bats-against" value="2"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-flies-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-hits-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-total-against"
+                            value="2"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-at-bats-against"
+                            value="2"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-strikes"
                             value="5"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-pitches"
@@ -1934,14 +1655,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -1953,57 +1672,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="1"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".243"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".243"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".291"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".338"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".338"/>
                     </stats>
                 </player-stats>
             </player>
@@ -2016,89 +1724,74 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".000"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".000"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".000"/>
                         <stat class="spct:pitching" stat-type="spbblstat:innings-pitched"
                             value="1.0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed"
-                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs"
+                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-doubles-against"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-doubles-against" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-triples-against" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-triples-against"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:home-runs-allowed"
                             value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls"
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts"
+                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:errors-hit-with-pitch"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:errors-hit-with-pitch" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:errors-wild-pitch"
                             value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:balks" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-flies-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-hits-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-total-against" value="3"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-at-bats-against" value="3"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-flies-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-hits-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-total-against"
+                            value="3"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-at-bats-against"
+                            value="3"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-strikes"
                             value="6"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-pitches"
@@ -2115,14 +1808,12 @@
                             value="0"/>
                         <stat class="spct:defense"
                             stat-type="spbblstat:errors-catchers-interference" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-average" value="0"/>
-                        <stat class="spct:defense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:double-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-average"
                             value="0"/>
-                        <stat class="spct:defense" stat-type="spbblstat:triple-plays"
+                        <stat class="spct:defense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:double-plays" value="0"/>
+                        <stat class="spct:defense" stat-type="spbblstat:triple-plays" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -2134,57 +1825,46 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".294"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".294"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".310"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".447"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".447"/>
                     </stats>
                 </player-stats>
             </player>
@@ -2197,89 +1877,74 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spcorstat:runs-scored"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spcorstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
                         <stat class="spct:offense" stat-type="spcorstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:home-runs"
+                        <stat class="spct:offense" stat-type="spbblstat:home-runs" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:bases-on-balls"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:strikeouts"
-                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:strikeouts" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:strikeouts-looking"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch"
+                        <stat class="spct:offense" stat-type="spbblstat:hit-by-pitch" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:double-plays-against"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:double-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:triple-plays-against" value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:grounded-into-double-play" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:triple-plays-against"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:grounded-into-double-play"
+                            value="0"/>
                         <stat class="spct:offense"
                             stat-type="spbblstat:reached-base-defensive-interference" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:reached-base-error"
                             value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:reached-base-fielder-choice" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:outs-ground"
+                        <stat class="spct:offense" stat-type="spbblstat:reached-base-fielder-choice"
                             value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:outs-ground" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:outs-fly" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sac-flies"
+                        <stat class="spct:offense" stat-type="spbblstat:sac-flies" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:sacrifices" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases-caught"
                             value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:sacrifices"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:stolen-bases"
-                            value="0"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:stolen-bases-caught" value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against"
-                            value="0"/>
-                        <stat class="spct:offense" stat-type="spbblstat:average"
-                            value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:pick-offs-against" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:average" value=".000"/>
                         <stat class="spct:offense" stat-type="spbblstat:on-base-percentage"
                             value=".000"/>
-                        <stat class="spct:offense"
-                            stat-type="spbblstat:slugging-percentage" value=".000"/>
+                        <stat class="spct:offense" stat-type="spbblstat:slugging-percentage"
+                            value=".000"/>
                         <stat class="spct:pitching" stat-type="spbblstat:innings-pitched"
                             value="1.0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed"
-                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:runs-allowed" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs"
+                        <stat class="spct:pitching" stat-type="spbblstat:earned-runs" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-doubles-against"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-doubles-against" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-triples-against" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-triples-against"
+                            value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:home-runs-allowed"
                             value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls"
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:bases-on-balls-intentional"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:bases-on-balls-intentional" value="0"/>
-                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts"
+                        <stat class="spct:pitching" stat-type="spbblstat:strikeouts" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:errors-hit-with-pitch"
                             value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:errors-hit-with-pitch" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:errors-wild-pitch"
                             value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:balks" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-flies-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:sacrifice-hits-allowed" value="0"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-total-against" value="4"/>
-                        <stat class="spct:pitching"
-                            stat-type="spbblstat:batters-at-bats-against" value="4"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-flies-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:sacrifice-hits-allowed"
+                            value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-total-against"
+                            value="4"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:batters-at-bats-against"
+                            value="4"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-strikes"
                             value="9"/>
                         <stat class="spct:pitching" stat-type="spbblstat:number-of-pitches"
@@ -2400,16 +2065,15 @@
                 inning-value="8" inning-half="bottom" outs="1" batter-advance="2"
                 runner-on-first="false" runner-on-second="false" runner-on-third="false"
                 runs-this-inning-half="0" batter-side="right">
-                <action class="spactionclass:play" type="spbblactiontype:pitch" sequence-number="1"
-                    umpire-call="strike" strike-type="swinging" strikes="1" balls="0"/>
-                <action class="spactionclass:play" type="spbblactiontype:pitch" sequence-number="2"
-                    umpire-call="ball" strikes="1" balls="1"/>
-                <action class="spactionclass:play" type="spbblactiontype:pitch" sequence-number="3"
-                    umpire-call="strike" strike-type="called" strikes="2" balls="1"/>
-                <action class="spactionclass:play" type="spbblactiontype:pitch" sequence-number="4"
-                    umpire-call="ball" strikes="2" balls="2"/>
-                <action class="spactionclass:play" type="spbblactiontype:pitch" sequence-number="5"
-                    strikes="3" balls="2"/>
+                <action type="spbblactiontype:pitch" sequence-number="1" umpire-call="strike"
+                    strike-type="swinging" strikes="1" balls="0"/>
+                <action type="spbblactiontype:pitch" sequence-number="2" umpire-call="ball"
+                    strikes="1" balls="1"/>
+                <action type="spbblactiontype:pitch" sequence-number="3" umpire-call="strike"
+                    strike-type="called" strikes="2" balls="1"/>
+                <action type="spbblactiontype:pitch" sequence-number="4" umpire-call="ball"
+                    strikes="2" balls="2"/>
+                <action type="spbblactiontype:pitch" sequence-number="5" strikes="3" balls="2"/>
                 <participant idref="l.mlb.com-p.23884" team-idref="l.mlb.com-t.16"
                     role="spbblrole:pitcher"/>
                 <participant idref="l.mlb.com-p.18606" team-idref="l.mlb.com-t.27"
