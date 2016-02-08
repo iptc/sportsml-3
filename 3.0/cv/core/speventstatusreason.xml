@@ -32,7 +32,7 @@
          <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
          </subject>
-         <description>the reason for the event-status</description>
+         <description>The reason for the event status. Eg. why the cancellation, postponement, etc.</description>
       </contentMeta>
       <conceptSet>
          <concept id="speventstatusreasonwithdrawal">
@@ -48,7 +48,7 @@
                authority="http://www.iptc.org"
                preferredalias="spstat">
          <definition xml:lang="en-GB">the reason for the event-status</definition>
-         <name xml:lang="en-GB">Core Statistics</name>
+         <name xml:lang="en-GB">Event Status Reason</name>
          <related qcode="speventstatusreason:withdrawal" rel="skos:hasTopConcept"/>
          <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
       </schemeMeta>

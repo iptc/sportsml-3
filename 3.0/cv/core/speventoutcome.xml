@@ -25,7 +25,7 @@
       <subject qcode="subj:15000000">
         <name xml:lang="en-US">sport</name>
       </subject>
-      <description/>
+      <description>Whether the competitor won, lost, or tied.</description>
     </contentMeta>
     <conceptSet>
       <concept id="speventoutcomewin">
@@ -55,7 +55,7 @@
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spstat/" authority="http://www.iptc.org" preferredalias="spstat">
       <definition xml:lang="en-GB"/>
-      <name xml:lang="en-GB">Core Statistics</name>
+      <name xml:lang="en-GB">Event Outcome</name>
       <related qcode="speventoutcome:win" rel="skos:hasTopConcept"/>
       <related qcode="speventoutcome:loss" rel="skos:hasTopConcept"/>
       <related qcode="speventoutcome:tie" rel="skos:hasTopConcept"/>

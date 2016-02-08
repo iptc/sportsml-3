@@ -32,7 +32,7 @@
          <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
          </subject>
-         <description>pre-event, mid-event, post-event.</description>
+         <description>The stage of the event, describing whether it has started, is in progress, etc.</description>
       </contentMeta>
       <conceptSet>
          <concept id="speventstatuspre-event">
@@ -125,7 +125,7 @@
                authority="http://www.iptc.org"
                preferredalias="spstat">
          <definition xml:lang="en-GB">pre-event, mid-event, post-event.</definition>
-         <name xml:lang="en-GB">Core Statistics</name>
+         <name xml:lang="en-GB">Event Status</name>
          <related qcode="speventstatus:pre-event" rel="skos:hasTopConcept"/>
          <related qcode="speventstatus:mid-event" rel="skos:hasTopConcept"/>
          <related qcode="speventstatus:post-event" rel="skos:hasTopConcept"/>
