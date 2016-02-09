@@ -88,35 +88,35 @@
                                 <stat stat-type="spcorstat:type" value="technical fouls"/>
                                 <stat stat-type="spcorstat:count" value="24"/>
                                 <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:field-goals-made" value="31"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:field-goals-attempted" value="79"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:three-pointers-made" value="9"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:three-pointers-attempted" value="22"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:free-throws-made" value="13"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:free-throws-attempted" value="20"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:assists-total" value="19"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:team-turnovers-total" value="14"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:turnovers-total" value="0"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:rebounds-total" value="51"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:rebounds-offensive" value="8"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:rebounds-defensive" value="29"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:team-rebounds-total" value="14"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spbkbstat:steals-total" value="6"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spbkbstat:blocks-total" value="6"/>
                             </stats>
                             <sub-score period-value="1" score="29"/>
@@ -136,33 +136,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="5"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="16"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="8"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="5"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="10"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="8"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="2"/>
                                 </stats>
                             </player-stats>
@@ -179,33 +179,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="3"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="17"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="7"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="13"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -222,33 +222,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -265,33 +265,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="3"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="20"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="19"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="7"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="6"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -308,33 +308,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="3"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="7"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="10"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -351,33 +351,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="1"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="7"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="8"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -394,33 +394,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="10"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="4"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="2"/>
                                 </stats>
                             </player-stats>
@@ -437,33 +437,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="1"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="5"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="5"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -480,33 +480,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -523,33 +523,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -572,35 +572,35 @@
                                 <stat stat-type="spcorstat:type" value="technical fouls"/>
                                 <stat stat-type="spcorstat:count" value="23"/>
                                 <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:field-goals-made" value="35"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:field-goals-attempted" value="77"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:three-pointers-made" value="9"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:three-pointers-attempted" value="28"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:free-throws-made" value="14"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:free-throws-attempted" value="18"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:assists-total" value="22"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:team-turnovers-total" value="13"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spbkbstat:turnovers-total" value="0"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:rebounds-total" value="50"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:rebounds-offensive" value="7"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:rebounds-defensive" value="32"/>
-                                <stat class="spstatclass:rebounding"
+                                <stat class="spct:rebounding"
                                     stat-type="spbkbstat:team-rebounds-total" value="11"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spbkbstat:steals-total" value="8"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spbkbstat:blocks-total" value="5"/>
                             </stats>
                             <sub-score period-value="1" score="29"/>
@@ -620,33 +620,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="3"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="21"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="7"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="15"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="8"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="7"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="7"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -663,33 +663,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="4"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="12"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="10"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -706,33 +706,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="0"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="14"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="10"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="11"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="9"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="3"/>
                                 </stats>
                             </player-stats>
@@ -749,33 +749,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="3"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="7"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -792,33 +792,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="11"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="8"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="8"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -835,33 +835,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="1"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="6"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="9"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="10"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="7"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -878,33 +878,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="9"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="7"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -921,33 +921,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="4"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="3"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="3"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -964,33 +964,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="2"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="8"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="5"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="2"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1007,33 +1007,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="1"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="1"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1050,33 +1050,33 @@
                                     <stat stat-type="spcorstat:type" value="technical fouls"/>
                                     <stat stat-type="spcorstat:count" value="1"/>
                                     <stat stat-type="spcorstat:type" value="personal fouls"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="4"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:field-goals-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:three-pointers-attempted" value="2"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-made" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:free-throws-attempted" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:assists-total" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spbkbstat:turnovers-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-total" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-offensive" value="0"/>
-                                    <stat class="spstatclass:rebounding"
+                                    <stat class="spct:rebounding"
                                         stat-type="spbkbstat:rebounds-defensive" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:steals-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spbkbstat:blocks-total" value="0"/>
                                 </stats>
                             </player-stats>

@@ -68,7 +68,7 @@ Removed unused components from the plugins
                     changed penalty-length to xs:string
 2015-10-16 JL added outcome-result with attributes and the attribute period-start(and end)-date-time to coverageAttributes
 -->
-    
+
     <xs:annotation>
         <xs:appinfo>SportsML</xs:appinfo>
         <xs:documentation>SportsML is a global XML standard for the interchange of sports data.
@@ -2724,7 +2724,7 @@ Removed unused components from the plugins
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-    
+
     <!-- ========================================================================================= -->
     <!-- Career phase metadata complex type -->
     <!-- ========================================================================================= -->
@@ -2787,7 +2787,7 @@ Removed unused components from the plugins
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-    
+
     <!-- ========================================================================================= -->
     <!-- Official metadata complex type -->
     <!-- ========================================================================================= -->

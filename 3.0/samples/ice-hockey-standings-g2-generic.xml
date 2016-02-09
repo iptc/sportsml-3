@@ -5,7 +5,7 @@
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" standard="NewsML-G2"
     standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd"
+    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd"
     guid="xt.sdi.20151012022705-standings_NHL">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <itemMeta>
@@ -50,10 +50,10 @@
     <contentSet>
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content
-                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd">
+                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015"
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
                         temporal-unit-type="spct:season-exhibition" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
@@ -162,9 +162,9 @@
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015" temporal-unit-type="spct:season-regular"
-                        competition="spct:league">
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
                                 code-key="division:d.pacific" code-name="Pacific"/>
@@ -211,8 +211,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="7" points-scored-against="1" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="7" points-scored-against="1"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="1"/>
                         </team-stats>
                     </team>
@@ -255,8 +255,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="2" wins="1" losses="1" losses-overtime="0"
-                                points-scored-for="4" points-scored-against="7" streak-type="win"
-                                streak-total="1"/>
+                                points-scored-for="4" points-scored-against="7"
+                                streak-type="spstreaktype:win" streak-total="1"/>
                             <rank value="4"/>
                         </team-stats>
                     </team>
@@ -299,8 +299,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="6" points-scored-against="2" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="6" points-scored-against="2"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="2"/>
                         </team-stats>
                     </team>
@@ -339,7 +339,7 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="1"
                                 standing-points="0" wins="0" losses="1" losses-overtime="0"
-                                streak-type="loss" streak-total="1"/>
+                                streak-type="spstreaktype:loss" streak-total="1"/>
                             <rank value="5"/>
                         </team-stats>
                     </team>
@@ -378,8 +378,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="2" points-scored-against="9" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="2" points-scored-against="9"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="7"/>
                         </team-stats>
                     </team>
@@ -414,8 +414,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="1" points-scored-against="5" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="1" points-scored-against="5"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="6"/>
                         </team-stats>
                     </team>
@@ -458,15 +458,15 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="3" wins="1" losses="0" losses-overtime="1"
-                                points-scored-for="7" points-scored-against="4" streak-type="loss"
-                                streak-total="1"/>
+                                points-scored-for="7" points-scored-against="4"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
                             <rank value="3"/>
                         </team-stats>
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015"
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
                         temporal-unit-type="spct:season-exhibition" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
@@ -516,7 +516,7 @@
                                 wins="1" losses="4" losses-overtime="0" points-scored-for="6"
                                 points-scored-against="16"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
@@ -578,9 +578,9 @@
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015" temporal-unit-type="spct:season-regular"
-                        competition="spct:league">
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
                                 code-key="division:d.central" code-name="Central"/>
@@ -627,8 +627,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="2" wins="1" losses="1" losses-overtime="0"
-                                points-scored-for="5" points-scored-against="4" streak-type="loss"
-                                streak-total="1"/>
+                                points-scored-for="5" points-scored-against="4"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
                             <rank value="6"/>
                         </team-stats>
                     </team>
@@ -671,8 +671,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="2" wins="1" losses="1" losses-overtime="0"
-                                points-scored-for="6" points-scored-against="6" streak-type="loss"
-                                streak-total="1"/>
+                                points-scored-for="6" points-scored-against="6"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
                             <rank value="7"/>
                         </team-stats>
                     </team>
@@ -711,8 +711,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="2" wins="1" losses="1" losses-overtime="0"
-                                points-scored-for="10" points-scored-against="8" streak-type="win"
-                                streak-total="1"/>
+                                points-scored-for="10" points-scored-against="8"
+                                streak-type="spstreaktype:win" streak-total="1"/>
                             <rank value="5"/>
                         </team-stats>
                     </team>
@@ -747,8 +747,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="3"
                                 standing-points="4" wins="2" losses="1" losses-overtime="0"
-                                points-scored-for="9" points-scored-against="6" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="9" points-scored-against="6"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="4"/>
                         </team-stats>
                     </team>
@@ -783,8 +783,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="4" points-scored-against="1" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="4" points-scored-against="1"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="2"/>
                         </team-stats>
                     </team>
@@ -827,8 +827,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="8" points-scored-against="6" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="8" points-scored-against="6"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="3"/>
                         </team-stats>
                     </team>
@@ -859,15 +859,15 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="9" points-scored-against="3" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="9" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="1"/>
                         </team-stats>
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015"
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
                         temporal-unit-type="spct:season-exhibition" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
@@ -889,7 +889,7 @@
                                 wins="5" losses="2" losses-overtime="0" points-scored-for="29"
                                 points-scored-against="21"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
@@ -934,7 +934,7 @@
                                 wins="3" losses="2" losses-overtime="1" points-scored-for="23"
                                 points-scored-against="21"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
@@ -965,7 +965,7 @@
                                 wins="4" losses="1" losses-overtime="0" points-scored-for="22"
                                 points-scored-against="19"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
@@ -996,15 +996,15 @@
                                 wins="5" losses="0" losses-overtime="1" points-scored-for="21"
                                 points-scored-against="13"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015" temporal-unit-type="spct:season-regular"
-                        competition="spct:league">
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
                                 code-key="division:d.metropolitan" code-name="Metropolitan"/>
@@ -1051,8 +1051,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="4" points-scored-against="9" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="4" points-scored-against="9"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="8"/>
                         </team-stats>
                     </team>
@@ -1083,8 +1083,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="1" points-scored-against="5" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="1" points-scored-against="5"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="7"/>
                         </team-stats>
                     </team>
@@ -1123,8 +1123,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="4" points-scored-against="6" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="4" points-scored-against="6"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="5"/>
                         </team-stats>
                     </team>
@@ -1159,8 +1159,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="1" wins="0" losses="1" losses-overtime="1"
-                                points-scored-for="3" points-scored-against="10" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="3" points-scored-against="10"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="4"/>
                         </team-stats>
                     </team>
@@ -1195,8 +1195,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="1" wins="0" losses="1" losses-overtime="1"
-                                points-scored-for="3" points-scored-against="7" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="3" points-scored-against="7"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="3"/>
                         </team-stats>
                     </team>
@@ -1239,8 +1239,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="3"
                                 standing-points="6" wins="3" losses="0" losses-overtime="0"
-                                points-scored-for="12" points-scored-against="6" streak-type="win"
-                                streak-total="3"/>
+                                points-scored-for="12" points-scored-against="6"
+                                streak-type="spstreaktype:win" streak-total="3"/>
                             <rank value="1"/>
                         </team-stats>
                     </team>
@@ -1283,8 +1283,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="4" points-scored-against="8" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="4" points-scored-against="8"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="6"/>
                         </team-stats>
                     </team>
@@ -1323,15 +1323,15 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="1"
                                 standing-points="2" wins="1" losses="0" losses-overtime="0"
-                                points-scored-for="5" points-scored-against="3" streak-type="win"
-                                streak-total="1"/>
+                                points-scored-for="5" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="1"/>
                             <rank value="2"/>
                         </team-stats>
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015"
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
                         temporal-unit-type="spct:season-exhibition" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
@@ -1395,7 +1395,7 @@
                                 wins="4" losses="2" losses-overtime="0" points-scored-for="16"
                                 points-scored-against="15"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
@@ -1412,7 +1412,7 @@
                                 wins="2" losses="3" losses-overtime="1" points-scored-for="16"
                                 points-scored-against="22"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-exhibition" losses="1"/>
                         </team-stats>
                     </team>
@@ -1460,9 +1460,9 @@
                     </team>
                 </standing>
                 <standing>
-                    <standing-metadata stats-coverage="expanded" team-coverage="multi-team"
-                        temporal-unit-value="vendor:2015" temporal-unit-type="spct:season-regular"
-                        competition="spct:league">
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
                         <sports-content-codes>
                             <sports-content-code code-type="spct:division"
                                 code-key="division:d.atlantic" code-name="Atlantic"/>
@@ -1509,8 +1509,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="7" points-scored-against="3" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="7" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="3"/>
                         </team-stats>
                     </team>
@@ -1553,8 +1553,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="3"
                                 standing-points="4" wins="2" losses="1" losses-overtime="0"
-                                points-scored-for="9" points-scored-against="8" streak-type="loss"
-                                streak-total="1"/>
+                                points-scored-for="9" points-scored-against="8"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
                             <rank value="4"/>
                         </team-stats>
                     </team>
@@ -1593,8 +1593,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="2" points-scored-against="7" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="2" points-scored-against="7"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="7"/>
                         </team-stats>
                     </team>
@@ -1633,8 +1633,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="0" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="4" points-scored-against="10" streak-type="loss"
-                                streak-total="2"/>
+                                points-scored-for="4" points-scored-against="10"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
                             <rank value="8"/>
                         </team-stats>
                     </team>
@@ -1673,8 +1673,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="3"
                                 standing-points="6" wins="3" losses="0" losses-overtime="0"
-                                points-scored-for="10" points-scored-against="4" streak-type="win"
-                                streak-total="3"/>
+                                points-scored-for="10" points-scored-against="4"
+                                streak-type="spstreaktype:win" streak-total="3"/>
                             <rank value="1"/>
                         </team-stats>
                     </team>
@@ -1709,8 +1709,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="1"
                                 standing-points="2" wins="1" losses="0" losses-overtime="0"
-                                points-scored-for="7" points-scored-against="1" streak-type="win"
-                                streak-total="1"/>
+                                points-scored-for="7" points-scored-against="1"
+                                streak-type="spstreaktype:win" streak-total="1"/>
                             <rank value="5"/>
                         </team-stats>
                     </team>
@@ -1726,35 +1726,35 @@
                                 scoping-label="last-10-division-standings" events-played="3"
                                 wins="0" losses="2" losses-overtime="0"/>
                             <outcome-totals unit-type="spct:division"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:recent-ten-events" losses="1"/>
                             <outcome-totals unit-type="spct:division"
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="division-standings" events-played="3" wins="0"
                                 losses="2" losses-overtime="0"/>
                             <outcome-totals unit-type="spct:division"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-regular" losses="1"/>
                             <outcome-totals unit-type="spct:conference"
                                 temporal-unit-type="spct:recent-ten-events"
                                 scoping-label="last-10-conference-standings" events-played="3"
                                 wins="0" losses="2" losses-overtime="0"/>
                             <outcome-totals unit-type="spct:conference"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:recent-ten-events" losses="1"/>
                             <outcome-totals unit-type="spct:conference"
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="conference-standings" events-played="3" wins="0"
                                 losses="2" losses-overtime="0"/>
                             <outcome-totals unit-type="spct:conference"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-regular" losses="1"/>
                             <outcome-totals competition="spct:league"
                                 temporal-unit-type="spct:recent-ten-events"
                                 scoping-label="last-10-league-standings" events-played="3" wins="0"
                                 losses="2" losses-overtime="0"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:recent-ten-events" losses="1"/>
                             <outcome-totals competition="spct:league"
                                 temporal-unit-type="spct:season-regular"
@@ -1765,16 +1765,16 @@
                                 alignment-scope="events-home" scoping-label="home-league-standings"
                                 events-played="2" wins="0" losses="1" losses-overtime="0"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-regular" losses="1"/>
                             <outcome-totals competition="spct:league"
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="3"
                                 standing-points="1" wins="0" losses="2" losses-overtime="0"
-                                points-scored-for="5" points-scored-against="12" streak-type="loss"
-                                streak-total="3"/>
+                                points-scored-for="5" points-scored-against="12"
+                                streak-type="spstreaktype:loss" streak-total="3"/>
                             <outcome-totals competition="spct:league"
-                                duration-scope="events-shootout"
+                                duration-scope="spdurationscope:events-shootout"
                                 temporal-unit-type="spct:season-regular" losses="1"/>
                             <rank value="6"/>
                         </team-stats>
@@ -1818,8 +1818,8 @@
                                 temporal-unit-type="spct:season-regular"
                                 scoping-label="league-standings" events-played="2"
                                 standing-points="4" wins="2" losses="0" losses-overtime="0"
-                                points-scored-for="8" points-scored-against="3" streak-type="win"
-                                streak-total="2"/>
+                                points-scored-for="8" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="2"/>
                             <rank value="2"/>
                         </team-stats>
                     </team>

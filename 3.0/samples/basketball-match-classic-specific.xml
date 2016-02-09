@@ -4,7 +4,7 @@
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd">
+    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
     <sports-metadata date-time="2015-03-03T23:11:35-05:00"
         doc-id="xt.prog.20150303231135-20004-04.337-event-stats-progressive" language="en-US"
         fixture-key="tsndoc:event-stats-progressive" document-class="event-summary">
@@ -40,7 +40,7 @@
                 <name part="nprt:common">Milwaukee</name>
                 <name part="nprt:nickname">Bucks</name>
             </team-metadata>
-            <team-stats event-outcome="undecided" score="84" score-opposing="93">
+            <team-stats event-outcome="speventoutcome:undecided" score="84" score-opposing="93">
                 <penalty-stats count="0" type="team technical fouls"/>
                 <penalty-stats count="2" type="technical fouls"/>
                 <penalty-stats count="24" type="personal fouls"/>
@@ -255,7 +255,7 @@
                 <name part="nprt:common">Denver</name>
                 <name part="nprt:nickname">Nuggets</name>
             </team-metadata>
-            <team-stats event-outcome="undecided" score="93" score-opposing="84">
+            <team-stats event-outcome="speventoutcome:undecided" score="93" score-opposing="84">
                 <penalty-stats count="2" type="team technical fouls"/>
                 <penalty-stats count="3" type="technical fouls"/>
                 <penalty-stats count="23" type="personal fouls"/>

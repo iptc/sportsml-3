@@ -40,7 +40,7 @@
                         <tournament-division-metadata>
                             <sports-content-codes>
                                 <sports-content-code code-type="subj:qual">
-                                    <sports-content-qualifier gender="male" participant-count="individual"/>
+                                    <sports-content-qualifier gender="male" participant-count="spparticipantcount:individual"/>
                                 </sports-content-code>
                             </sports-content-codes>
                             <name>World group</name>
@@ -49,7 +49,7 @@
                         The second part illustrates the special construction of davis cup with games between countries built on sub-events with games between individuals.-->
 
                         <tournament-part> <!-- Tournament part with the final. Note that the stats used is from another tennis game.  -->
-                            <tournament-part-metadata type="tpt:final">
+                            <tournament-part-metadata type="sptournamentpart:final">
                                 <name>Final</name>
                             </tournament-part-metadata>
 
@@ -57,7 +57,7 @@
                                 <event-metadata start-date-time="2011-12-02T10:00:00+02:00"
                                     event-status="evst:mid-event">
                                     <site>
-                                        <site-metadata surface="Red clay" site_style="site:indoor">
+                                        <site-metadata surface="spsitesurface:clay" site-style="site:indoor">
                                             <name>Olympic stadium</name>
                                             <home-location>
                                                 <POIDetails>
@@ -72,13 +72,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Spain</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="undecided"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:undecided"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>Argentina</name>
                                     </team-metadata>
-                                    <team-stats score="0" event-outcome="undecided"/>
+                                    <team-stats score="0" event-outcome="speventoutcome:undecided"/>
                                 </team>
                                 <sports-event>
                                     <event-metadata event-number="1"/>
@@ -94,7 +94,7 @@
                                             </home-location>
                                         </player-metadata>
 
-                                        <player-stats event-outcome="win" score="3">
+                                        <player-stats event-outcome="speventoutcome:win" score="3">
                                             <rank value="2" type="rt:single"/>
                                             <player-stats-tennis unforced-errors="21"
                                                 points-won="93" winners="29" net-points-played="19"
@@ -109,7 +109,7 @@
                                                   second-services-good-pct="89"
                                                   second-services-points-won="18"
                                                   second-services-points-won-pct="64"
-                                                  break-points-played="4" break-points-saved="4"
+                                                  break-points-against="4" break-points-saved="4"
                                                   break-points-saved-pct="100"
                                                   first-serve-average-speed="115"
                                                   first-service-top-speed="127"
@@ -133,7 +133,7 @@
                                                   second-services-good-pct="86"
                                                   second-services-points-won="5"
                                                   second-services-points-won-pct="63"
-                                                  break-points-played="0" break-points-saved="0"
+                                                  break-points-against="0" break-points-saved="0"
                                                   break-points-saved-pct="0"/>
                                                   <stats-tennis-return returns-played="25"
                                                   receive-points-won="10"
@@ -155,7 +155,7 @@
                                                   second-services-good-pct="85"
                                                   second-services-points-won="9"
                                                   second-services-points-won-pct="64"
-                                                  break-points-played="3" break-points-saved="3"
+                                                  break-points-against="3" break-points-saved="3"
                                                   break-points-saved-pct="100"/>
                                                   <stats-tennis-return returns-played="28"
                                                   receive-points-won="8" receive-points-won-pct="29"
@@ -176,7 +176,7 @@
                                                   second-services-good-pct="100"
                                                   second-services-points-won="4"
                                                   second-services-points-won-pct="67"
-                                                  break-points-played="1" break-points-saved="1"
+                                                  break-points-against="1" break-points-saved="1"
                                                   break-points-saved-pct="100"/>
                                                   <stats-tennis-return returns-played="28"
                                                   receive-points-won="9" receive-points-won-pct="32"
@@ -197,7 +197,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats event-outcome="loss" score="0">
+                                        <player-stats event-outcome="speventoutcome:loss" score="0">
                                             <rank type="rt:single" value="12"/>
                                             <player-stats-tennis unforced-errors="17"
                                                 points-won="78" winners="27" net-points-played="31"
@@ -212,7 +212,7 @@
                                                   second-services-good-pct="100"
                                                   second-services-points-won="19"
                                                   second-services-points-won-pct="58"
-                                                  break-points-played="6" break-points-saved="2"
+                                                  break-points-against="6" break-points-saved="2"
                                                   break-points-saved-pct="33"
                                                   first-serve-average-speed="124"
                                                   first-service-top-speed="135"
@@ -237,7 +237,7 @@
                                                   second-services-good-pct="100"
                                                   second-services-points-won="7"
                                                   second-services-points-won-pct="54"
-                                                  break-points-played="4" break-points-saved="2"
+                                                  break-points-against="4" break-points-saved="2"
                                                   break-points-saved-pct="50"/>
                                                   <stats-tennis-return returns-played="20"
                                                   receive-points-won="4" receive-points-won-pct="20"
@@ -258,7 +258,7 @@
                                                   second-services-good-pct="100"
                                                   second-services-points-won="6"
                                                   second-services-points-won-pct="60"
-                                                  break-points-played="3" break-points-saved="0"
+                                                  break-points-against="3" break-points-saved="0"
                                                   break-points-saved-pct="0"/>
                                                   <stats-tennis-return returns-played="40"
                                                   receive-points-won="12"
@@ -280,7 +280,7 @@
                                                   second-services-good-pct="100"
                                                   second-services-points-won="6"
                                                   second-services-points-won-pct="60"
-                                                  break-points-played="1" break-points-saved="0"
+                                                  break-points-against="1" break-points-saved="0"
                                                   break-points-saved-pct="0"/>
                                                   <stats-tennis-return returns-played="30"
                                                   receive-points-won="8" receive-points-won-pct="27"
@@ -321,7 +321,7 @@
                                     <sports-property value="Dunlop Fort All Court"
                                         formal-name="Ball"/>
                                     <site>
-                                        <site-metadata surface="Hard (Acrylic)" style="indoor">
+                                        <site-metadata surface="spsitesurface:hard-court" style="indoor">
                                             <name>Belgrade Arena</name>
                                             <home-location>
                                                 <POIDetails>
@@ -337,7 +337,7 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Serbia</name>
                                     </team-metadata>
-                                    <team-stats score="2" event-outcome="loss"/>
+                                    <team-stats score="2" event-outcome="speventoutcome:loss"/>
                                     <player>
                                         <player-metadata/>
                                     </player>
@@ -348,7 +348,7 @@
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>Argentina</name>
                                     </team-metadata>
-                                    <team-stats score="3" event-outcome="win"/>
+                                    <team-stats score="3" event-outcome="speventoutcome:win"/>
                                 </team>
 
                                 <sports-event><!-- This is the first sub-event with a singles match -->
@@ -371,7 +371,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="1" event-outcome="loss">
+                                        <player-stats score="1" event-outcome="speventoutcome:loss">
                                             <rank value="17" type="rt:single"/>
                                             <rank value="90" type="rt:double"/>
                                             <sub-score score="4" period-value="1"/>
@@ -400,7 +400,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="3" event-outcome="win">
+                                        <player-stats score="3" event-outcome="speventoutcome:win">
                                             <rank value="57" type="rt:single"/>
                                             <sub-score score="6" period-value="1"/>
                                             <sub-score score="4" period-value="2"/>
@@ -435,7 +435,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="0" event-outcome="loss">
+                                        <player-stats score="0" event-outcome="speventoutcome:loss">
                                             <rank value="13" type="rt:single"/>
                                             <rank value="69" type="rt:double"/>
                                             <sub-score score="5" period-value="1"/>
@@ -460,7 +460,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="3" event-outcome="win">
+                                        <player-stats score="3" event-outcome="speventoutcome:win">
                                             <rank value="14" type="rt:single"/>
                                             <rank value="169" type="rt:double"/>
                                             <sub-score score="7" period-value="1"/>
@@ -488,7 +488,7 @@
                                         <team-metadata>
                                             <name>Serbia</name>
                                         </team-metadata>
-                                        <team-stats score="3" event-outcome="win">
+                                        <team-stats score="3" event-outcome="speventoutcome:win">
                                             <sub-score score="7" period-value="1"/>
                                             <sub-score score="6" period-value="2"/>
                                             <sub-score score="6" period-value="3"/>
@@ -540,7 +540,7 @@
                                         <team-metadata>
                                             <name>Argentina</name>
                                         </team-metadata>
-                                        <team-stats score="0" event-outcome="loss">
+                                        <team-stats score="0" event-outcome="speventoutcome:loss">
                                             <sub-score score="6" period-value="1"/>
                                             <sub-score score="4" period-value="2"/>
                                             <sub-score score="2" period-value="3"/>
@@ -610,7 +610,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="0" event-outcome="loss">
+                                        <player-stats score="0" event-outcome="speventoutcome:loss">
                                             <rank value="1" type="rt:single"/>
                                             <rank value="241" type="rt:double"/>
                                             <sub-score score="6" period-value="1"/>
@@ -634,7 +634,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="2" event-outcome="win">
+                                        <player-stats score="2" event-outcome="speventoutcome:win">
                                             <rank value="12" type="rt:single"/>
                                             <rank value="183" type="rt:double"/>
                                             <sub-score score="7" period-value="1"/>
@@ -667,7 +667,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="1" event-outcome="win">
+                                        <player-stats score="1" event-outcome="speventoutcome:win">
                                             <rank value="13" type="rt:single"/>
                                             <rank value="69" type="rt:double"/>
                                             <sub-score score="6" period-value="1"/>
@@ -688,7 +688,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="0" event-outcome="loss">
+                                        <player-stats score="0" event-outcome="speventoutcome:loss">
                                             <rank value="34" type="rt:single"/>
                                             <rank value="178" type="rt:double"/>
                                             <sub-score score="2" period-value="1"/>
@@ -710,20 +710,20 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Spain</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>France</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                             </sports-event>
 
                         </tournament-part>
 
                         <tournament-part> <!-- Tournament part with quarterfinals. Four games with end results -->
-                            <tournament-part-metadata type="tpt:Quearterfinals"
+                            <tournament-part-metadata type="sptournamentpart:Quearterfinals"
                                 status="tps:post-event" start-date-time="2011-07-08"
                                 end-date-time="2011-07-10">
                                 <name>Quarterfinals</name>
@@ -734,13 +734,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Serbia</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away">
                                         <name>Sweden</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -749,13 +749,13 @@
                                     <team-metadata alignment="home">
                                         <name>Kazakhstan</name>
                                     </team-metadata>
-                                    <team-stats score="0" event-outcome="loss"/>
+                                    <team-stats score="0" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>Argentina</name>
                                     </team-metadata>
-                                    <team-stats score="5" event-outcome="win"/>
+                                    <team-stats score="5" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -764,13 +764,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>USA</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>Spain</name>
                                     </team-metadata>
-                                    <team-stats score="3" event-outcome="win"/>
+                                    <team-stats score="3" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -779,19 +779,19 @@
                                     <team-metadata alignment="home">
                                         <name>Germany</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>France</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                         </tournament-part>
 
                         <tournament-part> <!-- Tournament part with first rount. 8 games with just end results -->
-                            <tournament-part-metadata type="tpt:first" status="tps:post-event"
+                            <tournament-part-metadata type="sptournamentpart:first" status="tps:post-event"
                                 start-date-time="2011-03-04" end-date-time="2011-03-06">
                                 <name>First round</name>
                             </tournament-part-metadata>
@@ -801,13 +801,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Serbia</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away">
                                         <name>India</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -816,13 +816,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Russia</name>
                                     </team-metadata>
-                                    <team-stats score="2" event-outcome="loss"/>
+                                    <team-stats score="2" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away">
                                         <name>Sweden</name>
                                     </team-metadata>
-                                    <team-stats score="3" event-outcome="win"/>
+                                    <team-stats score="3" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -831,13 +831,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Czech Republic</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away">
                                         <name>Kazakhstan</name>
                                     </team-metadata>
-                                    <team-stats score="3" event-outcome="win"/>
+                                    <team-stats score="3" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -846,13 +846,13 @@
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Argentina</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away">
                                         <name>Romania</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -861,13 +861,13 @@
                                     <team-metadata alignment="home">
                                         <name>Chile</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>USA</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -876,13 +876,13 @@
                                     <team-metadata alignment="home">
                                         <name>Belgium</name>
                                     </team-metadata>
-                                    <team-stats score="1" event-outcome="loss"/>
+                                    <team-stats score="1" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>Spain</name>
                                     </team-metadata>
-                                    <team-stats score="4" event-outcome="win"/>
+                                    <team-stats score="4" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -891,13 +891,13 @@
                                     <team-metadata alignment="home">
                                         <name>Germany</name>
                                     </team-metadata>
-                                    <team-stats score="3" event-outcome="win"/>
+                                    <team-stats score="3" event-outcome="speventoutcome:win"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>Croatia</name>
                                     </team-metadata>
-                                    <team-stats score="2" event-outcome="loss"/>
+                                    <team-stats score="2" event-outcome="speventoutcome:loss"/>
                                 </team>
                             </sports-event>
                             <sports-event>
@@ -906,13 +906,13 @@
                                     <team-metadata alignment="home">
                                         <name>Austria</name>
                                     </team-metadata>
-                                    <team-stats score="2" event-outcome="loss"/>
+                                    <team-stats score="2" event-outcome="speventoutcome:loss"/>
                                 </team>
                                 <team>
                                     <team-metadata alignment="away" round-position="seeded">
                                         <name>France</name>
                                     </team-metadata>
-                                    <team-stats score="3" event-outcome="win"/>
+                                    <team-stats score="3" event-outcome="speventoutcome:win"/>
                                 </team>
                             </sports-event>
                         </tournament-part>

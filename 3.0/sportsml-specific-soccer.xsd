@@ -133,7 +133,7 @@ applies to this specification.
 		</xs:sequence>
 		<xs:attributeGroup ref="commonAttributes"/>
 		<xs:attributeGroup ref="coverageAttributes"/>
-	<xs:attribute name="touches" type="xs:string" use="optional"/>
+		<xs:attribute name="touches" type="xs:string" use="optional"/>
 		<xs:attribute name="aerials-won" type="xs:string" use="optional"/>
 	</xs:complexType>
 	
@@ -382,7 +382,7 @@ applies to this specification.
 						score.</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
-		<xs:attribute name="crosses-18-yard-plus" type="xs:string" use="optional"/>
+			<xs:attribute name="crosses-18-yard-plus" type="xs:string" use="optional"/>
 			<xs:attribute name="crosses-18-yard" type="xs:string" use="optional"/>
 			<xs:attribute name="shots-blocked-outfielder" type="xs:string" use="optional"/>
 			<xs:attribute name="shots-blocked-cross" type="xs:string" use="optional"/>
@@ -437,7 +437,7 @@ applies to this specification.
 					<xs:documentation>Total number of ejections.</xs:documentation>
 				</xs:annotation>
 			</xs:attribute>
-		<xs:attribute name="ejections-second-caution" type="xs:string" use="optional"/>
+			<xs:attribute name="ejections-second-caution" type="xs:string" use="optional"/>
 			<xs:attribute name="ejections-straight" type="xs:string" use="optional"/>
 		</xs:complexType>
 

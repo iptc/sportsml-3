@@ -92,95 +92,95 @@
                                 <stat stat-type="spcorstat:score-opposing" value="24"/>
                                 <stat stat-type="spcorstat:event-outcome" value="win"/>
                                 <stat stat-type="spcorstat:time-of-possession" value="33:46"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-yards" value="377"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-number" value="72"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-average-yards-per"
                                     value="5.2"/>
-                                <stat class="spstatclass:offensive" stat-type="spamfstat:tackles"
+                                <stat class="spct:offense" stat-type="spamfstat:tackles"
                                     value="2"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:tackles-assists" value="0"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:interceptions-total" value="1"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:interceptions-yards" value="3"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:tackles-solo" value="37"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:tackles-assists" value="10"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:tackles-total" value="47"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:sacks-total" value="3"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:sacks-yards" value="13"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:passes-defensed" value="5"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-total" value="4"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-rushing" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-passing" value="4"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-defensive" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-special-teams" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:extra-points-made" value="4"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:extra-points-attempts" value="4"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:field-goals-made" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:field-goal-attempts" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:field-goals-blocked" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:safeties-against" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:two-point-conversions-made" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:two-point-conversions-attempts" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:tackles" value="2"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:tackles-assists" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-total" value="4"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-average" value="49.0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-average-net" value="42.5"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-blocked" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:total-return-yardage-not-kickoffs"
                                     value="30"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-punt-total" value="3"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-punt-yards" value="27"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-punt-touchdown" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-kickoff-total" value="3"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-kickoff-yards" value="49"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-kickoff-touchdown" value="0"/>
-                                <stat class="spstatclass:fumbles"
+                                <stat class="spct:fumbles"
                                     stat-type="spamfstat:fumbles-committed" value="0"/>
-                                <stat class="spstatclass:fumbles" stat-type="spamfstat:fumbles-lost"
+                                <stat class="spct:fumbles" stat-type="spamfstat:fumbles-lost"
                                     value="0"/>
-                                <stat class="spstatclass:penalties"
+                                <stat class="spct:infraction"
                                     stat-type="spcorstat:penalty-yards" value="36"/>
-                                <stat class="spstatclass:penalties"
+                                <stat class="spct:infraction"
                                     stat-type="spamfstat:penalties-total" value="5"/>
                             </stats>
                             <sub-score period-value="1" score="0"/>
@@ -195,19 +195,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-total" value="4"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-yards-gross" value="196"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-inside-20" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-average" value="49.0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-longest" value="64"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:touchbacks-total" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-blocked" value="0"/>
                                 </stats>
                             </player-stats>
@@ -219,17 +219,17 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-total" value="2"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-yards" value="44"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:fair-catches" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-longest" value="23"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-touchdown" value="0"/>
                                 </stats>
                             </player-stats>
@@ -241,33 +241,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -279,33 +279,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -326,33 +326,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -373,33 +373,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -411,33 +411,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -449,33 +449,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -487,33 +487,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -525,33 +525,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="6"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -563,15 +563,15 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-total" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-yards" value="5"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:fair-catches" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-longest" value="5"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-touchdown" value="0"/>
                                 </stats>
                             </player-stats>
@@ -583,45 +583,45 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:fair-catches" value="2"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-total" value="3"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-yards" value="27"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-longest" value="15"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-touchdown" value="0"/>
                                 </stats>
                             </player-stats>
@@ -633,11 +633,11 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:extra-points-attempts" value="4"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:extra-points-made" value="4"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:extra-points-blocked" value="0"/>
                                 </stats>
                             </player-stats>
@@ -649,7 +649,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -661,33 +661,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -708,33 +708,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -746,7 +746,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -758,33 +758,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="4"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -796,33 +796,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="8"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -834,33 +834,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -872,33 +872,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -910,33 +910,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -948,33 +948,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -995,33 +995,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1039,95 +1039,95 @@
                                 <stat stat-type="spcorstat:score-opposing" value="28"/>
                                 <stat stat-type="spcorstat:event-outcome" value="loss"/>
                                 <stat stat-type="spcorstat:time-of-possession" value="26:14"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-yards" value="396"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-number" value="53"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-average-yards-per"
                                     value="7.5"/>
-                                <stat class="spstatclass:offensive" stat-type="spamfstat:tackles"
+                                <stat class="spct:offense" stat-type="spamfstat:tackles"
                                     value="1"/>
-                                <stat class="spstatclass:offensive"
+                                <stat class="spct:offense"
                                     stat-type="spamfstat:tackles-assists" value="0"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:interceptions-total" value="2"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:interceptions-yards" value="14"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:tackles-solo" value="49"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:tackles-assists" value="12"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:tackles-total" value="61"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:sacks-total" value="1"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:sacks-yards" value="8"/>
-                                <stat class="spstatclass:defensive"
+                                <stat class="spct:defense"
                                     stat-type="spamfstat:passes-defensed" value="4"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-total" value="3"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-rushing" value="1"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-passing" value="2"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-defensive" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:touchdowns-special-teams" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:extra-points-made" value="3"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:extra-points-attempts" value="3"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:field-goals-made" value="1"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:field-goal-attempts" value="1"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:field-goals-blocked" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:safeties-against" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:two-point-conversions-made" value="0"/>
-                                <stat class="spstatclass:scoring"
+                                <stat class="spct:scoring"
                                     stat-type="spamfstat:two-point-conversions-attempts" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:tackles" value="5"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:tackles-assists" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-total" value="6"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-average" value="44.8"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-average-net" value="40.3"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:punts-blocked" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:total-return-yardage-not-kickoffs"
                                     value="20"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-punt-total" value="2"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-punt-yards" value="6"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-punt-touchdown" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-kickoff-total" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-kickoff-yards" value="0"/>
-                                <stat class="spstatclass:special-teams"
+                                <stat class="spct:special-teams"
                                     stat-type="spamfstat:returns-kickoff-touchdown" value="0"/>
-                                <stat class="spstatclass:fumbles"
+                                <stat class="spct:fumbles"
                                     stat-type="spamfstat:fumbles-committed" value="0"/>
-                                <stat class="spstatclass:fumbles" stat-type="spamfstat:fumbles-lost"
+                                <stat class="spct:fumbles" stat-type="spamfstat:fumbles-lost"
                                     value="0"/>
-                                <stat class="spstatclass:penalties"
+                                <stat class="spct:infraction"
                                     stat-type="spcorstat:penalty-yards" value="70"/>
-                                <stat class="spstatclass:penalties"
+                                <stat class="spct:infraction"
                                     stat-type="spamfstat:penalties-total" value="7"/>
                             </stats>
                             <sub-score period-value="1" score="0"/>
@@ -1142,33 +1142,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1180,7 +1180,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -1192,33 +1192,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1230,33 +1230,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="7"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="3"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1268,33 +1268,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1306,19 +1306,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:extra-points-attempts" value="3"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:extra-points-made" value="3"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:extra-points-blocked" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:field-goal-attempts" value="1"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:field-goals-made" value="1"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:field-goals-missed" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:field-goals-blocked" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1330,33 +1330,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="8"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1368,33 +1368,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1415,33 +1415,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="14"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="14"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1453,33 +1453,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1491,7 +1491,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -1503,7 +1503,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -1515,33 +1515,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="5"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1553,33 +1553,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1591,19 +1591,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-total" value="6"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-yards-gross" value="269"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-inside-20" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-average" value="44.8"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-longest" value="61"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:touchbacks-total" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:punts-blocked" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1615,33 +1615,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1653,33 +1653,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="2"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1691,33 +1691,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1729,33 +1729,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1767,33 +1767,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="1"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1805,33 +1805,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="8"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1852,33 +1852,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="10"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1890,15 +1890,15 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:fair-catches" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-total" value="2"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-yards" value="6"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-longest" value="6"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-punt-touchdown" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1910,33 +1910,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="2"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>
@@ -1957,33 +1957,33 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:offensive"
+                                    <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-solo" value="10"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:tackles-assists" value="1"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:sacks-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:passes-defensed" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-total" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-yards" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-longest" value="0"/>
-                                    <stat class="spstatclass:defensive"
+                                    <stat class="spct:defense"
                                         stat-type="spamfstat:interceptions-touchdown" value="0"/>
-                                    <stat class="spstatclass:scoring"
+                                    <stat class="spct:scoring"
                                         stat-type="spamfstat:safeties-against" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles" value="0"/>
-                                    <stat class="spstatclass:special-teams"
+                                    <stat class="spct:special-teams"
                                         stat-type="spamfstat:tackles-assists" value="0"/>
                                 </stats>
                             </player-stats>

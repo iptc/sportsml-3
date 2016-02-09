@@ -8,9 +8,9 @@
 
     <!-- The following variables are set by the user -->
     <xsl:variable name="NewsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd</xsl:variable>
+        >/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
     <xsl:variable name="SportsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd</xsl:variable>
+        >/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
     <xsl:variable name="Nitf-schemaLocation"
         >/Users/paul/xmlteam/iptc/specs/LATEST/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
     <xsl:variable name="lang">en-US</xsl:variable>
@@ -45,7 +45,7 @@
                             <xsl:otherwise>unknown</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
-    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd</xsl:variable>
+    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
 	    <xsl:variable name="schema-specific">
 	    	<xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/svn/2.2/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
 	    </xsl:variable>
@@ -165,8 +165,6 @@
                                         <xsl:if test="@country">
                                         <country><name><xsl:value-of select="@country"/></name></country>
                                         </xsl:if>
-
-
 </address>
                                     </POIDetails>
                                 </home-location>
@@ -197,6 +195,80 @@
              <xsl:apply-templates select="@* | node()"/>
 		</xsl:element>
     </xsl:template>
+    
+    <xsl:template match="@tackles[parent::sportsml:stats-american-football-offensive]">
+        <xsl:attribute name="tackles-offense">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@tackles-assists[parent::sportsml:stats-american-football-offensive]">
+        <xsl:attribute name="tackles-assists-offense">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@tackles[parent::sportsml:stats-american-football-special-teams]">
+        <xsl:attribute name="tackles-special-teams">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@tackles-assists[parent::sportsml:stats-american-football-special-teams]">
+        <xsl:attribute name="tackles-assists-special-teams">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@strikeouts[parent::sportsml:stats-baseball-offensive]">
+        <xsl:attribute name="strikeouts-against">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@stolen-bases[parent::sportsml:stats-baseball-defensive]">
+        <xsl:attribute name="stolen-bases-against">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@stolen-bases-caught[parent::sportsml:stats-baseball-defensive]">
+        <xsl:attribute name="stolen-bases-caught-defense">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@stolen-bases-average[parent::sportsml:stats-baseball-defensive]">
+        <xsl:attribute name="stolen-bases-average-defense">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@hits[parent::sportsml:stats-baseball-pitching]">
+        <xsl:attribute name="hits-allowed">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@bases-on-balls[parent::sportsml:stats-baseball-pitching]">
+        <xsl:attribute name="bases-on-balls-allowed">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@bases-on-balls-intentional[parent::sportsml:stats-baseball-pitching]">
+        <xsl:attribute name="bases-on-balls-intentional-pitcher">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@period" name="period-value">
+        <xsl:attribute name="period-value">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
+    
 
     <!-- generic actions -->
     <xsl:template match="sportsml:event-actions">
@@ -313,7 +385,7 @@
 
     <xsl:template match="sportsml:play">
         <xsl:call-template name="action">
-            <xsl:with-param name="action-class" select="substring-after(@class,'spplayclass:')"/>
+            <xsl:with-param name="action-class" select="substring-after(@class,'spactionclass:')"/>
         </xsl:call-template>
     </xsl:template>
     
@@ -344,7 +416,17 @@
         	    </xsl:if>
         	    <xsl:apply-templates select="@*"/>
         	    <xsl:for-each select="sportsml:action/@*">
-        	        <xsl:attribute name="{name()}"><xsl:value-of select="."/></xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="name()='infraction-level'">
+                            <xsl:call-template name="infraction-level"/>
+                        </xsl:when>
+                        <xsl:when test="name()='period'">
+                            <xsl:call-template name="period-value"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+		        	        <xsl:attribute name="{name()}"><xsl:value-of select="."/></xsl:attribute>
+                        </xsl:otherwise>
+                    </xsl:choose>
         	    </xsl:for-each>
         	    <xsl:apply-templates select="node()[not(self::sportsml:action)]"/>
         	    <xsl:for-each select="sportsml:action/sportsml:participant">
@@ -545,6 +627,11 @@
             <xsl:value-of select="*/@period-time-elapsed"/>
         </xsl:attribute>
         </xsl:if>
+        <xsl:if test="*/@minutes-elapsed">
+        <xsl:attribute name="minutes-elapsed">
+            <xsl:value-of select="*/@minutes-elapsed"/>
+        </xsl:attribute>
+        </xsl:if>
 		<xsl:apply-templates select="node()[name()='sports-content-codes']"/>
 		<xsl:apply-templates select="node()[name()='site']"/>
 		<xsl:apply-templates select="node()[not(name()='site')][not(name()='sports-content-codes')]"/>
@@ -623,13 +710,13 @@
 
     <xsl:template match="@stage-type">
         <xsl:attribute name="type">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat('sptournamentpart:',.)"/>
         </xsl:attribute>
     </xsl:template>
 
     <xsl:template match="@stage-key">
         <xsl:attribute name="key">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat($publisher-code,':',.)"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -641,13 +728,13 @@
 
     <xsl:template match="@round-type">
         <xsl:attribute name="type">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat('sptournamentpart:',.)"/>
         </xsl:attribute>
     </xsl:template>
 
     <xsl:template match="@round-key">
         <xsl:attribute name="key">
-            <xsl:value-of select="concat('tpt:',.)"/>
+            <xsl:value-of select="concat($publisher-code,':',.)"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -729,6 +816,11 @@
             <xsl:value-of select="concat($publisher-code,'team:',.)"/>
         </xsl:attribute>
     </xsl:template>
+    <xsl:template match="@phase-caliber-key">
+        <xsl:attribute name="key">
+            <xsl:value-of select="concat($publisher-code,'team:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
     <xsl:template match="@player-key">
         <xsl:attribute name="key">
             <xsl:value-of select="concat($publisher-code,'person:',.)"/>
@@ -746,7 +838,7 @@
     </xsl:template>
     <xsl:template match="@tournament-key">
         <xsl:attribute name="key">
-            <xsl:value-of select="concat($publisher-code,'person:',.)"/>
+            <xsl:value-of select="concat($publisher-code,'comp:',.)"/>
         </xsl:attribute>
     </xsl:template>
     
@@ -759,30 +851,6 @@
     <xsl:template match="@fixture-key">
         <xsl:attribute name="{name()}">
             <xsl:value-of select="concat($publisher-code,'doc:',.)"/>
-        </xsl:attribute>
-    </xsl:template>
-    
-    <xsl:template match="@award-type">
-        <xsl:attribute name="{name()}">
-            <xsl:value-of select="concat($publisher-code,':',.)"/>
-        </xsl:attribute>
-    </xsl:template>
-    
-    <xsl:template match="@infraction-level">
-        <xsl:attribute name="{name()}">
-			<xsl:value-of select="concat('sp',$sport-name-short,'infract:',.)"/>
-		</xsl:attribute>
-    </xsl:template>
-    
-    <xsl:template match="@sub-score-type">
-        <xsl:attribute name="{name()}">
-            <xsl:value-of select="concat('scoretype:',.)"/>
-        </xsl:attribute>
-    </xsl:template>
-    
-    <xsl:template match="@stats-coverage">
-        <xsl:attribute name="{name()}">
-            <xsl:value-of select="concat('spstatscoverage:',.)"/>
         </xsl:attribute>
     </xsl:template>
     
@@ -834,6 +902,11 @@
                 <xsl:with-param name="date-time" select="."/>
             </xsl:call-template>
         </xsl:attribute>
+    </xsl:template>
+    <xsl:template match="@date-of-birth">
+        <xsl:call-template name="xml-date-time">
+            <xsl:with-param name="date-time" select="."/>
+        </xsl:call-template>
     </xsl:template>
     
     <!-- convert attribute values to qcode -->
@@ -887,6 +960,87 @@
             <xsl:value-of select="concat('vendor:',.)"/>
         </xsl:attribute>
     </xsl:template>
+        <xsl:template match="@health[parent::sportsml:player-metadata]">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('sphealth:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    <xsl:template match="@event-outcome">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('speventoutcome:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    <xsl:template match="@event-outcome-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('speventoutcometype:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+
+    <xsl:template match="@award-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat($publisher-code,':',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@phase-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spphase:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@phase-caliber">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spct:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@phase-status">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spphasestatus:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@subphase-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spsubphase:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@infraction-level" name="infraction-level">
+        <xsl:attribute name="{name()}">
+			<xsl:value-of select="concat('sp',$sport-name-short,'infract:',.)"/>
+		</xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@sub-score-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('scoretype:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@stats-coverage">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spstatscoverage:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@recipient-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('sprecipienttype:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@streak-type">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spstreaktype:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <xsl:template match="@duration-scope">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="concat('spdurationscope:',.)"/>
+        </xsl:attribute>
+    </xsl:template>
     
     
     
@@ -917,32 +1071,8 @@
     <xsl:template match="sportsml:event-metadata-ice-hockey/@period-time-elapsed"/>
     <xsl:template match="sportsml:event-metadata-soccer/@period-time-elapsed"/>
     <xsl:template match="sportsml:event-metadata-rugby/@period-time-elapsed"/>
-    
-    <!-- remove stats not yet in spec -->
-    <xsl:template match="@touches"/>
-    <xsl:template match="@passes-total"/>
-    <xsl:template match="@passes-complete"/>
-    <xsl:template match="@passes-incomplete"/>
-    <xsl:template match="@passes-complete-3rd-final"/>
-    <xsl:template match="@passes-complete-long"/>
-    <xsl:template match="@aerials-won"/>
-    <xsl:template match="@crosses-18-yard-plus"/>
-    <xsl:template match="@tackles-total"/>
-    <xsl:template match="@tackles-won"/>
-    <xsl:template match="@tackles-lost"/>
-    <xsl:template match="@shots-blocked-outfielder"/>
-    <xsl:template match="@shots-blocked-cross"/>
-    <xsl:template match="@clearances-successful"/>
-    <xsl:template match="@interceptions"/>
-    <xsl:template match="@shots-blocked-outfielder"/>
-    <xsl:template match="@shots-blocked-cross"/>
-    <xsl:template match="@clearances-successful"/>
-    <xsl:template match="@crosses-18-yard"/>
-    <xsl:template match="@goals-left-foot"/>
-    <xsl:template match="@goals-right-foot"/>
-    <xsl:template match="@goals-head"/>
-    
-    
+    <xsl:template match="sportsml:event-metadata-soccer/@minutes-elapsed"/>
+        
     <!-- remove these elements -->
     <xsl:template match="sportsml:sports-title"/>
     <xsl:template match="sportsml:event-metadata-basketball"/>
@@ -967,6 +1097,17 @@
         <xsl:param name="date-time"/>
         <xsl:param name="not-att"/>
         <xsl:choose>
+        <xsl:when test="contains($date-time,'/')">
+        <xsl:variable name="year" select="substring-after(substring-after($date-time,'/'),'/')"/>
+        <xsl:variable name="day" select="substring-before(substring-after($date-time,'/'),'/')"/>
+        <xsl:variable name="month" select="substring-before($date-time,'/')"/>
+
+                <xsl:attribute name="{name()}">
+                    <xsl:value-of select="$year"/>-<xsl:value-of select="format-number($month,'00')"/>-<xsl:value-of
+                        select="format-number($day,'00')"/>
+                </xsl:attribute>
+
+        </xsl:when>
         <xsl:when test="contains($date-time,'-')">
         <xsl:choose>
             <xsl:when test="$not-att='yes'">
