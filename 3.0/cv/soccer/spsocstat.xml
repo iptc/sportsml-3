@@ -552,8 +552,8 @@
       <definition>The number of cross passes blocked.</definition>
       <related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
     </concept>
-    <concept id="spsocstatclearances-successful">
-      <conceptId qcode="spsocstat:clearances-successful"/>
+    <concept id="spsocstatclearancesl">
+      <conceptId qcode="spsocstat:clearances"/>
       <type qcode="spct:defense"/>
       <name xml:lang="en-GB">clearances-successful</name>
       <definition>The number of times the ball is cleared from the goal area.</definition>

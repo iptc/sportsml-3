@@ -68,7 +68,7 @@ Removed unused components from the plugins
                     changed penalty-length to xs:string
 2015-10-16 JL added outcome-result with attributes and the attribute period-start(and end)-date-time to coverageAttributes
 -->
-    
+
     <xs:annotation>
         <xs:appinfo>SportsML</xs:appinfo>
         <xs:documentation>SportsML is a global XML standard for the interchange of sports data.
@@ -2724,7 +2724,7 @@ Removed unused components from the plugins
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-    
+
     <!-- ========================================================================================= -->
     <!-- Career phase metadata complex type -->
     <!-- ========================================================================================= -->
@@ -2787,7 +2787,7 @@ Removed unused components from the plugins
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
-    
+
     <!-- ========================================================================================= -->
     <!-- Official metadata complex type -->
     <!-- ========================================================================================= -->
@@ -3038,13 +3038,12 @@ Removed unused components from the plugins
                 <xs:documentation>Minimum distance for the generated stat.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="measurement-units" type="xs:string" use="optional">
+    <xs:attribute name="measurement-units" type="xs:string" use="optional">
             <xs:annotation>
                 <xs:documentation>The type of unit used to measure distance, speed, etc. Could be mph, kph, metres, yards, etc.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
     </xs:attributeGroup>
-
     <!-- ========================================================================================= -->
     <!-- Stat Attributes -->
     <!-- ========================================================================================= -->
