@@ -1946,6 +1946,26 @@ Removed unused components from the plugins
                         <xs:documentation>Number of sports-events the player has played in since the start of the event.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
+                <xs:attribute name="date-time-entered" type="xs:dateTime" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Exact universal time player entered event. For example, the time a downhill skiier began a run.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="date-time-exited" type="xs:dateTime" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Exact universal time player exited event. For example, the time a downhill skiier finished a run.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="event-time-entered" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Time player entered event expressed as conventional game-clock time. For example, the game minute a soccer player was subbed on to the field.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="event-time-exited" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Time player exited event expressed as conventional game-clock time. For example, the game minute a soccer player was subbed off the field.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>

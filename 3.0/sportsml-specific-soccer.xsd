@@ -109,19 +109,7 @@ applies to this specification.
 			<xs:documentation>Player statistics that are specific to soccer. | Soccer specific statistic information about a player.</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
-			<xs:extension base="baseSoccerStatsComplexType">
-				<xs:attribute name="time-entered-event" type="xs:integer" use="optional">
-					<xs:annotation>
-						<xs:documentation>Time in minutes when the player entered the
-							event.</xs:documentation>
-					</xs:annotation>
-				</xs:attribute>
-				<xs:attribute name="time-exited-event" type="xs:integer" use="optional">
-					<xs:annotation>
-						<xs:documentation>Time in minutes when the player exited the event.</xs:documentation>
-					</xs:annotation>
-				</xs:attribute>
-			</xs:extension>
+			<xs:extension base="baseSoccerStatsComplexType"/>
 		</xs:complexContent>
 	</xs:complexType>
 	
