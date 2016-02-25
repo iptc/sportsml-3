@@ -206,18 +206,6 @@
         <definition/>
         <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
       </concept>
-      <concept id="spsocactioncross">
-        <conceptId qcode="spsocaction:cross"/>
-        <name xml:lang="en-GB">cross</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocactioncross">
-        <conceptId qcode="spsocaction:cross"/>
-        <name xml:lang="en-GB">cross</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
-      </concept>
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spsocstat/" authority="http://www.iptc.org" preferredalias="spsocstat">
       <definition xml:lang="en-GB"/>
@@ -251,8 +239,6 @@
       <related qcode="spsocaction:challenge" rel="skos:hasTopConcept"/>
       <related qcode="spsocaction:giveaway" rel="skos:hasTopConcept"/>
       <related qcode="spsocaction:takeaway" rel="skos:hasTopConcept"/>
-      <related qcode="spsocaction:cross" rel="skos:hasTopConcept"/>
-      <related qcode="spsocaction:cross" rel="skos:hasTopConcept"/>
       <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
   </knowledgeItem>
