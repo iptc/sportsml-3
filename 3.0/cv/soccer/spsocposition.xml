@@ -57,42 +57,6 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
-         <concept id="spsocpositionstopper">
-            <conceptId qcode="spsocposition:stopper"/>
-            <name xml:lang="en-GB">stopper</name>
-            <definition>DEPRECATED: Use central-defender instead.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
-         </concept>
-         <concept id="spsocpositiondefenseman">
-            <conceptId qcode="spsocposition:defenseman"/>
-            <name xml:lang="en-GB">defenseman</name>
-            <definition>DEPRECATED: Use defender instead</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
-         </concept>
-         <concept id="spsocpositionleft-mid-fielder">
-            <conceptId qcode="spsocposition:left-mid-fielder"/>
-            <name xml:lang="en-GB">left-mid-fielder</name>
-            <definition>DEPRECATED: Use left-midfielder instead</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
-         </concept>
-         <concept id="spsocpositionright-mid-fielder">
-            <conceptId qcode="spsocposition:right-mid-fielder"/>
-            <name xml:lang="en-GB">right-mid-fielder</name>
-            <definition>DEPRECATED: Use right-midfielder instead</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
-         </concept>
-         <concept id="spsocpositioncenter-mid-fielders">
-            <conceptId qcode="spsocposition:center-mid-fielders"/>
-            <name xml:lang="en-GB">center-mid-fielders</name>
-            <definition>DEPRECATED: Use center-midfielder instead</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
-         </concept>
-         <concept id="spsocpositionmid-fielder">
-            <conceptId qcode="spsocposition:mid-fielder"/>
-            <name xml:lang="en-GB">mid-fielder</name>
-            <definition>DEPRECATED: Use midfielder instead</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
-         </concept>
          <concept id="spsocpositiondefender">
             <conceptId qcode="spsocposition:defender"/>
             <name xml:lang="en-GB">defender</name>
@@ -222,12 +186,6 @@
          <related qcode="spsocposition:right-fullback" rel="skos:hasTopConcept"/>
          <related qcode="spsocposition:left-fullback" rel="skos:hasTopConcept"/>
          <related qcode="spsocposition:sweeper" rel="skos:hasTopConcept"/>
-         <related qcode="spsocposition:stopper" rel="skos:hasTopConcept"/>
-         <related qcode="spsocposition:defenseman" rel="skos:hasTopConcept"/>
-         <related qcode="spsocposition:left-mid-fielder" rel="skos:hasTopConcept"/>
-         <related qcode="spsocposition:right-mid-fielder" rel="skos:hasTopConcept"/>
-         <related qcode="spsocposition:center-mid-fielders" rel="skos:hasTopConcept"/>
-         <related qcode="spsocposition:mid-fielder" rel="skos:hasTopConcept"/>
          <related qcode="spsocposition:defender" rel="skos:hasTopConcept"/>
          <related qcode="spsocposition:central-defender" rel="skos:hasTopConcept"/>
          <related qcode="spsocposition:right-midfielder" rel="skos:hasTopConcept"/>
