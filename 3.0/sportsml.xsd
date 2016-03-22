@@ -1325,7 +1325,7 @@ Removed unused components from the plugins
         <xs:sequence>
             <!-- Comment out nitf:nitf and activate xsl:any below it if you are not using NITF. -->
             <!-- element ref="nitf:nitf"/ -->
-            <xs:any namespace="http://www.w3.org/namespace/"/>
+            <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attributeGroup ref="commonAttributes"/>
         <xs:attribute name="format" type="xs:string" use="optional">

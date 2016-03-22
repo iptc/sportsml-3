@@ -75,14 +75,14 @@
                     <tournament-part>
                         <tournament-part-metadata key="opta:CFBB52014S1" type="sptournamentpart:group" number="1"
                             maximum-subparts="8" minimum-subparts="8">
-                            <name role="nrol:full">Champions League</name>
-                            <name part="nprt:common">Champions League</name>
+                            <name role="nrol:full">Champions League Group Phase</name>
+                            <name part="nprt:common">Groups</name>
                         </tournament-part-metadata>
                         <tournament-part>
                             <tournament-part-metadata key="opta:CFBB52014S1R3" number="3"
                                 type="sptournamentpart:single-group" maximum-subparts="12" minimum-subparts="12">
-                                <name role="nrol:full">Champions League</name>
-                                <name part="nprt:common">Champions League</name>
+                                <name role="nrol:full">Champions League 2015 Group A</name>
+                                <name part="nprt:common">Group A</name>
                             </tournament-part-metadata>
                             <sports-event>
                                 <event-metadata key="optaevent:EFBO782701"
