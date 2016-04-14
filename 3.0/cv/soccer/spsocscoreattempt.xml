@@ -44,6 +44,12 @@
         <definition>The score attempt is made as a penalty shot.</definition>
         <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
       </concept>
+      <concept id="spsocscoreattemptshootout">
+        <conceptId qcode="spsocscoreattempt:shootout"/>
+        <name xml:lang="en-GB">penalty</name>
+        <definition>The score attempt is made as a shootout during tiebreaker.</definition>
+        <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
+      </concept>
       <concept id="spsocscoreattemptfreekick">
         <conceptId qcode="spsocscoreattempt:freekick"/>
         <name xml:lang="en-GB">freekick</name>
@@ -74,6 +80,7 @@
       <name xml:lang="en-GB">Soccer Statistics</name>
       <related qcode="spsocscoreattempt:regular" rel="skos:hasTopConcept"/>
       <related qcode="spsocscoreattempt:penalty" rel="skos:hasTopConcept"/>
+      <related qcode="spsocscoreattempt:shootout" rel="skos:hasTopConcept"/>
       <related qcode="spsocscoreattempt:freekick" rel="skos:hasTopConcept"/>
       <related qcode="spsocscoreattempt:corner-kick" rel="skos:hasTopConcept"/>
       <related qcode="spsocscoreattempt:open-goal" rel="skos:hasTopConcept"/>
