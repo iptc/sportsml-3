@@ -366,8 +366,6 @@
                             <associate-metadata position-event="spsocascpos:Manager"
                                 key="optaperson:man37630">
                                 <name role="nrol:full">Paul Lambert</name>
-                                <name part="nprt:common">Paul</name>
-                                <name part="nprt:nickname">Lambert</name>
                             </associate-metadata>
                         </associate>
                     </team>
@@ -664,8 +662,6 @@
                             <associate-metadata position-event="spsocascpos:Manager"
                                 key="optaperson:man257">
                                 <name role="nrol:full">Manuel Pellegrini</name>
-                                <name part="nprt:common">Manuel</name>
-                                <name part="nprt:nickname">Pellegrini</name>
                             </associate-metadata>
                         </associate>
                     </team>
@@ -674,8 +670,6 @@
                             <official-metadata key="optaperson:PO10514"
                                 position-event="spsocoffpos:main-official">
                                 <name role="nrol:full">Chris Foy</name>
-                                <name part="nprt:common">Chris</name>
-                                <name part="nprt:nickname">Foy</name>
                             </official-metadata>
                         </official>
                     </officials>

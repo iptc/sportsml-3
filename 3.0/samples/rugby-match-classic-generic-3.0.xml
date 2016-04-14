@@ -820,8 +820,6 @@
             <official>
                 <official-metadata key="padperson:PO291476">
                     <name role="nrol:full">Greg Garner</name>
-                    <name part="nprt:common">Greg</name>
-                    <name part="nprt:nickname">Garner</name>
                 </official-metadata>
             </official>
         </officials>
