@@ -31,9 +31,11 @@
          </creator>
          <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="nb-NO">sport</name>
          </subject>
          <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="nb-NO">fotball</name>
             <broader qcode="subj:15000000"/>
          </subject>
          <description/>
@@ -42,132 +44,154 @@
          <concept id="spsocpositionright-fullback">
             <conceptId qcode="spsocposition:right-fullback"/>
             <name xml:lang="en-GB">right-fullback</name>
+            <name xml:lang="nb-NO">høyreback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionleft-fullback">
             <conceptId qcode="spsocposition:left-fullback"/>
             <name xml:lang="en-GB">left-fullback</name>
+            <name xml:lang="nb-NO">venstreback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionsweeper">
             <conceptId qcode="spsocposition:sweeper"/>
             <name xml:lang="en-GB">sweeper</name>
+            <name xml:lang="nb-NO">sweeper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositiondefender">
             <conceptId qcode="spsocposition:defender"/>
             <name xml:lang="en-GB">defender</name>
+            <name xml:lang="nb-NO">forsvar</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositioncentral-defender">
             <conceptId qcode="spsocposition:central-defender"/>
             <name xml:lang="en-GB">central-defender</name>
+            <name xml:lang="nb-NO">midtstopper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionright-midfielder">
             <conceptId qcode="spsocposition:right-midfielder"/>
             <name xml:lang="en-GB">right-midfielder</name>
+            <name xml:lang="nb-NO">høyre-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionleft-midfielder">
             <conceptId qcode="spsocposition:left-midfielder"/>
             <name xml:lang="en-GB">left-midfielder</name>
+            <name xml:lang="nb-NO">venstre-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositioncenter-midfielder">
             <conceptId qcode="spsocposition:center-midfielder"/>
             <name xml:lang="en-GB">center-midfielder</name>
+            <name xml:lang="nb-NO">sentral-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionmidfielder">
             <conceptId qcode="spsocposition:midfielder"/>
             <name xml:lang="en-GB">midfielder</name>
+            <name xml:lang="nb-NO">midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionattacking-midfielder">
             <conceptId qcode="spsocposition:attacking-midfielder"/>
             <name xml:lang="en-GB">attacking-midfielder</name>
+            <name xml:lang="nb-NO">offensiv-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositiondefensive-midfielder">
             <conceptId qcode="spsocposition:defensive-midfielder"/>
             <name xml:lang="en-GB">defensive-midfielder</name>
+            <name xml:lang="nb-NO">defensiv-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionhalf-backs">
             <conceptId qcode="spsocposition:half-backs"/>
             <name xml:lang="en-GB">half-backs</name>
+            <name xml:lang="nb-NO">midtforsvar</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionright-wing">
             <conceptId qcode="spsocposition:right-wing"/>
             <name xml:lang="en-GB">right-wing</name>
+            <name xml:lang="nb-NO">høyreving</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionleft-wing">
             <conceptId qcode="spsocposition:left-wing"/>
             <name xml:lang="en-GB">left-wing</name>
+            <name xml:lang="nb-NO">venstreving</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositioncenter-forward">
             <conceptId qcode="spsocposition:center-forward"/>
             <name xml:lang="en-GB">center-forward</name>
+            <name xml:lang="nb-NO">spiss</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionforward">
             <conceptId qcode="spsocposition:forward"/>
             <name xml:lang="en-GB">forward</name>
+            <name xml:lang="nb-NO">angrep</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionstriker">
             <conceptId qcode="spsocposition:striker"/>
             <name xml:lang="en-GB">striker</name>
+            <name xml:lang="nb-NO">spiss</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositiongoalkeeper">
             <conceptId qcode="spsocposition:goalkeeper"/>
             <name xml:lang="en-GB">goalkeeper</name>
+            <name xml:lang="nb-NO">målvakt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositioncoach">
             <conceptId qcode="spsocposition:coach"/>
             <name xml:lang="en-GB">coach</name>
+            <name xml:lang="nb-NO">trener</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionassistant-coach">
             <conceptId qcode="spsocposition:assistant-coach"/>
             <name xml:lang="en-GB">assistant-coach</name>
+            <name xml:lang="nb-NO">assistenttrener</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionreferee">
             <conceptId qcode="spsocposition:referee"/>
             <name xml:lang="en-GB">referee</name>
+            <name xml:lang="nb-NO">dommer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionassistant-referee">
             <conceptId qcode="spsocposition:assistant-referee"/>
             <name xml:lang="en-GB">assistant-referee</name>
+            <name xml:lang="nb-NO">assistentdommer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
