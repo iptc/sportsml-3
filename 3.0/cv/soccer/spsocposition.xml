@@ -31,9 +31,11 @@
          </creator>
          <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="nb-NO">sport</name>
          </subject>
          <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="nb-NO">fotball</name>
             <broader qcode="subj:15000000"/>
          </subject>
          <description/>
@@ -113,21 +115,21 @@
          <concept id="spsocpositionright-midfielder">
             <conceptId qcode="spsocposition:right-midfielder"/>
             <name xml:lang="en-GB">right-midfielder</name>
-            <name xml:lang="nb-NO">høyre midtbane</name>
+            <name xml:lang="nb-NO">høyre-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositionleft-midfielder">
             <conceptId qcode="spsocposition:left-midfielder"/>
             <name xml:lang="en-GB">left-midfielder</name>
-            <name xml:lang="nb-NO">venstre midtbane</name>
+            <name xml:lang="nb-NO">venstre-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositioncenter-midfielder">
             <conceptId qcode="spsocposition:center-midfielder"/>
             <name xml:lang="en-GB">center-midfielder</name>
-            <name xml:lang="nb-NO">sentral midtbane</name>
+            <name xml:lang="nb-NO">sentral-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
@@ -141,14 +143,14 @@
          <concept id="spsocpositionattacking-midfielder">
             <conceptId qcode="spsocposition:attacking-midfielder"/>
             <name xml:lang="en-GB">attacking-midfielder</name>
-            <name xml:lang="nb-NO">offensiv midtbane</name>
+            <name xml:lang="nb-NO">offensiv-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
          <concept id="spsocpositiondefensive-midfielder">
             <conceptId qcode="spsocposition:defensive-midfielder"/>
             <name xml:lang="en-GB">defensive-midfielder</name>
-            <name xml:lang="nb-NO">defensiv midtbane</name>
+            <name xml:lang="nb-NO">defensiv-midtbane</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
          </concept>
