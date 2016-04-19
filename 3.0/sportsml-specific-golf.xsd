@@ -140,7 +140,6 @@ applies to this specification.
 		<xs:attributeGroup ref="coverageAttributes"/>
 	</xs:complexType>
 	
-
 		<!-- This group is used in team-stats-golf and player-stats-golf -->
 		<xs:complexType name="golfStatsComplexType">
 			<xs:attributeGroup ref="commonAttributes"/>
@@ -430,8 +429,6 @@ applies to this specification.
 			</xs:attribute>
 		</xs:complexType>
 	
-	
-
 		<xs:complexType name="golfStatsHoleComplexType">
 			<xs:annotation>
 				<xs:documentation>Statistics pertinent to a particular hole within a golf round. | Includes what score was recorded at that hole, and the par value of the hole.</xs:documentation>
@@ -456,61 +453,6 @@ applies to this specification.
 			</xs:attribute>
 		</xs:complexType>
 	
-	<!-- ========================================================================================= -->
-	<!--        Golf event actions complex types               -->	
-	<!-- ========================================================================================= -->	
-	
-<!--		<xs:complexType name="golfEventActionsComplexType">
-			<xs:annotation>
-				<xs:documentation>A holder for actions specific to golf. | Currently holds a golf shot, and a generic golf action element.</xs:documentation>
-			</xs:annotation>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element name="play" type="golfActionPlayComplexType"/>
-				<xs:element name="other" type="golfActionOtherComplexType"/>
-			</xs:choice>
-			<xs:attributeGroup ref="commonAttributes"/>
-		</xs:complexType>
--->	
-<!--		<xs:complexType name="golfActionPlayComplexType">
-			<xs:annotation>
-				<xs:documentation>A swing of the club at the ball resulting in the ball moving. | A shot moves progressively moves the ball from the tee towards the hole.</xs:documentation>
-			</xs:annotation>
-			<xs:complexContent>
-				<xs:extension base="baseEventActionComplexType">
-					<xs:sequence>
-						<xs:element name="participant" type="golfActionParticipantComplexType" minOccurs="0" maxOccurs="unbounded"/>
-					</xs:sequence>
-					<xs:attributeGroup ref="eventStateGolf"/>
-					<xs:attribute name="club" type="xs:string" use="optional"/>
-					<xs:attribute name="shot-type" type="xs:string" use="optional"/>
-					<xs:attribute name="shot-distance" type="xs:string" use="optional"/>
-					<xs:attribute name="start-distance" type="xs:string" use="optional"/>
-					<xs:attribute name="end-distance" type="xs:string" use="optional"/>
-					<xs:attribute name="landing" type="xs:string" use="optional"/>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
-	
-	<xs:complexType name="golfActionParticipantComplexType">
-		<xs:annotation>
-			<xs:documentation>A generic play participant element.</xs:documentation>
-		</xs:annotation>
-		<xs:complexContent>
-			<xs:extension base="baseParticipantComplexType"/>
-		</xs:complexContent>
-	</xs:complexType>
-	
-	<xs:complexType name="golfActionOtherComplexType">
-			<xs:annotation>
-				<xs:documentation>A custom action. | For use when none of the pre-build actions apply.</xs:documentation>
-			</xs:annotation>
-			<xs:complexContent>
-				<xs:extension base="genericEventActionComplexType">
-					<xs:attributeGroup ref="eventStateGolf"/>
-				</xs:extension>
-			</xs:complexContent>
-		</xs:complexType>
--->	
 	<!-- ========================================================================================= -->
 	<!--        Golf attribute groups complex types               -->	
 	<!-- ========================================================================================= -->	

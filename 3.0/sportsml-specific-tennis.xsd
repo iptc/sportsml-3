@@ -350,59 +350,6 @@ applies to this specification.
         </xs:complexType>
 
     <!-- ========================================================================================= -->
-    <!--        Tennis Event Actions complex types               -->	
-    <!-- ========================================================================================= -->	
-    
-<!--        <xs:complexType name="tennisEventActionsComplexType">
-            <xs:annotation>
-                <xs:documentation>A holder for actions taking place in a tennis match. | Either a point, or a custom action.</xs:documentation>
-            </xs:annotation>
-            <xs:choice minOccurs="0" maxOccurs="unbounded">
-                <xs:element name="point" type="tennisActionPointComplexType"/>
-                <xs:element name="other" type="tennisActionOtherComplexType"/>
-            </xs:choice>
-            <xs:attributeGroup ref="commonAttributes"/>
-        </xs:complexType>
--->    
-<!--        <xs:complexType name="tennisActionPointComplexType">
-            <xs:annotation>
-                <xs:documentation>Can be recorded whenever a point is won. | Includes an identifier for how that point was won.</xs:documentation>
-            </xs:annotation>
-            <xs:complexContent>
-                <xs:extension base="baseEventActionComplexType">
-                    <xs:attributeGroup ref="eventStateTennis"/>
-                    <xs:attribute name="winner-idref" type="xs:IDREF" use="optional">
-                        <xs:annotation>
-                            <xs:documentation>A pointer to the player or team (for doubles) who won the point.</xs:documentation>
-                        </xs:annotation>
-                    </xs:attribute>
-                    <xs:attribute name="win-type" type="winType.Tennis" use="optional">
-                        <xs:annotation>
-                            <xs:documentation>If the point was forced or unforced. The meaning will be a bit different depending on weather the point was awarded due to a ball out or not.</xs:documentation>
-                        </xs:annotation>
-                    </xs:attribute>
-                    <xs:attribute name="shot-type" type="shotType.Tennis" use="optional">
-                        <xs:annotation>
-                            <xs:documentation>What type of shot (or mistake by the opponent) resulted in the point.</xs:documentation>
-                        </xs:annotation>
-                    </xs:attribute>
-                </xs:extension>
-            </xs:complexContent>
-        </xs:complexType>
-    
-        <xs:complexType name="tennisActionOtherComplexType">
-            <xs:annotation>
-                <xs:documentation>A custom action. | For use when none of the pre-build actions apply.</xs:documentation>
-            </xs:annotation>
-            <xs:complexContent>
-                <xs:extension base="genericEventActionComplexType">
-                    <xs:attributeGroup ref="eventStateTennis"/>
-                </xs:extension>
-            </xs:complexContent>
-        </xs:complexType>
--->
-
-    <!-- ========================================================================================= -->
     <!--        Tennis Attribute Groups               -->	
     <!-- ========================================================================================= -->	
 

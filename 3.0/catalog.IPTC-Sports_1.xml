@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File: http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_#.xml (# represents the version number of this file)
+
+	This file provides a Catalog for G2-Standards as defined by the common News Architecture
+	This catalog contains all currently existing IPTC maintained controlled vocabularies - branded as NewsCodes - 
+	and a set of new sets of NewsCodes for the G2-Standards - see the explanations in the headers below.
+
+	How to apply:
+	When creating an XML instance of any kind of item for a G2-Standard do this:
+	- either: copy and paste the <catalog> element from this file to the appropriate position in the item
+	- or: add a <catalogRef> element to the item and apply the URL of this file (wherever it is stored)
+		to the "href" attribute of the catalogRef element like: 
+		<catalogRef href="http://mydomain.org/files/catalog.IPTC-G2-Standards_99.xml" />
+
+	This file is provided as is by the International Press Telecommunication Council, IPTC - www.iptc.org
+	History / change log:
+	v 1 2016-04-18: initial version, derived from the draft versions, reflects the G2 NewsCodes approved on 2008-01-29
+-->
+<catalog xmlns="http://iptc.org/std/nar/2006-10-01/" additionalInfo="http://www.iptc.org/goto?G2cataloginfo">]	
+
+	<!-- General sport vocabularies appicable to all sports -->
+	<scheme alias="spct" uri="http://cv.iptc.org/newscodes/spct/" />
+	<scheme alias="spactionclass" uri="http://cv.iptc.org/newscodes/spactionclass/" />
+	<scheme alias="spaward" uri="http://cv.iptc.org/newscodes/spaward/" />
+	<scheme alias="spcode" uri="http://cv.iptc.org/newscodes/spcode/" />
+	<scheme alias="spcompetitionscope" uri="http://cv.iptc.org/newscodes/spcompetitionscope/" />
+	<scheme alias="spdurationscope" uri="http://cv.iptc.org/newscodes/spdurationscope/" />
+	<scheme alias="speventoutcome" uri="http://cv.iptc.org/newscodes/speventoutcome/" />
+	<scheme alias="speventoutcometype" uri="http://cv.iptc.org/newscodes/speventoutcometype/" />
+	<scheme alias="speventstatus" uri="http://cv.iptc.org/newscodes/speventstatus/" />
+	<scheme alias="speventstatusreason" uri="http://cv.iptc.org/newscodes/speventstatusreason/" />
+	<scheme alias="speventstyle" uri="http://cv.iptc.org/newscodes/speventstyle/" />
+	<scheme alias="sphealth" uri="http://cv.iptc.org/newscodes/sphealth/" />
+	<scheme alias="spinfractionside" uri="http://cv.iptc.org/newscodes/spinfractionside/" />
+	<scheme alias="spparticipantcount" uri="http://cv.iptc.org/newscodes/spparticipantcount/" />
+	<scheme alias="spphase" uri="http://cv.iptc.org/newscodes/spphase/" />
+	<scheme alias="spphasestatus" uri="http://cv.iptc.org/newscodes/spphasestatus/" />
+	<scheme alias="spplayerstatus" uri="http://cv.iptc.org/newscodes/spplayerstatus/" />
+	<scheme alias="spprofessionalstatus" uri="http://cv.iptc.org/newscodes/spprofessionalstatus/" />
+	<scheme alias="sprecipienttype" uri="http://cv.iptc.org/newscodes/sprecipienttype/" />
+	<scheme alias="sprecordmakingscope" uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" />
+	<scheme alias="spresulteffect" uri="http://cv.iptc.org/newscodes/spresulteffect/" />
+	<scheme alias="spscoreunits" uri="http://cv.iptc.org/newscodes/spscoreunits/" />
+	<scheme alias="spseasontype" uri="http://cv.iptc.org/newscodes/spseasontype/" />
+	<scheme alias="spshotdistanceunits" uri="http://cv.iptc.org/newscodes/spshotdistanceunits/" />
+	<scheme alias="spsitestyle" uri="http://cv.iptc.org/newscodes/spsitestyle/" />
+	<scheme alias="spsitesurface" uri="http://cv.iptc.org/newscodes/spsitesurface/" />
+	<scheme alias="spspecialgroup" uri="http://cv.iptc.org/newscodes/spspecialgroup/" />
+	<scheme alias="spspecialneeds" uri="http://cv.iptc.org/newscodes/spspecialneeds/" />
+	<scheme alias="spstat" uri="http://cv.iptc.org/newscodes/spstat/" />
+	<scheme alias="spstatscoverage" uri="http://cv.iptc.org/newscodes/spstatscoverage/" />
+	<scheme alias="spstatuschange" uri="http://cv.iptc.org/newscodes/spstatuschange/" />
+	<scheme alias="spstreaktype" uri="http://cv.iptc.org/newscodes/spstreaktype/" />
+	<scheme alias="spteamcoverage" uri="http://cv.iptc.org/newscodes/spteamcoverage/" />
+	<scheme alias="sptemporalunit" uri="http://cv.iptc.org/newscodes/sptemporalunit/" />
+	<scheme alias="sptournamentpart" uri="http://cv.iptc.org/newscodes/sptournamentpart/" />
+	<scheme alias="spweatherprediction" uri="http://cv.iptc.org/newscodes/spweatherprediction/" />
+	
+	<!-- Sport concepts for American Football (proceeding alphabetically through the sports) -->
+
+	<scheme alias="spamfaction" uri="http://cv.iptc.org/newscodes/spamfaction/" />
+	<scheme alias="spamfcaller" uri="http://cv.iptc.org/newscodes/spamfcaller/" />
+	<scheme alias="spamfdriveresult" uri="http://cv.iptc.org/newscodes/spamfdriveresult/" />
+	<scheme alias="spamfinfraction" uri="http://cv.iptc.org/newscodes/spamfinfraction/" />
+	<scheme alias="spamfkick" uri="http://cv.iptc.org/newscodes/spamfkick/" />
+	<scheme alias="spamfpenaltylevel" uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" />
+	<scheme alias="spamfposition" uri="http://cv.iptc.org/newscodes/spamfposition/" />
+	<scheme alias="spamfresult" uri="http://cv.iptc.org/newscodes/spamfresult/" />
+	<scheme alias="spamfrole" uri="http://cv.iptc.org/newscodes/spamfrole/" />
+	<scheme alias="spamfscore" uri="http://cv.iptc.org/newscodes/spamfscore/" />
+	<scheme alias="spamfstat" uri="http://cv.iptc.org/newscodes/spamfstat/" />
+	<scheme alias="spamftimeout" uri="http://cv.iptc.org/newscodes/spamftimeout/" />
+	<scheme alias="spamftouchdown" uri="http://cv.iptc.org/newscodes/spamftouchdown/" />
+	
+	<!-- Sport concepts for Baseball -->
+	
+	<scheme alias="spbblaction" uri="http://cv.iptc.org/newscodes/spbblaction/" />
+	<scheme alias="spbblballlocation" uri="http://cv.iptc.org/newscodes/spbblballlocation/" />
+	<scheme alias="spbblballlocationhorizontal" uri="http://cv.iptc.org/newscodes/spbblballlocationhorizontal/" />
+	<scheme alias="spbblballlocationvertical" uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/" />
+	<scheme alias="spbblhit" uri="http://cv.iptc.org/newscodes/spbblhit/" />
+	<scheme alias="spbblout" uri="http://cv.iptc.org/newscodes/spbblout/" />
+	<scheme alias="spbblpitch" uri="http://cv.iptc.org/newscodes/spbblpitch/" />
+	<scheme alias="spbblposition" uri="http://cv.iptc.org/newscodes/spbblposition/" />
+	<scheme alias="spbblrole" uri="http://cv.iptc.org/newscodes/spbblrole/" />
+	<scheme alias="spbblstat" uri="http://cv.iptc.org/newscodes/spbblstat/" />
+	<scheme alias="spbbltrajectory" uri="http://cv.iptc.org/newscodes/spbbltrajectory/" />
+
+</catalog>

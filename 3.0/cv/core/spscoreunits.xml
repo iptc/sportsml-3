@@ -56,12 +56,6 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spscoreunits/" rel="skos:inScheme"/>
          </concept>
-         <concept id="spscoreunitsbelow-par">
-            <conceptId qcode="spscoreunits:below-par"/>
-            <name xml:lang="en-GB">below-par</name>
-            <definition>DEPRECATED: use "against-par"</definition>
-            <related uri="http://cv.iptc.org/newscodes/spscoreunits/" rel="skos:inScheme"/>
-         </concept>
       </conceptSet>
       <schemeMeta uri="http://cv.iptc.org/newscodes/spstat/"
                authority="http://www.iptc.org"
@@ -71,7 +65,6 @@
          <related qcode="spscoreunits:time-absolute" rel="skos:hasTopConcept"/>
          <related qcode="spscoreunits:time-relative" rel="skos:hasTopConcept"/>
          <related qcode="spscoreunits:against-par" rel="skos:hasTopConcept"/>
-         <related qcode="spscoreunits:below-par" rel="skos:hasTopConcept"/>
          <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
       </schemeMeta>
    </knowledgeItem>

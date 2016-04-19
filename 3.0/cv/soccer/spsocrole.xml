@@ -144,13 +144,6 @@
             <related uri="http://cv.iptc.org/newscodes/spsocrole/"
                   rel="skos:inScheme"/>
          </concept>
-         <concept id="spsocrolegoalie">
-            <conceptId qcode="spsocrole:goalie"/>
-            <name xml:lang="en-GB">goalie</name>
-            <definition>DEPRECATED: Use goalkeeper instead</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocrole/"
-                  rel="skos:inScheme"/>
-         </concept>
       </conceptSet>
       <schemeMeta uri="http://cv.iptc.org/newscodes/spsocstat/"
                authority="http://www.iptc.org"
@@ -174,7 +167,6 @@
          <related qcode="spsocrole:free-kicker" rel="skos:hasTopConcept"/>
          <related qcode="spsocrole:penalty-kicker" rel="skos:hasTopConcept"/>
          <related qcode="spsocrole:goalkeeper" rel="skos:hasTopConcept"/>
-         <related qcode="spsocrole:goalie" rel="skos:hasTopConcept"/>
          <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
       </schemeMeta>
    </knowledgeItem>
