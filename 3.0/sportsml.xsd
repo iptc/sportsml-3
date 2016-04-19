@@ -927,6 +927,11 @@ Agreement for International Press Telecommunications
                 <xs:documentation>Number of losses in events which went into overtime. For leagues that use this as a top-level outcome category (eg. NHL), as opposed to just a derivative of scoping.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
+	    <xs:attribute name="relegation-average" type="xs:decimal" use="optional">
+            <xs:annotation>
+                <xs:documentation>The product of a relegation average formula used to determine which team is demoted to a lower league. The formula may vary by league but the average typically looks at team performance across multiple competitions. The team(s) with the lowest relegation averages is sent to the league below.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
     
     <!-- ========================================================================================= -->
