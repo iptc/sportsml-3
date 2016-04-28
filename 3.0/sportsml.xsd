@@ -360,21 +360,16 @@ Agreement for International Press Telecommunications
                         <xs:documentation>A keyword used by editors to refer to the document.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="document-class" type="xs:string" use="optional">
+                <xs:attribute name="document-class" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>A category code for the fixture-key. Recommended
-                            categories are news (non-event-specific news reports for player, team,
-                            league, etc.), standings (or tables), schedules, statistics (for
-                            non-event-specific statistical reports), event-summary (for
-                            event-specific reports whether prose (i.e. previews and reviews) or
-                            statistical (i.e. boxscores)), event-action (for play actions within a
-                            single event), dynamic-resource-file (for team rosters (squad lists),
-                            athlete lists, league groupings and teams, etc.)</xs:documentation>
+                        <xs:documentation>A category code for the document type (fixture-key). Recommended
+                            categories contained in SportsML vocabulary uri: http://cv.iptc.org/newscodes/spct/
+                        </xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="fixture-key" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>A consistent key for the type of regularly-published document being transmitted. External controlled vocabulary:  fixture-key.list</xs:documentation>
+                        <xs:documentation>A publisher-specific key for the type of regularly-published document (or genre) being transmitted. Eg. event-stats, roster, standings (table), etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/spfixt/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
             </xs:extension>
@@ -407,12 +402,12 @@ Agreement for International Press Telecommunications
         <xs:attributeGroup ref="commonAttributes"/>
         <xs:attribute name="code-type" type="QCodeType" use="required">
             <xs:annotation>
-                <xs:documentation>What type of item is being described.</xs:documentation>
+                <xs:documentation>What type of item is being described. SportsML vocabulary uri: http://cv.iptc.org/newscodes/spct/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="code-key" type="QCodeType" use="optional">
             <xs:annotation>
-                <xs:documentation>The symbol for the identified content. SportsML vocabulary uri: http://cv.iptc.org/newscodes/spcode/</xs:documentation>
+                <xs:documentation>The symbol for the identified content.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="code-name" type="xs:string" use="optional">
