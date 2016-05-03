@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spgollanding" version="1">
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
+    standardversion="2.18" conformance="power"
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spgollanding" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC - International Press Telecommunications Council</name>
         </copyrightHolder>
         <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
-        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+            Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
     <itemMeta>
         <itemClass qcode="cinat:scheme"/>
@@ -69,9 +71,11 @@
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
-    <schemeMeta uri="http://cv.iptc.org/newscodes/spgolstat/" authority="http://www.iptc.org" preferredalias="spgolstat">
-        <definition xml:lang="en-GB">The place or surface where a golf ball lands after being shot.</definition>
-        <name xml:lang="en-GB">Golf Statistics</name>
+    <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spgollanding/"
+        preferredalias="spgollanding">
+        <definition xml:lang="en-GB">The place or surface where a golf ball lands after being
+            shot.</definition>
+        <name xml:lang="en-GB">Golf Shot Landings</name>
         <related qcode="spgollanding:fairway" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:sand" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:water" rel="skos:hasTopConcept"/>
@@ -81,4 +85,3 @@
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>
-

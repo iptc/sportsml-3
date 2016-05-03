@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
-    standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-spct-xxxxxxxxxxxx" version="1">
+    standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spct"
+    version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -23,8 +22,8 @@
     </itemMeta>
     <contentMeta>
         <contentCreated>2014-11-03T15:25:15+00:00</contentCreated>
-        <description xml:lang="en-GB">Indicates the basic nature of a concept.</description>
-        <description xml:lang="en-GB">Nature of a Concept</description>
+        <description xml:lang="en-GB">General sports-related concepts such as team, player,
+            etc.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spctsport">
@@ -85,45 +84,45 @@
         <concept id="spctnews">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:news"/>
             <name xml:lang="en-GB">News</name>
-            <definition xml:lang="en-GB" >A category of sports documents: non-event-specific news reports for player, team,
-                league, etc.</definition>
+            <definition xml:lang="en-GB">A category of sports documents: non-event-specific news
+                reports for player, team, league, etc.</definition>
         </concept>
         <concept id="spctstandings">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:standings"/>
             <name xml:lang="en-GB">Standings</name>
-            <definition xml:lang="en-GB" >A category of sports documents: often also called "tables"</definition>
+            <definition xml:lang="en-GB">A category of sports documents: often also called
+                "tables"</definition>
         </concept>
         <concept id="spctschedules">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:schedules"/>
             <name xml:lang="en-GB">Schedules</name>
-            <definition xml:lang="en-GB" >A category of sports documents.</definition>
+            <definition xml:lang="en-GB">A category of sports documents.</definition>
         </concept>
         <concept id="spctstatistics">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:statistics"/>
             <name xml:lang="en-GB">Statistics</name>
-            <definition xml:lang="en-GB" >A category of sports documents: for
-                non-event-specific statistical reports</definition>
+            <definition xml:lang="en-GB">A category of sports documents: for non-event-specific
+                statistical reports</definition>
         </concept>
         <concept id="spctevent-summary">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:event-summary"/>
             <name xml:lang="en-GB">Event Summary</name>
-            <definition xml:lang="en-GB" >A category of sports documents: for
-                event-specific reports whether prose (i.e. previews and reviews) or
-                statistical (i.e. boxscores))</definition>
+            <definition xml:lang="en-GB">A category of sports documents: for event-specific reports
+                whether prose (i.e. previews and reviews) or statistical (i.e.
+                boxscores))</definition>
         </concept>
         <concept id="spctevent-action">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:event-action"/>
             <name xml:lang="en-GB">Event Action</name>
-            <definition xml:lang="en-GB" >A category of sports documents: for play actions within a
+            <definition xml:lang="en-GB">A category of sports documents: for play actions within a
                 single event</definition>
         </concept>
         <concept id="spctdynamic-resource-file">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:dynamic-resource-file"/>
             <name xml:lang="en-GB">Dynamic Resource File</name>
-            <definition xml:lang="en-GB" >A category of sports documents: for team rosters (squad lists),
-                athlete lists, league groupings and teams, etc.</definition>
+            <definition xml:lang="en-GB">A category of sports documents: for team rosters (squad
+                lists), athlete lists, league groupings and teams, etc.</definition>
         </concept>
-        
         <concept id="spctteam">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:team"/>
             <name xml:lang="en-GB">Team</name>
@@ -148,7 +147,6 @@
                 sport.</definition>
         </concept>
         <!-- news management codes -->
- 
         <concept id="spctarticle-ref">
             <conceptId qcode="spct:article-ref"/>
             <name xml:lang="en-GB">article-ref</name>
@@ -203,12 +201,41 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
-        
     </conceptSet>
-    <schemeMeta uri="http://cv.iptc.org/newscodes/sportconcept/" authority="http://www.iptc.org"
-        preferredalias="stat">
+    <schemeMeta uri="http://cv.iptc.org/newscodes/spct/" authority="http://www.iptc.org"
+        preferredalias="spct">
         <definition xml:lang="en-GB">General sports-related concepts such as team, player,
             etc.</definition>
         <name xml:lang="en-GB">Sports Concept</name>
+        <related qcode="spct:sport" rel="skos:hasTopConcept"/>
+        <related qcode="spct:league" rel="skos:hasTopConcept"/>
+        <related qcode="spct:season" rel="skos:hasTopConcept"/>
+        <related qcode="spct:season-type" rel="skos:hasTopConcept"/>
+        <related qcode="spct:season-regular" rel="skos:hasTopConcept"/>
+        <related qcode="spct:post-season" rel="skos:hasTopConcept"/>
+        <related qcode="spct:pre-season" rel="skos:hasTopConcept"/>
+        <related qcode="spct:competition" rel="skos:hasTopConcept"/>
+        <related qcode="spct:conference" rel="skos:hasTopConcept"/>
+        <related qcode="spct:division" rel="skos:hasTopConcept"/>
+        <related qcode="spct:news" rel="skos:hasTopConcept"/>
+        <related qcode="spct:standings" rel="skos:hasTopConcept"/>
+        <related qcode="spct:schedules" rel="skos:hasTopConcept"/>
+        <related qcode="spct:statistics" rel="skos:hasTopConcept"/>
+        <related qcode="spct:event-summary" rel="skos:hasTopConcept"/>
+        <related qcode="spct:event-action" rel="skos:hasTopConcept"/>
+        <related qcode="spct:dynamic-resource-file" rel="skos:hasTopConcept"/>
+        <related qcode="spct:team" rel="skos:hasTopConcept"/>
+        <related qcode="spct:stat" rel="skos:hasTopConcept"/>
+        <related qcode="spct:offense" rel="skos:hasTopConcept"/>
+        <related qcode="spct:defense" rel="skos:hasTopConcept"/>
+        <related qcode="spct:article-ref" rel="skos:hasTopConcept"/>
+        <related qcode="spct:photo-ref" rel="skos:hasTopConcept"/>
+        <related qcode="spct:audio-ref" rel="skos:hasTopConcept"/>
+        <related qcode="spct:video-ref" rel="skos:hasTopConcept"/>
+        <related qcode="spct:xref-key" rel="skos:hasTopConcept"/>
+        <related qcode="spct:slug" rel="skos:hasTopConcept"/>
+        <related qcode="spct:publisher" rel="skos:hasTopConcept"/>
+        <related qcode="spct:distributor" rel="skos:hasTopConcept"/>
+        <related qcode="spct:priority" rel="skos:hasTopConcept"/>
     </schemeMeta>
 </knowledgeItem>

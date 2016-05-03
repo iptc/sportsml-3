@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
+    standardversion="2.18" conformance="power"
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spct" version="1">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <rightsInfo>
+        <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC - International Press Telecommunications Council</name>
+        </copyrightHolder>
+        <copyrightNotice>Copyright 2014, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+            Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+    </rightsInfo>
+    <itemMeta>
+        <itemClass qcode="cinat:scheme"/>
+        <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC</name>
+        </provider>
+        <versionCreated>2014-11-03T15:25:15+00:00</versionCreated>
+        <firstCreated>2008-02-29T12:00:00+00:00</firstCreated>
+        <pubStatus qcode="stat:usable"/>
+        <generator versioninfo="0.1 [2014-09-05.1]">G2CVsandbox</generator>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2014-11-03T15:25:15+00:00</contentCreated>
+        <description xml:lang="en-GB">Indicates the basic nature of a concept.</description>
+        <description xml:lang="en-GB">Nature of a Concept</description>
+    </contentMeta>
+    <conceptSet>
+        <concept id="spctsport">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:sport"/>
+            <name xml:lang="en-GB">Sport</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctleague">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:league"/>
+            <name xml:lang="en-GB">League</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctseason">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:season"/>
+            <name xml:lang="en-GB">Season</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctseason-type">
+            <conceptId qcode="spct:season-type"/>
+            <name xml:lang="en-GB">season-type</name>
+            <definition>Which segment of the season: pre-season, post-season, regular,
+                etc.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctseason-regular">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:season-regular"/>
+            <name xml:lang="en-GB">Regular Season</name>
+            <definition xml:lang="en-GB">The phase of a season during which competitors vie for
+                placement in a playoff phase.</definition>
+        </concept>
+        <concept id="spctpost-season">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:post-season"/>
+            <name xml:lang="en-GB">Post Season</name>
+            <definition xml:lang="en-GB">The phase of a season after the regular season during which
+                competitors vie for the league championship.</definition>
+        </concept>
+        <concept id="spctpre-season">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:pre-season"/>
+            <name xml:lang="en-GB">Pre Season</name>
+            <definition xml:lang="en-GB">The phase of a season before the regular season during
+                which exhibition matches are played.</definition>
+        </concept>
+        <concept id="spctcompetition">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:competition"/>
+            <name xml:lang="en-GB">Competition</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctconference">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:conference"/>
+            <name xml:lang="en-GB">Conference</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctdivision">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:division"/>
+            <name xml:lang="en-GB">Division</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctnews">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:news"/>
+            <name xml:lang="en-GB">News</name>
+            <definition xml:lang="en-GB" >A category of sports documents: non-event-specific news reports for player, team,
+                league, etc.</definition>
+        </concept>
+        <concept id="spctstandings">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:standings"/>
+            <name xml:lang="en-GB">Standings</name>
+            <definition xml:lang="en-GB" >A category of sports documents: often also called "tables"</definition>
+        </concept>
+        <concept id="spctschedules">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:schedules"/>
+            <name xml:lang="en-GB">Schedules</name>
+            <definition xml:lang="en-GB" >A category of sports documents.</definition>
+        </concept>
+        <concept id="spctstatistics">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:statistics"/>
+            <name xml:lang="en-GB">Statistics</name>
+            <definition xml:lang="en-GB" >A category of sports documents: for
+                non-event-specific statistical reports</definition>
+        </concept>
+        <concept id="spctevent-summary">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:event-summary"/>
+            <name xml:lang="en-GB">Event Summary</name>
+            <definition xml:lang="en-GB" >A category of sports documents: for
+                event-specific reports whether prose (i.e. previews and reviews) or
+                statistical (i.e. boxscores))</definition>
+        </concept>
+        <concept id="spctevent-action">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:event-action"/>
+            <name xml:lang="en-GB">Event Action</name>
+            <definition xml:lang="en-GB" >A category of sports documents: for play actions within a
+                single event</definition>
+        </concept>
+        <concept id="spctdynamic-resource-file">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:dynamic-resource-file"/>
+            <name xml:lang="en-GB">Dynamic Resource File</name>
+            <definition xml:lang="en-GB" >A category of sports documents: for team rosters (squad lists),
+                athlete lists, league groupings and teams, etc.</definition>
+        </concept>
+        
+        <concept id="spctteam">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:team"/>
+            <name xml:lang="en-GB">Team</name>
+            <definition xml:lang="en-GB"/>
+        </concept>
+        <concept id="spctstat">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:stat"/>
+            <name xml:lang="en-GB">Statistic</name>
+            <definition xml:lang="en-GB">A statistical indicator of on-field performance in
+                sport.</definition>
+        </concept>
+        <concept id="spctoffense">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:offense"/>
+            <name xml:lang="en-GB">Offense</name>
+            <definition xml:lang="en-GB">A class of position, role or statistic in
+                sport.</definition>
+        </concept>
+        <concept id="spctdefense">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:defense"/>
+            <name xml:lang="en-GB">Defense</name>
+            <definition xml:lang="en-GB">A class of position, role or statistic in
+                sport.</definition>
+        </concept>
+        <!-- news management codes -->
+ 
+        <concept id="spctarticle-ref">
+            <conceptId qcode="spct:article-ref"/>
+            <name xml:lang="en-GB">article-ref</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctphoto-ref">
+            <conceptId qcode="spct:photo-ref"/>
+            <name xml:lang="en-GB">photo-ref</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctaudio-ref">
+            <conceptId qcode="spct:audio-ref"/>
+            <name xml:lang="en-GB">audio-ref</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctvideo-ref">
+            <conceptId qcode="spct:video-ref"/>
+            <name xml:lang="en-GB">video-ref</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctxref-key">
+            <conceptId qcode="spct:xref-key"/>
+            <name xml:lang="en-GB">xref-key</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctslug">
+            <conceptId qcode="spct:slug"/>
+            <name xml:lang="en-GB">slug</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctpublisher">
+            <conceptId qcode="spct:publisher"/>
+            <name xml:lang="en-GB">publisher</name>
+            <definition>The source of the data/content.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctdistributor">
+            <conceptId qcode="spct:distributor"/>
+            <name xml:lang="en-GB">distributor</name>
+            <definition>The immediate provider of the data/content.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spctpriority">
+            <conceptId qcode="spct:priority"/>
+            <name xml:lang="en-GB">priority</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
+        </concept>
+        
+    </conceptSet>
+    <schemeMeta uri="http://cv.iptc.org/newscodes/spct/" authority="http://www.iptc.org"
+        preferredalias="spct">
+        <definition xml:lang="en-GB">General sports-related concepts such as team, player,
+            etc.</definition>
+        <name xml:lang="en-GB">Sports Concept</name>
+    </schemeMeta>
+</knowledgeItem>

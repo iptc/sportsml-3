@@ -794,11 +794,11 @@ Agreement for International Press Telecommunications
     </xs:complexType>
     
     <!-- ========================================================================================= -->
-    <!-- penalty stats complex type -->
+    <!-- infraction stats complex type -->
     <!-- ========================================================================================= -->
-    <xs:complexType name="penaltyStatsComplexType">
+    <xs:complexType name="infractionStatsComplexType">
         <xs:annotation>
-            <xs:documentation>Statistics that detail the number of each type of penalty. | Can be recorded for either a team or a player.</xs:documentation>
+            <xs:documentation>Statistics that detail the number of each type of infraction. | Can be recorded for either a team or a player.</xs:documentation>
         </xs:annotation>
         <xs:attributeGroup ref="commonAttributes"/>
         <xs:attribute name="type" type="xs:string" use="optional">
@@ -1738,7 +1738,7 @@ Agreement for International Press Telecommunications
         <xs:complexContent>
             <xs:extension base="base2StatsComplexType">
                 <xs:sequence>
-                    <xs:element name="penalty-stats" type="penaltyStatsComplexType" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="infraction-stats" type="infractionStatsComplexType" minOccurs="0" maxOccurs="unbounded"/>
                     <xs:element name="award" type="awardComplexType" minOccurs="0" maxOccurs="unbounded"/>
                     <xs:element name="rank" type="rankComplexType" minOccurs="0"  maxOccurs="unbounded"/>
                 </xs:sequence>
@@ -2100,51 +2100,69 @@ Agreement for International Press Telecommunications
         <xs:attribute name="shot-distance" use="optional" type="xs:double"/>
         <xs:attribute name="shot-distance-units" type="QCodeType" use="optional">
             <xs:annotation>
-                <xs:documentation>SportsML vocab uri: http://cv.iptc.org/newscodes/spshotdistanceunits/</xs:documentation>
+                <xs:documentation>SportsML vocab uri: http://cv.iptc.org/newscodes/spdistanceunits/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="penalty-type" use="optional" type="QCodeType">
+        <xs:attribute name="infraction-type" use="optional" type="QCodeType">
             <xs:annotation>
-                <xs:documentation>Whether the receiver of the penalty was the team, the player, a coach, a ref, etc.</xs:documentation>
+                <xs:documentation>The name of the type of infraction. See "infraction" SportsML vocabs for various sports:
+                    http://cv.iptc.org/newscodes/spamfinfraction/
+                    http://cv.iptc.org/newscodes/spichinfraction/
+                    http://cv.iptc.org/newscodes/sprgxinfraction/
+                    http://cv.iptc.org/newscodes/spsocinfraction/
+                </xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="penalty-length" use="optional" type="xs:string">
+        <xs:attribute name="infraction-level" use="optional" type="QCodeType">
             <xs:annotation>
-                <xs:documentation>The length of this penalty. Normally in minutes, but could be rest of the game etc</xs:documentation>
+                <xs:documentation>The degree of punishment for the infraction eg. yellow or red card, major, minor, game misconduct, etc. See "infractionlevel" SportsML vocabs for various sports:
+                    http://cv.iptc.org/newscodes/spbkbinfractionlevel/
+                    http://cv.iptc.org/newscodes/spichinfractionlevel/
+                    http://cv.iptc.org/newscodes/sprgxinfractionlevel/
+                    http://cv.iptc.org/newscodes/spsocinfractionlevel/
+                </xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="penalty-name" use="optional" type="xs:string">
+        <xs:attribute name="infraction-result" use="optional" type="QCodeType">
             <xs:annotation>
-                <xs:documentation>The name of the penalty</xs:documentation>
+                <xs:documentation>What the foul resulted in. See "infractionresult" SportsML vocabs for various sports:
+                    http://cv.iptc.org/newscodes/sprgxinfractionresult/
+                    http://cv.iptc.org/newscodes/spsocinfractionresult/
+                </xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="penalty-count" use="optional" type="xs:integer">
+        <xs:attribute name="infraction-side" type="QCodeType" use="optional">
+            <xs:annotation>
+                <xs:documentation>Which side committed the infraction, usually offense or defense. SportsML vocab uri: http://cv.iptc.org/newscodes/spinfractionside/</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="infraction-length" use="optional" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>The length of this infraction. Normally in minutes, but could be rest of the game etc</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="infraction-name" use="optional" type="xs:string">
+            <xs:annotation>
+                <xs:documentation>The name of the infraction</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="infraction-count" use="optional" type="xs:integer">
             <xs:annotation>
                 <xs:documentation>The sum of penalties recieved by this team/participant this event</xs:documentation>
             </xs:annotation>
         </xs:attribute>
-        <xs:attribute name="penalty-level" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>The severity or classification of the penalty eg. major, minor, game misconduct. See "penaltylevel" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/spbkbpenaltylevel/
-                    http://cv.iptc.org/newscodes/spichpenaltylevel/
-                    http://cv.iptc.org/newscodes/sprgxpenaltylevel/
-                    http://cv.iptc.org/newscodes/spsocpenaltylevel/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="penalty-status" use="optional">
-            <!-- If this action marks the start or the end of the penalty time -->
-            <xs:simpleType id="penaltyStatus">
+        <xs:attribute name="infraction-status" use="optional">
+            <!-- If this action marks the start or the end of the infraction time -->
+            <xs:simpleType id="infractionStatus">
                 <xs:restriction base="xs:string">
-                    <xs:enumeration id="penaltyStatusStart" value="start"/>
-                    <xs:enumeration id="penaltyStatusEnd" value="end"/>
+                    <xs:enumeration id="infractionStatusStart" value="start"/>
+                    <xs:enumeration id="infractionStatusEnd" value="end"/>
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
         <xs:attribute name="recipient-type" type="QCodeType" use="optional">
             <xs:annotation>
-                <xs:documentation>Whether the receiver of the penalty was the team, the player, a coach, a ref, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sprecipienttype/</xs:documentation>
+                <xs:documentation>Whether the receiver of the infraction was the team, the player, a coach, a ref, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sprecipienttype/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="score-attempt-type" use="optional" type="QCodeType">
@@ -2218,39 +2236,6 @@ Agreement for International Press Telecommunications
         <xs:attribute name="shootout-shot-order" use="optional" type="xs:integer">
             <xs:annotation>
                 <xs:documentation>When this shot was take, amongst all the shootout shots of a game for one particular team. For example: 3 (if it was the third shot of the shootout).</xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-type" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>The name of the type of infraction. See "infraction" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/spamfinfraction/
-                    http://cv.iptc.org/newscodes/spichinfraction/
-                    http://cv.iptc.org/newscodes/sprgxinfraction/
-                    http://cv.iptc.org/newscodes/spsocinfraction/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-level" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>The degree of punishment for the infraction eg. yellow or red card. See "penaltylevel" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/spbkbpenaltylevel/
-                    http://cv.iptc.org/newscodes/spichpenaltylevel/
-                    http://cv.iptc.org/newscodes/sprgxpenaltylevel/
-                    http://cv.iptc.org/newscodes/spsocpenaltylevel/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-result" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>What the foul resulted in. See "infractionresult" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/sprgxinfractionresult/
-                    http://cv.iptc.org/newscodes/spsocinfractionresult/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-side" type="QCodeType" use="optional">
-            <xs:annotation>
-                <xs:documentation>Which side committed the infraction, usually offense or defense. SportsML vocab uri: http://cv.iptc.org/newscodes/spinfractionside/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="faceoff-winner" use="optional" type="xs:NCName">
@@ -2373,12 +2358,12 @@ Agreement for International Press Telecommunications
                 </xs:attribute>
                 <xs:attribute name="event-status" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The stage of the event, describing whether it has started, is in progress, etc.</xs:documentation>
+                        <xs:documentation>The stage of the event, describing whether it has started, is in progress, etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/speventstatus/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="event-status-reason" type="xs:string" use="optional">
+                <xs:attribute name="event-status-reason" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The reason for the event status. Eg. why the cancellation, postponement, etc.</xs:documentation>
+                        <xs:documentation>The reason for the event status. Eg. why the cancellation, postponement, etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/speventstatusreason</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="event-status-note" type="xs:string" use="optional">

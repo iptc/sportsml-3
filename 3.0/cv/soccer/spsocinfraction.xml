@@ -1,140 +1,156 @@
-<?xml version="1.0"?>
-  <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spsocinfraction" version="1">
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
+    standardversion="2.18" conformance="power"
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spsocinfraction" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
-      <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
-        <name>IPTC - International Press Telecommunications Council</name>
-      </copyrightHolder>
-      <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
-      <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+        <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC - International Press Telecommunications Council</name>
+        </copyrightHolder>
+        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+            Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
     <itemMeta>
-      <itemClass qcode="cinat:scheme"/>
-      <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
-        <name>IPTC</name>
-      </provider>
-      <versionCreated>2015-10-21T15:15:32-04:00</versionCreated>
-      <pubStatus qcode="stat:usable"/>
+        <itemClass qcode="cinat:scheme"/>
+        <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC</name>
+        </provider>
+        <versionCreated>2015-10-21T15:15:32-04:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-      <contentCreated>2015-10-21T15:15:32-04:00</contentCreated>
-      <infoSource literal="IPTC"/>
-      <creator qcode="web:iptc.org">
-        <name>International Press Telecommunications Council (IPTC)</name>
-      </creator>
-      <subject qcode="subj:15000000">
-        <name xml:lang="en-US">sport</name>
-      </subject>
-      <subject qcode="subj:15054000">
-        <name xml:lang="en-US">soccer</name>
-        <broader qcode="subj:15000000"/>
-      </subject>
-      <description>Types of infraction in soccer.</description>
+        <contentCreated>2015-10-21T15:15:32-04:00</contentCreated>
+        <infoSource literal="IPTC"/>
+        <creator qcode="web:iptc.org">
+            <name>International Press Telecommunications Council (IPTC)</name>
+        </creator>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15054000">
+            <name xml:lang="en-US">soccer</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <description>Types of infraction in soccer.</description>
     </contentMeta>
     <conceptSet>
-      <concept id="spsocinfractionserious-infraction-play">
-        <conceptId qcode="spsocinfraction:serious-infraction-play"/>
-        <name xml:lang="en-GB">serious-infraction-play</name>
-        <definition>The player has committed a serious foul play. | This leads to a player being sent of the field (red card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionviolent-conduct">
-        <conceptId qcode="spsocinfraction:violent-conduct"/>
-        <name xml:lang="en-GB">violent-conduct</name>
-        <definition>The player has committed a violent conduct. | This leads to a player being sent off the field (red card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionspitting">
-        <conceptId qcode="spsocinfraction:spitting"/>
-        <name xml:lang="en-GB">spitting</name>
-        <definition>The player has spitted at an opponent or any other person. | This leads to a player being sent off the field (red card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionoffensive-language">
-        <conceptId qcode="spsocinfraction:offensive-language"/>
-        <name xml:lang="en-GB">offensive-language</name>
-        <definition>The player has used offensive, insulting or abusive language. | This leads to a player being sent off the field (red card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionoffensive-gestures">
-        <conceptId qcode="spsocinfraction:offensive-gestures"/>
-        <name xml:lang="en-GB">offensive-gestures</name>
-        <definition>The player has used offensive, insulting or abusive gestures. | This leads to a player being sent off the field (red card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionprofessional-infraction">
-        <conceptId qcode="spsocinfraction:professional-infraction"/>
-        <name xml:lang="en-GB">professional-infraction</name>
-        <definition>When a player denies another player an obvious goalscoring opportunity by foul. | This action leads to the player being sent off the field.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionunsporting-behaviour">
-        <conceptId qcode="spsocinfraction:unsporting-behaviour"/>
-        <name xml:lang="en-GB">unsporting-behaviour</name>
-        <definition>The player has been doing unsporting behaviour. | This leads to a player being given a caution (yellow card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractiondelaying-restart">
-        <conceptId qcode="spsocinfraction:delaying-restart"/>
-        <name xml:lang="en-GB">delaying-restart</name>
-        <definition>The player has delayed the restart of play. | This leads to a player being given a caution (yellow card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionillegal-reentry">
-        <conceptId qcode="spsocinfraction:illegal-reentry"/>
-        <name xml:lang="en-GB">illegal-reentry</name>
-        <definition>The player re-entered the ﬁeld of play without the referee’s permission. | This leads to a player being given a caution (yellow
-                        card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionillegal-entry">
-        <conceptId qcode="spsocinfraction:illegal-entry"/>
-        <name xml:lang="en-GB">illegal-entry</name>
-        <definition>The player entered the ﬁeld of play without the referee’s permission. | This leads to a player being given a caution (yellow card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionrequired-distance-foul">
-        <conceptId qcode="spsocinfraction:required-distance-foul"/>
-        <name xml:lang="en-GB">required-distance-foul</name>
-        <definition>The played has failed to respect the required distance when play is restarted with a corner kick, free kick or throw-in. | This leads to a player being given a caution (yellow card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionillegal-exit">
-        <conceptId qcode="spsocinfraction:illegal-exit"/>
-        <name xml:lang="en-GB">illegal-exit</name>
-        <definition>The player has deliberately left the field of play without the referee’s permission. | This leads to a player being given a caution (yellow card).</definition>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractionhand-ball">
-        <conceptId qcode="spsocinfraction:hand-ball"/>
-        <name xml:lang="en-GB">hand-ball</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spsocinfractiontackle">
-        <conceptId qcode="spsocinfraction:tackle"/>
-        <name xml:lang="en-GB">tackle</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
-      </concept>
+        <concept id="spsocinfractionserious-infraction-play">
+            <conceptId qcode="spsocinfraction:serious-infraction-play"/>
+            <name xml:lang="en-GB">serious-infraction-play</name>
+            <definition>The player has committed a serious foul play. | This leads to a player being
+                sent of the field (red card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionviolent-conduct">
+            <conceptId qcode="spsocinfraction:violent-conduct"/>
+            <name xml:lang="en-GB">violent-conduct</name>
+            <definition>The player has committed a violent conduct. | This leads to a player being
+                sent off the field (red card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionspitting">
+            <conceptId qcode="spsocinfraction:spitting"/>
+            <name xml:lang="en-GB">spitting</name>
+            <definition>The player has spitted at an opponent or any other person. | This leads to a
+                player being sent off the field (red card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionoffensive-language">
+            <conceptId qcode="spsocinfraction:offensive-language"/>
+            <name xml:lang="en-GB">offensive-language</name>
+            <definition>The player has used offensive, insulting or abusive language. | This leads
+                to a player being sent off the field (red card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionoffensive-gestures">
+            <conceptId qcode="spsocinfraction:offensive-gestures"/>
+            <name xml:lang="en-GB">offensive-gestures</name>
+            <definition>The player has used offensive, insulting or abusive gestures. | This leads
+                to a player being sent off the field (red card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionprofessional-infraction">
+            <conceptId qcode="spsocinfraction:professional-infraction"/>
+            <name xml:lang="en-GB">professional-infraction</name>
+            <definition>When a player denies another player an obvious goalscoring opportunity by
+                foul. | This action leads to the player being sent off the field.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionunsporting-behaviour">
+            <conceptId qcode="spsocinfraction:unsporting-behaviour"/>
+            <name xml:lang="en-GB">unsporting-behaviour</name>
+            <definition>The player has been doing unsporting behaviour. | This leads to a player
+                being given a caution (yellow card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractiondelaying-restart">
+            <conceptId qcode="spsocinfraction:delaying-restart"/>
+            <name xml:lang="en-GB">delaying-restart</name>
+            <definition>The player has delayed the restart of play. | This leads to a player being
+                given a caution (yellow card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionillegal-reentry">
+            <conceptId qcode="spsocinfraction:illegal-reentry"/>
+            <name xml:lang="en-GB">illegal-reentry</name>
+            <definition>The player re-entered the ﬁeld of play without the referee’s permission. |
+                This leads to a player being given a caution (yellow card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionillegal-entry">
+            <conceptId qcode="spsocinfraction:illegal-entry"/>
+            <name xml:lang="en-GB">illegal-entry</name>
+            <definition>The player entered the ﬁeld of play without the referee’s permission. | This
+                leads to a player being given a caution (yellow card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionrequired-distance-foul">
+            <conceptId qcode="spsocinfraction:required-distance-foul"/>
+            <name xml:lang="en-GB">required-distance-foul</name>
+            <definition>The played has failed to respect the required distance when play is
+                restarted with a corner kick, free kick or throw-in. | This leads to a player being
+                given a caution (yellow card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionillegal-exit">
+            <conceptId qcode="spsocinfraction:illegal-exit"/>
+            <name xml:lang="en-GB">illegal-exit</name>
+            <definition>The player has deliberately left the field of play without the referee’s
+                permission. | This leads to a player being given a caution (yellow
+                card).</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractionhand-ball">
+            <conceptId qcode="spsocinfraction:hand-ball"/>
+            <name xml:lang="en-GB">hand-ball</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocinfractiontackle">
+            <conceptId qcode="spsocinfraction:tackle"/>
+            <name xml:lang="en-GB">tackle</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocinfraction/" rel="skos:inScheme"/>
+        </concept>
     </conceptSet>
-    <schemeMeta uri="http://cv.iptc.org/newscodes/spsocstat/" authority="http://www.iptc.org" preferredalias="spsocstat">
-      <definition xml:lang="en-GB">Types of infraction in soccer.</definition>
-      <name xml:lang="en-GB">Soccer Statistics</name>
-      <related qcode="spsocinfraction:serious-infraction-play" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:violent-conduct" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:spitting" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:offensive-language" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:offensive-gestures" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:professional-infraction" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:unsporting-behaviour" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:delaying-restart" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:illegal-reentry" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:illegal-entry" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:required-distance-foul" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:illegal-exit" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:hand-ball" rel="skos:hasTopConcept"/>
-      <related qcode="spsocinfraction:tackle" rel="skos:hasTopConcept"/>
-      <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+    <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spsocinfraction/"
+        preferredalias="spsocinfraction">
+        <definition xml:lang="en-GB">Types of infraction in soccer.</definition>
+        <name xml:lang="en-GB">Soccer Infractions</name>
+        <related qcode="spsocinfraction:serious-infraction-play" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:violent-conduct" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:spitting" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:offensive-language" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:offensive-gestures" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:professional-infraction" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:unsporting-behaviour" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:delaying-restart" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:illegal-reentry" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:illegal-entry" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:required-distance-foul" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:illegal-exit" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:hand-ball" rel="skos:hasTopConcept"/>
+        <related qcode="spsocinfraction:tackle" rel="skos:hasTopConcept"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
-  </knowledgeItem>
+</knowledgeItem>

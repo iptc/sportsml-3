@@ -1,156 +1,172 @@
-<?xml version="1.0"?>
-  <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spcurshot" version="1">
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
+    standardversion="2.18" conformance="power"
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spcurshot" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
-      <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
-        <name>IPTC - International Press Telecommunications Council</name>
-      </copyrightHolder>
-      <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
-      <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+        <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC - International Press Telecommunications Council</name>
+        </copyrightHolder>
+        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+            Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
     <itemMeta>
-      <itemClass qcode="cinat:scheme"/>
-      <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
-        <name>IPTC</name>
-      </provider>
-      <versionCreated>2015-10-21T14:22:20-04:00</versionCreated>
-      <pubStatus qcode="stat:usable"/>
+        <itemClass qcode="cinat:scheme"/>
+        <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC</name>
+        </provider>
+        <versionCreated>2015-10-21T14:22:20-04:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-      <contentCreated>2015-10-21T14:22:20-04:00</contentCreated>
-      <infoSource literal="IPTC"/>
-      <creator qcode="web:iptc.org">
-        <name>International Press Telecommunications Council (IPTC)</name>
-      </creator>
-      <subject qcode="subj:15000000">
-        <name xml:lang="en-US">sport</name>
-      </subject>
-      <subject qcode="subj:15018000">
-        <name xml:lang="en-US">curling</name>
-        <broader qcode="subj:15000000"/>
-      </subject>
-      <description>Types of shot in curling.</description>
+        <contentCreated>2015-10-21T14:22:20-04:00</contentCreated>
+        <infoSource literal="IPTC"/>
+        <creator qcode="web:iptc.org">
+            <name>International Press Telecommunications Council (IPTC)</name>
+        </creator>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15018000">
+            <name xml:lang="en-US">curling</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <description>Types of shot in curling.</description>
     </contentMeta>
     <conceptSet>
-      <concept id="spcurshotdraw">
-        <conceptId qcode="spcurshot:draw"/>
-        <name xml:lang="en-GB">draw</name>
-        <definition>A shot trying to place the stone inside the  house.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotcome-around">
-        <conceptId qcode="spcurshot:come-around"/>
-        <name xml:lang="en-GB">come-around</name>
-        <definition>A shot trying to move the stone around another stone placing the new stone inside the house.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotfront">
-        <conceptId qcode="spcurshot:front"/>
-        <name xml:lang="en-GB">front</name>
-        <definition>A shot with the intention of placing the stone in front of the  house.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotguard">
-        <conceptId qcode="spcurshot:guard"/>
-        <name xml:lang="en-GB">guard</name>
-        <definition>A shot that is placed in front of another stone to protect it
-                        from being knocked out by the other team, or placed with the intent to later
-                        curl another rock around it and thus be protected; typically placed between
-                        the hog line and the very front of the house.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotraise">
-        <conceptId qcode="spcurshot:raise"/>
-        <name xml:lang="en-GB">raise</name>
-        <definition>Using one stone to hit another stone with the intention of moving it forward.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotfreeze">
-        <conceptId qcode="spcurshot:freeze"/>
-        <name xml:lang="en-GB">freeze</name>
-        <definition>A precise draw weight shot where a delivered stone comes to rest against a stationary stone, making it nearly impossible to knock out.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotsplit">
-        <conceptId qcode="spcurshot:split"/>
-        <name xml:lang="en-GB">split</name>
-        <definition>A draw shot in which the played stone hits on the side of a stationary stone and both move sideways and stay in play.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshottick">
-        <conceptId qcode="spcurshot:tick"/>
-        <name xml:lang="en-GB">tick</name>
-        <definition>A shot that bumps a guard out of the way without removing it from play.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshottakeout">
-        <conceptId qcode="spcurshot:takeout"/>
-        <name xml:lang="en-GB">takeout</name>
-        <definition>A shot that tries to hit and remove another stone from the game.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshothit-and-roll">
-        <conceptId qcode="spcurshot:hit-and-roll"/>
-        <name xml:lang="en-GB">hit-and-roll</name>
-        <definition>A shot that tries to hit and remove another stone from the game and then moving the shot stone sideways.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotclearing">
-        <conceptId qcode="spcurshot:clearing"/>
-        <name xml:lang="en-GB">clearing</name>
-        <definition>A shot that tries to hit and remove (an)other stone(s) including the shot stone.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotdouble">
-        <conceptId qcode="spcurshot:double"/>
-        <name xml:lang="en-GB">double</name>
-        <definition>A shot that tries to hit and remove two other stones.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotraise-takeout">
-        <conceptId qcode="spcurshot:raise-takeout"/>
-        <name xml:lang="en-GB">raise-takeout</name>
-        <definition>A shot that tries to hit another stone that in turn should hit a third stone removing that stone from play.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotnot-considered">
-        <conceptId qcode="spcurshot:not-considered"/>
-        <name xml:lang="en-GB">not-considered</name>
-        <definition>A shot that is not to be considered in the statistics for the game.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotteam-fault">
-        <conceptId qcode="spcurshot:team-fault"/>
-        <name xml:lang="en-GB">team-fault</name>
-        <definition>A shot that the team made something wrong with like touching the stone after release etc.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spcurshotblank">
-        <conceptId qcode="spcurshot:blank"/>
-        <name xml:lang="en-GB">blank</name>
-        <definition>A stone that is not played at all, for example all remaining stones in the game when one team has given up the game.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
-      </concept>
+        <concept id="spcurshotdraw">
+            <conceptId qcode="spcurshot:draw"/>
+            <name xml:lang="en-GB">draw</name>
+            <definition>A shot trying to place the stone inside the house.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotcome-around">
+            <conceptId qcode="spcurshot:come-around"/>
+            <name xml:lang="en-GB">come-around</name>
+            <definition>A shot trying to move the stone around another stone placing the new stone
+                inside the house.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotfront">
+            <conceptId qcode="spcurshot:front"/>
+            <name xml:lang="en-GB">front</name>
+            <definition>A shot with the intention of placing the stone in front of the
+                house.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotguard">
+            <conceptId qcode="spcurshot:guard"/>
+            <name xml:lang="en-GB">guard</name>
+            <definition>A shot that is placed in front of another stone to protect it from being
+                knocked out by the other team, or placed with the intent to later curl another rock
+                around it and thus be protected; typically placed between the hog line and the very
+                front of the house.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotraise">
+            <conceptId qcode="spcurshot:raise"/>
+            <name xml:lang="en-GB">raise</name>
+            <definition>Using one stone to hit another stone with the intention of moving it
+                forward.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotfreeze">
+            <conceptId qcode="spcurshot:freeze"/>
+            <name xml:lang="en-GB">freeze</name>
+            <definition>A precise draw weight shot where a delivered stone comes to rest against a
+                stationary stone, making it nearly impossible to knock out.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotsplit">
+            <conceptId qcode="spcurshot:split"/>
+            <name xml:lang="en-GB">split</name>
+            <definition>A draw shot in which the played stone hits on the side of a stationary stone
+                and both move sideways and stay in play.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshottick">
+            <conceptId qcode="spcurshot:tick"/>
+            <name xml:lang="en-GB">tick</name>
+            <definition>A shot that bumps a guard out of the way without removing it from
+                play.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshottakeout">
+            <conceptId qcode="spcurshot:takeout"/>
+            <name xml:lang="en-GB">takeout</name>
+            <definition>A shot that tries to hit and remove another stone from the
+                game.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshothit-and-roll">
+            <conceptId qcode="spcurshot:hit-and-roll"/>
+            <name xml:lang="en-GB">hit-and-roll</name>
+            <definition>A shot that tries to hit and remove another stone from the game and then
+                moving the shot stone sideways.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotclearing">
+            <conceptId qcode="spcurshot:clearing"/>
+            <name xml:lang="en-GB">clearing</name>
+            <definition>A shot that tries to hit and remove (an)other stone(s) including the shot
+                stone.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotdouble">
+            <conceptId qcode="spcurshot:double"/>
+            <name xml:lang="en-GB">double</name>
+            <definition>A shot that tries to hit and remove two other stones.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotraise-takeout">
+            <conceptId qcode="spcurshot:raise-takeout"/>
+            <name xml:lang="en-GB">raise-takeout</name>
+            <definition>A shot that tries to hit another stone that in turn should hit a third stone
+                removing that stone from play.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotnot-considered">
+            <conceptId qcode="spcurshot:not-considered"/>
+            <name xml:lang="en-GB">not-considered</name>
+            <definition>A shot that is not to be considered in the statistics for the
+                game.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotteam-fault">
+            <conceptId qcode="spcurshot:team-fault"/>
+            <name xml:lang="en-GB">team-fault</name>
+            <definition>A shot that the team made something wrong with like touching the stone after
+                release etc.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spcurshotblank">
+            <conceptId qcode="spcurshot:blank"/>
+            <name xml:lang="en-GB">blank</name>
+            <definition>A stone that is not played at all, for example all remaining stones in the
+                game when one team has given up the game.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spcurshot/" rel="skos:inScheme"/>
+        </concept>
     </conceptSet>
-    <schemeMeta uri="http://cv.iptc.org/newscodes/spcurstat/" authority="http://www.iptc.org" preferredalias="spcurstat">
-      <definition xml:lang="en-GB">Types of shot in curling.</definition>
-      <name xml:lang="en-GB">Curling Statistics</name>
-      <related qcode="spcurshot:draw" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:come-around" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:front" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:guard" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:raise" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:freeze" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:split" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:tick" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:takeout" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:hit-and-roll" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:clearing" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:double" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:raise-takeout" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:not-considered" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:team-fault" rel="skos:hasTopConcept"/>
-      <related qcode="spcurshot:blank" rel="skos:hasTopConcept"/>
-      <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+    <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spcurshot/"
+        preferredalias="spcurshot">
+        <definition xml:lang="en-GB">Types of shot in curling.</definition>
+        <name xml:lang="en-GB">Curling Shot Types</name>
+        <related qcode="spcurshot:draw" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:come-around" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:front" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:guard" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:raise" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:freeze" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:split" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:tick" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:takeout" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:hit-and-roll" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:clearing" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:double" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:raise-takeout" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:not-considered" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:team-fault" rel="skos:hasTopConcept"/>
+        <related qcode="spcurshot:blank" rel="skos:hasTopConcept"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
-  </knowledgeItem>
+</knowledgeItem>

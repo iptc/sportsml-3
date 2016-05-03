@@ -5204,7 +5204,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="0.0,0.0"
                             infraction-type="opinfract:Foul"
                             infraction-level="spsocinfract:socinflevel:yellow-card"
-                            type="spsocaction:penalty">
+                            type="spsocaction:infraction">
                             <participant idref="PO42593" role="spsocrole:infraction-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.1955638557"

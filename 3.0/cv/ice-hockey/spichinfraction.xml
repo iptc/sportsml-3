@@ -1,363 +1,367 @@
-<?xml version="1.0"?>
-  <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.18" conformance="power" guid="urn:newsml:iptc.org:20080229:srcncdki-spichinfraction" version="1">
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
+    standardversion="2.18" conformance="power"
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spichinfraction" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
-      <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
-        <name>IPTC - International Press Telecommunications Council</name>
-      </copyrightHolder>
-      <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
-      <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+        <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC - International Press Telecommunications Council</name>
+        </copyrightHolder>
+        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+            Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
     <itemMeta>
-      <itemClass qcode="cinat:scheme"/>
-      <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
-        <name>IPTC</name>
-      </provider>
-      <versionCreated>2015-10-21T15:15:32-04:00</versionCreated>
-      <pubStatus qcode="stat:usable"/>
+        <itemClass qcode="cinat:scheme"/>
+        <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC</name>
+        </provider>
+        <versionCreated>2015-10-21T15:15:32-04:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-      <contentCreated>2015-10-21T15:15:32-04:00</contentCreated>
-      <infoSource literal="IPTC"/>
-      <creator qcode="web:iptc.org">
-        <name>International Press Telecommunications Council (IPTC)</name>
-      </creator>
-      <subject qcode="subj:15000000">
-        <name xml:lang="en-US">sport</name>
-      </subject>
-      <subject qcode="subj:15031000">
-        <name xml:lang="en-US">ice-hockey</name>
-        <broader qcode="subj:15000000"/>
-      </subject>
-      <description>Types of infraction in ice-hockey.</description>
+        <contentCreated>2015-10-21T15:15:32-04:00</contentCreated>
+        <infoSource literal="IPTC"/>
+        <creator qcode="web:iptc.org">
+            <name>International Press Telecommunications Council (IPTC)</name>
+        </creator>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15031000">
+            <name xml:lang="en-US">ice-hockey</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <description>Types of infraction (or penalty) in ice-hockey.</description>
     </contentMeta>
     <conceptSet>
-      <concept id="spichinfractionabuse-of-officials">
-        <conceptId qcode="spichinfraction:abuse-of-officials"/>
-        <name xml:lang="en-GB">abuse-of-officials</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionadjustment-to-clothing-equipment">
-        <conceptId qcode="spichinfraction:adjustment-to-clothing-equipment"/>
-        <name xml:lang="en-GB">adjustment-to-clothing-equipment</name>
-        <definition>A penalty may be assessed when a player adjusting his equipment delays the game.</definition>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionattempt-to-injure">
-        <conceptId qcode="spichinfraction:attempt-to-injure"/>
-        <name xml:lang="en-GB">attempt-to-injure</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionboarding">
-        <conceptId qcode="spichinfraction:boarding"/>
-        <name xml:lang="en-GB">boarding</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionbroken-stick">
-        <conceptId qcode="spichinfraction:broken-stick"/>
-        <name xml:lang="en-GB">broken-stick</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionbutt-ending">
-        <conceptId qcode="spichinfraction:butt-ending"/>
-        <name xml:lang="en-GB">butt-ending</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractioncharging">
-        <conceptId qcode="spichinfraction:charging"/>
-        <name xml:lang="en-GB">charging</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionchecking-from-behind">
-        <conceptId qcode="spichinfraction:checking-from-behind"/>
-        <name xml:lang="en-GB">checking-from-behind</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionclipping">
-        <conceptId qcode="spichinfraction:clipping"/>
-        <name xml:lang="en-GB">clipping</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionclosing-hand-on-puck">
-        <conceptId qcode="spichinfraction:closing-hand-on-puck"/>
-        <name xml:lang="en-GB">closing-hand-on-puck</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractioncross-checking">
-        <conceptId qcode="spichinfraction:cross-checking"/>
-        <name xml:lang="en-GB">cross-checking</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiondelay-of-game">
-        <conceptId qcode="spichinfraction:delay-of-game"/>
-        <name xml:lang="en-GB">delay-of-game</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiondeliberate-injury">
-        <conceptId qcode="spichinfraction:deliberate-injury"/>
-        <name xml:lang="en-GB">deliberate-injury</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiondiving">
-        <conceptId qcode="spichinfraction:diving"/>
-        <name xml:lang="en-GB">diving</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionelbowing">
-        <conceptId qcode="spichinfraction:elbowing"/>
-        <name xml:lang="en-GB">elbowing</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionfalling-on-puck">
-        <conceptId qcode="spichinfraction:falling-on-puck"/>
-        <name xml:lang="en-GB">falling-on-puck</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionfighting">
-        <conceptId qcode="spichinfraction:fighting"/>
-        <name xml:lang="en-GB">fighting</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiongoalie-interference">
-        <conceptId qcode="spichinfraction:goalie-interference"/>
-        <name xml:lang="en-GB">goalie-interference</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiongross-misconduct">
-        <conceptId qcode="spichinfraction:gross-misconduct"/>
-        <name xml:lang="en-GB">gross-misconduct</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionhead-butting">
-        <conceptId qcode="spichinfraction:head-butting"/>
-        <name xml:lang="en-GB">head-butting</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionhigh-sticking">
-        <conceptId qcode="spichinfraction:high-sticking"/>
-        <name xml:lang="en-GB">high-sticking</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionholding">
-        <conceptId qcode="spichinfraction:holding"/>
-        <name xml:lang="en-GB">holding</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionholding-the-stick">
-        <conceptId qcode="spichinfraction:holding-the-stick"/>
-        <name xml:lang="en-GB">holding-the-stick</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionhooking">
-        <conceptId qcode="spichinfraction:hooking"/>
-        <name xml:lang="en-GB">hooking</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionillegal-stick">
-        <conceptId qcode="spichinfraction:illegal-stick"/>
-        <name xml:lang="en-GB">illegal-stick</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractioninstigator">
-        <conceptId qcode="spichinfraction:instigator"/>
-        <name xml:lang="en-GB">instigator</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractioninterference">
-        <conceptId qcode="spichinfraction:interference"/>
-        <name xml:lang="en-GB">interference</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractioninterference-by-with-spectator">
-        <conceptId qcode="spichinfraction:interference-by-with-spectator"/>
-        <name xml:lang="en-GB">interference-by-with-spectator</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionkicking">
-        <conceptId qcode="spichinfraction:kicking"/>
-        <name xml:lang="en-GB">kicking</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionkneeing">
-        <conceptId qcode="spichinfraction:kneeing"/>
-        <name xml:lang="en-GB">kneeing</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionleaving-the-bench-penalty">
-        <conceptId qcode="spichinfraction:leaving-the-bench-penalty"/>
-        <name xml:lang="en-GB">leaving-the-bench-penalty</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionleft-crease">
-        <conceptId qcode="spichinfraction:left-crease"/>
-        <name xml:lang="en-GB">left-crease</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionob-high-sticking">
-        <conceptId qcode="spichinfraction:ob-high-sticking"/>
-        <name xml:lang="en-GB">ob-high-sticking</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionob-holding">
-        <conceptId qcode="spichinfraction:ob-holding"/>
-        <name xml:lang="en-GB">ob-holding</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionob-holding-the-stick">
-        <conceptId qcode="spichinfraction:ob-holding-the-stick"/>
-        <name xml:lang="en-GB">ob-holding-the-stick</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionob-hooking">
-        <conceptId qcode="spichinfraction:ob-hooking"/>
-        <name xml:lang="en-GB">ob-hooking</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionob-interference">
-        <conceptId qcode="spichinfraction:ob-interference"/>
-        <name xml:lang="en-GB">ob-interference</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionob-tripping">
-        <conceptId qcode="spichinfraction:ob-tripping"/>
-        <name xml:lang="en-GB">ob-tripping</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionobscene-language">
-        <conceptId qcode="spichinfraction:obscene-language"/>
-        <name xml:lang="en-GB">obscene-language</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionrefusal-to-start-play">
-        <conceptId qcode="spichinfraction:refusal-to-start-play"/>
-        <name xml:lang="en-GB">refusal-to-start-play</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionroughing">
-        <conceptId qcode="spichinfraction:roughing"/>
-        <name xml:lang="en-GB">roughing</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionslashing">
-        <conceptId qcode="spichinfraction:slashing"/>
-        <name xml:lang="en-GB">slashing</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionspearing">
-        <conceptId qcode="spichinfraction:spearing"/>
-        <name xml:lang="en-GB">spearing</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiontoo-many-men-on-ice">
-        <conceptId qcode="spichinfraction:too-many-men-on-ice"/>
-        <name xml:lang="en-GB">too-many-men-on-ice</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractiontripping">
-        <conceptId qcode="spichinfraction:tripping"/>
-        <name xml:lang="en-GB">tripping</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
-      <concept id="spichinfractionunsportsmanlike-conduct">
-        <conceptId qcode="spichinfraction:unsportsmanlike-conduct"/>
-        <name xml:lang="en-GB">unsportsmanlike-conduct</name>
-        <definition/>
-        <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
-      </concept>
+        <concept id="spichinfractionabuse-of-officials">
+            <conceptId qcode="spichinfraction:abuse-of-officials"/>
+            <name xml:lang="en-GB">abuse-of-officials</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionadjustment-to-clothing-equipment">
+            <conceptId qcode="spichinfraction:adjustment-to-clothing-equipment"/>
+            <name xml:lang="en-GB">adjustment-to-clothing-equipment</name>
+            <definition>A penalty may be assessed when a player adjusting his equipment delays the
+                game.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionattempt-to-injure">
+            <conceptId qcode="spichinfraction:attempt-to-injure"/>
+            <name xml:lang="en-GB">attempt-to-injure</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionboarding">
+            <conceptId qcode="spichinfraction:boarding"/>
+            <name xml:lang="en-GB">boarding</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionbroken-stick">
+            <conceptId qcode="spichinfraction:broken-stick"/>
+            <name xml:lang="en-GB">broken-stick</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionbutt-ending">
+            <conceptId qcode="spichinfraction:butt-ending"/>
+            <name xml:lang="en-GB">butt-ending</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractioncharging">
+            <conceptId qcode="spichinfraction:charging"/>
+            <name xml:lang="en-GB">charging</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionchecking-from-behind">
+            <conceptId qcode="spichinfraction:checking-from-behind"/>
+            <name xml:lang="en-GB">checking-from-behind</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionclipping">
+            <conceptId qcode="spichinfraction:clipping"/>
+            <name xml:lang="en-GB">clipping</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionclosing-hand-on-puck">
+            <conceptId qcode="spichinfraction:closing-hand-on-puck"/>
+            <name xml:lang="en-GB">closing-hand-on-puck</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractioncross-checking">
+            <conceptId qcode="spichinfraction:cross-checking"/>
+            <name xml:lang="en-GB">cross-checking</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiondelay-of-game">
+            <conceptId qcode="spichinfraction:delay-of-game"/>
+            <name xml:lang="en-GB">delay-of-game</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiondeliberate-injury">
+            <conceptId qcode="spichinfraction:deliberate-injury"/>
+            <name xml:lang="en-GB">deliberate-injury</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiondiving">
+            <conceptId qcode="spichinfraction:diving"/>
+            <name xml:lang="en-GB">diving</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionelbowing">
+            <conceptId qcode="spichinfraction:elbowing"/>
+            <name xml:lang="en-GB">elbowing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionfalling-on-puck">
+            <conceptId qcode="spichinfraction:falling-on-puck"/>
+            <name xml:lang="en-GB">falling-on-puck</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionfighting">
+            <conceptId qcode="spichinfraction:fighting"/>
+            <name xml:lang="en-GB">fighting</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiongoalie-interference">
+            <conceptId qcode="spichinfraction:goalie-interference"/>
+            <name xml:lang="en-GB">goalie-interference</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiongross-misconduct">
+            <conceptId qcode="spichinfraction:gross-misconduct"/>
+            <name xml:lang="en-GB">gross-misconduct</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionhead-butting">
+            <conceptId qcode="spichinfraction:head-butting"/>
+            <name xml:lang="en-GB">head-butting</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionhigh-sticking">
+            <conceptId qcode="spichinfraction:high-sticking"/>
+            <name xml:lang="en-GB">high-sticking</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionholding">
+            <conceptId qcode="spichinfraction:holding"/>
+            <name xml:lang="en-GB">holding</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionholding-the-stick">
+            <conceptId qcode="spichinfraction:holding-the-stick"/>
+            <name xml:lang="en-GB">holding-the-stick</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionhooking">
+            <conceptId qcode="spichinfraction:hooking"/>
+            <name xml:lang="en-GB">hooking</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionillegal-stick">
+            <conceptId qcode="spichinfraction:illegal-stick"/>
+            <name xml:lang="en-GB">illegal-stick</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractioninstigator">
+            <conceptId qcode="spichinfraction:instigator"/>
+            <name xml:lang="en-GB">instigator</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractioninterference">
+            <conceptId qcode="spichinfraction:interference"/>
+            <name xml:lang="en-GB">interference</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractioninterference-by-with-spectator">
+            <conceptId qcode="spichinfraction:interference-by-with-spectator"/>
+            <name xml:lang="en-GB">interference-by-with-spectator</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionkicking">
+            <conceptId qcode="spichinfraction:kicking"/>
+            <name xml:lang="en-GB">kicking</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionkneeing">
+            <conceptId qcode="spichinfraction:kneeing"/>
+            <name xml:lang="en-GB">kneeing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionleaving-the-bench-penalty">
+            <conceptId qcode="spichinfraction:leaving-the-bench-penalty"/>
+            <name xml:lang="en-GB">leaving-the-bench-penalty</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionleft-crease">
+            <conceptId qcode="spichinfraction:left-crease"/>
+            <name xml:lang="en-GB">left-crease</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionob-high-sticking">
+            <conceptId qcode="spichinfraction:ob-high-sticking"/>
+            <name xml:lang="en-GB">ob-high-sticking</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionob-holding">
+            <conceptId qcode="spichinfraction:ob-holding"/>
+            <name xml:lang="en-GB">ob-holding</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionob-holding-the-stick">
+            <conceptId qcode="spichinfraction:ob-holding-the-stick"/>
+            <name xml:lang="en-GB">ob-holding-the-stick</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionob-hooking">
+            <conceptId qcode="spichinfraction:ob-hooking"/>
+            <name xml:lang="en-GB">ob-hooking</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionob-interference">
+            <conceptId qcode="spichinfraction:ob-interference"/>
+            <name xml:lang="en-GB">ob-interference</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionob-tripping">
+            <conceptId qcode="spichinfraction:ob-tripping"/>
+            <name xml:lang="en-GB">ob-tripping</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionobscene-language">
+            <conceptId qcode="spichinfraction:obscene-language"/>
+            <name xml:lang="en-GB">obscene-language</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionrefusal-to-start-play">
+            <conceptId qcode="spichinfraction:refusal-to-start-play"/>
+            <name xml:lang="en-GB">refusal-to-start-play</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionroughing">
+            <conceptId qcode="spichinfraction:roughing"/>
+            <name xml:lang="en-GB">roughing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionslashing">
+            <conceptId qcode="spichinfraction:slashing"/>
+            <name xml:lang="en-GB">slashing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionspearing">
+            <conceptId qcode="spichinfraction:spearing"/>
+            <name xml:lang="en-GB">spearing</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiontoo-many-men-on-ice">
+            <conceptId qcode="spichinfraction:too-many-men-on-ice"/>
+            <name xml:lang="en-GB">too-many-men-on-ice</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractiontripping">
+            <conceptId qcode="spichinfraction:tripping"/>
+            <name xml:lang="en-GB">tripping</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spichinfractionunsportsmanlike-conduct">
+            <conceptId qcode="spichinfraction:unsportsmanlike-conduct"/>
+            <name xml:lang="en-GB">unsportsmanlike-conduct</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spichinfraction/" rel="skos:inScheme"/>
+        </concept>
     </conceptSet>
-    <schemeMeta uri="http://cv.iptc.org/newscodes/spichstat/" authority="http://www.iptc.org" preferredalias="spichstat">
-      <definition xml:lang="en-GB">Types of infraction in ice-hockey.</definition>
-      <name xml:lang="en-GB">Ice Hockey Statistics</name>
-      <related qcode="spichinfraction:abuse-of-officials" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:adjustment-to-clothing-equipment" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:attempt-to-injure" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:boarding" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:broken-stick" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:butt-ending" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:charging" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:checking-from-behind" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:clipping" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:closing-hand-on-puck" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:cross-checking" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:delay-of-game" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:deliberate-injury" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:diving" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:elbowing" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:falling-on-puck" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:fighting" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:goalie-interference" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:gross-misconduct" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:head-butting" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:high-sticking" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:holding" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:holding-the-stick" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:hooking" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:illegal-stick" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:instigator" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:interference" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:interference-by-with-spectator" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:kicking" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:kneeing" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:leaving-the-bench-penalty" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:left-crease" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:ob-high-sticking" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:ob-holding" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:ob-holding-the-stick" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:ob-hooking" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:ob-interference" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:ob-tripping" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:obscene-language" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:refusal-to-start-play" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:roughing" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:slashing" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:spearing" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:too-many-men-on-ice" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:tripping" rel="skos:hasTopConcept"/>
-      <related qcode="spichinfraction:unsportsmanlike-conduct" rel="skos:hasTopConcept"/>
-      <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+    <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spichinfraction/"
+        preferredalias="spichinfraction">
+        <definition xml:lang="en-GB">Types of infraction (or penalty) in ice-hockey.</definition>
+        <name xml:lang="en-GB">Ice Hockey Infractions</name>
+        <related qcode="spichinfraction:abuse-of-officials" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:adjustment-to-clothing-equipment" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:attempt-to-injure" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:boarding" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:broken-stick" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:butt-ending" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:charging" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:checking-from-behind" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:clipping" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:closing-hand-on-puck" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:cross-checking" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:delay-of-game" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:deliberate-injury" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:diving" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:elbowing" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:falling-on-puck" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:fighting" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:goalie-interference" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:gross-misconduct" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:head-butting" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:high-sticking" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:holding" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:holding-the-stick" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:hooking" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:illegal-stick" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:instigator" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:interference" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:interference-by-with-spectator" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:kicking" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:kneeing" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:leaving-the-bench-penalty" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:left-crease" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:ob-high-sticking" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:ob-holding" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:ob-holding-the-stick" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:ob-hooking" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:ob-interference" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:ob-tripping" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:obscene-language" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:refusal-to-start-play" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:roughing" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:slashing" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:spearing" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:too-many-men-on-ice" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:tripping" rel="skos:hasTopConcept"/>
+        <related qcode="spichinfraction:unsportsmanlike-conduct" rel="skos:hasTopConcept"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
-  </knowledgeItem>
+</knowledgeItem>
