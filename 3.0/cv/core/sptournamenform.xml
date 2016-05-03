@@ -1,7 +1,7 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:newsml="http://iptc.org/std/nar/2006-10-01/"
 	standard="NewsML-G2" standardversion="2.18" conformance="power"
-	guid="urn:newsml:iptc.org:20080229:srcncdki-sptournamentpart" version="1">
+	guid="urn:newsml:iptc.org:20080229:srcncdki-sptournamentform" version="1">
 	<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
 	<rightsInfo>
 		<copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -28,77 +28,68 @@
 		<subject qcode="subj:15000000">
 			<name xml:lang="en-US">sport</name>
 		</subject>
-		<description>The type of phase of the tournament: group, elimination, etc.</description>
+		<description>The format type of tournament or tournament phase: group, elimination, etc.</description>
 	</contentMeta>
 	<conceptSet>
-		<concept id="sptournamentparthosted">
-			<conceptId qcode="sptournamentpart:hosted"/>
+		<concept id="sptournamentformhosted">
+			<conceptId qcode="sptournamentform:hosted"/>
 			<name xml:lang="en-US">hosted</name>
 			<definition>For a tournament that holds stages in different locations. Eg. different
 				host cities/countries for PGA, FIS, Diamond League (IAAF) and even Tour de
 				France</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
-		<concept id="sptournamentpartgroup">
-			<conceptId qcode="sptournamentpart:group"/>
+		<concept id="sptournamentformgroup">
+			<conceptId qcode="sptournamentform:group"/>
 			<name xml:lang="en-US">group</name>
 			<definition>Groups of competitors vie for placement in the group table in order to
 				qualify for the next stage of competition.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
-		<concept id="sptournamentpartsingle-group">
-			<conceptId qcode="sptournamentpart:single-group"/>
+		<concept id="sptournamentformsingle-group">
+			<conceptId qcode="sptournamentform:single-group"/>
 			<name xml:lang="en-US">single-group</name>
 			<definition>The stage involves only a single group of competitors. For example Italian
 				Serie A where teams vie for placement in the league table. Also, a single group
 				competition in a multi-group stage, such as the World Cup group stage.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
-		<concept id="sptournamentpartseries">
-			<conceptId qcode="sptournamentpart:series"/>
+		<concept id="sptournamentformseries">
+			<conceptId qcode="sptournamentform:series"/>
 			<name xml:lang="en-US">series</name>
 			<definition>A stage in which two competitors face off in a series of games (eg. best 3
 				of 5) the winner of which proceeds to the next stage, or wins the
 				tournament.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
-		<concept id="sptournamentpartsingle-elimination">
-			<conceptId qcode="sptournamentpart:single-elimination"/>
+		<concept id="sptournamentformsingle-elimination">
+			<conceptId qcode="sptournamentform:single-elimination"/>
 			<name xml:lang="en-US">single-elimination</name>
 			<definition>A stage in which two competitors face off in a single match to determine who
 				proceeds to the next stage, or wins the tournament. Eg. elimination stage of World
 				Cup of Soccer or NFL playoffs.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
-		<concept id="sptournamentparthome-and-home">
-			<conceptId qcode="sptournamentpart:home-and-home"/>
+		<concept id="sptournamentformhome-and-home">
+			<conceptId qcode="sptournamentform:home-and-home"/>
 			<name xml:lang="en-US">home-and-home</name>
 			<definition>A stage in which two competitors face off in a two matches (or legs) at each
 				team's home location. The overall winner proceeds ahead. Usually culiminates in a
 				single-elimination match at a neutral location i.e. UEFA Champions
 				League.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
-		</concept>
-		<concept id="sptournamentpartqualification">
-			<conceptId qcode="sptournamentpart:qualification"/>
-			<name xml:lang="en-US">qualification</name>
-			<definition>The stage, usually prior to a group or elimination stage, where entities
-				compete to qualify for the later "playoff" stage.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentpart/" rel="skos:inScheme"/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
 	</conceptSet>
-	<schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sptournamentpart/"
-		preferredalias="sptournamentpart">
-		<definition xml:lang="en-US">The type of phase of the tournament: group, elimination,
-			etc.</definition>
-		<name xml:lang="en-US">Tournament Part</name>
-		<related qcode="sptournamentpart:hosted" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentpart:group" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentpart:single-group" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentpart:series" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentpart:single-elimination" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentpart:home-and-home" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentpart:qualification" rel="skos:hasTopConcept"/>
+	<schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sptournamentform/"
+		preferredalias="sptournamentform">
+		<definition xml:lang="en-US">The format type of tournament or tournament phase: group, elimination, etc.</definition>
+		<name xml:lang="en-US">Tournament Format Type</name>
+		<related qcode="sptournamentform:hosted" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentform:group" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentform:single-group" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentform:series" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentform:single-elimination" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentform:home-and-home" rel="skos:hasTopConcept"/>
 		<schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
 	</schemeMeta>
 </knowledgeItem>

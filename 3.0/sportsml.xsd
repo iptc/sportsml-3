@@ -178,9 +178,14 @@ Agreement for International Press Telecommunications
         </xs:annotation>
         <xs:complexContent>
             <xs:extension base="baseTournamentMetadataComplexType">
-                <xs:attribute name="type" type="QCodeType" use="required">
+                <xs:attribute name="type" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The type of phase of the tournament: group, elimination, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentstage/</xs:documentation>
+                        <xs:documentation>The phase of the tournament: semi-final, quarter-final, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentphase/</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="format-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The format type of tournament or tournament phase: group, elimination, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentform/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
             </xs:extension>
@@ -2359,6 +2364,11 @@ Agreement for International Press Telecommunications
                 <xs:attribute name="event-status" type="QCodeType" use="optional">
                     <xs:annotation>
                         <xs:documentation>The stage of the event, describing whether it has started, is in progress, etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/speventstatus/</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="event-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The type of event, esp. in relation to tournament phase. Recommended SportsML vocabulary uri: http://cv.iptc.org/newscodes/sptournamentphase/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="event-status-reason" type="QCodeType" use="optional">
