@@ -37,105 +37,105 @@
     <conceptSet>
         <concept id="spichpositiondefenseman">
             <conceptId qcode="spichposition:defenseman"/>
-            <name xml:lang="en-GB">defenseman</name>
+            <name xml:lang="en-US">defenseman</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionleft-defenseman">
             <conceptId qcode="spichposition:left-defenseman"/>
-            <name xml:lang="en-GB">left-defenseman</name>
+            <name xml:lang="en-US">left-defenseman</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionright-defenseman">
             <conceptId qcode="spichposition:right-defenseman"/>
-            <name xml:lang="en-GB">right-defenseman</name>
+            <name xml:lang="en-US">right-defenseman</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionforward">
             <conceptId qcode="spichposition:forward"/>
-            <name xml:lang="en-GB">forward</name>
+            <name xml:lang="en-US">forward</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositioncenter">
             <conceptId qcode="spichposition:center"/>
-            <name xml:lang="en-GB">center</name>
+            <name xml:lang="en-US">center</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionleft-forward">
             <conceptId qcode="spichposition:left-forward"/>
-            <name xml:lang="en-GB">left-forward</name>
+            <name xml:lang="en-US">left-forward</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionright-forward">
             <conceptId qcode="spichposition:right-forward"/>
-            <name xml:lang="en-GB">right-forward</name>
+            <name xml:lang="en-US">right-forward</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositiongoalie">
             <conceptId qcode="spichposition:goalie"/>
-            <name xml:lang="en-GB">goalie</name>
+            <name xml:lang="en-US">goalie</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionreferee">
             <conceptId qcode="spichposition:referee"/>
-            <name xml:lang="en-GB">referee</name>
+            <name xml:lang="en-US">referee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionlinesman">
             <conceptId qcode="spichposition:linesman"/>
-            <name xml:lang="en-GB">linesman</name>
+            <name xml:lang="en-US">linesman</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositiongoal-judge">
             <conceptId qcode="spichposition:goal-judge"/>
-            <name xml:lang="en-GB">goal-judge</name>
+            <name xml:lang="en-US">goal-judge</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionpenalty-timekeeper">
             <conceptId qcode="spichposition:penalty-timekeeper"/>
-            <name xml:lang="en-GB">penalty-timekeeper</name>
+            <name xml:lang="en-US">penalty-timekeeper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionofficial-scorer">
             <conceptId qcode="spichposition:official-scorer"/>
-            <name xml:lang="en-GB">official-scorer</name>
+            <name xml:lang="en-US">official-scorer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositiongame-timekeeper">
             <conceptId qcode="spichposition:game-timekeeper"/>
-            <name xml:lang="en-GB">game-timekeeper</name>
+            <name xml:lang="en-US">game-timekeeper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositioncoach">
             <conceptId qcode="spichposition:coach"/>
-            <name xml:lang="en-GB">coach</name>
+            <name xml:lang="en-US">coach</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpositionassistant-coach">
             <conceptId qcode="spichposition:assistant-coach"/>
-            <name xml:lang="en-GB">assistant-coach</name>
+            <name xml:lang="en-US">assistant-coach</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichposition/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spichposition/"
         preferredalias="spichposition">
-        <definition xml:lang="en-GB">Ice Hockey player positions</definition>
-        <name xml:lang="en-GB">Ice Hockey Player Positions</name>
+        <definition xml:lang="en-US">Ice Hockey player positions</definition>
+        <name xml:lang="en-US">Ice Hockey Player Positions</name>
         <related qcode="spichposition:defenseman" rel="skos:hasTopConcept"/>
         <related qcode="spichposition:left-defenseman" rel="skos:hasTopConcept"/>
         <related qcode="spichposition:right-defenseman" rel="skos:hasTopConcept"/>

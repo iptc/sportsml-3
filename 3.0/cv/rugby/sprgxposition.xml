@@ -37,123 +37,123 @@
     <conceptSet>
         <concept id="sprgxpositionloose-forward">
             <conceptId qcode="sprgxposition:loose-forward"/>
-            <name xml:lang="en-GB">loose-forward</name>
+            <name xml:lang="en-US">loose-forward</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionprop-loosehead">
             <conceptId qcode="sprgxposition:prop-loosehead"/>
-            <name xml:lang="en-GB">prop-loosehead</name>
+            <name xml:lang="en-US">prop-loosehead</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionprop-tighthead">
             <conceptId qcode="sprgxposition:prop-tighthead"/>
-            <name xml:lang="en-GB">prop-tighthead</name>
+            <name xml:lang="en-US">prop-tighthead</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionprop">
             <conceptId qcode="sprgxposition:prop"/>
-            <name xml:lang="en-GB">prop</name>
+            <name xml:lang="en-US">prop</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionhooker">
             <conceptId qcode="sprgxposition:hooker"/>
-            <name xml:lang="en-GB">hooker</name>
+            <name xml:lang="en-US">hooker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionsecond-row">
             <conceptId qcode="sprgxposition:second-row"/>
-            <name xml:lang="en-GB">second-row</name>
+            <name xml:lang="en-US">second-row</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionlock">
             <conceptId qcode="sprgxposition:lock"/>
-            <name xml:lang="en-GB">lock</name>
+            <name xml:lang="en-US">lock</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionflanker-blindside">
             <conceptId qcode="sprgxposition:flanker-blindside"/>
-            <name xml:lang="en-GB">flanker-blindside</name>
+            <name xml:lang="en-US">flanker-blindside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionflanker-openside">
             <conceptId qcode="sprgxposition:flanker-openside"/>
-            <name xml:lang="en-GB">flanker-openside</name>
+            <name xml:lang="en-US">flanker-openside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionnumber-eight">
             <conceptId qcode="sprgxposition:number-eight"/>
-            <name xml:lang="en-GB">number-eight</name>
+            <name xml:lang="en-US">number-eight</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionscrum-half">
             <conceptId qcode="sprgxposition:scrum-half"/>
-            <name xml:lang="en-GB">scrum-half</name>
+            <name xml:lang="en-US">scrum-half</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionfly-half">
             <conceptId qcode="sprgxposition:fly-half"/>
-            <name xml:lang="en-GB">fly-half</name>
+            <name xml:lang="en-US">fly-half</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionstand-off">
             <conceptId qcode="sprgxposition:stand-off"/>
-            <name xml:lang="en-GB">stand-off</name>
+            <name xml:lang="en-US">stand-off</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositioninside-center">
             <conceptId qcode="sprgxposition:inside-center"/>
-            <name xml:lang="en-GB">inside-center</name>
+            <name xml:lang="en-US">inside-center</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionoutside-center">
             <conceptId qcode="sprgxposition:outside-center"/>
-            <name xml:lang="en-GB">outside-center</name>
+            <name xml:lang="en-US">outside-center</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositioncenter">
             <conceptId qcode="sprgxposition:center"/>
-            <name xml:lang="en-GB">center</name>
+            <name xml:lang="en-US">center</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionleft-wing">
             <conceptId qcode="sprgxposition:left-wing"/>
-            <name xml:lang="en-GB">left-wing</name>
+            <name xml:lang="en-US">left-wing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionright-wing">
             <conceptId qcode="sprgxposition:right-wing"/>
-            <name xml:lang="en-GB">right-wing</name>
+            <name xml:lang="en-US">right-wing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpositionfullback">
             <conceptId qcode="sprgxposition:fullback"/>
-            <name xml:lang="en-GB">fullback</name>
+            <name xml:lang="en-US">fullback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sprgxposition/"
         preferredalias="sprgxposition">
-        <definition xml:lang="en-GB">Positions of players in rugby</definition>
-        <name xml:lang="en-GB">Rugby Player Positions</name>
+        <definition xml:lang="en-US">Positions of players in rugby</definition>
+        <name xml:lang="en-US">Rugby Player Positions</name>
         <related qcode="sprgxposition:loose-forward" rel="skos:hasTopConcept"/>
         <related qcode="sprgxposition:prop-loosehead" rel="skos:hasTopConcept"/>
         <related qcode="sprgxposition:prop-tighthead" rel="skos:hasTopConcept"/>

@@ -33,465 +33,465 @@
     <conceptSet>
         <concept id="spfixtadvisory">
             <conceptId qcode="spfixt:advisory"/>
-            <name xml:lang="en-GB">advisory</name>
+            <name xml:lang="en-US">advisory</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtroster">
             <conceptId qcode="spfixt:roster"/>
-            <name xml:lang="en-GB">roster</name>
+            <name xml:lang="en-US">roster</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtaction-penalty">
             <conceptId qcode="spfixt:action-penalty"/>
-            <name xml:lang="en-GB">action-penalty</name>
+            <name xml:lang="en-US">action-penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtaction-score">
             <conceptId qcode="spfixt:action-score"/>
-            <name xml:lang="en-GB">action-score</name>
+            <name xml:lang="en-US">action-score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixthighlight">
             <conceptId qcode="spfixt:highlight"/>
-            <name xml:lang="en-GB">highlight</name>
+            <name xml:lang="en-US">highlight</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtplay">
             <conceptId qcode="spfixt:play"/>
-            <name xml:lang="en-GB">play</name>
+            <name xml:lang="en-US">play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtsubstitution">
             <conceptId qcode="spfixt:substitution"/>
-            <name xml:lang="en-GB">substitution</name>
+            <name xml:lang="en-US">substitution</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtplayer-capsules">
             <conceptId qcode="spfixt:player-capsules"/>
-            <name xml:lang="en-GB">player-capsules</name>
+            <name xml:lang="en-US">player-capsules</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtevent-score">
             <conceptId qcode="spfixt:event-score"/>
-            <name xml:lang="en-GB">event-score</name>
+            <name xml:lang="en-US">event-score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtevent-stats">
             <conceptId qcode="spfixt:event-stats"/>
-            <name xml:lang="en-GB">event-stats</name>
+            <name xml:lang="en-US">event-stats</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtevent-stats-summary">
             <conceptId qcode="spfixt:event-stats-summary"/>
-            <name xml:lang="en-GB">event-stats-summary</name>
+            <name xml:lang="en-US">event-stats-summary</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaderboard">
             <conceptId qcode="spfixt:leaderboard"/>
-            <name xml:lang="en-GB">leaderboard</name>
+            <name xml:lang="en-US">leaderboard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtlineup">
             <conceptId qcode="spfixt:lineup"/>
-            <name xml:lang="en-GB">lineup</name>
+            <name xml:lang="en-US">lineup</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtmid-event-coverage">
             <conceptId qcode="spfixt:mid-event-coverage"/>
-            <name xml:lang="en-GB">mid-event-coverage</name>
+            <name xml:lang="en-US">mid-event-coverage</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtpost-event-coverage">
             <conceptId qcode="spfixt:post-event-coverage"/>
-            <name xml:lang="en-GB">post-event-coverage</name>
+            <name xml:lang="en-US">post-event-coverage</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtpost-event-scoring">
             <conceptId qcode="spfixt:post-event-scoring"/>
-            <name xml:lang="en-GB">post-event-scoring</name>
+            <name xml:lang="en-US">post-event-scoring</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtpre-event-coverage">
             <conceptId qcode="spfixt:pre-event-coverage"/>
-            <name xml:lang="en-GB">pre-event-coverage</name>
+            <name xml:lang="en-US">pre-event-coverage</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtscoreboard">
             <conceptId qcode="spfixt:scoreboard"/>
-            <name xml:lang="en-GB">scoreboard</name>
+            <name xml:lang="en-US">scoreboard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixttournament-scoreboard">
             <conceptId qcode="spfixt:tournament-scoreboard"/>
-            <name xml:lang="en-GB">tournament-scoreboard</name>
+            <name xml:lang="en-US">tournament-scoreboard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtwinners">
             <conceptId qcode="spfixt:winners"/>
-            <name xml:lang="en-GB">winners</name>
+            <name xml:lang="en-US">winners</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtalert">
             <conceptId qcode="spfixt:alert"/>
-            <name xml:lang="en-GB">alert</name>
+            <name xml:lang="en-US">alert</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtgeneral-news">
             <conceptId qcode="spfixt:general-news"/>
-            <name xml:lang="en-GB">general-news</name>
+            <name xml:lang="en-US">general-news</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleague-at-a-glance">
             <conceptId qcode="spfixt:league-at-a-glance"/>
-            <name xml:lang="en-GB">league-at-a-glance</name>
+            <name xml:lang="en-US">league-at-a-glance</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleague-calendar">
             <conceptId qcode="spfixt:league-calendar"/>
-            <name xml:lang="en-GB">league-calendar</name>
+            <name xml:lang="en-US">league-calendar</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleague-capsules">
             <conceptId qcode="spfixt:league-capsules"/>
-            <name xml:lang="en-GB">league-capsules</name>
+            <name xml:lang="en-US">league-capsules</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleague-notes">
             <conceptId qcode="spfixt:league-notes"/>
-            <name xml:lang="en-GB">league-notes</name>
+            <name xml:lang="en-US">league-notes</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleague-roundup">
             <conceptId qcode="spfixt:league-roundup"/>
-            <name xml:lang="en-GB">league-roundup</name>
+            <name xml:lang="en-US">league-roundup</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleague-today">
             <conceptId qcode="spfixt:league-today"/>
-            <name xml:lang="en-GB">league-today</name>
+            <name xml:lang="en-US">league-today</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtodds">
             <conceptId qcode="spfixt:odds"/>
-            <name xml:lang="en-GB">odds</name>
+            <name xml:lang="en-US">odds</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtthis-date-in-history">
             <conceptId qcode="spfixt:this-date-in-history"/>
-            <name xml:lang="en-GB">this-date-in-history</name>
+            <name xml:lang="en-US">this-date-in-history</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixttop-stories">
             <conceptId qcode="spfixt:top-stories"/>
-            <name xml:lang="en-GB">top-stories</name>
+            <name xml:lang="en-US">top-stories</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixttransaction-coverage">
             <conceptId qcode="spfixt:transaction-coverage"/>
-            <name xml:lang="en-GB">transaction-coverage</name>
+            <name xml:lang="en-US">transaction-coverage</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtschedule">
             <conceptId qcode="spfixt:schedule"/>
-            <name xml:lang="en-GB">schedule</name>
+            <name xml:lang="en-US">schedule</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtschedule-daily">
             <conceptId qcode="spfixt:schedule-daily"/>
-            <name xml:lang="en-GB">schedule-daily</name>
+            <name xml:lang="en-US">schedule-daily</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtschedule-monthly">
             <conceptId qcode="spfixt:schedule-monthly"/>
-            <name xml:lang="en-GB">schedule-monthly</name>
+            <name xml:lang="en-US">schedule-monthly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtschedule-playoff">
             <conceptId qcode="spfixt:schedule-playoff"/>
-            <name xml:lang="en-GB">schedule-playoff</name>
+            <name xml:lang="en-US">schedule-playoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtschedule-single-team">
             <conceptId qcode="spfixt:schedule-single-team"/>
-            <name xml:lang="en-GB">schedule-single-team</name>
+            <name xml:lang="en-US">schedule-single-team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtschedule-tournament">
             <conceptId qcode="spfixt:schedule-tournament"/>
-            <name xml:lang="en-GB">schedule-tournament</name>
+            <name xml:lang="en-US">schedule-tournament</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixttournament-schedule">
             <conceptId qcode="spfixt:tournament-schedule"/>
-            <name xml:lang="en-GB">tournament-schedule</name>
+            <name xml:lang="en-US">tournament-schedule</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtpoll">
             <conceptId qcode="spfixt:poll"/>
-            <name xml:lang="en-GB">poll</name>
+            <name xml:lang="en-US">poll</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings">
             <conceptId qcode="spfixt:standings"/>
-            <name xml:lang="en-GB">standings</name>
+            <name xml:lang="en-US">standings</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-by-division">
             <conceptId qcode="spfixt:standings-by-division"/>
-            <name xml:lang="en-GB">standings-by-division</name>
+            <name xml:lang="en-US">standings-by-division</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-by-rank">
             <conceptId qcode="spfixt:standings-by-rank"/>
-            <name xml:lang="en-GB">standings-by-rank</name>
+            <name xml:lang="en-US">standings-by-rank</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-by-state">
             <conceptId qcode="spfixt:standings-by-state"/>
-            <name xml:lang="en-GB">standings-by-state</name>
+            <name xml:lang="en-US">standings-by-state</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-complete">
             <conceptId qcode="spfixt:standings-complete"/>
-            <name xml:lang="en-GB">standings-complete</name>
+            <name xml:lang="en-US">standings-complete</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-manufacturers">
             <conceptId qcode="spfixt:standings-manufacturers"/>
-            <name xml:lang="en-GB">standings-manufacturers</name>
+            <name xml:lang="en-US">standings-manufacturers</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-nations-cup">
             <conceptId qcode="spfixt:standings-nations-cup"/>
-            <name xml:lang="en-GB">standings-nations-cup</name>
+            <name xml:lang="en-US">standings-nations-cup</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-playoff">
             <conceptId qcode="spfixt:standings-playoff"/>
-            <name xml:lang="en-GB">standings-playoff</name>
+            <name xml:lang="en-US">standings-playoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-rookie">
             <conceptId qcode="spfixt:standings-rookie"/>
-            <name xml:lang="en-GB">standings-rookie</name>
+            <name xml:lang="en-US">standings-rookie</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-team-vs-team">
             <conceptId qcode="spfixt:standings-team-vs-team"/>
-            <name xml:lang="en-GB">standings-team-vs-team</name>
+            <name xml:lang="en-US">standings-team-vs-team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtstandings-wild-card">
             <conceptId qcode="spfixt:standings-wild-card"/>
-            <name xml:lang="en-GB">standings-wild-card</name>
+            <name xml:lang="en-US">standings-wild-card</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtattendance-report">
             <conceptId qcode="spfixt:attendance-report"/>
-            <name xml:lang="en-GB">attendance-report</name>
+            <name xml:lang="en-US">attendance-report</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtcareer-leaders">
             <conceptId qcode="spfixt:career-leaders"/>
-            <name xml:lang="en-GB">career-leaders</name>
+            <name xml:lang="en-US">career-leaders</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtcoaching-stats">
             <conceptId qcode="spfixt:coaching-stats"/>
-            <name xml:lang="en-GB">coaching-stats</name>
+            <name xml:lang="en-US">coaching-stats</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtevent-highs-player">
             <conceptId qcode="spfixt:event-highs-player"/>
-            <name xml:lang="en-GB">event-highs-player</name>
+            <name xml:lang="en-US">event-highs-player</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtfeatured-statistic">
             <conceptId qcode="spfixt:featured-statistic"/>
-            <name xml:lang="en-GB">featured-statistic</name>
+            <name xml:lang="en-US">featured-statistic</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtindividual-bests">
             <conceptId qcode="spfixt:individual-bests"/>
-            <name xml:lang="en-GB">individual-bests</name>
+            <name xml:lang="en-US">individual-bests</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtindividual-stats">
             <conceptId qcode="spfixt:individual-stats"/>
-            <name xml:lang="en-GB">individual-stats</name>
+            <name xml:lang="en-US">individual-stats</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleader-list">
             <conceptId qcode="spfixt:leader-list"/>
-            <name xml:lang="en-GB">leader-list</name>
+            <name xml:lang="en-US">leader-list</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-career">
             <conceptId qcode="spfixt:leaders-career"/>
-            <name xml:lang="en-GB">leaders-career</name>
+            <name xml:lang="en-US">leaders-career</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-career-money">
             <conceptId qcode="spfixt:leaders-career-money"/>
-            <name xml:lang="en-GB">leaders-career-money</name>
+            <name xml:lang="en-US">leaders-career-money</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-individual">
             <conceptId qcode="spfixt:leaders-individual"/>
-            <name xml:lang="en-GB">leaders-individual</name>
+            <name xml:lang="en-US">leaders-individual</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-money">
             <conceptId qcode="spfixt:leaders-money"/>
-            <name xml:lang="en-GB">leaders-money</name>
+            <name xml:lang="en-US">leaders-money</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-player-of-the-year">
             <conceptId qcode="spfixt:leaders-player-of-the-year"/>
-            <name xml:lang="en-GB">leaders-player-of-the-year</name>
+            <name xml:lang="en-US">leaders-player-of-the-year</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-rankings">
             <conceptId qcode="spfixt:leaders-rankings"/>
-            <name xml:lang="en-GB">leaders-rankings</name>
+            <name xml:lang="en-US">leaders-rankings</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-rookie-of-the-year">
             <conceptId qcode="spfixt:leaders-rookie-of-the-year"/>
-            <name xml:lang="en-GB">leaders-rookie-of-the-year</name>
+            <name xml:lang="en-US">leaders-rookie-of-the-year</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-team">
             <conceptId qcode="spfixt:leaders-team"/>
-            <name xml:lang="en-GB">leaders-team</name>
+            <name xml:lang="en-US">leaders-team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtleaders-wins">
             <conceptId qcode="spfixt:leaders-wins"/>
-            <name xml:lang="en-GB">leaders-wins</name>
+            <name xml:lang="en-US">leaders-wins</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-comparison">
             <conceptId qcode="spfixt:team-comparison"/>
-            <name xml:lang="en-GB">team-comparison</name>
+            <name xml:lang="en-US">team-comparison</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-comparison-wins">
             <conceptId qcode="spfixt:team-comparison-wins"/>
-            <name xml:lang="en-GB">team-comparison-wins</name>
+            <name xml:lang="en-US">team-comparison-wins</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-event-highs">
             <conceptId qcode="spfixt:team-event-highs"/>
-            <name xml:lang="en-GB">team-event-highs</name>
+            <name xml:lang="en-US">team-event-highs</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-point-spreads">
             <conceptId qcode="spfixt:team-point-spreads"/>
-            <name xml:lang="en-GB">team-point-spreads</name>
+            <name xml:lang="en-US">team-point-spreads</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-rankings">
             <conceptId qcode="spfixt:team-rankings"/>
-            <name xml:lang="en-GB">team-rankings</name>
+            <name xml:lang="en-US">team-rankings</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-stats">
             <conceptId qcode="spfixt:team-stats"/>
-            <name xml:lang="en-GB">team-stats</name>
+            <name xml:lang="en-US">team-stats</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixtteam-streaks">
             <conceptId qcode="spfixt:team-streaks"/>
-            <name xml:lang="en-GB">team-streaks</name>
+            <name xml:lang="en-US">team-streaks</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spfixttrade-stats">
             <conceptId qcode="spfixt:trade-stats"/>
-            <name xml:lang="en-GB">trade-stats</name>
+            <name xml:lang="en-US">trade-stats</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spfixt/" authority="http://www.iptc.org"
         preferredalias="spfixt">
-        <definition xml:lang="en-GB">List of keys for document types.</definition>
-        <name xml:lang="en-GB">Fixture Keys</name>
+        <definition xml:lang="en-US">List of keys for document types.</definition>
+        <name xml:lang="en-US">Fixture Keys</name>
         <related qcode="spfixt:advisory" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:roster" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:action-penalty" rel="skos:hasTopConcept"/>

@@ -33,57 +33,57 @@
     <conceptSet>
         <concept id="spphasescholastic">
             <conceptId qcode="spphase:scholastic"/>
-            <name xml:lang="en-GB">scholastic</name>
+            <name xml:lang="en-US">scholastic</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasecollege">
             <conceptId qcode="spphase:college"/>
-            <name xml:lang="en-GB">college</name>
+            <name xml:lang="en-US">college</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseamateur">
             <conceptId qcode="spphase:amateur"/>
-            <name xml:lang="en-GB">amateur</name>
+            <name xml:lang="en-US">amateur</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseprofessional">
             <conceptId qcode="spphase:professional"/>
-            <name xml:lang="en-GB">professional</name>
+            <name xml:lang="en-US">professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasesemi-professional">
             <conceptId qcode="spphase:semi-professional"/>
-            <name xml:lang="en-GB">semi-professional</name>
+            <name xml:lang="en-US">semi-professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseformer-professional">
             <conceptId qcode="spphase:former-professional"/>
-            <name xml:lang="en-GB">former-professional</name>
+            <name xml:lang="en-US">former-professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasereleased">
             <conceptId qcode="spphase:released"/>
-            <name xml:lang="en-GB">released</name>
+            <name xml:lang="en-US">released</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasefree-agent">
             <conceptId qcode="spphase:free-agent"/>
-            <name xml:lang="en-GB">free-agent</name>
+            <name xml:lang="en-US">free-agent</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spphase/"
         preferredalias="spphase">
-        <definition xml:lang="en-GB">Career phases of athletes</definition>
-        <name xml:lang="en-GB">Career Phase</name>
+        <definition xml:lang="en-US">Career phases of athletes</definition>
+        <name xml:lang="en-US">Career Phase</name>
         <related qcode="spphase:scholastic" rel="skos:hasTopConcept"/>
         <related qcode="spphase:college" rel="skos:hasTopConcept"/>
         <related qcode="spphase:amateur" rel="skos:hasTopConcept"/>

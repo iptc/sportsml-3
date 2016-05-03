@@ -33,21 +33,21 @@
     <conceptSet>
         <concept id="sphealthinjured">
             <conceptId qcode="sphealth:injured"/>
-            <name xml:lang="en-GB">injured</name>
+            <name xml:lang="en-US">injured</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sphealth/" rel="skos:inScheme"/>
         </concept>
         <concept id="sphealthfine">
             <conceptId qcode="sphealth:fine"/>
-            <name xml:lang="en-GB">fine</name>
+            <name xml:lang="en-US">fine</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sphealth/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sphealth/"
         preferredalias="sphealth">
-        <definition xml:lang="en-GB">An indication of the health of the player.</definition>
-        <name xml:lang="en-GB">Player Health</name>
+        <definition xml:lang="en-US">An indication of the health of the player.</definition>
+        <name xml:lang="en-US">Player Health</name>
         <related qcode="sphealth:injured" rel="skos:hasTopConcept"/>
         <related qcode="sphealth:fine" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

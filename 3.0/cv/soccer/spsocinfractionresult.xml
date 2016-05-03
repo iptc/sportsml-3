@@ -36,32 +36,32 @@
     <conceptSet>
         <concept id="spsocinfractionresultplay-on">
             <conceptId qcode="spsocinfractionresult:play-on"/>
-            <name xml:lang="en-GB">play-on</name>
+            <name xml:lang="en-US">play-on</name>
             <definition>Fouled team has advantage of the ball and is allowed to play
                 on.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionresultfreekick">
             <conceptId qcode="spsocinfractionresult:freekick"/>
-            <name xml:lang="en-GB">freekick</name>
+            <name xml:lang="en-US">freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionresultindirect-freekick">
             <conceptId qcode="spsocinfractionresult:indirect-freekick"/>
-            <name xml:lang="en-GB">indirect-freekick</name>
+            <name xml:lang="en-US">indirect-freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionresultdirect-freekick">
             <conceptId qcode="spsocinfractionresult:direct-freekick"/>
-            <name xml:lang="en-GB">direct-freekick</name>
+            <name xml:lang="en-US">direct-freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionresultpenalty-shot">
             <conceptId qcode="spsocinfractionresult:penalty-shot"/>
-            <name xml:lang="en-GB">penalty-shot</name>
+            <name xml:lang="en-US">penalty-shot</name>
             <definition>The foul occured in the penalty-shot area so the fouled team is awarded a
                 penalty-shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionresult/" rel="skos:inScheme"/>
@@ -70,8 +70,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocinfractionresult/"
         preferredalias="spsocinfractionresult">
-        <definition xml:lang="en-GB">Results of infractions in soccer.</definition>
-        <name xml:lang="en-GB">Soccer Infraction Results</name>
+        <definition xml:lang="en-US">Results of infractions in soccer.</definition>
+        <name xml:lang="en-US">Soccer Infraction Results</name>
         <related qcode="spsocinfractionresult:play-on" rel="skos:hasTopConcept"/>
         <related qcode="spsocinfractionresult:freekick" rel="skos:hasTopConcept"/>
         <related qcode="spsocinfractionresult:indirect-freekick" rel="skos:hasTopConcept"/>

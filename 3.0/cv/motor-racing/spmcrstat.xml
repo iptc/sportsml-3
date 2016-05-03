@@ -38,112 +38,112 @@
         <concept id="spmcrstatspeed-average-race">
             <conceptId qcode="spmcrstat:speed-average-race"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">speed-average-race</name>
+            <name xml:lang="en-US">speed-average-race</name>
             <definition>The average speed of the race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatlead-changes">
             <conceptId qcode="spmcrstat:lead-changes"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">lead-changes</name>
+            <name xml:lang="en-US">lead-changes</name>
             <definition>The number of times the lead changed in this race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatlead-changes-drivers">
             <conceptId qcode="spmcrstat:lead-changes-drivers"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">lead-changes-drivers</name>
+            <name xml:lang="en-US">lead-changes-drivers</name>
             <definition>Total number of drivers that comprised the lead changes.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatmargin-of-victory">
             <conceptId qcode="spmcrstat:margin-of-victory"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">margin-of-victory</name>
+            <name xml:lang="en-US">margin-of-victory</name>
             <definition>Time behind leader for 2nd place driver.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatcaution-flags">
             <conceptId qcode="spmcrstat:caution-flags"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">caution-flags</name>
+            <name xml:lang="en-US">caution-flags</name>
             <definition>Total number of flags for race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatcaution-flags-laps">
             <conceptId qcode="spmcrstat:caution-flags-laps"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">caution-flags-laps</name>
+            <name xml:lang="en-US">caution-flags-laps</name>
             <definition>Total number of laps there were caution flags.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatlaps-total">
             <conceptId qcode="spmcrstat:laps-total"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">laps-total</name>
+            <name xml:lang="en-US">laps-total</name>
             <definition>Total number of laps for race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatdistance-lap">
             <conceptId qcode="spmcrstat:distance-lap"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">distance-lap</name>
+            <name xml:lang="en-US">distance-lap</name>
             <definition>Length of one lap.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatdistance-total">
             <conceptId qcode="spmcrstat:distance-total"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">distance-total</name>
+            <name xml:lang="en-US">distance-total</name>
             <definition>Total distance of race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatgrid">
             <conceptId qcode="spmcrstat:grid"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">grid</name>
+            <name xml:lang="en-US">grid</name>
             <definition>The arrangement or order of cars in the starting lineup.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatpole-position">
             <conceptId qcode="spmcrstat:pole-position"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">pole-position</name>
+            <name xml:lang="en-US">pole-position</name>
             <definition>Position relative to the inside wall, at the start of the race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatpole-wins">
             <conceptId qcode="spmcrstat:pole-wins"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">pole-wins</name>
+            <name xml:lang="en-US">pole-wins</name>
             <definition>Number of times this driver or team had a pole position of 1.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatqualifying-speed">
             <conceptId qcode="spmcrstat:qualifying-speed"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">qualifying-speed</name>
+            <name xml:lang="en-US">qualifying-speed</name>
             <definition>Speed of lap which qualified the driver.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatqualifying-time">
             <conceptId qcode="spmcrstat:qualifying-time"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">qualifying-time</name>
+            <name xml:lang="en-US">qualifying-time</name>
             <definition>Time received for qualifying lap.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatqualifying-position">
             <conceptId qcode="spmcrstat:qualifying-position"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">qualifying-position</name>
+            <name xml:lang="en-US">qualifying-position</name>
             <definition>Where the car had ranked within the preliminary round.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstattime-behind-leader">
             <conceptId qcode="spmcrstat:time-behind-leader"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-behind-leader</name>
+            <name xml:lang="en-US">time-behind-leader</name>
             <definition>Amount of time this driver was behind the car that is currently in first
                 place.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -151,7 +151,7 @@
         <concept id="spmcrstatlaps-behind-leader">
             <conceptId qcode="spmcrstat:laps-behind-leader"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">laps-behind-leader</name>
+            <name xml:lang="en-US">laps-behind-leader</name>
             <definition>Amount of laps this driver was behind the car that is currently in first
                 place.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -159,7 +159,7 @@
         <concept id="spmcrstattime-ahead-follower">
             <conceptId qcode="spmcrstat:time-ahead-follower"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-ahead-follower</name>
+            <name xml:lang="en-US">time-ahead-follower</name>
             <definition>Amount of time this driver was ahead of the car immediately behind
                 it.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -167,7 +167,7 @@
         <concept id="spmcrstatlaps-ahead-follower">
             <conceptId qcode="spmcrstat:laps-ahead-follower"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">laps-ahead-follower</name>
+            <name xml:lang="en-US">laps-ahead-follower</name>
             <definition>Amount of laps this driver was ahead of the car immediately behind
                 it.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -175,7 +175,7 @@
         <concept id="spmcrstattime">
             <conceptId qcode="spmcrstat:time"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time</name>
+            <name xml:lang="en-US">time</name>
             <definition>Total amount of time this driver has been competing in the
                 race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -183,7 +183,7 @@
         <concept id="spmcrstatpoints">
             <conceptId qcode="spmcrstat:points"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">points</name>
+            <name xml:lang="en-US">points</name>
             <definition>Total accumulation of points in the league-authorized standings for the
                 season.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -191,7 +191,7 @@
         <concept id="spmcrstatpoints-rookie">
             <conceptId qcode="spmcrstat:points-rookie"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">points-rookie</name>
+            <name xml:lang="en-US">points-rookie</name>
             <definition>Total accumulation of points in the league-authorized standings for the
                 season, amongst other drivers who are competing in their first year.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -199,7 +199,7 @@
         <concept id="spmcrstatbonus">
             <conceptId qcode="spmcrstat:bonus"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">bonus</name>
+            <name xml:lang="en-US">bonus</name>
             <definition>Amount of bonus points driver has earned in this race. For example, NASCAR
                 drivers may receive five bonus points for leading a lap, and an additional five
                 points for leading the most laps.</definition>
@@ -208,21 +208,21 @@
         <concept id="spmcrstatlaps-completed">
             <conceptId qcode="spmcrstat:laps-completed"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">laps-completed</name>
+            <name xml:lang="en-US">laps-completed</name>
             <definition>Number of laps this driver has completed during this race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatlaps-leading-total">
             <conceptId qcode="spmcrstat:laps-leading-total"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">laps-leading-total</name>
+            <name xml:lang="en-US">laps-leading-total</name>
             <definition>Number of laps in which this driver has led the field.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatdistance-leading">
             <conceptId qcode="spmcrstat:distance-leading"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">distance-leading</name>
+            <name xml:lang="en-US">distance-leading</name>
             <definition>Distance (in, say, miles or kilometers) that driver has led the
                 race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -230,7 +230,7 @@
         <concept id="spmcrstatdistance-completed">
             <conceptId qcode="spmcrstat:distance-completed"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">distance-completed</name>
+            <name xml:lang="en-US">distance-completed</name>
             <definition>Distance (in, say, miles or kilometers) that driver has completed in this
                 race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -238,77 +238,77 @@
         <concept id="spmcrstatspeed-average">
             <conceptId qcode="spmcrstat:speed-average"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">speed-average</name>
+            <name xml:lang="en-US">speed-average</name>
             <definition>Average speed during the race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatstatus">
             <conceptId qcode="spmcrstat:status"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">status</name>
+            <name xml:lang="en-US">status</name>
             <definition>Whether the driver is running, or is out of the race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatfinishes-top-5">
             <conceptId qcode="spmcrstat:finishes-top-5"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">finishes-top-5</name>
+            <name xml:lang="en-US">finishes-top-5</name>
             <definition>Number of top-5 finishes this driver has had.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatfinishes-top-10">
             <conceptId qcode="spmcrstat:finishes-top-10"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">finishes-top-10</name>
+            <name xml:lang="en-US">finishes-top-10</name>
             <definition>Number of top-10 finishes this driver has had.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatstarts">
             <conceptId qcode="spmcrstat:starts"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">starts</name>
+            <name xml:lang="en-US">starts</name>
             <definition>Number of races this driver had started.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatfinishes">
             <conceptId qcode="spmcrstat:finishes"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">finishes</name>
+            <name xml:lang="en-US">finishes</name>
             <definition>Number of races this driver had finished.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatnon-finishes">
             <conceptId qcode="spmcrstat:non-finishes"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">non-finishes</name>
+            <name xml:lang="en-US">non-finishes</name>
             <definition>Number of races this driver had started but had not finished.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatwins">
             <conceptId qcode="spmcrstat:wins"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">wins</name>
+            <name xml:lang="en-US">wins</name>
             <definition>Number of races this driver had won.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatraces-leading">
             <conceptId qcode="spmcrstat:races-leading"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">races-leading</name>
+            <name xml:lang="en-US">races-leading</name>
             <definition>Number of races in which this driver has held a lead.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatmoney">
             <conceptId qcode="spmcrstat:money"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">money</name>
+            <name xml:lang="en-US">money</name>
             <definition>Amount of money this driver had won.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatleads-total">
             <conceptId qcode="spmcrstat:leads-total"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">leads-total</name>
+            <name xml:lang="en-US">leads-total</name>
             <definition>Number of total leads this driver has had, presumably during this
                 race.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -316,28 +316,28 @@
         <concept id="spmcrstatcomment">
             <conceptId qcode="spmcrstat:comment"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">comment</name>
+            <name xml:lang="en-US">comment</name>
             <definition>A comment or highlight on this driver.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatspeed-range">
             <conceptId qcode="spmcrstat:speed-range"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">speed-range</name>
+            <name xml:lang="en-US">speed-range</name>
             <definition>Either fastest or slowest.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatlap-number">
             <conceptId qcode="spmcrstat:lap-number"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">lap-number</name>
+            <name xml:lang="en-US">lap-number</name>
             <definition>The lap number in question.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatstart-time-elapsed">
             <conceptId qcode="spmcrstat:start-time-elapsed"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">start-time-elapsed</name>
+            <name xml:lang="en-US">start-time-elapsed</name>
             <definition>The time since the start of the race at which this lap was
                 begun.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
@@ -345,21 +345,21 @@
         <concept id="spmcrstatspeed-average-lap">
             <conceptId qcode="spmcrstat:speed-average-lap"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">speed-average-lap</name>
+            <name xml:lang="en-US">speed-average-lap</name>
             <definition>The average speed of this lap.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatduration">
             <conceptId qcode="spmcrstat:duration"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">duration</name>
+            <name xml:lang="en-US">duration</name>
             <definition>The length of time this lap (or partial lap) was completed.</definition>
             <related uri="http://cv.iptc.org/newscodes/spmcrstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrstatsplit-location">
             <conceptId qcode="spmcrstat:split-location"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">split-location</name>
+            <name xml:lang="en-US">split-location</name>
             <definition>Used when partial laps are being timed. If omitted, it is assumed that the
                 stats herein are for the entire lap. Sample values include: start | stretch | finish
                 | marker-1 | marker-2</definition>
@@ -368,8 +368,8 @@
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spmcrstat/" authority="http://www.iptc.org"
         preferredalias="spmcrstat">
-        <definition xml:lang="en-GB">Vocabulary of statistics for Motor Racing</definition>
-        <name xml:lang="en-GB">Motor Racing Statistics</name>
+        <definition xml:lang="en-US">Vocabulary of statistics for Motor Racing</definition>
+        <name xml:lang="en-US">Motor Racing Statistics</name>
         <related qcode="spmcrstat:speed-average-race" rel="skos:hasTopConcept"/>
         <related qcode="spmcrstat:lead-changes" rel="skos:hasTopConcept"/>
         <related qcode="spmcrstat:lead-changes-drivers" rel="skos:hasTopConcept"/>

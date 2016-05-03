@@ -37,21 +37,21 @@
     <conceptSet>
         <concept id="spamfcallerteam">
             <conceptId qcode="spamfcaller:team"/>
-            <name xml:lang="en-GB">team</name>
+            <name xml:lang="en-US">team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfcaller/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfcallerofficial">
             <conceptId qcode="spamfcaller:official"/>
-            <name xml:lang="en-GB">official</name>
+            <name xml:lang="en-US">official</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfcaller/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamfcaller/"
         preferredalias="spamfcaller">
-        <definition xml:lang="en-GB">Requestor of time out in American Football</definition>
-        <name xml:lang="en-GB">American Football time-out Caller</name>
+        <definition xml:lang="en-US">Requestor of time out in American Football</definition>
+        <name xml:lang="en-US">American Football time-out Caller</name>
         <related qcode="spamfcaller:team" rel="skos:hasTopConcept"/>
         <related qcode="spamfcaller:official" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

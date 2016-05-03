@@ -33,43 +33,43 @@
 	<conceptSet>
 		<concept id="spseasontypepre-season">
 			<conceptId qcode="spseasontype:pre-season"/>
-			<name xml:lang="en-GB">pre-season</name>
+			<name xml:lang="en-US">pre-season</name>
 			<definition>Events played in an exhibition before the regular phase when standings
 				points are awarded.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypeseason-regular">
 			<conceptId qcode="spseasontype:season-regular"/>
-			<name xml:lang="en-GB">season-regular</name>
+			<name xml:lang="en-US">season-regular</name>
 			<definition>The phase of a league competition when standings points are awarded toward a
 				points-based championship or position in a post-season phase.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypepost-season">
 			<conceptId qcode="spseasontype:post-season"/>
-			<name xml:lang="en-GB">post-season</name>
+			<name xml:lang="en-US">post-season</name>
 			<definition>A championship phase of a league competition, usually comprosed of
 				elimination rounds until one team has prevailed.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypeall-star-game">
 			<conceptId qcode="spseasontype:all-star-game"/>
-			<name xml:lang="en-GB">all-star-game</name>
+			<name xml:lang="en-US">all-star-game</name>
 			<definition>Some leagues have an all-star break and game comprised of the best
 				players.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypeexhibition">
 			<conceptId qcode="spseasontype:exhibition"/>
-			<name xml:lang="en-GB">exhibition</name>
+			<name xml:lang="en-US">exhibition</name>
 			<definition>A game or phase with no standings points awarded.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 	</conceptSet>
 	<schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spseasontype/"
 		preferredalias="spseasontype">
-		<definition xml:lang="en-GB">A subcategory of the season</definition>
-		<name xml:lang="en-GB">Season Type</name>
+		<definition xml:lang="en-US">A subcategory of the season</definition>
+		<name xml:lang="en-US">Season Type</name>
 		<related qcode="spseasontype:pre-season" rel="skos:hasTopConcept"/>
 		<related qcode="spseasontype:season-regular" rel="skos:hasTopConcept"/>
 		<related qcode="spseasontype:post-season" rel="skos:hasTopConcept"/>

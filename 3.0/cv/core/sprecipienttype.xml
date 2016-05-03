@@ -32,39 +32,39 @@
     <conceptSet>
         <concept id="sprecipienttypeteam">
             <conceptId qcode="sprecipienttype:team"/>
-            <name xml:lang="en-GB">team</name>
+            <name xml:lang="en-US">team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecipienttype/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprecipienttypeplayer">
             <conceptId qcode="sprecipienttype:player"/>
-            <name xml:lang="en-GB">player</name>
+            <name xml:lang="en-US">player</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecipienttype/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprecipienttypeauxilliary">
             <conceptId qcode="sprecipienttype:auxilliary"/>
-            <name xml:lang="en-GB">auxilliary</name>
+            <name xml:lang="en-US">auxilliary</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecipienttype/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprecipienttypeofficial">
             <conceptId qcode="sprecipienttype:official"/>
-            <name xml:lang="en-GB">official</name>
+            <name xml:lang="en-US">official</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecipienttype/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprecipienttypeother">
             <conceptId qcode="sprecipienttype:other"/>
-            <name xml:lang="en-GB">other</name>
+            <name xml:lang="en-US">other</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecipienttype/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sprecipienttype/"
         preferredalias="sprecipienttype">
-        <definition xml:lang="en-GB">Types of recipients of penalization</definition>
-        <name xml:lang="en-GB">Recipient Type</name>
+        <definition xml:lang="en-US">Types of recipients of penalization</definition>
+        <name xml:lang="en-US">Recipient Type</name>
         <related qcode="sprecipienttype:team" rel="skos:hasTopConcept"/>
         <related qcode="sprecipienttype:player" rel="skos:hasTopConcept"/>
         <related qcode="sprecipienttype:auxilliary" rel="skos:hasTopConcept"/>

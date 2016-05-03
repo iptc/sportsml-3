@@ -36,27 +36,27 @@
     <conceptSet>
         <concept id="spgolshotdrive">
             <conceptId qcode="spgolshot:drive"/>
-            <name xml:lang="en-GB">drive</name>
+            <name xml:lang="en-US">drive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgolshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgolshotputt">
             <conceptId qcode="spgolshot:putt"/>
-            <name xml:lang="en-GB">putt</name>
+            <name xml:lang="en-US">putt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgolshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgolshotpitch">
             <conceptId qcode="spgolshot:pitch"/>
-            <name xml:lang="en-GB">pitch</name>
+            <name xml:lang="en-US">pitch</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgolshot/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spgolshot/"
         preferredalias="spgolshot">
-        <definition xml:lang="en-GB">Types of shot in golf.</definition>
-        <name xml:lang="en-GB">Golf Shot Types</name>
+        <definition xml:lang="en-US">Types of shot in golf.</definition>
+        <name xml:lang="en-US">Golf Shot Types</name>
         <related qcode="spgolshot:drive" rel="skos:hasTopConcept"/>
         <related qcode="spgolshot:putt" rel="skos:hasTopConcept"/>
         <related qcode="spgolshot:pitch" rel="skos:hasTopConcept"/>

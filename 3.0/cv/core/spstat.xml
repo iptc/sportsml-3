@@ -34,7 +34,7 @@
         <concept id="spstatpoints">
             <conceptId qcode="spstat:points"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">points</name>
+            <name xml:lang="en-US">points</name>
             <definition>Points accumulated by this associate. For example, points earned by a NASCAR
                 owner.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -42,7 +42,7 @@
         <concept id="spstatevents-played">
             <conceptId qcode="spstat:events-played"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">events-played</name>
+            <name xml:lang="en-US">events-played</name>
             <definition>The number of sports-events in which this team or player has already
                 participated.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -50,7 +50,7 @@
         <concept id="spstattime-played-total">
             <conceptId qcode="spstat:time-played-total"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-played-total</name>
+            <name xml:lang="en-US">time-played-total</name>
             <definition>Value for the amount of time played by the team or player over the course of
                 a particular time-span, such as a season.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -58,7 +58,7 @@
         <concept id="spstattime-played-event">
             <conceptId qcode="spstat:time-played-event"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-played-event</name>
+            <name xml:lang="en-US">time-played-event</name>
             <definition>Value for the amount of time played by this player in a particular
                 sports-event.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -66,7 +66,7 @@
         <concept id="spstattime-played-event-average">
             <conceptId qcode="spstat:time-played-event-average"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-played-event-average</name>
+            <name xml:lang="en-US">time-played-event-average</name>
             <definition>Value for the average amount of time played per-event by the player over the
                 course of a particular time-span, such as a season.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -74,7 +74,7 @@
         <concept id="spstatevents-started">
             <conceptId qcode="spstat:events-started"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">events-started</name>
+            <name xml:lang="en-US">events-started</name>
             <definition>Number of sports-events the player has played in since the start of the
                 event.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -82,14 +82,14 @@
         <concept id="spstatperiod-extra-time-added">
             <conceptId qcode="spstat:period-extra-time-added"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">period-extra-time-added</name>
+            <name xml:lang="en-US">period-extra-time-added</name>
             <definition>How many minutes the referee has decided to add to the period.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatperiod-extra-time-elapsed">
             <conceptId qcode="spstat:period-extra-time-elapsed"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">period-extra-time-elapsed</name>
+            <name xml:lang="en-US">period-extra-time-elapsed</name>
             <definition>How much time exactly MMSS that was actually elapsed in the
                 period.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -97,42 +97,42 @@
         <concept id="spstatscore">
             <conceptId qcode="spstat:score"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score</name>
+            <name xml:lang="en-US">score</name>
             <definition>Final or current score of the team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-opposing">
             <conceptId qcode="spstat:score-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-opposing</name>
+            <name xml:lang="en-US">score-opposing</name>
             <definition>Final or current score of the opposing team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-average">
             <conceptId qcode="spstat:score-average"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-average</name>
+            <name xml:lang="en-US">score-average</name>
             <definition>Average per-game score for the team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-opposing-average">
             <conceptId qcode="spstat:score-opposing-average"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-opposing-average</name>
+            <name xml:lang="en-US">score-opposing-average</name>
             <definition>Average per-game score for the opposing team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-behind">
             <conceptId qcode="spstat:score-behind"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-behind</name>
+            <name xml:lang="en-US">score-behind</name>
             <definition>The points or time behind the leading score.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-attempts">
             <conceptId qcode="spstat:score-attempts"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-attempts</name>
+            <name xml:lang="en-US">score-attempts</name>
             <definition>Final or current number of attempts to score by a team or player. Example:
                 in ice hockey, would represent total shots on goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -140,7 +140,7 @@
         <concept id="spstatscore-attempts-opposing">
             <conceptId qcode="spstat:score-attempts-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-attempts-opposing</name>
+            <name xml:lang="en-US">score-attempts-opposing</name>
             <definition>Final or current number of attempts to score by an opposing team or
                 player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -148,7 +148,7 @@
         <concept id="spstatscore-attempts-on-goal">
             <conceptId qcode="spstat:score-attempts-on-goal"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-attempts-on-goal</name>
+            <name xml:lang="en-US">score-attempts-on-goal</name>
             <definition>A subset of score-attempts. Only counts those attempts that were
                 on-goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -156,7 +156,7 @@
         <concept id="spstatscore-attempts-on-goal-opposing">
             <conceptId qcode="spstat:score-attempts-on-goal-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-attempts-on-goal-opposing</name>
+            <name xml:lang="en-US">score-attempts-on-goal-opposing</name>
             <definition>Final or current number of attempts to score by an opposing team or player
                 that were on-goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -164,14 +164,14 @@
         <concept id="spstatscore-percentage">
             <conceptId qcode="spstat:score-percentage"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-percentage</name>
+            <name xml:lang="en-US">score-percentage</name>
             <definition>Percentage of attempted scores that reached their mark.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-percentage-opposing">
             <conceptId qcode="spstat:score-percentage-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">score-percentage-opposing</name>
+            <name xml:lang="en-US">score-percentage-opposing</name>
             <definition>Percentage of attempted scores by opposing team or player that reached their
                 mark.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -179,7 +179,7 @@
         <concept id="spstatresult-effect">
             <conceptId qcode="spstat:result-effect"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">result-effect</name>
+            <name xml:lang="en-US">result-effect</name>
             <definition>Describes the effect that the result of the event or rank changing has had
                 on the team. Example: Whether or not a team has qualified for the playoffs, or has
                 been promoted or demoted to a different division.</definition>
@@ -188,14 +188,14 @@
         <concept id="spstatevent-outcome">
             <conceptId qcode="spstat:event-outcome"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">event-outcome</name>
+            <name xml:lang="en-US">event-outcome</name>
             <definition>Whether the competitor won, lost, or tied.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevent-standing-points">
             <conceptId qcode="spstat:event-standing-points"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">event-standing-points</name>
+            <name xml:lang="en-US">event-standing-points</name>
             <definition>How many points were earned as a result of the outcome of this particular
                 event.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -203,7 +203,7 @@
         <concept id="spstatevent-standing-points-against">
             <conceptId qcode="spstat:event-standing-points-against"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">event-standing-points-against</name>
+            <name xml:lang="en-US">event-standing-points-against</name>
             <definition>How many points were deducted as a result of the outcome of this particular
                 event. This occurs, for example, in the German Handball leagues.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -211,14 +211,14 @@
         <concept id="spstatevents-remaining">
             <conceptId qcode="spstat:events-remaining"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">events-remaining</name>
+            <name xml:lang="en-US">events-remaining</name>
             <definition>Number of sports-events the player has yet to participate in.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-of-possession">
             <conceptId qcode="spstat:time-of-possession"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-of-possession</name>
+            <name xml:lang="en-US">time-of-possession</name>
             <definition>Amount of time the team or player has possession of ball (or similar object
                 like puck).</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -226,7 +226,7 @@
         <concept id="spstattime-of-possession-percentage">
             <conceptId qcode="spstat:time-of-possession-percentage"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-of-possession-percentage</name>
+            <name xml:lang="en-US">time-of-possession-percentage</name>
             <definition>Amount of time the team or player has possession of ball (or similar object
                 like puck) expressed as a percentage of the full time of the match.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -234,7 +234,7 @@
         <concept id="spstattime-of-possession-percentage-opposing">
             <conceptId qcode="spstat:time-of-possession-percentage-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-of-possession-percentage-opposing</name>
+            <name xml:lang="en-US">time-of-possession-percentage-opposing</name>
             <definition>Amount of time the opposing team or player has possession of ball (or
                 similar object like puck) expressed as a percentage of the full time of the
                 match.</definition>
@@ -243,7 +243,7 @@
         <concept id="spstattime-of-possession-average">
             <conceptId qcode="spstat:time-of-possession-average"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-of-possession-average</name>
+            <name xml:lang="en-US">time-of-possession-average</name>
             <definition>Amount of time the team or player has possession of ball (or similar object
                 like puck) per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -251,7 +251,7 @@
         <concept id="spstattime-of-possession-average-opposing">
             <conceptId qcode="spstat:time-of-possession-average-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">time-of-possession-average-opposing</name>
+            <name xml:lang="en-US">time-of-possession-average-opposing</name>
             <definition>Amount of time the opposing team or player has possession of ball (or
                 similar object like puck) per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
@@ -259,21 +259,21 @@
         <concept id="spstatseries-score">
             <conceptId qcode="spstat:series-score"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">series-score</name>
+            <name xml:lang="en-US">series-score</name>
             <definition>Number of events in a series won by team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatseries-score-opposing">
             <conceptId qcode="spstat:series-score-opposing"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">series-score-opposing</name>
+            <name xml:lang="en-US">series-score-opposing</name>
             <definition>Number of events in a series won by opposing team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatadjusted-score-for">
             <conceptId qcode="spstat:adjusted-score-for"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">adjusted-score-for</name>
+            <name xml:lang="en-US">adjusted-score-for</name>
             <definition>The final score as adjusted by some authority. Usually as a result of some
                 dispute or transgression that must be settled post-event and rendered in the score.
                 Will differ from the regular score reflecting the number of actual goals scored in
@@ -283,7 +283,7 @@
         <concept id="spstatadjusted-score-against">
             <conceptId qcode="spstat:adjusted-score-against"/>
             <type qcode="spct:general"/>
-            <name xml:lang="en-GB">adjusted-score-against</name>
+            <name xml:lang="en-US">adjusted-score-against</name>
             <definition>The final score against as adjusted by some authority. Usually as a result
                 of some dispute or transgression that must be settled post-event and rendered in the
                 score. Will differ from the regular score reflecting the number of actual goals
@@ -293,8 +293,8 @@
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spstat/" authority="http://www.iptc.org"
         preferredalias="spstat">
-        <definition xml:lang="en-GB">Vocabulary of general sports statistics</definition>
-        <name xml:lang="en-GB">Core Statistics</name>
+        <definition xml:lang="en-US">Vocabulary of general sports statistics</definition>
+        <name xml:lang="en-US">Core Statistics</name>
         <related qcode="spstat:points" rel="skos:hasTopConcept"/>
         <related qcode="spstat:events-played" rel="skos:hasTopConcept"/>
         <related qcode="spstat:time-played-total" rel="skos:hasTopConcept"/>

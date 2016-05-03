@@ -36,15 +36,15 @@
     <conceptSet>
         <concept id="sptenactionpoint">
             <conceptId qcode="sptenaction:point"/>
-            <name xml:lang="en-GB">point</name>
+            <name xml:lang="en-US">point</name>
             <definition>Types of actions/plays in tennis</definition>
             <related uri="http://cv.iptc.org/newscodes/sptenaction/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sptenaction/"
         preferredalias="sptenaction">
-        <definition xml:lang="en-GB">Types of actions/plays in tennis</definition>
-        <name xml:lang="en-GB">Tennis Actions</name>
+        <definition xml:lang="en-US">Types of actions/plays in tennis</definition>
+        <name xml:lang="en-US">Tennis Actions</name>
         <related qcode="sptenaction:point" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>

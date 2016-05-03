@@ -33,21 +33,21 @@
     <conceptSet>
         <concept id="sprecordmakingscopehigh">
             <conceptId qcode="sprecordmakingscope:high"/>
-            <name xml:lang="en-GB">high</name>
+            <name xml:lang="en-US">high</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprecordmakingscopelow">
             <conceptId qcode="sprecordmakingscope:low"/>
-            <name xml:lang="en-GB">low</name>
+            <name xml:lang="en-US">low</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" preferredalias="sprecordmakingscope">
-        <definition xml:lang="en-GB">Scope of an achieved record</definition>
-        <name xml:lang="en-GB">Record Scope</name>
+        <definition xml:lang="en-US">Scope of an achieved record</definition>
+        <name xml:lang="en-US">Record Scope</name>
         <related qcode="sprecordmakingscope:high" rel="skos:hasTopConcept"/>
         <related qcode="sprecordmakingscope:low" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

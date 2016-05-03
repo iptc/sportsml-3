@@ -36,20 +36,20 @@
     <conceptSet>
         <concept id="spsocinfractionlevelyellow-card">
             <conceptId qcode="spsocinfractionlevel:yellow-card"/>
-            <name xml:lang="en-GB">yellow-card</name>
+            <name xml:lang="en-US">yellow-card</name>
             <definition>Foul shown by a yellow card - also known as a caution.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionlevelyellow-red-card">
             <conceptId qcode="spsocinfractionlevel:yellow-red-card"/>
-            <name xml:lang="en-GB">yellow-red-card</name>
+            <name xml:lang="en-US">yellow-red-card</name>
             <definition>Foul shown as a second yellow card then followed by a red card - also known
                 as an ejection.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionlevelred-card">
             <conceptId qcode="spsocinfractionlevel:red-card"/>
-            <name xml:lang="en-GB">red-card</name>
+            <name xml:lang="en-US">red-card</name>
             <definition>Foul shown as a red card - also known as an ejection.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/" rel="skos:inScheme"/>
         </concept>
@@ -57,8 +57,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/"
         preferredalias="spsocinfractionlevel">
-        <definition xml:lang="en-GB">Levels of infraction in soccer.</definition>
-        <name xml:lang="en-GB">Soccer Infraction Levels</name>
+        <definition xml:lang="en-US">Levels of infraction in soccer.</definition>
+        <name xml:lang="en-US">Soccer Infraction Levels</name>
         <related qcode="spsocinfractionlevel:yellow-card" rel="skos:hasTopConcept"/>
         <related qcode="spsocinfractionlevel:yellow-red-card" rel="skos:hasTopConcept"/>
         <related qcode="spsocinfractionlevel:red-card" rel="skos:hasTopConcept"/>

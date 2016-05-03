@@ -36,25 +36,25 @@
     <conceptSet>
         <concept id="spbkbinfractionlevelregular">
             <conceptId qcode="spbkbinfractionlevel:regular"/>
-            <name xml:lang="en-GB">regular</name>
+            <name xml:lang="en-US">regular</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbinfractionlevelflagrant">
             <conceptId qcode="spbkbinfractionlevel:flagrant"/>
-            <name xml:lang="en-GB">flagrant</name>
+            <name xml:lang="en-US">flagrant</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbinfractionleveltechnical">
             <conceptId qcode="spbkbinfractionlevel:technical"/>
-            <name xml:lang="en-GB">technical</name>
+            <name xml:lang="en-US">technical</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbinfractionlevelillegal-defense">
             <conceptId qcode="spbkbinfractionlevel:illegal-defense"/>
-            <name xml:lang="en-GB">illegal-defense</name>
+            <name xml:lang="en-US">illegal-defense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
         </concept>
@@ -62,8 +62,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/"
         preferredalias="spbkbinfractionlevel">
-        <definition xml:lang="en-GB">Types of infraction in basketball.</definition>
-        <name xml:lang="en-GB">Basketball Infractions</name>
+        <definition xml:lang="en-US">Types of infraction in basketball.</definition>
+        <name xml:lang="en-US">Basketball Infractions</name>
         <related qcode="spbkbinfractionlevel:regular" rel="skos:hasTopConcept"/>
         <related qcode="spbkbinfractionlevel:flagrant" rel="skos:hasTopConcept"/>
         <related qcode="spbkbinfractionlevel:technical" rel="skos:hasTopConcept"/>

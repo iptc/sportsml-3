@@ -36,57 +36,57 @@
     <conceptSet>
         <concept id="spmcrflaggreen">
             <conceptId qcode="spmcrflag:green"/>
-            <name xml:lang="en-GB">green</name>
+            <name xml:lang="en-US">green</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagyellow">
             <conceptId qcode="spmcrflag:yellow"/>
-            <name xml:lang="en-GB">yellow</name>
+            <name xml:lang="en-US">yellow</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagwhite">
             <conceptId qcode="spmcrflag:white"/>
-            <name xml:lang="en-GB">white</name>
+            <name xml:lang="en-US">white</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagcheckered">
             <conceptId qcode="spmcrflag:checkered"/>
-            <name xml:lang="en-GB">checkered</name>
+            <name xml:lang="en-US">checkered</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagred">
             <conceptId qcode="spmcrflag:red"/>
-            <name xml:lang="en-GB">red</name>
+            <name xml:lang="en-US">red</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagblack">
             <conceptId qcode="spmcrflag:black"/>
-            <name xml:lang="en-GB">black</name>
+            <name xml:lang="en-US">black</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagblack-with-x">
             <conceptId qcode="spmcrflag:black-with-x"/>
-            <name xml:lang="en-GB">black-with-x</name>
+            <name xml:lang="en-US">black-with-x</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcrflagblue-with-orange-stripe">
             <conceptId qcode="spmcrflag:blue-with-orange-stripe"/>
-            <name xml:lang="en-GB">blue-with-orange-stripe</name>
+            <name xml:lang="en-US">blue-with-orange-stripe</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcrflag/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spmcrflag/"
         preferredalias="spmcrflag">
-        <definition xml:lang="en-GB">Types of motor racing communication flags.</definition>
-        <name xml:lang="en-GB">Motor Racing Flag Types</name>
+        <definition xml:lang="en-US">Types of motor racing communication flags.</definition>
+        <name xml:lang="en-US">Motor Racing Flag Types</name>
         <related qcode="spmcrflag:green" rel="skos:hasTopConcept"/>
         <related qcode="spmcrflag:yellow" rel="skos:hasTopConcept"/>
         <related qcode="spmcrflag:white" rel="skos:hasTopConcept"/>

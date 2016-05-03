@@ -37,63 +37,63 @@
     <conceptSet>
         <concept id="spbblrolebatter">
             <conceptId qcode="spbblrole:batter"/>
-            <name xml:lang="en-GB">Batter</name>
+            <name xml:lang="en-US">Batter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolepitcher">
             <conceptId qcode="spbblrole:pitcher"/>
-            <name xml:lang="en-GB">Pitcher</name>
+            <name xml:lang="en-US">Pitcher</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolerunner-1">
             <conceptId qcode="spbblrole:runner-1"/>
-            <name xml:lang="en-GB">Runner on 1st</name>
+            <name xml:lang="en-US">Runner on 1st</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolerunner-2">
             <conceptId qcode="spbblrole:runner-2"/>
-            <name xml:lang="en-GB">Runner on 2nd</name>
+            <name xml:lang="en-US">Runner on 2nd</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolerunner-3">
             <conceptId qcode="spbblrole:runner-3"/>
-            <name xml:lang="en-GB">Runner on 3rd</name>
+            <name xml:lang="en-US">Runner on 3rd</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolenext-batter">
             <conceptId qcode="spbblrole:next-batter"/>
-            <name xml:lang="en-GB">The next batter up</name>
+            <name xml:lang="en-US">The next batter up</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolefielder">
             <conceptId qcode="spbblrole:fielder"/>
-            <name xml:lang="en-GB">fielder</name>
+            <name xml:lang="en-US">fielder</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblroleofficial">
             <conceptId qcode="spbblrole:official"/>
-            <name xml:lang="en-GB">official</name>
+            <name xml:lang="en-US">official</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblroleauxilliary">
             <conceptId qcode="spbblrole:auxilliary"/>
-            <name xml:lang="en-GB">auxilliary</name>
+            <name xml:lang="en-US">auxilliary</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbblrole/"
         preferredalias="spbblrole">
-        <definition xml:lang="en-GB">Roles of Baseball players</definition>
-        <name xml:lang="en-GB">Baseball Player Roles</name>
+        <definition xml:lang="en-US">Roles of Baseball players</definition>
+        <name xml:lang="en-US">Baseball Player Roles</name>
         <related qcode="spbblrole:batter" rel="skos:hasTopConcept"/>
         <related qcode="spbblrole:pitcher" rel="skos:hasTopConcept"/>
         <related qcode="spbblrole:runner-1" rel="skos:hasTopConcept"/>

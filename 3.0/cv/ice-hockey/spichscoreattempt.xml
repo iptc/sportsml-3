@@ -36,40 +36,40 @@
     <conceptSet>
         <concept id="spichscoreattemptregular">
             <conceptId qcode="spichscoreattempt:regular"/>
-            <name xml:lang="en-GB">regular</name>
+            <name xml:lang="en-US">regular</name>
             <definition>Occurs while both teams have an equal number of players on the
                 ice.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptpenalty-shot">
             <conceptId qcode="spichscoreattempt:penalty-shot"/>
-            <name xml:lang="en-GB">penalty-shot</name>
+            <name xml:lang="en-US">penalty-shot</name>
             <definition>Occurs while shooting player is taking a penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptempty-net">
             <conceptId qcode="spichscoreattempt:empty-net"/>
-            <name xml:lang="en-GB">empty-net</name>
+            <name xml:lang="en-US">empty-net</name>
             <definition>Occurs when shot is taken on net vacated by goalie who has been replaced on
                 the ice by a non-goalie.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptshootout">
             <conceptId qcode="spichscoreattempt:shootout"/>
-            <name xml:lang="en-GB">shootout</name>
+            <name xml:lang="en-US">shootout</name>
             <definition>Occurs when a shot is taken during a game-ending shootout
                 situation.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptown-goal">
             <conceptId qcode="spichscoreattempt:own-goal"/>
-            <name xml:lang="en-GB">own-goal</name>
+            <name xml:lang="en-US">own-goal</name>
             <definition>Occurs when shot is inadvertantly scored into the wrong goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptawarded">
             <conceptId qcode="spichscoreattempt:awarded"/>
-            <name xml:lang="en-GB">awarded</name>
+            <name xml:lang="en-US">awarded</name>
             <definition>Occurs when own-goals are not awarded and not opponent has contact with
                 puck. Goal is awarded to non-participant on opposing team of actual
                 scorer.</definition>
@@ -78,8 +78,8 @@
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spichscoreattempt/" preferredalias="spichscoreattempt">
-        <definition xml:lang="en-GB">Types of scoring in ice-hockey.</definition>
-        <name xml:lang="en-GB">Ice Hockey Score Types</name>
+        <definition xml:lang="en-US">Types of scoring in ice-hockey.</definition>
+        <name xml:lang="en-US">Ice Hockey Score Types</name>
         <related qcode="spichscoreattempt:regular" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:penalty-shot" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:empty-net" rel="skos:hasTopConcept"/>

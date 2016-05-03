@@ -34,49 +34,49 @@
 	<conceptSet>
 		<concept id="spplayerstatusstarter">
 			<conceptId qcode="spplayerstatus:starter"/>
-			<name xml:lang="en-GB">starter</name>
+			<name xml:lang="en-US">starter</name>
 			<definition>A member of the lineup that enters the field at the commencement of
 				play.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatusbench">
 			<conceptId qcode="spplayerstatus:bench"/>
-			<name xml:lang="en-GB">bench</name>
+			<name xml:lang="en-US">bench</name>
 			<definition>Does not enter field at commencement of play, is substituted in or remains
 				on bench.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatusscratched">
 			<conceptId qcode="spplayerstatus:scratched"/>
-			<name xml:lang="en-GB">scratched</name>
+			<name xml:lang="en-US">scratched</name>
 			<definition>Does not dress for event, usually for having not earned a slot in the
 				lineup.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatusinjured">
 			<conceptId qcode="spplayerstatus:injured"/>
-			<name xml:lang="en-GB">injured</name>
+			<name xml:lang="en-US">injured</name>
 			<definition>Unable to play due to injury.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatussuspended">
 			<conceptId qcode="spplayerstatus:suspended"/>
-			<name xml:lang="en-GB">suspended</name>
+			<name xml:lang="en-US">suspended</name>
 			<definition>Unable to play due to suspension due to transgression.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatussidelined">
 			<conceptId qcode="spplayerstatus:sidelined"/>
-			<name xml:lang="en-GB">sidelined</name>
+			<name xml:lang="en-US">sidelined</name>
 			<definition>Does not play for other reason.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 	</conceptSet>
 	<schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spplayerstatus/"
 		preferredalias="spplayerstatus">
-		<definition xml:lang="en-GB">Whether a player starts playing at the beginning of a
+		<definition xml:lang="en-US">Whether a player starts playing at the beginning of a
 			sports-event, joins mid-game, or is not available to participate.</definition>
-		<name xml:lang="en-GB">Player Status</name>
+		<name xml:lang="en-US">Player Status</name>
 		<related qcode="spplayerstatus:starter" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:bench" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:scratched" rel="skos:hasTopConcept"/>

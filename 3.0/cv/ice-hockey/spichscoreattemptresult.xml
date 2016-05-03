@@ -37,28 +37,28 @@
     <conceptSet>
         <concept id="spichscoreattemptresultmissed">
             <conceptId qcode="spichscoreattemptresult:missed"/>
-            <name xml:lang="en-GB">missed</name>
+            <name xml:lang="en-US">missed</name>
             <definition>The puck missed the goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spichscoreattemptresultsaved">
             <conceptId qcode="spichscoreattemptresult:saved"/>
-            <name xml:lang="en-GB">saved</name>
+            <name xml:lang="en-US">saved</name>
             <definition>The goalie has stopped the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spichscoreattemptresultblocked">
             <conceptId qcode="spichscoreattemptresult:blocked"/>
-            <name xml:lang="en-GB">blocked</name>
+            <name xml:lang="en-US">blocked</name>
             <definition>A non-goalie diverted the shot from reaching the goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spichscoreattemptresultoff-post">
             <conceptId qcode="spichscoreattemptresult:off-post"/>
-            <name xml:lang="en-GB">off-post</name>
+            <name xml:lang="en-US">off-post</name>
             <definition>The framework of the goal itself blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
@@ -67,8 +67,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/"
         preferredalias="spichscoreattemptresult">
-        <definition xml:lang="en-GB">Types of scoring failure in ice hockey</definition>
-        <name xml:lang="en-GB">Ice Hockey Score Attempt Types</name>
+        <definition xml:lang="en-US">Types of scoring failure in ice hockey</definition>
+        <name xml:lang="en-US">Ice Hockey Score Attempt Types</name>
         <related qcode="spichscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattemptresult:saved" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattemptresult:blocked" rel="skos:hasTopConcept"/>

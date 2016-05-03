@@ -36,63 +36,63 @@
     <conceptSet>
         <concept id="spsocscoreattemptmethodhead">
             <conceptId qcode="spsocscoreattemptmethod:head"/>
-            <name xml:lang="en-GB">head</name>
+            <name xml:lang="en-US">head</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodbicycle-kick">
             <conceptId qcode="spsocscoreattemptmethod:bicycle-kick"/>
-            <name xml:lang="en-GB">bicycle-kick</name>
+            <name xml:lang="en-US">bicycle-kick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodlob">
             <conceptId qcode="spsocscoreattemptmethod:lob"/>
-            <name xml:lang="en-GB">lob</name>
+            <name xml:lang="en-US">lob</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodchip">
             <conceptId qcode="spsocscoreattemptmethod:chip"/>
-            <name xml:lang="en-GB">chip</name>
+            <name xml:lang="en-US">chip</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodfoot">
             <conceptId qcode="spsocscoreattemptmethod:foot"/>
-            <name xml:lang="en-GB">foot</name>
+            <name xml:lang="en-US">foot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodchest">
             <conceptId qcode="spsocscoreattemptmethod:chest"/>
-            <name xml:lang="en-GB">chest</name>
+            <name xml:lang="en-US">chest</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodknee">
             <conceptId qcode="spsocscoreattemptmethod:knee"/>
-            <name xml:lang="en-GB">knee</name>
+            <name xml:lang="en-US">knee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodthigh">
             <conceptId qcode="spsocscoreattemptmethod:thigh"/>
-            <name xml:lang="en-GB">thigh</name>
+            <name xml:lang="en-US">thigh</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodback">
             <conceptId qcode="spsocscoreattemptmethod:back"/>
-            <name xml:lang="en-GB">back</name>
+            <name xml:lang="en-US">back</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
@@ -101,8 +101,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/"
         preferredalias="spsocscoreattemptmethod">
-        <definition xml:lang="en-GB">Methods of soccer scoring used by a player.</definition>
-        <name xml:lang="en-GB">Soccer Scoring Methods</name>
+        <definition xml:lang="en-US">Methods of soccer scoring used by a player.</definition>
+        <name xml:lang="en-US">Soccer Scoring Methods</name>
         <related qcode="spsocscoreattemptmethod:head" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptmethod:bicycle-kick" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptmethod:lob" rel="skos:hasTopConcept"/>

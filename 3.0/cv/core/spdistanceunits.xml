@@ -32,21 +32,21 @@
     <conceptSet>
         <concept id="spdistanceunitsmeters">
             <conceptId qcode="spdistanceunits:meters"/>
-            <name xml:lang="en-GB">meters</name>
+            <name xml:lang="en-US">meters</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdistanceunits/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdistanceunitsyards">
             <conceptId qcode="spdistanceunits:yards"/>
-            <name xml:lang="en-GB">yards</name>
+            <name xml:lang="en-US">yards</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdistanceunits/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spdistanceunits/"
         preferredalias="spdistanceunits">
-        <definition xml:lang="en-GB">Units of distance for shot, jump, etc.</definition>
-        <name xml:lang="en-GB">Distance Units</name>
+        <definition xml:lang="en-US">Units of distance for shot, jump, etc.</definition>
+        <name xml:lang="en-US">Distance Units</name>
         <related qcode="spdistanceunits:meters" rel="skos:hasTopConcept"/>
         <related qcode="spdistanceunits:yards" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

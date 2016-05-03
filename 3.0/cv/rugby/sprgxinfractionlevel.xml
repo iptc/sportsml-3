@@ -36,13 +36,13 @@
     <conceptSet>
         <concept id="sprgxinfractionlevelyellow-card">
             <conceptId qcode="sprgxinfractionlevel:yellow-card"/>
-            <name xml:lang="en-GB">yellow-card</name>
+            <name xml:lang="en-US">yellow-card</name>
             <definition>Penalty shown by a yellow card - also known as a caution.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionlevelred-card">
             <conceptId qcode="sprgxinfractionlevel:red-card"/>
-            <name xml:lang="en-GB">red-card</name>
+            <name xml:lang="en-US">red-card</name>
             <definition>Penalty shown as a red card - also known as an ejection.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionlevel/" rel="skos:inScheme"/>
         </concept>
@@ -50,8 +50,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprgxinfractionlevel/"
         preferredalias="sprgxinfractionlevel">
-        <definition xml:lang="en-GB">Levels of infraction in rugby.</definition>
-        <name xml:lang="en-GB">Rugby Infraction Levels</name>
+        <definition xml:lang="en-US">Levels of infraction in rugby.</definition>
+        <name xml:lang="en-US">Rugby Infraction Levels</name>
         <related qcode="sprgxinfractionlevel:yellow-card" rel="skos:hasTopConcept"/>
         <related qcode="sprgxinfractionlevel:red-card" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

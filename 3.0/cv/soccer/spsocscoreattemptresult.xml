@@ -36,35 +36,35 @@
     <conceptSet>
         <concept id="spsocscoreattemptresultmissed">
             <conceptId qcode="spsocscoreattemptresult:missed"/>
-            <name xml:lang="en-GB">missed</name>
+            <name xml:lang="en-US">missed</name>
             <definition>The ball missed the goal completely.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultblocked">
             <conceptId qcode="spsocscoreattemptresult:blocked"/>
-            <name xml:lang="en-GB">blocked</name>
+            <name xml:lang="en-US">blocked</name>
             <definition>A non-goalkeeper diverted the shot from reaching the goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultsaved">
             <conceptId qcode="spsocscoreattemptresult:saved"/>
-            <name xml:lang="en-GB">saved</name>
+            <name xml:lang="en-US">saved</name>
             <definition>The goalie has stopped the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultoff-post">
             <conceptId qcode="spsocscoreattemptresult:off-post"/>
-            <name xml:lang="en-GB">off-post</name>
+            <name xml:lang="en-US">off-post</name>
             <definition>The side framework of the goal blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultoff-bar">
             <conceptId qcode="spsocscoreattemptresult:off-bar"/>
-            <name xml:lang="en-GB">off-bar</name>
+            <name xml:lang="en-US">off-bar</name>
             <definition>The top framework of the goal blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
@@ -73,8 +73,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/"
         preferredalias="spsocscoreattemptresult">
-        <definition xml:lang="en-GB">Types of scoring failure in soccer.</definition>
-        <name xml:lang="en-GB">Soccer Score Attempt Types</name>
+        <definition xml:lang="en-US">Types of scoring failure in soccer.</definition>
+        <name xml:lang="en-US">Soccer Score Attempt Types</name>
         <related qcode="spsocscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:saved" rel="skos:hasTopConcept"/>

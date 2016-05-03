@@ -33,22 +33,22 @@
     <conceptSet>
         <concept id="spsitesurfacehard-court">
             <conceptId qcode="spsitesurface:hard-court"/>
-            <name xml:lang="en-GB">hard-court</name>
+            <name xml:lang="en-US">hard-court</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsitesurface/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsitesurfaceclay">
             <conceptId qcode="spsitesurface:clay"/>
-            <name xml:lang="en-GB">clay</name>
+            <name xml:lang="en-US">clay</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsitesurface/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spsitesurface/"
         preferredalias="spsitesurface">
-        <definition xml:lang="en-GB">Describes the surface upon which events are
+        <definition xml:lang="en-US">Describes the surface upon which events are
             played.</definition>
-        <name xml:lang="en-GB">Site Surface</name>
+        <name xml:lang="en-US">Site Surface</name>
         <related qcode="spsitesurface:hard-court" rel="skos:hasTopConcept"/>
         <related qcode="spsitesurface:clay" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

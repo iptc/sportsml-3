@@ -36,27 +36,27 @@
     <conceptSet>
         <concept id="sprgxscoreattemptpenalty">
             <conceptId qcode="sprgxscoreattempt:penalty"/>
-            <name xml:lang="en-GB">penalty</name>
+            <name xml:lang="en-US">penalty</name>
             <definition>The score attempt is made as a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptdrop">
             <conceptId qcode="sprgxscoreattempt:drop"/>
-            <name xml:lang="en-GB">drop</name>
+            <name xml:lang="en-US">drop</name>
             <definition>The score attempt is made as a drop kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptconversion">
             <conceptId qcode="sprgxscoreattempt:conversion"/>
-            <name xml:lang="en-GB">conversion</name>
+            <name xml:lang="en-US">conversion</name>
             <definition>The score attempt is made as a try conversion.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" preferredalias="sprgxscoreattempt">
-        <definition xml:lang="en-GB">Types of scoring in rugby.</definition>
-        <name xml:lang="en-GB">Rugby Score Types</name>
+        <definition xml:lang="en-US">Types of scoring in rugby.</definition>
+        <name xml:lang="en-US">Rugby Score Types</name>
         <related qcode="sprgxscoreattempt:penalty" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:drop" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:conversion" rel="skos:hasTopConcept"/>

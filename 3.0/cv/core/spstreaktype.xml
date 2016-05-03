@@ -32,46 +32,46 @@
     <conceptSet>
         <concept id="spstreaktypewin">
             <conceptId qcode="spstreaktype:win"/>
-            <name xml:lang="en-GB">win</name>
+            <name xml:lang="en-US">win</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypeloss">
             <conceptId qcode="spstreaktype:loss"/>
-            <name xml:lang="en-GB">loss</name>
+            <name xml:lang="en-US">loss</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypetie">
             <conceptId qcode="spstreaktype:tie"/>
-            <name xml:lang="en-GB">tie</name>
+            <name xml:lang="en-US">tie</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypescore">
             <conceptId qcode="spstreaktype:score"/>
-            <name xml:lang="en-GB">score</name>
+            <name xml:lang="en-US">score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypeassist">
             <conceptId qcode="spstreaktype:assist"/>
-            <name xml:lang="en-GB">assist</name>
+            <name xml:lang="en-US">assist</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypepoint">
             <conceptId qcode="spstreaktype:point"/>
-            <name xml:lang="en-GB">point</name>
+            <name xml:lang="en-US">point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spstreaktype/"
         preferredalias="spstreaktype">
-        <definition xml:lang="en-GB">The type of streak of team or player: win, loss,
+        <definition xml:lang="en-US">The type of streak of team or player: win, loss,
             etc.</definition>
-        <name xml:lang="en-GB">Streak Type</name>
+        <name xml:lang="en-US">Streak Type</name>
         <related qcode="spstreaktype:win" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:loss" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:tie" rel="skos:hasTopConcept"/>

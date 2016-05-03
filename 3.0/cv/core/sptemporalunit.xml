@@ -34,106 +34,106 @@
     <conceptSet>
         <concept id="sptemporalunitperiod">
             <conceptId qcode="sptemporalunit:period"/>
-            <name xml:lang="en-GB">period</name>
+            <name xml:lang="en-US">period</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitevent">
             <conceptId qcode="sptemporalunit:event"/>
-            <name xml:lang="en-GB">event</name>
+            <name xml:lang="en-US">event</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunittournament">
             <conceptId qcode="sptemporalunit:tournament"/>
-            <name xml:lang="en-GB">tournament</name>
+            <name xml:lang="en-US">tournament</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunittournament-pool">
             <conceptId qcode="sptemporalunit:tournament-pool"/>
-            <name xml:lang="en-GB">tournament-pool</name>
+            <name xml:lang="en-US">tournament-pool</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunittournament-seed">
             <conceptId qcode="sptemporalunit:tournament-seed"/>
-            <name xml:lang="en-GB">tournament-seed</name>
+            <name xml:lang="en-US">tournament-seed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitrecent-ten-events">
             <conceptId qcode="sptemporalunit:recent-ten-events"/>
-            <name xml:lang="en-GB">recent-ten-events</name>
+            <name xml:lang="en-US">recent-ten-events</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunithourly">
             <conceptId qcode="sptemporalunit:hourly"/>
-            <name xml:lang="en-GB">hourly</name>
+            <name xml:lang="en-US">hourly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitdaily">
             <conceptId qcode="sptemporalunit:daily"/>
-            <name xml:lang="en-GB">daily</name>
+            <name xml:lang="en-US">daily</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitweekly">
             <conceptId qcode="sptemporalunit:weekly"/>
-            <name xml:lang="en-GB">weekly</name>
+            <name xml:lang="en-US">weekly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitmonthly">
             <conceptId qcode="sptemporalunit:monthly"/>
-            <name xml:lang="en-GB">monthly</name>
+            <name xml:lang="en-US">monthly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitpreseason">
             <conceptId qcode="sptemporalunit:preseason"/>
-            <name xml:lang="en-GB">preseason</name>
+            <name xml:lang="en-US">preseason</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason-exhibition">
             <conceptId qcode="sptemporalunit:season-exhibition"/>
-            <name xml:lang="en-GB">season-exhibition</name>
+            <name xml:lang="en-US">season-exhibition</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason-regular">
             <conceptId qcode="sptemporalunit:season-regular"/>
-            <name xml:lang="en-GB">season-regular</name>
+            <name xml:lang="en-US">season-regular</name>
             <definition>The default value.</definition>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason-playoffs">
             <conceptId qcode="sptemporalunit:season-playoffs"/>
-            <name xml:lang="en-GB">season-playoffs</name>
+            <name xml:lang="en-US">season-playoffs</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason">
             <conceptId qcode="sptemporalunit:season"/>
-            <name xml:lang="en-GB">season</name>
+            <name xml:lang="en-US">season</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitcareer">
             <conceptId qcode="sptemporalunit:career"/>
-            <name xml:lang="en-GB">career</name>
+            <name xml:lang="en-US">career</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sptemporalunit/"
         preferredalias="sptemporalunit">
-        <definition xml:lang="en-GB">The unit of performance to which the stats apply eg.
+        <definition xml:lang="en-US">The unit of performance to which the stats apply eg.
             single-event, season, career.</definition>
-        <name xml:lang="en-GB">Temporal Unit</name>
+        <name xml:lang="en-US">Temporal Unit</name>
         <related qcode="sptemporalunit:period" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:event" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:tournament" rel="skos:hasTopConcept"/>

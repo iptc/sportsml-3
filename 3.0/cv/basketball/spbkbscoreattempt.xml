@@ -36,27 +36,27 @@
     <conceptSet>
         <concept id="spbkbscoreattemptfree-throw">
             <conceptId qcode="spbkbscoreattempt:free-throw"/>
-            <name xml:lang="en-GB">free-throw</name>
+            <name xml:lang="en-US">free-throw</name>
             <definition>A foul shot, worth one point.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbscoreattemptfg">
             <conceptId qcode="spbkbscoreattempt:fg"/>
-            <name xml:lang="en-GB">fg</name>
+            <name xml:lang="en-US">fg</name>
             <definition>A two-point field goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbscoreattemptfg3">
             <conceptId qcode="spbkbscoreattempt:fg3"/>
-            <name xml:lang="en-GB">fg3</name>
+            <name xml:lang="en-US">fg3</name>
             <definition>A three-pointer.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattempt/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spbkbscoreattempt/" preferredalias="spbkbscoreattempt">
-        <definition xml:lang="en-GB">Types of shot in basketball.</definition>
-        <name xml:lang="en-GB">Basketball Score Attempt Types</name>
+        <definition xml:lang="en-US">Types of shot in basketball.</definition>
+        <name xml:lang="en-US">Basketball Score Attempt Types</name>
         <related qcode="spbkbscoreattempt:free-throw" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattempt:fg" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattempt:fg3" rel="skos:hasTopConcept"/>

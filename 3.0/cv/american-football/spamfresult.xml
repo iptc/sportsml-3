@@ -36,81 +36,81 @@
     <conceptSet>
         <concept id="spamfresulttackle">
             <conceptId qcode="spamfresult:tackle"/>
-            <name xml:lang="en-GB">tackle</name>
+            <name xml:lang="en-US">tackle</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultsack">
             <conceptId qcode="spamfresult:sack"/>
-            <name xml:lang="en-GB">sack</name>
+            <name xml:lang="en-US">sack</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultforward-pass">
             <conceptId qcode="spamfresult:forward-pass"/>
-            <name xml:lang="en-GB">forward-pass</name>
+            <name xml:lang="en-US">forward-pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultlateral-pass">
             <conceptId qcode="spamfresult:lateral-pass"/>
-            <name xml:lang="en-GB">lateral-pass</name>
+            <name xml:lang="en-US">lateral-pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultincomplete-pass">
             <conceptId qcode="spamfresult:incomplete-pass"/>
-            <name xml:lang="en-GB">incomplete-pass</name>
+            <name xml:lang="en-US">incomplete-pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultkick">
             <conceptId qcode="spamfresult:kick"/>
-            <name xml:lang="en-GB">kick</name>
+            <name xml:lang="en-US">kick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresulthandoff">
             <conceptId qcode="spamfresult:handoff"/>
-            <name xml:lang="en-GB">handoff</name>
+            <name xml:lang="en-US">handoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultfumble">
             <conceptId qcode="spamfresult:fumble"/>
-            <name xml:lang="en-GB">fumble</name>
+            <name xml:lang="en-US">fumble</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultball-grounded">
             <conceptId qcode="spamfresult:ball-grounded"/>
-            <name xml:lang="en-GB">ball-grounded</name>
+            <name xml:lang="en-US">ball-grounded</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultball-out-of-bounds">
             <conceptId qcode="spamfresult:ball-out-of-bounds"/>
-            <name xml:lang="en-GB">ball-out-of-bounds</name>
+            <name xml:lang="en-US">ball-out-of-bounds</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultscore">
             <conceptId qcode="spamfresult:score"/>
-            <name xml:lang="en-GB">score</name>
+            <name xml:lang="en-US">score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfresultmiss">
             <conceptId qcode="spamfresult:miss"/>
-            <name xml:lang="en-GB">miss</name>
+            <name xml:lang="en-US">miss</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfresult/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamfresult/"
         preferredalias="spamfresult">
-        <definition xml:lang="en-GB">Results of american football actions</definition>
-        <name xml:lang="en-GB">American Football Action Results</name>
+        <definition xml:lang="en-US">Results of american football actions</definition>
+        <name xml:lang="en-US">American Football Action Results</name>
         <related qcode="spamfresult:tackle" rel="skos:hasTopConcept"/>
         <related qcode="spamfresult:sack" rel="skos:hasTopConcept"/>
         <related qcode="spamfresult:forward-pass" rel="skos:hasTopConcept"/>

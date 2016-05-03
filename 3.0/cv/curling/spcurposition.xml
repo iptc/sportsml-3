@@ -37,13 +37,13 @@
     <conceptSet>
         <concept id="spcurpositionA">
             <conceptId qcode="spcurposition:A"/>
-            <name xml:lang="en-GB">A</name>
+            <name xml:lang="en-US">A</name>
             <definition>The player is a reserve for the team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition1">
             <conceptId qcode="spcurposition:1"/>
-            <name xml:lang="en-GB">1</name>
+            <name xml:lang="en-US">1</name>
             <definition>The player plays the first stones for the team. In a four player team the
                 player plays stones 1 and 2. If the team only has three players the first player
                 plays stones 1-3.</definition>
@@ -51,21 +51,21 @@
         </concept>
         <concept id="spcurposition2">
             <conceptId qcode="spcurposition:2"/>
-            <name xml:lang="en-GB">2</name>
+            <name xml:lang="en-US">2</name>
             <definition>The player plays second for the team, stones 3 and 4 when the team has four
                 players, stones 4-6 if a three player team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition3">
             <conceptId qcode="spcurposition:3"/>
-            <name xml:lang="en-GB">3</name>
+            <name xml:lang="en-US">3</name>
             <definition>The player plays third for the team, stones 5 and 6 if the team has four
                 players, the last two stones if a three player team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition4">
             <conceptId qcode="spcurposition:4"/>
-            <name xml:lang="en-GB">4</name>
+            <name xml:lang="en-US">4</name>
             <definition>The player plays the last two stones if the team has four
                 players.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
@@ -73,8 +73,8 @@
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spcurposition/"
         preferredalias="spcurposition">
-        <definition xml:lang="en-GB">Curling player positions</definition>
-        <name xml:lang="en-GB">Curling Player Positions</name>
+        <definition xml:lang="en-US">Curling player positions</definition>
+        <name xml:lang="en-US">Curling Player Positions</name>
         <related qcode="spcurposition:A" rel="skos:hasTopConcept"/>
         <related qcode="spcurposition:1" rel="skos:hasTopConcept"/>
         <related qcode="spcurposition:2" rel="skos:hasTopConcept"/>

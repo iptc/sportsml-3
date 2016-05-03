@@ -34,16 +34,16 @@
     <conceptSet>
         <concept id="speventstatusreasonwithdrawal">
             <conceptId qcode="speventstatusreason:withdrawal"/>
-            <name xml:lang="en-GB">withdrawal</name>
+            <name xml:lang="en-US">withdrawal</name>
             <definition>A forfeited or canceled event because a participant withdrew.</definition>
             <related uri="http://cv.iptc.org/newscodes/speventstatusreason/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/speventstatusreason/" preferredalias="speventstatusreason">
-        <definition xml:lang="en-GB">The reason for the event status. Eg. why the cancellation,
+        <definition xml:lang="en-US">The reason for the event status. Eg. why the cancellation,
             postponement, etc.</definition>
-        <name xml:lang="en-GB">Event Status Reason</name>
+        <name xml:lang="en-US">Event Status Reason</name>
         <related qcode="speventstatusreason:withdrawal" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>

@@ -36,45 +36,45 @@
     <conceptSet>
         <concept id="spcurresult0">
             <conceptId qcode="spcurresult:0"/>
-            <name xml:lang="en-GB">0</name>
+            <name xml:lang="en-US">0</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult25">
             <conceptId qcode="spcurresult:25"/>
-            <name xml:lang="en-GB">25</name>
+            <name xml:lang="en-US">25</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult50">
             <conceptId qcode="spcurresult:50"/>
-            <name xml:lang="en-GB">50</name>
+            <name xml:lang="en-US">50</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult75">
             <conceptId qcode="spcurresult:75"/>
-            <name xml:lang="en-GB">75</name>
+            <name xml:lang="en-US">75</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult100">
             <conceptId qcode="spcurresult:100"/>
-            <name xml:lang="en-GB">100</name>
+            <name xml:lang="en-US">100</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult125">
             <conceptId qcode="spcurresult:125"/>
-            <name xml:lang="en-GB">125</name>
+            <name xml:lang="en-US">125</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spcurresult/"
         preferredalias="spcurresult">
-        <definition xml:lang="en-GB">Curling shot result scores</definition>
-        <name xml:lang="en-GB">Curling Shot Results</name>
+        <definition xml:lang="en-US">Curling shot result scores</definition>
+        <name xml:lang="en-US">Curling Shot Results</name>
         <related qcode="spcurresult:0" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:25" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:50" rel="skos:hasTopConcept"/>

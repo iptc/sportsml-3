@@ -36,35 +36,35 @@
     <conceptSet>
         <concept id="spbblballlocationverticalhigh-ball">
             <conceptId qcode="spbblballlocationvertical:high-ball"/>
-            <name xml:lang="en-GB">high-ball</name>
+            <name xml:lang="en-US">high-ball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/"
                 rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationverticalhigh-strike">
             <conceptId qcode="spbblballlocationvertical:high-strike"/>
-            <name xml:lang="en-GB">high-strike</name>
+            <name xml:lang="en-US">high-strike</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/"
                 rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationverticalmiddle">
             <conceptId qcode="spbblballlocationvertical:middle"/>
-            <name xml:lang="en-GB">middle</name>
+            <name xml:lang="en-US">middle</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/"
                 rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationverticallow-strike">
             <conceptId qcode="spbblballlocationvertical:low-strike"/>
-            <name xml:lang="en-GB">low-strike</name>
+            <name xml:lang="en-US">low-strike</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/"
                 rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationverticallow-ball">
             <conceptId qcode="spbblballlocationvertical:low-ball"/>
-            <name xml:lang="en-GB">low-ball</name>
+            <name xml:lang="en-US">low-ball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/"
                 rel="skos:inScheme"/>
@@ -73,8 +73,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spbblballlocationvertical/"
         preferredalias="spbblballlocationvertical">
-        <definition xml:lang="en-GB">Vertical location of baseball pitches</definition>
-        <name xml:lang="en-GB">Baseball Pitch Vertical Location</name>
+        <definition xml:lang="en-US">Vertical location of baseball pitches</definition>
+        <name xml:lang="en-US">Baseball Pitch Vertical Location</name>
         <related qcode="spbblballlocationvertical:high-ball" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocationvertical:high-strike" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocationvertical:middle" rel="skos:hasTopConcept"/>

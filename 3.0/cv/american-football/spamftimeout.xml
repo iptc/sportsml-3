@@ -36,21 +36,21 @@
     <conceptSet>
         <concept id="spamftimeout2-minute">
             <conceptId qcode="spamftimeout:2-minute"/>
-            <name xml:lang="en-GB">2-minute</name>
+            <name xml:lang="en-US">2-minute</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftimeout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftimeout1-minute">
             <conceptId qcode="spamftimeout:1-minute"/>
-            <name xml:lang="en-GB">1-minute</name>
+            <name xml:lang="en-US">1-minute</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftimeout/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamftimeout/"
         preferredalias="spamftimeout">
-        <definition xml:lang="en-GB">Types of American Football timeouts</definition>
-        <name xml:lang="en-GB">American Football Timeout Type</name>
+        <definition xml:lang="en-US">Types of American Football timeouts</definition>
+        <name xml:lang="en-US">American Football Timeout Type</name>
         <related qcode="spamftimeout:2-minute" rel="skos:hasTopConcept"/>
         <related qcode="spamftimeout:1-minute" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

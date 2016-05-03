@@ -38,287 +38,287 @@
         <concept id="sprgxstattries-scored">
             <conceptId qcode="sprgxstat:tries-scored"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">tries-scored</name>
+            <name xml:lang="en-US">tries-scored</name>
             <definition>Tries scored.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstattries-scored-per-game">
             <conceptId qcode="sprgxstat:tries-scored-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">tries-scored-per-game</name>
+            <name xml:lang="en-US">tries-scored-per-game</name>
             <definition>Average number of tries scored per match.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-tries-total">
             <conceptId qcode="sprgxstat:penalty-tries-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">penalty-tries-total</name>
+            <name xml:lang="en-US">penalty-tries-total</name>
             <definition>Penalty tries awarded.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-tries-per-game">
             <conceptId qcode="sprgxstat:penalty-tries-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">penalty-tries-per-game</name>
+            <name xml:lang="en-US">penalty-tries-per-game</name>
             <definition>Average number of penalty tries awarded per match.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatdrop-goal-attempts">
             <conceptId qcode="sprgxstat:drop-goal-attempts"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">drop-goal-attempts</name>
+            <name xml:lang="en-US">drop-goal-attempts</name>
             <definition>Drop goal attempts</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatdrop-goals-scored">
             <conceptId qcode="sprgxstat:drop-goals-scored"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">drop-goals-scored</name>
+            <name xml:lang="en-US">drop-goals-scored</name>
             <definition>Drop goals scored</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatdrop-goals-scored-per-game">
             <conceptId qcode="sprgxstat:drop-goals-scored-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">drop-goals-scored-per-game</name>
+            <name xml:lang="en-US">drop-goals-scored-per-game</name>
             <definition>Average drop goals scored per match</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-goal-attempts">
             <conceptId qcode="sprgxstat:penalty-goal-attempts"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">penalty-goal-attempts</name>
+            <name xml:lang="en-US">penalty-goal-attempts</name>
             <definition>Penalty goal attempts</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-goals-scored">
             <conceptId qcode="sprgxstat:penalty-goals-scored"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">penalty-goals-scored</name>
+            <name xml:lang="en-US">penalty-goals-scored</name>
             <definition>Penalty goals scored</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-goals-scored-per-game">
             <conceptId qcode="sprgxstat:penalty-goals-scored-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">penalty-goals-scored-per-game</name>
+            <name xml:lang="en-US">penalty-goals-scored-per-game</name>
             <definition>Average penalty goals scored per match</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatconversion-attempts">
             <conceptId qcode="sprgxstat:conversion-attempts"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">conversion-attempts</name>
+            <name xml:lang="en-US">conversion-attempts</name>
             <definition>Conversion attempts</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatconversions-scored">
             <conceptId qcode="sprgxstat:conversions-scored"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">conversions-scored</name>
+            <name xml:lang="en-US">conversions-scored</name>
             <definition>Conversions scored</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatconversions-scored-per-game">
             <conceptId qcode="sprgxstat:conversions-scored-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">conversions-scored-per-game</name>
+            <name xml:lang="en-US">conversions-scored-per-game</name>
             <definition>Average conversions scored per match</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatfree-kicks-total">
             <conceptId qcode="sprgxstat:free-kicks-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">free-kicks-total</name>
+            <name xml:lang="en-US">free-kicks-total</name>
             <definition>Number of free kicks</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatfree-kicks-per-game">
             <conceptId qcode="sprgxstat:free-kicks-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">free-kicks-per-game</name>
+            <name xml:lang="en-US">free-kicks-per-game</name>
             <definition>Average free kicks per match</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatkicks-total">
             <conceptId qcode="sprgxstat:kicks-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">kicks-total</name>
+            <name xml:lang="en-US">kicks-total</name>
             <definition>Number of kicks</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatkicks-into-touch">
             <conceptId qcode="sprgxstat:kicks-into-touch"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">kicks-into-touch</name>
+            <name xml:lang="en-US">kicks-into-touch</name>
             <definition>Number of kicks into touch</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatruns">
             <conceptId qcode="sprgxstat:runs"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">runs</name>
+            <name xml:lang="en-US">runs</name>
             <definition>Number of runs</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmetres-gained">
             <conceptId qcode="sprgxstat:metres-gained"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">metres-gained</name>
+            <name xml:lang="en-US">metres-gained</name>
             <definition>Total number of metres advanced in the match</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatscrums-total">
             <conceptId qcode="sprgxstat:scrums-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">scrums-total</name>
+            <name xml:lang="en-US">scrums-total</name>
             <definition>Number of scrums by team.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatscrums-won-for">
             <conceptId qcode="sprgxstat:scrums-won-for"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">scrums-won-for</name>
+            <name xml:lang="en-US">scrums-won-for</name>
             <definition>Number of own scrums won.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatline-outs-total">
             <conceptId qcode="sprgxstat:line-outs-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">line-outs-total</name>
+            <name xml:lang="en-US">line-outs-total</name>
             <definition>Number of line-outs by team.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatline-outs-won-for">
             <conceptId qcode="sprgxstat:line-outs-won-for"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">line-outs-won-for</name>
+            <name xml:lang="en-US">line-outs-won-for</name>
             <definition>Number of lineouts won on own put in</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatrucks-total">
             <conceptId qcode="sprgxstat:rucks-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">rucks-total</name>
+            <name xml:lang="en-US">rucks-total</name>
             <definition>Number of rucks by team.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatrucks-won-for">
             <conceptId qcode="sprgxstat:rucks-won-for"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">rucks-won-for</name>
+            <name xml:lang="en-US">rucks-won-for</name>
             <definition>Number of rucks won where team brought the ball in</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmauls-total">
             <conceptId qcode="sprgxstat:mauls-total"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">mauls-total</name>
+            <name xml:lang="en-US">mauls-total</name>
             <definition>Number of mauls by team.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmauls-won-for">
             <conceptId qcode="sprgxstat:mauls-won-for"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">mauls-won-for</name>
+            <name xml:lang="en-US">mauls-won-for</name>
             <definition>Number of own mauls won.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstathandling-errors">
             <conceptId qcode="sprgxstat:handling-errors"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">handling-errors</name>
+            <name xml:lang="en-US">handling-errors</name>
             <definition>Number of handling errors</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstathandling-errors-per-game">
             <conceptId qcode="sprgxstat:handling-errors-per-game"/>
             <type qcode="spct:offense"/>
-            <name xml:lang="en-GB">handling-errors-per-game</name>
+            <name xml:lang="en-US">handling-errors-per-game</name>
             <definition>Average handling errors per match</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstattackles">
             <conceptId qcode="sprgxstat:tackles"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">tackles</name>
+            <name xml:lang="en-US">tackles</name>
             <definition>Number of tackles</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstattackles-missed">
             <conceptId qcode="sprgxstat:tackles-missed"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">tackles-missed</name>
+            <name xml:lang="en-US">tackles-missed</name>
             <definition>Number of tackles missed</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatscrums-won-against">
             <conceptId qcode="sprgxstat:scrums-won-against"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">scrums-won-against</name>
+            <name xml:lang="en-US">scrums-won-against</name>
             <definition>Number of scrums won on opponent's put in</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatline-outs-won-against">
             <conceptId qcode="sprgxstat:line-outs-won-against"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">line-outs-won-against</name>
+            <name xml:lang="en-US">line-outs-won-against</name>
             <definition>Number of lineouts won on opponent's put in</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatrucks-won-against">
             <conceptId qcode="sprgxstat:rucks-won-against"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">rucks-won-against</name>
+            <name xml:lang="en-US">rucks-won-against</name>
             <definition>Number of rucks won where opponent brought the ball in</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmauls-won-against">
             <conceptId qcode="sprgxstat:mauls-won-against"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">mauls-won-against</name>
+            <name xml:lang="en-US">mauls-won-against</name>
             <definition>Number of opposing teams's mauls won.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalties-conceded">
             <conceptId qcode="sprgxstat:penalties-conceded"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">penalties-conceded</name>
+            <name xml:lang="en-US">penalties-conceded</name>
             <definition>Number of penalties conceded to opposing team.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalties-conceded-per-game">
             <conceptId qcode="sprgxstat:penalties-conceded-per-game"/>
             <type qcode="spct:defense"/>
-            <name xml:lang="en-GB">penalties-conceded-per-game</name>
+            <name xml:lang="en-US">penalties-conceded-per-game</name>
             <definition>Average number of penalties conceded to opposing team</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcautions-total">
             <conceptId qcode="sprgxstat:cautions-total"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">cautions-total</name>
+            <name xml:lang="en-US">cautions-total</name>
             <definition>Total number of cautions recieved.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcautions-per-game">
             <conceptId qcode="sprgxstat:cautions-per-game"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">cautions-per-game</name>
+            <name xml:lang="en-US">cautions-per-game</name>
             <definition>Average number of cautions recieved per match.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcautions-pending">
             <conceptId qcode="sprgxstat:cautions-pending"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">cautions-pending</name>
+            <name xml:lang="en-US">cautions-pending</name>
             <definition>Number of cautions that could result in a game suspension.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcaution-points-total">
             <conceptId qcode="sprgxstat:caution-points-total"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">caution-points-total</name>
+            <name xml:lang="en-US">caution-points-total</name>
             <definition>Total amount of caution points. Can occur over various games in a
                 season.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
@@ -326,7 +326,7 @@
         <concept id="sprgxstatcaution-points-pending">
             <conceptId qcode="sprgxstat:caution-points-pending"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">caution-points-pending</name>
+            <name xml:lang="en-US">caution-points-pending</name>
             <definition>Number of caution points that could result in a game
                 suspension.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
@@ -334,22 +334,22 @@
         <concept id="sprgxstatejections-total">
             <conceptId qcode="sprgxstat:ejections-total"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">ejections-total</name>
+            <name xml:lang="en-US">ejections-total</name>
             <definition>Total number of ejections.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatejections-per-game">
             <conceptId qcode="sprgxstat:ejections-per-game"/>
             <type qcode="spct:penalty"/>
-            <name xml:lang="en-GB">ejections-per-game</name>
+            <name xml:lang="en-US">ejections-per-game</name>
             <definition>Average number of ejections recieved per match.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/sprgxstat/" authority="http://www.iptc.org"
         preferredalias="sprgxstat">
-        <definition xml:lang="en-GB">Vocabulary of statistics for Rugby</definition>
-        <name xml:lang="en-GB">Rugby Statistics</name>
+        <definition xml:lang="en-US">Vocabulary of statistics for Rugby</definition>
+        <name xml:lang="en-US">Rugby Statistics</name>
         <related qcode="sprgxstat:tries-scored" rel="skos:hasTopConcept"/>
         <related qcode="sprgxstat:tries-scored-per-game" rel="skos:hasTopConcept"/>
         <related qcode="sprgxstat:penalty-tries-total" rel="skos:hasTopConcept"/>

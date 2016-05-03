@@ -36,52 +36,52 @@
     <conceptSet>
         <concept id="spsocscoreattemptregular">
             <conceptId qcode="spsocscoreattempt:regular"/>
-            <name xml:lang="en-GB">regular</name>
+            <name xml:lang="en-US">regular</name>
             <definition>The score attempt is made during regular play.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptpenalty">
             <conceptId qcode="spsocscoreattempt:penalty"/>
-            <name xml:lang="en-GB">penalty</name>
+            <name xml:lang="en-US">penalty</name>
             <definition>The score attempt is made as a penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptshootout">
             <conceptId qcode="spsocscoreattempt:shootout"/>
-            <name xml:lang="en-GB">penalty</name>
+            <name xml:lang="en-US">penalty</name>
             <definition>The score attempt is made as a shootout during tiebreaker.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptfreekick">
             <conceptId qcode="spsocscoreattempt:freekick"/>
-            <name xml:lang="en-GB">freekick</name>
+            <name xml:lang="en-US">freekick</name>
             <definition>The score attempt is made as a free kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptcorner-kick">
             <conceptId qcode="spsocscoreattempt:corner-kick"/>
-            <name xml:lang="en-GB">corner-kick</name>
+            <name xml:lang="en-US">corner-kick</name>
             <definition>The score attempt is made as a kick from the corner.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptopen-goal">
             <conceptId qcode="spsocscoreattempt:open-goal"/>
-            <name xml:lang="en-GB">open-goal</name>
+            <name xml:lang="en-US">open-goal</name>
             <definition>The score attempt is made when there is no goal-keeper in place, but still
                 on the field.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptown-goal">
             <conceptId qcode="spsocscoreattempt:own-goal"/>
-            <name xml:lang="en-GB">own-goal</name>
+            <name xml:lang="en-US">own-goal</name>
             <definition>The score attempt is made towards the own goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" preferredalias="spsocscoreattempt">
-        <definition xml:lang="en-GB">Types of scoring in soccer.</definition>
-        <name xml:lang="en-GB">Soccer Score Types</name>
+        <definition xml:lang="en-US">Types of scoring in soccer.</definition>
+        <name xml:lang="en-US">Soccer Score Types</name>
         <related qcode="spsocscoreattempt:regular" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattempt:penalty" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattempt:shootout" rel="skos:hasTopConcept"/>

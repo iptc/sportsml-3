@@ -36,49 +36,49 @@
     <conceptSet>
         <concept id="spamfscoretouchdown">
             <conceptId qcode="spamfscore:touchdown"/>
-            <name xml:lang="en-GB">touchdown</name>
+            <name xml:lang="en-US">touchdown</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoresafety">
             <conceptId qcode="spamfscore:safety"/>
-            <name xml:lang="en-GB">safety</name>
+            <name xml:lang="en-US">safety</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreconversion">
             <conceptId qcode="spamfscore:conversion"/>
-            <name xml:lang="en-GB">conversion</name>
+            <name xml:lang="en-US">conversion</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreconversion-1pt">
             <conceptId qcode="spamfscore:conversion-1pt"/>
-            <name xml:lang="en-GB">conversion-1pt</name>
+            <name xml:lang="en-US">conversion-1pt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreconversion-2pt">
             <conceptId qcode="spamfscore:conversion-2pt"/>
-            <name xml:lang="en-GB">conversion-2pt</name>
+            <name xml:lang="en-US">conversion-2pt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscorefield-goal">
             <conceptId qcode="spamfscore:field-goal"/>
-            <name xml:lang="en-GB">field-goal</name>
+            <name xml:lang="en-US">field-goal</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreextra-point">
             <conceptId qcode="spamfscore:extra-point"/>
-            <name xml:lang="en-GB">extra-point</name>
+            <name xml:lang="en-US">extra-point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoresingle-point">
             <conceptId qcode="spamfscore:single-point"/>
-            <name xml:lang="en-GB">single-point</name>
+            <name xml:lang="en-US">single-point</name>
             <definition>In Canadian football, a single point is awarded when a kick landing in the
                 end zone cannot be returned.</definition>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
@@ -86,8 +86,8 @@
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamfscore/"
         preferredalias="spamfscore">
-        <definition xml:lang="en-GB">Types of American Football scores</definition>
-        <name xml:lang="en-GB">American Football Score Types</name>
+        <definition xml:lang="en-US">Types of American Football scores</definition>
+        <name xml:lang="en-US">American Football Score Types</name>
         <related qcode="spamfscore:touchdown" rel="skos:hasTopConcept"/>
         <related qcode="spamfscore:safety" rel="skos:hasTopConcept"/>
         <related qcode="spamfscore:conversion" rel="skos:hasTopConcept"/>

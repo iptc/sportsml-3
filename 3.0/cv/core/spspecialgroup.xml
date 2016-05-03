@@ -34,34 +34,34 @@
     <conceptSet>
         <concept id="spspecialgroupcollege">
             <conceptId qcode="spspecialgroup:college"/>
-            <name xml:lang="en-GB">college</name>
+            <name xml:lang="en-US">college</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialgroup/" rel="skos:inScheme"/>
         </concept>
         <concept id="spspecialgroupsenior">
             <conceptId qcode="spspecialgroup:senior"/>
-            <name xml:lang="en-GB">senior</name>
+            <name xml:lang="en-US">senior</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialgroup/" rel="skos:inScheme"/>
         </concept>
         <concept id="spspecialgroupjunior">
             <conceptId qcode="spspecialgroup:junior"/>
-            <name xml:lang="en-GB">junior</name>
+            <name xml:lang="en-US">junior</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialgroup/" rel="skos:inScheme"/>
         </concept>
         <concept id="spspecialgrouphigh-school">
             <conceptId qcode="spspecialgroup:high-school"/>
-            <name xml:lang="en-GB">high-school</name>
+            <name xml:lang="en-US">high-school</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialgroup/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spspecialgroup/"
         preferredalias="spspecialgroup">
-        <definition xml:lang="en-GB">If the events covered are for special groups. Can be
+        <definition xml:lang="en-US">If the events covered are for special groups. Can be
             school-oriented, age-oriented, or group names, like Firefighters.</definition>
-        <name xml:lang="en-GB">Special Group</name>
+        <name xml:lang="en-US">Special Group</name>
         <related qcode="spspecialgroup:college" rel="skos:hasTopConcept"/>
         <related qcode="spspecialgroup:senior" rel="skos:hasTopConcept"/>
         <related qcode="spspecialgroup:junior" rel="skos:hasTopConcept"/>

@@ -36,46 +36,46 @@
     <conceptSet>
         <concept id="spgollandingfairway">
             <conceptId qcode="spgollanding:fairway"/>
-            <name xml:lang="en-GB">fairway</name>
+            <name xml:lang="en-US">fairway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandingsand">
             <conceptId qcode="spgollanding:sand"/>
-            <name xml:lang="en-GB">sand</name>
+            <name xml:lang="en-US">sand</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandingwater">
             <conceptId qcode="spgollanding:water"/>
-            <name xml:lang="en-GB">water</name>
+            <name xml:lang="en-US">water</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandingrough">
             <conceptId qcode="spgollanding:rough"/>
-            <name xml:lang="en-GB">rough</name>
+            <name xml:lang="en-US">rough</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandinggreen">
             <conceptId qcode="spgollanding:green"/>
-            <name xml:lang="en-GB">green</name>
+            <name xml:lang="en-US">green</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandinghole">
             <conceptId qcode="spgollanding:hole"/>
-            <name xml:lang="en-GB">hole</name>
+            <name xml:lang="en-US">hole</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spgollanding/"
         preferredalias="spgollanding">
-        <definition xml:lang="en-GB">The place or surface where a golf ball lands after being
+        <definition xml:lang="en-US">The place or surface where a golf ball lands after being
             shot.</definition>
-        <name xml:lang="en-GB">Golf Shot Landings</name>
+        <name xml:lang="en-US">Golf Shot Landings</name>
         <related qcode="spgollanding:fairway" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:sand" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:water" rel="skos:hasTopConcept"/>

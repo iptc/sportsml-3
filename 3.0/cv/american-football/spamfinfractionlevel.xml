@@ -37,25 +37,25 @@
     <conceptSet>
         <concept id="spamfinfractionleveldelay-of-game">
             <conceptId qcode="spamfinfractionlevel:delay-of-game"/>
-            <name xml:lang="en-GB">delay-of-game</name>
+            <name xml:lang="en-US">delay-of-game</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfinfractionlevelencroachment">
             <conceptId qcode="spamfinfractionlevel:encroachment"/>
-            <name xml:lang="en-GB">encroachment</name>
+            <name xml:lang="en-US">encroachment</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfinfractionlevelfalse-start">
             <conceptId qcode="spamfinfractionlevel:false-start"/>
-            <name xml:lang="en-GB">false-start</name>
+            <name xml:lang="en-US">false-start</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfinfractionleveloffside">
             <conceptId qcode="spamfinfractionlevel:offside"/>
-            <name xml:lang="en-GB">offside</name>
+            <name xml:lang="en-US">offside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
         </concept>
@@ -63,8 +63,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/"
         preferredalias="spamfinfractionlevel">
-        <definition xml:lang="en-GB">Levels of infraction in American Football</definition>
-        <name xml:lang="en-GB">American Football Infraction Levels</name>
+        <definition xml:lang="en-US">Levels of infraction in American Football</definition>
+        <name xml:lang="en-US">American Football Infraction Levels</name>
         <related qcode="spamfinfractionlevel:delay-of-game" rel="skos:hasTopConcept"/>
         <related qcode="spamfinfractionlevel:encroachment" rel="skos:hasTopConcept"/>
         <related qcode="spamfinfractionlevel:false-start" rel="skos:hasTopConcept"/>

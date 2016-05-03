@@ -32,27 +32,27 @@
     <conceptSet>
         <concept id="spstatscoveragecompact">
             <conceptId qcode="spstatscoverage:compact"/>
-            <name xml:lang="en-GB">compact</name>
+            <name xml:lang="en-US">compact</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscoveragestandard">
             <conceptId qcode="spstatscoverage:standard"/>
-            <name xml:lang="en-GB">standard</name>
+            <name xml:lang="en-US">standard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscoverageexpanded">
             <conceptId qcode="spstatscoverage:expanded"/>
-            <name xml:lang="en-GB">expanded</name>
+            <name xml:lang="en-US">expanded</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spstatscoverage/"
         preferredalias="spstatscoverage">
-        <definition xml:lang="en-GB">Coverage type for statistics</definition>
-        <name xml:lang="en-GB">Statistics Coverage</name>
+        <definition xml:lang="en-US">Coverage type for statistics</definition>
+        <name xml:lang="en-US">Statistics Coverage</name>
         <related qcode="spstatscoverage:compact" rel="skos:hasTopConcept"/>
         <related qcode="spstatscoverage:standard" rel="skos:hasTopConcept"/>
         <related qcode="spstatscoverage:expanded" rel="skos:hasTopConcept"/>

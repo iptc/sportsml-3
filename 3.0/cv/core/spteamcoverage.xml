@@ -33,22 +33,22 @@
     <conceptSet>
         <concept id="spteamcoveragesingle-team">
             <conceptId qcode="spteamcoverage:single-team"/>
-            <name xml:lang="en-GB">single-team</name>
+            <name xml:lang="en-US">single-team</name>
             <definition>Contains only information about a single team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spteamcoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spteamcoveragemulti-team">
             <conceptId qcode="spteamcoverage:multi-team"/>
-            <name xml:lang="en-GB">multi-team</name>
+            <name xml:lang="en-US">multi-team</name>
             <definition>Contains information about many or all teams in a league.</definition>
             <related uri="http://cv.iptc.org/newscodes/spteamcoverage/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spteamcoverage/"
         preferredalias="spteamcoverage">
-        <definition xml:lang="en-GB">Whether document pertains to single team or multiple
+        <definition xml:lang="en-US">Whether document pertains to single team or multiple
             teams</definition>
-        <name xml:lang="en-GB">Team Coverage</name>
+        <name xml:lang="en-US">Team Coverage</name>
         <related qcode="spteamcoverage:single-team" rel="skos:hasTopConcept"/>
         <related qcode="spteamcoverage:multi-team" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

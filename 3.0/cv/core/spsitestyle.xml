@@ -33,27 +33,27 @@
     <conceptSet>
         <concept id="spsitestyleindoor">
             <conceptId qcode="spsitestyle:indoor"/>
-            <name xml:lang="en-GB">indoor</name>
+            <name xml:lang="en-US">indoor</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsitestyle/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsitestyleoutdoor">
             <conceptId qcode="spsitestyle:outdoor"/>
-            <name xml:lang="en-GB">outdoor</name>
+            <name xml:lang="en-US">outdoor</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsitestyle/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsitestyleretractable-dome">
             <conceptId qcode="spsitestyle:retractable-dome"/>
-            <name xml:lang="en-GB">retractable-dome</name>
+            <name xml:lang="en-US">retractable-dome</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsitestyle/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spsitestyle/"
         preferredalias="spsitestyle">
-        <definition xml:lang="en-GB">Whether it is an indoor or outdoor site.</definition>
-        <name xml:lang="en-GB">Site Style</name>
+        <definition xml:lang="en-US">Whether it is an indoor or outdoor site.</definition>
+        <name xml:lang="en-US">Site Style</name>
         <related qcode="spsitestyle:indoor" rel="skos:hasTopConcept"/>
         <related qcode="spsitestyle:outdoor" rel="skos:hasTopConcept"/>
         <related qcode="spsitestyle:retractable-dome" rel="skos:hasTopConcept"/>

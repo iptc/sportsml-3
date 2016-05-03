@@ -33,21 +33,21 @@
     <conceptSet>
         <concept id="spawardmedal">
             <conceptId qcode="spaward:medal"/>
-            <name xml:lang="en-GB">medal</name>
+            <name xml:lang="en-US">medal</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spaward/" rel="skos:inScheme"/>
         </concept>
         <concept id="spawardtrophy">
             <conceptId qcode="spaward:trophy"/>
-            <name xml:lang="en-GB">trophy</name>
+            <name xml:lang="en-US">trophy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spaward/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spaward/"
         preferredalias="spaward">
-        <definition xml:lang="en-GB">Types of award in sport</definition>
-        <name xml:lang="en-GB">Award Types</name>
+        <definition xml:lang="en-US">Types of award in sport</definition>
+        <name xml:lang="en-US">Award Types</name>
         <related qcode="spaward:medal" rel="skos:hasTopConcept"/>
         <related qcode="spaward:trophy" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

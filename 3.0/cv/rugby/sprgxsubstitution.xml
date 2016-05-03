@@ -37,22 +37,22 @@
     <conceptSet>
         <concept id="sprgxsubstitutionblood">
             <conceptId qcode="sprgxsubstitution:blood"/>
-            <name xml:lang="en-GB">blood</name>
+            <name xml:lang="en-US">blood</name>
             <definition>A temporary replacement in which the player must return to the field within
                 15 minutes</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxsubstitution/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxsubstitutionregular">
             <conceptId qcode="sprgxsubstitution:regular"/>
-            <name xml:lang="en-GB">regular</name>
+            <name xml:lang="en-US">regular</name>
             <definition>One of seven allowed permanent player substitutions.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxsubstitution/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprgxsubstitution/" preferredalias="sprgxsubstitution">
-        <definition xml:lang="en-GB">Types of substitution in rugby</definition>
-        <name xml:lang="en-GB">Rugby Substitution Types</name>
+        <definition xml:lang="en-US">Types of substitution in rugby</definition>
+        <name xml:lang="en-US">Rugby Substitution Types</name>
         <related qcode="sprgxsubstitution:blood" rel="skos:hasTopConcept"/>
         <related qcode="sprgxsubstitution:regular" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

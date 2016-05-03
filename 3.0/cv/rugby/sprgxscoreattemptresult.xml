@@ -36,21 +36,21 @@
     <conceptSet>
         <concept id="sprgxscoreattemptresultmissed">
             <conceptId qcode="sprgxscoreattemptresult:missed"/>
-            <name xml:lang="en-GB">missed</name>
+            <name xml:lang="en-US">missed</name>
             <definition>The kick fell below or outside the uprights.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="sprgxscoreattemptresultblocked">
             <conceptId qcode="sprgxscoreattemptresult:blocked"/>
-            <name xml:lang="en-GB">blocked</name>
+            <name xml:lang="en-US">blocked</name>
             <definition>The kick was blocked.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="sprgxscoreattemptresultout-of-bounds">
             <conceptId qcode="sprgxscoreattemptresult:out-of-bounds"/>
-            <name xml:lang="en-GB">out-of-bounds</name>
+            <name xml:lang="en-US">out-of-bounds</name>
             <definition>The kick went out of bounds.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" rel="skos:inScheme"
             />
@@ -59,8 +59,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/"
         preferredalias="sprgxscoreattemptresult">
-        <definition xml:lang="en-GB">Types of scoring failure in rugby.</definition>
-        <name xml:lang="en-GB">Rugby Score Attempt Types</name>
+        <definition xml:lang="en-US">Types of scoring failure in rugby.</definition>
+        <name xml:lang="en-US">Rugby Score Attempt Types</name>
         <related qcode="sprgxscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattemptresult:out-of-bounds" rel="skos:hasTopConcept"/>

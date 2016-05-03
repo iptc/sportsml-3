@@ -33,70 +33,70 @@
     <conceptSet>
         <concept id="spcompetitionscopeevents-all">
             <conceptId qcode="spcompetitionscope:events-all"/>
-            <name xml:lang="en-GB">events-all</name>
+            <name xml:lang="en-US">events-all</name>
             <definition>Every event played, including those played against teams in the same
                 division or conference. The default option.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopedivision">
             <conceptId qcode="spcompetitionscope:division"/>
-            <name xml:lang="en-GB">division</name>
+            <name xml:lang="en-US">division</name>
             <definition>Events played within a league's division.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopedivision-opposing">
             <conceptId qcode="spcompetitionscope:division-opposing"/>
-            <name xml:lang="en-GB">division-opposing</name>
+            <name xml:lang="en-US">division-opposing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopeconference">
             <conceptId qcode="spcompetitionscope:conference"/>
-            <name xml:lang="en-GB">conference</name>
+            <name xml:lang="en-US">conference</name>
             <definition>Events played within a league's conference.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopeconference-opposing">
             <conceptId qcode="spcompetitionscope:conference-opposing"/>
-            <name xml:lang="en-GB">conference-opposing</name>
+            <name xml:lang="en-US">conference-opposing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopeteam-opposing">
             <conceptId qcode="spcompetitionscope:team-opposing"/>
-            <name xml:lang="en-GB">team-opposing</name>
+            <name xml:lang="en-US">team-opposing</name>
             <definition>Events against a specific team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopeplayer-opposing">
             <conceptId qcode="spcompetitionscope:player-opposing"/>
-            <name xml:lang="en-GB">player-opposing</name>
+            <name xml:lang="en-US">player-opposing</name>
             <definition>Events against a specific player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopetournament">
             <conceptId qcode="spcompetitionscope:tournament"/>
-            <name xml:lang="en-GB">tournament</name>
+            <name xml:lang="en-US">tournament</name>
             <definition>Events from a specific tournament.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopeleague">
             <conceptId qcode="spcompetitionscope:league"/>
-            <name xml:lang="en-GB">league</name>
+            <name xml:lang="en-US">league</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcompetitionscopetop-25">
             <conceptId qcode="spcompetitionscope:top-25"/>
-            <name xml:lang="en-GB">top-25</name>
+            <name xml:lang="en-US">top-25</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcompetitionscope/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spcompetitionscope/" preferredalias="spcompetitionscope">
-        <definition xml:lang="en-GB">The types of singular or groups of opponents</definition>
-        <name xml:lang="en-GB">Scope of Competition</name>
+        <definition xml:lang="en-US">The types of singular or groups of opponents</definition>
+        <name xml:lang="en-US">Scope of Competition</name>
         <related qcode="spcompetitionscope:events-all" rel="skos:hasTopConcept"/>
         <related qcode="spcompetitionscope:division" rel="skos:hasTopConcept"/>
         <related qcode="spcompetitionscope:division-opposing" rel="skos:hasTopConcept"/>

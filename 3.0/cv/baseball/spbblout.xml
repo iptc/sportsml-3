@@ -36,63 +36,63 @@
     <conceptSet>
         <concept id="spbbloutstrikeout">
             <conceptId qcode="spbblout:strikeout"/>
-            <name xml:lang="en-GB">strikeout</name>
+            <name xml:lang="en-US">strikeout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutstrikeout-thrown-to-first">
             <conceptId qcode="spbblout:strikeout-thrown-to-first"/>
-            <name xml:lang="en-GB">strikeout-thrown-to-first</name>
+            <name xml:lang="en-US">strikeout-thrown-to-first</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutfielders-choice">
             <conceptId qcode="spbblout:fielders-choice"/>
-            <name xml:lang="en-GB">fielders-choice</name>
+            <name xml:lang="en-US">fielders-choice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutthrow-out">
             <conceptId qcode="spbblout:throw-out"/>
-            <name xml:lang="en-GB">throw-out</name>
+            <name xml:lang="en-US">throw-out</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutfly-ball">
             <conceptId qcode="spbblout:fly-ball"/>
-            <name xml:lang="en-GB">fly-ball</name>
+            <name xml:lang="en-US">fly-ball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutfly-ball-line-drive">
             <conceptId qcode="spbblout:fly-ball-line-drive"/>
-            <name xml:lang="en-GB">fly-ball-line-drive</name>
+            <name xml:lang="en-US">fly-ball-line-drive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutfly-ball-popup">
             <conceptId qcode="spbblout:fly-ball-popup"/>
-            <name xml:lang="en-GB">fly-ball-popup</name>
+            <name xml:lang="en-US">fly-ball-popup</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutpickoff">
             <conceptId qcode="spbblout:pickoff"/>
-            <name xml:lang="en-GB">pickoff</name>
+            <name xml:lang="en-US">pickoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbloutcaught-stealing">
             <conceptId qcode="spbblout:caught-stealing"/>
-            <name xml:lang="en-GB">caught-stealing</name>
+            <name xml:lang="en-US">caught-stealing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblout/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbblout/"
         preferredalias="spbblout">
-        <definition xml:lang="en-GB">Types of baseball outs</definition>
-        <name xml:lang="en-GB">Baseball Out Types</name>
+        <definition xml:lang="en-US">Types of baseball outs</definition>
+        <name xml:lang="en-US">Baseball Out Types</name>
         <related qcode="spbblout:strikeout" rel="skos:hasTopConcept"/>
         <related qcode="spbblout:strikeout-thrown-to-first" rel="skos:hasTopConcept"/>
         <related qcode="spbblout:fielders-choice" rel="skos:hasTopConcept"/>

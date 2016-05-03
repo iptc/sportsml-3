@@ -36,21 +36,21 @@
     <conceptSet>
         <concept id="spmcractionflag-change">
             <conceptId qcode="spmcraction:flag-change"/>
-            <name xml:lang="en-GB">flag-change</name>
+            <name xml:lang="en-US">flag-change</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcraction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spmcractionposition-change">
             <conceptId qcode="spmcraction:position-change"/>
-            <name xml:lang="en-GB">position-change</name>
+            <name xml:lang="en-US">position-change</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spmcraction/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spmcraction/"
         preferredalias="spmcraction">
-        <definition xml:lang="en-GB">Actions in motor racing</definition>
-        <name xml:lang="en-GB">Motor Racing Actions</name>
+        <definition xml:lang="en-US">Actions in motor racing</definition>
+        <name xml:lang="en-US">Motor Racing Actions</name>
         <related qcode="spmcraction:flag-change" rel="skos:hasTopConcept"/>
         <related qcode="spmcraction:position-change" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

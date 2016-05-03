@@ -36,66 +36,66 @@
     <conceptSet>
         <concept id="spamftouchdownfumble-return">
             <conceptId qcode="spamftouchdown:fumble-return"/>
-            <name xml:lang="en-GB">fumble-return</name>
+            <name xml:lang="en-US">fumble-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdowninterception-return">
             <conceptId qcode="spamftouchdown:interception-return"/>
-            <name xml:lang="en-GB">interception-return</name>
+            <name xml:lang="en-US">interception-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownblocked-field-goal">
             <conceptId qcode="spamftouchdown:blocked-field-goal"/>
-            <name xml:lang="en-GB">blocked-field-goal</name>
+            <name xml:lang="en-US">blocked-field-goal</name>
             <definition>Scored when the opposing team recovers the live ball off a blocked field
                 goal and returns to its end zone.</definition>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownmissed-field-goal">
             <conceptId qcode="spamftouchdown:missed-field-goal"/>
-            <name xml:lang="en-GB">missed-field-goal</name>
+            <name xml:lang="en-US">missed-field-goal</name>
             <definition>Scored when the opposing team opts to return a missed field goal and runs
                 ball to its end zone.</definition>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownblocked-punt">
             <conceptId qcode="spamftouchdown:blocked-punt"/>
-            <name xml:lang="en-GB">blocked-punt</name>
+            <name xml:lang="en-US">blocked-punt</name>
             <definition>Scored when the opposing team recovers the live ball off a blocked punt and
                 returns to its end zone.</definition>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownpunt-return">
             <conceptId qcode="spamftouchdown:punt-return"/>
-            <name xml:lang="en-GB">punt-return</name>
+            <name xml:lang="en-US">punt-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownkickoff-return">
             <conceptId qcode="spamftouchdown:kickoff-return"/>
-            <name xml:lang="en-GB">kickoff-return</name>
+            <name xml:lang="en-US">kickoff-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownpass">
             <conceptId qcode="spamftouchdown:pass"/>
-            <name xml:lang="en-GB">pass</name>
+            <name xml:lang="en-US">pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownrush">
             <conceptId qcode="spamftouchdown:rush"/>
-            <name xml:lang="en-GB">rush</name>
+            <name xml:lang="en-US">rush</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamftouchdown/"
         preferredalias="spamftouchdown">
-        <definition xml:lang="en-GB">Types of touchdown in American football.</definition>
-        <name xml:lang="en-GB">American Football Touchdown Type</name>
+        <definition xml:lang="en-US">Types of touchdown in American football.</definition>
+        <name xml:lang="en-US">American Football Touchdown Type</name>
         <related qcode="spamftouchdown:fumble-return" rel="skos:hasTopConcept"/>
         <related qcode="spamftouchdown:interception-return" rel="skos:hasTopConcept"/>
         <related qcode="spamftouchdown:blocked-field-goal" rel="skos:hasTopConcept"/>

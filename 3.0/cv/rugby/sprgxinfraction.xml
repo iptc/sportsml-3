@@ -36,27 +36,27 @@
     <conceptSet>
         <concept id="sprgxinfractionknock-on">
             <conceptId qcode="sprgxinfraction:knock-on"/>
-            <name xml:lang="en-GB">knock-on</name>
+            <name xml:lang="en-US">knock-on</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfraction/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionkicking-player">
             <conceptId qcode="sprgxinfraction:kicking-player"/>
-            <name xml:lang="en-GB">kicking-player</name>
+            <name xml:lang="en-US">kicking-player</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfraction/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractioncursing">
             <conceptId qcode="sprgxinfraction:cursing"/>
-            <name xml:lang="en-GB">cursing</name>
+            <name xml:lang="en-US">cursing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfraction/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sprgxinfraction/"
         preferredalias="sprgxinfraction">
-        <definition xml:lang="en-GB">Types of infraction in rugby.</definition>
-        <name xml:lang="en-GB">Rugby Infractions</name>
+        <definition xml:lang="en-US">Types of infraction in rugby.</definition>
+        <name xml:lang="en-US">Rugby Infractions</name>
         <related qcode="sprgxinfraction:knock-on" rel="skos:hasTopConcept"/>
         <related qcode="sprgxinfraction:kicking-player" rel="skos:hasTopConcept"/>
         <related qcode="sprgxinfraction:cursing" rel="skos:hasTopConcept"/>

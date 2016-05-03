@@ -37,33 +37,33 @@
     <conceptSet>
         <concept id="spbblpitchcurveball">
             <conceptId qcode="spbblpitch:curveball"/>
-            <name xml:lang="en-GB">curveball</name>
+            <name xml:lang="en-US">curveball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpitchfastball">
             <conceptId qcode="spbblpitch:fastball"/>
-            <name xml:lang="en-GB">fastball</name>
+            <name xml:lang="en-US">fastball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpitchslider">
             <conceptId qcode="spbblpitch:slider"/>
-            <name xml:lang="en-GB">slider</name>
+            <name xml:lang="en-US">slider</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpitchknuckleball">
             <conceptId qcode="spbblpitch:knuckleball"/>
-            <name xml:lang="en-GB">knuckleball</name>
+            <name xml:lang="en-US">knuckleball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbblpitch/"
         preferredalias="spbblpitch">
-        <definition xml:lang="en-GB">Types of baseball pitches</definition>
-        <name xml:lang="en-GB">Baseball Pitch Types</name>
+        <definition xml:lang="en-US">Types of baseball pitches</definition>
+        <name xml:lang="en-US">Baseball Pitch Types</name>
         <related qcode="spbblpitch:curveball" rel="skos:hasTopConcept"/>
         <related qcode="spbblpitch:fastball" rel="skos:hasTopConcept"/>
         <related qcode="spbblpitch:slider" rel="skos:hasTopConcept"/>

@@ -37,27 +37,27 @@
     <conceptSet>
         <concept id="spichstrengtheven-strength">
             <conceptId qcode="spichstrength:even-strength"/>
-            <name xml:lang="en-GB">even-strength</name>
+            <name xml:lang="en-US">even-strength</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichstrength/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstrengthpower-play">
             <conceptId qcode="spichstrength:power-play"/>
-            <name xml:lang="en-GB">power-play</name>
+            <name xml:lang="en-US">power-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichstrength/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstrengthshort-handed">
             <conceptId qcode="spichstrength:short-handed"/>
-            <name xml:lang="en-GB">short-handed</name>
+            <name xml:lang="en-US">short-handed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichstrength/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spichstrength/"
         preferredalias="spichstrength">
-        <definition xml:lang="en-GB">Strength situations in ice hockey</definition>
-        <name xml:lang="en-GB">Ice Hockey Squad Strength</name>
+        <definition xml:lang="en-US">Strength situations in ice hockey</definition>
+        <name xml:lang="en-US">Ice Hockey Squad Strength</name>
         <related qcode="spichstrength:even-strength" rel="skos:hasTopConcept"/>
         <related qcode="spichstrength:power-play" rel="skos:hasTopConcept"/>
         <related qcode="spichstrength:short-handed" rel="skos:hasTopConcept"/>

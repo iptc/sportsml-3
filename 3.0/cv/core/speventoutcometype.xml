@@ -33,46 +33,46 @@
     <conceptSet>
         <concept id="speventoutcometyperegular">
             <conceptId qcode="speventoutcometype:regular"/>
-            <name xml:lang="en-GB">regular</name>
+            <name xml:lang="en-US">regular</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeovertime">
             <conceptId qcode="speventoutcometype:overtime"/>
-            <name xml:lang="en-GB">overtime</name>
+            <name xml:lang="en-US">overtime</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeshootout">
             <conceptId qcode="speventoutcometype:shootout"/>
-            <name xml:lang="en-GB">shootout</name>
+            <name xml:lang="en-US">shootout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeextra-time">
             <conceptId qcode="speventoutcometype:extra-time"/>
-            <name xml:lang="en-GB">extra-time</name>
+            <name xml:lang="en-US">extra-time</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometyperandom">
             <conceptId qcode="speventoutcometype:random"/>
-            <name xml:lang="en-GB">random</name>
+            <name xml:lang="en-US">random</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeauthority-decision">
             <conceptId qcode="speventoutcometype:authority-decision"/>
-            <name xml:lang="en-GB">authority-decision</name>
+            <name xml:lang="en-US">authority-decision</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/speventoutcometype/" preferredalias="speventoutcometype">
-        <definition xml:lang="en-GB">What type of outcome. Includes overtime, random (eg. by coin
+        <definition xml:lang="en-US">What type of outcome. Includes overtime, random (eg. by coin
             toss), etc.</definition>
-        <name xml:lang="en-GB">Event Outcome Type</name>
+        <name xml:lang="en-US">Event Outcome Type</name>
         <related qcode="speventoutcometype:regular" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:overtime" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:shootout" rel="skos:hasTopConcept"/>

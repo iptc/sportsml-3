@@ -35,29 +35,29 @@
     <conceptSet>
         <concept id="spresulteffectqualification">
             <conceptId qcode="spresulteffect:qualification"/>
-            <name xml:lang="en-GB">qualification</name>
+            <name xml:lang="en-US">qualification</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spresulteffect/" rel="skos:inScheme"/>
         </concept>
         <concept id="spresulteffectpromotion">
             <conceptId qcode="spresulteffect:promotion"/>
-            <name xml:lang="en-GB">promotion</name>
+            <name xml:lang="en-US">promotion</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spresulteffect/" rel="skos:inScheme"/>
         </concept>
         <concept id="spresulteffectdemotion">
             <conceptId qcode="spresulteffect:demotion"/>
-            <name xml:lang="en-GB">demotion</name>
+            <name xml:lang="en-US">demotion</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spresulteffect/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spresulteffect/"
         preferredalias="spresulteffect">
-        <definition xml:lang="en-GB">Describes the effect that the result of the event or rank
+        <definition xml:lang="en-US">Describes the effect that the result of the event or rank
             changing has had on the team. Example: Whether or not a team has qualified for the
             playoffs, or has been promoted or demoted to a different division.</definition>
-        <name xml:lang="en-GB">Result Effect</name>
+        <name xml:lang="en-US">Result Effect</name>
         <related qcode="spresulteffect:qualification" rel="skos:hasTopConcept"/>
         <related qcode="spresulteffect:promotion" rel="skos:hasTopConcept"/>
         <related qcode="spresulteffect:demotion" rel="skos:hasTopConcept"/>

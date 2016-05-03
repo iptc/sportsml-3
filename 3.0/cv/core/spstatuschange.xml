@@ -33,27 +33,27 @@
     <conceptSet>
         <concept id="spstatuschangeinjury">
             <conceptId qcode="spstatuschange:injury"/>
-            <name xml:lang="en-GB">injury</name>
+            <name xml:lang="en-US">injury</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatuschangetrade">
             <conceptId qcode="spstatuschange:trade"/>
-            <name xml:lang="en-GB">trade</name>
+            <name xml:lang="en-US">trade</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatuschangecut">
             <conceptId qcode="spstatuschange:cut"/>
-            <name xml:lang="en-GB">cut</name>
+            <name xml:lang="en-US">cut</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spstatuschange/"
         preferredalias="spstatuschange">
-        <definition xml:lang="en-GB">Reasons for change in status of player/athlete</definition>
-        <name xml:lang="en-GB">Status Change</name>
+        <definition xml:lang="en-US">Reasons for change in status of player/athlete</definition>
+        <name xml:lang="en-US">Status Change</name>
         <related qcode="spstatuschange:injury" rel="skos:hasTopConcept"/>
         <related qcode="spstatuschange:trade" rel="skos:hasTopConcept"/>
         <related qcode="spstatuschange:cut" rel="skos:hasTopConcept"/>

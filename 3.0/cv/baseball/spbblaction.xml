@@ -36,153 +36,153 @@
     <conceptSet>
         <concept id="spbblactionwalk">
             <conceptId qcode="spbblaction:walk"/>
-            <name xml:lang="en-GB">walk</name>
+            <name xml:lang="en-US">walk</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionhit">
             <conceptId qcode="spbblaction:hit"/>
-            <name xml:lang="en-GB">hit</name>
+            <name xml:lang="en-US">hit</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionhit-by-pitch">
             <conceptId qcode="spbblaction:hit-by-pitch"/>
-            <name xml:lang="en-GB">hit-by-pitch</name>
+            <name xml:lang="en-US">hit-by-pitch</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionstolen-base">
             <conceptId qcode="spbblaction:stolen-base"/>
-            <name xml:lang="en-GB">stolen-base</name>
+            <name xml:lang="en-US">stolen-base</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionout">
             <conceptId qcode="spbblaction:out"/>
-            <name xml:lang="en-GB">out</name>
+            <name xml:lang="en-US">out</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionstrikeout">
             <conceptId qcode="spbblaction:strikeout"/>
-            <name xml:lang="en-GB">strikeout</name>
+            <name xml:lang="en-US">strikeout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactioncaught-stealing">
             <conceptId qcode="spbblaction:caught-stealing"/>
-            <name xml:lang="en-GB">caught-stealing</name>
+            <name xml:lang="en-US">caught-stealing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionpickoff">
             <conceptId qcode="spbblaction:pickoff"/>
-            <name xml:lang="en-GB">pickoff</name>
+            <name xml:lang="en-US">pickoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionsingle">
             <conceptId qcode="spbblaction:single"/>
-            <name xml:lang="en-GB">single</name>
+            <name xml:lang="en-US">single</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactiondouble">
             <conceptId qcode="spbblaction:double"/>
-            <name xml:lang="en-GB">double</name>
+            <name xml:lang="en-US">double</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactiontriple">
             <conceptId qcode="spbblaction:triple"/>
-            <name xml:lang="en-GB">triple</name>
+            <name xml:lang="en-US">triple</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionhome-run">
             <conceptId qcode="spbblaction:home-run"/>
-            <name xml:lang="en-GB">home-run</name>
+            <name xml:lang="en-US">home-run</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactiondefensive-indifference">
             <conceptId qcode="spbblaction:defensive-indifference"/>
-            <name xml:lang="en-GB">defensive-indifference</name>
+            <name xml:lang="en-US">defensive-indifference</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionpickoff-error">
             <conceptId qcode="spbblaction:pickoff-error"/>
-            <name xml:lang="en-GB">pickoff-error</name>
+            <name xml:lang="en-US">pickoff-error</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionpitch">
             <conceptId qcode="spbblaction:pitch"/>
-            <name xml:lang="en-GB">pitch</name>
+            <name xml:lang="en-US">pitch</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionwild-pitch">
             <conceptId qcode="spbblaction:wild-pitch"/>
-            <name xml:lang="en-GB">wild-pitch</name>
+            <name xml:lang="en-US">wild-pitch</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionpassed-ball">
             <conceptId qcode="spbblaction:passed-ball"/>
-            <name xml:lang="en-GB">passed-ball</name>
+            <name xml:lang="en-US">passed-ball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionbalk">
             <conceptId qcode="spbblaction:balk"/>
-            <name xml:lang="en-GB">balk</name>
+            <name xml:lang="en-US">balk</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionother-advance">
             <conceptId qcode="spbblaction:other-advance"/>
-            <name xml:lang="en-GB">other-advance</name>
+            <name xml:lang="en-US">other-advance</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionfoul-error">
             <conceptId qcode="spbblaction:foul-error"/>
-            <name xml:lang="en-GB">foul-error</name>
+            <name xml:lang="en-US">foul-error</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactioninterference">
             <conceptId qcode="spbblaction:interference"/>
-            <name xml:lang="en-GB">interference</name>
+            <name xml:lang="en-US">interference</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionerror">
             <conceptId qcode="spbblaction:error"/>
-            <name xml:lang="en-GB">error</name>
+            <name xml:lang="en-US">error</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionfielders-choice">
             <conceptId qcode="spbblaction:fielders-choice"/>
-            <name xml:lang="en-GB">fielders-choice</name>
+            <name xml:lang="en-US">fielders-choice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblactionmissing-play">
             <conceptId qcode="spbblaction:missing-play"/>
-            <name xml:lang="en-GB">missing-play</name>
+            <name xml:lang="en-US">missing-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblaction/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbblaction/"
         preferredalias="spbblaction">
-        <definition xml:lang="en-GB">Types of baseball actions</definition>
-        <name xml:lang="en-GB">Baseball Actions</name>
+        <definition xml:lang="en-US">Types of baseball actions</definition>
+        <name xml:lang="en-US">Baseball Actions</name>
         <related qcode="spbblaction:walk" rel="skos:hasTopConcept"/>
         <related qcode="spbblaction:hit" rel="skos:hasTopConcept"/>
         <related qcode="spbblaction:hit-by-pitch" rel="skos:hasTopConcept"/>

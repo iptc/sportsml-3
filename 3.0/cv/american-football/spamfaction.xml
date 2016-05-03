@@ -36,99 +36,99 @@
     <conceptSet>
         <concept id="spamfactiondrive">
             <conceptId qcode="spamfaction:drive"/>
-            <name xml:lang="en-GB">drive</name>
+            <name xml:lang="en-US">drive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionoverturned">
             <conceptId qcode="spamfaction:overturned"/>
-            <name xml:lang="en-GB">overturned</name>
+            <name xml:lang="en-US">overturned</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactiontimeout">
             <conceptId qcode="spamfaction:timeout"/>
-            <name xml:lang="en-GB">timeout</name>
+            <name xml:lang="en-US">timeout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionpenalty">
             <conceptId qcode="spamfaction:penalty"/>
-            <name xml:lang="en-GB">penalty</name>
+            <name xml:lang="en-US">penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionfumble-return">
             <conceptId qcode="spamfaction:fumble-return"/>
-            <name xml:lang="en-GB">fumble-return</name>
+            <name xml:lang="en-US">fumble-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionpass-intercepted">
             <conceptId qcode="spamfaction:pass-intercepted"/>
-            <name xml:lang="en-GB">pass-intercepted</name>
+            <name xml:lang="en-US">pass-intercepted</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionfield-goal">
             <conceptId qcode="spamfaction:field-goal"/>
-            <name xml:lang="en-GB">field-goal</name>
+            <name xml:lang="en-US">field-goal</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionpass-complete">
             <conceptId qcode="spamfaction:pass-complete"/>
-            <name xml:lang="en-GB">pass-complete</name>
+            <name xml:lang="en-US">pass-complete</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionkickoff">
             <conceptId qcode="spamfaction:kickoff"/>
-            <name xml:lang="en-GB">kickoff</name>
+            <name xml:lang="en-US">kickoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionrush">
             <conceptId qcode="spamfaction:rush"/>
-            <name xml:lang="en-GB">rush</name>
+            <name xml:lang="en-US">rush</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionkickoff-onside">
             <conceptId qcode="spamfaction:kickoff-onside"/>
-            <name xml:lang="en-GB">kickoff-onside</name>
+            <name xml:lang="en-US">kickoff-onside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionextra-point">
             <conceptId qcode="spamfaction:extra-point"/>
-            <name xml:lang="en-GB">extra-point</name>
+            <name xml:lang="en-US">extra-point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionpass-incomplete">
             <conceptId qcode="spamfaction:pass-incomplete"/>
-            <name xml:lang="en-GB">pass-incomplete</name>
+            <name xml:lang="en-US">pass-incomplete</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionpunt">
             <conceptId qcode="spamfaction:punt"/>
-            <name xml:lang="en-GB">punt</name>
+            <name xml:lang="en-US">punt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfactionsack">
             <conceptId qcode="spamfaction:sack"/>
-            <name xml:lang="en-GB">sack</name>
+            <name xml:lang="en-US">sack</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfaction/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamfaction/"
         preferredalias="spamfaction">
-        <definition xml:lang="en-GB">Types of play action in American Football</definition>
-        <name xml:lang="en-GB">American Football Actions</name>
+        <definition xml:lang="en-US">Types of play action in American Football</definition>
+        <name xml:lang="en-US">American Football Actions</name>
         <related qcode="spamfaction:drive" rel="skos:hasTopConcept"/>
         <related qcode="spamfaction:overturned" rel="skos:hasTopConcept"/>
         <related qcode="spamfaction:timeout" rel="skos:hasTopConcept"/>

@@ -37,33 +37,33 @@
     <conceptSet>
         <concept id="spbblballlocationhigh">
             <conceptId qcode="spbblballlocation:high"/>
-            <name xml:lang="en-GB">high</name>
+            <name xml:lang="en-US">high</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationlow">
             <conceptId qcode="spbblballlocation:low"/>
-            <name xml:lang="en-GB">low</name>
+            <name xml:lang="en-US">low</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationinside">
             <conceptId qcode="spbblballlocation:inside"/>
-            <name xml:lang="en-GB">inside</name>
+            <name xml:lang="en-US">inside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationoutside">
             <conceptId qcode="spbblballlocation:outside"/>
-            <name xml:lang="en-GB">outside</name>
+            <name xml:lang="en-US">outside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spbblballlocation/" preferredalias="spbblballlocation">
-        <definition xml:lang="en-GB">Location of baseball pitches</definition>
-        <name xml:lang="en-GB">Baseball Pitch Location</name>
+        <definition xml:lang="en-US">Location of baseball pitches</definition>
+        <name xml:lang="en-US">Baseball Pitch Location</name>
         <related qcode="spbblballlocation:high" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocation:low" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocation:inside" rel="skos:hasTopConcept"/>

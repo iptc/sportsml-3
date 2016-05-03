@@ -36,75 +36,75 @@
     <conceptSet>
         <concept id="spichactionfaceoff">
             <conceptId qcode="spichaction:faceoff"/>
-            <name xml:lang="en-GB">faceoff</name>
+            <name xml:lang="en-US">faceoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionsubstitution">
             <conceptId qcode="spichaction:substitution"/>
-            <name xml:lang="en-GB">substitution</name>
+            <name xml:lang="en-US">substitution</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionshot">
             <conceptId qcode="spichaction:shot"/>
-            <name xml:lang="en-GB">shot</name>
+            <name xml:lang="en-US">shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionhit">
             <conceptId qcode="spichaction:hit"/>
-            <name xml:lang="en-GB">hit</name>
+            <name xml:lang="en-US">hit</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionturnover">
             <conceptId qcode="spichaction:turnover"/>
-            <name xml:lang="en-GB">turnover</name>
+            <name xml:lang="en-US">turnover</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionpenalty-shot">
             <conceptId qcode="spichaction:penalty-shot"/>
-            <name xml:lang="en-GB">penalty-shot</name>
+            <name xml:lang="en-US">penalty-shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionshootout">
             <conceptId qcode="spichaction:shootout"/>
-            <name xml:lang="en-GB">shootout</name>
+            <name xml:lang="en-US">shootout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionpenalty">
             <conceptId qcode="spichaction:penalty"/>
-            <name xml:lang="en-GB">penalty</name>
+            <name xml:lang="en-US">penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactiongiveaway">
             <conceptId qcode="spichaction:giveaway"/>
-            <name xml:lang="en-GB">giveaway</name>
+            <name xml:lang="en-US">giveaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactiontakeaway">
             <conceptId qcode="spichaction:takeaway"/>
-            <name xml:lang="en-GB">takeaway</name>
+            <name xml:lang="en-US">takeaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionpass">
             <conceptId qcode="spichaction:pass"/>
-            <name xml:lang="en-GB">pass</name>
+            <name xml:lang="en-US">pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spichaction/"
         preferredalias="spichaction">
-        <definition xml:lang="en-GB">Types of ice hockey actions</definition>
-        <name xml:lang="en-GB">Ice Hockey Actions</name>
+        <definition xml:lang="en-US">Types of ice hockey actions</definition>
+        <name xml:lang="en-US">Ice Hockey Actions</name>
         <related qcode="spichaction:faceoff" rel="skos:hasTopConcept"/>
         <related qcode="spichaction:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spichaction:shot" rel="skos:hasTopConcept"/>

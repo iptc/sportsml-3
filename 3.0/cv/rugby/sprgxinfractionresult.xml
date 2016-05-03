@@ -36,39 +36,39 @@
     <conceptSet>
         <concept id="sprgxinfractionresultplay-on">
             <conceptId qcode="sprgxinfractionresult:play-on"/>
-            <name xml:lang="en-GB">play-on</name>
+            <name xml:lang="en-US">play-on</name>
             <definition>Fouled team has advantage of the ball and is allowed to play
                 on.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionresultfreekick">
             <conceptId qcode="sprgxinfractionresult:freekick"/>
-            <name xml:lang="en-GB">freekick</name>
+            <name xml:lang="en-US">freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionresultpenalty-kick">
             <conceptId qcode="sprgxinfractionresult:penalty-kick"/>
-            <name xml:lang="en-GB">penalty-kick</name>
+            <name xml:lang="en-US">penalty-kick</name>
             <definition>The fouled team is awarded a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionresultpenalty-try">
             <conceptId qcode="sprgxinfractionresult:penalty-try"/>
-            <name xml:lang="en-GB">penalty-try</name>
+            <name xml:lang="en-US">penalty-try</name>
             <definition>The fouled team is awarded a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionresultcaution">
             <conceptId qcode="sprgxinfractionresult:caution"/>
-            <name xml:lang="en-GB">caution</name>
+            <name xml:lang="en-US">caution</name>
             <definition>The player is beeing cautioned. Indicated by a yellow card. Suffered team
                 get a freekick or penalty-shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxinfractionresultejection">
             <conceptId qcode="sprgxinfractionresult:ejection"/>
-            <name xml:lang="en-GB">ejection</name>
+            <name xml:lang="en-US">ejection</name>
             <definition>The player is beeing ejected from the game. Shown by a red card. Suffered
                 team get a freekick or penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
@@ -77,8 +77,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/"
         preferredalias="sprgxinfractionresult">
-        <definition xml:lang="en-GB">Results of infractions in rugby.</definition>
-        <name xml:lang="en-GB">Rugby Infraction Results</name>
+        <definition xml:lang="en-US">Results of infractions in rugby.</definition>
+        <name xml:lang="en-US">Rugby Infraction Results</name>
         <related qcode="sprgxinfractionresult:play-on" rel="skos:hasTopConcept"/>
         <related qcode="sprgxinfractionresult:freekick" rel="skos:hasTopConcept"/>
         <related qcode="sprgxinfractionresult:penalty-kick" rel="skos:hasTopConcept"/>

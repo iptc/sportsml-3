@@ -36,45 +36,45 @@
     <conceptSet>
         <concept id="sptenshotcrosscourt">
             <conceptId qcode="sptenshot:crosscourt"/>
-            <name xml:lang="en-GB">crosscourt</name>
+            <name xml:lang="en-US">crosscourt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotdrop">
             <conceptId qcode="sptenshot:drop"/>
-            <name xml:lang="en-GB">drop</name>
+            <name xml:lang="en-US">drop</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotlob">
             <conceptId qcode="sptenshot:lob"/>
-            <name xml:lang="en-GB">lob</name>
+            <name xml:lang="en-US">lob</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotslice">
             <conceptId qcode="sptenshot:slice"/>
-            <name xml:lang="en-GB">slice</name>
+            <name xml:lang="en-US">slice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotsmash">
             <conceptId qcode="sptenshot:smash"/>
-            <name xml:lang="en-GB">smash</name>
+            <name xml:lang="en-US">smash</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotvolley">
             <conceptId qcode="sptenshot:volley"/>
-            <name xml:lang="en-GB">volley</name>
+            <name xml:lang="en-US">volley</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sptenshot/"
         preferredalias="sptenshot">
-        <definition xml:lang="en-GB">Types of shot in tennis.</definition>
-        <name xml:lang="en-GB">Tennis Shot Types</name>
+        <definition xml:lang="en-US">Types of shot in tennis.</definition>
+        <name xml:lang="en-US">Tennis Shot Types</name>
         <related qcode="sptenshot:crosscourt" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:drop" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:lob" rel="skos:hasTopConcept"/>

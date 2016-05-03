@@ -33,45 +33,45 @@
     <conceptSet>
         <concept id="spphasestatusactive">
             <conceptId qcode="spphasestatus:active"/>
-            <name xml:lang="en-GB">active</name>
+            <name xml:lang="en-US">active</name>
             <definition>Currently active and able to play.</definition>
             <related uri="http://cv.iptc.org/newscodes/spphasestatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasestatusinjured">
             <conceptId qcode="spphasestatus:injured"/>
-            <name xml:lang="en-GB">injured</name>
+            <name xml:lang="en-US">injured</name>
             <definition>Unable to play due to injury.</definition>
             <related uri="http://cv.iptc.org/newscodes/spphasestatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasestatusdisabled-list">
             <conceptId qcode="spphasestatus:disabled-list"/>
-            <name xml:lang="en-GB">disabled-list</name>
+            <name xml:lang="en-US">disabled-list</name>
             <definition>Unable to play due to injury. Deemed long-term.</definition>
             <related uri="http://cv.iptc.org/newscodes/spphasestatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasestatustry-out">
             <conceptId qcode="spphasestatus:try-out"/>
-            <name xml:lang="en-GB">try-out</name>
+            <name xml:lang="en-US">try-out</name>
             <definition>Not on time, attempting to make the lineup.</definition>
             <related uri="http://cv.iptc.org/newscodes/spphasestatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasestatusinactive">
             <conceptId qcode="spphasestatus:inactive"/>
-            <name xml:lang="en-GB">inactive</name>
+            <name xml:lang="en-US">inactive</name>
             <definition>Inactive, not playing.</definition>
             <related uri="http://cv.iptc.org/newscodes/spphasestatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasestatusphysically-unable">
             <conceptId qcode="spphasestatus:physically-unable"/>
-            <name xml:lang="en-GB">physically-unable</name>
+            <name xml:lang="en-US">physically-unable</name>
             <definition>Unable to play for physical reason, not necessarily injury.</definition>
             <related uri="http://cv.iptc.org/newscodes/spphasestatus/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spphasestatus/"
         preferredalias="spphasestatus">
-        <definition xml:lang="en-GB">Status of an athlete</definition>
-        <name xml:lang="en-GB">Athlete Status</name>
+        <definition xml:lang="en-US">Status of an athlete</definition>
+        <name xml:lang="en-US">Athlete Status</name>
         <related qcode="spphasestatus:active" rel="skos:hasTopConcept"/>
         <related qcode="spphasestatus:injured" rel="skos:hasTopConcept"/>
         <related qcode="spphasestatus:disabled-list" rel="skos:hasTopConcept"/>

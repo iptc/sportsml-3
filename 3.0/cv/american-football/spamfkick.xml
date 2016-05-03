@@ -36,33 +36,33 @@
     <conceptSet>
         <concept id="spamfkickpunt">
             <conceptId qcode="spamfkick:punt"/>
-            <name xml:lang="en-GB">punt</name>
+            <name xml:lang="en-US">punt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickonside">
             <conceptId qcode="spamfkick:onside"/>
-            <name xml:lang="en-GB">onside</name>
+            <name xml:lang="en-US">onside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickextra-point">
             <conceptId qcode="spamfkick:extra-point"/>
-            <name xml:lang="en-GB">extra-point</name>
+            <name xml:lang="en-US">extra-point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickfield-goal-attempt">
             <conceptId qcode="spamfkick:field-goal-attempt"/>
-            <name xml:lang="en-GB">field-goal-attempt</name>
+            <name xml:lang="en-US">field-goal-attempt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamfkick/"
         preferredalias="spamfkick">
-        <definition xml:lang="en-GB">Types of kicking in American football.</definition>
-        <name xml:lang="en-GB">American Football Kick Types</name>
+        <definition xml:lang="en-US">Types of kicking in American football.</definition>
+        <name xml:lang="en-US">American Football Kick Types</name>
         <related qcode="spamfkick:punt" rel="skos:hasTopConcept"/>
         <related qcode="spamfkick:onside" rel="skos:hasTopConcept"/>
         <related qcode="spamfkick:extra-point" rel="skos:hasTopConcept"/>

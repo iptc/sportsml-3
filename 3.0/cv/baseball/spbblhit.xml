@@ -37,33 +37,33 @@
     <conceptSet>
         <concept id="spbblhitsingle">
             <conceptId qcode="spbblhit:single"/>
-            <name xml:lang="en-GB">single</name>
+            <name xml:lang="en-US">single</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblhitdouble">
             <conceptId qcode="spbblhit:double"/>
-            <name xml:lang="en-GB">double</name>
+            <name xml:lang="en-US">double</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblhittriple">
             <conceptId qcode="spbblhit:triple"/>
-            <name xml:lang="en-GB">triple</name>
+            <name xml:lang="en-US">triple</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblhithome-run">
             <conceptId qcode="spbblhit:home-run"/>
-            <name xml:lang="en-GB">home-run</name>
+            <name xml:lang="en-US">home-run</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbblhit/"
         preferredalias="spbblhit">
-        <definition xml:lang="en-GB">Types of baseball hits</definition>
-        <name xml:lang="en-GB">Baseball Hit Types</name>
+        <definition xml:lang="en-US">Types of baseball hits</definition>
+        <name xml:lang="en-US">Baseball Hit Types</name>
         <related qcode="spbblhit:single" rel="skos:hasTopConcept"/>
         <related qcode="spbblhit:double" rel="skos:hasTopConcept"/>
         <related qcode="spbblhit:triple" rel="skos:hasTopConcept"/>

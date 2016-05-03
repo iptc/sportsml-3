@@ -36,75 +36,75 @@
     <conceptSet>
         <concept id="spsocresultplay-on">
             <conceptId qcode="spsocresult:play-on"/>
-            <name xml:lang="en-GB">play-on</name>
+            <name xml:lang="en-US">play-on</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultfreekick">
             <conceptId qcode="spsocresult:freekick"/>
-            <name xml:lang="en-GB">freekick</name>
+            <name xml:lang="en-US">freekick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultcorner">
             <conceptId qcode="spsocresult:corner"/>
-            <name xml:lang="en-GB">corner</name>
+            <name xml:lang="en-US">corner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultoffside">
             <conceptId qcode="spsocresult:offside"/>
-            <name xml:lang="en-GB">offside</name>
+            <name xml:lang="en-US">offside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultindirect-freekick">
             <conceptId qcode="spsocresult:indirect-freekick"/>
-            <name xml:lang="en-GB">indirect-freekick</name>
+            <name xml:lang="en-US">indirect-freekick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultdirect-freekick">
             <conceptId qcode="spsocresult:direct-freekick"/>
-            <name xml:lang="en-GB">direct-freekick</name>
+            <name xml:lang="en-US">direct-freekick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultpenalty-shot">
             <conceptId qcode="spsocresult:penalty-shot"/>
-            <name xml:lang="en-GB">penalty-shot</name>
+            <name xml:lang="en-US">penalty-shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultdisallowed">
             <conceptId qcode="spsocresult:disallowed"/>
-            <name xml:lang="en-GB">disallowed</name>
+            <name xml:lang="en-US">disallowed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultfair-play">
             <conceptId qcode="spsocresult:fair-play"/>
-            <name xml:lang="en-GB">fair-play</name>
+            <name xml:lang="en-US">fair-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultout-of-play">
             <conceptId qcode="spsocresult:out-of-play"/>
-            <name xml:lang="en-GB">out-of-play</name>
+            <name xml:lang="en-US">out-of-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultstoppage">
             <conceptId qcode="spsocresult:stoppage"/>
-            <name xml:lang="en-GB">stoppage</name>
+            <name xml:lang="en-US">stoppage</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spsocresult/"
         preferredalias="spsocresult">
-        <definition xml:lang="en-GB">Results of soccer plays/actions</definition>
-        <name xml:lang="en-GB">Soccer Action Results</name>
+        <definition xml:lang="en-US">Results of soccer plays/actions</definition>
+        <name xml:lang="en-US">Soccer Action Results</name>
         <related qcode="spsocresult:play-on" rel="skos:hasTopConcept"/>
         <related qcode="spsocresult:freekick" rel="skos:hasTopConcept"/>
         <related qcode="spsocresult:corner" rel="skos:hasTopConcept"/>

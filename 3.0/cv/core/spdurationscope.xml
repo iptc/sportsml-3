@@ -32,28 +32,28 @@
     <conceptSet>
         <concept id="spdurationscopeevents-all">
             <conceptId qcode="spdurationscope:events-all"/>
-            <name xml:lang="en-GB">events-all</name>
+            <name xml:lang="en-US">events-all</name>
             <definition>Every event played, including overtime games, the most recent ones, etc. The
                 default option.</definition>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdurationscopeevents-overtime">
             <conceptId qcode="spdurationscope:events-overtime"/>
-            <name xml:lang="en-GB">events-overtime</name>
+            <name xml:lang="en-US">events-overtime</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdurationscopeevents-shootout">
             <conceptId qcode="spdurationscope:events-shootout"/>
-            <name xml:lang="en-GB">events-shootout</name>
+            <name xml:lang="en-US">events-shootout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spdurationscope/"
         preferredalias="spdurationscope">
-        <definition xml:lang="en-GB">Variations on standard duration of sporting events</definition>
-        <name xml:lang="en-GB">Duration Scope</name>
+        <definition xml:lang="en-US">Variations on standard duration of sporting events</definition>
+        <name xml:lang="en-US">Duration Scope</name>
         <related qcode="spdurationscope:events-all" rel="skos:hasTopConcept"/>
         <related qcode="spdurationscope:events-overtime" rel="skos:hasTopConcept"/>
         <related qcode="spdurationscope:events-shootout" rel="skos:hasTopConcept"/>

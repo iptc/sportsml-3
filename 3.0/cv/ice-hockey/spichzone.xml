@@ -37,27 +37,27 @@
     <conceptSet>
         <concept id="spichzoneoffense">
             <conceptId qcode="spichzone:offense"/>
-            <name xml:lang="en-GB">offense</name>
+            <name xml:lang="en-US">offense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichzonedefense">
             <conceptId qcode="spichzone:defense"/>
-            <name xml:lang="en-GB">defense</name>
+            <name xml:lang="en-US">defense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichzoneneutral">
             <conceptId qcode="spichzone:neutral"/>
-            <name xml:lang="en-GB">neutral</name>
+            <name xml:lang="en-US">neutral</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spichzone/"
         preferredalias="spichzone">
-        <definition xml:lang="en-GB">Zones on ice hockey rinks</definition>
-        <name xml:lang="en-GB">Ice Hockey Rink Zones</name>
+        <definition xml:lang="en-US">Zones on ice hockey rinks</definition>
+        <name xml:lang="en-US">Ice Hockey Rink Zones</name>
         <related qcode="spichzone:offense" rel="skos:hasTopConcept"/>
         <related qcode="spichzone:defense" rel="skos:hasTopConcept"/>
         <related qcode="spichzone:neutral" rel="skos:hasTopConcept"/>

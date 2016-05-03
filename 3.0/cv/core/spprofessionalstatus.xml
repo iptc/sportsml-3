@@ -32,13 +32,13 @@
     <conceptSet>
         <concept id="spprofessionalstatusamateur">
             <conceptId qcode="spprofessionalstatus:amateur"/>
-            <name xml:lang="en-GB">amateur</name>
+            <name xml:lang="en-US">amateur</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spprofessionalstatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spprofessionalstatusprofessional">
             <conceptId qcode="spprofessionalstatus:professional"/>
-            <name xml:lang="en-GB">professional</name>
+            <name xml:lang="en-US">professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spprofessionalstatus/" rel="skos:inScheme"/>
         </concept>
@@ -46,8 +46,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spprofessionalstatus/"
         preferredalias="spprofessionalstatus">
-        <definition xml:lang="en-GB">The professional status of the events covered.</definition>
-        <name xml:lang="en-GB">Professional Status</name>
+        <definition xml:lang="en-US">The professional status of the events covered.</definition>
+        <name xml:lang="en-US">Professional Status</name>
         <related qcode="spprofessionalstatus:amateur" rel="skos:hasTopConcept"/>
         <related qcode="spprofessionalstatus:professional" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

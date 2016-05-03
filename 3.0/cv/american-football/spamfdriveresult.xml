@@ -36,37 +36,37 @@
     <conceptSet>
         <concept id="spamfdriveresultscore">
             <conceptId qcode="spamfdriveresult:score"/>
-            <name xml:lang="en-GB">score</name>
+            <name xml:lang="en-US">score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultscore-attempt">
             <conceptId qcode="spamfdriveresult:score-attempt"/>
-            <name xml:lang="en-GB">score-attempt</name>
+            <name xml:lang="en-US">score-attempt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultpunt">
             <conceptId qcode="spamfdriveresult:punt"/>
-            <name xml:lang="en-GB">punt</name>
+            <name xml:lang="en-US">punt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultfumble">
             <conceptId qcode="spamfdriveresult:fumble"/>
-            <name xml:lang="en-GB">fumble</name>
+            <name xml:lang="en-US">fumble</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultinterception">
             <conceptId qcode="spamfdriveresult:interception"/>
-            <name xml:lang="en-GB">interception</name>
+            <name xml:lang="en-US">interception</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultmarker-not-reached">
             <conceptId qcode="spamfdriveresult:marker-not-reached"/>
-            <name xml:lang="en-GB">marker-not-reached</name>
+            <name xml:lang="en-US">marker-not-reached</name>
             <definition>On the final down, the team in possession did not reach the first-down
                 marker.</definition>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
@@ -74,8 +74,8 @@
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spamfdriveresult/"
         preferredalias="spamfdriveresult">
-        <definition xml:lang="en-GB">Results of an american football drive.</definition>
-        <name xml:lang="en-GB">American Football Drive Results</name>
+        <definition xml:lang="en-US">Results of an american football drive.</definition>
+        <name xml:lang="en-US">American Football Drive Results</name>
         <related qcode="spamfdriveresult:score" rel="skos:hasTopConcept"/>
         <related qcode="spamfdriveresult:score-attempt" rel="skos:hasTopConcept"/>
         <related qcode="spamfdriveresult:punt" rel="skos:hasTopConcept"/>

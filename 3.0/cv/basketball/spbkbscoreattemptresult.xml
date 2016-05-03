@@ -36,21 +36,21 @@
     <conceptSet>
         <concept id="spbkbscoreattemptresultmissed">
             <conceptId qcode="spbkbscoreattemptresult:missed"/>
-            <name xml:lang="en-GB">missed</name>
+            <name xml:lang="en-US">missed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spbkbscoreattemptresultblocked">
             <conceptId qcode="spbkbscoreattemptresult:blocked"/>
-            <name xml:lang="en-GB">blocked</name>
+            <name xml:lang="en-US">blocked</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spbkbscoreattemptresultturnover">
             <conceptId qcode="spbkbscoreattemptresult:turnover"/>
-            <name xml:lang="en-GB">turnover</name>
+            <name xml:lang="en-US">turnover</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" rel="skos:inScheme"
             />
@@ -59,8 +59,8 @@
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/"
         preferredalias="spbkbscoreattemptresult">
-        <definition xml:lang="en-GB">Types of scoring failure in basketball.</definition>
-        <name xml:lang="en-GB">Basketball Score Attempt Results</name>
+        <definition xml:lang="en-US">Types of scoring failure in basketball.</definition>
+        <name xml:lang="en-US">Basketball Score Attempt Results</name>
         <related qcode="spbkbscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattemptresult:turnover" rel="skos:hasTopConcept"/>

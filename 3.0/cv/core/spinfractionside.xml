@@ -32,21 +32,21 @@
     <conceptSet>
         <concept id="spinfractionsideoffensive">
             <conceptId qcode="spinfractionside:offensive"/>
-            <name xml:lang="en-GB">offensive</name>
+            <name xml:lang="en-US">offensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spinfractionside/" rel="skos:inScheme"/>
         </concept>
         <concept id="spinfractionsidedefensive">
             <conceptId qcode="spinfractionside:defensive"/>
-            <name xml:lang="en-GB">defensive</name>
+            <name xml:lang="en-US">defensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spinfractionside/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spinfractionside/"
         preferredalias="spinfractionside">
-        <definition xml:lang="en-GB">Team squad which committed the infraction.</definition>
-        <name xml:lang="en-GB">Infraction Side</name>
+        <definition xml:lang="en-US">Team squad which committed the infraction.</definition>
+        <name xml:lang="en-US">Infraction Side</name>
         <related qcode="spinfractionside:offensive" rel="skos:hasTopConcept"/>
         <related qcode="spinfractionside:defensive" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

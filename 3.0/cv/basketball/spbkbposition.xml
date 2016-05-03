@@ -37,93 +37,93 @@
     <conceptSet>
         <concept id="spbkbpositionguard">
             <conceptId qcode="spbkbposition:guard"/>
-            <name xml:lang="en-GB">guard</name>
+            <name xml:lang="en-US">guard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionpoint-guard">
             <conceptId qcode="spbkbposition:point-guard"/>
-            <name xml:lang="en-GB">point-guard</name>
+            <name xml:lang="en-US">point-guard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionshooting-guard">
             <conceptId qcode="spbkbposition:shooting-guard"/>
-            <name xml:lang="en-GB">shooting-guard</name>
+            <name xml:lang="en-US">shooting-guard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionforward">
             <conceptId qcode="spbkbposition:forward"/>
-            <name xml:lang="en-GB">forward</name>
+            <name xml:lang="en-US">forward</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionpower-forward">
             <conceptId qcode="spbkbposition:power-forward"/>
-            <name xml:lang="en-GB">power-forward</name>
+            <name xml:lang="en-US">power-forward</name>
             <definition>Forward who mostly plays defense.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionsmall-forward">
             <conceptId qcode="spbkbposition:small-forward"/>
-            <name xml:lang="en-GB">small-forward</name>
+            <name xml:lang="en-US">small-forward</name>
             <definition>Forward who mostly tries to score.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositioncenter">
             <conceptId qcode="spbkbposition:center"/>
-            <name xml:lang="en-GB">center</name>
+            <name xml:lang="en-US">center</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionreferee">
             <conceptId qcode="spbkbposition:referee"/>
-            <name xml:lang="en-GB">referee</name>
+            <name xml:lang="en-US">referee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionumpire">
             <conceptId qcode="spbkbposition:umpire"/>
-            <name xml:lang="en-GB">umpire</name>
+            <name xml:lang="en-US">umpire</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionscorekeeper">
             <conceptId qcode="spbkbposition:scorekeeper"/>
-            <name xml:lang="en-GB">scorekeeper</name>
+            <name xml:lang="en-US">scorekeeper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositiontimekeeper">
             <conceptId qcode="spbkbposition:timekeeper"/>
-            <name xml:lang="en-GB">timekeeper</name>
+            <name xml:lang="en-US">timekeeper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionshot-clock-operator">
             <conceptId qcode="spbkbposition:shot-clock-operator"/>
-            <name xml:lang="en-GB">shot-clock-operator</name>
+            <name xml:lang="en-US">shot-clock-operator</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositioncoach">
             <conceptId qcode="spbkbposition:coach"/>
-            <name xml:lang="en-GB">coach</name>
+            <name xml:lang="en-US">coach</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbpositionassistant-coach">
             <conceptId qcode="spbkbposition:assistant-coach"/>
-            <name xml:lang="en-GB">assistant-coach</name>
+            <name xml:lang="en-US">assistant-coach</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbposition/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbkbposition/"
         preferredalias="spbkbposition">
-        <definition xml:lang="en-GB">Basketball player positions</definition>
-        <name xml:lang="en-GB">Basketball Player Positions</name>
+        <definition xml:lang="en-US">Basketball player positions</definition>
+        <name xml:lang="en-US">Basketball Player Positions</name>
         <related qcode="spbkbposition:guard" rel="skos:hasTopConcept"/>
         <related qcode="spbkbposition:point-guard" rel="skos:hasTopConcept"/>
         <related qcode="spbkbposition:shooting-guard" rel="skos:hasTopConcept"/>

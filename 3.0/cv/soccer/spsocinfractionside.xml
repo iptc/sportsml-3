@@ -37,21 +37,21 @@
     <conceptSet>
         <concept id="spsocinfractionsideoffensive">
             <conceptId qcode="spsocinfractionside:offensive"/>
-            <name xml:lang="en-GB">offensive</name>
+            <name xml:lang="en-US">offensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionside/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocinfractionsidedefensive">
             <conceptId qcode="spsocinfractionside:defensive"/>
-            <name xml:lang="en-GB">defensive</name>
+            <name xml:lang="en-US">defensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocinfractionside/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocinfractionside/" preferredalias="spsocinfractionside">
-        <definition xml:lang="en-GB">Squad committing the infraction in soccer</definition>
-        <name xml:lang="en-GB">Soccer Infraction Side</name>
+        <definition xml:lang="en-US">Squad committing the infraction in soccer</definition>
+        <name xml:lang="en-US">Soccer Infraction Side</name>
         <related qcode="spsocinfractionside:offensive" rel="skos:hasTopConcept"/>
         <related qcode="spsocinfractionside:defensive" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>

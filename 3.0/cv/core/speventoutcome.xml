@@ -32,33 +32,33 @@
     <conceptSet>
         <concept id="speventoutcomewin">
             <conceptId qcode="speventoutcome:win"/>
-            <name xml:lang="en-GB">win</name>
+            <name xml:lang="en-US">win</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcome/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcomeloss">
             <conceptId qcode="speventoutcome:loss"/>
-            <name xml:lang="en-GB">loss</name>
+            <name xml:lang="en-US">loss</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcome/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometie">
             <conceptId qcode="speventoutcome:tie"/>
-            <name xml:lang="en-GB">tie</name>
+            <name xml:lang="en-US">tie</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcome/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcomeundecided">
             <conceptId qcode="speventoutcome:undecided"/>
-            <name xml:lang="en-GB">undecided</name>
+            <name xml:lang="en-US">undecided</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcome/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/speventoutcome/"
         preferredalias="speventoutcome">
-        <definition xml:lang="en-GB">Whether the competitor won, lost, or tied.</definition>
-        <name xml:lang="en-GB">Event Outcome</name>
+        <definition xml:lang="en-US">Whether the competitor won, lost, or tied.</definition>
+        <name xml:lang="en-US">Event Outcome</name>
         <related qcode="speventoutcome:win" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcome:loss" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcome:tie" rel="skos:hasTopConcept"/>

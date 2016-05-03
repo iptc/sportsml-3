@@ -37,111 +37,111 @@
     <conceptSet>
         <concept id="spichroleon-ice">
             <conceptId qcode="spichrole:on-ice"/>
-            <name xml:lang="en-GB">on-ice</name>
+            <name xml:lang="en-US">on-ice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolescorer">
             <conceptId qcode="spichrole:scorer"/>
-            <name xml:lang="en-GB">scorer</name>
+            <name xml:lang="en-US">scorer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleassist">
             <conceptId qcode="spichrole:assist"/>
-            <name xml:lang="en-GB">assist</name>
+            <name xml:lang="en-US">assist</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolegoaltender">
             <conceptId qcode="spichrole:goaltender"/>
-            <name xml:lang="en-GB">goaltender</name>
+            <name xml:lang="en-US">goaltender</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleshooter">
             <conceptId qcode="spichrole:shooter"/>
-            <name xml:lang="en-GB">shooter</name>
+            <name xml:lang="en-US">shooter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleblocker">
             <conceptId qcode="spichrole:blocker"/>
-            <name xml:lang="en-GB">blocker</name>
+            <name xml:lang="en-US">blocker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolehitter">
             <conceptId qcode="spichrole:hitter"/>
-            <name xml:lang="en-GB">hitter</name>
+            <name xml:lang="en-US">hitter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolehittee">
             <conceptId qcode="spichrole:hittee"/>
-            <name xml:lang="en-GB">hittee</name>
+            <name xml:lang="en-US">hittee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleshot">
             <conceptId qcode="spichrole:shot"/>
-            <name xml:lang="en-GB">shot</name>
+            <name xml:lang="en-US">shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolepenalty-committed-by">
             <conceptId qcode="spichrole:penalty-committed-by"/>
-            <name xml:lang="en-GB">penalty-committed-by</name>
+            <name xml:lang="en-US">penalty-committed-by</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolepenalty-committed-against">
             <conceptId qcode="spichrole:penalty-committed-against"/>
-            <name xml:lang="en-GB">penalty-committed-against</name>
+            <name xml:lang="en-US">penalty-committed-against</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolepenalty-served-by">
             <conceptId qcode="spichrole:penalty-served-by"/>
-            <name xml:lang="en-GB">penalty-served-by</name>
+            <name xml:lang="en-US">penalty-served-by</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolefaceoff-winner">
             <conceptId qcode="spichrole:faceoff-winner"/>
-            <name xml:lang="en-GB">faceoff-winner</name>
+            <name xml:lang="en-US">faceoff-winner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolefaceoff-loser">
             <conceptId qcode="spichrole:faceoff-loser"/>
-            <name xml:lang="en-GB">faceoff-loser</name>
+            <name xml:lang="en-US">faceoff-loser</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolegiveaway">
             <conceptId qcode="spichrole:giveaway"/>
-            <name xml:lang="en-GB">giveaway</name>
+            <name xml:lang="en-US">giveaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroletakeaway">
             <conceptId qcode="spichrole:takeaway"/>
-            <name xml:lang="en-GB">takeaway</name>
+            <name xml:lang="en-US">takeaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleoff-ice">
             <conceptId qcode="spichrole:off-ice"/>
-            <name xml:lang="en-GB">off-ice</name>
+            <name xml:lang="en-US">off-ice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spichrole/"
         preferredalias="spichrole">
-        <definition xml:lang="en-GB">Role of player in the described action.</definition>
-        <name xml:lang="en-GB">Ice Hockey Player Roles</name>
+        <definition xml:lang="en-US">Role of player in the described action.</definition>
+        <name xml:lang="en-US">Ice Hockey Player Roles</name>
         <related qcode="spichrole:on-ice" rel="skos:hasTopConcept"/>
         <related qcode="spichrole:scorer" rel="skos:hasTopConcept"/>
         <related qcode="spichrole:assist" rel="skos:hasTopConcept"/>
