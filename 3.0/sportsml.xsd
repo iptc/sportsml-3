@@ -3564,7 +3564,7 @@ Agreement for International Press Telecommunications
             <xs:documentation>The origin (0,0) and granularity may be determined by the  distributor.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
-            <xs:pattern value="\d+(\.\d{1,2})?,\d+(\.\d{1,2})?"/>
+            <xs:pattern value="[-]?\d+(\.\d{1,2})?,[-]?\d+(\.\d{1,2})?"/>
         </xs:restriction>
     </xs:simpleType>
 

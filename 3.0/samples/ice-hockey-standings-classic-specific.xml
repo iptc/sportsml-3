@@ -3,11 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
+    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-10-12T02:27:05-04:00"
         doc-id="xt.sdi.20151012022705-standings_NHL" language="en-US" fixture-key="sdidoc:standings"
-        document-class="standings">
+        document-class="spct:standings">
         <sports-content-codes>
             <sports-content-code code-name="Sports Direct, Inc."
                 code-key="publisher:sportsdirectinc.com" code-type="spct:publisher"/>

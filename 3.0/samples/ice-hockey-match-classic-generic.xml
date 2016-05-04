@@ -3,11 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
+    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-10-07T22:14:50-04:00"
         doc-id="xt.nhl.20001-BXG-20151007T221450-0400-FIN-FC0" language="en-US"
-        fixture-key="nhldoc:event-stats-progressive" document-class="event-summary">
+        fixture-key="nhldoc:event-stats-progressive" document-class="spct:event-summary">
         <sports-content-codes>
             <sports-content-code code-type="spct:publisher" code-name="National Hockey League"
                 code-key="publisher:nhl.com"/>
@@ -2921,7 +2920,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="100"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
-                penalty-name="Boarding" penalty-length="2" zone="spihofieldzone:offensive"
+                infraction-name="Boarding" infraction-length="2" zone="spihofieldzone:offensive"
                 period-value="1" period-time-elapsed="05:11">
                 <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-by"/>
@@ -2930,7 +2929,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="101"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                penalty-name="Roughing" penalty-length="2" zone="spihofieldzone:defensive"
+                infraction-name="Roughing" infraction-length="2" zone="spihofieldzone:defensive"
                 period-value="1" period-time-elapsed="05:11">
                 <participant idref="l.nhl.com-p.8475758" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
@@ -2939,7 +2938,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="102"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
-                penalty-name="Interference" penalty-length="2" zone="spihofieldzone:offensive"
+                infraction-name="Interference" infraction-length="2" zone="spihofieldzone:offensive"
                 period-value="1" period-time-elapsed="12:17">
                 <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
                     role="spihorole:penalty-committed-by"/>
@@ -2948,7 +2947,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="103"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                penalty-name="Interference on goalkeeper" penalty-length="2"
+                infraction-name="Interference on goalkeeper" infraction-length="2"
                 zone="spihofieldzone:offensive" period-value="2" period-time-elapsed="00:13">
                 <participant idref="l.nhl.com-p.8475848" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
@@ -2957,7 +2956,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="104"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                penalty-name="Tripping" penalty-length="2" zone="spihofieldzone:offensive"
+                infraction-name="Tripping" infraction-length="2" zone="spihofieldzone:offensive"
                 period-value="2" period-time-elapsed="08:11">
                 <participant idref="l.nhl.com-p.8474189" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>
@@ -2966,7 +2965,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="105"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                penalty-name="Interference" penalty-length="2" zone="spihofieldzone:defensive"
+                infraction-name="Interference" infraction-length="2" zone="spihofieldzone:defensive"
                 period-value="3" period-time-elapsed="14:17">
                 <participant idref="l.nhl.com-p.8471338" team-idref="l.nhl.com-t.8"
                     role="spihorole:penalty-committed-by"/>

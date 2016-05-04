@@ -3,10 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
+    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-03-03T15:46:00-05:00" doc-id="xt.23209532-roster-dal"
-        language="en-US" fixture-key="tsndoc:roster" document-class="dynamic-resource-file">
+        language="en-US" fixture-key="tsndoc:roster" document-class="spct:dynamic-resource-file">
         <sports-content-codes>
             <sports-content-code code-name="The Sports Network"
                 code-key="publisher:sportsnetwork.com" code-type="spct:publisher"/>

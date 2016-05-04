@@ -5,7 +5,6 @@
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" standard="NewsML-G2"
     standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd"
     guid="xt.nhl.20001-BXG-20151007T221450-0400-FIN-FC0">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <itemMeta>
@@ -3121,7 +3120,7 @@
                         </action>
                         <action class="spactionclass:infraction" sequence-number="100"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
-                            penalty-name="Boarding" penalty-length="2"
+                            infraction-name="Boarding" infraction-length="2"
                             zone="spihofieldzone:offensive" period-value="1"
                             period-time-elapsed="05:11">
                             <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
@@ -3131,7 +3130,7 @@
                         </action>
                         <action class="spactionclass:infraction" sequence-number="101"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                            penalty-name="Roughing" penalty-length="2"
+                            infraction-name="Roughing" infraction-length="2"
                             zone="spihofieldzone:defensive" period-value="1"
                             period-time-elapsed="05:11">
                             <participant idref="l.nhl.com-p.8475758" team-idref="l.nhl.com-t.8"
@@ -3141,7 +3140,7 @@
                         </action>
                         <action class="spactionclass:infraction" sequence-number="102"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
-                            penalty-name="Interference" penalty-length="2"
+                            infraction-name="Interference" infraction-length="2"
                             zone="spihofieldzone:offensive" period-value="1"
                             period-time-elapsed="12:17">
                             <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
@@ -3151,7 +3150,7 @@
                         </action>
                         <action class="spactionclass:infraction" sequence-number="103"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                            penalty-name="Interference on goalkeeper" penalty-length="2"
+                            infraction-name="Interference on goalkeeper" infraction-length="2"
                             zone="spihofieldzone:offensive" period-value="2"
                             period-time-elapsed="00:13">
                             <participant idref="l.nhl.com-p.8475848" team-idref="l.nhl.com-t.8"
@@ -3161,7 +3160,7 @@
                         </action>
                         <action class="spactionclass:infraction" sequence-number="104"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                            penalty-name="Tripping" penalty-length="2"
+                            infraction-name="Tripping" infraction-length="2"
                             zone="spihofieldzone:offensive" period-value="2"
                             period-time-elapsed="08:11">
                             <participant idref="l.nhl.com-p.8474189" team-idref="l.nhl.com-t.8"
@@ -3171,7 +3170,7 @@
                         </action>
                         <action class="spactionclass:infraction" sequence-number="105"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                            penalty-name="Interference" penalty-length="2"
+                            infraction-name="Interference" infraction-length="2"
                             zone="spihofieldzone:defensive" period-value="3"
                             period-time-elapsed="14:17">
                             <participant idref="l.nhl.com-p.8471338" team-idref="l.nhl.com-t.8"

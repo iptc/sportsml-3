@@ -3,11 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd">
+    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-10-03T17:07:55+01:00"
         doc-id="xt.opta.standings-20151003170755-2015" language="en-US"
-        fixture-key="optadoc:standings" document-class="standings">
+        fixture-key="optadoc:standings" document-class="spct:standings">
         <sports-content-codes>
             <sports-content-code code-name="Opta" code-key="publisher:optasports.com"
                 code-type="spct:publisher"/>

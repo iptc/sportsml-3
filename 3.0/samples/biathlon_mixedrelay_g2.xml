@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ ../sportsml.xsd"
     xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.20"
     version="1" conformance="power" xml:lang="en-GB" guid="tt.se.20141130192343-vasaloppet-955362">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
