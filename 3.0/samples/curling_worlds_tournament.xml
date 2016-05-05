@@ -51,7 +51,7 @@
 
                         <tournament-part>
                             <!-- First, there is a round robin between all teams, and that is divided into "draws"  -->
-                            <tournament-part-metadata type="sptournamentpart:group-play">
+                            <tournament-part-metadata type="sptournamentform:group">
                                 <name>Group play</name>
                             </tournament-part-metadata>
 
@@ -168,12 +168,12 @@
 
                             <tournament-part>
                                 <!-- First part is all the normal games -->
-                                <tournament-part-metadata type="sptournamentpart:round-robin">
+                                <tournament-part-metadata type="sptournamentphase:round-robin">
                                     <name>Round robin</name>
                                 </tournament-part-metadata>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:1"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:1"
                                         start-date-time="2014-03-15T14:30:00">
                                         <name>Draw #1</name>
                                     </tournament-part-metadata>
@@ -270,7 +270,7 @@
 
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:2"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:2"
                                         start-date-time="2014-03-15T19:30:00">
                                         <name>Draw #2</name>
                                     </tournament-part-metadata>
@@ -366,7 +366,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:3"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:3"
                                         start-date-time="2014-03-16T09:30:00">
                                         <name>Draw #3</name>
                                     </tournament-part-metadata>
@@ -419,7 +419,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:4"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:4"
                                         start-date-time="2014-03-16T14:30:00">
                                         <name>Draw #4</name>
                                     </tournament-part-metadata>
@@ -515,7 +515,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:5"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:5"
                                         start-date-time="2014-03-16T19:30:00">
                                         <name>Draw #5</name>
                                     </tournament-part-metadata>
@@ -611,7 +611,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:6"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:6"
                                         start-date-time="2014-03-17T09:30:00">
                                         <name>Draw #6</name>
                                     </tournament-part-metadata>
@@ -707,7 +707,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:7"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:7"
                                         start-date-time="2014-03-17T14:30:00">
                                         <name>Draw #7</name>
                                     </tournament-part-metadata>
@@ -803,7 +803,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:8"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:8"
                                         start-date-time="2014-03-17T19:30:00">
                                         <name>Draw #8</name>
                                     </tournament-part-metadata>
@@ -899,7 +899,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw" period-value="cdraw:9"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:9"
                                         start-date-time="2014-03-18T09:30:00">
                                         <name>Draw #9</name>
                                     </tournament-part-metadata>
@@ -995,7 +995,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:10"
                                         start-date-time="2014-03-18T14:30:00">
                                         <name>Draw #10</name>
@@ -1092,7 +1092,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:11"
                                         start-date-time="2014-03-18T19:30:00">
                                         <name>Draw #11</name>
@@ -1189,7 +1189,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:12"
                                         start-date-time="2014-03-19T09:30:00">
                                         <name>Draw #12</name>
@@ -1286,7 +1286,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:13"
                                         start-date-time="2014-03-19T14:30:00">
                                         <name>Draw #13</name>
@@ -1383,7 +1383,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:14"
                                         start-date-time="2014-03-19T19:30:00">
                                         <name>Draw #14</name>
@@ -1480,7 +1480,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:15"
                                         start-date-time="2014-03-20T09:30:00">
                                         <name>Draw #15</name>
@@ -1577,7 +1577,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:16"
                                         start-date-time="2014-03-20T14:30:00">
                                         <name>Draw #16</name>
@@ -1674,7 +1674,7 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentpart:draw"
+                                    <tournament-part-metadata type="sptournamentphase:round"
                                         period-value="cdraw:17"
                                         start-date-time="2014-03-20T19:30:00">
                                         <name>Draw #17</name>
@@ -1775,7 +1775,7 @@
 
                             <tournament-part>
                                 <!-- IF there is a draw between two or more teams for places leading to further play there are x number of tiebreak events until the situation is resolved. -->
-                                <tournament-part-metadata type="sptournamentpart:tiebreak">
+                                <tournament-part-metadata type="sptournamentphase:tiebreaker">
                                     <name>Tie break</name>
                                 </tournament-part-metadata>
 
@@ -1813,7 +1813,7 @@
 
                         <tournament-part>
                             <!-- In the play-offs the first and second team meet with the winner going to the final and the loser going to the semifinal. In the other playoff-game between the third and the fourth teams the winner goes to the semifinal and the loser to the bronze game -->
-                            <tournament-part-metadata type="sptournamentpart:playoff">
+                            <tournament-part-metadata type="sptournamentphase:play-off">
                                 <name>Play-off</name>
                             </tournament-part-metadata>
 
@@ -1868,7 +1868,7 @@
 
                         <tournament-part>
                             <!-- The semifinal is a game between looser in the first playoff and the winner of the second playoff. Winner go to final and looser to bronzegame. -->
-                            <tournament-part-metadata type="sptournamentpart:semifinal">
+                            <tournament-part-metadata type="sptournamentphase:semi-final">
                                 <name>Semifinal</name>
                             </tournament-part-metadata>
 
@@ -1899,7 +1899,7 @@
 
                         <tournament-part>
                             <!-- The bronze game and the final -->
-                            <tournament-part-metadata type="sptournamentpart:finals">
+                            <tournament-part-metadata type="sptournamentphase:final">
                                 <name>Finals</name>
                             </tournament-part-metadata>
 

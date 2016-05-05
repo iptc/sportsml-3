@@ -71,7 +71,7 @@
                         </team-stats>
                         <player id="p.41328">
                             <player-metadata key="optaperson:p.41328"
-                                position-regular="spsocpos:defender" uniform-number="28">
+                                position-regular="spsocposition:defender" uniform-number="28">
                                 <name role="nrol:full">César Azpilicueta</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -92,7 +92,7 @@
                         </player>
                         <player id="p.118335">
                             <player-metadata key="optaperson:p.118335"
-                                position-regular="spsocpos:defender" uniform-number="6">
+                                position-regular="spsocposition:defender" uniform-number="6">
                                 <name role="nrol:full">Abdul Rahman Baba</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -110,7 +110,7 @@
                         </player>
                         <player id="p.40349">
                             <player-metadata key="optaperson:p.40349"
-                                position-regular="spsocpos:goalkeeper" uniform-number="1">
+                                position-regular="spsocposition:goalkeeper" uniform-number="1">
                                 <name role="nrol:full">Asmir Begovic</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -128,13 +128,13 @@
                         </player>
                         <player id="p.108132">
                             <player-metadata key="optaperson:p.108132"
-                                position-regular="spsocpos:goalkeeper" uniform-number="27">
+                                position-regular="spsocposition:goalkeeper" uniform-number="27">
                                 <name role="nrol:full">Jamal Blackman</name>
                             </player-metadata>
                         </player>
                         <player id="p.47431">
                             <player-metadata key="optaperson:p.47431"
-                                position-regular="spsocpos:midfielder" uniform-number="22">
+                                position-regular="spsocposition:midfielder" uniform-number="22">
                                 <name role="nrol:full">Willian Borges Da Silva</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -156,7 +156,7 @@
                         </player>
                         <player id="p.19419">
                             <player-metadata key="optaperson:p.19419"
-                                position-regular="spsocpos:defender" uniform-number="24">
+                                position-regular="spsocposition:defender" uniform-number="24">
                                 <name role="nrol:full">Gary Cahill</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -176,7 +176,7 @@
                         </player>
                         <player id="p.60772">
                             <player-metadata key="optaperson:p.60772"
-                                position-regular="spsocpos:goalkeeper" uniform-number="13">
+                                position-regular="spsocposition:goalkeeper" uniform-number="13">
                                 <name role="nrol:full">Thibaut Courtois</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -195,7 +195,7 @@
                         </player>
                         <player id="p.18507">
                             <player-metadata key="optaperson:p.18507"
-                                position-regular="spsocpos:forward" uniform-number="19">
+                                position-regular="spsocposition:forward" uniform-number="19">
                                 <name role="nrol:full">Diego Da Silva Costa</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -217,7 +217,7 @@
                         </player>
                         <player id="p.17878">
                             <player-metadata key="optaperson:p.17878"
-                                position-regular="spsocpos:midfielder" uniform-number="4">
+                                position-regular="spsocposition:midfielder" uniform-number="4">
                                 <name role="nrol:full">Cesc Fàbregas</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -238,7 +238,7 @@
                         </player>
                         <player id="p.48847">
                             <player-metadata key="optaperson:p.48847"
-                                position-regular="spsocpos:forward" uniform-number="9">
+                                position-regular="spsocposition:forward" uniform-number="9">
                                 <name role="nrol:full">Radamel Falcao García Zárate</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -259,7 +259,7 @@
                         </player>
                         <player id="p.42786">
                             <player-metadata key="optaperson:p.42786"
-                                position-regular="spsocpos:midfielder" uniform-number="10">
+                                position-regular="spsocposition:midfielder" uniform-number="10">
                                 <name role="nrol:full">Eden Hazard</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -279,7 +279,7 @@
                         </player>
                         <player id="p.41135">
                             <player-metadata key="optaperson:p.41135"
-                                position-regular="spsocpos:defender" uniform-number="2">
+                                position-regular="spsocposition:defender" uniform-number="2">
                                 <name role="nrol:full">Branislav Ivanovic</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -298,7 +298,7 @@
                         </player>
                         <player id="p.126187">
                             <player-metadata key="optaperson:p.126187"
-                                position-regular="spsocpos:midfielder" uniform-number="36">
+                                position-regular="spsocposition:midfielder" uniform-number="36">
                                 <name role="nrol:full">Ruben Loftus-Cheek</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -316,7 +316,7 @@
                         </player>
                         <player id="p.62398">
                             <player-metadata key="optaperson:p.62398"
-                                position-regular="spsocpos:midfielder" uniform-number="21">
+                                position-regular="spsocposition:midfielder" uniform-number="21">
                                 <name role="nrol:full">Nemanja Matic</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -337,7 +337,7 @@
                         </player>
                         <player id="p.28495">
                             <player-metadata key="optaperson:p.28495"
-                                position-regular="spsocpos:midfielder" uniform-number="12">
+                                position-regular="spsocposition:midfielder" uniform-number="12">
                                 <name role="nrol:full">John Obi Mikel</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -356,7 +356,7 @@
                         </player>
                         <player id="p.167767">
                             <player-metadata key="optaperson:p.167767"
-                                position-regular="spsocpos:forward" uniform-number="16">
+                                position-regular="spsocposition:forward" uniform-number="16">
                                 <name role="nrol:full">Robert Kenedy Nunes do Nascimento</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -376,7 +376,7 @@
                         </player>
                         <player id="p.38419">
                             <player-metadata key="optaperson:p.38419"
-                                position-regular="spsocpos:forward" uniform-number="18">
+                                position-regular="spsocposition:forward" uniform-number="18">
                                 <name role="nrol:full">Loïc Remy</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -393,7 +393,7 @@
                         </player>
                         <player id="p.49579">
                             <player-metadata key="optaperson:p.49579"
-                                position-regular="spsocpos:forward" uniform-number="17">
+                                position-regular="spsocposition:forward" uniform-number="17">
                                 <name role="nrol:full">Pedro Rodríguez Ledesma</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -415,7 +415,7 @@
                         </player>
                         <player id="p.53392">
                             <player-metadata key="optaperson:p.53392"
-                                position-regular="spsocpos:midfielder" uniform-number="7">
+                                position-regular="spsocposition:midfielder" uniform-number="7">
                                 <name role="nrol:full">Ramires Santos do Nascimento</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -436,7 +436,7 @@
                         </player>
                         <player id="p.1718">
                             <player-metadata key="optaperson:p.1718"
-                                position-regular="spsocpos:defender" uniform-number="26">
+                                position-regular="spsocposition:defender" uniform-number="26">
                                 <name role="nrol:full">John Terry</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -457,13 +457,13 @@
                         </player>
                         <player id="p.110504">
                             <player-metadata key="optaperson:p.110504"
-                                position-regular="spsocpos:midfielder" uniform-number="14">
+                                position-regular="spsocposition:midfielder" uniform-number="14">
                                 <name role="nrol:full">Bertrand Traore</name>
                             </player-metadata>
                         </player>
                         <player id="p.103192">
                             <player-metadata key="optaperson:p.103192"
-                                position-regular="spsocpos:defender" uniform-number="5">
+                                position-regular="spsocposition:defender" uniform-number="5">
                                 <name role="nrol:full">Kurt Zouma</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
@@ -484,7 +484,7 @@
                         </player>
                         <player id="p.61262">
                             <player-metadata key="optaperson:p.61262"
-                                position-regular="spsocpos:midfielder" uniform-number="8">
+                                position-regular="spsocposition:midfielder" uniform-number="8">
                                 <name role="nrol:full">Oscar dos Santos Emboaba Junior</name>
                             </player-metadata>
                             <player-stats team-coverage="single-team"

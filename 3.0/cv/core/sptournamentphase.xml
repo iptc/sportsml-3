@@ -31,6 +31,36 @@
 		<description>The phase of the tournament: semi-final, quarter-final, etc.</description>
 	</contentMeta>
 	<conceptSet>
+		<concept id="sptournamentphaseelimination">
+			<conceptId qcode="sptournamentphase:elimination"/>
+			<name xml:lang="en-US">Elimination</name>
+			<definition/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
+		</concept>
+		<concept id="sptournamentphasegroup">
+			<conceptId qcode="sptournamentphase:group"/>
+			<name xml:lang="en-US">Group</name>
+			<definition/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
+		</concept>
+		<concept id="sptournamentphaseplay-off">
+			<conceptId qcode="sptournamentphase:play-off"/>
+			<name xml:lang="en-US">Play Off</name>
+			<definition/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
+		</concept>
+		<concept id="sptournamentphaseround">
+			<conceptId qcode="sptournamentphase:round"/>
+			<name xml:lang="en-US">Round</name>
+			<definition/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
+		</concept>
+		<concept id="sptournamentphaseround-robin">
+			<conceptId qcode="sptournamentphase:round-robin"/>
+			<name xml:lang="en-US">Round Robin</name>
+			<definition/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
+		</concept>
 		<concept id="sptournamentphasequarter-final">
 			<conceptId qcode="sptournamentphase:quarter-final"/>
 			<name xml:lang="en-US">Quarter Final</name>
@@ -67,6 +97,12 @@
 		preferredalias="sptournamentphase">
 		<definition xml:lang="en-US">The phase of the tournament: semi-final, quarter-final, etc.</definition>
 		<name xml:lang="en-US">Tournament Phase</name>
+		<related qcode="sptournamentform:elimination" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentform:group" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentphase:play-off" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentphase:tiebreaker" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentphase:round" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentphase:round-robin" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:quarter-final" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:semi-final" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:third-final" rel="skos:hasTopConcept"/>

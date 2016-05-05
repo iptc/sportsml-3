@@ -59,7 +59,7 @@
                 <sports-event>
                     <event-metadata temporal-unit-type="cpnat:event"
                         key="optaevent:l.premierleague.com-2014-e.755363"
-                        event-status="spevstatus:post-event" event-status-note="Result"
+                        event-status="speventstatus:post-event" event-status-note="Result"
                         start-date-time="2014-10-04T17:30:00+01:00"
                         event-outcome-type="speventoutcometype:regular" minutes-elapsed="90">
                         <site>
@@ -95,8 +95,8 @@
                         </team-stats>
                         <player id="PO41705">
                             <player-metadata key="optaperson:PO41705"
-                                position-regular="spsocpos:goalkeeper" uniform-number="1"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:goalkeeper" uniform-number="1"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Brad Guzan</name>
                                 <player-metadata-soccer line-formation-position="1"/>
                             </player-metadata>
@@ -113,8 +113,8 @@
                         </player>
                         <player id="PO15405">
                             <player-metadata key="optaperson:PO15405"
-                                position-regular="spsocpos:defender" uniform-number="21"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="21"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Alan Hutton</name>
                                 <player-metadata-soccer line-formation-position="2"/>
                             </player-metadata>
@@ -130,8 +130,8 @@
                         </player>
                         <player id="PO16854">
                             <player-metadata key="optaperson:PO16854"
-                                position-regular="spsocpos:defender" uniform-number="14"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="14"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Philippe Senderos</name>
                                 <player-metadata-soccer line-formation-position="5"/>
                             </player-metadata>
@@ -147,8 +147,8 @@
                         </player>
                         <player id="PO52477">
                             <player-metadata key="optaperson:PO52477"
-                                position-regular="spsocpos:defender" uniform-number="2"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="2"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Nathan Baker</name>
                                 <player-metadata-soccer line-formation-position="6"/>
                             </player-metadata>
@@ -164,8 +164,8 @@
                         </player>
                         <player id="PO44354">
                             <player-metadata key="optaperson:PO44354"
-                                position-regular="spsocpos:defender" uniform-number="23"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="23"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Aly Cissokho</name>
                                 <player-metadata-soccer line-formation-position="3"/>
                             </player-metadata>
@@ -181,8 +181,8 @@
                         </player>
                         <player id="PO43250">
                             <player-metadata key="optaperson:PO43250"
-                                position-regular="spsocpos:midfielder" uniform-number="8"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="8"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Tom Cleverley</name>
                                 <player-metadata-soccer line-formation-position="7"/>
                             </player-metadata>
@@ -198,8 +198,8 @@
                         </player>
                         <player id="PO60551">
                             <player-metadata key="optaperson:PO60551"
-                                position-regular="spsocpos:midfielder" uniform-number="15"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="15"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Ashley Westwood</name>
                                 <player-metadata-soccer line-formation-position="4"/>
                             </player-metadata>
@@ -215,8 +215,8 @@
                         </player>
                         <player id="PO41823">
                             <player-metadata key="optaperson:PO41823"
-                                position-regular="spsocpos:midfielder" uniform-number="16"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="16"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Fabian Delph</name>
                                 <player-metadata-soccer line-formation-position="8"/>
                             </player-metadata>
@@ -232,8 +232,8 @@
                         </player>
                         <player id="PO18737">
                             <player-metadata key="optaperson:PO18737"
-                                position-regular="spsocpos:forward" uniform-number="28"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="28"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Charles N'Zogbia</name>
                                 <player-metadata-soccer line-formation-position="10"/>
                             </player-metadata>
@@ -249,8 +249,8 @@
                         </player>
                         <player id="PO80979">
                             <player-metadata key="optaperson:PO80979"
-                                position-regular="spsocpos:forward" uniform-number="10"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="10"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Andreas Weimann</name>
                                 <player-metadata-soccer line-formation-position="9"/>
                             </player-metadata>
@@ -266,8 +266,8 @@
                         </player>
                         <player id="PO15073">
                             <player-metadata key="optaperson:PO15073"
-                                position-regular="spsocpos:forward" uniform-number="18"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="18"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Kieran Richardson</name>
                                 <player-metadata-soccer line-formation-position="11"/>
                             </player-metadata>
@@ -283,16 +283,16 @@
                         </player>
                         <player id="PO58845">
                             <player-metadata key="optaperson:PO58845"
-                                position-regular="spsocpos:defender" uniform-number="6"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:defender" uniform-number="6"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Ciaran Clark</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO74297">
                             <player-metadata key="optaperson:PO74297"
-                                position-regular="spsocpos:midfielder" uniform-number="7"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="7"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Leandro Bacuna</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
@@ -307,16 +307,16 @@
                         </player>
                         <player id="PO10738">
                             <player-metadata key="optaperson:PO10738"
-                                position-regular="spsocpos:forward" uniform-number="19"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:forward" uniform-number="19"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Darren Bent</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO54861">
                             <player-metadata key="optaperson:PO54861"
-                                position-regular="spsocpos:midfielder" uniform-number="20"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="20"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Christian Benteke</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
@@ -331,24 +331,24 @@
                         </player>
                         <player id="PO42824">
                             <player-metadata key="optaperson:PO42824"
-                                position-regular="spsocpos:midfielder" uniform-number="24"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="24"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Carlos Sánchez</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO1822">
                             <player-metadata key="optaperson:PO1822"
-                                position-regular="spsocpos:goalkeeper" uniform-number="31"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:goalkeeper" uniform-number="31"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Shay Given</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO114283">
                             <player-metadata key="optaperson:PO114283"
-                                position-regular="spsocpos:midfielder" uniform-number="40"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="40"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Jack Grealish</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
@@ -362,7 +362,7 @@
                             </player-stats>
                         </player>
                         <associate id="man37630">
-                            <associate-metadata position-event="spsocascpos:Manager"
+                            <associate-metadata position-event="ascpos:Manager"
                                 key="optaperson:man37630">
                                 <name role="nrol:full">Paul Lambert</name>
                             </associate-metadata>
@@ -385,8 +385,8 @@
                         </team-stats>
                         <player id="PO15749">
                             <player-metadata key="optaperson:PO15749"
-                                position-regular="spsocpos:goalkeeper" uniform-number="1"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:goalkeeper" uniform-number="1"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Joe Hart</name>
                                 <player-metadata-soccer line-formation-position="1"/>
                             </player-metadata>
@@ -403,8 +403,8 @@
                         </player>
                         <player id="PO20658">
                             <player-metadata key="optaperson:PO20658"
-                                position-regular="spsocpos:defender" uniform-number="5"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="5"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Pablo Zabaleta</name>
                                 <player-metadata-soccer line-formation-position="2"/>
                             </player-metadata>
@@ -420,8 +420,8 @@
                         </player>
                         <player id="PO17476">
                             <player-metadata key="optaperson:PO17476"
-                                position-regular="spsocpos:defender" uniform-number="4"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="4"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Vincent Kompany</name>
                                 <player-metadata-soccer line-formation-position="5"/>
                             </player-metadata>
@@ -437,8 +437,8 @@
                         </player>
                         <player id="PO57112">
                             <player-metadata key="optaperson:PO57112"
-                                position-regular="spsocpos:defender" uniform-number="20"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="20"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Eliaquim Mangala</name>
                                 <player-metadata-soccer line-formation-position="6"/>
                             </player-metadata>
@@ -454,8 +454,8 @@
                         </player>
                         <player id="PO42593">
                             <player-metadata key="optaperson:PO42593"
-                                position-regular="spsocpos:defender" uniform-number="11"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="11"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Aleksandar Kolarov</name>
                                 <player-metadata-soccer line-formation-position="3"/>
                             </player-metadata>
@@ -473,8 +473,8 @@
                         </player>
                         <player id="PO15157">
                             <player-metadata key="optaperson:PO15157"
-                                position-regular="spsocpos:midfielder" uniform-number="7"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="7"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">James Milner</name>
                                 <player-metadata-soccer line-formation-position="7"/>
                             </player-metadata>
@@ -490,8 +490,8 @@
                         </player>
                         <player id="PO27789">
                             <player-metadata key="optaperson:PO27789"
-                                position-regular="spsocpos:midfielder" uniform-number="25"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="25"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Fernando Luiz Rosa</name>
                                 <player-metadata-soccer line-formation-position="4"/>
                             </player-metadata>
@@ -507,8 +507,8 @@
                         </player>
                         <player id="PO14664">
                             <player-metadata key="optaperson:PO14664"
-                                position-regular="spsocpos:midfielder" uniform-number="42"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="42"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Gnegneri Yaya Touré</name>
                                 <player-metadata-soccer line-formation-position="8"/>
                             </player-metadata>
@@ -525,8 +525,8 @@
                         </player>
                         <player id="PO20664">
                             <player-metadata key="optaperson:PO20664"
-                                position-regular="spsocpos:midfielder" uniform-number="21"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="21"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">David Silva</name>
                                 <player-metadata-soccer line-formation-position="11"/>
                             </player-metadata>
@@ -543,8 +543,8 @@
                         </player>
                         <player id="PO42544">
                             <player-metadata key="optaperson:PO42544"
-                                position-regular="spsocpos:forward" uniform-number="10"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="10"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Edin Dzeko</name>
                                 <player-metadata-soccer line-formation-position="10"/>
                             </player-metadata>
@@ -560,8 +560,8 @@
                         </player>
                         <player id="PO37572">
                             <player-metadata key="optaperson:PO37572"
-                                position-regular="spsocpos:forward" uniform-number="16"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="16"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Sergio Agüero</name>
                                 <player-metadata-soccer line-formation-position="9"/>
                             </player-metadata>
@@ -578,16 +578,16 @@
                         </player>
                         <player id="PO37748">
                             <player-metadata key="optaperson:PO37748"
-                                position-regular="spsocpos:defender" uniform-number="3"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:defender" uniform-number="3"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Bacary Sagna</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO52538">
                             <player-metadata key="optaperson:PO52538"
-                                position-regular="spsocpos:midfielder" uniform-number="6"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="6"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Fernando Francisco Reges</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
@@ -602,16 +602,16 @@
                         </player>
                         <player id="PO20310">
                             <player-metadata key="optaperson:PO20310"
-                                position-regular="spsocpos:goalkeeper" uniform-number="13"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:goalkeeper" uniform-number="13"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Willy Caballero</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO17740">
                             <player-metadata key="optaperson:PO17740"
-                                position-regular="spsocpos:midfielder" uniform-number="15"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="15"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Jesús Navas</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
@@ -626,8 +626,8 @@
                         </player>
                         <player id="PO2051">
                             <player-metadata key="optaperson:PO2051"
-                                position-regular="spsocpos:midfielder" uniform-number="18"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="18"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Frank Lampard</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
@@ -643,22 +643,22 @@
                         </player>
                         <player id="PO15312">
                             <player-metadata key="optaperson:PO15312"
-                                position-regular="spsocpos:defender" uniform-number="26"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:defender" uniform-number="26"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Martín Demichelis</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO50442">
                             <player-metadata key="optaperson:PO50442"
-                                position-regular="spsocpos:forward" uniform-number="35"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:forward" uniform-number="35"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Stevan Jovetic</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <associate id="man257">
-                            <associate-metadata position-event="spsocascpos:Manager"
+                            <associate-metadata position-event="ascpos:Manager"
                                 key="optaperson:man257">
                                 <name role="nrol:full">Manuel Pellegrini</name>
                             </associate-metadata>
@@ -667,7 +667,7 @@
                     <officials>
                         <official>
                             <official-metadata key="optaperson:PO10514"
-                                position-event="spsocoffpos:main-official">
+                                position-event="offpos:main-official">
                                 <name role="nrol:full">Chris Foy</name>
                             </official-metadata>
                         </official>
@@ -4548,7 +4548,7 @@
                             sequence-number="1004175338" minutes-elapsed="23" time-elapsed="23:27"
                             period-value="1" team-idref="e.755363-t.43" start-location="0.0,0.0"
                             infraction-type="opinfract:Foul"
-                            infraction-level="spsocinfract:socinflevel:yellow-card"
+                            infraction-level="spsocinfractionlevel:yellow-card"
                             type="spsocaction:infraction">
                             <participant idref="PO42593" role="spsocrole:infraction-by"/>
                         </action>

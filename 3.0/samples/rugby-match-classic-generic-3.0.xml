@@ -22,7 +22,7 @@
     <sports-event>
         <event-metadata temporal-unit-type="cpnat:event"
             key="padevent:l.rugby.england.premiership-2014-e.3740642"
-            event-status="spevstatus:post-event" event-status-note="Result"
+            event-status="speventstatus:post-event" event-status-note="Result"
             start-date-time="2015-02-21T15:15:00+00:00"
             event-outcome-type="speventoutcometype:regular">
             <site>
@@ -40,15 +40,15 @@
             </team-metadata>
             <team-stats>
                 <stats>
-                    <stat stat-type="spcorstat:score" value="13"/>
-                    <stat stat-type="spcorstat:score-opposing" value="21"/>
-                    <stat stat-type="spcorstat:event-outcome" value="loss"/>
-                    <stat stat-type="sprgbstat:tries-scored" value="1"/>
-                    <stat stat-type="sprgbstat:conversions-scored" value="1"/>
-                    <stat stat-type="sprgbstat:penalty-goals-scored" value="2"/>
-                    <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                    <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                    <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                    <stat stat-type="spstat:score" value="13"/>
+                    <stat stat-type="spstat:score-opposing" value="21"/>
+                    <stat stat-type="spstat:event-outcome" value="loss"/>
+                    <stat stat-type="sprgxstat:tries-scored" value="1"/>
+                    <stat stat-type="sprgxstat:conversions-scored" value="1"/>
+                    <stat stat-type="sprgxstat:penalty-goals-scored" value="2"/>
+                    <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                    <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                    <stat stat-type="sprgxstat:ejections-total" value="0"/>
                 </stats>
                 <sub-score period-value="1" score="10"/>
                 <sub-score period-value="2" score="3"/>
@@ -56,370 +56,370 @@
                 <sub-score period-value="" score="13"/>
             </team-stats>
             <player id="p.416094">
-                <player-metadata key="padperson:p.416094" position-event="sprgbpos:fullback"
-                    uniform-number="15" status="spperstatus:starter">
+                <player-metadata key="padperson:p.416094" position-event="sprgxposition:fullback"
+                    uniform-number="15" status="spplayerstatus:starter">
                     <name role="nrol:full">Tom Homer</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="1"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="2"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="1"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="2"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.501168">
-                <player-metadata key="padperson:p.501168" position-event="sprgbpos:fullback"
-                    uniform-number="14" status="spperstatus:starter">
+                <player-metadata key="padperson:p.501168" position-event="sprgxposition:fullback"
+                    uniform-number="14" status="spplayerstatus:starter">
                     <name role="nrol:full">Semesa Rokoduguni</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.343059">
-                <player-metadata key="padperson:p.343059" position-event="sprgbpos:center"
-                    uniform-number="13" status="spperstatus:starter">
+                <player-metadata key="padperson:p.343059" position-event="sprgxposition:center"
+                    uniform-number="13" status="spplayerstatus:starter">
                     <name role="nrol:full">Sam Burgess</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.378841">
-                <player-metadata key="padperson:p.378841" position-event="sprgbpos:center"
-                    uniform-number="12" status="spperstatus:starter">
+                <player-metadata key="padperson:p.378841" position-event="sprgxposition:center"
+                    uniform-number="12" status="spplayerstatus:starter">
                     <name role="nrol:full">Kyle Eastmond</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.476085">
                 <player-metadata key="padperson:p.476085" uniform-number="11"
-                    status="spperstatus:starter">
+                    status="spplayerstatus:starter">
                     <name role="nrol:full">Ollie Woodburn</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="1"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="1"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.496022">
-                <player-metadata key="padperson:p.496022" position-event="sprgbpos:center"
-                    uniform-number="10" status="spperstatus:starter">
+                <player-metadata key="padperson:p.496022" position-event="sprgxposition:center"
+                    uniform-number="10" status="spplayerstatus:starter">
                     <name role="nrol:full">Ollie Devoto</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.390533">
-                <player-metadata key="padperson:p.390533" position-event="sprgbpos:scrum-half"
-                    uniform-number="9" status="spperstatus:starter">
+                <player-metadata key="padperson:p.390533" position-event="sprgxposition:scrum-half"
+                    uniform-number="9" status="spplayerstatus:starter">
                     <name role="nrol:full">Micky Young</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.18797">
-                <player-metadata key="padperson:p.18797" position-event="sprgbpos:prop"
-                    uniform-number="1" status="spperstatus:starter">
+                <player-metadata key="padperson:p.18797" position-event="sprgxposition:prop"
+                    uniform-number="1" status="spplayerstatus:starter">
                     <name role="nrol:full">Paul James</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.340055">
-                <player-metadata key="padperson:p.340055" position-event="sprgbpos:hooker"
-                    uniform-number="2" status="spperstatus:starter">
+                <player-metadata key="padperson:p.340055" position-event="sprgxposition:hooker"
+                    uniform-number="2" status="spplayerstatus:starter">
                     <name role="nrol:full">Rob Webber</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.457961">
-                <player-metadata key="padperson:p.457961" position-event="sprgbpos:prop"
-                    uniform-number="3" status="spperstatus:starter">
+                <player-metadata key="padperson:p.457961" position-event="sprgxposition:prop"
+                    uniform-number="3" status="spplayerstatus:starter">
                     <name role="nrol:full">Henry Thomas</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.213443">
-                <player-metadata key="padperson:p.213443" position-event="sprgbpos:flanker"
-                    uniform-number="4" status="spperstatus:starter">
+                <player-metadata key="padperson:p.213443" position-event="sprgxposition:flanker"
+                    uniform-number="4" status="spplayerstatus:starter">
                     <name role="nrol:full">Stuart Hooper</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.343889">
-                <player-metadata key="padperson:p.343889" position-event="sprgbpos:lock"
-                    uniform-number="5" status="spperstatus:starter">
+                <player-metadata key="padperson:p.343889" position-event="sprgxposition:lock"
+                    uniform-number="5" status="spplayerstatus:starter">
                     <name role="nrol:full">Dominic Day</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.423067">
-                <player-metadata key="padperson:p.423067" position-event="sprgbpos:lock"
-                    uniform-number="6" status="spperstatus:starter">
+                <player-metadata key="padperson:p.423067" position-event="sprgxposition:lock"
+                    uniform-number="6" status="spplayerstatus:starter">
                     <name role="nrol:full">Matt Garvey</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.360868">
-                <player-metadata key="padperson:p.360868" position-event="sprgbpos:flanker"
-                    uniform-number="7" status="spperstatus:starter">
+                <player-metadata key="padperson:p.360868" position-event="sprgxposition:flanker"
+                    uniform-number="7" status="spplayerstatus:starter">
                     <name role="nrol:full">Francois Louw</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.415765">
-                <player-metadata key="padperson:p.415765" position-event="sprgbpos:flanker"
-                    uniform-number="8" status="spperstatus:starter">
+                <player-metadata key="padperson:p.415765" position-event="sprgxposition:flanker"
+                    uniform-number="8" status="spplayerstatus:starter">
                     <name role="nrol:full">Carl Fearns</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.404699">
                 <player-metadata key="padperson:p.404699" uniform-number="16"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Ross Batty</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.477874">
                 <player-metadata key="padperson:p.477874" uniform-number="17"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Nick Auterac</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.442159">
                 <player-metadata key="padperson:p.442159" uniform-number="18"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Kane Palma-Newport</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.412155">
-                <player-metadata key="padperson:p.412155" position-event="sprgbpos:back-row"
-                    uniform-number="19" status="spperstatus:bench">
+                <player-metadata key="padperson:p.412155" position-event="sprgxposition:back-row"
+                    uniform-number="19" status="spplayerstatus:bench">
                     <name role="nrol:full">Alafoti Faosiliva</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.333959">
                 <player-metadata key="padperson:p.333959" uniform-number="20"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Leroy Houston</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.177851">
-                <player-metadata key="padperson:p.177851" position-event="sprgbpos:scrum-half"
-                    uniform-number="21" status="spperstatus:bench">
+                <player-metadata key="padperson:p.177851" position-event="sprgxposition:scrum-half"
+                    uniform-number="21" status="spplayerstatus:bench">
                     <name role="nrol:full">Peter Stringer</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.547213">
                 <player-metadata key="padperson:p.547213" uniform-number="22"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Rory Jennings</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.539400">
                 <player-metadata key="padperson:p.539400" uniform-number="23"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Luke Arscott</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -431,15 +431,15 @@
             </team-metadata>
             <team-stats>
                 <stats>
-                    <stat stat-type="spcorstat:score" value="21"/>
-                    <stat stat-type="spcorstat:score-opposing" value="13"/>
-                    <stat stat-type="spcorstat:event-outcome" value="win"/>
-                    <stat stat-type="sprgbstat:tries-scored" value="2"/>
-                    <stat stat-type="sprgbstat:conversions-scored" value="1"/>
-                    <stat stat-type="sprgbstat:penalty-goals-scored" value="3"/>
-                    <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                    <stat stat-type="sprgbstat:cautions-total" value="1"/>
-                    <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                    <stat stat-type="spstat:score" value="21"/>
+                    <stat stat-type="spstat:score-opposing" value="13"/>
+                    <stat stat-type="spstat:event-outcome" value="win"/>
+                    <stat stat-type="sprgxstat:tries-scored" value="2"/>
+                    <stat stat-type="sprgxstat:conversions-scored" value="1"/>
+                    <stat stat-type="sprgxstat:penalty-goals-scored" value="3"/>
+                    <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                    <stat stat-type="sprgxstat:cautions-total" value="1"/>
+                    <stat stat-type="sprgxstat:ejections-total" value="0"/>
                 </stats>
                 <sub-score period-value="1" score="12"/>
                 <sub-score period-value="2" score="9"/>
@@ -447,370 +447,370 @@
                 <sub-score period-value="" score="18"/>
             </team-stats>
             <player id="p.373518">
-                <player-metadata key="padperson:p.373518" position-event="sprgbpos:fullback"
-                    uniform-number="15" status="spperstatus:starter">
+                <player-metadata key="padperson:p.373518" position-event="sprgxposition:fullback"
+                    uniform-number="15" status="spplayerstatus:starter">
                     <name role="nrol:full">James Wilson</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="1"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="1"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.437613">
-                <player-metadata key="padperson:p.437613" position-event="sprgbpos:fullback"
-                    uniform-number="14" status="spperstatus:starter">
+                <player-metadata key="padperson:p.437613" position-event="sprgxposition:fullback"
+                    uniform-number="14" status="spplayerstatus:starter">
                     <name role="nrol:full">Ken Pisi</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.324028">
-                <player-metadata key="padperson:p.324028" position-event="sprgbpos:center"
-                    uniform-number="13" status="spperstatus:starter">
+                <player-metadata key="padperson:p.324028" position-event="sprgxposition:center"
+                    uniform-number="13" status="spplayerstatus:starter">
                     <name role="nrol:full">George Pisi</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="1"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="1"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.501169">
                 <player-metadata key="padperson:p.501169" uniform-number="12"
-                    status="spperstatus:starter">
+                    status="spplayerstatus:starter">
                     <name role="nrol:full">Tom Stephenson</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.454870">
                 <player-metadata key="padperson:p.454870" uniform-number="11"
-                    status="spperstatus:starter">
+                    status="spplayerstatus:starter">
                     <name role="nrol:full">Jamie Elliott</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.240140">
-                <player-metadata key="padperson:p.240140" position-event="sprgbpos:fly-half"
-                    uniform-number="10" status="spperstatus:starter">
+                <player-metadata key="padperson:p.240140" position-event="sprgxposition:fly-half"
+                    uniform-number="10" status="spplayerstatus:starter">
                     <name role="nrol:full">Stephen Myler</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="1"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="3"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="1"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="3"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.301540">
-                <player-metadata key="padperson:p.301540" position-event="sprgbpos:scrum-half"
-                    uniform-number="9" status="spperstatus:starter">
+                <player-metadata key="padperson:p.301540" position-event="sprgxposition:scrum-half"
+                    uniform-number="9" status="spplayerstatus:starter">
                     <name role="nrol:full">Lee Dickson</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.424118">
-                <player-metadata key="padperson:p.424118" position-event="sprgbpos:prop"
-                    uniform-number="1" status="spperstatus:starter">
+                <player-metadata key="padperson:p.424118" position-event="sprgxposition:prop"
+                    uniform-number="1" status="spplayerstatus:starter">
                     <name role="nrol:full">Alex Waller</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.454872">
                 <player-metadata key="padperson:p.454872" uniform-number="2"
-                    status="spperstatus:starter">
+                    status="spplayerstatus:starter">
                     <name role="nrol:full">Mike Haywood</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="1"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="1"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.436606">
                 <player-metadata key="padperson:p.436606" uniform-number="3"
-                    status="spperstatus:starter">
+                    status="spplayerstatus:starter">
                     <name role="nrol:full">Gareth Denman</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.171234">
-                <player-metadata key="padperson:p.171234" position-event="sprgbpos:fullback"
-                    uniform-number="4" status="spperstatus:starter">
+                <player-metadata key="padperson:p.171234" position-event="sprgxposition:fullback"
+                    uniform-number="4" status="spplayerstatus:starter">
                     <name role="nrol:full">James Craig</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.255724">
-                <player-metadata key="padperson:p.255724" position-event="sprgbpos:lock"
-                    uniform-number="5" status="spperstatus:starter">
+                <player-metadata key="padperson:p.255724" position-event="sprgxposition:lock"
+                    uniform-number="5" status="spplayerstatus:starter">
                     <name role="nrol:full">Christian Day</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.429208">
-                <player-metadata key="padperson:p.429208" position-event="sprgbpos:back-row"
-                    uniform-number="6" status="spperstatus:starter">
+                <player-metadata key="padperson:p.429208" position-event="sprgxposition:back-row"
+                    uniform-number="6" status="spplayerstatus:starter">
                     <name role="nrol:full">Samu Manoa</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.387549">
-                <player-metadata key="padperson:p.387549" position-event="sprgbpos:back-row"
-                    uniform-number="7" status="spperstatus:starter">
+                <player-metadata key="padperson:p.387549" position-event="sprgxposition:back-row"
+                    uniform-number="7" status="spplayerstatus:starter">
                     <name role="nrol:full">Calum Clark</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.434761">
-                <player-metadata key="padperson:p.434761" position-event="sprgbpos:back-row"
-                    uniform-number="8" status="spperstatus:starter">
+                <player-metadata key="padperson:p.434761" position-event="sprgxposition:back-row"
+                    uniform-number="8" status="spplayerstatus:starter">
                     <name role="nrol:full">Sam Dickinson</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.523205">
                 <player-metadata key="padperson:p.523205" uniform-number="16"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Matt Williams</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.412577">
-                <player-metadata key="padperson:p.412577" position-event="sprgbpos:prop"
-                    uniform-number="17" status="spperstatus:bench">
+                <player-metadata key="padperson:p.412577" position-event="sprgxposition:prop"
+                    uniform-number="17" status="spplayerstatus:bench">
                     <name role="nrol:full">Alex Corbisiero</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.342203">
-                <player-metadata key="padperson:p.342203" position-event="sprgbpos:prop"
-                    uniform-number="18" status="spperstatus:bench">
+                <player-metadata key="padperson:p.342203" position-event="sprgxposition:prop"
+                    uniform-number="18" status="spplayerstatus:bench">
                     <name role="nrol:full">Tom Mercey</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.487121">
                 <player-metadata key="padperson:p.487121" uniform-number="19"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Teimana Harrison</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.231887">
-                <player-metadata key="padperson:p.231887" position-event="sprgbpos:back-row"
-                    uniform-number="20" status="spperstatus:bench">
+                <player-metadata key="padperson:p.231887" position-event="sprgxposition:back-row"
+                    uniform-number="20" status="spplayerstatus:bench">
                     <name role="nrol:full">Phil Dowson</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.377667">
-                <player-metadata key="padperson:p.377667" position-event="sprgbpos:scrum-half"
-                    uniform-number="21" status="spperstatus:bench">
+                <player-metadata key="padperson:p.377667" position-event="sprgxposition:scrum-half"
+                    uniform-number="21" status="spplayerstatus:bench">
                     <name role="nrol:full">Kahn Fotuali'i</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.246714">
                 <player-metadata key="padperson:p.246714" uniform-number="22"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Sam Oliver</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
             <player id="p.547569">
                 <player-metadata key="padperson:p.547569" uniform-number="23"
-                    status="spperstatus:bench">
+                    status="spplayerstatus:bench">
                     <name role="nrol:full">Ahsee Tuala</name>
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat stat-type="sprgbstat:tries-scored" value="0"/>
-                        <stat stat-type="sprgbstat:conversions-scored" value="0"/>
-                        <stat stat-type="sprgbstat:penalty-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:drop-goals-scored" value="0"/>
-                        <stat stat-type="sprgbstat:cautions-total" value="0"/>
-                        <stat stat-type="sprgbstat:ejections-total" value="0"/>
+                        <stat stat-type="sprgxstat:tries-scored" value="0"/>
+                        <stat stat-type="sprgxstat:conversions-scored" value="0"/>
+                        <stat stat-type="sprgxstat:penalty-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:drop-goals-scored" value="0"/>
+                        <stat stat-type="sprgxstat:cautions-total" value="0"/>
+                        <stat stat-type="sprgxstat:ejections-total" value="0"/>
                     </stats>
                 </player-stats>
             </player>
@@ -823,102 +823,102 @@
             </official>
         </officials>
         <actions>
-            <action class="spclass:score" minutes-elapsed="3" team-idref="t.33094"
+            <action class="spactionclass:score" minutes-elapsed="3" team-idref="t.33094"
                 score-attempt-type="sprgxscoreattempt:try">
                 <participant idref="p.476085" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="3" team-idref="t.33094"
+            <action class="spactionclass:score" minutes-elapsed="3" team-idref="t.33094"
                 score-attempt-type="sprgxscoreattempt:conversion">
                 <participant idref="p.416094" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="24" team-idref="t.33094"
+            <action class="spactionclass:score" minutes-elapsed="24" team-idref="t.33094"
                 score-attempt-type="sprgxscoreattempt:penalty">
                 <participant idref="p.416094" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="28" team-idref="t.33286"
+            <action class="spactionclass:score" minutes-elapsed="28" team-idref="t.33286"
                 score-attempt-type="sprgxscoreattempt:try">
                 <participant idref="p.373518" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="35" team-idref="t.33286"
+            <action class="spactionclass:score" minutes-elapsed="35" team-idref="t.33286"
                 score-attempt-type="sprgxscoreattempt:try">
                 <participant idref="p.454872" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="35" team-idref="t.33286"
+            <action class="spactionclass:score" minutes-elapsed="35" team-idref="t.33286"
                 score-attempt-type="sprgxscoreattempt:conversion">
                 <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="48" team-idref="t.33286"
+            <action class="spactionclass:score" minutes-elapsed="48" team-idref="t.33286"
                 score-attempt-type="sprgxscoreattempt:penalty">
                 <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="53" team-idref="t.33286"
+            <action class="spactionclass:score" minutes-elapsed="53" team-idref="t.33286"
                 score-attempt-type="sprgxscoreattempt:penalty">
                 <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="58" team-idref="t.33094"
+            <action class="spactionclass:score" minutes-elapsed="58" team-idref="t.33094"
                 score-attempt-type="sprgxscoreattempt:penalty">
                 <participant idref="p.416094" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:score" minutes-elapsed="71" team-idref="t.33286"
+            <action class="spactionclass:score" minutes-elapsed="71" team-idref="t.33286"
                 score-attempt-type="sprgxscoreattempt:penalty">
                 <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="30" team-idref="t.33286">
+            <action class="spactionclass:substitution" minutes-elapsed="30" team-idref="t.33286">
                 <participant idref="p.171234" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="30" team-idref="t.33286">
+            <action class="spactionclass:substitution" minutes-elapsed="30" team-idref="t.33286">
                 <participant idref="p.231887" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="47" team-idref="t.33286">
+            <action class="spactionclass:substitution" minutes-elapsed="47" team-idref="t.33286">
                 <participant idref="p.424118" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="47" team-idref="t.33286">
+            <action class="spactionclass:substitution" minutes-elapsed="47" team-idref="t.33286">
                 <participant idref="p.412577" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.340055" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.404699" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.423067" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.412155" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.18797" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.477874" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.415765" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="53" team-idref="t.33094">
                 <participant idref="p.333959" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="59" team-idref="t.33094">
                 <participant idref="p.390533" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="59" team-idref="t.33094">
                 <participant idref="p.177851" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33286">
+            <action class="spactionclass:substitution" minutes-elapsed="59" team-idref="t.33286">
                 <participant idref="p.301540" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33286">
+            <action class="spactionclass:substitution" minutes-elapsed="59" team-idref="t.33286">
                 <participant idref="p.377667" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="70" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="70" team-idref="t.33094">
                 <participant idref="p.457961" role="sprgxrole:sub-off"/>
             </action>
-            <action class="spclass:substitution" minutes-elapsed="70" team-idref="t.33094">
+            <action class="spactionclass:substitution" minutes-elapsed="70" team-idref="t.33094">
                 <participant idref="p.442159" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spclass:infraction" minutes-elapsed="71" team-idref="t.33286"
-                infraction-level="sprgbinfract:yellow-card">
+            <action class="spactionclass:infraction" minutes-elapsed="71" team-idref="t.33286"
+                infraction-level="sprgxinfractionlevel:yellow-card">
                 <participant idref="p.324028" role="sprgxrole:infraction-by"/>
             </action>
         </actions>

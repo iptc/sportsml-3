@@ -26,7 +26,7 @@
         <subject type="cpnat:event" qcode="event:tt.se:xtz123">
             <name>Davis Cup</name>
         </subject>
-        <subject type="spcpnat:season" literal="2011"/>
+        <subject type="spct:season" literal="2011"/>
         <headline>Davis Cup 2011</headline>
         <description role="drol:summary">NOTE: This is a constructed sample and the stats from the game in the first final game is from another game.</description>
     </contentMeta>
@@ -48,7 +48,7 @@
                         The second part illustrates the special construction of davis cup with games between countries built on sub-events with games between individuals.-->
 
                         <tournament-part> <!-- Tournament part with the final. Note that the stats used is from another tennis game.  -->
-                            <tournament-part-metadata type="sptournamentpart:final">
+                            <tournament-part-metadata type="sptournamentphase:final">
                                 <name>Final</name>
                             </tournament-part-metadata>
 
@@ -722,7 +722,7 @@
                         </tournament-part>
 
                         <tournament-part> <!-- Tournament part with quarterfinals. Four games with end results -->
-                            <tournament-part-metadata type="sptournamentpart:Quearterfinals"
+                            <tournament-part-metadata type="sptournamentphase:quarter-final"
                                 status="speventstatus:post-event" start-date-time="2011-07-08"
                                 end-date-time="2011-07-10">
                                 <name>Quarterfinals</name>
@@ -790,7 +790,7 @@
                         </tournament-part>
 
                         <tournament-part> <!-- Tournament part with first rount. 8 games with just end results -->
-                            <tournament-part-metadata type="sptournamentpart:first" status="speventstatus:post-event"
+                            <tournament-part-metadata type="sptournamentphase:round" number="1" status="speventstatus:post-event"
                                 start-date-time="2011-03-04" end-date-time="2011-03-06">
                                 <name>First round</name>
                             </tournament-part-metadata>

@@ -39,13 +39,6 @@
 				France</definition>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
-		<concept id="sptournamentformgroup">
-			<conceptId qcode="sptournamentform:group"/>
-			<name xml:lang="en-US">group</name>
-			<definition>Groups of competitors vie for placement in the group table in order to
-				qualify for the next stage of competition.</definition>
-			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
-		</concept>
 		<concept id="sptournamentformsingle-group">
 			<conceptId qcode="sptournamentform:single-group"/>
 			<name xml:lang="en-US">single-group</name>
@@ -85,7 +78,6 @@
 		<definition xml:lang="en-US">The format type of tournament or tournament phase: group, elimination, etc.</definition>
 		<name xml:lang="en-US">Tournament Format Type</name>
 		<related qcode="sptournamentform:hosted" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentform:group" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:single-group" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:series" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:single-elimination" rel="skos:hasTopConcept"/>
