@@ -5,7 +5,7 @@
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-10-12T02:27:05-04:00"
-        doc-id="xt.sdi.20151012022705-standings_NHL" language="en-US" fixture-key="sdidoc:standings"
+        doc-id="xt.sdi.20151012022705-standings_NHL" language="en-US" fixture-key="spfixt:standings"
         document-class="spct:standings">
         <sports-content-codes>
             <sports-content-code code-name="Sports Direct, Inc."

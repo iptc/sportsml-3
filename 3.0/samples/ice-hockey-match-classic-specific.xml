@@ -7,7 +7,7 @@
     xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
     <sports-metadata date-time="2015-10-07T22:14:50-04:00"
         doc-id="xt.nhl.20001-BXG-20151007T221450-0400-FIN-FC0" language="en-US"
-        fixture-key="nhldoc:event-stats-progressive" document-class="event-summary">
+        fixture-key="spfixt:event-stats-progressive" document-class="event-summary">
         <sports-content-codes>
             <sports-content-code code-type="spct:publisher" code-name="National Hockey League"
                 code-key="publisher:nhl.com"/>

@@ -25,11 +25,11 @@
         <creator qcode="web:optasports.com">
             <name>Opta</name>
         </creator>
-        <genre qcode="xtsfixt:standings">
+        <genre qcode="spfixt:standings">
             <name xml:lang="en-US">Standings</name>
-            <broader qcode="dclass:standings"/>
+            <broader qcode="spct:standings"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:standings"/>
+        <genre qcode="spct:standings"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2015"/>
         <subject qcode="subj:15000000">
@@ -71,7 +71,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="3"
                                 standing-points="9" wins="3" losses="0" ties="0"
                                 points-scored-for="8" points-scored-against="1"/>
-                            <outcome-result type="resulteffect:promotion" comment="Champions_League"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Champions_League"/>
                             <rank type="vendor:events-all" value="1"/>
                             <rank type="vendor:events-home" value="1"/>
                             <rank type="vendor:events-away" value="2"/>
@@ -94,7 +94,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="3"
                                 standing-points="7" wins="2" losses="0" ties="1"
                                 points-scored-for="9" points-scored-against="3"/>
-                            <outcome-result type="resulteffect:promotion" comment="Champions_League"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Champions_League"/>
                             <rank type="vendor:events-all" value="2"/>
                             <rank type="vendor:events-home" value="2"/>
                             <rank type="vendor:events-away" value="4"/>
@@ -117,7 +117,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="4"
                                 standing-points="9" wins="3" losses="1" ties="0"
                                 points-scored-for="5" points-scored-against="3"/>
-                            <outcome-result type="resulteffect:promotion" comment="Champions_League"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Champions_League"/>
                             <rank type="vendor:events-all" value="3"/>
                             <rank type="vendor:events-home" value="6"/>
                             <rank type="vendor:events-away" value="3"/>
@@ -140,7 +140,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="4"
                                 standing-points="4" wins="1" losses="2" ties="1"
                                 points-scored-for="3" points-scored-against="6"/>
-                            <outcome-result type="resulteffect:promotion"
+                            <outcome-result type="spresulteffect:promotion"
                                 comment="Champions_League_Qualifying"/>
                             <rank type="vendor:events-all" value="4"/>
                             <rank type="vendor:events-home" value="3"/>
@@ -164,7 +164,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="4"
                                 standing-points="10" wins="3" losses="0" ties="1"
                                 points-scored-for="4" points-scored-against="1"/>
-                            <outcome-result type="resulteffect:promotion" comment="Europa_Cup"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Europa_Cup"/>
                             <rank type="vendor:events-all" value="5"/>
                             <rank type="vendor:events-home" value="13"/>
                             <rank type="vendor:events-away" value="1"/>
@@ -187,7 +187,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="4"
                                 standing-points="6" wins="2" losses="2" ties="0"
                                 points-scored-for="6" points-scored-against="6"/>
-                            <outcome-result type="resulteffect:promotion" comment="Europa_Cup"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Europa_Cup"/>
                             <rank type="vendor:events-all" value="6"/>
                             <rank type="vendor:events-home" value="7"/>
                             <rank type="vendor:events-away" value="5"/>
@@ -408,7 +408,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="4"
                                 standing-points="2" wins="0" losses="2" ties="2"
                                 points-scored-for="3" points-scored-against="8"/>
-                            <outcome-result type="resulteffect:demotion" comment="Relegation"/>
+                            <outcome-result type="spresulteffect:demotion" comment="Relegation"/>
                             <rank type="vendor:events-all" value="16"/>
                             <rank type="vendor:events-home" value="15"/>
                             <rank type="vendor:events-away" value="16"/>
@@ -431,7 +431,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="3"
                                 standing-points="1" wins="0" losses="2" ties="1"
                                 points-scored-for="4" points-scored-against="7"/>
-                            <outcome-result type="resulteffect:demotion" comment="Relegation"/>
+                            <outcome-result type="spresulteffect:demotion" comment="Relegation"/>
                             <rank type="vendor:events-all" value="17"/>
                             <rank type="vendor:events-home" value="14"/>
                             <rank type="vendor:events-away" value="18"/>
@@ -454,7 +454,7 @@
                             <outcome-totals alignment-scope="events-away" events-played="4"
                                 standing-points="4" wins="1" losses="2" ties="1"
                                 points-scored-for="8" points-scored-against="8"/>
-                            <outcome-result type="resulteffect:demotion" comment="Relegation"/>
+                            <outcome-result type="spresulteffect:demotion" comment="Relegation"/>
                             <rank type="vendor:events-all" value="18"/>
                             <rank type="vendor:events-home" value="18"/>
                             <rank type="vendor:events-away" value="9"/>

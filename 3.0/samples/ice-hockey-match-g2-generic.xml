@@ -25,11 +25,11 @@
         <creator qcode="web:nhl.com">
             <name>National Hockey League</name>
         </creator>
-        <genre qcode="xtsfixt:event-stats-progressive">
+        <genre qcode="spfixt:event-stats-progressive">
             <name xml:lang="en-US">Event Summary</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2015"/>
         <subject type="spct:season-phase" qcode="spct:season-regular"/>

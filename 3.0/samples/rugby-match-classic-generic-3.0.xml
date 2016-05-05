@@ -6,7 +6,7 @@
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-03-03T11:35:15-05:00"
         doc-id="xt.pa.20150303113515-28-3740642-post-event" language="en-US"
-        fixture-key="paddoc:event-stats" document-class="spct:event-summary">
+        fixture-key="spfixt:event-stats" document-class="spct:event-summary">
         <sports-content-codes>
             <sports-content-code code-type="spct:publisher" code-key="publisher:padatasports.com"
                 code-name="The Press Association"/>
@@ -824,102 +824,102 @@
         </officials>
         <actions>
             <action class="spclass:score" minutes-elapsed="3" team-idref="t.33094"
-                score-attempt-type="rbscore:try">
-                <participant idref="p.476085" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:try">
+                <participant idref="p.476085" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="3" team-idref="t.33094"
-                score-attempt-type="rbscore:conversion">
-                <participant idref="p.416094" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:conversion">
+                <participant idref="p.416094" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="24" team-idref="t.33094"
-                score-attempt-type="rbscore:penalty">
-                <participant idref="p.416094" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:penalty">
+                <participant idref="p.416094" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="28" team-idref="t.33286"
-                score-attempt-type="rbscore:try">
-                <participant idref="p.373518" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:try">
+                <participant idref="p.373518" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="35" team-idref="t.33286"
-                score-attempt-type="rbscore:try">
-                <participant idref="p.454872" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:try">
+                <participant idref="p.454872" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="35" team-idref="t.33286"
-                score-attempt-type="rbscore:conversion">
-                <participant idref="p.240140" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:conversion">
+                <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="48" team-idref="t.33286"
-                score-attempt-type="rbscore:penalty">
-                <participant idref="p.240140" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:penalty">
+                <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="53" team-idref="t.33286"
-                score-attempt-type="rbscore:penalty">
-                <participant idref="p.240140" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:penalty">
+                <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="58" team-idref="t.33094"
-                score-attempt-type="rbscore:penalty">
-                <participant idref="p.416094" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:penalty">
+                <participant idref="p.416094" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:score" minutes-elapsed="71" team-idref="t.33286"
-                score-attempt-type="rbscore:penalty">
-                <participant idref="p.240140" role="rgbrole:scorer"/>
+                score-attempt-type="sprgxscoreattempt:penalty">
+                <participant idref="p.240140" role="sprgxrole:scorer"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="30" team-idref="t.33286">
-                <participant idref="p.171234" role="rgbrole:sub-off"/>
+                <participant idref="p.171234" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="30" team-idref="t.33286">
-                <participant idref="p.231887" role="rgbrole:sub-on"/>
+                <participant idref="p.231887" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="47" team-idref="t.33286">
-                <participant idref="p.424118" role="rgbrole:sub-off"/>
+                <participant idref="p.424118" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="47" team-idref="t.33286">
-                <participant idref="p.412577" role="rgbrole:sub-on"/>
+                <participant idref="p.412577" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.340055" role="rgbrole:sub-off"/>
+                <participant idref="p.340055" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.404699" role="rgbrole:sub-on"/>
+                <participant idref="p.404699" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.423067" role="rgbrole:sub-off"/>
+                <participant idref="p.423067" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.412155" role="rgbrole:sub-on"/>
+                <participant idref="p.412155" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.18797" role="rgbrole:sub-off"/>
+                <participant idref="p.18797" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.477874" role="rgbrole:sub-on"/>
+                <participant idref="p.477874" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.415765" role="rgbrole:sub-off"/>
+                <participant idref="p.415765" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="53" team-idref="t.33094">
-                <participant idref="p.333959" role="rgbrole:sub-on"/>
+                <participant idref="p.333959" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33094">
-                <participant idref="p.390533" role="rgbrole:sub-off"/>
+                <participant idref="p.390533" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33094">
-                <participant idref="p.177851" role="rgbrole:sub-on"/>
+                <participant idref="p.177851" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33286">
-                <participant idref="p.301540" role="rgbrole:sub-off"/>
+                <participant idref="p.301540" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="59" team-idref="t.33286">
-                <participant idref="p.377667" role="rgbrole:sub-on"/>
+                <participant idref="p.377667" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="70" team-idref="t.33094">
-                <participant idref="p.457961" role="rgbrole:sub-off"/>
+                <participant idref="p.457961" role="sprgxrole:sub-off"/>
             </action>
             <action class="spclass:substitution" minutes-elapsed="70" team-idref="t.33094">
-                <participant idref="p.442159" role="rgbrole:sub-on"/>
+                <participant idref="p.442159" role="sprgxrole:sub-on"/>
             </action>
             <action class="spclass:infraction" minutes-elapsed="71" team-idref="t.33286"
                 infraction-level="sprgbinfract:yellow-card">
-                <participant idref="p.324028" role="rgbrole:infraction-by"/>
+                <participant idref="p.324028" role="sprgxrole:infraction-by"/>
             </action>
         </actions>
     </sports-event>

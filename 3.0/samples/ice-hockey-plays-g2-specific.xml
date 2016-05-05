@@ -25,11 +25,11 @@
         <creator qcode="web:nhl.com">
             <name>National Hockey League</name>
         </creator>
-        <genre qcode="xtsfixt:play-summary">
+        <genre qcode="spfixt:play-summary">
             <name xml:lang="en-US">Play Summary</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
         <subject type="spct:season-phase" qcode="spct:post-season"/>

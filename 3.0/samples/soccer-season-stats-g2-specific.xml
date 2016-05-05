@@ -25,11 +25,11 @@
         <creator qcode="web:optasports.com">
             <name>Opta</name>
         </creator>
-        <genre qcode="xtsfixt:season-stats">
+        <genre qcode="spfixt:season-stats">
             <name xml:lang="en-US">Season Statistics</name>
-            <broader qcode="dclass:statistics"/>
+            <broader qcode="spct:statistics"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:statistics"/>
+        <genre qcode="spct:statistics"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2015"/>
         <subject qcode="subj:15000000">

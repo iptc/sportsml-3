@@ -6,7 +6,7 @@
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
     <sports-metadata date-time="2015-05-13T22:56:54-04:00"
         doc-id="xt.nhl.30227-EVS-20150513T225654-0400-FIN-FC0" language="en-US"
-        fixture-key="nhldoc:play-summary" document-class="spct:event-summary">
+        fixture-key="spfixt:play-summary" document-class="spct:event-summary">
         <sports-content-codes>
             <sports-content-code code-type="spct:publisher" code-name="National Hockey League"
                 code-key="publisher:nhl.com"/>

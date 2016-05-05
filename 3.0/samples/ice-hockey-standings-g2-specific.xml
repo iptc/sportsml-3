@@ -25,11 +25,11 @@
         <creator qcode="web:sportsdirectinc.com">
             <name>Sports Direct, Inc.</name>
         </creator>
-        <genre qcode="xtsfixt:standings">
+        <genre qcode="spfixt:standings">
             <name xml:lang="en-US">Standings</name>
-            <broader qcode="dclass:standings"/>
+            <broader qcode="spct:standings"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:standings"/>
+        <genre qcode="spct:standings"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2015"/>
         <subject qcode="subj:15000000">

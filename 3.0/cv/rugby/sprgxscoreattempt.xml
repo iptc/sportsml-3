@@ -34,6 +34,12 @@
         <description>Types of scoring in rugby.</description>
     </contentMeta>
     <conceptSet>
+        <concept id="sprgxscoreattempttry">
+            <conceptId qcode="sprgxscoreattempt:try"/>
+            <name xml:lang="en-US">Try</name>
+            <definition>Score by grounding the ball in the in-goal area (between the goal line and the dead-ball line); worth 5 points.</definition>
+            <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
+        </concept>
         <concept id="sprgxscoreattemptpenalty">
             <conceptId qcode="sprgxscoreattempt:penalty"/>
             <name xml:lang="en-US">penalty</name>
@@ -57,6 +63,7 @@
         uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" preferredalias="sprgxscoreattempt">
         <definition xml:lang="en-US">Types of scoring in rugby.</definition>
         <name xml:lang="en-US">Rugby Score Types</name>
+        <related qcode="sprgxscoreattempt:try" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:penalty" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:drop" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:conversion" rel="skos:hasTopConcept"/>

@@ -25,12 +25,12 @@
         <creator qcode="web:sportsnetwork.com">
             <name>The Sports Network</name>
         </creator>
-        <altId type="idtype:tsn-id" id="sportsnetwork.com-"/>
-        <genre qcode="xtsfixt:roster">
+        <altId type="idtype:tsn-id" id="sportsnetwork.com"/>
+        <genre qcode="spfixt:roster">
             <name xml:lang="en-US">Roster</name>
-            <broader qcode="dclass:dynamic-resource-file"/>
+            <broader qcode="spct:dynamic-resource-file"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:dynamic-resource-file"/>
+        <genre qcode="spct:dynamic-resource-file"/>
         <language tag="en-US"/>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
@@ -44,7 +44,7 @@
             <broader qcode="subj:15031000"/>
             <sameAs qcode="subj:15031001"/>
         </subject>
-        <subject type="spct:conf" qcode="conf:l.nhl.com-">
+        <subject type="spct:conference" qcode="conference:l.nhl.com-c.western">
             <name xml:lang="en-US">Western</name>
             <broader qcode="league:l.nhl.com"/>
         </subject>

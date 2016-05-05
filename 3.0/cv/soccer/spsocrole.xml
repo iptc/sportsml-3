@@ -125,6 +125,18 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
+        <concept id="spsocrolesub-on">
+            <conceptId qcode="spsocrole:sub-on"/>
+            <name xml:lang="en-US">sub-on</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spsocrolesub-off">
+            <conceptId qcode="spsocrole:sub-off"/>
+            <name xml:lang="en-US">sub-off</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
+        </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spsocrole/"
         preferredalias="spsocrole">
@@ -145,6 +157,8 @@
         <related qcode="spsocrole:free-kicker" rel="skos:hasTopConcept"/>
         <related qcode="spsocrole:penalty-kicker" rel="skos:hasTopConcept"/>
         <related qcode="spsocrole:goalkeeper" rel="skos:hasTopConcept"/>
+        <related qcode="spsocrole:sub-on" rel="skos:hasTopConcept"/>
+        <related qcode="spsocrole:sub-off" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

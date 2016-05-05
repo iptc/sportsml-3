@@ -47,7 +47,7 @@
                             <sports-content-codes>
                                 <sports-content-code code-type="subj:qual">
                                     <sports-content-qualifier gender="male"
-                                        participant-count="part:individual"/>
+                                        participant-count="spparticipantcount:individual"/>
                                 </sports-content-code>
                             </sports-content-codes>
                             <name>Men</name>
@@ -58,8 +58,8 @@
 
                             <player>
                                 <player-metadata>
-                                    <name part="np:first">Jhonattan</name>
-                                    <name part="np:last">Vegas</name>
+                                    <name part="nprt:first">Jhonattan</name>
+                                    <name part="nprt:last">Vegas</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name/></locality><area><name/></area><country><name>Venezuela</name></country><postalCode/></address>
@@ -391,7 +391,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="4" event-outcome="eo:tie"/>
+                                        <player-stats score="4" event-outcome="speventoutcome:tie"/>
                                     </player>
 
                                     <player>
@@ -403,7 +403,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="4" event-outcome="eo:tie"/>
+                                        <player-stats score="4" event-outcome="speventoutcome:tie"/>
                                     </player>
 
                                     <player>
@@ -415,7 +415,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="5" event-outcome="eo:loss">
+                                        <player-stats score="5" event-outcome="speventoutcome:loss">
                                             <rank value="3"/>
                                         </player-stats>
                                     </player>
@@ -450,7 +450,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="4" event-outcome="eo:win">
+                                        <player-stats score="4" event-outcome="speventoutcome:win">
                                             <rank value="1"/>
                                         </player-stats>
                                     </player>
@@ -465,7 +465,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="-" event-outcome="eo:loss">
+                                        <player-stats score="-" event-outcome="speventoutcome:loss">
                                             <rank value="2"/>
                                         </player-stats>
                                     </player>

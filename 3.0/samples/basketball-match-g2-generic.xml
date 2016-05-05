@@ -25,12 +25,12 @@
         <creator qcode="web:sportsnetwork.com">
             <name>The Sports Network, Inc.</name>
         </creator>
-        <altId type="idtype:tsn-id" id="sportsnetwork.com-"/>
-        <genre qcode="xtsfixt:event-stats-progressive">
+        <altId type="idtype:tsn-id" id="sportsnetwork.com"/>
+        <genre qcode="spfixt:event-stats-progressive">
             <name xml:lang="en-US">Progressive Event Statistics</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
         <subject type="spct:season-phase" qcode="spct:regular"/>
@@ -46,7 +46,7 @@
             <broader qcode="subj:15008000"/>
             <sameAs qcode="subj:15008001"/>
         </subject>
-        <subject type="spct:conf" qcode="conf:l.nba.com-">
+        <subject type="spct:conference" qcode="conference:l.nba.com-c.eastern">
             <name xml:lang="en-US">Eastern</name>
             <broader qcode="league:l.nba.com"/>
         </subject>

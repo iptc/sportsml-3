@@ -25,11 +25,11 @@
         <creator qcode="web:optasports.com">
             <name>Opta</name>
         </creator>
-        <genre qcode="xtsfixt:event-stats">
+        <genre qcode="spfixt:event-stats">
             <name xml:lang="en-US">Event Score and Stats</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
         <subject qcode="subj:15000000">

@@ -25,12 +25,12 @@
         <creator qcode="web:sportsnetwork.com">
             <name>The Sports Network</name>
         </creator>
-        <altId type="idtype:tsn-id" id="sportsnetwork.com-"/>
-        <genre qcode="xtsfixt:event-stats">
+        <altId type="idtype:tsn-id" id="sportsnetwork.com"/>
+        <genre qcode="spfixt:event-stats">
             <name xml:lang="en-US">Box Score</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
         <subject type="spct:season-phase" qcode="spct:post-season"/>
@@ -46,7 +46,7 @@
             <broader qcode="subj:15003000"/>
             <sameAs qcode="subj:15003001"/>
         </subject>
-        <subject type="spct:conf" qcode="conf:l.nfl.com-">
+        <subject type="spct:conference" qcode="conference:l.nfl.com-c.american">
             <name xml:lang="en-US">American</name>
             <broader qcode="league:l.nfl.com"/>
         </subject>
