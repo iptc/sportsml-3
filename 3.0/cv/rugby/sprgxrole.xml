@@ -103,18 +103,11 @@
         <related qcode="sprgxrole:on-field" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:scorer" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:assist" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:shooter" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:blocker" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:infraction-committed-by" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:infraction-committed-against" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:infraction-by" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:infraction-against" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:giveaway" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:takeaway" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:thrower" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:corner-kicker" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:offside" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:free-kicker" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:penalty-kicker" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxrole:goalkeeper" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:sub-on" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:sub-off" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
