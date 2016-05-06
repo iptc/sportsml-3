@@ -149,6 +149,18 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
         </concept>
+        <concept id="sprgxpositionback-row">
+            <conceptId qcode="sprgxposition:back-row"/>
+            <name xml:lang="en-US">back-row</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxpositionflanker">
+            <conceptId qcode="sprgxposition:flanker"/>
+            <name xml:lang="en-US">flanker</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxposition/" rel="skos:inScheme"/>
+        </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sprgxposition/"
         preferredalias="sprgxposition">
@@ -173,6 +185,8 @@
         <related qcode="sprgxposition:left-wing" rel="skos:hasTopConcept"/>
         <related qcode="sprgxposition:right-wing" rel="skos:hasTopConcept"/>
         <related qcode="sprgxposition:fullback" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxposition:back-row" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxposition:flanker" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

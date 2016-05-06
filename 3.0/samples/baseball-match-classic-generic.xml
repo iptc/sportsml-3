@@ -46,7 +46,7 @@
                     <stat stat-type="spstat:event-outcome" value="undecided"/>
                     <stat stat-type="spstat:score" value="6"/>
                     <stat stat-type="spstat:score-opposing" value="1"/>
-                    <stat class="spct:offense" stat-type="spstat:runs-scored" value="6"/>
+                    <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="6"/>
                     <stat class="spct:offense" stat-type="spbblstat:hits" value="12"/>
                     <stat class="spct:defense" stat-type="spbblstat:errors" value="1"/>
                 </stats>
@@ -67,10 +67,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="5"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -131,10 +131,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -195,10 +195,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="2"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -246,10 +246,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -310,10 +310,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -374,10 +374,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -425,10 +425,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="4"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="1"/>
@@ -489,10 +489,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -554,10 +554,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -628,8 +628,8 @@
                             value="105"/>
                         <stat class="spct:pitching" stat-type="spbblstat:era" value="3.72"/>
                         <stat class="spct:pitching" stat-type="spbblstat:whip" value="34.81"/>
-                        <stat class="spct:pitching" stat-type="spstat:wins" value="0"/>
-                        <stat class="spct:pitching" stat-type="spstat:losses" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:wins" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:losses" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:saves" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="0"/>
@@ -655,10 +655,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -707,10 +707,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -781,8 +781,8 @@
                             value="8"/>
                         <stat class="spct:pitching" stat-type="spbblstat:era" value="1.50"/>
                         <stat class="spct:pitching" stat-type="spbblstat:whip" value="2.67"/>
-                        <stat class="spct:pitching" stat-type="spstat:wins" value="0"/>
-                        <stat class="spct:pitching" stat-type="spstat:losses" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:wins" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:losses" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:saves" value="0"/>
                     </stats>
                 </player-stats>
@@ -934,7 +934,7 @@
                     <stat stat-type="spstat:event-outcome" value="undecided"/>
                     <stat stat-type="spstat:score" value="1"/>
                     <stat stat-type="spstat:score-opposing" value="6"/>
-                    <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                    <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                     <stat class="spct:offense" stat-type="spbblstat:hits" value="9"/>
                     <stat class="spct:defense" stat-type="spbblstat:errors" value="0"/>
                 </stats>
@@ -955,10 +955,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1019,10 +1019,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1083,10 +1083,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="4"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="3"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="1"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1147,10 +1147,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1211,10 +1211,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1275,10 +1275,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1339,10 +1339,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1403,10 +1403,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="3"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1468,10 +1468,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1542,8 +1542,8 @@
                             value="85"/>
                         <stat class="spct:pitching" stat-type="spbblstat:era" value="4.80"/>
                         <stat class="spct:pitching" stat-type="spbblstat:whip" value="42.07"/>
-                        <stat class="spct:pitching" stat-type="spstat:wins" value="0"/>
-                        <stat class="spct:pitching" stat-type="spstat:losses" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:wins" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:losses" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:saves" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="2"/>
@@ -1570,10 +1570,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1644,8 +1644,8 @@
                             value="9"/>
                         <stat class="spct:pitching" stat-type="spbblstat:era" value="0.00"/>
                         <stat class="spct:pitching" stat-type="spbblstat:whip" value="3.43"/>
-                        <stat class="spct:pitching" stat-type="spstat:wins" value="0"/>
-                        <stat class="spct:pitching" stat-type="spstat:losses" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:wins" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:losses" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:saves" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="1"/>
@@ -1671,10 +1671,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1723,10 +1723,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1797,8 +1797,8 @@
                             value="11"/>
                         <stat class="spct:pitching" stat-type="spbblstat:era" value="4.45"/>
                         <stat class="spct:pitching" stat-type="spbblstat:whip" value="8.19"/>
-                        <stat class="spct:pitching" stat-type="spstat:wins" value="0"/>
-                        <stat class="spct:pitching" stat-type="spstat:losses" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:wins" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:losses" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:saves" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:putouts" value="0"/>
                         <stat class="spct:defense" stat-type="spbblstat:assists" value="1"/>
@@ -1824,10 +1824,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="1"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="1"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1876,10 +1876,10 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spstat:runs-scored" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:runs-scored" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:at-bats" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:hits" value="0"/>
-                        <stat class="spct:offense" stat-type="spstat:rbi" value="0"/>
+                        <stat class="spct:offense" stat-type="spbblstat:rbi" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:singles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:doubles" value="0"/>
                         <stat class="spct:offense" stat-type="spbblstat:triples" value="0"/>
@@ -1950,8 +1950,8 @@
                             value="16"/>
                         <stat class="spct:pitching" stat-type="spbblstat:era" value="4.12"/>
                         <stat class="spct:pitching" stat-type="spbblstat:whip" value="10.81"/>
-                        <stat class="spct:pitching" stat-type="spstat:wins" value="0"/>
-                        <stat class="spct:pitching" stat-type="spstat:losses" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:wins" value="0"/>
+                        <stat class="spct:pitching" stat-type="spbblstat:losses" value="0"/>
                         <stat class="spct:pitching" stat-type="spbblstat:saves" value="0"/>
                     </stats>
                 </player-stats>

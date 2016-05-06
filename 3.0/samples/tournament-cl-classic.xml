@@ -6156,7 +6156,7 @@
                         start-date-time="2015-02-17T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788106" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6218,7 +6218,7 @@
                         start-date-time="2015-02-17T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788111" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6262,7 +6262,7 @@
                         start-date-time="2015-02-18T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788113" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6324,7 +6324,7 @@
                         start-date-time="2015-02-18T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788110" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6386,7 +6386,7 @@
                         start-date-time="2015-02-24T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788109" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6456,7 +6456,7 @@
                         start-date-time="2015-02-24T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788107" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6523,7 +6523,7 @@
                         start-date-time="2015-02-25T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788112" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6601,7 +6601,7 @@
                         start-date-time="2015-02-25T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788108" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6655,9 +6655,9 @@
                         start-date-time="2015-03-10T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788105" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB201" code-name="FC Porto"/>
                         </sports-content-codes>
                         <site>
@@ -6741,9 +6741,9 @@
                         start-date-time="2015-03-10T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788102" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB186" code-name="Real Madrid"/>
                         </sports-content-codes>
                         <site>
@@ -6845,7 +6845,7 @@
                         start-date-time="2015-03-11T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:extra-time">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788097" code-name="1st Leg"/>
                         </sports-content-codes>
                         <site>
@@ -6933,9 +6933,9 @@
                         start-date-time="2015-03-11T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788103" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB156" code-name="FC Bayern M&#xFC;nchen"
                             />
                         </sports-content-codes>
@@ -7041,9 +7041,9 @@
                         start-date-time="2015-03-17T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:shootout">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788100" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB175" code-name="Atl&#xE9;tico de Madrid"
                             />
                         </sports-content-codes>
@@ -7149,9 +7149,9 @@
                         start-date-time="2015-03-17T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788104" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB146" code-name="Monaco"/>
                         </sports-content-codes>
                         <site>
@@ -7219,9 +7219,9 @@
                         start-date-time="2015-03-18T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788099" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB178" code-name="Barcelona"/>
                         </sports-content-codes>
                         <site>
@@ -7281,9 +7281,9 @@
                         start-date-time="2015-03-18T19:45:00+00:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB788101" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB128" code-name="Juventus"/>
                         </sports-content-codes>
                         <site>
@@ -7363,7 +7363,7 @@
                         start-date-time="2015-04-14T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799716" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -7407,7 +7407,7 @@
                         start-date-time="2015-04-14T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799714" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -7461,7 +7461,7 @@
                         start-date-time="2015-04-15T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799723" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -7536,7 +7536,7 @@
                         start-date-time="2015-04-15T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799718" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -7611,9 +7611,9 @@
                         start-date-time="2015-04-21T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799717" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB178" code-name="Barcelona"/>
                         </sports-content-codes>
                         <site>
@@ -7678,9 +7678,9 @@
                         start-date-time="2015-04-21T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799720" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB156" code-name="FC Bayern M&#xFC;nchen"
                             />
                         </sports-content-codes>
@@ -7786,9 +7786,9 @@
                         start-date-time="2015-04-22T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799713" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB128" code-name="Juventus"/>
                         </sports-content-codes>
                         <site>
@@ -7838,9 +7838,9 @@
                         start-date-time="2015-04-22T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB799715" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB186" code-name="Real Madrid"/>
                         </sports-content-codes>
                         <site>
@@ -7907,7 +7907,7 @@
                         start-date-time="2015-05-05T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB800860" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -7977,7 +7977,7 @@
                         start-date-time="2015-05-06T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB800859" code-name="2nd Leg"/>
                         </sports-content-codes>
                         <site>
@@ -8044,9 +8044,9 @@
                         start-date-time="2015-05-12T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB800857" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB178" code-name="Barcelona"/>
                         </sports-content-codes>
                         <site>
@@ -8135,9 +8135,9 @@
                         start-date-time="2015-05-13T19:45:00+01:00"
                         event-outcome-type="speventoutcometype:regular">
                         <sports-content-codes>
-                            <sports-content-code code-type="spct:series-pairing"
+                            <sports-content-code code-type="evtype:series-pairing"
                                 code-key="series-pairing:EOFB800858" code-name="1st Leg"/>
-                            <sports-content-code code-type="spct:series-winner"
+                            <sports-content-code code-type="evtype:series-winner"
                                 code-key="series-winner:TFBB128" code-name="Juventus"/>
                         </sports-content-codes>
                         <site>

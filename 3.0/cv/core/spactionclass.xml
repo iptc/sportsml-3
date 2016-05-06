@@ -60,6 +60,12 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
         </concept>
+        <concept id="spactionclassofficial-procedure">
+            <conceptId qcode="spactionclass:official-procedure"/>
+            <name xml:lang="en-US">official-procedure</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
+        </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spactionclass/"
         preferredalias="spactionclass">
@@ -71,6 +77,7 @@
         <related qcode="spactionclass:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spactionclass:score" rel="skos:hasTopConcept"/>
         <related qcode="spactionclass:infraction" rel="skos:hasTopConcept"/>
+        <related qcode="spactionclass:official-procedure" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

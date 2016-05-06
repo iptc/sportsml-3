@@ -61,9 +61,15 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spfixtplay">
-            <conceptId qcode="spfixt:play"/>
-            <name xml:lang="en-US">play</name>
+        <concept id="spfixtaction">
+            <conceptId qcode="spfixt:action"/>
+            <name xml:lang="en-US">action</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spfixtaction-summary">
+            <conceptId qcode="spfixt:action-summary"/>
+            <name xml:lang="en-US">action-summary</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
@@ -94,6 +100,18 @@
         <concept id="spfixtevent-stats-summary">
             <conceptId qcode="spfixt:event-stats-summary"/>
             <name xml:lang="en-US">event-stats-summary</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spfixtevent-stats-progressive">
+            <conceptId qcode="spfixt:event-stats-progressive"/>
+            <name xml:lang="en-US">event-stats-progressive</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="spfixtseason-stats">
+            <conceptId qcode="spfixt:season-stats"/>
+            <name xml:lang="en-US">season-stats</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spfixt/" rel="skos:inScheme"/>
         </concept>
@@ -497,12 +515,15 @@
         <related qcode="spfixt:action-penalty" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:action-score" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:highlight" rel="skos:hasTopConcept"/>
-        <related qcode="spfixt:play" rel="skos:hasTopConcept"/>
+        <related qcode="spfixt:action" rel="skos:hasTopConcept"/>
+        <related qcode="spfixt:action-summary" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:player-capsules" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:event-score" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:event-stats" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:event-stats-summary" rel="skos:hasTopConcept"/>
+        <related qcode="spfixt:event-stats-progressive" rel="skos:hasTopConcept"/>
+        <related qcode="spfixt:season-stats" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:leaderboard" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:lineup" rel="skos:hasTopConcept"/>
         <related qcode="spfixt:mid-event-coverage" rel="skos:hasTopConcept"/>

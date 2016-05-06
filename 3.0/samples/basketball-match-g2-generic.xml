@@ -33,7 +33,7 @@
         <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
-        <subject type="spct:season-phase" qcode="spct:regular"/>
+        <subject type="spct:season-type" qcode="spct:season-regular"/>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
         </subject>
@@ -81,12 +81,6 @@
                                 <stat stat-type="spstat:event-outcome" value="undecided"/>
                                 <stat stat-type="spstat:score" value="84"/>
                                 <stat stat-type="spstat:score-opposing" value="93"/>
-                                <stat stat-type="spstat:count" value="0"/>
-                                <stat stat-type="spstat:type" value="team technical fouls"/>
-                                <stat stat-type="spstat:count" value="2"/>
-                                <stat stat-type="spstat:type" value="technical fouls"/>
-                                <stat stat-type="spstat:count" value="24"/>
-                                <stat stat-type="spstat:type" value="personal fouls"/>
                                 <stat class="spct:offense"
                                     stat-type="spbkbstat:field-goals-made" value="31"/>
                                 <stat class="spct:offense"
@@ -131,10 +125,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="5"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="16"/>
                                     <stat class="spct:offense"
@@ -174,10 +164,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="3"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="17"/>
                                     <stat class="spct:offense"
@@ -217,10 +203,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="0"/>
                                     <stat class="spct:offense"
@@ -260,10 +242,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="3"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="20"/>
                                     <stat class="spct:offense"
@@ -303,10 +281,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="3"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="7"/>
                                     <stat class="spct:offense"
@@ -346,10 +320,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="7"/>
                                     <stat class="spct:offense"
@@ -389,10 +359,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="10"/>
                                     <stat class="spct:offense"
@@ -432,10 +398,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="2"/>
                                     <stat class="spct:offense"
@@ -475,10 +437,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="5"/>
                                     <stat class="spct:offense"
@@ -518,10 +476,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="0"/>
                                     <stat class="spct:offense"
@@ -565,12 +519,6 @@
                                 <stat stat-type="spstat:event-outcome" value="undecided"/>
                                 <stat stat-type="spstat:score" value="93"/>
                                 <stat stat-type="spstat:score-opposing" value="84"/>
-                                <stat stat-type="spstat:count" value="2"/>
-                                <stat stat-type="spstat:type" value="team technical fouls"/>
-                                <stat stat-type="spstat:count" value="3"/>
-                                <stat stat-type="spstat:type" value="technical fouls"/>
-                                <stat stat-type="spstat:count" value="23"/>
-                                <stat stat-type="spstat:type" value="personal fouls"/>
                                 <stat class="spct:offense"
                                     stat-type="spbkbstat:field-goals-made" value="35"/>
                                 <stat class="spct:offense"
@@ -615,10 +563,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="3"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="21"/>
                                     <stat class="spct:offense"
@@ -658,10 +602,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="4"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="12"/>
                                     <stat class="spct:offense"
@@ -701,10 +641,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="14"/>
                                     <stat class="spct:offense"
@@ -744,10 +680,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="3"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="6"/>
                                     <stat class="spct:offense"
@@ -787,10 +719,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="11"/>
                                     <stat class="spct:offense"
@@ -830,10 +758,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="6"/>
                                     <stat class="spct:offense"
@@ -873,10 +797,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="9"/>
                                     <stat class="spct:offense"
@@ -916,10 +836,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="4"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="2"/>
                                     <stat class="spct:offense"
@@ -959,10 +875,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="2"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="8"/>
                                     <stat class="spct:offense"
@@ -1002,10 +914,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="0"/>
                                     <stat class="spct:offense"
@@ -1045,10 +953,6 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
-                                    <stat stat-type="spstat:count" value="0"/>
-                                    <stat stat-type="spstat:type" value="technical fouls"/>
-                                    <stat stat-type="spstat:count" value="1"/>
-                                    <stat stat-type="spstat:type" value="personal fouls"/>
                                     <stat class="spct:offense"
                                         stat-type="spbkbstat:points-scored-total" value="4"/>
                                     <stat class="spct:offense"

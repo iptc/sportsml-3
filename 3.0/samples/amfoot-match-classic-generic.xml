@@ -61,7 +61,7 @@
                         value="72"/>
                     <stat class="spct:offense"
                         stat-type="spamfstat:offensive-plays-average-yards-per" value="5.2"/>
-                    <stat class="spct:offense" stat-type="spamfstat:tackles" value="2"/>
+                    <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="2"/>
                     <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                         value="0"/>
                     <stat class="spct:defense" stat-type="spamfstat:interceptions-total"
@@ -106,7 +106,7 @@
                         stat-type="spamfstat:two-point-conversions-made" value="0"/>
                     <stat class="spct:scoring"
                         stat-type="spamfstat:two-point-conversions-attempts" value="0"/>
-                    <stat class="spct:special-teams" stat-type="spamfstat:tackles" value="2"/>
+                    <stat class="spct:special-teams" stat-type="spamfstat:tackles-total" value="2"/>
                     <stat class="spct:special-teams" stat-type="spamfstat:tackles-assists"
                         value="0"/>
                     <stat class="spct:special-teams" stat-type="spamfstat:punts-total"
@@ -134,7 +134,7 @@
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-committed"
                         value="0"/>
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-lost" value="0"/>
-                    <stat class="spct:infraction" stat-type="spstat:penalty-yards"
+                    <stat class="spct:infraction" stat-type="spamfstat:penalty-yards"
                         value="36"/>
                     <stat class="spct:infraction" stat-type="spamfstat:penalties-total"
                         value="5"/>
@@ -196,7 +196,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -219,7 +219,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="1"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -233,7 +233,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -256,7 +256,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -279,7 +279,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="1"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="1"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -302,7 +302,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -325,7 +325,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -348,7 +348,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -362,7 +362,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -385,7 +385,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -399,7 +399,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -422,7 +422,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -435,7 +435,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -458,7 +458,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -472,7 +472,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -495,7 +495,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -529,7 +529,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="1"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="1"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -554,7 +554,7 @@
                             value="1"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -605,7 +605,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -628,7 +628,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -651,7 +651,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -674,7 +674,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -700,7 +700,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -723,7 +723,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -737,7 +737,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -760,7 +760,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -774,7 +774,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -797,7 +797,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -811,7 +811,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -834,7 +834,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -848,7 +848,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -871,7 +871,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -885,7 +885,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -908,7 +908,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="1"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -931,7 +931,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -954,7 +954,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -980,7 +980,7 @@
                         value="53"/>
                     <stat class="spct:offense"
                         stat-type="spamfstat:offensive-plays-average-yards-per" value="7.5"/>
-                    <stat class="spct:offense" stat-type="spamfstat:tackles" value="1"/>
+                    <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="1"/>
                     <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                         value="0"/>
                     <stat class="spct:defense" stat-type="spamfstat:interceptions-total"
@@ -1025,7 +1025,7 @@
                         stat-type="spamfstat:two-point-conversions-made" value="0"/>
                     <stat class="spct:scoring"
                         stat-type="spamfstat:two-point-conversions-attempts" value="0"/>
-                    <stat class="spct:special-teams" stat-type="spamfstat:tackles" value="5"/>
+                    <stat class="spct:special-teams" stat-type="spamfstat:tackles-total" value="5"/>
                     <stat class="spct:special-teams" stat-type="spamfstat:tackles-assists"
                         value="0"/>
                     <stat class="spct:special-teams" stat-type="spamfstat:punts-total"
@@ -1053,7 +1053,7 @@
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-committed"
                         value="0"/>
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-lost" value="0"/>
-                    <stat class="spct:infraction" stat-type="spstat:penalty-yards"
+                    <stat class="spct:infraction" stat-type="spamfstat:penalty-yards"
                         value="70"/>
                     <stat class="spct:infraction" stat-type="spamfstat:penalties-total"
                         value="7"/>
@@ -1070,7 +1070,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1093,7 +1093,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1119,7 +1119,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1142,7 +1142,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1156,7 +1156,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1179,7 +1179,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1193,7 +1193,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1216,7 +1216,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="1"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1253,7 +1253,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1276,7 +1276,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1290,7 +1290,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1313,7 +1313,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="1"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1336,7 +1336,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1359,7 +1359,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1373,7 +1373,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="1"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="1"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1396,7 +1396,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1434,7 +1434,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1457,7 +1457,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1471,7 +1471,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1494,7 +1494,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1531,7 +1531,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1554,7 +1554,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1568,7 +1568,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1591,7 +1591,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="2"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1605,7 +1605,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1628,7 +1628,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1642,7 +1642,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1665,7 +1665,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1679,7 +1679,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1702,7 +1702,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="1"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1716,7 +1716,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1739,7 +1739,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1762,7 +1762,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1785,7 +1785,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1819,7 +1819,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1842,7 +1842,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>
@@ -1865,7 +1865,7 @@
                 </player-metadata>
                 <player-stats>
                     <stats>
-                        <stat class="spct:offense" stat-type="spamfstat:tackles" value="0"/>
+                        <stat class="spct:offense" stat-type="spamfstat:tackles-total" value="0"/>
                         <stat class="spct:offense" stat-type="spamfstat:tackles-assists"
                             value="0"/>
                         <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
@@ -1888,7 +1888,7 @@
                             stat-type="spamfstat:interceptions-touchdown" value="0"/>
                         <stat class="spct:scoring" stat-type="spamfstat:safeties-against"
                             value="0"/>
-                        <stat class="spct:special-teams" stat-type="spamfstat:tackles"
+                        <stat class="spct:special-teams" stat-type="spamfstat:tackles-total"
                             value="0"/>
                         <stat class="spct:special-teams"
                             stat-type="spamfstat:tackles-assists" value="0"/>

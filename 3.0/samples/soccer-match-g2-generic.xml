@@ -112,7 +112,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="45"/>
@@ -146,7 +146,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
@@ -191,7 +191,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="51"/>
@@ -233,7 +233,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="4"/>
@@ -276,7 +276,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="50"/>
@@ -314,7 +314,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="73"/>
@@ -358,7 +358,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="61"/>
@@ -404,7 +404,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="68"/>
@@ -450,7 +450,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="71"/>
                                     <stat stat-type="spsocstat:touches" value="34"/>
@@ -484,7 +484,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="61"/>
                                     <stat stat-type="spsocstat:aerials-won" value="3"/>
@@ -517,7 +517,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="71"/>
                                     <stat stat-type="spsocstat:touches" value="19"/>
@@ -561,7 +561,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:time-played-total" value="19"/>
                                     <stat stat-type="spsocstat:touches" value="8"/>
                                     <stat class="spct:offense"
@@ -602,7 +602,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:time-played-total" value="29"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="16"/>
@@ -646,7 +646,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.2">
+                                    team="team:o.thefa.com-t.2">
                                     <stat stat-type="spstat:time-played-total" value="19"/>
                                     <stat stat-type="spsocstat:touches" value="15"/>
                                     <stat class="spct:offense"
@@ -711,7 +711,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
@@ -746,7 +746,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="72"/>
@@ -786,7 +786,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="100"/>
@@ -828,7 +828,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="4"/>
@@ -867,7 +867,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
@@ -922,7 +922,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="91"/>
@@ -962,7 +962,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="56"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
@@ -1005,7 +1005,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
@@ -1050,7 +1050,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="84"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
@@ -1099,7 +1099,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="64"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
@@ -1140,7 +1140,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="50"/>
@@ -1196,7 +1196,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:time-played-total" value="26"/>
                                     <stat stat-type="spsocstat:touches" value="42"/>
                                     <stat class="spct:offense"
@@ -1239,7 +1239,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:time-played-total" value="6"/>
                                     <stat stat-type="spsocstat:touches" value="12"/>
                                     <stat class="spct:offense"
@@ -1264,7 +1264,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:event"
-                                    team="spteam:o.thefa.com-t.12">
+                                    team="team:o.thefa.com-t.12">
                                     <stat stat-type="spstat:time-played-total" value="34"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="30"/>

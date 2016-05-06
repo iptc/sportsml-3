@@ -101,7 +101,7 @@
                                 <player-metadata-soccer line-formation-position="1"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -119,7 +119,7 @@
                                 <player-metadata-soccer line-formation-position="2"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -136,7 +136,7 @@
                                 <player-metadata-soccer line-formation-position="5"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -153,7 +153,7 @@
                                 <player-metadata-soccer line-formation-position="6"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -170,7 +170,7 @@
                                 <player-metadata-soccer line-formation-position="3"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -187,7 +187,7 @@
                                 <player-metadata-soccer line-formation-position="7"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -204,7 +204,7 @@
                                 <player-metadata-soccer line-formation-position="4"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -221,7 +221,7 @@
                                 <player-metadata-soccer line-formation-position="8"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -238,7 +238,7 @@
                                 <player-metadata-soccer line-formation-position="10"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="71">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -255,7 +255,7 @@
                                 <player-metadata-soccer line-formation-position="9"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="61">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -272,7 +272,7 @@
                                 <player-metadata-soccer line-formation-position="11"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="71">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-on-goal-total="1"/>
@@ -297,7 +297,7 @@
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" time-played-total="19">
+                                temporal-unit-type="sptemporalunit:event" time-played-total="19">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
                                     <stats-soccer-defensive goals-against-total="2"/>
@@ -321,7 +321,7 @@
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" time-played-total="29">
+                                temporal-unit-type="sptemporalunit:event" time-played-total="29">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
                                     <stats-soccer-defensive goals-against-total="2"/>
@@ -353,7 +353,7 @@
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" time-played-total="19">
+                                temporal-unit-type="sptemporalunit:event" time-played-total="19">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
                                     <stats-soccer-defensive goals-against-total="2"/>
@@ -391,7 +391,7 @@
                                 <player-metadata-soccer line-formation-position="1"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -409,7 +409,7 @@
                                 <player-metadata-soccer line-formation-position="2"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -426,7 +426,7 @@
                                 <player-metadata-soccer line-formation-position="5"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
@@ -443,7 +443,7 @@
                                 <player-metadata-soccer line-formation-position="6"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-on-goal-total="1"/>
@@ -460,7 +460,7 @@
                                 <player-metadata-soccer line-formation-position="3"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"
@@ -479,7 +479,7 @@
                                 <player-metadata-soccer line-formation-position="7"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive assists-total="1"/>
@@ -496,7 +496,7 @@
                                 <player-metadata-soccer line-formation-position="4"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="56">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -513,7 +513,7 @@
                                 <player-metadata-soccer line-formation-position="8"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive goals-total="1" shots-total="1"
@@ -531,7 +531,7 @@
                                 <player-metadata-soccer line-formation-position="11"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="84">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="4" shots-on-goal-total="2"
@@ -549,7 +549,7 @@
                                 <player-metadata-soccer line-formation-position="10"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="64">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -566,7 +566,7 @@
                                 <player-metadata-soccer line-formation-position="9"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" events-started="1"
+                                temporal-unit-type="sptemporalunit:event" events-started="1"
                                 time-played-total="90">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive goals-total="1" shots-total="4"
@@ -592,7 +592,7 @@
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" time-played-total="26">
+                                temporal-unit-type="sptemporalunit:event" time-played-total="26">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive assists-total="1"/>
                                     <stats-soccer-defensive goals-against-total="0"/>
@@ -616,7 +616,7 @@
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" time-played-total="6">
+                                temporal-unit-type="sptemporalunit:event" time-played-total="6">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive/>
                                     <stats-soccer-defensive goals-against-total="0"/>
@@ -632,7 +632,7 @@
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats team-coverage="single-team"
-                                temporal-unit-type="spct:event" time-played-total="34">
+                                temporal-unit-type="sptemporalunit:event" time-played-total="34">
                                 <player-stats-soccer>
                                     <stats-soccer-offensive shots-total="2" shots-on-goal-total="1"
                                         shots-off-goal-total="1"/>

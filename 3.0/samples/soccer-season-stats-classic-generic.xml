@@ -55,7 +55,7 @@
                     <name role="nrol:full">César Azpilicueta</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="9"/>
                         <stat stat-type="spstat:events-started" value="9"/>
                         <stat stat-type="spstat:time-played-total" value="788"/>
@@ -93,7 +93,7 @@
                     <name role="nrol:full">Abdul Rahman Baba</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="1"/>
                         <stat stat-type="spstat:events-started" value="1"/>
                         <stat stat-type="spstat:time-played-total" value="90"/>
@@ -119,7 +119,7 @@
                     <name role="nrol:full">Asmir Begovic</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="7"/>
                         <stat stat-type="spstat:events-started" value="6"/>
                         <stat stat-type="spstat:time-played-total" value="576"/>
@@ -152,7 +152,7 @@
                     <name role="nrol:full">Willian Borges Da Silva</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="8"/>
                         <stat stat-type="spstat:events-started" value="6"/>
                         <stat stat-type="spstat:time-played-total" value="483"/>
@@ -193,7 +193,7 @@
                     <name role="nrol:full">Gary Cahill</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="7"/>
                         <stat stat-type="spstat:events-started" value="6"/>
                         <stat stat-type="spstat:time-played-total" value="574"/>
@@ -226,7 +226,7 @@
                     <name role="nrol:full">Thibaut Courtois</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="3"/>
                         <stat stat-type="spstat:events-started" value="3"/>
                         <stat stat-type="spstat:time-played-total" value="232"/>
@@ -259,7 +259,7 @@
                     <name role="nrol:full">Diego Da Silva Costa</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="7"/>
                         <stat stat-type="spstat:events-started" value="7"/>
                         <stat stat-type="spstat:time-played-total" value="610"/>
@@ -301,7 +301,7 @@
                     <name role="nrol:full">Cesc Fàbregas</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="9"/>
                         <stat stat-type="spstat:events-started" value="9"/>
                         <stat stat-type="spstat:time-played-total" value="779"/>
@@ -338,7 +338,7 @@
                     <name role="nrol:full">Radamel Falcao García Zárate</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="7"/>
                         <stat stat-type="spstat:events-started" value="1"/>
                         <stat stat-type="spstat:time-played-total" value="192"/>
@@ -376,7 +376,7 @@
                     <name role="nrol:full">Eden Hazard</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="9"/>
                         <stat stat-type="spstat:events-started" value="8"/>
                         <stat stat-type="spstat:time-played-total" value="727"/>
@@ -413,7 +413,7 @@
                     <name role="nrol:full">Branislav Ivanovic</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="8"/>
                         <stat stat-type="spstat:events-started" value="8"/>
                         <stat stat-type="spstat:time-played-total" value="720"/>
@@ -446,7 +446,7 @@
                     <name role="nrol:full">Ruben Loftus-Cheek</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="2"/>
                         <stat stat-type="spstat:events-started" value="1"/>
                         <stat stat-type="spstat:time-played-total" value="62"/>
@@ -472,7 +472,7 @@
                     <name role="nrol:full">Nemanja Matic</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="9"/>
                         <stat stat-type="spstat:events-started" value="7"/>
                         <stat stat-type="spstat:time-played-total" value="657"/>
@@ -512,7 +512,7 @@
                     <name role="nrol:full">John Obi Mikel</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="3"/>
                         <stat stat-type="spstat:events-started" value="1"/>
                         <stat stat-type="spstat:time-played-total" value="62"/>
@@ -539,7 +539,7 @@
                     <name role="nrol:full">Robert Kenedy Nunes do Nascimento</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="2"/>
                         <stat stat-type="spstat:time-played-total" value="57"/>
                         <stat class="spct:offense" stat-type="spsocstat:shots-total" value="2"/>
@@ -566,7 +566,7 @@
                     <name role="nrol:full">Loïc Remy</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="4"/>
                         <stat stat-type="spstat:events-started" value="1"/>
                         <stat stat-type="spstat:time-played-total" value="87"/>
@@ -589,7 +589,7 @@
                     <name role="nrol:full">Pedro Rodríguez Ledesma</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="7"/>
                         <stat stat-type="spstat:events-started" value="6"/>
                         <stat stat-type="spstat:time-played-total" value="533"/>
@@ -631,7 +631,7 @@
                     <name role="nrol:full">Ramires Santos do Nascimento</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="5"/>
                         <stat stat-type="spstat:events-started" value="3"/>
                         <stat stat-type="spstat:time-played-total" value="237"/>
@@ -669,7 +669,7 @@
                     <name role="nrol:full">John Terry</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="6"/>
                         <stat stat-type="spstat:events-started" value="6"/>
                         <stat stat-type="spstat:time-played-total" value="459"/>
@@ -712,7 +712,7 @@
                     <name role="nrol:full">Kurt Zouma</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="8"/>
                         <stat stat-type="spstat:events-started" value="6"/>
                         <stat stat-type="spstat:time-played-total" value="599"/>
@@ -749,7 +749,7 @@
                     <name role="nrol:full">Oscar dos Santos Emboaba Junior</name>
                 </player-metadata>
                 <player-stats>
-                    <stats temporal-unit-type="sptemporalunit:season" team="spteam:o.thefa.com-t.5">
+                    <stats temporal-unit-type="sptemporalunit:season" team="team:o.thefa.com-t.5">
                         <stat stat-type="spstat:events-played" value="4"/>
                         <stat stat-type="spstat:events-started" value="4"/>
                         <stat stat-type="spstat:time-played-total" value="286"/>

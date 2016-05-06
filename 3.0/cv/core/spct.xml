@@ -60,15 +60,20 @@
             <definition xml:lang="en-US">The phase of a season after the regular season during which
                 competitors vie for the league championship.</definition>
         </concept>
-        <concept id="spctpre-season">
-            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:pre-season"/>
+        <concept id="spctseason-exhibition">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:season-exhibition"/>
             <name xml:lang="en-US">Pre Season</name>
-            <definition xml:lang="en-US">The phase of a season before the regular season during
+            <definition xml:lang="en-US">The phase of a season during
                 which exhibition matches are played.</definition>
         </concept>
         <concept id="spctcompetition">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:competition"/>
             <name xml:lang="en-US">Competition</name>
+            <definition xml:lang="en-US"/>
+        </concept>
+        <concept id="spcttournament">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:tournament"/>
+            <name xml:lang="en-US">Tournament</name>
             <definition xml:lang="en-US"/>
         </concept>
         <concept id="spctconference">
@@ -134,6 +139,8 @@
             <definition xml:lang="en-US">A statistical indicator of on-field performance in
                 sport.</definition>
         </concept>
+
+        <!-- statistical classification codes -->
         <concept id="spctoffense">
             <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:offense"/>
             <name xml:lang="en-US">Offense</name>
@@ -145,7 +152,50 @@
             <name xml:lang="en-US">Defense</name>
             <definition xml:lang="en-US">A class of position, role or statistic in
                 sport.</definition>
+        </concept>        
+        <concept id="spctspecial-teams">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:special-teams"/>
+            <name xml:lang="en-US">Special Teams</name>
+            <definition xml:lang="en-US">A class of role or statistic in
+                (usually) American Football.</definition>
         </concept>
+        <concept id="spctfumbles">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:fumbles"/>
+            <name xml:lang="en-US">Fumbles</name>
+            <definition xml:lang="en-US">A class of role or statistic in
+                American Football.</definition>
+        </concept>
+        <concept id="spctfaceoffs">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:faceoffs"/>
+            <name xml:lang="en-US">Face-offs</name>
+            <definition xml:lang="en-US">A class of statistic in
+                Ice Hockey.</definition>
+        </concept>
+        <concept id="spcttime-on-ice">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:time-on-ice"/>
+            <name xml:lang="en-US">Time On Ice</name>
+            <definition xml:lang="en-US">A class of statistic in
+                Ice Hockey.</definition>
+        </concept>
+        <concept id="spctpitching">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:pitching"/>
+            <name xml:lang="en-US">Pitching</name>
+            <definition xml:lang="en-US">A class of statistic in
+                Baseball.</definition>
+        </concept>
+        <concept id="spctrebounding">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:rebounding"/>
+            <name xml:lang="en-US">Rebounding</name>
+            <definition xml:lang="en-US">A class of statistic in
+                Basketball.</definition>
+        </concept>
+        <concept id="spctscoring">
+            <conceptId created="2013-01-02T01:00:00+00:00" qcode="spct:scoring"/>
+            <name xml:lang="en-US">Scoring</name>
+            <definition xml:lang="en-US">A class of statistic in
+                sport.</definition>
+        </concept>
+        
         <!-- news management codes -->
         <concept id="spctarticle-ref">
             <conceptId qcode="spct:article-ref"/>
@@ -211,10 +261,11 @@
         <related qcode="spct:league" rel="skos:hasTopConcept"/>
         <related qcode="spct:season" rel="skos:hasTopConcept"/>
         <related qcode="spct:season-type" rel="skos:hasTopConcept"/>
+        <related qcode="spct:season-exhibition" rel="skos:hasTopConcept"/>
         <related qcode="spct:season-regular" rel="skos:hasTopConcept"/>
         <related qcode="spct:post-season" rel="skos:hasTopConcept"/>
-        <related qcode="spct:pre-season" rel="skos:hasTopConcept"/>
         <related qcode="spct:competition" rel="skos:hasTopConcept"/>
+        <related qcode="spct:tournament" rel="skos:hasTopConcept"/>
         <related qcode="spct:conference" rel="skos:hasTopConcept"/>
         <related qcode="spct:division" rel="skos:hasTopConcept"/>
         <related qcode="spct:news" rel="skos:hasTopConcept"/>
@@ -227,7 +278,13 @@
         <related qcode="spct:team" rel="skos:hasTopConcept"/>
         <related qcode="spct:stat" rel="skos:hasTopConcept"/>
         <related qcode="spct:offense" rel="skos:hasTopConcept"/>
-        <related qcode="spct:defense" rel="skos:hasTopConcept"/>
+        <related qcode="spct:defense" rel="skos:hasTopConcept"/>        
+        <related qcode="spct:special-teams" rel="skos:hasTopConcept"/>
+        <related qcode="spct:fumbles" rel="skos:hasTopConcept"/>
+        <related qcode="spct:faceoffs" rel="skos:hasTopConcept"/>
+        <related qcode="spct:time-on-ice" rel="skos:hasTopConcept"/>
+        <related qcode="spct:rebounding" rel="skos:hasTopConcept"/>
+        <related qcode="spct:scoring" rel="skos:hasTopConcept"/>        
         <related qcode="spct:article-ref" rel="skos:hasTopConcept"/>
         <related qcode="spct:photo-ref" rel="skos:hasTopConcept"/>
         <related qcode="spct:audio-ref" rel="skos:hasTopConcept"/>

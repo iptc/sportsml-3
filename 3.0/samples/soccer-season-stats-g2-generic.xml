@@ -98,7 +98,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="9"/>
                                     <stat stat-type="spstat:time-played-total" value="788"/>
@@ -151,7 +151,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="1"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
@@ -186,7 +186,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="576"/>
@@ -225,7 +225,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="8"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="483"/>
@@ -284,7 +284,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="574"/>
@@ -327,7 +327,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="3"/>
                                     <stat stat-type="spstat:events-started" value="3"/>
                                     <stat stat-type="spstat:time-played-total" value="232"/>
@@ -366,7 +366,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="7"/>
                                     <stat stat-type="spstat:time-played-total" value="610"/>
@@ -427,7 +427,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="9"/>
                                     <stat stat-type="spstat:time-played-total" value="779"/>
@@ -478,7 +478,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="192"/>
@@ -531,7 +531,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="8"/>
                                     <stat stat-type="spstat:time-played-total" value="727"/>
@@ -582,7 +582,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="8"/>
                                     <stat stat-type="spstat:events-started" value="8"/>
                                     <stat stat-type="spstat:time-played-total" value="720"/>
@@ -625,7 +625,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="2"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="62"/>
@@ -660,7 +660,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="7"/>
                                     <stat stat-type="spstat:time-played-total" value="657"/>
@@ -715,7 +715,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="3"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="62"/>
@@ -752,7 +752,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="2"/>
                                     <stat stat-type="spstat:time-played-total" value="57"/>
                                     <stat class="spct:offense" stat-type="spsocstat:shots-total"
@@ -788,7 +788,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="4"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="87"/>
@@ -819,7 +819,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="533"/>
@@ -880,7 +880,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="5"/>
                                     <stat stat-type="spstat:events-started" value="3"/>
                                     <stat stat-type="spstat:time-played-total" value="237"/>
@@ -933,7 +933,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="6"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="459"/>
@@ -986,7 +986,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="8"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="599"/>
@@ -1037,7 +1037,7 @@
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="spteam:o.thefa.com-t.5">
+                                    team="team:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="4"/>
                                     <stat stat-type="spstat:events-started" value="4"/>
                                     <stat stat-type="spstat:time-played-total" value="286"/>

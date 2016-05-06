@@ -148,21 +148,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="2"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -186,21 +186,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="1"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -224,21 +224,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="1"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -262,21 +262,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="0"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -296,21 +296,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="0"
                     losses="2" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -334,14 +334,14 @@
                     scoping-label="division-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="0"
                     losses="2" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -362,21 +362,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="1" losses="0"
                     losses-overtime="1"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="1" losses="0"
                     losses-overtime="1"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="1"
                     losses="0" losses-overtime="1"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="1" losses="0"
                     losses-overtime="1"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="1" losses="0"
                     losses-overtime="1"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -524,21 +524,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="1"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -562,21 +562,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="0"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -600,21 +600,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="1"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="1" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -641,7 +641,7 @@
                     scoping-label="conference-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="3" wins="2" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -668,14 +668,14 @@
                     scoping-label="division-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="1"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -696,21 +696,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="2"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -740,7 +740,7 @@
                     scoping-label="conference-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -905,21 +905,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="0"
                     losses="2" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -949,7 +949,7 @@
                     scoping-label="conference-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -973,14 +973,14 @@
                     scoping-label="division-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="0"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1007,14 +1007,14 @@
                     scoping-label="division-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="0"
                     losses="1" losses-overtime="1"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="0" losses="1"
                     losses-overtime="1"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="1"
                     losses-overtime="1"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1041,7 +1041,7 @@
                     scoping-label="conference-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="1"
                     losses-overtime="1"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1065,21 +1065,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="2"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="3" wins="3" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1103,21 +1103,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="0"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1141,21 +1141,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="1"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1316,21 +1316,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="2"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1354,21 +1354,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="3" wins="2" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="3" wins="2" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="3" wins="2"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="3" wins="2" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="3" wins="2" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1392,21 +1392,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="0"
                     losses="2" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1427,21 +1427,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="0"
                     losses="1" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="0" losses="1"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1462,21 +1462,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="3" wins="3" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="3" wins="3" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="3" wins="3"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="3" wins="3" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="3" wins="3" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1500,14 +1500,14 @@
                     scoping-label="division-standings" events-played="0" wins="0" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="1" wins="1"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
@@ -1528,12 +1528,12 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="3" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division"
                     duration-scope="spdurationscope:events-shootout"
-                    temporal-unit-type="spct:recent-ten-events" losses="1"/>
+                    temporal-unit-type="sptemporalunit:recent-ten-events" losses="1"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="3" wins="0" losses="2"
                     losses-overtime="0"/>
@@ -1541,12 +1541,12 @@
                     duration-scope="spdurationscope:events-shootout"
                     temporal-unit-type="spct:season-regular" losses="1"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="3" wins="0"
                     losses="2" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
                     duration-scope="spdurationscope:events-shootout"
-                    temporal-unit-type="spct:recent-ten-events" losses="1"/>
+                    temporal-unit-type="sptemporalunit:recent-ten-events" losses="1"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="3" wins="0" losses="2"
                     losses-overtime="0"/>
@@ -1554,12 +1554,12 @@
                     duration-scope="spdurationscope:events-shootout"
                     temporal-unit-type="spct:season-regular" losses="1"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="3" wins="0" losses="2"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
                     duration-scope="spdurationscope:events-shootout"
-                    temporal-unit-type="spct:recent-ten-events" losses="1"/>
+                    temporal-unit-type="sptemporalunit:recent-ten-events" losses="1"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"
                     alignment-scope="events-away" scoping-label="away-league-standings"
                     events-played="1" wins="0" losses="1" losses-overtime="0"/>
@@ -1587,21 +1587,21 @@
             </team-metadata>
             <team-stats>
                 <outcome-totals unit-type="spct:division"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
                     scoping-label="division-standings" events-played="1" wins="1" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-conference-standings" events-played="2" wins="2"
                     losses="0" losses-overtime="0"/>
                 <outcome-totals unit-type="spct:conference" temporal-unit-type="spct:season-regular"
                     scoping-label="conference-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league"
-                    temporal-unit-type="spct:recent-ten-events"
+                    temporal-unit-type="sptemporalunit:recent-ten-events"
                     scoping-label="last-10-league-standings" events-played="2" wins="2" losses="0"
                     losses-overtime="0"/>
                 <outcome-totals competition="spct:league" temporal-unit-type="spct:season-regular"

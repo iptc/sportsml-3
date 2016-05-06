@@ -55,6 +55,12 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
+        <concept id="spphaseminor-league">
+            <conceptId qcode="spphase:minor-league"/>
+            <name xml:lang="en-US">minor-league</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
+        </concept>
         <concept id="spphasesemi-professional">
             <conceptId qcode="spphase:semi-professional"/>
             <name xml:lang="en-US">semi-professional</name>
@@ -87,6 +93,7 @@
         <related qcode="spphase:scholastic" rel="skos:hasTopConcept"/>
         <related qcode="spphase:college" rel="skos:hasTopConcept"/>
         <related qcode="spphase:amateur" rel="skos:hasTopConcept"/>
+        <related qcode="spphase:minor-league" rel="skos:hasTopConcept"/>
         <related qcode="spphase:professional" rel="skos:hasTopConcept"/>
         <related qcode="spphase:semi-professional" rel="skos:hasTopConcept"/>
         <related qcode="spphase:former-professional" rel="skos:hasTopConcept"/>

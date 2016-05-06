@@ -33,7 +33,7 @@
         <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2015"/>
-        <subject type="spct:season-phase" qcode="spct:season-regular"/>
+        <subject type="spct:season-type" qcode="spct:season-regular"/>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
         </subject>
@@ -78,7 +78,7 @@
                             <name part="nprt:common">Toronto</name>
                             <name part="nprt:nickname">Maple Leafs</name>
                         </team-metadata>
-                        <team-stats temporal-unit-type="spct:event"
+                        <team-stats temporal-unit-type="sptemporalunit:event"
                             temporal-unit-value="vendor:l.nhl.com-2015-e.20001" score="1"
                             score-attempts="37" time-played-total="60:00">
                             <penalty-stats count="2" value="4"/>
@@ -189,31 +189,31 @@
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">JONATHAN BERNIER</name>
                             </player-metadata>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:1">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:1" scoping-label="period:1"
                                         saves="6"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:2">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:2" scoping-label="period:2"
                                         saves="16"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:3">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:3" scoping-label="period:3"
                                         saves="5"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:event"
+                            <player-stats temporal-unit-type="sptemporalunit:event"
                                 temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                 time-played-total="57:43" score-opposing="2"
                                 score-attempts-opposing="29" events-started="1">
@@ -227,12 +227,12 @@
                                         goals-game-winning="0" goals-empty-net="0" assists="0"
                                         assists-power-play="0" assists-short-handed="0"
                                         giveaways="0" shots-missed="0" shot-attempts-blocked="0"/>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         saves="27" save-percentage="0.931" goaltender-wins="0"
                                         goaltender-losses="1" goaltender-losses-overtime="0"
                                         shutouts="0"/>
-                                    <stats-ice-hockey-time-on-ice temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-time-on-ice temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         time-power-play="04:06" time-short-handed="02:00"
                                         time-even-strength="51:37"/>
@@ -591,31 +591,31 @@
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">JAMES REIMER</name>
                             </player-metadata>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:1">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:1" scoping-label="period:1"
                                         saves="0"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:2">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:2" scoping-label="period:2"
                                         saves="0"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:3">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:3" scoping-label="period:3"
                                         saves="0"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:event"
+                            <player-stats temporal-unit-type="sptemporalunit:event"
                                 temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                 time-played-total="00:00" score-opposing="0"
                                 score-attempts-opposing="0" events-started="0">
@@ -626,12 +626,12 @@
                                         goals-game-winning="0" goals-empty-net="0" assists="0"
                                         assists-power-play="0" assists-short-handed="0"
                                         giveaways="0" shots-missed="0" shot-attempts-blocked="0"/>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         saves="0" save-percentage="NaN" goaltender-wins="0"
                                         goaltender-losses="0" goaltender-losses-overtime="0"
                                         shutouts="0"/>
-                                    <stats-ice-hockey-time-on-ice temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-time-on-ice temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         time-power-play="00:00" time-short-handed="00:00"
                                         time-even-strength="00:00"/>
@@ -720,7 +720,7 @@
                             <name part="nprt:common">Montreal</name>
                             <name part="nprt:nickname">Canadiens</name>
                         </team-metadata>
-                        <team-stats temporal-unit-type="spct:event"
+                        <team-stats temporal-unit-type="sptemporalunit:event"
                             temporal-unit-value="vendor:l.nhl.com-2015-e.20001" score="3"
                             score-attempts="30" time-played-total="60:00">
                             <penalty-stats count="4" value="8"/>
@@ -812,31 +812,31 @@
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">MIKE CONDON</name>
                             </player-metadata>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:1">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:1" scoping-label="period:1"
                                         saves="0"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:2">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:2" scoping-label="period:2"
                                         saves="0"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:3">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:3" scoping-label="period:3"
                                         saves="0"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:event"
+                            <player-stats temporal-unit-type="sptemporalunit:event"
                                 temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                 time-played-total="00:00" score-opposing="0"
                                 score-attempts-opposing="0" events-started="0">
@@ -847,12 +847,12 @@
                                         goals-game-winning="0" goals-empty-net="0" assists="0"
                                         assists-power-play="0" assists-short-handed="0"
                                         giveaways="0" shots-missed="0" shot-attempts-blocked="0"/>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         saves="0" save-percentage="NaN" goaltender-wins="0"
                                         goaltender-losses="0" goaltender-losses-overtime="0"
                                         shutouts="0"/>
-                                    <stats-ice-hockey-time-on-ice temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-time-on-ice temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         time-power-play="00:00" time-short-handed="00:00"
                                         time-even-strength="00:00"/>
@@ -1200,31 +1200,31 @@
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">CAREY PRICE</name>
                             </player-metadata>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:1">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:1" scoping-label="period:1"
                                         saves="11"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:2">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:2" scoping-label="period:2"
                                         saves="15"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:period"
+                            <player-stats temporal-unit-type="sptemporalunit:period"
                                 temporal-unit-value="vendor:3">
                                 <player-stats-ice-hockey>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:period"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:period"
                                         temporal-unit-value="vendor:3" scoping-label="period:3"
                                         saves="10"/>
                                 </player-stats-ice-hockey>
                             </player-stats>
-                            <player-stats temporal-unit-type="spct:event"
+                            <player-stats temporal-unit-type="sptemporalunit:event"
                                 temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                 time-played-total="60:00" score-opposing="1"
                                 score-attempts-opposing="37" events-started="1">
@@ -1238,12 +1238,12 @@
                                         goals-game-winning="0" goals-empty-net="0" assists="0"
                                         assists-power-play="0" assists-short-handed="0"
                                         giveaways="0" shots-missed="0" shot-attempts-blocked="0"/>
-                                    <stats-ice-hockey-defensive temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-defensive temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         saves="36" save-percentage="0.973" goaltender-wins="1"
                                         goaltender-losses="0" goaltender-losses-overtime="0"
                                         shutouts="0"/>
-                                    <stats-ice-hockey-time-on-ice temporal-unit-type="spct:event"
+                                    <stats-ice-hockey-time-on-ice temporal-unit-type="sptemporalunit:event"
                                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                                         time-power-play="02:00" time-short-handed="04:06"
                                         time-even-strength="53:54"/>
@@ -1438,7 +1438,7 @@
                         <action class="spactionclass:infraction" sequence-number="100"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
                             penalty-name="Boarding" penalty-length="2"
-                            zone="spichzone:offensive" period-value="1"
+                            zone="spichzone:offense" period-value="1"
                             period-time-elapsed="05:11">
                             <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
                                 role="spichrole:penalty-committed-by"/>
@@ -1448,7 +1448,7 @@
                         <action class="spactionclass:infraction" sequence-number="101"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Roughing" penalty-length="2"
-                            zone="spichzone:defensive" period-value="1"
+                            zone="spichzone:defense" period-value="1"
                             period-time-elapsed="05:11">
                             <participant idref="l.nhl.com-p.8475758" team-idref="l.nhl.com-t.8"
                                 role="spichrole:penalty-committed-by"/>
@@ -1458,7 +1458,7 @@
                         <action class="spactionclass:infraction" sequence-number="102"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
                             penalty-name="Interference" penalty-length="2"
-                            zone="spichzone:offensive" period-value="1"
+                            zone="spichzone:offense" period-value="1"
                             period-time-elapsed="12:17">
                             <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
                                 role="spichrole:penalty-committed-by"/>
@@ -1468,7 +1468,7 @@
                         <action class="spactionclass:infraction" sequence-number="103"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Interference on goalkeeper" penalty-length="2"
-                            zone="spichzone:offensive" period-value="2"
+                            zone="spichzone:offense" period-value="2"
                             period-time-elapsed="00:13">
                             <participant idref="l.nhl.com-p.8475848" team-idref="l.nhl.com-t.8"
                                 role="spichrole:penalty-committed-by"/>
@@ -1478,7 +1478,7 @@
                         <action class="spactionclass:infraction" sequence-number="104"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Tripping" penalty-length="2"
-                            zone="spichzone:offensive" period-value="2"
+                            zone="spichzone:offense" period-value="2"
                             period-time-elapsed="08:11">
                             <participant idref="l.nhl.com-p.8474189" team-idref="l.nhl.com-t.8"
                                 role="spichrole:penalty-committed-by"/>
@@ -1488,7 +1488,7 @@
                         <action class="spactionclass:infraction" sequence-number="105"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Interference" penalty-length="2"
-                            zone="spichzone:defensive" period-value="3"
+                            zone="spichzone:defense" period-value="3"
                             period-time-elapsed="14:17">
                             <participant idref="l.nhl.com-p.8471338" team-idref="l.nhl.com-t.8"
                                 role="spichrole:penalty-committed-by"/>

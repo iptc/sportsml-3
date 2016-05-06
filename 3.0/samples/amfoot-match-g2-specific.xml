@@ -33,7 +33,7 @@
         <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
-        <subject type="spct:season-phase" qcode="spct:post-season"/>
+        <subject type="spct:season-type" qcode="spct:post-season"/>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
         </subject>

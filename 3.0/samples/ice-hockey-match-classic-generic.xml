@@ -46,8 +46,6 @@
                     <stat stat-type="spstat:score" value="1"/>
                     <stat stat-type="spstat:score-attempts" value="37"/>
                     <stat stat-type="spstat:time-played-total" value="60:00"/>
-                    <stat stat-type="spstat:count" value="2"/>
-                    <stat stat-type="spstat:value" value="4"/>
                     <stat stat-type="spichstat:plus-minus" value="-16"/>
                     <stat situation="nhlstrength:5-on-5" class="spct:offense"
                         stat-type="spichstat:goals-even-strength" value="0"/>
@@ -184,8 +182,6 @@
                         <stat stat-type="spstat:score" value="1"/>
                         <stat stat-type="spstat:score-attempts" value="4"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="1"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -245,8 +241,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -324,10 +318,7 @@
                         <stat stat-type="spstat:score-opposing" value="2"/>
                         <stat stat-type="spstat:score-attempts-opposing" value="29"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
-                        <stat stat-type="spstat:value" value="2"/>
-                        <stat stat-type="spichstat:name" value="Second Star"/>
+                        <stat stat-type="ich:award" value="Second Star"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
                             value="0"/>
@@ -381,8 +372,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="2"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -442,8 +431,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -510,8 +497,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -578,8 +563,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="3"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -639,8 +622,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -700,8 +681,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="2"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -761,8 +740,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="5"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="1"/>
-                        <stat stat-type="spstat:value" value="2"/>
                         <stat stat-type="spichstat:plus-minus" value="-2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="1"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -822,8 +799,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="1"/>
-                        <stat stat-type="spstat:value" value="2"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -883,8 +858,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="3"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -944,8 +917,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1005,8 +976,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="4"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1066,8 +1035,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1127,8 +1094,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="3"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="1"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1213,8 +1178,6 @@
                         <stat stat-type="spstat:score-opposing" value="0"/>
                         <stat stat-type="spstat:score-attempts-opposing" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
                             value="0"/>
@@ -1268,8 +1231,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="3"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1329,8 +1290,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1390,8 +1349,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="4"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="-1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1451,8 +1408,6 @@
                     <stat stat-type="spstat:score" value="3"/>
                     <stat stat-type="spstat:score-attempts" value="30"/>
                     <stat stat-type="spstat:time-played-total" value="60:00"/>
-                    <stat stat-type="spstat:count" value="4"/>
-                    <stat stat-type="spstat:value" value="8"/>
                     <stat stat-type="spichstat:plus-minus" value="15"/>
                     <stat situation="nhlstrength:5-on-5" class="spct:offense"
                         stat-type="spichstat:goals-even-strength" value="3"/>
@@ -1589,8 +1544,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1675,8 +1628,6 @@
                         <stat stat-type="spstat:score-opposing" value="0"/>
                         <stat stat-type="spstat:score-attempts-opposing" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
                             value="0"/>
@@ -1730,8 +1681,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="2"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1791,8 +1740,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="1"/>
-                        <stat stat-type="spstat:value" value="2"/>
                         <stat stat-type="spichstat:plus-minus" value="1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1852,8 +1799,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1913,8 +1858,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="3"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -1974,8 +1917,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="1"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2035,10 +1976,7 @@
                         <stat stat-type="spstat:score" value="1"/>
                         <stat stat-type="spstat:score-attempts" value="2"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
-                        <stat stat-type="spstat:value" value="3"/>
-                        <stat stat-type="spichstat:name" value="Third Star"/>
+                        <stat stat-type="ich:award" value="Third Star"/>
                         <stat stat-type="spichstat:plus-minus" value="1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="1"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2098,8 +2036,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="2"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="1"/>
-                        <stat stat-type="spstat:value" value="2"/>
                         <stat stat-type="spichstat:plus-minus" value="1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2159,8 +2095,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2220,8 +2154,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="3"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="1"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2281,8 +2213,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="0"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="1"/>
-                        <stat stat-type="spstat:value" value="2"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2342,8 +2272,6 @@
                         <stat stat-type="spstat:score" value="2"/>
                         <stat stat-type="spstat:score-attempts" value="5"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="2"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2410,8 +2338,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="3"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2471,8 +2397,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="6"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="2"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2550,10 +2474,7 @@
                         <stat stat-type="spstat:score-opposing" value="1"/>
                         <stat stat-type="spstat:score-attempts-opposing" value="37"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
-                        <stat stat-type="spstat:value" value="1"/>
-                        <stat stat-type="spichstat:name" value="First Star"/>
+                        <stat stat-type="ich:award" value="First Star"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
                             value="0"/>
@@ -2607,8 +2528,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="1"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2668,8 +2587,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="1"/>
-                        <stat stat-type="spstat:value" value="2"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2729,8 +2646,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="1"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="3"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="3"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2797,8 +2712,6 @@
                         <stat stat-type="spstat:score" value="0"/>
                         <stat stat-type="spstat:score-attempts" value="1"/>
                         <stat stat-type="spstat:events-started" value="0"/>
-                        <stat stat-type="spstat:count" value="0"/>
-                        <stat stat-type="spstat:value" value="0"/>
                         <stat stat-type="spichstat:plus-minus" value="0"/>
                         <stat class="spct:offense" stat-type="spstat:points" value="0"/>
                         <stat class="spct:offense" stat-type="spichstat:goals-power-play"
@@ -2920,7 +2833,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="100"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
-                infraction-name="Boarding" infraction-length="2" zone="spichzone:offensive"
+                infraction-name="Boarding" infraction-length="2" zone="spichzone:offense"
                 period-value="1" period-time-elapsed="05:11">
                 <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
                     role="spichrole:penalty-committed-by"/>
@@ -2929,7 +2842,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="101"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                infraction-name="Roughing" infraction-length="2" zone="spichzone:defensive"
+                infraction-name="Roughing" infraction-length="2" zone="spichzone:defense"
                 period-value="1" period-time-elapsed="05:11">
                 <participant idref="l.nhl.com-p.8475758" team-idref="l.nhl.com-t.8"
                     role="spichrole:penalty-committed-by"/>
@@ -2938,7 +2851,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="102"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
-                infraction-name="Interference" infraction-length="2" zone="spichzone:offensive"
+                infraction-name="Interference" infraction-length="2" zone="spichzone:offense"
                 period-value="1" period-time-elapsed="12:17">
                 <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
                     role="spichrole:penalty-committed-by"/>
@@ -2948,7 +2861,7 @@
             <action class="spactionclass:infraction" sequence-number="103"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                 infraction-name="Interference on goalkeeper" infraction-length="2"
-                zone="spichzone:offensive" period-value="2" period-time-elapsed="00:13">
+                zone="spichzone:offense" period-value="2" period-time-elapsed="00:13">
                 <participant idref="l.nhl.com-p.8475848" team-idref="l.nhl.com-t.8"
                     role="spichrole:penalty-committed-by"/>
                 <participant idref="l.nhl.com-p.8473541" team-idref="l.nhl.com-t.10"
@@ -2956,7 +2869,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="104"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                infraction-name="Tripping" infraction-length="2" zone="spichzone:offensive"
+                infraction-name="Tripping" infraction-length="2" zone="spichzone:offense"
                 period-value="2" period-time-elapsed="08:11">
                 <participant idref="l.nhl.com-p.8474189" team-idref="l.nhl.com-t.8"
                     role="spichrole:penalty-committed-by"/>
@@ -2965,7 +2878,7 @@
             </action>
             <action class="spactionclass:infraction" sequence-number="105"
                 recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
-                infraction-name="Interference" infraction-length="2" zone="spichzone:defensive"
+                infraction-name="Interference" infraction-length="2" zone="spichzone:defense"
                 period-value="3" period-time-elapsed="14:17">
                 <participant idref="l.nhl.com-p.8471338" team-idref="l.nhl.com-t.8"
                     role="spichrole:penalty-committed-by"/>

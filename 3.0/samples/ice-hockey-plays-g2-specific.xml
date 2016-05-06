@@ -25,14 +25,14 @@
         <creator qcode="web:nhl.com">
             <name>National Hockey League</name>
         </creator>
-        <genre qcode="spfixt:play-summary">
+        <genre qcode="spfixt:action-summary">
             <name xml:lang="en-US">Play Summary</name>
             <broader qcode="spct:event-summary"/>
         </genre>
         <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
-        <subject type="spct:season-phase" qcode="spct:post-season"/>
+        <subject type="spct:season-type" qcode="spct:post-season"/>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
         </subject>
@@ -68,7 +68,7 @@
                             <name part="nprt:common">New York</name>
                             <name part="nprt:nickname">Rangers</name>
                         </team-metadata>
-                        <team-stats temporal-unit-type="spct:event"
+                        <team-stats temporal-unit-type="sptemporalunit:event"
                             temporal-unit-value="vendor:l.nhl.com-2014-e.30227" score=""
                             score-attempts=""/>
                         <player id="l.nhl.com-p.8475243">
@@ -246,7 +246,7 @@
                             <name part="nprt:common">Washington</name>
                             <name part="nprt:nickname">Capitals</name>
                         </team-metadata>
-                        <team-stats temporal-unit-type="spct:event"
+                        <team-stats temporal-unit-type="sptemporalunit:event"
                             temporal-unit-value="vendor:l.nhl.com-2014-e.30227" score=""
                             score-attempts=""/>
                         <player id="l.nhl.com-p.8473991">
@@ -520,7 +520,7 @@
                             period-value="1" period-time-remaining="19:35"
                             period-time-elapsed="00:25" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="85,40"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -650,7 +650,7 @@
                             period-value="1" period-time-remaining="19:04"
                             period-time-elapsed="00:56" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-61,-40"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -715,7 +715,7 @@
                             period-value="1" period-time-remaining="18:48"
                             period-time-elapsed="01:12" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="75,-6"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
@@ -744,7 +744,7 @@
                             period-value="1" period-time-remaining="18:43"
                             period-time-elapsed="01:17" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="90,38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
@@ -791,7 +791,7 @@
                             period-value="1" period-time-remaining="18:30"
                             period-time-elapsed="01:30" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-96,-19"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -820,7 +820,7 @@
                             period-value="1" period-time-remaining="18:18"
                             period-time-elapsed="01:42" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="73,-34"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -883,7 +883,7 @@
                             period-value="1" period-time-remaining="18:00"
                             period-time-elapsed="02:00" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="87,-22"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -932,7 +932,7 @@
                             period-value="1" period-time-remaining="17:46"
                             period-time-elapsed="02:14" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-78,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470854" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
@@ -997,7 +997,7 @@
                             period-value="1" period-time-remaining="17:39"
                             period-time-elapsed="02:21" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="40,31"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -1008,7 +1008,7 @@
                             period-value="1" period-time-remaining="17:27"
                             period-time-elapsed="02:33" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="82,14"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Over Net">
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
@@ -1060,7 +1060,7 @@
                             period-value="1" period-time-remaining="17:27"
                             period-time-elapsed="02:33" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="69,22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -1071,7 +1071,7 @@
                             period-value="1" period-time-remaining="17:23"
                             period-time-elapsed="02:37" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="97,24"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -1086,7 +1086,7 @@
                             period-value="1" period-time-remaining="17:20"
                             period-time-elapsed="02:40" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="70,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -1097,7 +1097,7 @@
                             period-value="1" period-time-remaining="17:10"
                             period-time-elapsed="02:50" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-61,-18"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
@@ -1108,7 +1108,7 @@
                             period-value="1" period-time-remaining="17:09"
                             period-time-elapsed="02:51" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-69,38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -1119,7 +1119,7 @@
                             period-value="1" period-time-remaining="17:04"
                             period-time-elapsed="02:56" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-84,-15"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -1201,7 +1201,7 @@
                             period-value="1" period-time-remaining="16:40"
                             period-time-elapsed="03:20" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="32,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -1246,7 +1246,7 @@
                             period-value="1" period-time-remaining="16:18"
                             period-time-elapsed="03:42" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="72,-13"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Over Net">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -1275,7 +1275,7 @@
                             period-value="1" period-time-remaining="16:14"
                             period-time-elapsed="03:46" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="74,16"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -1369,7 +1369,7 @@
                             period-value="1" period-time-remaining="16:03"
                             period-time-elapsed="03:57" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-67,37"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466378" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -1378,7 +1378,7 @@
                             period-value="1" period-time-remaining="15:56"
                             period-time-elapsed="04:04" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="76,10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="17" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
@@ -1391,7 +1391,7 @@
                             period-value="1" period-time-remaining="15:56"
                             period-time-elapsed="04:04" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="79,-3"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -1463,7 +1463,7 @@
                             period-value="1" period-time-remaining="15:55"
                             period-time-elapsed="04:05" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -1474,7 +1474,7 @@
                             period-value="1" period-time-remaining="15:47"
                             period-time-elapsed="04:13" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="61,-10"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
@@ -1485,7 +1485,7 @@
                             period-value="1" period-time-remaining="15:39"
                             period-time-elapsed="04:21" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-92,8"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -1496,7 +1496,7 @@
                             period-value="1" period-time-remaining="15:28"
                             period-time-elapsed="04:32" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-76,-6"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -1507,7 +1507,7 @@
                             period-value="1" period-time-remaining="15:18"
                             period-time-elapsed="04:42" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-72,-5"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -1518,7 +1518,7 @@
                             period-value="1" period-time-remaining="15:15"
                             period-time-elapsed="04:45" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-46,38"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -1565,7 +1565,7 @@
                             period-value="1" period-time-remaining="15:09"
                             period-time-elapsed="04:51" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="64,-21"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -1617,7 +1617,7 @@
                             period-value="1" period-time-remaining="15:09"
                             period-time-elapsed="04:51" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="69,-22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -1628,7 +1628,7 @@
                             period-value="1" period-time-remaining="14:46"
                             period-time-elapsed="05:14" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-63,-18"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="32" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -1639,7 +1639,7 @@
                             period-value="1" period-time-remaining="14:40"
                             period-time-elapsed="05:20" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-41,26"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="55" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
@@ -1686,7 +1686,7 @@
                             period-value="1" period-time-remaining="14:21"
                             period-time-elapsed="05:39" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="82,-11"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="13" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -1740,7 +1740,7 @@
                             period-value="1" period-time-remaining="14:21"
                             period-time-elapsed="05:39" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="70,-22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
@@ -1780,7 +1780,7 @@
                             period-value="1" period-time-remaining="13:56"
                             period-time-elapsed="06:04" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-52,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8476880" team-idref="l.nhl.com-t.15"
@@ -1847,7 +1847,7 @@
                             infraction-length="2:00" field-location="4,0" zone="spichzone:neutral"
                             strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Interference"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8473536">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8469476" team-idref="l.nhl.com-t.15"
@@ -1913,7 +1913,7 @@
                             period-value="1" period-time-remaining="13:37"
                             period-time-elapsed="06:23" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="69,21"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -1924,7 +1924,7 @@
                             period-value="1" period-time-remaining="13:12"
                             period-time-elapsed="06:48" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="46,-10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="45" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -1958,7 +1958,7 @@
                             period-value="1" period-time-remaining="13:11"
                             period-time-elapsed="06:49" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="69,-23"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
@@ -1969,7 +1969,7 @@
                             period-value="1" period-time-remaining="13:00"
                             period-time-elapsed="07:00" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="72,9"
-                            zone="spichzone:defensive" shot-distance="0"
+                            zone="spichzone:defense" shot-distance="0"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
@@ -1981,7 +1981,7 @@
                             period-value="1" period-time-remaining="12:39"
                             period-time-elapsed="07:21" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="74,-6"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -1992,7 +1992,7 @@
                             period-value="1" period-time-remaining="12:29"
                             period-time-elapsed="07:31" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="65,14"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="28" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -2073,7 +2073,7 @@
                             period-value="1" period-time-remaining="11:54"
                             period-time-elapsed="08:06" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="81,-37"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -2150,7 +2150,7 @@
                             period-value="1" period-time-remaining="11:26"
                             period-time-elapsed="08:34" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="64,8"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8470854" team-idref="l.nhl.com-t.3"
@@ -2172,9 +2172,9 @@
                             period-time-remaining="11:15" period-time-elapsed="08:45"
                             team-idref="l.nhl.com-t.15" score-team="0" score-team-opposing="0"
                             infraction-length="2:00" field-location="91,10"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength"
+                            zone="spichzone:offense" strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Interference"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8475744">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -2235,7 +2235,7 @@
                             period-value="1" period-time-remaining="11:15"
                             period-time-elapsed="08:45" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-69,21"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -2246,7 +2246,7 @@
                             period-value="1" period-time-remaining="11:08"
                             period-time-elapsed="08:52" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-70,14"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8466378" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -2257,7 +2257,7 @@
                             period-value="1" period-time-remaining="10:57"
                             period-time-elapsed="09:03" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-55,-3"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -2268,7 +2268,7 @@
                             period-value="1" period-time-remaining="10:40"
                             period-time-elapsed="09:20" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-87,14"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8466378" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -2338,7 +2338,7 @@
                             period-value="1" period-time-remaining="10:08"
                             period-time-elapsed="09:52" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-94,19"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -2347,7 +2347,7 @@
                             period-value="1" period-time-remaining="10:00"
                             period-time-elapsed="10:00" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-48,-8"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -2374,7 +2374,7 @@
                             period-value="1" period-time-remaining="09:44"
                             period-time-elapsed="10:16" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-87,-24"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="24" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -2387,7 +2387,7 @@
                             period-value="1" period-time-remaining="09:39"
                             period-time-elapsed="10:21" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-39,25"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="56" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -2439,7 +2439,7 @@
                             period-value="1" period-time-remaining="09:38"
                             period-time-elapsed="10:22" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-68,22"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -2450,7 +2450,7 @@
                             period-value="1" period-time-remaining="09:28"
                             period-time-elapsed="10:32" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-53,-2"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -2479,7 +2479,7 @@
                             period-value="1" period-time-remaining="09:11"
                             period-time-elapsed="10:49" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-87,20"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="20" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -2492,7 +2492,7 @@
                             period-value="1" period-time-remaining="09:05"
                             period-time-elapsed="10:55" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="71,3"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -2537,7 +2537,7 @@
                             period-value="1" period-time-remaining="08:59"
                             period-time-elapsed="11:01" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="-51,-10"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
@@ -2584,7 +2584,7 @@
                             period-value="1" period-time-remaining="08:24"
                             period-time-elapsed="11:36" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-40,19"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="53" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -2651,7 +2651,7 @@
                             period-value="1" period-time-remaining="07:53"
                             period-time-elapsed="12:07" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="0" field-location="-93,-33"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470854" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
@@ -2662,7 +2662,7 @@
                             period-value="1" period-time-remaining="07:46"
                             period-time-elapsed="12:14" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="34,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -2709,7 +2709,7 @@
                             period-value="1" period-time-remaining="07:35"
                             period-time-elapsed="12:25" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="43,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -2718,7 +2718,7 @@
                             period-value="1" period-time-remaining="07:28"
                             period-time-elapsed="12:32" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="42,1"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="48" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -2753,7 +2753,7 @@
                             period-value="1" period-time-remaining="07:23"
                             period-time-elapsed="12:37" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="69,22"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
@@ -2764,7 +2764,7 @@
                             period-value="1" period-time-remaining="07:18"
                             period-time-elapsed="12:42" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="53,29"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="47" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -2818,7 +2818,7 @@
                             period-value="1" period-time-remaining="07:18"
                             period-time-elapsed="12:42" team-idref="l.nhl.com-t.15" score-team="0"
                             score-team-opposing="0" field-location="70,22"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -2828,7 +2828,7 @@
                             sequence-number="112502008517250" period-value="1"
                             period-time-remaining="07:10" period-time-elapsed="12:50"
                             team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
-                            field-location="75,-2" zone="spichzone:offensive"
+                            field-location="75,-2" zone="spichzone:offense"
                             shot-type="nhlshot:Snap" shot-distance="15"
                             score-attempt-type="spichscoreattempt:regular" goal-zone="nhlgoalzone:2"
                             strength="spichstrength:even-strength">
@@ -2917,7 +2917,7 @@
                             period-value="1" period-time-remaining="06:47"
                             period-time-elapsed="13:13" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="-52,19"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466378" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
@@ -3000,7 +3000,7 @@
                             period-value="1" period-time-remaining="06:06"
                             period-time-elapsed="13:54" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="-35,38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
@@ -3033,7 +3033,7 @@
                             period-value="1" period-time-remaining="05:56"
                             period-time-elapsed="14:04" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-68,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
@@ -3062,7 +3062,7 @@
                             period-value="1" period-time-remaining="05:46"
                             period-time-elapsed="14:14" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="87,-39"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8476880" team-idref="l.nhl.com-t.15"
@@ -3091,7 +3091,7 @@
                             period-value="1" period-time-remaining="05:39"
                             period-time-elapsed="14:21" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="82,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
@@ -3174,7 +3174,7 @@
                             period-value="1" period-time-remaining="05:24"
                             period-time-elapsed="14:36" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="76,-7"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -3273,7 +3273,7 @@
                             period-value="1" period-time-remaining="04:32"
                             period-time-elapsed="15:28" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-78,5"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="13" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -3291,7 +3291,7 @@
                             period-value="1" period-time-remaining="04:31"
                             period-time-elapsed="15:29" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="-69,21"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -3356,7 +3356,7 @@
                             period-value="1" period-time-remaining="03:49"
                             period-time-elapsed="16:11" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-87,-16"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -3369,7 +3369,7 @@
                             period-value="1" period-time-remaining="03:44"
                             period-time-elapsed="16:16" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-77,-37"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466378" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -3450,9 +3450,9 @@
                             period-time-remaining="03:26" period-time-elapsed="16:34"
                             team-idref="l.nhl.com-t.3" score-team="0" score-team-opposing="1"
                             infraction-length="2:00" field-location="-89,-32"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength"
+                            zone="spichzone:offense" strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Tripping"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8473544">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -3540,7 +3540,7 @@
                             period-value="1" period-time-remaining="02:51"
                             period-time-elapsed="17:09" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="79,1"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -3592,7 +3592,7 @@
                             period-value="1" period-time-remaining="02:51"
                             period-time-elapsed="17:09" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -3603,7 +3603,7 @@
                             period-value="1" period-time-remaining="02:40"
                             period-time-elapsed="17:20" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="84,-33"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -3628,7 +3628,7 @@
                             period-value="1" period-time-remaining="02:24"
                             period-time-elapsed="17:36" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="52,-4"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="38" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -3641,7 +3641,7 @@
                             period-value="1" period-time-remaining="02:16"
                             period-time-elapsed="17:44" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-79,3"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -3720,7 +3720,7 @@
                             period-value="1" period-time-remaining="01:59"
                             period-time-elapsed="18:01" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="80,-13"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
@@ -3731,7 +3731,7 @@
                             period-value="1" period-time-remaining="01:47"
                             period-time-elapsed="18:13" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="80,-3"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="10" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
@@ -3846,7 +3846,7 @@
                             period-value="1" period-time-remaining="01:25"
                             period-time-elapsed="18:35" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-96,-27"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470854" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
@@ -3911,7 +3911,7 @@
                             period-value="1" period-time-remaining="01:14"
                             period-time-elapsed="18:46" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="81,-16"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="18" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466251" team-idref="l.nhl.com-t.15"
@@ -3924,7 +3924,7 @@
                             period-value="1" period-time-remaining="01:10"
                             period-time-elapsed="18:50" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="35,-11"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="56" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -3978,7 +3978,7 @@
                             period-value="1" period-time-remaining="01:10"
                             period-time-elapsed="18:50" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="70,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -3989,7 +3989,7 @@
                             period-value="1" period-time-remaining="01:01"
                             period-time-elapsed="18:59" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="87,4"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrap-around"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrap-around"
                             shot-distance="5" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -4025,7 +4025,7 @@
                             period-value="1" period-time-remaining="01:01"
                             period-time-elapsed="18:59" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="70,22"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -4036,9 +4036,9 @@
                             period-time-remaining="00:34" period-time-elapsed="19:26"
                             team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
                             infraction-length="2:00" field-location="-45,37"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength"
+                            zone="spichzone:defense" strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Holding"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8474291">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -4099,7 +4099,7 @@
                             period-value="1" period-time-remaining="00:34"
                             period-time-elapsed="19:26" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-69,21"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -4110,7 +4110,7 @@
                             period-value="1" period-time-remaining="00:20"
                             period-time-elapsed="19:40" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-73,-16"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="23" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -4123,7 +4123,7 @@
                             period-value="1" period-time-remaining="00:07"
                             period-time-elapsed="19:53" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-64,27"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -4203,7 +4203,7 @@
                             period-value="2" period-time-remaining="19:28"
                             period-time-elapsed="00:32" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="94,-34"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -4248,7 +4248,7 @@
                             period-value="2" period-time-remaining="19:02"
                             period-time-elapsed="00:58" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="67,-2"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="23" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -4261,7 +4261,7 @@
                             period-value="2" period-time-remaining="18:52"
                             period-time-elapsed="01:08" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="66,7"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="25" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -4329,7 +4329,7 @@
                             period-value="2" period-time-remaining="18:36"
                             period-time-elapsed="01:24" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="70,-23"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -4376,7 +4376,7 @@
                             period-value="2" period-time-remaining="18:21"
                             period-time-elapsed="01:39" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="-97,-7"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -4385,7 +4385,7 @@
                             period-value="2" period-time-remaining="18:14"
                             period-time-elapsed="01:46" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="-83,38"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -4394,9 +4394,9 @@
                             period-time-remaining="18:05" period-time-elapsed="01:55"
                             team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
                             infraction-length="2:00" field-location="81,8"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength"
+                            zone="spichzone:defense" strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Tripping"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8471242">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -4457,7 +4457,7 @@
                             period-value="2" period-time-remaining="18:05"
                             period-time-elapsed="01:55" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="69,21"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
@@ -4468,7 +4468,7 @@
                             period-value="2" period-time-remaining="17:59"
                             period-time-elapsed="02:01" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="64,37"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -4477,7 +4477,7 @@
                             period-value="2" period-time-remaining="17:57"
                             period-time-elapsed="02:03" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="34,8"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="56" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
@@ -4495,7 +4495,7 @@
                             period-value="2" period-time-remaining="17:57"
                             period-time-elapsed="02:03" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="70,22"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
@@ -4506,7 +4506,7 @@
                             period-value="2" period-time-remaining="17:23"
                             period-time-elapsed="02:37" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="49,12"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="42" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play" comment="Goalpost">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -4603,7 +4603,7 @@
                             period-value="2" period-time-remaining="16:46"
                             period-time-elapsed="03:14" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="45,4"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8471735" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
@@ -4718,7 +4718,7 @@
                             period-value="2" period-time-remaining="15:59"
                             period-time-elapsed="04:01" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="71,-20"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -4729,7 +4729,7 @@
                             period-value="2" period-time-remaining="15:49"
                             period-time-elapsed="04:11" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="78,-8"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -4740,7 +4740,7 @@
                             period-value="2" period-time-remaining="15:34"
                             period-time-elapsed="04:26" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="73,-1"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
@@ -4769,9 +4769,9 @@
                             period-time-remaining="15:26" period-time-elapsed="04:34"
                             team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
                             infraction-length="2:00" field-location="87,32"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength"
+                            zone="spichzone:defense" strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Cross-checking"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8471242">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -4832,7 +4832,7 @@
                             period-value="2" period-time-remaining="15:26"
                             period-time-elapsed="04:34" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="69,22"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -4843,7 +4843,7 @@
                             period-value="2" period-time-remaining="14:46"
                             period-time-elapsed="05:14" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="0" field-location="62,0"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8466378" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
@@ -4854,7 +4854,7 @@
                             period-value="2" period-time-remaining="14:36"
                             period-time-elapsed="05:24" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="46,38"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
@@ -4899,7 +4899,7 @@
                             period-value="2" period-time-remaining="14:21"
                             period-time-elapsed="05:39" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="68,2"
-                            zone="spichzone:offensive" shot-type="nhlshot:Snap"
+                            zone="spichzone:offense" shot-type="nhlshot:Snap"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8471735" team-idref="l.nhl.com-t.3"
@@ -4935,7 +4935,7 @@
                             period-value="2" period-time-remaining="14:20"
                             period-time-elapsed="05:40" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="69,22"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
@@ -4946,7 +4946,7 @@
                             period-value="2" period-time-remaining="14:14"
                             period-time-elapsed="05:46" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="60,-32"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="43" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -4979,7 +4979,7 @@
                             period-value="2" period-time-remaining="14:11"
                             period-time-elapsed="05:49" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="70,-23"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -5006,7 +5006,7 @@
                             period-value="2" period-time-remaining="13:41"
                             period-time-elapsed="06:19" team-idref="l.nhl.com-t.3" score-team="0"
                             score-team-opposing="1" field-location="77,20"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="23" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
@@ -5018,7 +5018,7 @@
                             sequence-number="206222051171810" period-value="2"
                             period-time-remaining="13:38" period-time-elapsed="06:22"
                             team-idref="l.nhl.com-t.3" score-team="1" score-team-opposing="1"
-                            field-location="81,7" zone="spichzone:offensive"
+                            field-location="81,7" zone="spichzone:offense"
                             shot-type="nhlshot:Tip-In" shot-distance="11"
                             score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
@@ -5152,7 +5152,7 @@
                             period-value="2" period-time-remaining="13:15"
                             period-time-elapsed="06:45" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="87,-10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="10" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
@@ -5181,7 +5181,7 @@
                             period-value="2" period-time-remaining="13:04"
                             period-time-elapsed="06:56" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-69,0"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -5210,7 +5210,7 @@
                             period-value="2" period-time-remaining="12:52"
                             period-time-elapsed="07:08" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-63,18"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="32" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -5277,7 +5277,7 @@
                             period-value="2" period-time-remaining="12:35"
                             period-time-elapsed="07:25" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-79,10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="14" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8466251" team-idref="l.nhl.com-t.15"
@@ -5306,7 +5306,7 @@
                             period-value="2" period-time-remaining="12:24"
                             period-time-elapsed="07:36" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="82,-14"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
@@ -5319,7 +5319,7 @@
                             period-value="2" period-time-remaining="12:19"
                             period-time-elapsed="07:41" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="79,6"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="12" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
@@ -5332,7 +5332,7 @@
                             period-value="2" period-time-remaining="12:09"
                             period-time-elapsed="07:51" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="81,12"
-                            zone="spichzone:offensive" shot-type="nhlshot:Snap"
+                            zone="spichzone:offense" shot-type="nhlshot:Snap"
                             shot-distance="15" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -5417,7 +5417,7 @@
                             period-value="2" period-time-remaining="11:35"
                             period-time-elapsed="08:25" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="79,-4"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Over Net">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -5446,7 +5446,7 @@
                             period-value="2" period-time-remaining="11:17"
                             period-time-elapsed="08:43" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-58,-14"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="34" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
@@ -5493,7 +5493,7 @@
                             period-value="2" period-time-remaining="10:55"
                             period-time-elapsed="09:05" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-78,-4"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="12" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Over Net">
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
@@ -5610,7 +5610,7 @@
                             period-value="2" period-time-remaining="10:22"
                             period-time-elapsed="09:38" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="97,23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -5621,7 +5621,7 @@
                             period-value="2" period-time-remaining="10:09"
                             period-time-elapsed="09:51" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="43,-24"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="52" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -5632,7 +5632,7 @@
                             period-value="2" period-time-remaining="09:54"
                             period-time-elapsed="10:06" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="80,-10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Snap"
+                            zone="spichzone:offense" shot-type="nhlshot:Snap"
                             shot-distance="14" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -5699,7 +5699,7 @@
                             period-value="2" period-time-remaining="09:18"
                             period-time-elapsed="10:42" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-93,32"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
@@ -5710,7 +5710,7 @@
                             period-value="2" period-time-remaining="09:11"
                             period-time-elapsed="10:49" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-57,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466251" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
@@ -5773,7 +5773,7 @@
                             period-value="2" period-time-remaining="08:50"
                             period-time-elapsed="11:10" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-35,1"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="55" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
@@ -5809,7 +5809,7 @@
                             period-value="2" period-time-remaining="08:49"
                             period-time-elapsed="11:11" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-68,21"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -5860,7 +5860,7 @@
                             period-value="2" period-time-remaining="08:41"
                             period-time-elapsed="11:19" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="70,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -5871,7 +5871,7 @@
                             period-value="2" period-time-remaining="08:33"
                             period-time-elapsed="11:27" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="78,3"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="12" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -5884,7 +5884,7 @@
                             period-value="2" period-time-remaining="08:05"
                             period-time-elapsed="11:55" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-70,10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Snap"
+                            zone="spichzone:offense" shot-type="nhlshot:Snap"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -5897,7 +5897,7 @@
                             period-value="2" period-time-remaining="08:02"
                             period-time-elapsed="11:58" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-92,35"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -5962,9 +5962,9 @@
                             period-time-remaining="07:47" period-time-elapsed="12:13"
                             team-idref="l.nhl.com-t.3" score-team="1" score-team-opposing="1"
                             infraction-length="2:00" field-location="31,-35"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength"
+                            zone="spichzone:offense" strength="spichstrength:even-strength"
                             infraction-type="nhlpenalty:Tripping"
-                            recipient-type="sprecipienttype:l.nhl.com-p.8475855">
+                            recipient-type="sprecipienttype:player">
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
                                 role="spichrole:penalty-committed-by"/>
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -6025,7 +6025,7 @@
                             period-value="2" period-time-remaining="07:47"
                             period-time-elapsed="12:13" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-69,-22"
-                            zone="spichzone:offensive" strength="spichstrength:power-play">
+                            zone="spichzone:offense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -6086,7 +6086,7 @@
                             period-value="2" period-time-remaining="07:01"
                             period-time-elapsed="12:59" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-67,-3"
-                            zone="spichzone:defensive" strength="spichstrength:short-handed">
+                            zone="spichzone:defense" strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -6129,7 +6129,7 @@
                             period-value="2" period-time-remaining="06:37"
                             period-time-elapsed="13:23" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-70,0"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -6172,7 +6172,7 @@
                             period-value="2" period-time-remaining="06:16"
                             period-time-elapsed="13:44" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="85,-10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:short-handed">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -6201,7 +6201,7 @@
                             period-value="2" period-time-remaining="06:07"
                             period-time-elapsed="13:53" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-78,14"
-                            zone="spichzone:defensive" strength="spichstrength:power-play">
+                            zone="spichzone:defense" strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -6230,7 +6230,7 @@
                             period-value="2" period-time-remaining="05:55"
                             period-time-elapsed="14:05" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-57,-16"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="36" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -6279,7 +6279,7 @@
                             period-value="2" period-time-remaining="05:38"
                             period-time-elapsed="14:22" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-95,1"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -6430,7 +6430,7 @@
                             period-value="2" period-time-remaining="05:06"
                             period-time-elapsed="14:54" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-54,18"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
@@ -6492,7 +6492,7 @@
                             period-value="2" period-time-remaining="04:11"
                             period-time-elapsed="15:49" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-79,-8"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471735" team-idref="l.nhl.com-t.3"
@@ -6503,7 +6503,7 @@
                             period-value="2" period-time-remaining="03:54"
                             period-time-elapsed="16:06" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-84,-10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
@@ -6557,7 +6557,7 @@
                             period-value="2" period-time-remaining="03:54"
                             period-time-elapsed="16:06" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -6568,7 +6568,7 @@
                             period-value="2" period-time-remaining="03:46"
                             period-time-elapsed="16:14" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="56,25"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="42" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
@@ -6586,7 +6586,7 @@
                             period-value="2" period-time-remaining="03:46"
                             period-time-elapsed="16:14" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -6597,7 +6597,7 @@
                             period-value="2" period-time-remaining="03:14"
                             period-time-elapsed="16:46" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-49,30"
-                            zone="spichzone:offensive" shot-type="nhlshot:Snap"
+                            zone="spichzone:offense" shot-type="nhlshot:Snap"
                             shot-distance="50" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
@@ -6651,7 +6651,7 @@
                             period-value="2" period-time-remaining="03:14"
                             period-time-elapsed="16:46" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-68,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -6662,7 +6662,7 @@
                             period-value="2" period-time-remaining="03:00"
                             period-time-elapsed="17:00" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="79,-11"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="15" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
@@ -6675,7 +6675,7 @@
                             period-value="2" period-time-remaining="02:59"
                             period-time-elapsed="17:01" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="75,-26"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
@@ -6794,7 +6794,7 @@
                             period-value="2" period-time-remaining="02:06"
                             period-time-elapsed="17:54" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-76,-36"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -6803,7 +6803,7 @@
                             period-value="2" period-time-remaining="02:02"
                             period-time-elapsed="17:58" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-88,-18"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="18" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
@@ -6816,7 +6816,7 @@
                             period-value="2" period-time-remaining="01:52"
                             period-time-elapsed="18:08" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-78,-1"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="12" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -6827,7 +6827,7 @@
                             period-value="2" period-time-remaining="01:32"
                             period-time-elapsed="18:28" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-77,-6"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="14" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -6910,7 +6910,7 @@
                             period-value="2" period-time-remaining="00:51"
                             period-time-elapsed="19:09" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="96,24"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
@@ -6921,7 +6921,7 @@
                             period-value="2" period-time-remaining="00:32"
                             period-time-elapsed="19:28" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="42,-32"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="57" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -6993,7 +6993,7 @@
                             period-value="2" period-time-remaining="00:31"
                             period-time-elapsed="19:29" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -7004,7 +7004,7 @@
                             period-value="2" period-time-remaining="00:21"
                             period-time-elapsed="19:39" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="85,37"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -7092,7 +7092,7 @@
                             period-value="3" period-time-remaining="19:53"
                             period-time-elapsed="00:07" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-68,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -7103,7 +7103,7 @@
                             period-value="3" period-time-remaining="19:49"
                             period-time-elapsed="00:11" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-34,29"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="63" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -7132,7 +7132,7 @@
                             period-value="3" period-time-remaining="19:30"
                             period-time-elapsed="00:30" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="84,15"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="16" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
@@ -7186,7 +7186,7 @@
                             period-value="3" period-time-remaining="19:29"
                             period-time-elapsed="00:31" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="69,22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -7215,7 +7215,7 @@
                             period-value="3" period-time-remaining="18:54"
                             period-time-elapsed="01:06" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-32,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
@@ -7244,7 +7244,7 @@
                             period-value="3" period-time-remaining="18:46"
                             period-time-elapsed="01:14" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="38,2"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="52" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -7298,7 +7298,7 @@
                             period-value="3" period-time-remaining="18:46"
                             period-time-elapsed="01:14" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -7309,7 +7309,7 @@
                             period-value="3" period-time-remaining="18:38"
                             period-time-elapsed="01:22" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="65,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -7342,7 +7342,7 @@
                             period-value="3" period-time-remaining="18:18"
                             period-time-elapsed="01:42" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-68,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -7394,7 +7394,7 @@
                             period-value="3" period-time-remaining="18:14"
                             period-time-elapsed="01:46" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-68,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -7427,7 +7427,7 @@
                             period-value="3" period-time-remaining="18:01"
                             period-time-elapsed="01:59" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-69,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -7546,7 +7546,7 @@
                             period-value="3" period-time-remaining="16:43"
                             period-time-elapsed="03:17" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="37,-38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -7555,7 +7555,7 @@
                             period-value="3" period-time-remaining="16:39"
                             period-time-elapsed="03:21" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-44,25"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8469476" team-idref="l.nhl.com-t.15"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -7702,7 +7702,7 @@
                             period-value="3" period-time-remaining="16:08"
                             period-time-elapsed="03:52" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-96,-20"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -7711,7 +7711,7 @@
                             period-value="3" period-time-remaining="16:04"
                             period-time-elapsed="03:56" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-78,0"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="12" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -7722,7 +7722,7 @@
                             period-value="3" period-time-remaining="15:50"
                             period-time-elapsed="04:10" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="79,-2"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -7733,7 +7733,7 @@
                             period-value="3" period-time-remaining="15:48"
                             period-time-elapsed="04:12" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="47,-39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -7896,7 +7896,7 @@
                             period-value="3" period-time-remaining="14:48"
                             period-time-elapsed="05:12" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-40,27"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="56" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -8143,7 +8143,7 @@
                             period-value="3" period-time-remaining="13:14"
                             period-time-elapsed="06:46" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-69,-39"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -8271,7 +8271,7 @@
                             period-value="3" period-time-remaining="12:47"
                             period-time-elapsed="07:13" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-69,-22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -8300,7 +8300,7 @@
                             period-value="3" period-time-remaining="12:30"
                             period-time-elapsed="07:30" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="37,23"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="57" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -8354,7 +8354,7 @@
                             period-value="3" period-time-remaining="12:30"
                             period-time-elapsed="07:30" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -8365,7 +8365,7 @@
                             period-value="3" period-time-remaining="12:26"
                             period-time-elapsed="07:34" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="73,7"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -8376,7 +8376,7 @@
                             period-value="3" period-time-remaining="12:20"
                             period-time-elapsed="07:40" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-96,3"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8469476" team-idref="l.nhl.com-t.15"
@@ -8528,7 +8528,7 @@
                             period-value="3" period-time-remaining="11:10"
                             period-time-elapsed="08:50" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="79,39"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
@@ -8539,7 +8539,7 @@
                             period-value="3" period-time-remaining="10:57"
                             period-time-elapsed="09:03" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-74,-16"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -8568,7 +8568,7 @@
                             period-value="3" period-time-remaining="10:51"
                             period-time-elapsed="09:09" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-30,28"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -8649,7 +8649,7 @@
                             period-value="3" period-time-remaining="10:34"
                             period-time-elapsed="09:26" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-34,-39"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8467096" team-idref="l.nhl.com-t.3"
@@ -8730,7 +8730,7 @@
                             period-value="3" period-time-remaining="10:07"
                             period-time-elapsed="09:53" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-32,-10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="58" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8471735" team-idref="l.nhl.com-t.3"
@@ -8741,7 +8741,7 @@
                             period-value="3" period-time-remaining="10:03"
                             period-time-elapsed="09:57" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-28,-19"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="64" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
@@ -8795,7 +8795,7 @@
                             period-value="3" period-time-remaining="10:03"
                             period-time-elapsed="09:57" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-68,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -8842,7 +8842,7 @@
                             period-value="3" period-time-remaining="09:40"
                             period-time-elapsed="10:20" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-32,27"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="63" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -8855,7 +8855,7 @@
                             period-value="3" period-time-remaining="09:37"
                             period-time-elapsed="10:23" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-36,-40"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
@@ -8884,7 +8884,7 @@
                             period-value="3" period-time-remaining="09:27"
                             period-time-elapsed="10:33" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="79,-39"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -8967,7 +8967,7 @@
                             period-value="3" period-time-remaining="08:49"
                             period-time-elapsed="11:11" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-40,-18"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="53" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
@@ -8980,7 +8980,7 @@
                             period-value="3" period-time-remaining="08:43"
                             period-time-elapsed="11:17" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-50,-16"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8469476" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -8989,7 +8989,7 @@
                             period-value="3" period-time-remaining="08:39"
                             period-time-elapsed="11:21" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-60,-4"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -9000,7 +9000,7 @@
                             period-value="3" period-time-remaining="08:33"
                             period-time-elapsed="11:27" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-78,-8"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8469476" team-idref="l.nhl.com-t.15"
@@ -9101,7 +9101,7 @@
                             period-value="3" period-time-remaining="08:13"
                             period-time-elapsed="11:47" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="32,-38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -9130,7 +9130,7 @@
                             period-value="3" period-time-remaining="08:09"
                             period-time-elapsed="11:51" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="79,-17"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471735" team-idref="l.nhl.com-t.3"
@@ -9254,7 +9254,7 @@
                             period-value="3" period-time-remaining="07:08"
                             period-time-elapsed="12:52" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="81,-8"
-                            zone="spichzone:defensive" shot-distance="12"
+                            zone="spichzone:defense" shot-distance="12"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
@@ -9302,7 +9302,7 @@
                             period-value="3" period-time-remaining="07:08"
                             period-time-elapsed="12:52" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="69,22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -9331,7 +9331,7 @@
                             period-value="3" period-time-remaining="06:32"
                             period-time-elapsed="13:28" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-70,-37"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
@@ -9414,7 +9414,7 @@
                             period-value="3" period-time-remaining="05:44"
                             period-time-elapsed="14:16" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-45,-38"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
                                 role="spichrole:takeaway"/>
                         </action>
@@ -9423,7 +9423,7 @@
                             period-value="3" period-time-remaining="05:11"
                             period-time-elapsed="14:49" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-65,-26"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="36" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -9495,7 +9495,7 @@
                             period-value="3" period-time-remaining="05:11"
                             period-time-elapsed="14:49" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-68,-22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
@@ -9506,7 +9506,7 @@
                             period-value="3" period-time-remaining="05:02"
                             period-time-elapsed="14:58" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="30,-38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -9517,7 +9517,7 @@
                             period-value="3" period-time-remaining="04:51"
                             period-time-elapsed="15:09" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-58,-38"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
@@ -9633,7 +9633,7 @@
                             period-value="3" period-time-remaining="03:54"
                             period-time-elapsed="16:06" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-60,-35"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="46" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -9705,7 +9705,7 @@
                             period-value="3" period-time-remaining="03:54"
                             period-time-elapsed="16:06" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-69,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -9785,7 +9785,7 @@
                             period-value="3" period-time-remaining="03:05"
                             period-time-elapsed="16:55" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-96,-3"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -9850,7 +9850,7 @@
                             period-value="3" period-time-remaining="02:32"
                             period-time-elapsed="17:28" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-84,-21"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -9859,7 +9859,7 @@
                             period-value="3" period-time-remaining="02:25"
                             period-time-elapsed="17:35" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-60,1"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="30" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -9995,7 +9995,7 @@
                             period-value="3" period-time-remaining="02:03"
                             period-time-elapsed="17:57" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -10006,7 +10006,7 @@
                             period-value="3" period-time-remaining="02:02"
                             period-time-elapsed="17:58" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="57,18"
-                            zone="spichzone:offensive" shot-type="nhlshot:Snap"
+                            zone="spichzone:offense" shot-type="nhlshot:Snap"
                             shot-distance="37" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -10138,7 +10138,7 @@
                             period-value="3" period-time-remaining="01:20"
                             period-time-elapsed="18:40" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-53,-28"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="46" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -10174,7 +10174,7 @@
                             period-value="3" period-time-remaining="01:20"
                             period-time-elapsed="18:40" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-69,-22"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -10185,7 +10185,7 @@
                             period-value="3" period-time-remaining="01:13"
                             period-time-elapsed="18:47" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-52,-22"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="43" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470041" team-idref="l.nhl.com-t.3"
@@ -10221,7 +10221,7 @@
                             period-value="3" period-time-remaining="01:13"
                             period-time-elapsed="18:47" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-69,-22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
@@ -10308,7 +10308,7 @@
                             period-value="3" period-time-remaining="00:36"
                             period-time-elapsed="19:24" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -10319,7 +10319,7 @@
                             period-value="3" period-time-remaining="00:33"
                             period-time-elapsed="19:27" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="56,-21"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="39" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -10361,7 +10361,7 @@
                             period-value="3" period-time-remaining="00:24"
                             period-time-elapsed="19:36" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-77,13"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="18" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -10424,7 +10424,7 @@
                             period-value="3" period-time-remaining="00:08"
                             period-time-elapsed="19:52" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,33"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="39" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466251" team-idref="l.nhl.com-t.15"
@@ -10510,7 +10510,7 @@
                             period-value="4" period-time-remaining="19:50"
                             period-time-elapsed="00:10" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="73,-14"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
@@ -10521,7 +10521,7 @@
                             period-value="4" period-time-remaining="19:47"
                             period-time-elapsed="00:13" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="90,38"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475184" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
@@ -10583,7 +10583,7 @@
                             period-value="4" period-time-remaining="19:26"
                             period-time-elapsed="00:34" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-85,18"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="18" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466251" team-idref="l.nhl.com-t.15"
@@ -10596,7 +10596,7 @@
                             period-value="4" period-time-remaining="19:03"
                             period-time-elapsed="00:57" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-73,-9"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -10661,7 +10661,7 @@
                             period-value="4" period-time-remaining="18:35"
                             period-time-elapsed="01:25" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="53,-31"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -10796,7 +10796,7 @@
                             period-value="4" period-time-remaining="17:12"
                             period-time-elapsed="02:48" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-60,38"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -10861,7 +10861,7 @@
                             period-value="4" period-time-remaining="16:56"
                             period-time-elapsed="03:04" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-85,10"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="11" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
@@ -10892,7 +10892,7 @@
                             period-value="4" period-time-remaining="16:40"
                             period-time-elapsed="03:20" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-65,-35"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="43" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -10905,7 +10905,7 @@
                             period-value="4" period-time-remaining="16:33"
                             period-time-elapsed="03:27" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-76,1"
-                            zone="spichzone:offensive" shot-type="nhlshot:Tip-In"
+                            zone="spichzone:offense" shot-type="nhlshot:Tip-In"
                             shot-distance="14" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -10934,7 +10934,7 @@
                             period-value="4" period-time-remaining="16:19"
                             period-time-elapsed="03:41" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-79,9"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -10943,7 +10943,7 @@
                             period-value="4" period-time-remaining="16:16"
                             period-time-elapsed="03:44" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-73,15"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -10956,7 +10956,7 @@
                             period-value="4" period-time-remaining="16:11"
                             period-time-elapsed="03:49" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-65,1"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -10985,7 +10985,7 @@
                             period-value="4" period-time-remaining="15:58"
                             period-time-elapsed="04:02" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-35,-2"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="55" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Over Net">
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
@@ -11032,7 +11032,7 @@
                             period-value="4" period-time-remaining="15:24"
                             period-time-elapsed="04:36" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="75,20"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="25" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
@@ -11068,7 +11068,7 @@
                             period-value="4" period-time-remaining="15:23"
                             period-time-elapsed="04:37" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="70,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -11079,7 +11079,7 @@
                             period-value="4" period-time-remaining="15:16"
                             period-time-elapsed="04:44" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="59,15"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -11090,7 +11090,7 @@
                             period-value="4" period-time-remaining="15:11"
                             period-time-elapsed="04:49" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="68,5"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="22" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -11103,7 +11103,7 @@
                             period-value="4" period-time-remaining="15:04"
                             period-time-elapsed="04:56" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-61,-14"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8471686" team-idref="l.nhl.com-t.3"
@@ -11132,7 +11132,7 @@
                             period-value="4" period-time-remaining="14:55"
                             period-time-elapsed="05:05" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="72,13"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475763" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8468498" team-idref="l.nhl.com-t.15"
@@ -11161,7 +11161,7 @@
                             period-value="4" period-time-remaining="14:46"
                             period-time-elapsed="05:14" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-77,13"
-                            zone="spichzone:offensive" shot-type="nhlshot:Backhand"
+                            zone="spichzone:offense" shot-type="nhlshot:Backhand"
                             shot-distance="18" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -11210,7 +11210,7 @@
                             period-value="4" period-time-remaining="14:35"
                             period-time-elapsed="05:25" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-93,27"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -11275,7 +11275,7 @@
                             period-value="4" period-time-remaining="14:17"
                             period-time-elapsed="05:43" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-70,-29"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="35" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
@@ -11365,7 +11365,7 @@
                             period-value="4" period-time-remaining="14:17"
                             period-time-elapsed="05:43" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-68,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -11376,7 +11376,7 @@
                             period-value="4" period-time-remaining="14:14"
                             period-time-elapsed="05:46" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-74,-10"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474151" team-idref="l.nhl.com-t.3"
@@ -11423,7 +11423,7 @@
                             period-value="4" period-time-remaining="14:04"
                             period-time-elapsed="05:56" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="88,37"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471702" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
@@ -11546,7 +11546,7 @@
                             period-value="4" period-time-remaining="13:16"
                             period-time-elapsed="06:44" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8469639" team-idref="l.nhl.com-t.15"
@@ -11593,7 +11593,7 @@
                             period-value="4" period-time-remaining="12:48"
                             period-time-elapsed="07:12" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="37,-29"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -11620,7 +11620,7 @@
                             period-value="4" period-time-remaining="12:44"
                             period-time-elapsed="07:16" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-64,-24"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="35" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -11687,7 +11687,7 @@
                             period-value="4" period-time-remaining="12:21"
                             period-time-elapsed="07:39" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-29,-36"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8471214" team-idref="l.nhl.com-t.15"
@@ -11757,7 +11757,7 @@
                             period-value="4" period-time-remaining="12:11"
                             period-time-elapsed="07:49" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="69,21"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
@@ -11768,7 +11768,7 @@
                             period-value="4" period-time-remaining="12:06"
                             period-time-elapsed="07:54" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="46,22"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="49" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470630" team-idref="l.nhl.com-t.3"
@@ -11799,7 +11799,7 @@
                             period-value="4" period-time-remaining="11:52"
                             period-time-elapsed="08:08" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="52,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468208" team-idref="l.nhl.com-t.15"
                                 role="spichrole:giveaway"/>
                         </action>
@@ -11808,7 +11808,7 @@
                             period-value="4" period-time-remaining="11:49"
                             period-time-elapsed="08:11" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="70,-14"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8473991" team-idref="l.nhl.com-t.15"
@@ -11873,7 +11873,7 @@
                             period-value="4" period-time-remaining="11:16"
                             period-time-elapsed="08:44" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-40,5"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="50" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Over Net">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
@@ -11884,7 +11884,7 @@
                             period-value="4" period-time-remaining="11:09"
                             period-time-elapsed="08:51" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-65,-21"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471426" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
@@ -11895,7 +11895,7 @@
                             period-value="4" period-time-remaining="11:07"
                             period-time-elapsed="08:53" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="-82,16"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="17" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8466251" team-idref="l.nhl.com-t.15"
@@ -11926,7 +11926,7 @@
                             period-value="4" period-time-remaining="10:53"
                             period-time-elapsed="09:07" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-73,5"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
@@ -12085,7 +12085,7 @@
                             period-value="4" period-time-remaining="10:18"
                             period-time-elapsed="09:42" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="-69,-22"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8473563" team-idref="l.nhl.com-t.15"
@@ -12096,7 +12096,7 @@
                             period-value="4" period-time-remaining="10:00"
                             period-time-elapsed="10:00" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="52,11"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
                                 role="spichrole:shooter"/>
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
@@ -12143,7 +12143,7 @@
                             period-value="4" period-time-remaining="09:53"
                             period-time-elapsed="10:07" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="89,39"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474590" team-idref="l.nhl.com-t.15"
                                 role="spichrole:hitter"/>
                             <participant idref="l.nhl.com-p.8476468" team-idref="l.nhl.com-t.3"
@@ -12154,7 +12154,7 @@
                             period-value="4" period-time-remaining="09:37"
                             period-time-elapsed="10:23" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="80,12"
-                            zone="spichzone:offensive" shot-type="nhlshot:Wrist"
+                            zone="spichzone:offense" shot-type="nhlshot:Wrist"
                             shot-distance="15" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength" comment="Wide of Net">
                             <participant idref="l.nhl.com-p.8468575" team-idref="l.nhl.com-t.3"
@@ -12379,7 +12379,7 @@
                             period-value="4" period-time-remaining="08:49"
                             period-time-elapsed="11:11" team-idref="l.nhl.com-t.15" score-team="1"
                             score-team-opposing="1" field-location="69,-23"
-                            zone="spichzone:defensive" strength="spichstrength:even-strength">
+                            zone="spichzone:defense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
@@ -12394,7 +12394,7 @@
                             period-value="4" period-time-remaining="08:42"
                             period-time-elapsed="11:18" team-idref="l.nhl.com-t.3" score-team="1"
                             score-team-opposing="1" field-location="69,-23"
-                            zone="spichzone:offensive" strength="spichstrength:even-strength">
+                            zone="spichzone:offense" strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                                 role="spichrole:faceoff-winner"/>
                             <participant idref="l.nhl.com-p.8470611" team-idref="l.nhl.com-t.15"
@@ -12405,7 +12405,7 @@
                             period-value="4" period-time-remaining="08:36"
                             period-time-elapsed="11:24" team-idref="l.nhl.com-t.3" score-team="2"
                             score-team-opposing="1" field-location="46,-14"
-                            zone="spichzone:offensive" shot-type="nhlshot:Slap"
+                            zone="spichzone:offense" shot-type="nhlshot:Slap"
                             shot-distance="46" score-attempt-type="spichscoreattempt:regular"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8471958" team-idref="l.nhl.com-t.3"
@@ -12417,7 +12417,7 @@
                             sequence-number="411242250074420" period-value="4"
                             period-time-remaining="08:36" period-time-elapsed="11:24"
                             team-idref="l.nhl.com-t.3" score-team="2" score-team-opposing="1"
-                            field-location="75,12" zone="spichzone:offensive"
+                            field-location="75,12" zone="spichzone:offense"
                             shot-type="nhlshot:Wrist" shot-distance="19"
                             score-attempt-type="spichscoreattempt:regular" goal-zone="nhlgoalzone:6"
                             strength="spichstrength:even-strength">

@@ -51,7 +51,7 @@
 
                         <tournament-part>
                             <!-- First, there is a round robin between all teams, and that is divided into "draws"  -->
-                            <tournament-part-metadata type="sptournamentform:group">
+                            <tournament-part-metadata type="sptournamentphase:group">
                                 <name>Group play</name>
                             </tournament-part-metadata>
 

@@ -63,7 +63,7 @@
                     <name role="nrol:full">Brad Guzan</name>
                     <player-metadata-soccer line-formation-position="1"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -79,7 +79,7 @@
                     <name role="nrol:full">Alan Hutton</name>
                     <player-metadata-soccer line-formation-position="2"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -94,7 +94,7 @@
                     <name role="nrol:full">Philippe Senderos</name>
                     <player-metadata-soccer line-formation-position="5"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -109,7 +109,7 @@
                     <name role="nrol:full">Nathan Baker</name>
                     <player-metadata-soccer line-formation-position="6"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -124,7 +124,7 @@
                     <name role="nrol:full">Aly Cissokho</name>
                     <player-metadata-soccer line-formation-position="3"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -139,7 +139,7 @@
                     <name role="nrol:full">Tom Cleverley</name>
                     <player-metadata-soccer line-formation-position="7"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -154,7 +154,7 @@
                     <name role="nrol:full">Ashley Westwood</name>
                     <player-metadata-soccer line-formation-position="4"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -169,7 +169,7 @@
                     <name role="nrol:full">Fabian Delph</name>
                     <player-metadata-soccer line-formation-position="8"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -184,7 +184,7 @@
                     <name role="nrol:full">Charles N'Zogbia</name>
                     <player-metadata-soccer line-formation-position="10"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="71">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -199,7 +199,7 @@
                     <name role="nrol:full">Andreas Weimann</name>
                     <player-metadata-soccer line-formation-position="9"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="61">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -214,7 +214,7 @@
                     <name role="nrol:full">Kieran Richardson</name>
                     <player-metadata-soccer line-formation-position="11"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="71">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-on-goal-total="1"/>
@@ -236,7 +236,7 @@
                     <name role="nrol:full">Leandro Bacuna</name>
                     <player-metadata-soccer line-formation-position="0"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     time-played-total="19">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -258,7 +258,7 @@
                     <name role="nrol:full">Christian Benteke</name>
                     <player-metadata-soccer line-formation-position="0"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     time-played-total="29">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -287,7 +287,7 @@
                     <name role="nrol:full">Jack Grealish</name>
                     <player-metadata-soccer line-formation-position="0"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     time-played-total="19">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -323,7 +323,7 @@
                     <name role="nrol:full">Joe Hart</name>
                     <player-metadata-soccer line-formation-position="1"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -339,7 +339,7 @@
                     <name role="nrol:full">Pablo Zabaleta</name>
                     <player-metadata-soccer line-formation-position="2"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -354,7 +354,7 @@
                     <name role="nrol:full">Vincent Kompany</name>
                     <player-metadata-soccer line-formation-position="5"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -369,7 +369,7 @@
                     <name role="nrol:full">Eliaquim Mangala</name>
                     <player-metadata-soccer line-formation-position="6"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-on-goal-total="1"/>
@@ -384,7 +384,7 @@
                     <name role="nrol:full">Aleksandar Kolarov</name>
                     <player-metadata-soccer line-formation-position="3"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"
@@ -401,7 +401,7 @@
                     <name role="nrol:full">James Milner</name>
                     <player-metadata-soccer line-formation-position="7"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive assists-total="1"/>
@@ -416,7 +416,7 @@
                     <name role="nrol:full">Fernando Luiz Rosa</name>
                     <player-metadata-soccer line-formation-position="4"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="56">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -431,7 +431,7 @@
                     <name role="nrol:full">Gnegneri Yaya Touré</name>
                     <player-metadata-soccer line-formation-position="8"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive goals-total="1" shots-total="1"
@@ -447,7 +447,7 @@
                     <name role="nrol:full">David Silva</name>
                     <player-metadata-soccer line-formation-position="11"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="84">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="4" shots-on-goal-total="2"
@@ -463,7 +463,7 @@
                     <name role="nrol:full">Edin Dzeko</name>
                     <player-metadata-soccer line-formation-position="10"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="64">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="1" shots-off-goal-total="1"/>
@@ -478,7 +478,7 @@
                     <name role="nrol:full">Sergio Agüero</name>
                     <player-metadata-soccer line-formation-position="9"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     events-started="1" time-played-total="90">
                     <player-stats-soccer>
                         <stats-soccer-offensive goals-total="1" shots-total="4"
@@ -501,7 +501,7 @@
                     <name role="nrol:full">Fernando Francisco Reges</name>
                     <player-metadata-soccer line-formation-position="0"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     time-played-total="26">
                     <player-stats-soccer>
                         <stats-soccer-offensive assists-total="1"/>
@@ -523,7 +523,7 @@
                     <name role="nrol:full">Jesús Navas</name>
                     <player-metadata-soccer line-formation-position="0"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     time-played-total="6">
                     <player-stats-soccer>
                         <stats-soccer-offensive/>
@@ -538,7 +538,7 @@
                     <name role="nrol:full">Frank Lampard</name>
                     <player-metadata-soccer line-formation-position="0"/>
                 </player-metadata>
-                <player-stats team-coverage="single-team" temporal-unit-type="spct:event"
+                <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event"
                     time-played-total="34">
                     <player-stats-soccer>
                         <stats-soccer-offensive shots-total="2" shots-on-goal-total="1"

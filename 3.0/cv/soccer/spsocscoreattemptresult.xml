@@ -31,9 +31,16 @@
             <name xml:lang="en-US">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Types of scoring failure in soccer.</description>
+        <description>Results of scoring attempts in soccer.</description>
     </contentMeta>
     <conceptSet>
+        <concept id="spsocscoreattemptresultgoal">
+            <conceptId qcode="spsocscoreattemptresult:goal"/>
+            <name xml:lang="en-US">goal</name>
+            <definition>The shot was successful.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
+            />
+        </concept>
         <concept id="spsocscoreattemptresultmissed">
             <conceptId qcode="spsocscoreattemptresult:missed"/>
             <name xml:lang="en-US">missed</name>
@@ -69,17 +76,26 @@
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
+        <concept id="spsocscoreattemptresultoff-frame">
+            <conceptId qcode="spsocscoreattemptresult:off-frame"/>
+            <name xml:lang="en-US">off-frame</name>
+            <definition>The framework of the goal blocked the shot.</definition>
+            <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
+            />
+        </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/"
         preferredalias="spsocscoreattemptresult">
-        <definition xml:lang="en-US">Types of scoring failure in soccer.</definition>
+        <definition xml:lang="en-US">Results of scoring attempts in soccer.</definition>
         <name xml:lang="en-US">Soccer Score Attempt Types</name>
+        <related qcode="spsocscoreattemptresult:goal" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:saved" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:off-post" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:off-bar" rel="skos:hasTopConcept"/>
+        <related qcode="spsocscoreattemptresult:off-frame" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>
