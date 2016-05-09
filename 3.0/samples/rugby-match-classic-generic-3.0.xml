@@ -917,8 +917,8 @@
             <action class="spactionclass:substitution" minutes-elapsed="70" team-idref="t.33094">
                 <participant idref="p.442159" role="sprgxrole:sub-on"/>
             </action>
-            <action class="spactionclass:infraction" minutes-elapsed="71" team-idref="t.33286"
-                infraction-level="sprgxinfractionlevel:yellow-card">
+            <action class="spactionclass:penalty" minutes-elapsed="71" team-idref="t.33286"
+                penalty-level="sprgxpenaltylevel:yellow-card">
                 <participant idref="p.324028" role="sprgxrole:infraction-by"/>
             </action>
         </actions>

@@ -54,9 +54,9 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spactionclassinfraction">
-            <conceptId qcode="spactionclass:infraction"/>
-            <name xml:lang="en-US">infraction</name>
+        <concept id="spactionclasspenalty">
+            <conceptId qcode="spactionclass:penalty"/>
+            <name xml:lang="en-US">penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spactionclass/" rel="skos:inScheme"/>
         </concept>
@@ -76,7 +76,7 @@
         <related qcode="spactionclass:play" rel="skos:hasTopConcept"/>
         <related qcode="spactionclass:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spactionclass:score" rel="skos:hasTopConcept"/>
-        <related qcode="spactionclass:infraction" rel="skos:hasTopConcept"/>
+        <related qcode="spactionclass:penalty" rel="skos:hasTopConcept"/>
         <related qcode="spactionclass:official-procedure" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>

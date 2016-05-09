@@ -1303,7 +1303,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="31.8,75.2"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO57112" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.1742072243"
@@ -1311,7 +1311,7 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="68.2,24.8"
                             zone="opsoczone:Center"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO18737" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.1519215844"
@@ -1701,7 +1701,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="77.8,95.5"
                             zone="opsoczone:Left"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO42593" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.389041074"
@@ -1709,7 +1709,7 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="22.2,4.5"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO43250" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.917875639"
@@ -4533,23 +4533,23 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="56.0,9.3"
                             zone="opsoczone:Right"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO15405" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.709953894"
                             sequence-number="1004175335" minutes-elapsed="23" time-elapsed="23:23"
                             period-value="1" team-idref="e.755363-t.43" start-location="44.0,90.7"
                             zone="opsoczone:Back"
-                            infraction-type="opinfract:Attempted_Tackle"
+                            penalty-type="opinfract:Attempted_Tackle"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO42593" role="spsocrole:foul-committed-by"/>
                         </action>
-                        <action class="spactionclass:infraction" id="a.993956829"
+                        <action class="spactionclass:penalty" id="a.993956829"
                             sequence-number="1004175338" minutes-elapsed="23" time-elapsed="23:27"
                             period-value="1" team-idref="e.755363-t.43" start-location="0.0,0.0"
-                            infraction-type="opinfract:Foul"
-                            infraction-level="spsocinfractionlevel:yellow-card"
-                            type="spsocaction:infraction">
+                            penalty-type="opinfract:Foul"
+                            penalty-level="spsocpenaltylevel:yellow-card"
+                            type="spsocaction:penalty">
                             <participant idref="PO42593" role="spsocrole:infraction-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.1955638557"
@@ -4757,7 +4757,7 @@
                         <action class="spactionclass:play" id="a.1271248735"
                             sequence-number="1004175533" minutes-elapsed="25" time-elapsed="25:22"
                             period-value="1" team-idref="e.755363-t.7" start-location="6.3,4.9"
-                            zone="opsoczone:Back" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Back" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO43250" role="spsocrole:foul-committed-by"/>
                         </action>
@@ -4766,7 +4766,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="94.3,94.7"
                             zone="opsoczone:Left"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO42593" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.1580561882"
@@ -4866,14 +4866,14 @@
                             sequence-number="1004175703" minutes-elapsed="26" time-elapsed="26:51"
                             period-value="1" team-idref="e.755363-t.7" start-location="24.3,9.9"
                             zone="opsoczone:Back"
-                            infraction-type="opinfract:Attempted_Tackle"
+                            penalty-type="opinfract:Attempted_Tackle"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO43250" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.2100600072"
                             sequence-number="1004175703" minutes-elapsed="26" time-elapsed="26:51"
                             period-value="1" team-idref="e.755363-t.43" start-location="75.7,90.1"
-                            zone="opsoczone:Left" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Left" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO42544" role="spsocrole:foul-committed-by"/>
                         </action>
@@ -5252,7 +5252,7 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="51.4,91.1"
                             zone="opsoczone:Left"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO41823" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.499455619"
@@ -5260,7 +5260,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="48.6,8.9"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO27789" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.617956212"
@@ -6096,14 +6096,14 @@
                         <action class="spactionclass:play" id="a.1774838675"
                             sequence-number="1004180516" minutes-elapsed="35" time-elapsed="35:05"
                             period-value="1" team-idref="e.755363-t.7" start-location="31.3,54.1"
-                            zone="opsoczone:Back" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Back" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO52477" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.1261039603"
                             sequence-number="1004180516" minutes-elapsed="35" time-elapsed="35:05"
                             period-value="1" team-idref="e.755363-t.43" start-location="68.7,45.9"
-                            zone="opsoczone:Center" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Center" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO20664" role="spsocrole:foul-committed-against"/>
                         </action>
@@ -9018,13 +9018,13 @@
                             period-value="2" team-idref="e.755363-t.7" start-location="27.8,93.1"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO60551" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.2079084360"
                             sequence-number="1004184243" minutes-elapsed="55" time-elapsed="55:46"
                             period-value="2" team-idref="e.755363-t.43" start-location="72.2,6.9"
-                            zone="opsoczone:Right" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Right" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO15157" role="spsocrole:foul-committed-by"/>
                         </action>
@@ -9775,7 +9775,7 @@
                             period-value="2" team-idref="e.755363-t.43" start-location="79.4,33.0"
                             zone="opsoczone:Center"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO20664" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.1393262745"
@@ -9783,7 +9783,7 @@
                             period-value="2" team-idref="e.755363-t.7" start-location="20.6,67.0"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO44354" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.740501466"
@@ -11433,7 +11433,7 @@
                         <action class="spactionclass:play" id="a.1591025551"
                             sequence-number="1004190232" minutes-elapsed="75" time-elapsed="75:36"
                             period-value="2" team-idref="e.755363-t.7" start-location="15.4,26.9"
-                            zone="opsoczone:Back" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Back" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO16854" role="spsocrole:foul-committed-against"/>
                         </action>
@@ -11441,7 +11441,7 @@
                             sequence-number="1004190232" minutes-elapsed="75" time-elapsed="75:36"
                             period-value="2" team-idref="e.755363-t.43" start-location="84.6,73.1"
                             zone="opsoczone:Center"
-                            infraction-type="opinfract:Attempted_Tackle"
+                            penalty-type="opinfract:Attempted_Tackle"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO15157" role="spsocrole:foul-committed-by"/>
                         </action>

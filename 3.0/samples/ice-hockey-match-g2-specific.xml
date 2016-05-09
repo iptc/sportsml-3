@@ -1435,7 +1435,7 @@
                             <participant idref="l.nhl.com-p.8476808" team-idref="l.nhl.com-t.8"
                                 assists-cumulative="1" role="spichrole:assist"/>
                         </action>
-                        <action class="spactionclass:infraction" sequence-number="100"
+                        <action class="spactionclass:penalty" sequence-number="100"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
                             penalty-name="Boarding" penalty-length="2"
                             zone="spichzone:offense" period-value="1"
@@ -1445,7 +1445,7 @@
                             <participant idref="l.nhl.com-p.8474056" team-idref="l.nhl.com-t.8"
                                 role="spichrole:penalty-committed-against"/>
                         </action>
-                        <action class="spactionclass:infraction" sequence-number="101"
+                        <action class="spactionclass:penalty" sequence-number="101"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Roughing" penalty-length="2"
                             zone="spichzone:defense" period-value="1"
@@ -1455,7 +1455,7 @@
                             <participant idref="l.nhl.com-p.8473463" team-idref="l.nhl.com-t.10"
                                 role="spichrole:penalty-committed-against"/>
                         </action>
-                        <action class="spactionclass:infraction" sequence-number="102"
+                        <action class="spactionclass:penalty" sequence-number="102"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.10"
                             penalty-name="Interference" penalty-length="2"
                             zone="spichzone:offense" period-value="1"
@@ -1465,7 +1465,7 @@
                             <participant idref="l.nhl.com-p.8471296" team-idref="l.nhl.com-t.8"
                                 role="spichrole:penalty-committed-against"/>
                         </action>
-                        <action class="spactionclass:infraction" sequence-number="103"
+                        <action class="spactionclass:penalty" sequence-number="103"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Interference on goalkeeper" penalty-length="2"
                             zone="spichzone:offense" period-value="2"
@@ -1475,7 +1475,7 @@
                             <participant idref="l.nhl.com-p.8473541" team-idref="l.nhl.com-t.10"
                                 role="spichrole:penalty-committed-against"/>
                         </action>
-                        <action class="spactionclass:infraction" sequence-number="104"
+                        <action class="spactionclass:penalty" sequence-number="104"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Tripping" penalty-length="2"
                             zone="spichzone:offense" period-value="2"
@@ -1485,7 +1485,7 @@
                             <participant idref="l.nhl.com-p.8475172" team-idref="l.nhl.com-t.10"
                                 role="spichrole:penalty-committed-against"/>
                         </action>
-                        <action class="spactionclass:infraction" sequence-number="105"
+                        <action class="spactionclass:penalty" sequence-number="105"
                             recipient-type="sprecipienttype:player" team-idref="l.nhl.com-t.8"
                             penalty-name="Interference" penalty-length="2"
                             zone="spichzone:defense" period-value="3"

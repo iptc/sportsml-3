@@ -79,15 +79,15 @@
                                     value="17"/>
                                 <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                     value="44"/>
-                                <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
+                                <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
                                     value="124"/>
-                                <stat class="spct:infraction" stat-type="spsocstat:ejections-total"
+                                <stat class="spct:penalty" stat-type="spsocstat:ejections-total"
                                     value="2"/>
-                                <stat class="spct:infraction"
+                                <stat class="spct:penalty"
                                     stat-type="spsocstat:ejections-second-caution" value="0"/>
-                                <stat class="spct:infraction"
+                                <stat class="spct:penalty"
                                     stat-type="spsocstat:ejections-straight" value="2"/>
-                                <stat class="spct:infraction" stat-type="spsocstat:cautions-total"
+                                <stat class="spct:penalty" stat-type="spsocstat:cautions-total"
                                     value="15"/>
                             </stats>
                         </team-stats>
@@ -137,9 +137,9 @@
                                         value="2"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="11"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -174,7 +174,7 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="1.000"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shutouts"
                                         value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="2"/>
                                 </stats>
                             </player-stats>
@@ -270,9 +270,9 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="0.667"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="4"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="7"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -313,9 +313,9 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="1.000"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shutouts"
                                         value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="6"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -348,13 +348,13 @@
                                         value="10"/>
                                     <stat class="spct:defense" stat-type="spsocstat:save-percentage"
                                         value="0.667"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:ejections-total" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:ejections-second-caution" value="0"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:ejections-straight" value="1"/>
                                 </stats>
                             </player-stats>
@@ -413,9 +413,9 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="3"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="8"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="2"/>
                                 </stats>
                             </player-stats>
@@ -466,7 +466,7 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="4"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="14"/>
                                 </stats>
                             </player-stats>
@@ -517,9 +517,9 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="1.000"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="7"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -568,9 +568,9 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="3"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="6"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -611,9 +611,9 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="7"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="14"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="3"/>
                                 </stats>
                             </player-stats>
@@ -648,7 +648,7 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="1.000"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
@@ -701,9 +701,9 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="5"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="19"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -740,7 +740,7 @@
                                         value="1"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:tackles-won-percentage" value="0.000"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
@@ -866,9 +866,9 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="5"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="9"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -919,9 +919,9 @@
                                         value="1"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="11"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -960,15 +960,15 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="0.750"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shutouts"
                                         value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:ejections-total" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:ejections-second-caution" value="0"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:ejections-straight" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
@@ -1025,7 +1025,7 @@
                                         value="2"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="3"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="3"/>
                                 </stats>
                             </player-stats>
@@ -1078,9 +1078,9 @@
                                         stat-type="spsocstat:tackles-won-percentage" value="0.750"/>
                                     <stat class="spct:defense" stat-type="spsocstat:shots-blocked"
                                         value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>

@@ -70,9 +70,9 @@
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spsocactioninfraction">
-            <conceptId qcode="spsocaction:infraction"/>
-            <name xml:lang="en-US">infraction</name>
+        <concept id="spsocactionpenalty">
+            <conceptId qcode="spsocaction:penalty"/>
+            <name xml:lang="en-US">penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocaction/" rel="skos:inScheme"/>
         </concept>
@@ -219,7 +219,7 @@
         <related qcode="spsocaction:corner" rel="skos:hasTopConcept"/>
         <related qcode="spsocaction:throw-in" rel="skos:hasTopConcept"/>
         <related qcode="spsocaction:pass" rel="skos:hasTopConcept"/>
-        <related qcode="spsocaction:infraction" rel="skos:hasTopConcept"/>
+        <related qcode="spsocaction:penalty" rel="skos:hasTopConcept"/>
         <related qcode="spsocaction:timeout" rel="skos:hasTopConcept"/>
         <related qcode="spsocaction:cross" rel="skos:hasTopConcept"/>
         <related qcode="spsocaction:throw-in" rel="skos:hasTopConcept"/>

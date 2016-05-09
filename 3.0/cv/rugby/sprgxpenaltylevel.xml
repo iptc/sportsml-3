@@ -1,6 +1,6 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
     standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-sprgxinfractionlevel" version="1">
+    guid="urn:newsml:iptc.org:20080229:srcncdki-sprgxpenaltylevel" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -31,29 +31,29 @@
             <name xml:lang="en-US">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Levels of infraction in rugby.</description>
+        <description>Levels of penalty in rugby.</description>
     </contentMeta>
     <conceptSet>
-        <concept id="sprgxinfractionlevelyellow-card">
-            <conceptId qcode="sprgxinfractionlevel:yellow-card"/>
+        <concept id="sprgxpenaltylevelyellow-card">
+            <conceptId qcode="sprgxpenaltylevel:yellow-card"/>
             <name xml:lang="en-US">yellow-card</name>
             <definition>Penalty shown by a yellow card - also known as a caution.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="sprgxinfractionlevelred-card">
-            <conceptId qcode="sprgxinfractionlevel:red-card"/>
+        <concept id="sprgxpenaltylevelred-card">
+            <conceptId qcode="sprgxpenaltylevel:red-card"/>
             <name xml:lang="en-US">red-card</name>
             <definition>Penalty shown as a red card - also known as an ejection.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltylevel/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
-        uri="http://cv.iptc.org/newscodes/sprgxinfractionlevel/"
-        preferredalias="sprgxinfractionlevel">
-        <definition xml:lang="en-US">Levels of infraction in rugby.</definition>
-        <name xml:lang="en-US">Rugby Infraction Levels</name>
-        <related qcode="sprgxinfractionlevel:yellow-card" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxinfractionlevel:red-card" rel="skos:hasTopConcept"/>
+        uri="http://cv.iptc.org/newscodes/sprgxpenaltylevel/"
+        preferredalias="sprgxpenaltylevel">
+        <definition xml:lang="en-US">Levels of penalty in rugby.</definition>
+        <name xml:lang="en-US">Rugby Penalty Levels</name>
+        <related qcode="sprgxpenaltylevel:yellow-card" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxpenaltylevel:red-card" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

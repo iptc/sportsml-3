@@ -134,9 +134,9 @@
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-committed"
                         value="0"/>
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-lost" value="0"/>
-                    <stat class="spct:infraction" stat-type="spamfstat:penalty-yards"
+                    <stat class="spct:penalty" stat-type="spamfstat:penalty-yards"
                         value="36"/>
-                    <stat class="spct:infraction" stat-type="spamfstat:penalties-total"
+                    <stat class="spct:penalty" stat-type="spamfstat:penalties-total"
                         value="5"/>
                 </stats>
                 <sub-score period-value="1" score="0"/>
@@ -1053,9 +1053,9 @@
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-committed"
                         value="0"/>
                     <stat class="spct:fumbles" stat-type="spamfstat:fumbles-lost" value="0"/>
-                    <stat class="spct:infraction" stat-type="spamfstat:penalty-yards"
+                    <stat class="spct:penalty" stat-type="spamfstat:penalty-yards"
                         value="70"/>
-                    <stat class="spct:infraction" stat-type="spamfstat:penalties-total"
+                    <stat class="spct:penalty" stat-type="spamfstat:penalties-total"
                         value="7"/>
                 </stats>
                 <sub-score period-value="1" score="0"/>
