@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" standard="NewsML-G2"
     standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd"
+    
     guid="xt.prog.20150303231135-20004-04.337-event-stats-progressive">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <itemMeta>
@@ -62,8 +62,7 @@
     </contentMeta>
     <contentSet>
         <inlineXML contenttype="application/sportsml+xml">
-            <sports-content
-                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
+            <sports-content>
                 <sports-event>
                     <event-metadata key="tsnevent:l.nba.com-2014-e.20004"
                         event-status="speventstatus:mid-event"
