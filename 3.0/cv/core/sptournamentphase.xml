@@ -49,6 +49,12 @@
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
+		<concept id="sptournamentphasetiebreaker">
+			<conceptId qcode="sptournamentphase:tiebreaker"/>
+			<name xml:lang="en-US">Tie Breaker</name>
+			<definition/>
+			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
+		</concept>
 		<concept id="sptournamentphaseround">
 			<conceptId qcode="sptournamentphase:round"/>
 			<name xml:lang="en-US">Round</name>
@@ -97,8 +103,8 @@
 		preferredalias="sptournamentphase">
 		<definition xml:lang="en-US">The phase of the tournament: semi-final, quarter-final, etc.</definition>
 		<name xml:lang="en-US">Tournament Phase</name>
-		<related qcode="sptournamentform:elimination" rel="skos:hasTopConcept"/>
-		<related qcode="sptournamentform:group" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentphase:elimination" rel="skos:hasTopConcept"/>
+		<related qcode="sptournamentphase:group" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:play-off" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:tiebreaker" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:round" rel="skos:hasTopConcept"/>
