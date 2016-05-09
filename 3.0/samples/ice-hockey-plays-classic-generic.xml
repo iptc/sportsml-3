@@ -1696,11 +1696,11 @@
                 <participant idref="l.nhl.com-p.8477444" team-idref="l.nhl.com-t.15"
                     role="spichrole:on-ice"/>
             </action>
-            <action class="spactionclass:infraction" id="p.29" sequence-number="106231955365340"
+            <action class="spactionclass:penalty" id="p.29" sequence-number="106231955365340"
                 period-value="1" period-time-remaining="13:37" period-time-elapsed="06:23"
                 team-idref="l.nhl.com-t.3" score-team="0" score-team-opposing="0"
-                infraction-length="2:00" field-location="4,0" zone="spichzone:neutral"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Interference"
+                penalty-length="2:00" field-location="4,0" zone="spichzone:neutral"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Interference"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8473536" team-idref="l.nhl.com-t.3"
                     role="spichrole:penalty-committed-by"/>
@@ -1993,11 +1993,11 @@
                 <participant idref="l.nhl.com-p.8470854" team-idref="l.nhl.com-t.3"
                     role="spichrole:hittee"/>
             </action>
-            <action class="spactionclass:infraction" id="p.35" sequence-number="108452000455090"
+            <action class="spactionclass:penalty" id="p.35" sequence-number="108452000455090"
                 period-value="1" period-time-remaining="11:15" period-time-elapsed="08:45"
                 team-idref="l.nhl.com-t.15" score-team="0" score-team-opposing="0"
-                infraction-length="2:00" field-location="91,10" zone="spichzone:offense"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Interference"
+                penalty-length="2:00" field-location="91,10" zone="spichzone:offense"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Interference"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8475744" team-idref="l.nhl.com-t.15"
                     role="spichrole:penalty-committed-by"/>
@@ -3173,11 +3173,11 @@
                 <participant idref="l.nhl.com-p.8474176" team-idref="l.nhl.com-t.3"
                     role="spichrole:on-ice"/>
             </action>
-            <action class="spactionclass:infraction" id="p.204" sequence-number="116342016236160"
+            <action class="spactionclass:penalty" id="p.204" sequence-number="116342016236160"
                 period-value="1" period-time-remaining="03:26" period-time-elapsed="16:34"
                 team-idref="l.nhl.com-t.3" score-team="0" score-team-opposing="1"
-                infraction-length="2:00" field-location="-89,-32" zone="spichzone:offense"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Tripping"
+                penalty-length="2:00" field-location="-89,-32" zone="spichzone:offense"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Tripping"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8473544" team-idref="l.nhl.com-t.3"
                     role="spichrole:penalty-committed-by"/>
@@ -3706,11 +3706,11 @@
                 <participant idref="l.nhl.com-p.8474613" team-idref="l.nhl.com-t.3"
                     role="spichrole:faceoff-loser"/>
             </action>
-            <action class="spactionclass:infraction" id="p.211" sequence-number="119262021363500"
+            <action class="spactionclass:penalty" id="p.211" sequence-number="119262021363500"
                 period-value="1" period-time-remaining="00:34" period-time-elapsed="19:26"
                 team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
-                infraction-length="2:00" field-location="-45,37" zone="spichzone:defense"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Holding"
+                penalty-length="2:00" field-location="-45,37" zone="spichzone:defense"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Holding"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8474291" team-idref="l.nhl.com-t.15"
                     role="spichrole:penalty-committed-by"/>
@@ -4029,11 +4029,11 @@
                 <participant idref="l.nhl.com-p.8475149" team-idref="l.nhl.com-t.15"
                     role="spichrole:giveaway"/>
             </action>
-            <action class="spactionclass:infraction" id="p.223" sequence-number="201552044047520"
+            <action class="spactionclass:penalty" id="p.223" sequence-number="201552044047520"
                 period-value="2" period-time-remaining="18:05" period-time-elapsed="01:55"
                 team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
-                infraction-length="2:00" field-location="81,8" zone="spichzone:defense"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Tripping"
+                penalty-length="2:00" field-location="81,8" zone="spichzone:defense"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Tripping"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
                     role="spichrole:penalty-committed-by"/>
@@ -4374,11 +4374,11 @@
                 <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
                     role="spichrole:on-ice"/>
             </action>
-            <action class="spactionclass:infraction" id="p.227" sequence-number="204342047309680"
+            <action class="spactionclass:penalty" id="p.227" sequence-number="204342047309680"
                 period-value="2" period-time-remaining="15:26" period-time-elapsed="04:34"
                 team-idref="l.nhl.com-t.15" score-team="1" score-team-opposing="0"
-                infraction-length="2:00" field-location="87,32" zone="spichzone:defense"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Cross-checking"
+                penalty-length="2:00" field-location="87,32" zone="spichzone:defense"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Cross-checking"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8471242" team-idref="l.nhl.com-t.15"
                     role="spichrole:penalty-committed-by"/>
@@ -5466,11 +5466,11 @@
                 <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
                     role="spichrole:on-ice"/>
             </action>
-            <action class="spactionclass:infraction" id="p.241" sequence-number="212132103261950"
+            <action class="spactionclass:penalty" id="p.241" sequence-number="212132103261950"
                 period-value="2" period-time-remaining="07:47" period-time-elapsed="12:13"
                 team-idref="l.nhl.com-t.3" score-team="1" score-team-opposing="1"
-                infraction-length="2:00" field-location="31,-35" zone="spichzone:offense"
-                strength="spichstrength:even-strength" infraction-type="nhlpenalty:Tripping"
+                penalty-length="2:00" field-location="31,-35" zone="spichzone:offense"
+                strength="spichstrength:even-strength" penalty-type="nhlpenalty:Tripping"
                 recipient-type="sprecipienttype:player">
                 <participant idref="l.nhl.com-p.8475855" team-idref="l.nhl.com-t.3"
                     role="spichrole:penalty-committed-by"/>

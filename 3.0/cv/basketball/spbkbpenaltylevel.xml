@@ -1,6 +1,6 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
     standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-spbkbinfractionlevel" version="1">
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spbkbpenaltylevel" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -31,43 +31,43 @@
             <name xml:lang="en-US">basketball</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Types of infraction in basketball.</description>
+        <description>Types of penalty in basketball.</description>
     </contentMeta>
     <conceptSet>
-        <concept id="spbkbinfractionlevelregular">
-            <conceptId qcode="spbkbinfractionlevel:regular"/>
+        <concept id="spbkbpenaltylevelregular">
+            <conceptId qcode="spbkbpenaltylevel:regular"/>
             <name xml:lang="en-US">regular</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spbkbpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spbkbinfractionlevelflagrant">
-            <conceptId qcode="spbkbinfractionlevel:flagrant"/>
+        <concept id="spbkbpenaltylevelflagrant">
+            <conceptId qcode="spbkbpenaltylevel:flagrant"/>
             <name xml:lang="en-US">flagrant</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spbkbpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spbkbinfractionleveltechnical">
-            <conceptId qcode="spbkbinfractionlevel:technical"/>
+        <concept id="spbkbpenaltyleveltechnical">
+            <conceptId qcode="spbkbpenaltylevel:technical"/>
             <name xml:lang="en-US">technical</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spbkbpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spbkbinfractionlevelillegal-defense">
-            <conceptId qcode="spbkbinfractionlevel:illegal-defense"/>
+        <concept id="spbkbpenaltylevelillegal-defense">
+            <conceptId qcode="spbkbpenaltylevel:illegal-defense"/>
             <name xml:lang="en-US">illegal-defense</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spbkbpenaltylevel/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
-        uri="http://cv.iptc.org/newscodes/spbkbinfractionlevel/"
-        preferredalias="spbkbinfractionlevel">
-        <definition xml:lang="en-US">Types of infraction in basketball.</definition>
-        <name xml:lang="en-US">Basketball Infractions</name>
-        <related qcode="spbkbinfractionlevel:regular" rel="skos:hasTopConcept"/>
-        <related qcode="spbkbinfractionlevel:flagrant" rel="skos:hasTopConcept"/>
-        <related qcode="spbkbinfractionlevel:technical" rel="skos:hasTopConcept"/>
-        <related qcode="spbkbinfractionlevel:illegal-defense" rel="skos:hasTopConcept"/>
+        uri="http://cv.iptc.org/newscodes/spbkbpenaltylevel/"
+        preferredalias="spbkbpenaltylevel">
+        <definition xml:lang="en-US">Types of penalty in basketball.</definition>
+        <name xml:lang="en-US">Basketball Penalty Types</name>
+        <related qcode="spbkbpenaltylevel:regular" rel="skos:hasTopConcept"/>
+        <related qcode="spbkbpenaltylevel:flagrant" rel="skos:hasTopConcept"/>
+        <related qcode="spbkbpenaltylevel:technical" rel="skos:hasTopConcept"/>
+        <related qcode="spbkbpenaltylevel:illegal-defense" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

@@ -1,7 +1,7 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:newsml="http://iptc.org/std/nar/2006-10-01/"
     standard="NewsML-G2" standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-spamfinfractionlevel" version="1">
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spamfpenaltylevel" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -32,43 +32,43 @@
             <name xml:lang="en-US">americanfootball</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Levels of infraction in American Football</description>
+        <description>Levels of penalized infractions in American Football</description>
     </contentMeta>
     <conceptSet>
-        <concept id="spamfinfractionleveldelay-of-game">
-            <conceptId qcode="spamfinfractionlevel:delay-of-game"/>
+        <concept id="spamfpenaltyleveldelay-of-game">
+            <conceptId qcode="spamfpenaltylevel:delay-of-game"/>
             <name xml:lang="en-US">delay-of-game</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spamfinfractionlevelencroachment">
-            <conceptId qcode="spamfinfractionlevel:encroachment"/>
+        <concept id="spamfpenaltylevelencroachment">
+            <conceptId qcode="spamfpenaltylevel:encroachment"/>
             <name xml:lang="en-US">encroachment</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spamfinfractionlevelfalse-start">
-            <conceptId qcode="spamfinfractionlevel:false-start"/>
+        <concept id="spamfpenaltylevelfalse-start">
+            <conceptId qcode="spamfpenaltylevel:false-start"/>
             <name xml:lang="en-US">false-start</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spamfinfractionleveloffside">
-            <conceptId qcode="spamfinfractionlevel:offside"/>
+        <concept id="spamfpenaltyleveloffside">
+            <conceptId qcode="spamfpenaltylevel:offside"/>
             <name xml:lang="en-US">offside</name>
             <definition/>
-            <related uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
-        uri="http://cv.iptc.org/newscodes/spamfinfractionlevel/"
-        preferredalias="spamfinfractionlevel">
-        <definition xml:lang="en-US">Levels of infraction in American Football</definition>
-        <name xml:lang="en-US">American Football Infraction Levels</name>
-        <related qcode="spamfinfractionlevel:delay-of-game" rel="skos:hasTopConcept"/>
-        <related qcode="spamfinfractionlevel:encroachment" rel="skos:hasTopConcept"/>
-        <related qcode="spamfinfractionlevel:false-start" rel="skos:hasTopConcept"/>
-        <related qcode="spamfinfractionlevel:offside" rel="skos:hasTopConcept"/>
+        uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/"
+        preferredalias="spamfpenaltylevel">
+        <definition xml:lang="en-US">Levels of penalized infractions in American Football</definition>
+        <name xml:lang="en-US">American Football Penalty Levels</name>
+        <related qcode="spamfpenaltylevel:delay-of-game" rel="skos:hasTopConcept"/>
+        <related qcode="spamfpenaltylevel:encroachment" rel="skos:hasTopConcept"/>
+        <related qcode="spamfpenaltylevel:false-start" rel="skos:hasTopConcept"/>
+        <related qcode="spamfpenaltylevel:offside" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

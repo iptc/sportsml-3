@@ -1,6 +1,6 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
     standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-sprgxinfractionresult" version="1">
+    guid="urn:newsml:iptc.org:20080229:srcncdki-sprgxpenaltyresult" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -31,60 +31,60 @@
             <name xml:lang="en-US">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Results of infractions in rugby.</description>
+        <description>Results of penalties in rugby.</description>
     </contentMeta>
     <conceptSet>
-        <concept id="sprgxinfractionresultplay-on">
-            <conceptId qcode="sprgxinfractionresult:play-on"/>
+        <concept id="sprgxpenaltyresultplay-on">
+            <conceptId qcode="sprgxpenaltyresult:play-on"/>
             <name xml:lang="en-US">play-on</name>
             <definition>Fouled team has advantage of the ball and is allowed to play
                 on.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
-        <concept id="sprgxinfractionresultfreekick">
-            <conceptId qcode="sprgxinfractionresult:freekick"/>
+        <concept id="sprgxpenaltyresultfreekick">
+            <conceptId qcode="sprgxpenaltyresult:freekick"/>
             <name xml:lang="en-US">freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
-        <concept id="sprgxinfractionresultpenalty-kick">
-            <conceptId qcode="sprgxinfractionresult:penalty-kick"/>
+        <concept id="sprgxpenaltyresultpenalty-kick">
+            <conceptId qcode="sprgxpenaltyresult:penalty-kick"/>
             <name xml:lang="en-US">penalty-kick</name>
             <definition>The fouled team is awarded a penalty kick.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
-        <concept id="sprgxinfractionresultpenalty-try">
-            <conceptId qcode="sprgxinfractionresult:penalty-try"/>
+        <concept id="sprgxpenaltyresultpenalty-try">
+            <conceptId qcode="sprgxpenaltyresult:penalty-try"/>
             <name xml:lang="en-US">penalty-try</name>
             <definition>The fouled team is awarded a penalty kick.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
-        <concept id="sprgxinfractionresultcaution">
-            <conceptId qcode="sprgxinfractionresult:caution"/>
+        <concept id="sprgxpenaltyresultcaution">
+            <conceptId qcode="sprgxpenaltyresult:caution"/>
             <name xml:lang="en-US">caution</name>
             <definition>The player is beeing cautioned. Indicated by a yellow card. Suffered team
                 get a freekick or penalty-shot.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
-        <concept id="sprgxinfractionresultejection">
-            <conceptId qcode="sprgxinfractionresult:ejection"/>
+        <concept id="sprgxpenaltyresultejection">
+            <conceptId qcode="sprgxpenaltyresult:ejection"/>
             <name xml:lang="en-US">ejection</name>
             <definition>The player is beeing ejected from the game. Shown by a red card. Suffered
                 team get a freekick or penalty shot.</definition>
-            <related uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
-        uri="http://cv.iptc.org/newscodes/sprgxinfractionresult/"
-        preferredalias="sprgxinfractionresult">
-        <definition xml:lang="en-US">Results of infractions in rugby.</definition>
-        <name xml:lang="en-US">Rugby Infraction Results</name>
-        <related qcode="sprgxinfractionresult:play-on" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxinfractionresult:freekick" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxinfractionresult:penalty-kick" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxinfractionresult:penalty-try" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxinfractionresult:caution" rel="skos:hasTopConcept"/>
-        <related qcode="sprgxinfractionresult:ejection" rel="skos:hasTopConcept"/>
+        uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/"
+        preferredalias="sprgxpenaltyresult">
+        <definition xml:lang="en-US">Results of penalties in rugby.</definition>
+        <name xml:lang="en-US">Rugby Penalty Results</name>
+        <related qcode="sprgxpenaltyresult:play-on" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxpenaltyresult:freekick" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxpenaltyresult:penalty-kick" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxpenaltyresult:penalty-try" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxpenaltyresult:caution" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxpenaltyresult:ejection" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

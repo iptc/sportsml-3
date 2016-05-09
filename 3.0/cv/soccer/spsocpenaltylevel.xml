@@ -1,6 +1,6 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
     standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-spsocinfractionlevel" version="1">
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spsocpenaltylevel" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -31,37 +31,37 @@
             <name xml:lang="en-US">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Levels of infraction in soccer.</description>
+        <description>Levels of penalty in soccer.</description>
     </contentMeta>
     <conceptSet>
-        <concept id="spsocinfractionlevelyellow-card">
-            <conceptId qcode="spsocinfractionlevel:yellow-card"/>
+        <concept id="spsocpenaltylevelyellow-card">
+            <conceptId qcode="spsocpenaltylevel:yellow-card"/>
             <name xml:lang="en-US">yellow-card</name>
             <definition>Foul shown by a yellow card - also known as a caution.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spsocpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spsocinfractionlevelyellow-red-card">
-            <conceptId qcode="spsocinfractionlevel:yellow-red-card"/>
+        <concept id="spsocpenaltylevelyellow-red-card">
+            <conceptId qcode="spsocpenaltylevel:yellow-red-card"/>
             <name xml:lang="en-US">yellow-red-card</name>
             <definition>Foul shown as a second yellow card then followed by a red card - also known
                 as an ejection.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spsocpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spsocinfractionlevelred-card">
-            <conceptId qcode="spsocinfractionlevel:red-card"/>
+        <concept id="spsocpenaltylevelred-card">
+            <conceptId qcode="spsocpenaltylevel:red-card"/>
             <name xml:lang="en-US">red-card</name>
             <definition>Foul shown as a red card - also known as an ejection.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spsocpenaltylevel/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
-        uri="http://cv.iptc.org/newscodes/spsocinfractionlevel/"
-        preferredalias="spsocinfractionlevel">
-        <definition xml:lang="en-US">Levels of infraction in soccer.</definition>
-        <name xml:lang="en-US">Soccer Infraction Levels</name>
-        <related qcode="spsocinfractionlevel:yellow-card" rel="skos:hasTopConcept"/>
-        <related qcode="spsocinfractionlevel:yellow-red-card" rel="skos:hasTopConcept"/>
-        <related qcode="spsocinfractionlevel:red-card" rel="skos:hasTopConcept"/>
+        uri="http://cv.iptc.org/newscodes/spsocpenaltylevel/"
+        preferredalias="spsocpenaltylevel">
+        <definition xml:lang="en-US">Levels of penalty in soccer.</definition>
+        <name xml:lang="en-US">Soccer Penalty Levels</name>
+        <related qcode="spsocpenaltylevel:yellow-card" rel="skos:hasTopConcept"/>
+        <related qcode="spsocpenaltylevel:yellow-red-card" rel="skos:hasTopConcept"/>
+        <related qcode="spsocpenaltylevel:red-card" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

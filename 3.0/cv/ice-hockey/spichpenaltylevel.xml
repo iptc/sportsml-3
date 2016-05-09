@@ -1,6 +1,6 @@
 <knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2"
     standardversion="2.18" conformance="power"
-    guid="urn:newsml:iptc.org:20080229:srcncdki-spichinfractionlevel" version="1">
+    guid="urn:newsml:iptc.org:20080229:srcncdki-spichpenaltylevel" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
@@ -31,83 +31,83 @@
             <name xml:lang="en-US">ice-hockey</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <description>Levels of infraction in ice-hockey.</description>
+        <description>Levels of penalty in ice-hockey.</description>
     </contentMeta>
     <conceptSet>
-        <concept id="spichinfractionlevelminor">
-            <conceptId qcode="spichinfractionlevel:minor"/>
+        <concept id="spichpenaltylevelminor">
+            <conceptId qcode="spichpenaltylevel:minor"/>
             <name xml:lang="en-US">minor</name>
             <definition>A two-minute penalty given to a player.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelbench-minor">
-            <conceptId qcode="spichinfractionlevel:bench-minor"/>
+        <concept id="spichpenaltylevelbench-minor">
+            <conceptId qcode="spichpenaltylevel:bench-minor"/>
             <name xml:lang="en-US">bench-minor</name>
             <definition>A two-minute penalty given to a team (served by player on that
                 team).</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionleveldouble-minor">
-            <conceptId qcode="spichinfractionlevel:double-minor"/>
+        <concept id="spichpenaltyleveldouble-minor">
+            <conceptId qcode="spichpenaltylevel:double-minor"/>
             <name xml:lang="en-US">double-minor</name>
             <definition>A four-minute penalty given to a player.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelmajor">
-            <conceptId qcode="spichinfractionlevel:major"/>
+        <concept id="spichpenaltylevelmajor">
+            <conceptId qcode="spichpenaltylevel:major"/>
             <name xml:lang="en-US">major</name>
             <definition>A five-minute penalty given to a player.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelmisconduct">
-            <conceptId qcode="spichinfractionlevel:misconduct"/>
+        <concept id="spichpenaltylevelmisconduct">
+            <conceptId qcode="spichpenaltylevel:misconduct"/>
             <name xml:lang="en-US">misconduct</name>
             <definition>A ten-minute penalty given to a player.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelmatch">
-            <conceptId qcode="spichinfractionlevel:match"/>
+        <concept id="spichpenaltylevelmatch">
+            <conceptId qcode="spichpenaltylevel:match"/>
             <name xml:lang="en-US">match</name>
             <definition>A player is removed for the balance of the game. A substitute is allowed
                 after five minutes.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelgame-misconduct">
-            <conceptId qcode="spichinfractionlevel:game-misconduct"/>
+        <concept id="spichpenaltylevelgame-misconduct">
+            <conceptId qcode="spichpenaltylevel:game-misconduct"/>
             <name xml:lang="en-US">game-misconduct</name>
             <definition>Suspension of a player for the balance of the game. A substitute is
                 permitted to replace the penalized player immediately.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelgross-misconduct">
-            <conceptId qcode="spichinfractionlevel:gross-misconduct"/>
+        <concept id="spichpenaltylevelgross-misconduct">
+            <conceptId qcode="spichpenaltylevel:gross-misconduct"/>
             <name xml:lang="en-US">gross-misconduct</name>
             <definition>Suspension of any player, coach or trainer for the balance of the game. A
                 substitute is permitted to replace the penalized player immediately.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
-        <concept id="spichinfractionlevelpenalty-shot">
-            <conceptId qcode="spichinfractionlevel:penalty-shot"/>
+        <concept id="spichpenaltylevelpenalty-shot">
+            <conceptId qcode="spichpenaltylevel:penalty-shot"/>
             <name xml:lang="en-US">penalty-shot</name>
             <definition>For certain penalities, a free shot is awarded instead of a player being
                 required to serve penalty time.</definition>
-            <related uri="http://cv.iptc.org/newscodes/spichinfractionlevel/" rel="skos:inScheme"/>
+            <related uri="http://cv.iptc.org/newscodes/spichpenaltylevel/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
-        uri="http://cv.iptc.org/newscodes/spichinfractionlevel/"
-        preferredalias="spichinfractionlevel">
-        <definition xml:lang="en-US">Levels of infraction in ice-hockey.</definition>
-        <name xml:lang="en-US">Ice Hockey Infraction Levels</name>
-        <related qcode="spichinfractionlevel:minor" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:bench-minor" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:double-minor" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:major" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:misconduct" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:match" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:game-misconduct" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:gross-misconduct" rel="skos:hasTopConcept"/>
-        <related qcode="spichinfractionlevel:penalty-shot" rel="skos:hasTopConcept"/>
+        uri="http://cv.iptc.org/newscodes/spichpenaltylevel/"
+        preferredalias="spichpenaltylevel">
+        <definition xml:lang="en-US">Levels of penalty in ice-hockey.</definition>
+        <name xml:lang="en-US">Ice Hockey Penalty Levels</name>
+        <related qcode="spichpenaltylevel:minor" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:bench-minor" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:double-minor" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:major" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:misconduct" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:match" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:game-misconduct" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:gross-misconduct" rel="skos:hasTopConcept"/>
+        <related qcode="spichpenaltylevel:penalty-shot" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>
