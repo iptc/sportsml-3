@@ -290,6 +290,7 @@
         <related qcode="spct:penalty" rel="skos:hasTopConcept"/>
         <related qcode="spct:faceoffs" rel="skos:hasTopConcept"/>
         <related qcode="spct:time-on-ice" rel="skos:hasTopConcept"/>
+        <related qcode="spct:pitching" rel="skos:hasTopConcept"/>
         <related qcode="spct:rebounding" rel="skos:hasTopConcept"/>
         <related qcode="spct:scoring" rel="skos:hasTopConcept"/>        
         <related qcode="spct:article-ref" rel="skos:hasTopConcept"/>
