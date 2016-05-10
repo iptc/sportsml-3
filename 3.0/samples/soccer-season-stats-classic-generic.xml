@@ -2,8 +2,7 @@
 <sports-content xmlns="http://iptc.org/std/nar/2006-10-01/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/">
+    >
     <sports-metadata date-time="2015-10-21T08:59:19-04:00" doc-id="xt.opta.stats-20151021085919-8"
         language="en-US" fixture-key="optadoc:season-stats" document-class="spct:statistics">
         <sports-content-codes>
