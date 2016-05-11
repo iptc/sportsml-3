@@ -4,8 +4,14 @@ SportsML is an open and highly flexible standard for the interchange of sports d
 
 ## Features
 
+* Enhanced NewsML-G2 compatibility
+* Modular schema
+* New flexible tournament structure
+* Generic statistic structures
+* Semantic structures and vocabularies
+
 ### Support
 
-The IPTC Developer Site provides technical information about SportsML-G2.
+The IPTC [Developer Site] (http://dev.iptc.org/SportsML) provides technical information.
 
-The [SportsML Users Forum] (https://groups.yahoo.com/neo/groups/sportsml/info) is used to share experiences, raise questions and recommend and discuss changes to the SportsML-G2 standard. It also connects companies and organizations who use SportsML-G2 and vendors who create tools that process NewsML-G2 documents. 
+The [SportsML Users Forum] (https://groups.yahoo.com/neo/groups/sportsml/info) is used to share experiences, raise questions and recommend and discuss changes to the SportsML standard. It also connects companies and organizations who use SportsML and vendors who create tools that process NewsML-G2 documents. 
