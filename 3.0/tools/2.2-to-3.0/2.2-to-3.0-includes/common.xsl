@@ -122,6 +122,22 @@
                     <xsl:value-of select="@last"/>
                 </xsl:element>
             </xsl:when>
+            <xsl:when test="parent::sportsml:official-metadata">
+                <xsl:element xmlns="http://iptc.org/std/nar/2006-10-01/" name="{name()}">
+                    <xsl:attribute name="role">nrol:full</xsl:attribute>
+                    <xsl:value-of select="@first"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="@last"/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="parent::sportsml:associate-metadata">
+                <xsl:element xmlns="http://iptc.org/std/nar/2006-10-01/" name="{name()}">
+                    <xsl:attribute name="role">nrol:full</xsl:attribute>
+                    <xsl:value-of select="@first"/>
+                    <xsl:text> </xsl:text>
+                    <xsl:value-of select="@last"/>
+                </xsl:element>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:element xmlns="http://iptc.org/std/nar/2006-10-01/" name="{name()}">
                     <xsl:attribute name="role">nrol:full</xsl:attribute>

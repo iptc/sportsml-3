@@ -1,2 +1,778 @@
 <?xml version="1.0"?>
-<sports-content xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com" xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:bbc="http://www.bbc.co.uk/sport/sports-data" xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git/sportsml-3/sportsml-dev/3.0/sportsml.xsd"><sports-metadata date-time="2015-03-03T23:11:35-05:00" doc-id="xt.prog.20150303231135-20004-04.337-event-stats-progressive" language="en-US" fixture-key="tsndoc:event-stats-progressive" document-class="event-summary"><sports-content-codes><sports-content-code code-name="The Sports Network, Inc." code-key="publisher:sportsnetwork.com" code-type="spct:publisher"/><sports-content-code code-name="XML Team Solutions, Inc." code-key="distributor:xmlteam.com" code-type="spct:distributor"/><sports-content-code code-type="spct:sport" code-key="sport:15008000" code-name="Basketball"/><sports-content-code code-type="spct:league" code-key="league:l.nba.com" code-name="National Basketball Association"/><sports-content-code code-type="spct:season" code-key="season:2014"/><sports-content-code code-type="spct:season-type" code-key="season-type:regular"/><sports-content-code code-type="spct:conference" code-key="conference:c.eastern" code-name="Eastern"/><sports-content-code code-type="spct:conference" code-key="conference:c.western" code-name="Western"/><sports-content-code code-type="spct:team" code-key="team:l.nba.com-t.17" code-name="Denver Nuggets"/><sports-content-code code-type="spct:team" code-key="team:l.nba.com-t.14" code-name="Milwaukee Bucks"/></sports-content-codes></sports-metadata><sports-event><event-metadata key="tsnevent:l.nba.com-2014-e.20004" event-status="spevstatus:mid-event" temporal-unit-value="vendor:l.nba.com-2014-e.20004" start-date-time="2015-03-03T21:00:00-05:00" period-value="4" period-time-remaining="4:51"/><team id="l.nba.com-t.14"><team-metadata key="tsnteam:l.nba.com-t.14" alignment="away"><name role="nrol:full">Milwaukee Bucks</name><name part="nprt:common">Milwaukee</name><name part="nprt:nickname">Bucks</name></team-metadata><team-stats><stats><stat stat-type="spcorstat:event-outcome" value="undecided"/><stat stat-type="spcorstat:score" value="84"/><stat stat-type="spcorstat:score-opposing" value="93"/><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="team technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="24"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="31"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="79"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="9"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="22"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="13"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="20"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="19"/><stat class="spct:offense" stat-type="spbkbstat:team-turnovers-total" value="14"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="51"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="8"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="29"/><stat class="spct:rebounding" stat-type="spbkbstat:team-rebounds-total" value="14"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="6"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="6"/></stats><sub-score period-value="1" score="29"/><sub-score period-value="2" score="22"/><sub-score period-value="3" score="19"/><sub-score period-value="4" score="14"/></team-stats><player id="l.nba.com-p.2404"><player-metadata key="tsnperson:l.nba.com-p.2404" position-event="spbkbpos:forward" uniform-number="34" status="spperstatus:starter"><name role="nrol:full">Giannis Antetokounmpo</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="5"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="16"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="6"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="8"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="6"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="5"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="10"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="8"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="2"/></stats></player-stats></player><player id="l.nba.com-p.1024"><player-metadata key="tsnperson:l.nba.com-p.1024" position-event="spbkbpos:forward" uniform-number="7" status="spperstatus:starter"><name role="nrol:full">Ersan Ilyasova</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="3"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="17"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="7"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="13"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="3"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="6"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="2"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/></stats></player-stats></player><player id="l.nba.com-p.641"><player-metadata key="tsnperson:l.nba.com-p.641" position-event="spbkbpos:center" uniform-number="27" status="spperstatus:starter"><name role="nrol:full">Zaza Pachulia</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="1"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="0"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2289"><player-metadata key="tsnperson:l.nba.com-p.2289" position-event="spbkbpos:guard" uniform-number="22" status="spperstatus:starter"><name role="nrol:full">Khris Middleton</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="3"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="20"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="6"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="19"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="3"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="4"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="5"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="5"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="4"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="7"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="6"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="2"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2411"><player-metadata key="tsnperson:l.nba.com-p.2411" position-event="spbkbpos:guard" uniform-number="5" status="spperstatus:starter"><name role="nrol:full">Michael Carter-Williams</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="3"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="7"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="3"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="10"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="3"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="5"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="2"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/></stats></player-stats></player><player id="l.nba.com-p.1504"><player-metadata key="tsnperson:l.nba.com-p.1504" position-event="spbkbpos:guard" uniform-number="19" status="spperstatus:bench"><name role="nrol:full">Jerryd Bayless</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="7"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="8"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="3"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2281"><player-metadata key="tsnperson:l.nba.com-p.2281" position-event="spbkbpos:center" uniform-number="31" status="spperstatus:bench"><name role="nrol:full">John Henson</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="10"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="6"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="5"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="4"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="2"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="2"/></stats></player-stats></player><player id="l.nba.com-p.1292"><player-metadata key="tsnperson:l.nba.com-p.1292" position-event="spbkbpos:forward" uniform-number="9" status="spperstatus:bench"><name role="nrol:full">Jared Dudley</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="6"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="3"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="5"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="5"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2596"><player-metadata key="tsnperson:l.nba.com-p.2596" position-event="spbkbpos:guard" uniform-number="11" status="spperstatus:bench"><name role="nrol:full">Tyler Ennis</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="5"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="6"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="4"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="1"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2271"><player-metadata key="tsnperson:l.nba.com-p.2271" position-event="spbkbpos:center" uniform-number="21" status="spperstatus:bench"><name role="nrol:full">Miles Plumlee</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="0"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player></team><team id="l.nba.com-t.17"><team-metadata key="tsnteam:l.nba.com-t.17" alignment="home"><name role="nrol:full">Denver Nuggets</name><name part="nprt:common">Denver</name><name part="nprt:nickname">Nuggets</name></team-metadata><team-stats><stats><stat stat-type="spcorstat:event-outcome" value="undecided"/><stat stat-type="spcorstat:score" value="93"/><stat stat-type="spcorstat:score-opposing" value="84"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="team technical fouls"/><stat stat-type="spcorstat:count" value="3"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="23"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="35"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="77"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="9"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="28"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="14"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="18"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="22"/><stat class="spct:offense" stat-type="spbkbstat:team-turnovers-total" value="13"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="50"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="7"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="32"/><stat class="spct:rebounding" stat-type="spbkbstat:team-rebounds-total" value="11"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="8"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="5"/></stats><sub-score period-value="1" score="29"/><sub-score period-value="2" score="26"/><sub-score period-value="3" score="21"/><sub-score period-value="4" score="17"/></team-stats><player id="l.nba.com-p.1441"><player-metadata key="tsnperson:l.nba.com-p.1441" position-event="spbkbpos:forward" uniform-number="8" status="spperstatus:starter"><name role="nrol:full">Danilo Gallinari</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="3"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="21"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="7"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="15"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="3"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="8"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="4"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="7"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="7"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/></stats></player-stats></player><player id="l.nba.com-p.1290"><player-metadata key="tsnperson:l.nba.com-p.1290" position-event="spbkbpos:forward" uniform-number="21" status="spperstatus:starter"><name role="nrol:full">Wilson Chandler</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="4"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="12"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="5"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="10"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="4"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="3"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="3"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2107"><player-metadata key="tsnperson:l.nba.com-p.2107" position-event="spbkbpos:center" uniform-number="35" status="spperstatus:starter"><name role="nrol:full">Kenneth Faried</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="14"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="5"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="10"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="5"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="11"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="9"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="3"/></stats></player-stats></player><player id="l.nba.com-p.1184"><player-metadata key="tsnperson:l.nba.com-p.1184" position-event="spbkbpos:guard" uniform-number="4" status="spperstatus:starter"><name role="nrol:full">Randy Foye</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="3"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="6"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="7"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="6"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="4"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="1"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.1616"><player-metadata key="tsnperson:l.nba.com-p.1616" position-event="spbkbpos:guard" uniform-number="3" status="spperstatus:starter"><name role="nrol:full">Ty Lawson</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="11"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="8"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="3"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="8"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="1"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="2"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.1467"><player-metadata key="tsnperson:l.nba.com-p.1467" position-event="spbkbpos:center" uniform-number="7" status="spperstatus:bench"><name role="nrol:full">J.J. Hickson</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="6"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="3"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="9"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="10"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="7"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.871"><player-metadata key="tsnperson:l.nba.com-p.871" position-event="spbkbpos:guard" uniform-number="28" status="spperstatus:bench"><name role="nrol:full">Jameer Nelson</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="9"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="7"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="3"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="1"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="0"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2256"><player-metadata key="tsnperson:l.nba.com-p.2256" position-event="spbkbpos:guard" uniform-number="5" status="spperstatus:bench"><name role="nrol:full">Will Barton</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="4"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="2"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="1"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="5"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="3"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="3"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="2"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/></stats></player-stats></player><player id="l.nba.com-p.1433"><player-metadata key="tsnperson:l.nba.com-p.1433" position-event="spbkbpos:forward" uniform-number="00" status="spperstatus:bench"><name role="nrol:full">Darrell Arthur</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="2"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="8"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="5"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="2"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="1"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2601"><player-metadata key="tsnperson:l.nba.com-p.2601" position-event="spbkbpos:guard" uniform-number="14" status="spperstatus:bench"><name role="nrol:full">Gary Harris</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="1"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="0"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="1"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="0"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player><player id="l.nba.com-p.2418"><player-metadata key="tsnperson:l.nba.com-p.2418" position-event="spbkbpos:guard" uniform-number="11" status="spperstatus:bench"><name role="nrol:full">Erick Green</name></player-metadata><player-stats><stats><stat stat-type="spcorstat:count" value="0"/><stat stat-type="spcorstat:type" value="technical fouls"/><stat stat-type="spcorstat:count" value="1"/><stat stat-type="spcorstat:type" value="personal fouls"/><stat class="spct:offense" stat-type="spbkbstat:points-scored-total" value="4"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted" value="2"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="1"/><stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted" value="1"/><stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/><stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="0"/><stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive" value="0"/><stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/><stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/></stats></player-stats></player></team><actions><action class="spactionclass:score" id="play.337" sequence-number="337" period-value="4" period-time-remaining="4:51" comment="Ersan Ilyasova layup assisted by Khris Middleton." score-attempt-type="spbkbscore:fg" score-team="84" score-team-opposing="93" points="2"><participant idref="l.nba.com-p.1024" team-idref="l.nba.com-t.14" role="spbkbrole:scorer"/><participant idref="l.nba.com-p.2289" team-idref="l.nba.com-t.14" role="spbkbrole:assist"/></action></actions></sports-event></sports-content>
+<sports-content xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    >
+    <sports-metadata date-time="2015-03-03T23:11:35-05:00"
+        doc-id="xt.prog.20150303231135-20004-04.337-event-stats-progressive" language="en-US"
+        fixture-key="tsndoc:event-stats-progressive" document-class="spct:event-summary">
+        <sports-content-codes>
+            <sports-content-code code-name="The Sports Network, Inc."
+                code-key="publisher:sportsnetwork.com" code-type="spct:publisher"/>
+            <sports-content-code code-name="XML Team Solutions, Inc."
+                code-key="distributor:xmlteam.com" code-type="spct:distributor"/>
+            <sports-content-code code-type="spct:sport" code-key="sport:15008000"
+                code-name="Basketball"/>
+            <sports-content-code code-type="spct:league" code-key="league:l.nba.com"
+                code-name="National Basketball Association"/>
+            <sports-content-code code-type="spct:season" code-key="season:2014"/>
+            <sports-content-code code-type="spct:season-type" code-key="season-type:regular"/>
+            <sports-content-code code-type="spct:conference" code-key="conference:c.eastern"
+                code-name="Eastern"/>
+            <sports-content-code code-type="spct:conference" code-key="conference:c.western"
+                code-name="Western"/>
+            <sports-content-code code-type="spct:team" code-key="team:l.nba.com-t.17"
+                code-name="Denver Nuggets"/>
+            <sports-content-code code-type="spct:team" code-key="team:l.nba.com-t.14"
+                code-name="Milwaukee Bucks"/>
+        </sports-content-codes>
+    </sports-metadata>
+    <sports-event>
+        <event-metadata key="tsnevent:l.nba.com-2014-e.20004" event-status="speventstatus:mid-event"
+            temporal-unit-value="vendor:l.nba.com-2014-e.20004"
+            start-date-time="2015-03-03T21:00:00-05:00" period-value="4"
+            period-time-remaining="4:51"/>
+        <team id="l.nba.com-t.14">
+            <team-metadata key="tsnteam:l.nba.com-t.14" alignment="away">
+                <name role="nrol:full">Milwaukee Bucks</name>
+                <name part="nprt:common">Milwaukee</name>
+                <name part="nprt:nickname">Bucks</name>
+            </team-metadata>
+            <team-stats>
+                <stats>
+                    <stat stat-type="spstat:event-outcome" value="undecided"/>
+                    <stat stat-type="spstat:score" value="84"/>
+                    <stat stat-type="spstat:score-opposing" value="93"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="31"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                        value="79"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="9"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                        value="22"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="13"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                        value="20"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="19"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:team-turnovers-total" value="14"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="51"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="8"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                        value="29"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:team-rebounds-total"
+                        value="14"/>
+                    <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="6"/>
+                    <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="6"/>
+                </stats>
+                <sub-score period-value="1" score="29"/>
+                <sub-score period-value="2" score="22"/>
+                <sub-score period-value="3" score="19"/>
+                <sub-score period-value="4" score="14"/>
+            </team-stats>
+            <player id="l.nba.com-p.2404">
+                <player-metadata key="tsnperson:l.nba.com-p.2404" position-event="spbkbposition:forward"
+                    uniform-number="34" status="spplayerstatus:starter">
+                    <name role="nrol:full">Giannis Antetokounmpo</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="16"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="8"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="5"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total"
+                            value="10"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="8"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="2"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1024">
+                <player-metadata key="tsnperson:l.nba.com-p.1024" position-event="spbkbposition:forward"
+                    uniform-number="7" status="spplayerstatus:starter">
+                    <name role="nrol:full">Ersan Ilyasova</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="17"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="7"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="13"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="2"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.641">
+                <player-metadata key="tsnperson:l.nba.com-p.641" position-event="spbkbposition:center"
+                    uniform-number="27" status="spplayerstatus:starter">
+                    <name role="nrol:full">Zaza Pachulia</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2289">
+                <player-metadata key="tsnperson:l.nba.com-p.2289" position-event="spbkbposition:guard"
+                    uniform-number="22" status="spplayerstatus:starter">
+                    <name role="nrol:full">Khris Middleton</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="20"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="19"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="7"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="6"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="2"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2411">
+                <player-metadata key="tsnperson:l.nba.com-p.2411" position-event="spbkbposition:guard"
+                    uniform-number="5" status="spplayerstatus:starter">
+                    <name role="nrol:full">Michael Carter-Williams</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="7"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="10"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="2"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1504">
+                <player-metadata key="tsnperson:l.nba.com-p.1504" position-event="spbkbposition:guard"
+                    uniform-number="19" status="spplayerstatus:bench">
+                    <name role="nrol:full">Jerryd Bayless</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="7"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="8"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="3"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2281">
+                <player-metadata key="tsnperson:l.nba.com-p.2281" position-event="spbkbposition:center"
+                    uniform-number="31" status="spplayerstatus:bench">
+                    <name role="nrol:full">John Henson</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="10"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="4"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="2"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="2"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1292">
+                <player-metadata key="tsnperson:l.nba.com-p.1292" position-event="spbkbposition:forward"
+                    uniform-number="9" status="spplayerstatus:bench">
+                    <name role="nrol:full">Jared Dudley</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="5"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="5"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2596">
+                <player-metadata key="tsnperson:l.nba.com-p.2596" position-event="spbkbposition:guard"
+                    uniform-number="11" status="spplayerstatus:bench">
+                    <name role="nrol:full">Tyler Ennis</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2271">
+                <player-metadata key="tsnperson:l.nba.com-p.2271" position-event="spbkbposition:center"
+                    uniform-number="21" status="spplayerstatus:bench">
+                    <name role="nrol:full">Miles Plumlee</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+        </team>
+        <team id="l.nba.com-t.17">
+            <team-metadata key="tsnteam:l.nba.com-t.17" alignment="home">
+                <name role="nrol:full">Denver Nuggets</name>
+                <name part="nprt:common">Denver</name>
+                <name part="nprt:nickname">Nuggets</name>
+            </team-metadata>
+            <team-stats>
+                <stats>
+                    <stat stat-type="spstat:event-outcome" value="undecided"/>
+                    <stat stat-type="spstat:score" value="93"/>
+                    <stat stat-type="spstat:score-opposing" value="84"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="35"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                        value="77"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made" value="9"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                        value="28"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="14"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                        value="18"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="22"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:team-turnovers-total" value="13"/>
+                    <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="50"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive" value="7"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                        value="32"/>
+                    <stat class="spct:rebounding" stat-type="spbkbstat:team-rebounds-total"
+                        value="11"/>
+                    <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="8"/>
+                    <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="5"/>
+                </stats>
+                <sub-score period-value="1" score="29"/>
+                <sub-score period-value="2" score="26"/>
+                <sub-score period-value="3" score="21"/>
+                <sub-score period-value="4" score="17"/>
+            </team-stats>
+            <player id="l.nba.com-p.1441">
+                <player-metadata key="tsnperson:l.nba.com-p.1441" position-event="spbkbposition:forward"
+                    uniform-number="8" status="spplayerstatus:starter">
+                    <name role="nrol:full">Danilo Gallinari</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="21"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="7"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="15"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="8"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="7"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="7"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1290">
+                <player-metadata key="tsnperson:l.nba.com-p.1290" position-event="spbkbposition:forward"
+                    uniform-number="21" status="spplayerstatus:starter">
+                    <name role="nrol:full">Wilson Chandler</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="12"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="10"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="3"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2107">
+                <player-metadata key="tsnperson:l.nba.com-p.2107" position-event="spbkbposition:center"
+                    uniform-number="35" status="spplayerstatus:starter">
+                    <name role="nrol:full">Kenneth Faried</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="14"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="10"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total"
+                            value="11"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="9"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="3"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1184">
+                <player-metadata key="tsnperson:l.nba.com-p.1184" position-event="spbkbposition:guard"
+                    uniform-number="4" status="spplayerstatus:starter">
+                    <name role="nrol:full">Randy Foye</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="7"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1616">
+                <player-metadata key="tsnperson:l.nba.com-p.1616" position-event="spbkbposition:guard"
+                    uniform-number="3" status="spplayerstatus:starter">
+                    <name role="nrol:full">Ty Lawson</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="11"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="8"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="8"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="2"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1467">
+                <player-metadata key="tsnperson:l.nba.com-p.1467" position-event="spbkbposition:center"
+                    uniform-number="7" status="spplayerstatus:bench">
+                    <name role="nrol:full">J.J. Hickson</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="9"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total"
+                            value="10"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="7"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.871">
+                <player-metadata key="tsnperson:l.nba.com-p.871" position-event="spbkbposition:guard"
+                    uniform-number="28" status="spplayerstatus:bench">
+                    <name role="nrol:full">Jameer Nelson</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="9"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="7"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2256">
+                <player-metadata key="tsnperson:l.nba.com-p.2256" position-event="spbkbposition:guard"
+                    uniform-number="5" status="spplayerstatus:bench">
+                    <name role="nrol:full">Will Barton</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="3"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="3"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="3"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="2"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="1"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.1433">
+                <player-metadata key="tsnperson:l.nba.com-p.1433" position-event="spbkbposition:forward"
+                    uniform-number="00" status="spplayerstatus:bench">
+                    <name role="nrol:full">Darrell Arthur</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="8"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="2"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="1"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2601">
+                <player-metadata key="tsnperson:l.nba.com-p.2601" position-event="spbkbposition:guard"
+                    uniform-number="14" status="spplayerstatus:bench">
+                    <name role="nrol:full">Gary Harris</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="1"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="l.nba.com-p.2418">
+                <player-metadata key="tsnperson:l.nba.com-p.2418" position-event="spbkbposition:guard"
+                    uniform-number="11" status="spplayerstatus:bench">
+                    <name role="nrol:full">Erick Green</name>
+                </player-metadata>
+                <player-stats>
+                    <stats>
+                        <stat class="spct:offense" stat-type="spbkbstat:points-scored-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-made" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:field-goals-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-made"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:three-pointers-attempted"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-made" value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:free-throws-attempted"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:assists-total" value="0"/>
+                        <stat class="spct:offense" stat-type="spbkbstat:turnovers-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-total" value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-offensive"
+                            value="0"/>
+                        <stat class="spct:rebounding" stat-type="spbkbstat:rebounds-defensive"
+                            value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:steals-total" value="0"/>
+                        <stat class="spct:defense" stat-type="spbkbstat:blocks-total" value="0"/>
+                    </stats>
+                </player-stats>
+            </player>
+        </team>
+        <actions>
+            <action class="spactionclass:score" id="play.337" sequence-number="337" period-value="4"
+                period-time-remaining="4:51"
+                comment="Ersan Ilyasova layup assisted by Khris Middleton."
+                score-attempt-type="spbkbscoreattempt:fg" score-team="84" score-team-opposing="93"
+                points="2">
+                <participant idref="l.nba.com-p.1024" team-idref="l.nba.com-t.14"
+                    role="spbkbrole:scorer"/>
+                <participant idref="l.nba.com-p.2289" team-idref="l.nba.com-t.14"
+                    role="spbkbrole:assist"/>
+            </action>
+        </actions>
+    </sports-event>
+</sports-content>

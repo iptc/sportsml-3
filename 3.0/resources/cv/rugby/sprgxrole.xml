@@ -1,0 +1,115 @@
+<knowledgeItem xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:newsml="http://iptc.org/std/nar/2006-10-01/"
+    standard="NewsML-G2" standardversion="2.18" conformance="power"
+    guid="urn:newsml:iptc.org:20080229:srcncdki-sprgxrole" version="1">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <rightsInfo>
+        <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC - International Press Telecommunications Council</name>
+        </copyrightHolder>
+        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
+            Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
+    </rightsInfo>
+    <itemMeta>
+        <itemClass qcode="cinat:scheme"/>
+        <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
+            <name>IPTC</name>
+        </provider>
+        <versionCreated>2015-10-22T05:36:54-04:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2015-10-22T05:36:54-04:00</contentCreated>
+        <infoSource literal="IPTC"/>
+        <creator qcode="web:iptc.org">
+            <name>International Press Telecommunications Council (IPTC)</name>
+        </creator>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15054000">
+            <name xml:lang="en-US">soccer</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <description>Role of player in the described action.</description>
+    </contentMeta>
+    <conceptSet>
+        <concept id="sprgxroleon-field">
+            <conceptId qcode="sprgxrole:on-field"/>
+            <name xml:lang="en-US">on-field</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxrolescorer">
+            <conceptId qcode="sprgxrole:scorer"/>
+            <name xml:lang="en-US">scorer</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxroleblocker">
+            <conceptId qcode="sprgxrole:blocker"/>
+            <name xml:lang="en-US">blocker</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxroleinfraction-by">
+            <conceptId qcode="sprgxrole:infraction-by"/>
+            <name xml:lang="en-US">infraction-by</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxroleinfraction-against">
+            <conceptId qcode="sprgxrole:infraction-against"/>
+            <name xml:lang="en-US">infraction-against</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxrolegiveaway">
+            <conceptId qcode="sprgxrole:giveaway"/>
+            <name xml:lang="en-US">giveaway</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxroletakeaway">
+            <conceptId qcode="sprgxrole:takeaway"/>
+            <name xml:lang="en-US">takeaway</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxrolethrower">
+            <conceptId qcode="sprgxrole:thrower"/>
+            <name xml:lang="en-US">thrower</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxrolesub-on">
+            <conceptId qcode="sprgxrole:sub-on"/>
+            <name xml:lang="en-US">sub-on</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+        <concept id="sprgxrolesub-off">
+            <conceptId qcode="sprgxrole:sub-off"/>
+            <name xml:lang="en-US">sub-off</name>
+            <definition/>
+            <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
+        </concept>
+    </conceptSet>
+    <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/sprgxrole/"
+        preferredalias="sprgxrole">
+        <definition xml:lang="en-US">Role of player in the described action.</definition>
+        <name xml:lang="en-US">Rugby Player Roles</name>
+        <related qcode="sprgxrole:on-field" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:scorer" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:assist" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:blocker" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:infraction-by" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:infraction-against" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:giveaway" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:takeaway" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:sub-on" rel="skos:hasTopConcept"/>
+        <related qcode="sprgxrole:sub-off" rel="skos:hasTopConcept"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+    </schemeMeta>
+</knowledgeItem>

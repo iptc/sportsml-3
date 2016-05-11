@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
 <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" standard="NewsML-G2"
+    standard="NewsML-G2"
     standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd"
     guid="xt.22956338-box">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <itemMeta>
@@ -26,15 +24,15 @@
         <creator qcode="web:sportsnetwork.com">
             <name>The Sports Network</name>
         </creator>
-        <altId type="idtype:tsn-id" id="sportsnetwork.com-"/>
-        <genre qcode="xtsfixt:event-stats">
+        <altId type="idtype:tsn-id" id="sportsnetwork.com"/>
+        <genre qcode="spfixt:event-stats">
             <name xml:lang="en-US">Box Score</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
-        <subject type="spct:season-phase" qcode="spct:post-season"/>
+        <subject type="spct:season-type" qcode="spct:post-season"/>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
         </subject>
@@ -47,7 +45,7 @@
             <broader qcode="subj:15003000"/>
             <sameAs qcode="subj:15003001"/>
         </subject>
-        <subject type="spct:conf" qcode="conf:l.nfl.com-">
+        <subject type="spct:conference" qcode="conference:l.nfl.com-c.american">
             <name xml:lang="en-US">American</name>
             <broader qcode="league:l.nfl.com"/>
         </subject>
@@ -62,12 +60,11 @@
     </contentMeta>
     <contentSet>
         <inlineXML contenttype="application/sportsml+xml">
-            <sports-content
-                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
+            <sports-content>
                 <sports-event>
                     <event-metadata key="tsnevent:l.nfl.com-2014-e.4481"
                         temporal-unit-value="vendor:l.nfl.com-2014-e.4481"
-                        event-status="spevstatus:post-event" duration="PT3H36M"
+                        event-status="speventstatus:post-event" duration="PT3H36M"
                         start-date-time="2015-02-01T18:30:00-05:00">
                         <sports-content-codes/>
                         <site>
@@ -146,7 +143,7 @@
                             </team-stats-american-football>
                         </team-stats>
                         <player id="l.nfl.com-p.11652">
-                            <player-metadata position-event="spamfpos:punter"
+                            <player-metadata position-event="spamfposition:punter"
                                 key="tsnperson:l.nfl.com-p.11652">
                                 <name role="nrol:full">Ryan Allen</name>
                             </player-metadata>
@@ -162,7 +159,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.7756">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.7756">
                                 <name role="nrol:full">Danny Amendola</name>
                             </player-metadata>
@@ -182,7 +179,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.7722">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.7722">
                                 <name role="nrol:full">Kyle Arrington</name>
                             </player-metadata>
@@ -202,7 +199,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9899">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.9899">
                                 <name role="nrol:full">Akeem Ayers</name>
                             </player-metadata>
@@ -222,7 +219,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8806">
-                            <player-metadata position-event="spamfpos:running-back"
+                            <player-metadata position-event="spamfposition:running-back"
                                 key="tsnperson:l.nfl.com-p.8806">
                                 <name role="nrol:full">LeGarrette Blount</name>
                             </player-metadata>
@@ -239,7 +236,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10774">
-                            <player-metadata position-event="spamfpos:running-back"
+                            <player-metadata position-event="spamfposition:running-back"
                                 key="tsnperson:l.nfl.com-p.10774">
                                 <name role="nrol:full">Brandon Bolden</name>
                             </player-metadata>
@@ -259,7 +256,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.678">
-                            <player-metadata position-event="spamfpos:quarterback"
+                            <player-metadata position-event="spamfposition:quarterback"
                                 key="tsnperson:l.nfl.com-p.678">
                                 <name role="nrol:full">Tom Brady</name>
                             </player-metadata>
@@ -283,7 +280,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.6509">
-                            <player-metadata position-event="spamfpos:lineman-defensive"
+                            <player-metadata position-event="spamfposition:lineman-defensive"
                                 key="tsnperson:l.nfl.com-p.6509">
                                 <name role="nrol:full">Alan Branch</name>
                             </player-metadata>
@@ -303,7 +300,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.5519">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.5519">
                                 <name role="nrol:full">Brandon Browner</name>
                             </player-metadata>
@@ -323,7 +320,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.13234">
-                            <player-metadata position-event="spamfpos:defensive-back"
+                            <player-metadata position-event="spamfposition:defensive-back"
                                 key="tsnperson:l.nfl.com-p.13234">
                                 <name role="nrol:full">Malcolm Butler</name>
                             </player-metadata>
@@ -343,7 +340,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8288">
-                            <player-metadata position-event="spamfpos:safety"
+                            <player-metadata position-event="spamfposition:safety"
                                 key="tsnperson:l.nfl.com-p.8288">
                                 <name role="nrol:full">Patrick Chung</name>
                             </player-metadata>
@@ -363,7 +360,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.11730">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.11730">
                                 <name role="nrol:full">Jamie Collins</name>
                             </player-metadata>
@@ -383,7 +380,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9582">
-                            <player-metadata position-event="spamfpos:running-back"
+                            <player-metadata position-event="spamfposition:running-back"
                                 key="tsnperson:l.nfl.com-p.9582">
                                 <name role="nrol:full">James Develin</name>
                             </player-metadata>
@@ -402,7 +399,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8444">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.8444">
                                 <name role="nrol:full">Julian Edelman</name>
                             </player-metadata>
@@ -434,7 +431,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.5978">
-                            <player-metadata position-event="spamfpos:kicker"
+                            <player-metadata position-event="spamfposition:kicker"
                                 key="tsnperson:l.nfl.com-p.5978">
                                 <name role="nrol:full">Stephen Gostkowski</name>
                             </player-metadata>
@@ -448,7 +445,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8896">
-                            <player-metadata position-event="spamfpos:tight-end"
+                            <player-metadata position-event="spamfposition:tight-end"
                                 key="tsnperson:l.nfl.com-p.8896">
                                 <name role="nrol:full">Rob Gronkowski</name>
                             </player-metadata>
@@ -467,7 +464,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10646">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.10646">
                                 <name role="nrol:full">Dont'a Hightower</name>
                             </player-metadata>
@@ -487,7 +484,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8898">
-                            <player-metadata position-event="spamfpos:tight-end"
+                            <player-metadata position-event="spamfposition:tight-end"
                                 key="tsnperson:l.nfl.com-p.8898">
                                 <name role="nrol:full">Michael Hoomanawanui</name>
                             </player-metadata>
@@ -504,7 +501,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10587">
-                            <player-metadata position-event="spamfpos:defensive-end"
+                            <player-metadata position-event="spamfposition:defensive-end"
                                 key="tsnperson:l.nfl.com-p.10587">
                                 <name role="nrol:full">Chandler Jones</name>
                             </player-metadata>
@@ -524,7 +521,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8844">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.8844">
                                 <name role="nrol:full">Brandon LaFell</name>
                             </player-metadata>
@@ -542,7 +539,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9079">
-                            <player-metadata position-event="spamfpos:defensive-back"
+                            <player-metadata position-event="spamfposition:defensive-back"
                                 key="tsnperson:l.nfl.com-p.9079">
                                 <name role="nrol:full">Devin McCourty</name>
                             </player-metadata>
@@ -562,7 +559,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.5781">
-                            <player-metadata position-event="spamfpos:lineman-defensive"
+                            <player-metadata position-event="spamfposition:lineman-defensive"
                                 key="tsnperson:l.nfl.com-p.5781">
                                 <name role="nrol:full">Rob Ninkovich</name>
                             </player-metadata>
@@ -582,7 +579,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.6631">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.6631">
                                 <name role="nrol:full">Darrelle Revis</name>
                             </player-metadata>
@@ -602,7 +599,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.11515">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.11515">
                                 <name role="nrol:full">Logan Ryan</name>
                             </player-metadata>
@@ -622,7 +619,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10432">
-                            <player-metadata position-event="spamfpos:tackle-defensive"
+                            <player-metadata position-event="spamfposition:tackle-defensive"
                                 key="tsnperson:l.nfl.com-p.10432">
                                 <name role="nrol:full">Sealver Siliga</name>
                             </player-metadata>
@@ -642,7 +639,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.7661">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.7661">
                                 <name role="nrol:full">Matthew Slater</name>
                             </player-metadata>
@@ -662,7 +659,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9853">
-                            <player-metadata position-event="spamfpos:running-back"
+                            <player-metadata position-event="spamfposition:running-back"
                                 key="tsnperson:l.nfl.com-p.9853">
                                 <name role="nrol:full">Shane Vereen</name>
                             </player-metadata>
@@ -683,7 +680,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.4347">
-                            <player-metadata position-event="spamfpos:nose-tackle"
+                            <player-metadata position-event="spamfposition:nose-tackle"
                                 key="tsnperson:l.nfl.com-p.4347">
                                 <name role="nrol:full">Vince Wilfork</name>
                             </player-metadata>
@@ -767,7 +764,7 @@
                             </team-stats-american-football>
                         </team-stats>
                         <player id="l.nfl.com-p.7565">
-                            <player-metadata position-event="spamfpos:defensive-end"
+                            <player-metadata position-event="spamfposition:defensive-end"
                                 key="tsnperson:l.nfl.com-p.7565">
                                 <name role="nrol:full">Cliff Avril</name>
                             </player-metadata>
@@ -787,7 +784,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10188">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.10188">
                                 <name role="nrol:full">Doug Baldwin</name>
                             </player-metadata>
@@ -805,7 +802,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8656">
-                            <player-metadata position-event="spamfpos:defensive-end"
+                            <player-metadata position-event="spamfposition:defensive-end"
                                 key="tsnperson:l.nfl.com-p.8656">
                                 <name role="nrol:full">Michael Bennett</name>
                             </player-metadata>
@@ -825,7 +822,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9099">
-                            <player-metadata position-event="spamfpos:safety-strong"
+                            <player-metadata position-event="spamfposition:safety-strong"
                                 key="tsnperson:l.nfl.com-p.9099">
                                 <name role="nrol:full">Kam Chancellor</name>
                             </player-metadata>
@@ -845,7 +842,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.12827">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.12827">
                                 <name role="nrol:full">Brock Coyle</name>
                             </player-metadata>
@@ -865,7 +862,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.7786">
-                            <player-metadata position-event="spamfpos:kicker"
+                            <player-metadata position-event="spamfposition:kicker"
                                 key="tsnperson:l.nfl.com-p.7786">
                                 <name role="nrol:full">Steven Hauschka</name>
                             </player-metadata>
@@ -892,7 +889,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10647">
-                            <player-metadata position-event="spamfpos:defensive-end"
+                            <player-metadata position-event="spamfposition:defensive-end"
                                 key="tsnperson:l.nfl.com-p.10647">
                                 <name role="nrol:full">Bruce Irvin</name>
                             </player-metadata>
@@ -912,7 +909,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9886">
-                            <player-metadata position-event="spamfpos:safety-strong"
+                            <player-metadata position-event="spamfposition:safety-strong"
                                 key="tsnperson:l.nfl.com-p.9886">
                                 <name role="nrol:full">Jeron Johnson</name>
                             </player-metadata>
@@ -932,7 +929,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10687">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.10687">
                                 <name role="nrol:full">Jermaine Kearse</name>
                             </player-metadata>
@@ -950,7 +947,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10872">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.10872">
                                 <name role="nrol:full">Jeremy Lane</name>
                             </player-metadata>
@@ -970,7 +967,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10212">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.10212">
                                 <name role="nrol:full">Ricardo Lockette</name>
                             </player-metadata>
@@ -996,7 +993,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.6695">
-                            <player-metadata position-event="spamfpos:running-back"
+                            <player-metadata position-event="spamfposition:running-back"
                                 key="tsnperson:l.nfl.com-p.6695">
                                 <name role="nrol:full">Marshawn Lynch</name>
                             </player-metadata>
@@ -1018,7 +1015,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10037">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.10037">
                                 <name role="nrol:full">Chris Matthews</name>
                             </player-metadata>
@@ -1037,7 +1034,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9965">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.9965">
                                 <name role="nrol:full">Byron Maxwell</name>
                             </player-metadata>
@@ -1057,7 +1054,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.6266">
-                            <player-metadata position-event="spamfpos:tackle-defensive"
+                            <player-metadata position-event="spamfposition:tackle-defensive"
                                 key="tsnperson:l.nfl.com-p.6266">
                                 <name role="nrol:full">Tony McDaniel</name>
                             </player-metadata>
@@ -1077,7 +1074,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.6057">
-                            <player-metadata position-event="spamfpos:punter"
+                            <player-metadata position-event="spamfposition:punter"
                                 key="tsnperson:l.nfl.com-p.6057">
                                 <name role="nrol:full">Jon Ryan</name>
                             </player-metadata>
@@ -1093,7 +1090,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.8999">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.8999">
                                 <name role="nrol:full">O'Brien Schofield</name>
                             </player-metadata>
@@ -1113,7 +1110,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.11220">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.11220">
                                 <name role="nrol:full">DeShawn Shead</name>
                             </player-metadata>
@@ -1133,7 +1130,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9961">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.9961">
                                 <name role="nrol:full">Richard Sherman</name>
                             </player-metadata>
@@ -1153,7 +1150,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.11516">
-                            <player-metadata position-event="spamfpos:cornerback"
+                            <player-metadata position-event="spamfposition:cornerback"
                                 key="tsnperson:l.nfl.com-p.11516">
                                 <name role="nrol:full">Tharold Simon</name>
                             </player-metadata>
@@ -1173,7 +1170,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.12069">
-                            <player-metadata position-event="spamfpos:safety-free"
+                            <player-metadata position-event="spamfposition:safety-free"
                                 key="tsnperson:l.nfl.com-p.12069">
                                 <name role="nrol:full">Steven Terrell</name>
                             </player-metadata>
@@ -1193,7 +1190,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9115">
-                            <player-metadata position-event="spamfpos:safety-free"
+                            <player-metadata position-event="spamfposition:safety-free"
                                 key="tsnperson:l.nfl.com-p.9115">
                                 <name role="nrol:full">Earl Thomas</name>
                             </player-metadata>
@@ -1213,7 +1210,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10802">
-                            <player-metadata position-event="spamfpos:running-back"
+                            <player-metadata position-event="spamfposition:running-back"
                                 key="tsnperson:l.nfl.com-p.10802">
                                 <name role="nrol:full">Robert Turbin</name>
                             </player-metadata>
@@ -1230,7 +1227,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10661">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.10661">
                                 <name role="nrol:full">Bobby Wagner</name>
                             </player-metadata>
@@ -1250,7 +1247,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9457">
-                            <player-metadata position-event="spamfpos:wide-receiver"
+                            <player-metadata position-event="spamfposition:wide-receiver"
                                 key="tsnperson:l.nfl.com-p.9457">
                                 <name role="nrol:full">Bryan Walters</name>
                             </player-metadata>
@@ -1269,7 +1266,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.3884">
-                            <player-metadata position-event="spamfpos:tackle-defensive"
+                            <player-metadata position-event="spamfposition:tackle-defensive"
                                 key="tsnperson:l.nfl.com-p.3884">
                                 <name role="nrol:full">Kevin Williams</name>
                             </player-metadata>
@@ -1289,7 +1286,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10767">
-                            <player-metadata position-event="spamfpos:quarterback"
+                            <player-metadata position-event="spamfposition:quarterback"
                                 key="tsnperson:l.nfl.com-p.10767">
                                 <name role="nrol:full">Russell Wilson</name>
                             </player-metadata>
@@ -1313,7 +1310,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9941">
-                            <player-metadata position-event="spamfpos:linebacker"
+                            <player-metadata position-event="spamfposition:linebacker"
                                 key="tsnperson:l.nfl.com-p.9941">
                                 <name role="nrol:full">K.J. Wright</name>
                             </player-metadata>
@@ -1335,37 +1332,37 @@
                     </team>
                     <officials>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Referee">
+                            <official-metadata position-event="offpos:Referee">
                                 <name role="nrol:full">Bill Vinovich</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Umpire">
+                            <official-metadata position-event="offpos:Umpire">
                                 <name role="nrol:full">Bill Schuster</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Head-Linesman">
+                            <official-metadata position-event="offpos:Head-Linesman">
                                 <name role="nrol:full">Dana McKenzie</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Line-Judge">
+                            <official-metadata position-event="offpos:Line-Judge">
                                 <name role="nrol:full">Mark Perlman</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Side-Judge">
+                            <official-metadata position-event="offpos:Side-Judge">
                                 <name role="nrol:full">Adrian Hill</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Back-Judge">
+                            <official-metadata position-event="offpos:Back-Judge">
                                 <name role="nrol:full">Terrence Miles</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="spamfoffpos:Field-Judge">
+                            <official-metadata position-event="offpos:Field-Judge">
                                 <name role="nrol:full">Bob Waggoner</name>
                             </official-metadata>
                         </official>
@@ -1374,7 +1371,7 @@
                         <action class="spactionclass:score" id="play.42" sequence-number="42"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:touchdown"
                             score-team="6" score-team-opposing="0"
-                            type="spamfactiontype:pass-complete" points="6" field-side="home"
+                            type="spamfaction:pass-complete" points="6" field-side="home"
                             period-value="2" period-time-remaining="9:47" period-time-elapsed="5:13"
                             yards-gained="11" field-line="11"
                             comment=" New England Touchdown - 11-yard pass from Tom Brady to Brandon LaFell. (Stephen Gostkowski extra point is good). "
@@ -1387,7 +1384,7 @@
                         <action class="spactionclass:score" id="play.43" sequence-number="43"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:extra-point"
                             score-team="7" score-team-opposing="0"
-                            type="spamfactiontype:extra-point" points="1" field-side="home"
+                            type="spamfaction:extra-point" points="1" field-side="home"
                             period-value="2" period-time-remaining="9:47" period-time-elapsed="5:13"
                             field-line="2" comment="Stephen Gostkowski extra point is good.">
                             <participant idref="l.nfl.com-p.5978" role="spamfrole:kicker"
@@ -1395,7 +1392,7 @@
                         </action>
                         <action class="spactionclass:score" id="play.61" sequence-number="61"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:touchdown"
-                            score-team="6" score-team-opposing="7" type="spamfactiontype:rush"
+                            score-team="6" score-team-opposing="7" type="spamfaction:rush"
                             points="6" field-side="away" period-value="2"
                             period-time-remaining="2:16" period-time-elapsed="12:44"
                             yards-gained="3" field-line="3"
@@ -1407,7 +1404,7 @@
                         <action class="spactionclass:score" id="play.62" sequence-number="62"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:extra-point"
                             score-team="7" score-team-opposing="7"
-                            type="spamfactiontype:extra-point" points="1" field-side="away"
+                            type="spamfaction:extra-point" points="1" field-side="away"
                             period-value="2" period-time-remaining="2:16"
                             period-time-elapsed="12:44" field-line="2"
                             comment="Steven Hauschka extra point is good.">
@@ -1417,7 +1414,7 @@
                         <action class="spactionclass:score" id="play.72" sequence-number="72"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:touchdown"
                             score-team="13" score-team-opposing="7"
-                            type="spamfactiontype:pass-complete" points="6" field-side="home"
+                            type="spamfaction:pass-complete" points="6" field-side="home"
                             period-value="2" period-time-remaining="0:31"
                             period-time-elapsed="14:29" yards-gained="22" field-line="22"
                             comment=" New England Touchdown - 22-yard pass from Tom Brady to Rob Gronkowski. (Stephen Gostkowski extra point is good). "
@@ -1430,7 +1427,7 @@
                         <action class="spactionclass:score" id="play.73" sequence-number="73"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:extra-point"
                             score-team="14" score-team-opposing="7"
-                            type="spamfactiontype:extra-point" points="1" field-side="home"
+                            type="spamfaction:extra-point" points="1" field-side="home"
                             period-value="2" period-time-remaining="0:31"
                             period-time-elapsed="14:29" field-line="2"
                             comment="Stephen Gostkowski extra point is good.">
@@ -1440,7 +1437,7 @@
                         <action class="spactionclass:score" id="play.80" sequence-number="80"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:touchdown"
                             score-team="13" score-team-opposing="14"
-                            type="spamfactiontype:pass-complete" points="6" field-side="away"
+                            type="spamfaction:pass-complete" points="6" field-side="away"
                             period-value="2" period-time-remaining="0:02"
                             period-time-elapsed="14:58" yards-gained="11" field-line="11"
                             comment=" Seattle Touchdown - 11-yard pass from Russell Wilson to Chris Matthews. (Steven Hauschka extra point is good). "
@@ -1453,7 +1450,7 @@
                         <action class="spactionclass:score" id="play.81" sequence-number="81"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:extra-point"
                             score-team="14" score-team-opposing="14"
-                            type="spamfactiontype:extra-point" points="1" field-side="away"
+                            type="spamfaction:extra-point" points="1" field-side="away"
                             period-value="2" period-time-remaining="0:02"
                             period-time-elapsed="14:58" field-line="2"
                             comment="Steven Hauschka extra point is good.">
@@ -1463,7 +1460,7 @@
                         <action class="spactionclass:score" id="play.92" sequence-number="92"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:field-goal"
                             score-team="17" score-team-opposing="14"
-                            type="spamfactiontype:field-goal" points="3" field-side="away"
+                            type="spamfaction:field-goal" points="3" field-side="away"
                             period-value="3" period-time-remaining="11:09"
                             period-time-elapsed="3:51" yards-gained="27" field-line="9"
                             comment=" Seattle Field Goal - 27-yarder by Steven Hauschka. " down="4"
@@ -1474,7 +1471,7 @@
                         <action class="spactionclass:score" id="play.107" sequence-number="107"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:touchdown"
                             score-team="23" score-team-opposing="14"
-                            type="spamfactiontype:pass-complete" points="6" field-side="away"
+                            type="spamfaction:pass-complete" points="6" field-side="away"
                             period-value="3" period-time-remaining="4:54"
                             period-time-elapsed="10:06" yards-gained="3" field-line="3"
                             comment=" Seattle Touchdown - 3-yard pass from Russell Wilson to Doug Baldwin. (Steven Hauschka extra point is good). "
@@ -1487,7 +1484,7 @@
                         <action class="spactionclass:score" id="play.108" sequence-number="108"
                             team-idref="l.nfl.com-t.16" score-attempt-type="spamfscore:extra-point"
                             score-team="24" score-team-opposing="14"
-                            type="spamfactiontype:extra-point" points="1" field-side="away"
+                            type="spamfaction:extra-point" points="1" field-side="away"
                             period-value="3" period-time-remaining="4:54"
                             period-time-elapsed="10:06" field-line="2"
                             comment="Steven Hauschka extra point is good.">
@@ -1497,7 +1494,7 @@
                         <action class="spactionclass:score" id="play.140" sequence-number="140"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:touchdown"
                             score-team="20" score-team-opposing="24"
-                            type="spamfactiontype:pass-complete" points="6" field-side="home"
+                            type="spamfaction:pass-complete" points="6" field-side="home"
                             period-value="4" period-time-remaining="7:55" period-time-elapsed="7:05"
                             yards-gained="4" field-line="4"
                             comment=" New England Touchdown - 4-yard pass from Tom Brady to Danny Amendola. (Stephen Gostkowski extra point is good). "
@@ -1510,7 +1507,7 @@
                         <action class="spactionclass:score" id="play.141" sequence-number="141"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:extra-point"
                             score-team="21" score-team-opposing="24"
-                            type="spamfactiontype:extra-point" points="1" field-side="home"
+                            type="spamfaction:extra-point" points="1" field-side="home"
                             period-value="4" period-time-remaining="7:55" period-time-elapsed="7:05"
                             field-line="2" comment="Stephen Gostkowski extra point is good.">
                             <participant idref="l.nfl.com-p.5978" role="spamfrole:kicker"
@@ -1519,7 +1516,7 @@
                         <action class="spactionclass:score" id="play.157" sequence-number="157"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:touchdown"
                             score-team="27" score-team-opposing="24"
-                            type="spamfactiontype:pass-complete" points="6" field-side="home"
+                            type="spamfaction:pass-complete" points="6" field-side="home"
                             period-value="4" period-time-remaining="2:02"
                             period-time-elapsed="12:58" yards-gained="3" field-line="3"
                             comment=" New England Touchdown - 3-yard pass from Tom Brady to Julian Edelman. (Stephen Gostkowski extra point is good). "
@@ -1532,7 +1529,7 @@
                         <action class="spactionclass:score" id="play.158" sequence-number="158"
                             team-idref="l.nfl.com-t.4" score-attempt-type="spamfscore:extra-point"
                             score-team="28" score-team-opposing="24"
-                            type="spamfactiontype:extra-point" points="1" field-side="home"
+                            type="spamfaction:extra-point" points="1" field-side="home"
                             period-value="4" period-time-remaining="2:02"
                             period-time-elapsed="12:58" field-line="2"
                             comment="Stephen Gostkowski extra point is good.">

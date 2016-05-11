@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ ../sportsml.xsd"
     xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.20"
     version="1" conformance="power" xml:lang="en-GB" guid="tt.se.20150308192343-vasaloppet-955363">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
@@ -33,7 +32,7 @@
             <sports-content>
                 <tournament>
                     <tournament-metadata status="tps:post-event" start-date-time="2015-03-08"
-                        venue-type="vt:outdoor" surface-type="st:snow">
+                        venue-type="spsitestyle:outdoor" surface-type="st:snow">
                         <name>Vasaloppet 2015</name>
                         <site>
                             <site-metadata>
@@ -60,8 +59,8 @@
                             <player>
                                 <player-metadata date-of-birth="1985" gender="male"
                                     nationality="Norge" uniform-number="131">
-                                    <name part="np:first">Petter</name>
-                                    <name part="np:last">Eliassen</name>
+                                    <name part="nprt:first">Petter</name>
+                                    <name part="nprt:last">Eliassen</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Nannestad</name></locality><area><name/></area><country><name>Norge</name></country><postalCode>2030</postalCode></address>
@@ -75,8 +74,8 @@
                             <player>
                                 <player-metadata date-of-birth="1972" gender="male"
                                     nationality="Norge" uniform-number="123">
-                                    <name part="np:first">Anders</name>
-                                    <name part="np:last">Aukland</name>
+                                    <name part="nprt:first">Anders</name>
+                                    <name part="nprt:last">Aukland</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Oslo</name></locality><area><name/></area><country><name>Norge</name></country><postalCode>0102</postalCode></address>
@@ -90,8 +89,8 @@
                             <player>
                                 <player-metadata date-of-birth="1973" gender="male"
                                     nationality="Tjeckien" uniform-number="5">
-                                    <name part="np:first">Stanislav</name>
-                                    <name part="np:last">Rezac</name>
+                                    <name part="nprt:first">Stanislav</name>
+                                    <name part="nprt:last">Rezac</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Jablonec nad Nisous</name></locality><area><name/></area><country><name>Tjeckien</name></country><postalCode/></address>
@@ -105,8 +104,8 @@
                             <player>
                                 <player-metadata date-of-birth="1983" gender="male"
                                     nationality="Norge" uniform-number="28">
-                                    <name part="np:first">Öystein</name>
-                                    <name part="np:last">Pettersen</name>
+                                    <name part="nprt:first">Öystein</name>
+                                    <name part="nprt:last">Pettersen</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Oslo</name></locality><area><name/></area><country><name>Norge</name></country><postalCode>0851</postalCode></address>
@@ -120,8 +119,8 @@
                             <player>
                                 <player-metadata date-of-birth="1981" gender="male"
                                     nationality="Norge" uniform-number="1">
-                                    <name part="np:first">Kristian</name>
-                                    <name part="np:last">Dahl</name>
+                                    <name part="nprt:first">Kristian</name>
+                                    <name part="nprt:last">Dahl</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Trondheim</name></locality><area><name/></area><country><name>Norge</name></country><postalCode>7022</postalCode></address>
@@ -135,8 +134,8 @@
                             <player>
                                 <player-metadata date-of-birth="1983" gender="male"
                                     nationality="Norge" uniform-number="124">
-                                    <name part="np:first">Tord Asle</name>
-                                    <name part="np:last">Gjerdalen</name>
+                                    <name part="nprt:first">Tord Asle</name>
+                                    <name part="nprt:last">Gjerdalen</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Oslo</name></locality><area><name/></area><country><name>Norge</name></country><postalCode>12345</postalCode></address>
@@ -150,8 +149,8 @@
                             <player>
                                 <player-metadata date-of-birth="1984" gender="male"
                                     nationality="Norge" uniform-number="35">
-                                    <name part="np:first"/>
-                                    <name part="np:last"/>
+                                    <name part="nprt:first"/>
+                                    <name part="nprt:last"/>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Hosle</name></locality><area><name/></area><country><name>Norge</name></country><postalCode>1362</postalCode></address>
@@ -165,8 +164,8 @@
                             <player>
                                 <player-metadata date-of-birth="1978" gender="male"
                                     nationality="Sverige" uniform-number="23">
-                                    <name part="np:first">Jerry</name>
-                                    <name part="np:last">Ahrlin</name>
+                                    <name part="nprt:first">Jerry</name>
+                                    <name part="nprt:last">Ahrlin</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Östersund</name></locality><area><name>Jämtland</name></area><country><name>Sverige</name></country><postalCode>831 32</postalCode></address>
@@ -194,8 +193,8 @@
                             <player>
                                 <player-metadata date-of-birth="1983" gender="female"
                                     nationality="Polen" uniform-number="513">
-                                    <name part="np:first">Justyna</name>
-                                    <name part="np:last">Kowalczyk</name>
+                                    <name part="nprt:first">Justyna</name>
+                                    <name part="nprt:last">Kowalczyk</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name/></locality><area><name/></area><country><name>Polen</name></country><postalCode/></address>
@@ -209,8 +208,8 @@
                             <player>
                                 <player-metadata date-of-birth="1983" gender="female"
                                     nationality="Sverige" uniform-number="502">
-                                    <name part="np:first">Britta</name>
-                                    <name part="np:last">Johansson Norgren</name>
+                                    <name part="nprt:first">Britta</name>
+                                    <name part="nprt:last">Johansson Norgren</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Östersund</name></locality><area><name>Jämtland</name></area><country><name>Sverige</name></country><postalCode>831 62</postalCode></address>
@@ -224,8 +223,8 @@
                             <player>
                                 <player-metadata date-of-birth="1982" gender="female"
                                     nationality="Schweiz" uniform-number="505">
-                                    <name part="np:first">Seraina</name>
-                                    <name part="np:last">Boner</name>
+                                    <name part="nprt:first">Seraina</name>
+                                    <name part="nprt:last">Boner</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name>Davos-Platz</name></locality><area><name>Graubünden</name></area><country><name>Schweiz</name></country><postalCode>7270</postalCode></address>

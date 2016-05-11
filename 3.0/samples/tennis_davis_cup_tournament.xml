@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ ../sportsml.xsd"
  xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.0" version="1"
  conformance="power" xml:lang="en-GB" guid="tt.se.20141202092343-755363-post-event">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
@@ -27,7 +26,7 @@
         <subject type="cpnat:event" qcode="event:tt.se:xtz123">
             <name>Davis Cup</name>
         </subject>
-        <subject type="spcpnat:season" literal="2011"/>
+        <subject type="spct:season" literal="2011"/>
         <headline>Davis Cup 2011</headline>
         <description role="drol:summary">NOTE: This is a constructed sample and the stats from the game in the first final game is from another game.</description>
     </contentMeta>
@@ -49,15 +48,15 @@
                         The second part illustrates the special construction of davis cup with games between countries built on sub-events with games between individuals.-->
 
                         <tournament-part> <!-- Tournament part with the final. Note that the stats used is from another tennis game.  -->
-                            <tournament-part-metadata type="sptournamentpart:final">
+                            <tournament-part-metadata type="sptournamentphase:final">
                                 <name>Final</name>
                             </tournament-part-metadata>
 
                             <sports-event>
                                 <event-metadata start-date-time="2011-12-02T10:00:00+02:00"
-                                    event-status="evst:mid-event">
+                                    event-status="speventstatus:mid-event">
                                     <site>
-                                        <site-metadata surface="spsitesurface:clay" site-style="site:indoor">
+                                        <site-metadata surface="spsitesurface:clay" site-style="spsitestyle:indoor">
                                             <name>Olympic stadium</name>
                                             <home-location>
                                                 <POIDetails>
@@ -295,12 +294,12 @@
                                         <!-- OBS: This is not real data, just made up to test the event-actions constructions. -->
                                         <action set="3" game="10">
                                             <action shot-type="tennis:volley"
-                                                receiver-score="tennis:30"
-                                                serve-number="tennis:first"
-                                                server-score="tennis:game">
-                                                <participant idref="p_1" role="tennis:server"/>
-                                                <participant idref="p_2" role="tennis:receiver"/>
-                                                <participant idref="p_1" role="tennis:ball_winner"/>
+                                                receiver-score="sptengameresult:30"
+                                                serve-number="tenserve:first"
+                                                server-score="sptengameresult:game">
+                                                <participant idref="p_1" role="tenrole:server"/>
+                                                <participant idref="p_2" role="tenrole:receiver"/>
+                                                <participant idref="p_1" role="tenrole:ball-winner"/>
                                             </action>
                                         </action>
                                     </actions>
@@ -310,14 +309,14 @@
 
                         <tournament-part><!-- The second round in this file is the semifinal round with two games. The first complete and the second just the game result. -->
                             
-                            <tournament-part-metadata type="trt:semifinal" status="tps:post-event"
+                            <tournament-part-metadata type="trt:semifinal" status="speventstatus:post-event"
                                 start-date-time="2011-09-16" end-date-time="2011-09-18">
                                 <name>Semi-final</name>
                             </tournament-part-metadata>
 
                             <sports-event><!-- A Davis Cup game is between two countries. But the action takes place in sub-events with matches. -->
 
-                                <event-metadata event-status="tps:post-event">
+                                <event-metadata event-status="speventstatus:post-event">
                                     <sports-property value="Dunlop Fort All Court"
                                         formal-name="Ball"/>
                                     <site>
@@ -353,7 +352,7 @@
 
                                 <sports-event><!-- This is the first sub-event with a singles match -->
 
-                                    <event-metadata event-number="1" event-status="tps:post-event"
+                                    <event-metadata event-number="1" event-status="speventstatus:post-event"
                                         start-date-time="2011-09-16T15:00:00"
                                         end-date-time="2011-09-16">
                                         <event-metadata-tennis number-of-sets="5"/>
@@ -419,7 +418,7 @@
 
                                 <sports-event><!-- Second match in this game. -->
 
-                                    <event-metadata event-number="2" event-status="tps:post-event"
+                                    <event-metadata event-number="2" event-status="speventstatus:post-event"
                                         start-date-time="2011-09-16" end-date-time="2011-09-16">
                                         <event-metadata-tennis number-of-sets="5"/>
                                     </event-metadata>
@@ -480,7 +479,7 @@
 
                                     <event-metadata event-number="3" start-date-time="2011-09-17"
                                         end-date-time="2011-09-17T15:00:00"
-                                        event-status="tps:post-event">
+                                        event-status="speventstatus:post-event">
                                         <sports-property formal-name="playertype" value="double"/>
                                         <event-metadata-tennis number-of-sets="5"/>
                                     </event-metadata>
@@ -592,7 +591,7 @@
 
                                 <sports-event>
 
-                                    <event-metadata event-number="4" event-status="tps:post-event"
+                                    <event-metadata event-number="4" event-status="speventstatus:post-event"
                                         start-date-time="2011-09-18T14:00:00"
                                         end-date-time="2011-09-18">
                                         <event-metadata-tennis number-of-sets="5"/>
@@ -651,7 +650,7 @@
 
                                 <sports-event>
 
-                                    <event-metadata event-number="5" event-status="tps:post-event"
+                                    <event-metadata event-number="5" event-status="speventstatus:post-event"
                                         start-date-time="2011-09-18" end-date-time="2011-09-18">
                                         <event-metadata-tennis number-of-sets="5"/>
                                     </event-metadata>
@@ -705,7 +704,7 @@
 
                             <sports-event>
                                 <!-- The other semi final. -->
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Spain</name>
@@ -723,13 +722,13 @@
                         </tournament-part>
 
                         <tournament-part> <!-- Tournament part with quarterfinals. Four games with end results -->
-                            <tournament-part-metadata type="sptournamentpart:Quearterfinals"
-                                status="tps:post-event" start-date-time="2011-07-08"
+                            <tournament-part-metadata type="sptournamentphase:quarter-final"
+                                status="speventstatus:post-event" start-date-time="2011-07-08"
                                 end-date-time="2011-07-10">
                                 <name>Quarterfinals</name>
                             </tournament-part-metadata>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Serbia</name>
@@ -744,7 +743,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home">
                                         <name>Kazakhstan</name>
@@ -759,7 +758,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>USA</name>
@@ -774,7 +773,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home">
                                         <name>Germany</name>
@@ -791,12 +790,12 @@
                         </tournament-part>
 
                         <tournament-part> <!-- Tournament part with first rount. 8 games with just end results -->
-                            <tournament-part-metadata type="sptournamentpart:first" status="tps:post-event"
+                            <tournament-part-metadata type="sptournamentphase:round" number="1" status="speventstatus:post-event"
                                 start-date-time="2011-03-04" end-date-time="2011-03-06">
                                 <name>First round</name>
                             </tournament-part-metadata>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Serbia</name>
@@ -811,7 +810,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Russia</name>
@@ -826,7 +825,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Czech Republic</name>
@@ -841,7 +840,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home" round-position="seeded">
                                         <name>Argentina</name>
@@ -856,7 +855,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home">
                                         <name>Chile</name>
@@ -871,7 +870,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home">
                                         <name>Belgium</name>
@@ -886,7 +885,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home">
                                         <name>Germany</name>
@@ -901,7 +900,7 @@
                                 </team>
                             </sports-event>
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"/>
+                                <event-metadata event-status="speventstatus:post-event"/>
                                 <team>
                                     <team-metadata alignment="home">
                                         <name>Austria</name>

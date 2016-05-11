@@ -15,60 +15,6 @@ Agreement for International Press Telecommunications
     attributeFormDefault="unqualified" xml:lang="en" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns="http://iptc.org/std/nar/2006-10-01/" version="3.0">
 
-    <!-- By Johan Lindgren 2012-10-12 cont
-* Turned most of the stuff into named types
-* Introduced a number of inheritance chains to reuse types
-* Made use of NAR-types where applicable
-* Started unifying elements and attributes that is about persons
-* Moved simple types connected with one plugin to the respective plugin
-* Placed base types in a separate file
-* Placed attribute groups in a separate file
-* Streamlined the metadata base for both event and tournament
-* Removed commonAttributes and adjusted the two places using it.
-* Changed attribute name to element name with nar-construct in Award.
-* Added standing to tournament
-* Added sports-event to tournament
-* Moved root-elements from sportsml-core
-* Removed key-source because we should use qcodes instead.
-* changed some xxx-key attributes but many need to be specific
-* Removed the nesting of sports-property. Need some relationships there
-* made event-recurring-name, feature-name, fixture-name, penalty-name, make-name,stat-name and tour-name an Element instead of attribute to make use of ConceptNameType.
-* 2014-05-20 Inserted the separately developed generic action
-4
-Core Schema with all the common things
-DEPRECATED - Content of these schemas are inserted in this file. JL 141013
-<xs:include schemaLocation="sportsml-core.xsd"/>
-<xs:include schemaLocation="sportsml-base_types.xsd"/>
-<xs:include schemaLocation="sportsml-attribute_groups.xsd"/>
-* 2014-10-23 JL and PK cleaned up and added stuff during the IPTC meeting
-* Removed all usage of genericType, genericKeyType and genericKeyTypeList in exchange for QCodeType
-* Removed all *-source that points to sources for keys. QCodes is handling that
-* Moved teamCoverage.core.vocabulary
-* Added weekdays and several more to vocabs to convert
-* moved statsCoverage.Core
-* Emptied the vocabulary-core.xsd
-* Emptied the motor-racing-vocab
-* Emptied the tennis vocab
-* Emptied the curling vocab
-* Emptied the rugby vocab
-* Emptied the american football vocab
-* Emptied the baseball vocab
-* Emptied the basketball vocab
-* Emptied the golf vocab
-* Emptied the ice hockey vocab
-* Emptied the soccer vocab
-* Fixed the participant complex type so planned thing got included
-2014-11-07 JL removed all globalAttributes and replaced with commonAttributes
-Fixed the issues with fixture- and feature- name
-Removed unused components from the plugins
-2015-03-12 JL changed the commonAttributes and genericStatAttributes
-2015-08-26 JL removed Plays and Play, and instead added Actions and moved all play attributes to actions
-2015-10-14 JL aligned period-value and removed where not needed
-                    moved score-attempts to parent element
-                    changed penalty-length to xs:string
-2015-10-16 JL added outcome-result with attributes and the attribute period-start(and end)-date-time to coverageAttributes
--->
-
     <xs:annotation>
         <xs:appinfo>SportsML</xs:appinfo>
         <xs:documentation>SportsML is a global XML standard for the interchange of sports data.
@@ -80,7 +26,8 @@ Removed unused components from the plugins
             sports.</xs:documentation>
     </xs:annotation>
     
-    <xs:include schemaLocation="NewsML-G2_2.18-spec-All-Power.xsd"/>    <!-- The NewsMLG2 schema contain the NAR building blocks that we use in G2-compliant SportsML -->
+    <xs:include schemaLocation="NewsML-G2_2.18-spec-All-Power.xsd"/>    
+    <!-- The NewsMLG2 schema contain the NAR building blocks used in G2-compliant SportsML -->
     
     <!-- Plug-In Schemas for Specific Sports -->
     <xs:include schemaLocation="sportsml-specific-american-football.xsd"/>
@@ -94,7 +41,6 @@ Removed unused components from the plugins
     <xs:include schemaLocation="sportsml-specific-curling.xsd"/>
     <xs:include schemaLocation="sportsml-specific-rugby.xsd"/>
     <xs:include schemaLocation="sportsml-specific-volleyball.xsd"/>
-    <!-- include schemaLocation="sportsml-specific-alpineskiing.xsd"/ -->
     
     <!-- ========================================================================================= -->
     <!-- Sports Content Element. The Root of the sports content either in standalone or as payload in NewsML -->
@@ -232,9 +178,14 @@ Removed unused components from the plugins
         </xs:annotation>
         <xs:complexContent>
             <xs:extension base="baseTournamentMetadataComplexType">
-                <xs:attribute name="type" type="QCodeType" use="required">
+                <xs:attribute name="type" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The type of phase of the tournament: group, elimination, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentstage/</xs:documentation>
+                        <xs:documentation>The phase of the tournament: semi-final, quarter-final, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentphase/</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="format-type" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The format type of tournament or tournament phase: group, elimination, etc. SportsML vocab uri: http://cv.iptc.org/newscodes/sptournamentform/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
             </xs:extension>
@@ -414,21 +365,16 @@ Removed unused components from the plugins
                         <xs:documentation>A keyword used by editors to refer to the document.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="document-class" type="xs:string" use="optional">
+                <xs:attribute name="document-class" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>A category code for the fixture-key. Recommended
-                            categories are news (non-event-specific news reports for player, team,
-                            league, etc.), standings (or tables), schedules, statistics (for
-                            non-event-specific statistical reports), event-summary (for
-                            event-specific reports whether prose (i.e. previews and reviews) or
-                            statistical (i.e. boxscores)), event-action (for play actions within a
-                            single event), dynamic-resource-file (for team rosters (squad lists),
-                            athlete lists, league groupings and teams, etc.)</xs:documentation>
+                        <xs:documentation>A category code for the document type (fixture-key). Recommended
+                            categories contained in SportsML vocabulary uri: http://cv.iptc.org/newscodes/spct/
+                        </xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="fixture-key" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>A consistent key for the type of regularly-published document being transmitted. External controlled vocabulary:  fixture-key.list</xs:documentation>
+                        <xs:documentation>A publisher-specific key for the type of regularly-published document (or genre) being transmitted. Eg. event-stats, roster, standings (table), etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/spfixt/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
             </xs:extension>
@@ -461,12 +407,12 @@ Removed unused components from the plugins
         <xs:attributeGroup ref="commonAttributes"/>
         <xs:attribute name="code-type" type="QCodeType" use="required">
             <xs:annotation>
-                <xs:documentation>What type of item is being described.</xs:documentation>
+                <xs:documentation>What type of item is being described. SportsML vocabulary uri: http://cv.iptc.org/newscodes/spct/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="code-key" type="QCodeType" use="optional">
             <xs:annotation>
-                <xs:documentation>The symbol for the identified content. SportsML vocabulary uri: http://cv.iptc.org/newscodes/spcode/</xs:documentation>
+                <xs:documentation>The symbol for the identified content.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="code-name" type="xs:string" use="optional">
@@ -799,7 +745,6 @@ Removed unused components from the plugins
             <xs:element name="wagering-stats" type="wagering-stats" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="associate" type="associateComplexType" minOccurs="0" maxOccurs="unbounded"/>
             <xs:element name="affiliation" type="affiliationComplexType" minOccurs="0" maxOccurs="unbounded"/>
-            <!-- removed by jl since it exists in team-metadata too. <xs:element name="site" type="siteComplexType" minOccurs="0" maxOccurs="unbounded"/> -->
         </xs:sequence>
         <xs:attributeGroup ref="commonAttributes"/>
     </xs:complexType>
@@ -852,27 +797,6 @@ Removed unused components from the plugins
             </xs:annotation>
         </xs:attribute>
     </xs:complexType>
-    
-    <!-- ========================================================================================= -->
-    <!-- Sub score attempts complex type -->
-    <!-- ========================================================================================= -->
-<!--Moved score-attempts to sub-score
-        
-        <xs:complexType name="subScoreAttemptsComplexType">
-        <xs:annotation>
-            <xs:documentation>Statistics that detail the scoring attempts for a particular period or inning.  Per-sport controlled vocabularies used for period- value.</xs:documentation>
-        </xs:annotation>
-        <xs:attribute name="period-value" type="xs:string" use="optional">
-            <xs:annotation>
-                <xs:documentation>Generally a natural number. Could also be quarter-1, period-2, inning-5, etc.</xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="score-attempts" type="xs:string" use="optional">
-            <xs:annotation>
-                <xs:documentation>The attempts to score during the period (or scoring unit).</xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-    </xs:complexType>-->
     
     <!-- ========================================================================================= -->
     <!-- penalty stats complex type -->
@@ -1001,6 +925,11 @@ Removed unused components from the plugins
         <xs:attribute name="losses-overtime" type="xs:nonNegativeInteger" use="optional">
             <xs:annotation>
                 <xs:documentation>Number of losses in events which went into overtime. For leagues that use this as a top-level outcome category (eg. NHL), as opposed to just a derivative of scoping.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+	    <xs:attribute name="relegation-average" type="xs:decimal" use="optional">
+            <xs:annotation>
+                <xs:documentation>The product of a relegation average formula used to determine which team is demoted to a lower league. The formula may vary by league but the average typically looks at team performance across multiple competitions. The team(s) with the lowest relegation averages is sent to the league below.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
     </xs:complexType>
@@ -1325,7 +1254,7 @@ Removed unused components from the plugins
         <xs:sequence>
             <!-- Comment out nitf:nitf and activate xsl:any below it if you are not using NITF. -->
             <!-- element ref="nitf:nitf"/ -->
-            <xs:any namespace="http://www.w3.org/namespace/"/>
+            <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attributeGroup ref="commonAttributes"/>
         <xs:attribute name="format" type="xs:string" use="optional">
@@ -1946,6 +1875,26 @@ Removed unused components from the plugins
                         <xs:documentation>Number of sports-events the player has played in since the start of the event.</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
+                <xs:attribute name="date-time-entered" type="xs:dateTime" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Exact universal time player entered event. For example, the time a downhill skiier began a run.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="date-time-exited" type="xs:dateTime" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Exact universal time player exited event. For example, the time a downhill skiier finished a run.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="event-time-entered" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Time player entered event expressed as conventional game-clock time. For example, the game minute a soccer player was subbed on to the field.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="event-time-exited" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Time player exited event expressed as conventional game-clock time. For example, the game minute a soccer player was subbed off the field.</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
@@ -2146,7 +2095,7 @@ Removed unused components from the plugins
         <xs:attribute name="pass-method" use="optional" type="QCodeType"/>
         <xs:attribute name="shot-type" use="optional" type="QCodeType">
             <xs:annotation>
-                <xs:documentation>The type of shot taken. See "infractionresult" SportsML vocabs for various sports:
+                <xs:documentation>The type of shot taken. See "shot" SportsML vocabs for various sports:
                     http://cv.iptc.org/newscodes/spgolshot/
                     http://cv.iptc.org/newscodes/sptenshot/
                     http://cv.iptc.org/newscodes/spcurshot/
@@ -2156,12 +2105,40 @@ Removed unused components from the plugins
         <xs:attribute name="shot-distance" use="optional" type="xs:double"/>
         <xs:attribute name="shot-distance-units" type="QCodeType" use="optional">
             <xs:annotation>
-                <xs:documentation>SportsML vocab uri: http://cv.iptc.org/newscodes/spshotdistanceunits/</xs:documentation>
+                <xs:documentation>SportsML vocab uri: http://cv.iptc.org/newscodes/spdistanceunits/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="penalty-type" use="optional" type="QCodeType">
             <xs:annotation>
-                <xs:documentation>Whether the receiver of the penalty was the team, the player, a coach, a ref, etc.</xs:documentation>
+                <xs:documentation>The name of the type of penalty. See "penalty" SportsML vocabs for various sports:
+                    http://cv.iptc.org/newscodes/spamfpenalty/
+                    http://cv.iptc.org/newscodes/spichpenalty/
+                    http://cv.iptc.org/newscodes/sprgxpenalty/
+                    http://cv.iptc.org/newscodes/spsocpenalty/
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="penalty-level" use="optional" type="QCodeType">
+            <xs:annotation>
+                <xs:documentation>The degree of punishment for the penalty eg. yellow or red card, major, minor, game misconduct, etc. See "penaltylevel" SportsML vocabs for various sports:
+                    http://cv.iptc.org/newscodes/spbkbpenaltylevel/
+                    http://cv.iptc.org/newscodes/spichpenaltylevel/
+                    http://cv.iptc.org/newscodes/sprgxpenaltylevel/
+                    http://cv.iptc.org/newscodes/spsocpenaltylevel/
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="penalty-result" use="optional" type="QCodeType">
+            <xs:annotation>
+                <xs:documentation>What the foul resulted in. See "penaltyresult" SportsML vocabs for various sports:
+                    http://cv.iptc.org/newscodes/sprgxpenaltyresult/
+                    http://cv.iptc.org/newscodes/spsocpenaltyresult/
+                </xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="penalty-side" type="QCodeType" use="optional">
+            <xs:annotation>
+                <xs:documentation>Which side committed the penalty, usually offense or defense. SportsML vocab uri: http://cv.iptc.org/newscodes/sppenaltyside/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="penalty-length" use="optional" type="xs:string">
@@ -2177,16 +2154,6 @@ Removed unused components from the plugins
         <xs:attribute name="penalty-count" use="optional" type="xs:integer">
             <xs:annotation>
                 <xs:documentation>The sum of penalties recieved by this team/participant this event</xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="penalty-level" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>The severity or classification of the penalty eg. major, minor, game misconduct. See "infractionresult" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/spbkbpenaltylevel/
-                    http://cv.iptc.org/newscodes/spichpenaltylevel/
-                    http://cv.iptc.org/newscodes/sprgxpenaltylevel/
-                    http://cv.iptc.org/newscodes/spsocpenaltylevel/
-                </xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="penalty-status" use="optional">
@@ -2274,39 +2241,6 @@ Removed unused components from the plugins
         <xs:attribute name="shootout-shot-order" use="optional" type="xs:integer">
             <xs:annotation>
                 <xs:documentation>When this shot was take, amongst all the shootout shots of a game for one particular team. For example: 3 (if it was the third shot of the shootout).</xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-type" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>The name of the type of infraction. See "infraction" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/spamfinfraction/
-                    http://cv.iptc.org/newscodes/spichinfraction/
-                    http://cv.iptc.org/newscodes/sprgxinfraction/
-                    http://cv.iptc.org/newscodes/spsocinfraction/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-level" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>The degree of punishment for the infraction eg. yellow or red card. See "penaltylevel" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/spbkbpenaltylevel/
-                    http://cv.iptc.org/newscodes/spichpenaltylevel/
-                    http://cv.iptc.org/newscodes/sprgxpenaltylevel/
-                    http://cv.iptc.org/newscodes/spsocpenaltylevel/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-result" use="optional" type="QCodeType">
-            <xs:annotation>
-                <xs:documentation>What the foul resulted in. See "infractionresult" SportsML vocabs for various sports:
-                    http://cv.iptc.org/newscodes/sprgxinfractionresult/
-                    http://cv.iptc.org/newscodes/spsocinfractionresult/
-                </xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="infraction-side" type="QCodeType" use="optional">
-            <xs:annotation>
-                <xs:documentation>Which side committed the infraction, usually offense or defense. SportsML vocab uri: http://cv.iptc.org/newscodes/spinfractionside/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="faceoff-winner" use="optional" type="xs:NCName">
@@ -2429,12 +2363,17 @@ Removed unused components from the plugins
                 </xs:attribute>
                 <xs:attribute name="event-status" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The stage of the event, describing whether it has started, is in progress, etc.</xs:documentation>
+                        <xs:documentation>The stage of the event, describing whether it has started, is in progress, etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/speventstatus/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
-                <xs:attribute name="event-status-reason" type="xs:string" use="optional">
+                <xs:attribute name="event-type" type="QCodeType" use="optional">
                     <xs:annotation>
-                        <xs:documentation>The reason for the event status. Eg. why the cancellation, postponement, etc.</xs:documentation>
+                        <xs:documentation>The type of event, esp. in relation to tournament phase. Recommended SportsML vocabulary uri: http://cv.iptc.org/newscodes/sptournamentphase/</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="event-status-reason" type="QCodeType" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>The reason for the event status. Eg. why the cancellation, postponement, etc. SportsML vocabulary uri: http://cv.iptc.org/newscodes/speventstatusreason</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
                 <xs:attribute name="event-status-note" type="xs:string" use="optional">
@@ -3080,7 +3019,7 @@ Removed unused components from the plugins
         </xs:attribute>
         <xs:attribute name="score-units" type="QCodeType" use="optional">
             <xs:annotation>
-                <xs:documentation>Describes how the score and score-opposing is valued.</xs:documentation>
+                <xs:documentation>Describes how the score and score-opposing is valued. SportsML vocab uri: http://cv.iptc.org/newscodes/spscoreunits/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="score-behind" type="xs:string" use="optional">
@@ -3272,15 +3211,15 @@ Removed unused components from the plugins
         </xs:attribute>
         <xs:attribute name="yards-gained" use="optional" type="xs:integer"/>
         <xs:attribute name="penalty-yards" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="penalty-acceptance" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="penalty-challenge" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="penalty-review" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="penalty-review-ruling" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="kick-type" use="optional" type="QCodeType">
             <xs:annotation>
                 <xs:documentation>SportsML vocab uri: http://cv.iptc.org/newscodes/spamfkick/</xs:documentation>
@@ -3290,17 +3229,17 @@ Removed unused components from the plugins
 
     <xs:attributeGroup name="baseballActionAttributes">
         <xs:attribute name="at-bat-number" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="balls" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="batter-advance" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="batter-side" use="optional" type="bodySideList"/>
-        <!-- -->
+        
         <xs:attribute name="earned-runs-scored" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="error-type" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="hit-by-pitch-type" use="optional">
             <xs:simpleType id="hitByPitchType">
                 <xs:restriction base="xs:string">
@@ -3309,13 +3248,13 @@ Removed unused components from the plugins
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <!-- -->
+        
         <xs:attribute name="hit-location" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="hit-type" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="inning-exiting" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="inning-half" use="optional">
             <xs:simpleType id="inningHalf">
                 <xs:restriction base="xs:string">
@@ -3324,56 +3263,56 @@ Removed unused components from the plugins
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <!-- -->
+        
         <xs:attribute name="inning-value" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="interference-type" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="lead-entering" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="lead-exiting" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="out-type" use="optional" type="QCodeType">
             <xs:annotation>
                 <xs:documentation>How the batter got out. SportsML vocab uri: http://cv.iptc.org/newscodes/spbblout/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="outs" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="outs-recorded" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="pitcher-side" use="optional" type="bodySideList"/>
-        <!-- -->
+        
         <xs:attribute name="play-scorekeepers-notation" use="optional" type="xs:string"/>
-        <!-- -->
+        
         <xs:attribute name="rbi" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-first" use="optional" type="xs:boolean"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-first-advance" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-first-idref" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-second" use="optional" type="xs:boolean"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-second-advance" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-second-idref" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-third" use="optional" type="xs:boolean"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-third-advance" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="runner-on-third-idref" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="runners-on-base" use="optional" type="xs:boolean"/>
-        <!-- -->
+        
         <xs:attribute name="runs-scored" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="runs-this-inning-half" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="sacrifice-type" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="strikeout-type" use="optional">
             <xs:simpleType id="strikeoutType">
                 <xs:restriction base="xs:string">
@@ -3383,14 +3322,14 @@ Removed unused components from the plugins
             </xs:simpleType>
         </xs:attribute>
         <xs:attribute name="strikes" use="optional" type="xs:integer"/>
-        <!-- -->
+        
         <xs:attribute name="trajectory-coordinates" use="optional" type="QCodeType">
             <xs:annotation>
                 <xs:documentation>The path of the ball. SportsML vocab uri: http://cv.iptc.org/newscodes/spbbltrajectory/</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="velocity" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="walk-type" use="optional">
             <xs:simpleType id="walkType">
                 <xs:restriction base="xs:string">
@@ -3400,7 +3339,7 @@ Removed unused components from the plugins
             </xs:simpleType>
         </xs:attribute>
         <xs:attribute name="ball-location" use="optional" type="gridType"/>
-        <!-- -->
+        
         <xs:attribute name="ball-location-horizontal" use="optional" type="QCodeType">
             <xs:annotation>
                 <xs:documentation>Where the pitch was located horizontally. SportsML vocab uri: http://cv.iptc.org/newscodes/spbblballlocationhorizontal/</xs:documentation>
@@ -3412,9 +3351,9 @@ Removed unused components from the plugins
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="pitch-type" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="pitch-velocity" use="optional" type="xs:decimal"/>
-        <!-- -->
+        
         <xs:attribute name="pitch-units" use="optional">
             <xs:simpleType id="pitchUnits">
                 <xs:restriction base="xs:string">
@@ -3432,7 +3371,7 @@ Removed unused components from the plugins
             </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <!-- -->
+        
         <xs:attribute name="umpire-call" use="optional">
             <xs:annotation>
                 <xs:documentation>The net result of the pitch.</xs:documentation>
@@ -3561,13 +3500,13 @@ Removed unused components from the plugins
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="passer-type" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="passer-key" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="position-original" use="optional" type="QCodeType"/>
-        <!-- -->
+        
         <xs:attribute name="position-new" use="optional" type="QCodeType"/>
-        <!-- -->
+        
     </xs:attributeGroup>
     
     <xs:attributeGroup name="soccerActionAttributes">
@@ -3604,7 +3543,7 @@ Removed unused components from the plugins
                 </xs:restriction>
             </xs:simpleType>
         </xs:attribute>
-        <!-- -->
+        
         <xs:attribute name="server-score" use="optional" type="QCodeType">
             <xs:annotation>
                 <xs:documentation>SportsML vocab uri: http://cv.iptc.org/newscodes/sptengameresult/</xs:documentation>
@@ -3616,7 +3555,7 @@ Removed unused components from the plugins
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="serve-number" use="optional" type="QCodeType"/>
-        <!-- -->
+        
     </xs:attributeGroup>
       
     <xs:simpleType name="gridType">
@@ -3625,7 +3564,7 @@ Removed unused components from the plugins
             <xs:documentation>The origin (0,0) and granularity may be determined by the  distributor.</xs:documentation>
         </xs:annotation>
         <xs:restriction base="xs:string">
-            <xs:pattern value="\d+(\.\d{1,2})?,\d+(\.\d{1,2})?"/>
+            <xs:pattern value="[-]?\d+(\.\d{1,2})?,[-]?\d+(\.\d{1,2})?"/>
         </xs:restriction>
     </xs:simpleType>
 

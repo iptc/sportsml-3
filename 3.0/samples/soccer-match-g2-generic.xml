@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
 <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
-    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" standard="NewsML-G2"
+    standard="NewsML-G2"
     standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd"
     guid="xt.opta.20141004192343-755363-post-event">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <itemMeta>
@@ -26,11 +24,11 @@
         <creator qcode="web:optasports.com">
             <name>Opta</name>
         </creator>
-        <genre qcode="xtsfixt:event-stats">
+        <genre qcode="spfixt:event-stats">
             <name xml:lang="en-US">Event Score and Stats</name>
-            <broader qcode="dclass:event-summary"/>
+            <broader qcode="spct:event-summary"/>
         </genre>
-        <genre type="xts:dclass" qcode="dclass:event-summary"/>
+        <genre qcode="spct:event-summary"/>
         <language tag="en-US"/>
         <subject type="spct:season" literal="2014"/>
         <subject qcode="subj:15000000">
@@ -55,12 +53,11 @@
     </contentMeta>
     <contentSet>
         <inlineXML contenttype="application/sportsml+xml">
-            <sports-content
-                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd">
+            <sports-content>
                 <sports-event>
                     <event-metadata temporal-unit-type="cpnat:event"
                         key="optaevent:l.premierleague.com-2014-e.755363"
-                        event-status="spevstatus:post-event" event-status-note="Result"
+                        event-status="speventstatus:post-event" event-status-note="Result"
                         start-date-time="2014-10-04T17:30:00+01:00"
                         event-outcome-type="speventoutcometype:regular" minutes-elapsed="90">
                         <site>
@@ -86,10 +83,10 @@
                         </team-metadata>
                         <team-stats>
                             <stats>
-                                <stat stat-type="spcorstat:score" value="0"/>
-                                <stat stat-type="spcorstat:score-opposing" value="2"/>
-                                <stat stat-type="spcorstat:event-outcome" value="loss"/>
-                                <stat stat-type="spcorstat:time-of-possession-percentage"
+                                <stat stat-type="spstat:score" value="0"/>
+                                <stat stat-type="spstat:score-opposing" value="2"/>
+                                <stat stat-type="spstat:event-outcome" value="loss"/>
+                                <stat stat-type="spstat:time-of-possession-percentage"
                                     value="31.6"/>
                                 <stat stat-type="spsocstat:line-formation" value="433"/>
                                 <stat class="spct:offense"
@@ -98,7 +95,7 @@
                                     stat-type="spsocstat:shots-on-goal-total" value="1"/>
                                 <stat class="spct:offense"
                                     stat-type="spsocstat:corner-kicks" value=""/>
-                                <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
+                                <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
                                     value="4"/>
                             </stats>
                             <sub-score period-value="1" score="0"/>
@@ -106,16 +103,16 @@
                         </team-stats>
                         <player id="PO41705">
                             <player-metadata key="optaperson:PO41705"
-                                position-regular="spsocpos:goalkeeper" uniform-number="1"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:goalkeeper" uniform-number="1"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Brad Guzan</name>
                                 <player-metadata-soccer line-formation-position="1"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="45"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="32"/>
@@ -140,16 +137,16 @@
                         </player>
                         <player id="PO15405">
                             <player-metadata key="optaperson:PO15405"
-                                position-regular="spsocpos:defender" uniform-number="21"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="21"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Alan Hutton</name>
                                 <player-metadata-soccer line-formation-position="2"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="70"/>
                                     <stat class="spct:offense"
@@ -178,23 +175,23 @@
                                         stat-type="spsocstat:clearances-successful" value="2"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO16854">
                             <player-metadata key="optaperson:PO16854"
-                                position-regular="spsocpos:defender" uniform-number="14"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="14"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Philippe Senderos</name>
                                 <player-metadata-soccer line-formation-position="5"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="51"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="31"/>
@@ -220,23 +217,23 @@
                                         stat-type="spsocstat:clearances-successful" value="8"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO52477">
                             <player-metadata key="optaperson:PO52477"
-                                position-regular="spsocpos:defender" uniform-number="2"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="2"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Nathan Baker</name>
                                 <player-metadata-soccer line-formation-position="6"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="4"/>
                                     <stat stat-type="spsocstat:touches" value="47"/>
                                     <stat class="spct:offense"
@@ -263,23 +260,23 @@
                                         stat-type="spsocstat:clearances-successful" value="14"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="5"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO44354">
                             <player-metadata key="optaperson:PO44354"
-                                position-regular="spsocpos:defender" uniform-number="23"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="23"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Aly Cissokho</name>
                                 <player-metadata-soccer line-formation-position="3"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="50"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="26"/>
@@ -301,23 +298,23 @@
                                         stat-type="spsocstat:clearances-successful" value="1"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="3"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO43250">
                             <player-metadata key="optaperson:PO43250"
-                                position-regular="spsocpos:midfielder" uniform-number="8"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="8"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Tom Cleverley</name>
                                 <player-metadata-soccer line-formation-position="7"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="73"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:crosses-18-yard-plus" value="1"/>
@@ -343,25 +340,25 @@
                                         stat-type="spsocstat:clearances-successful" value="1"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="4"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="2"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO60551">
                             <player-metadata key="optaperson:PO60551"
-                                position-regular="spsocpos:midfielder" uniform-number="15"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="15"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Ashley Westwood</name>
                                 <player-metadata-soccer line-formation-position="4"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="61"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:shots-total" value="1"/>
@@ -391,23 +388,23 @@
                                         stat-type="spsocstat:clearances-successful" value="1"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="3"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO41823">
                             <player-metadata key="optaperson:PO41823"
-                                position-regular="spsocpos:midfielder" uniform-number="16"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="16"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Fabian Delph</name>
                                 <player-metadata-soccer line-formation-position="8"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="68"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:shots-total" value="1"/>
@@ -437,23 +434,23 @@
                                         stat-type="spsocstat:clearances-successful" value="4"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="3"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO18737">
                             <player-metadata key="optaperson:PO18737"
-                                position-regular="spsocpos:forward" uniform-number="28"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="28"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Charles N'Zogbia</name>
                                 <player-metadata-soccer line-formation-position="10"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="71"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="71"/>
                                     <stat stat-type="spsocstat:touches" value="34"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:shots-total" value="1"/>
@@ -471,23 +468,23 @@
                                         stat-type="spsocstat:goals-against-total" value="0"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:clearances-successful" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO80979">
                             <player-metadata key="optaperson:PO80979"
-                                position-regular="spsocpos:forward" uniform-number="10"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="10"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Andreas Weimann</name>
                                 <player-metadata-soccer line-formation-position="9"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="61"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="61"/>
                                     <stat stat-type="spsocstat:aerials-won" value="3"/>
                                     <stat stat-type="spsocstat:touches" value="17"/>
                                     <stat class="spct:offense"
@@ -511,16 +508,16 @@
                         </player>
                         <player id="PO15073">
                             <player-metadata key="optaperson:PO15073"
-                                position-regular="spsocpos:forward" uniform-number="18"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="18"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Kieran Richardson</name>
                                 <player-metadata-soccer line-formation-position="11"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="71"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="71"/>
                                     <stat stat-type="spsocstat:touches" value="19"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:shots-total" value="1"/>
@@ -547,23 +544,23 @@
                         </player>
                         <player id="PO58845">
                             <player-metadata key="optaperson:PO58845"
-                                position-regular="spsocpos:defender" uniform-number="6"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:defender" uniform-number="6"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Ciaran Clark</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO74297">
                             <player-metadata key="optaperson:PO74297"
-                                position-regular="spsocpos:midfielder" uniform-number="7"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="7"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Leandro Bacuna</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:time-played-total" value="19"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:time-played-total" value="19"/>
                                     <stat stat-type="spsocstat:touches" value="8"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="6"/>
@@ -588,23 +585,23 @@
                         </player>
                         <player id="PO10738">
                             <player-metadata key="optaperson:PO10738"
-                                position-regular="spsocpos:forward" uniform-number="19"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:forward" uniform-number="19"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Darren Bent</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO54861">
                             <player-metadata key="optaperson:PO54861"
-                                position-regular="spsocpos:midfielder" uniform-number="20"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="20"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Christian Benteke</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:time-played-total" value="29"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:time-played-total" value="29"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="16"/>
                                     <stat class="spct:offense"
@@ -624,31 +621,31 @@
                         </player>
                         <player id="PO42824">
                             <player-metadata key="optaperson:PO42824"
-                                position-regular="spsocpos:midfielder" uniform-number="24"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="24"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Carlos Sánchez</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO1822">
                             <player-metadata key="optaperson:PO1822"
-                                position-regular="spsocpos:goalkeeper" uniform-number="31"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:goalkeeper" uniform-number="31"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Shay Given</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO114283">
                             <player-metadata key="optaperson:PO114283"
-                                position-regular="spsocpos:midfielder" uniform-number="40"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="40"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Jack Grealish</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.2">
-                                    <stat stat-type="spcorstat:time-played-total" value="19"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.2">
+                                    <stat stat-type="spstat:time-played-total" value="19"/>
                                     <stat stat-type="spsocstat:touches" value="15"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="5"/>
@@ -672,11 +669,9 @@
                             </player-stats>
                         </player>
                         <associate id="man37630">
-                            <associate-metadata position-event="spsocascpos:Manager"
+                            <associate-metadata position-event="ascpos:Manager"
                                 key="optaperson:man37630">
                                 <name role="nrol:full">Paul Lambert</name>
-                                <name part="nprt:common">Paul</name>
-                                <name part="nprt:nickname">Lambert</name>
                             </associate-metadata>
                         </associate>
                     </team>
@@ -687,10 +682,10 @@
                         </team-metadata>
                         <team-stats>
                             <stats>
-                                <stat stat-type="spcorstat:score" value="2"/>
-                                <stat stat-type="spcorstat:score-opposing" value="0"/>
-                                <stat stat-type="spcorstat:event-outcome" value="win"/>
-                                <stat stat-type="spcorstat:time-of-possession-percentage"
+                                <stat stat-type="spstat:score" value="2"/>
+                                <stat stat-type="spstat:score-opposing" value="0"/>
+                                <stat stat-type="spstat:event-outcome" value="win"/>
+                                <stat stat-type="spstat:time-of-possession-percentage"
                                     value="68.4"/>
                                 <stat stat-type="spsocstat:line-formation" value="442"/>
                                 <stat class="spct:offense"
@@ -699,7 +694,7 @@
                                     stat-type="spsocstat:shots-on-goal-total" value="7"/>
                                 <stat class="spct:offense"
                                     stat-type="spsocstat:corner-kicks" value="7"/>
-                                <stat class="spct:infraction" stat-type="spsocstat:fouls-commited"
+                                <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
                                     value="6"/>
                             </stats>
                             <sub-score period-value="1" score="0"/>
@@ -707,16 +702,16 @@
                         </team-stats>
                         <player id="PO15749">
                             <player-metadata key="optaperson:PO15749"
-                                position-regular="spsocpos:goalkeeper" uniform-number="1"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:goalkeeper" uniform-number="1"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Joe Hart</name>
                                 <player-metadata-soccer line-formation-position="1"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="27"/>
                                     <stat class="spct:offense"
@@ -742,16 +737,16 @@
                         </player>
                         <player id="PO20658">
                             <player-metadata key="optaperson:PO20658"
-                                position-regular="spsocpos:defender" uniform-number="5"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="5"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Pablo Zabaleta</name>
                                 <player-metadata-soccer line-formation-position="2"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="72"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:crosses-18-yard" value="1"/>
@@ -782,16 +777,16 @@
                         </player>
                         <player id="PO17476">
                             <player-metadata key="optaperson:PO17476"
-                                position-regular="spsocpos:defender" uniform-number="4"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="4"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Vincent Kompany</name>
                                 <player-metadata-soccer line-formation-position="5"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="100"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="87"/>
@@ -824,16 +819,16 @@
                         </player>
                         <player id="PO57112">
                             <player-metadata key="optaperson:PO57112"
-                                position-regular="spsocpos:defender" uniform-number="20"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="20"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Eliaquim Mangala</name>
                                 <player-metadata-soccer line-formation-position="6"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="4"/>
                                     <stat stat-type="spsocstat:touches" value="72"/>
                                     <stat class="spct:offense"
@@ -856,23 +851,23 @@
                                         stat-type="spsocstat:clearances-successful" value="3"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO42593">
                             <player-metadata key="optaperson:PO42593"
-                                position-regular="spsocpos:defender" uniform-number="11"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:defender" uniform-number="11"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Aleksandar Kolarov</name>
                                 <player-metadata-soccer line-formation-position="3"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
                                     <stat stat-type="spsocstat:touches" value="102"/>
                                     <stat class="spct:offense"
@@ -907,27 +902,27 @@
                                         stat-type="spsocstat:goals-against-total" value="0"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="5"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:cautions-total" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO15157">
                             <player-metadata key="optaperson:PO15157"
-                                position-regular="spsocpos:midfielder" uniform-number="7"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="7"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">James Milner</name>
                                 <player-metadata-soccer line-formation-position="7"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="91"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:crosses-18-yard" value="9"/>
@@ -951,23 +946,23 @@
                                         stat-type="spsocstat:goals-against-total" value="0"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:clearances-successful" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="2"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO27789">
                             <player-metadata key="optaperson:PO27789"
-                                position-regular="spsocpos:midfielder" uniform-number="25"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="25"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Fernando Luiz Rosa</name>
                                 <player-metadata-soccer line-formation-position="4"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="56"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="56"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
                                     <stat stat-type="spsocstat:touches" value="72"/>
                                     <stat class="spct:offense"
@@ -994,23 +989,23 @@
                                         stat-type="spsocstat:goals-against-total" value="0"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="1"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO14664">
                             <player-metadata key="optaperson:PO14664"
-                                position-regular="spsocpos:midfielder" uniform-number="42"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="42"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Gnegneri Yaya Touré</name>
                                 <player-metadata-soccer line-formation-position="8"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="150"/>
                                     <stat class="spct:offense"
@@ -1046,16 +1041,16 @@
                         </player>
                         <player id="PO20664">
                             <player-metadata key="optaperson:PO20664"
-                                position-regular="spsocpos:midfielder" uniform-number="21"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:midfielder" uniform-number="21"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">David Silva</name>
                                 <player-metadata-soccer line-formation-position="11"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="84"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="84"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
                                     <stat stat-type="spsocstat:touches" value="104"/>
                                     <stat class="spct:offense"
@@ -1088,23 +1083,23 @@
                                         stat-type="spsocstat:goals-against-total" value="0"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:interceptions" value="2"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-suffered" value="2"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO42544">
                             <player-metadata key="optaperson:PO42544"
-                                position-regular="spsocpos:forward" uniform-number="10"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="10"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Edin Dzeko</name>
                                 <player-metadata-soccer line-formation-position="10"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="64"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="64"/>
                                     <stat stat-type="spsocstat:aerials-won" value="2"/>
                                     <stat stat-type="spsocstat:touches" value="40"/>
                                     <stat class="spct:offense"
@@ -1129,23 +1124,23 @@
                                         stat-type="spsocstat:tackles-lost" value="0"/>
                                     <stat class="spct:defense"
                                         stat-type="spsocstat:goals-against-total" value="0"/>
-                                    <stat class="spct:infraction"
+                                    <stat class="spct:penalty"
                                         stat-type="spsocstat:fouls-commited" value="1"/>
                                 </stats>
                             </player-stats>
                         </player>
                         <player id="PO37572">
                             <player-metadata key="optaperson:PO37572"
-                                position-regular="spsocpos:forward" uniform-number="16"
-                                status="spperstatus:starter">
+                                position-regular="spsocposition:forward" uniform-number="16"
+                                status="spplayerstatus:starter">
                                 <name role="nrol:full">Sergio Agüero</name>
                                 <player-metadata-soccer line-formation-position="9"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:events-started" value="1"/>
-                                    <stat stat-type="spcorstat:time-played-total" value="90"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:events-started" value="1"/>
+                                    <stat stat-type="spstat:time-played-total" value="90"/>
                                     <stat stat-type="spsocstat:touches" value="50"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:goals-total" value="1"/>
@@ -1184,23 +1179,23 @@
                         </player>
                         <player id="PO37748">
                             <player-metadata key="optaperson:PO37748"
-                                position-regular="spsocpos:defender" uniform-number="3"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:defender" uniform-number="3"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Bacary Sagna</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO52538">
                             <player-metadata key="optaperson:PO52538"
-                                position-regular="spsocpos:midfielder" uniform-number="6"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="6"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Fernando Francisco Reges</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:time-played-total" value="26"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:time-played-total" value="26"/>
                                     <stat stat-type="spsocstat:touches" value="42"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:assists-total" value="1"/>
@@ -1227,23 +1222,23 @@
                         </player>
                         <player id="PO20310">
                             <player-metadata key="optaperson:PO20310"
-                                position-regular="spsocpos:goalkeeper" uniform-number="13"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:goalkeeper" uniform-number="13"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Willy Caballero</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO17740">
                             <player-metadata key="optaperson:PO17740"
-                                position-regular="spsocpos:midfielder" uniform-number="15"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="15"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Jesús Navas</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:time-played-total" value="6"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:time-played-total" value="6"/>
                                     <stat stat-type="spsocstat:touches" value="12"/>
                                     <stat class="spct:offense"
                                         stat-type="spsocstat:passes-total" value="10"/>
@@ -1260,15 +1255,15 @@
                         </player>
                         <player id="PO2051">
                             <player-metadata key="optaperson:PO2051"
-                                position-regular="spsocpos:midfielder" uniform-number="18"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:midfielder" uniform-number="18"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Frank Lampard</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                             <player-stats>
-                                <stats temporal-unit-type="sptunit:single-event"
-                                    team="spteam:o.thefa.com-t.12">
-                                    <stat stat-type="spcorstat:time-played-total" value="34"/>
+                                <stats temporal-unit-type="sptemporalunit:event"
+                                    team="team:o.thefa.com-t.12">
+                                    <stat stat-type="spstat:time-played-total" value="34"/>
                                     <stat stat-type="spsocstat:aerials-won" value="1"/>
                                     <stat stat-type="spsocstat:touches" value="30"/>
                                     <stat class="spct:offense"
@@ -1300,36 +1295,32 @@
                         </player>
                         <player id="PO15312">
                             <player-metadata key="optaperson:PO15312"
-                                position-regular="spsocpos:defender" uniform-number="26"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:defender" uniform-number="26"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Martín Demichelis</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <player id="PO50442">
                             <player-metadata key="optaperson:PO50442"
-                                position-regular="spsocpos:forward" uniform-number="35"
-                                status="spperstatus:bench">
+                                position-regular="spsocposition:forward" uniform-number="35"
+                                status="spplayerstatus:bench">
                                 <name role="nrol:full">Stevan Jovetic</name>
                                 <player-metadata-soccer line-formation-position="0"/>
                             </player-metadata>
                         </player>
                         <associate id="man257">
-                            <associate-metadata position-event="spsocascpos:Manager"
+                            <associate-metadata position-event="ascpos:Manager"
                                 key="optaperson:man257">
                                 <name role="nrol:full">Manuel Pellegrini</name>
-                                <name part="nprt:common">Manuel</name>
-                                <name part="nprt:nickname">Pellegrini</name>
                             </associate-metadata>
                         </associate>
                     </team>
                     <officials>
                         <official>
                             <official-metadata key="optaperson:PO10514"
-                                position-event="spsocoffpos:main-official">
+                                position-event="offpos:main-official">
                                 <name role="nrol:full">Chris Foy</name>
-                                <name part="nprt:common">Chris</name>
-                                <name part="nprt:nickname">Foy</name>
                             </official-metadata>
                         </official>
                     </officials>
@@ -1964,7 +1955,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="31.8,75.2"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO57112" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.1742072243"
@@ -1972,7 +1963,7 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="68.2,24.8"
                             zone="opsoczone:Center"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO18737" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.1519215844"
@@ -2362,7 +2353,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="77.8,95.5"
                             zone="opsoczone:Left"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO42593" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.389041074"
@@ -2370,7 +2361,7 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="22.2,4.5"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO43250" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.917875639"
@@ -5194,22 +5185,22 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="56.0,9.3"
                             zone="opsoczone:Right"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO15405" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.709953894"
                             sequence-number="1004175335" minutes-elapsed="23" time-elapsed="23:23"
                             period-value="1" team-idref="e.755363-t.43" start-location="44.0,90.7"
                             zone="opsoczone:Back"
-                            infraction-type="opinfract:Attempted_Tackle"
+                            penalty-type="opinfract:Attempted_Tackle"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO42593" role="spsocrole:foul-committed-by"/>
                         </action>
-                        <action class="spactionclass:infraction" id="a.993956829"
+                        <action class="spactionclass:penalty" id="a.993956829"
                             sequence-number="1004175338" minutes-elapsed="23" time-elapsed="23:27"
                             period-value="1" team-idref="e.755363-t.43" start-location="0.0,0.0"
-                            infraction-type="opinfract:Foul"
-                            infraction-level="spsocinfract:socinflevel:yellow-card"
+                            penalty-type="opinfract:Foul"
+                            penalty-level="spsocpenaltylevel:yellow-card"
                             type="spsocaction:penalty">
                             <participant idref="PO42593" role="spsocrole:infraction-by"/>
                         </action>
@@ -5418,7 +5409,7 @@
                         <action class="spactionclass:play" id="a.1271248735"
                             sequence-number="1004175533" minutes-elapsed="25" time-elapsed="25:22"
                             period-value="1" team-idref="e.755363-t.7" start-location="6.3,4.9"
-                            zone="opsoczone:Back" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Back" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO43250" role="spsocrole:foul-committed-by"/>
                         </action>
@@ -5427,7 +5418,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="94.3,94.7"
                             zone="opsoczone:Left"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO42593" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.1580561882"
@@ -5527,14 +5518,14 @@
                             sequence-number="1004175703" minutes-elapsed="26" time-elapsed="26:51"
                             period-value="1" team-idref="e.755363-t.7" start-location="24.3,9.9"
                             zone="opsoczone:Back"
-                            infraction-type="opinfract:Attempted_Tackle"
+                            penalty-type="opinfract:Attempted_Tackle"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO43250" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.2100600072"
                             sequence-number="1004175703" minutes-elapsed="26" time-elapsed="26:51"
                             period-value="1" team-idref="e.755363-t.43" start-location="75.7,90.1"
-                            zone="opsoczone:Left" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Left" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO42544" role="spsocrole:foul-committed-by"/>
                         </action>
@@ -5913,7 +5904,7 @@
                             period-value="1" team-idref="e.755363-t.7" start-location="51.4,91.1"
                             zone="opsoczone:Left"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO41823" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.499455619"
@@ -5921,7 +5912,7 @@
                             period-value="1" team-idref="e.755363-t.43" start-location="48.6,8.9"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO27789" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.617956212"
@@ -6757,14 +6748,14 @@
                         <action class="spactionclass:play" id="a.1774838675"
                             sequence-number="1004180516" minutes-elapsed="35" time-elapsed="35:05"
                             period-value="1" team-idref="e.755363-t.7" start-location="31.3,54.1"
-                            zone="opsoczone:Back" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Back" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO52477" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.1261039603"
                             sequence-number="1004180516" minutes-elapsed="35" time-elapsed="35:05"
                             period-value="1" team-idref="e.755363-t.43" start-location="68.7,45.9"
-                            zone="opsoczone:Center" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Center" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO20664" role="spsocrole:foul-committed-against"/>
                         </action>
@@ -9679,13 +9670,13 @@
                             period-value="2" team-idref="e.755363-t.7" start-location="27.8,93.1"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO60551" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.2079084360"
                             sequence-number="1004184243" minutes-elapsed="55" time-elapsed="55:46"
                             period-value="2" team-idref="e.755363-t.43" start-location="72.2,6.9"
-                            zone="opsoczone:Right" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Right" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO15157" role="spsocrole:foul-committed-by"/>
                         </action>
@@ -10436,7 +10427,7 @@
                             period-value="2" team-idref="e.755363-t.43" start-location="79.4,33.0"
                             zone="opsoczone:Center"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Foul" type="spsocaction:foul">
+                            penalty-type="opinfract:Foul" type="spsocaction:foul">
                             <participant idref="PO20664" role="spsocrole:foul-committed-against"/>
                         </action>
                         <action class="spactionclass:play" id="a.1393262745"
@@ -10444,7 +10435,7 @@
                             period-value="2" team-idref="e.755363-t.7" start-location="20.6,67.0"
                             zone="opsoczone:Back"
                             score-attempt-situation="opshotaction:direct-free"
-                            infraction-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
+                            penalty-type="opinfract:Attempted_Tackle" type="spsocaction:foul">
                             <participant idref="PO44354" role="spsocrole:foul-committed-by"/>
                         </action>
                         <action class="spactionclass:play" id="a.740501466"
@@ -12094,7 +12085,7 @@
                         <action class="spactionclass:play" id="a.1591025551"
                             sequence-number="1004190232" minutes-elapsed="75" time-elapsed="75:36"
                             period-value="2" team-idref="e.755363-t.7" start-location="15.4,26.9"
-                            zone="opsoczone:Back" infraction-type="opinfract:Foul"
+                            zone="opsoczone:Back" penalty-type="opinfract:Foul"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO16854" role="spsocrole:foul-committed-against"/>
                         </action>
@@ -12102,7 +12093,7 @@
                             sequence-number="1004190232" minutes-elapsed="75" time-elapsed="75:36"
                             period-value="2" team-idref="e.755363-t.43" start-location="84.6,73.1"
                             zone="opsoczone:Center"
-                            infraction-type="opinfract:Attempted_Tackle"
+                            penalty-type="opinfract:Attempted_Tackle"
                             score-attempt-situation="opshotaction:direct-free" type="spsocaction:foul">
                             <participant idref="PO15157" role="spsocrole:foul-committed-by"/>
                         </action>

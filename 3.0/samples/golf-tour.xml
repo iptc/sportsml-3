@@ -47,7 +47,7 @@
                             <sports-content-codes>
                                 <sports-content-code code-type="subj:qual">
                                     <sports-content-qualifier gender="male"
-                                        participant-count="part:individual"/>
+                                        participant-count="spparticipantcount:individual"/>
                                 </sports-content-code>
                             </sports-content-codes>
                             <name>Men</name>
@@ -58,8 +58,8 @@
 
                             <player>
                                 <player-metadata>
-                                    <name part="np:first">Jhonattan</name>
-                                    <name part="np:last">Vegas</name>
+                                    <name part="nprt:first">Jhonattan</name>
+                                    <name part="nprt:last">Vegas</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name/></locality><area><name/></area><country><name>Venezuela</name></country><postalCode/></address>
@@ -70,8 +70,8 @@
                                     <rank value="1"/>
                                     <player-stats-golf>
                                         <stats-golf money="900,000" money-value="USD"
-                                            holes-played="90" holes-under-par="35" rounds="5"
-                                            rounds-under-par="5" strokes="333" eagles="1"
+                                            total-holes="90" holes-under-par="35" rounds="5"
+                                            rounds-under-par="5" total-strokes="333" eagles="1"
                                             birdies="34" pars="46" bogeys="9" double-bogeys="0"
                                             finish-other="0" eagles-rank="T9" birdies-rank="T1"
                                             pars-rank="69" bogeys-rank="T24"
@@ -85,8 +85,8 @@
                                             saves-rank="T65"/>
                                         <!-- Here we can have all rounds for one player -->
                                         <stats-golf-round round-number="1">
-                                            <stats-golf holes-played="18" holes-under-par="9"
-                                                rounds="1" strokes="64" eagles="0" birdies="9"
+                                            <stats-golf total-holes="18" holes-under-par="9"
+                                                rounds="1" total-strokes="64" eagles="0" birdies="9"
                                                 pars="8" bogeys="1" double-bogeys="0"
                                                 finish-other="0" drive-accuracy="100"
                                                 distance="302.0" putts-per-round="25"
@@ -114,8 +114,8 @@
                                     <rank value="2"/>
                                     <player-stats-golf>
                                         <stats-golf money="100,000" money-value="USD"
-                                            holes-played="90" holes-under-par="33" rounds="5"
-                                            rounds-under-par="5" strokes="333" eagles="1"
+                                            total-holes="90" holes-under-par="33" rounds="5"
+                                            rounds-under-par="5" total-strokes="333" eagles="1"
                                             birdies="32" pars="50" bogeys="7" double-bogeys="0"
                                             finish-other="0" eagles-rank="T9" birdies-rank="T4"
                                             pars-rank="T57" bogeys-rank="T47"
@@ -147,7 +147,7 @@
                                         
                                         
                                         <site>
-                                            <site-metadata surface="grass" style="outdoor">
+                                            <site-metadata surface="surf:grass" style="outdoor">
                                                 <name>PGA West (Palmer Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -171,11 +171,10 @@
                                         <player-stats score="-9">
                                             <rank value="1"/>
                                             <player-stats-golf>
-                                                <stats-golf holes-played="18" holes-under-par="10"
-                                                  strokes="63" birdies="9" drive-accuracy="69"
+                                                <stats-golf total-holes="18" holes-under-par="10"
+                                                  total-strokes="63" birdies="9" drive-accuracy="69"
                                                   eagles="1" total-points="-9"/>
-                                                <stats-golf-round round-number="1" strokes="63"
-                                                  score="-9">
+                                                <stats-golf-round round-number="1" score="-9" strokes="63">
                                                   <stats-golf-hole hole="10" par="4" score="5"
                                                   score-against-par="+1"/>
                                                   <stats-golf-hole hole="11" par="5" score="4"
@@ -230,8 +229,8 @@
                                         <player-stats score="-8">
                                             <rank value="2"/>
                                             <player-stats-golf>
-                                                <stats-golf holes-played="18" holes-under-par="9"
-                                                  strokes="64" birdies="9" drive-accuracy="100"
+                                                <stats-golf total-holes="18" holes-under-par="9"
+                                                  total-strokes="64" birdies="9" drive-accuracy="100"
                                                   eagles="0" total-points="-8"/>
                                                 <stats-golf-round round-number="1" strokes="64"
                                                   score="-8">
@@ -284,7 +283,7 @@
                                 <sports-event>
                                     <event-metadata>
                                         <site>
-                                            <site-metadata surface="grass" style="outdoor">
+                                            <site-metadata surface="surf:grass" style="outdoor">
                                                 <name>PGA West (Nicklaus Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -308,8 +307,8 @@
                                         <player-stats score="-8">
                                             <rank value="1"/>
                                             <player-stats-golf>
-                                                <stats-golf holes-played="18" holes-under-par="10"
-                                                  strokes="64" birdies="10" drive-accuracy="86"
+                                                <stats-golf total-holes="18" holes-under-par="10"
+                                                  total-strokes="64" birdies="10" drive-accuracy="86"
                                                   eagles="1" total-points="-8"/>
                                                 <stats-golf-round round-number="2" strokes="64"
                                                   score="-8">
@@ -371,7 +370,7 @@
                                 <sports-event>
                                     <event-metadata>
                                         <site>
-                                            <site-metadata surface="grass" style="outdoor">
+                                            <site-metadata surface="surf:grass" style="outdoor">
                                                 <name>PGA West (Palmer Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -392,7 +391,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="4" event-outcome="eo:tie"/>
+                                        <player-stats score="4" event-outcome="speventoutcome:tie"/>
                                     </player>
 
                                     <player>
@@ -404,7 +403,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="4" event-outcome="eo:tie"/>
+                                        <player-stats score="4" event-outcome="speventoutcome:tie"/>
                                     </player>
 
                                     <player>
@@ -416,7 +415,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="5" event-outcome="eo:loss">
+                                        <player-stats score="5" event-outcome="speventoutcome:loss">
                                             <rank value="3"/>
                                         </player-stats>
                                     </player>
@@ -430,7 +429,7 @@
                                 <sports-event>
                                     <event-metadata>
                                         <site>
-                                            <site-metadata surface="grass" style="outdoor">
+                                            <site-metadata surface="surf:grass" style="outdoor">
                                                 <name>PGA West (Palmer Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -451,7 +450,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="4" event-outcome="eo:win">
+                                        <player-stats score="4" event-outcome="speventoutcome:win">
                                             <rank value="1"/>
                                         </player-stats>
                                     </player>
@@ -466,7 +465,7 @@
                                                 </POIDetails>
                                             </home-location>
                                         </player-metadata>
-                                        <player-stats score="-" event-outcome="eo:loss">
+                                        <player-stats score="-" event-outcome="speventoutcome:loss">
                                             <rank value="2"/>
                                         </player-stats>
                                     </player>
