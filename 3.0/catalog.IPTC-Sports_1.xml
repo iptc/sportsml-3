@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- File: http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_#.xml (# represents the version number of this file)
+<!-- File: http://www.iptc.org/std/catalog/catalog.IPTC-Sports_#.xml (# represents the version number of this file)
 
 	This file provides a Catalog for G2-Standards as defined by the common News Architecture
 	This catalog contains all currently existing IPTC maintained controlled vocabularies - branded as NewsCodes - 
@@ -10,11 +10,11 @@
 	- either: copy and paste the <catalog> element from this file to the appropriate position in the item
 	- or: add a <catalogRef> element to the item and apply the URL of this file (wherever it is stored)
 		to the "href" attribute of the catalogRef element like: 
-		<catalogRef href="http://mydomain.org/files/catalog.IPTC-G2-Standards_99.xml" />
+		<catalogRef href="http://mydomain.org/files/catalog.IPTC-G2-Sports_99.xml" />
 
 	This file is provided as is by the International Press Telecommunication Council, IPTC - www.iptc.org
 	History / change log:
-	v 1 2016-05-10: initial version, reflects the G2 NewsCodes approved on 2008-01-29
+	v 1 2016-05-10: initial version, reflects vocabularies created for SportsML 3.0
 -->	
 
 <catalog xmlns="http://iptc.org/std/nar/2006-10-01/" additionalInfo="http://www.iptc.org/goto?G2cataloginfo">
