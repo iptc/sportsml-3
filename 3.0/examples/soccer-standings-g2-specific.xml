@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    standard="NewsML-G2"
+    standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
+    guid="xt.opta.standings-20151003170755-2015">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+    <itemMeta>
+        <itemClass qcode="ninat:text"/>
+        <provider qcode="web:xmlteam.com">
+            <name>XML Team Solutions, Inc.</name>
+        </provider>
+        <versionCreated>2015-10-03T17:07:55+01:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
+        <fileName>xt.opta.standings-20151003170755-2015</fileName>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2015-10-03T17:07:55+01:00</contentCreated>
+        <located qcode="city:Leeds">
+            <broader qcode="reg:England"/>
+            <broader qcode="cntry:UK"/>
+        </located>
+        <creator qcode="web:optasports.com">
+            <name>Opta</name>
+        </creator>
+        <genre qcode="spfixt:standings">
+            <name xml:lang="en-US">Standings</name>
+            <broader qcode="spct:standings"/>
+        </genre>
+        <genre qcode="spct:standings"/>
+        <language tag="en-US"/>
+        <subject type="spct:season" literal="2015"/>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15054000">
+            <name xml:lang="en-US">Soccer</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <subject qcode="league:l.bundesliga.de" type="spct:league">
+            <name xml:lang="en-US">German Bundesliga</name>
+            <broader qcode="subj:15054000"/>
+        </subject>
+        <headline/>
+    </contentMeta>
+    <contentSet>
+        <inlineXML contenttype="application/sportsml+xml">
+            <sports-content>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded" team-coverage="multi-team"
+                        temporal-unit-type="spct:season-regular"
+                        temporal-unit-value="vendor:2015-10-03" competition="spct:tournament">
+                        <sports-property formal-name="match-day" value="8"/>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.198" alignment="none">
+                            <name role="nrol:full">FC Bayern München</name>
+                            <name part="nprt:common">FC Bayern München</name>
+                        </team-metadata>
+                        <team-stats events-played="7">
+                            <outcome-totals alignment-scope="events-all" events-played="7"
+                                standing-points="21" wins="7" losses="0" ties="0"
+                                points-scored-for="23" points-scored-against="3"
+                                points-difference="20"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="12" wins="4" losses="0" ties="0"
+                                points-scored-for="15" points-scored-against="2"/>
+                            <outcome-totals alignment-scope="events-away" events-played="3"
+                                standing-points="9" wins="3" losses="0" ties="0"
+                                points-scored-for="8" points-scored-against="1"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Champions_League"/>
+                            <rank type="vendor:events-all" value="1"/>
+                            <rank type="vendor:events-home" value="1"/>
+                            <rank type="vendor:events-away" value="2"/>
+                            <rank type="vendor:rank-previous" value="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.286" alignment="none">
+                            <name role="nrol:full">Borussia Dortmund</name>
+                            <name part="nprt:common">Borussia Dortmund</name>
+                        </team-metadata>
+                        <team-stats events-played="7">
+                            <outcome-totals alignment-scope="events-all" events-played="7"
+                                standing-points="17" wins="5" losses="0" ties="2"
+                                points-scored-for="21" points-scored-against="6"
+                                points-difference="15"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="10" wins="3" losses="0" ties="1"
+                                points-scored-for="12" points-scored-against="3"/>
+                            <outcome-totals alignment-scope="events-away" events-played="3"
+                                standing-points="7" wins="2" losses="0" ties="1"
+                                points-scored-for="9" points-scored-against="3"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Champions_League"/>
+                            <rank type="vendor:events-all" value="2"/>
+                            <rank type="vendor:events-home" value="2"/>
+                            <rank type="vendor:events-away" value="4"/>
+                            <rank type="vendor:rank-previous" value="2"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.358" alignment="none">
+                            <name role="nrol:full">FC Schalke 04</name>
+                            <name part="nprt:common">FC Schalke 04</name>
+                        </team-metadata>
+                        <team-stats events-played="7">
+                            <outcome-totals alignment-scope="events-all" events-played="7"
+                                standing-points="16" wins="5" losses="1" ties="1"
+                                points-scored-for="10" points-scored-against="5"
+                                points-difference="5"/>
+                            <outcome-totals alignment-scope="events-home" events-played="3"
+                                standing-points="7" wins="2" losses="0" ties="1"
+                                points-scored-for="5" points-scored-against="2"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="9" wins="3" losses="1" ties="0"
+                                points-scored-for="5" points-scored-against="3"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Champions_League"/>
+                            <rank type="vendor:events-all" value="3"/>
+                            <rank type="vendor:events-home" value="6"/>
+                            <rank type="vendor:events-away" value="3"/>
+                            <rank type="vendor:rank-previous" value="3"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.701" alignment="none">
+                            <name role="nrol:full">Hertha BSC</name>
+                            <name part="nprt:common">Hertha BSC</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="14" wins="4" losses="2" ties="2"
+                                points-scored-for="11" points-scored-against="8"
+                                points-difference="3"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="10" wins="3" losses="0" ties="1"
+                                points-scored-for="8" points-scored-against="2"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="4" wins="1" losses="2" ties="1"
+                                points-scored-for="3" points-scored-against="6"/>
+                            <outcome-result type="spresulteffect:promotion"
+                                comment="Champions_League_Qualifying"/>
+                            <rank type="vendor:events-all" value="4"/>
+                            <rank type="vendor:events-home" value="3"/>
+                            <rank type="vendor:events-away" value="13"/>
+                            <rank type="vendor:rank-previous" value="6"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:t.2743" alignment="none">
+                            <name role="nrol:full">FC Ingolstadt 04</name>
+                            <name part="nprt:common">FC Ingolstadt 04</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="14" wins="4" losses="2" ties="2"
+                                points-scored-for="6" points-scored-against="6"
+                                points-difference="0"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="4" wins="1" losses="2" ties="1"
+                                points-scored-for="2" points-scored-against="5"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="10" wins="3" losses="0" ties="1"
+                                points-scored-for="4" points-scored-against="1"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Europa_Cup"/>
+                            <rank type="vendor:events-all" value="5"/>
+                            <rank type="vendor:events-home" value="13"/>
+                            <rank type="vendor:events-away" value="1"/>
+                            <rank type="vendor:rank-previous" value="8"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.1445" alignment="none">
+                            <name role="nrol:full">1. FSV Mainz 05</name>
+                            <name part="nprt:common">1. FSV Mainz 05</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="12" wins="4" losses="4" ties="0"
+                                points-scored-for="12" points-scored-against="11"
+                                points-difference="1"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="6" wins="2" losses="2" ties="0"
+                                points-scored-for="6" points-scored-against="5"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="6" wins="2" losses="2" ties="0"
+                                points-scored-for="6" points-scored-against="6"/>
+                            <outcome-result type="spresulteffect:promotion" comment="Europa_Cup"/>
+                            <rank type="vendor:events-all" value="6"/>
+                            <rank type="vendor:events-home" value="7"/>
+                            <rank type="vendor:events-away" value="5"/>
+                            <rank type="vendor:rank-previous" value="12"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.700" alignment="none">
+                            <name role="nrol:full">VfL Wolfsburg</name>
+                            <name part="nprt:common">VfL Wolfsburg</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="12" wins="3" losses="2" ties="3"
+                                points-scored-for="10" points-scored-against="10"
+                                points-difference="0"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="10" wins="3" losses="0" ties="1"
+                                points-scored-for="8" points-scored-against="2"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="2" wins="0" losses="2" ties="2"
+                                points-scored-for="2" points-scored-against="8"/>
+                            <rank type="vendor:events-all" value="7"/>
+                            <rank type="vendor:events-home" value="3"/>
+                            <rank type="vendor:events-away" value="17"/>
+                            <rank type="vendor:rank-previous" value="4"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.353" alignment="none">
+                            <name role="nrol:full">Bayer 04 Leverkusen</name>
+                            <name part="nprt:common">Bayer 04 Leverkusen</name>
+                        </team-metadata>
+                        <team-stats events-played="7">
+                            <outcome-totals alignment-scope="events-all" events-played="7"
+                                standing-points="12" wins="4" losses="3" ties="0"
+                                points-scored-for="7" points-scored-against="8"
+                                points-difference="-1"/>
+                            <outcome-totals alignment-scope="events-home" events-played="3"
+                                standing-points="6" wins="2" losses="1" ties="0"
+                                points-scored-for="3" points-scored-against="2"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="6" wins="2" losses="2" ties="0"
+                                points-scored-for="4" points-scored-against="6"/>
+                            <rank type="vendor:events-all" value="8"/>
+                            <rank type="vendor:events-home" value="8"/>
+                            <rank type="vendor:events-away" value="6"/>
+                            <rank type="vendor:rank-previous" value="5"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.1457" alignment="none">
+                            <name role="nrol:full">1. FC Köln</name>
+                            <name part="nprt:common">1. FC Köln</name>
+                        </team-metadata>
+                        <team-stats events-played="7">
+                            <outcome-totals alignment-scope="events-all" events-played="7"
+                                standing-points="11" wins="3" losses="2" ties="2"
+                                points-scored-for="10" points-scored-against="12"
+                                points-difference="-2"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="8" wins="2" losses="0" ties="2"
+                                points-scored-for="5" points-scored-against="3"/>
+                            <outcome-totals alignment-scope="events-away" events-played="3"
+                                standing-points="3" wins="1" losses="2" ties="0"
+                                points-scored-for="5" points-scored-against="9"/>
+                            <rank type="vendor:events-all" value="9"/>
+                            <rank type="vendor:events-home" value="5"/>
+                            <rank type="vendor:events-away" value="14"/>
+                            <rank type="vendor:rank-previous" value="7"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:t.1756" alignment="none">
+                            <name role="nrol:full">SV Darmstadt 98</name>
+                            <name part="nprt:common">SV Darmstadt 98</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="10" wins="2" losses="2" ties="4"
+                                points-scored-for="10" points-scored-against="12"
+                                points-difference="-2"/>
+                            <outcome-totals alignment-scope="events-home" events-played="5"
+                                standing-points="5" wins="1" losses="2" ties="2"
+                                points-scored-for="6" points-scored-against="9"/>
+                            <outcome-totals alignment-scope="events-away" events-played="3"
+                                standing-points="5" wins="1" losses="0" ties="2"
+                                points-scored-for="4" points-scored-against="3"/>
+                            <rank type="vendor:events-all" value="10"/>
+                            <rank type="vendor:events-home" value="11"/>
+                            <rank type="vendor:events-away" value="8"/>
+                            <rank type="vendor:rank-previous" value="9"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.326" alignment="none">
+                            <name role="nrol:full">Hamburger SV</name>
+                            <name part="nprt:common">Hamburger SV</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="10" wins="3" losses="4" ties="1"
+                                points-scored-for="8" points-scored-against="13"
+                                points-difference="-5"/>
+                            <outcome-totals alignment-scope="events-home" events-played="3"
+                                standing-points="4" wins="1" losses="1" ties="1"
+                                points-scored-for="3" points-scored-against="3"/>
+                            <outcome-totals alignment-scope="events-away" events-played="5"
+                                standing-points="6" wins="2" losses="3" ties="0"
+                                points-scored-for="5" points-scored-against="10"/>
+                            <rank type="vendor:events-all" value="11"/>
+                            <rank type="vendor:events-home" value="12"/>
+                            <rank type="vendor:events-away" value="7"/>
+                            <rank type="vendor:rank-previous" value="10"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.926" alignment="none">
+                            <name role="nrol:full">Eintracht Frankfurt</name>
+                            <name part="nprt:common">Eintracht Frankfurt</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="9" wins="2" losses="3" ties="3"
+                                points-scored-for="13" points-scored-against="11"
+                                points-difference="2"/>
+                            <outcome-totals alignment-scope="events-home" events-played="3"
+                                standing-points="5" wins="1" losses="0" ties="2"
+                                points-scored-for="8" points-scored-against="4"/>
+                            <outcome-totals alignment-scope="events-away" events-played="5"
+                                standing-points="4" wins="1" losses="3" ties="1"
+                                points-scored-for="5" points-scored-against="7"/>
+                            <rank type="vendor:events-all" value="12"/>
+                            <rank type="vendor:events-home" value="10"/>
+                            <rank type="vendor:events-away" value="12"/>
+                            <rank type="vendor:rank-previous" value="11"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.310" alignment="none">
+                            <name role="nrol:full">Borussia Mönchengladbach</name>
+                            <name part="nprt:common">Borussia Mönchengladbach</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="9" wins="3" losses="5" ties="0"
+                                points-scored-for="11" points-scored-against="15"
+                                points-difference="-4"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="6" wins="2" losses="2" ties="0"
+                                points-scored-for="7" points-scored-against="7"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="3" wins="1" losses="3" ties="0"
+                                points-scored-for="4" points-scored-against="8"/>
+                            <rank type="vendor:events-all" value="13"/>
+                            <rank type="vendor:events-home" value="9"/>
+                            <rank type="vendor:events-away" value="15"/>
+                            <rank type="vendor:rank-previous" value="14"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.293" alignment="none">
+                            <name role="nrol:full">SV Werder Bremen</name>
+                            <name part="nprt:common">SV Werder Bremen</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="7" wins="2" losses="5" ties="1"
+                                points-scored-for="7" points-scored-against="13"
+                                points-difference="-6"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="3" wins="1" losses="3" ties="0"
+                                points-scored-for="2" points-scored-against="8"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="4" wins="1" losses="2" ties="1"
+                                points-scored-for="5" points-scored-against="5"/>
+                            <rank type="vendor:events-all" value="14"/>
+                            <rank type="vendor:events-home" value="16"/>
+                            <rank type="vendor:events-away" value="10"/>
+                            <rank type="vendor:rank-previous" value="13"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.2074" alignment="none">
+                            <name role="nrol:full">TSG 1899 Hoffenheim</name>
+                            <name part="nprt:common">TSG 1899 Hoffenheim</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="6" wins="1" losses="4" ties="3"
+                                points-scored-for="10" points-scored-against="14"
+                                points-difference="-4"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="2" wins="0" losses="2" ties="2"
+                                points-scored-for="5" points-scored-against="8"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="4" wins="1" losses="2" ties="1"
+                                points-scored-for="5" points-scored-against="6"/>
+                            <rank type="vendor:events-all" value="15"/>
+                            <rank type="vendor:events-home" value="17"/>
+                            <rank type="vendor:events-away" value="11"/>
+                            <rank type="vendor:rank-previous" value="15"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.1452" alignment="none">
+                            <name role="nrol:full">Hannover 96</name>
+                            <name part="nprt:common">Hannover 96</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="5" wins="1" losses="5" ties="2"
+                                points-scored-for="7" points-scored-against="16"
+                                points-difference="-9"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="3" wins="1" losses="3" ties="0"
+                                points-scored-for="4" points-scored-against="8"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="2" wins="0" losses="2" ties="2"
+                                points-scored-for="3" points-scored-against="8"/>
+                            <outcome-result type="spresulteffect:demotion" comment="Relegation"/>
+                            <rank type="vendor:events-all" value="16"/>
+                            <rank type="vendor:events-home" value="15"/>
+                            <rank type="vendor:events-away" value="16"/>
+                            <rank type="vendor:rank-previous" value="18"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.1000" alignment="none">
+                            <name role="nrol:full">FC Augsburg</name>
+                            <name part="nprt:common">FC Augsburg</name>
+                        </team-metadata>
+                        <team-stats events-played="7">
+                            <outcome-totals alignment-scope="events-all" events-played="7"
+                                standing-points="4" wins="1" losses="5" ties="1"
+                                points-scored-for="7" points-scored-against="12"
+                                points-difference="-5"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="3" wins="1" losses="3" ties="0"
+                                points-scored-for="3" points-scored-against="5"/>
+                            <outcome-totals alignment-scope="events-away" events-played="3"
+                                standing-points="1" wins="0" losses="2" ties="1"
+                                points-scored-for="4" points-scored-against="7"/>
+                            <outcome-result type="spresulteffect:demotion" comment="Relegation"/>
+                            <rank type="vendor:events-all" value="17"/>
+                            <rank type="vendor:events-home" value="14"/>
+                            <rank type="vendor:events-away" value="18"/>
+                            <rank type="vendor:rank-previous" value="16"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="optateam:o.dfb.de-t.352" alignment="none">
+                            <name role="nrol:full">VfB Stuttgart</name>
+                            <name part="nprt:common">VfB Stuttgart</name>
+                        </team-metadata>
+                        <team-stats events-played="8">
+                            <outcome-totals alignment-scope="events-all" events-played="8"
+                                standing-points="4" wins="1" losses="6" ties="1"
+                                points-scored-for="11" points-scored-against="19"
+                                points-difference="-8"/>
+                            <outcome-totals alignment-scope="events-home" events-played="4"
+                                standing-points="0" wins="0" losses="4" ties="0"
+                                points-scored-for="3" points-scored-against="11"/>
+                            <outcome-totals alignment-scope="events-away" events-played="4"
+                                standing-points="4" wins="1" losses="2" ties="1"
+                                points-scored-for="8" points-scored-against="8"/>
+                            <outcome-result type="spresulteffect:demotion" comment="Relegation"/>
+                            <rank type="vendor:events-all" value="18"/>
+                            <rank type="vendor:events-home" value="18"/>
+                            <rank type="vendor:events-away" value="9"/>
+                            <rank type="vendor:rank-previous" value="17"/>
+                        </team-stats>
+                    </team>
+                </standing>
+            </sports-content>
+        </inlineXML>
+    </contentSet>
+</newsItem>

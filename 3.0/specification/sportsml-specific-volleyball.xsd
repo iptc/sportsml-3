@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!--
+IPTC - International Press Telecommunications Council
+20 Garrick Street, London WC2E 9BT, United Kingdom
+www.iptc.org
+
+See sportsml.xsd to view Non-Exclusive License Agreement for 
+International Press Telecommunications Council, which
+applies to this specification.
+-->
+
+<!-- ========================================================================================= -->
+<!--        SportsML Volleyball plugin               -->	
+<!-- ========================================================================================= -->	
+
+<xs:schema 
+	xmlns="http://iptc.org/std/nar/2006-10-01/" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	version="3.0">
+
+	<!-- ========================================================================================= -->
+	<!--        Volleyball Stats complex types               -->	
+	<!-- ========================================================================================= -->	
+	
+	<xs:complexType name="volleyballTeamStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Volleyball specific stats for one team. | Team-stats that are specific to volleyball and does not apply to all sports.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="stats-volleyball-attacks" type="volleyballStatsAttacksComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-blocks" type="volleyballStatsBlocksComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-service" type="volleyballStatsServiceComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-defense" type="volleyballStatsDefenseComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-setting" type="volleyballStatsSettingComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-receiving" type="volleyballStatsReceivingComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="errors-oppenent" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="faults-opponent" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="points" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="point-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="volleyballStatsAttacksComplexType">
+			<xs:annotation>
+				<xs:documentation>Attack stats specific to volleyball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="attacks-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="attacks-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="attack-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="attack-faults" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="attacks-in-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="attacks-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+		<xs:complexType name="volleyballStatsBlocksComplexType">
+			<xs:annotation>
+				<xs:documentation>Blocking stats specific to volleyball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="blocks-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="blocks-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="block-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="block-faults" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="blocks-in-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="blocks-average-per-set" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+		<xs:complexType name="volleyballStatsServiceComplexType">
+			<xs:annotation>
+				<xs:documentation>Service stats specific to volleyball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="service-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="aces" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="services-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="service-faults" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="services-in-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="aces-average-per-set" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+		<xs:complexType name="volleyballStatsDefenseComplexType">
+			<xs:annotation>
+				<xs:documentation>Defensive stats (or digs) specific to volleyball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="defense-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="digs-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="dig-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="digs-faults" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="digs-in-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="digs-average-per-set" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+		<xs:complexType name="volleyballStatsSettingComplexType">
+			<xs:annotation>
+				<xs:documentation>Sets stats specific to volleyball</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="defense-rank-sets" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="running-sets-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sets-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sets-faults" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sets-in-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sets-average-per-set" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+		<xs:complexType name="volleyballStatsReceivingComplexType">
+			<xs:annotation>
+				<xs:documentation>Reception stats specific to volleyball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="receptions-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-excellent" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="reception-faults" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-in-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="reception-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+
+		<xs:complexType name="volleyballPlayerStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Player statistics that are specific to volleyball. | Volleyball specific statistic information about a player.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="stats-volleyball-attacks" type="volleyballStatsAttacksComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-blocks" type="volleyballStatsBlocksComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-service" type="volleyballStatsServiceComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-defense" type="volleyballStatsDefenseComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-setting" type="volleyballStatsSettingComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-volleyball-receiving" type="volleyballStatsReceivingComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="points-player" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="point-attempts-player" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="points-percentage-of-team" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation></xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+</xs:schema>

@@ -1,0 +1,999 @@
+<?xml version="1.0"?>
+<sports-content xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    >
+    <sports-metadata date-time="2015-06-06T00:59:42-04:00"
+        doc-id="xt.prog.20150606005942-43710-16.068-event-stats-progressive" language="en-US"
+        fixture-key="tsndoc:event-stats-progressive" document-class="spct:event-summary">
+        <sports-content-codes>
+            <sports-content-code code-name="The Sports Network, Inc."
+                code-key="publisher:sportsnetwork.com" code-type="spct:publisher"/>
+            <sports-content-code code-name="XML Team Solutions, Inc."
+                code-key="distributor:xmlteam.com" code-type="spct:distributor"/>
+            <sports-content-code code-type="spct:sport" code-key="sport:15007000"
+                code-name="Baseball"/>
+            <sports-content-code code-type="spct:league" code-key="league:l.mlb.com"
+                code-name="Major League Baseball"/>
+            <sports-content-code code-type="spct:season" code-key="season:2015"/>
+            <sports-content-code code-type="spct:season-type" code-key="season-type:regular"/>
+            <sports-content-code code-type="spct:conference" code-key="conference:c.national"
+                code-name="National"/>
+            <sports-content-code code-type="spct:team" code-key="team:l.mlb.com-t.27"
+                code-name="Colorado Rockies"/>
+            <sports-content-code code-type="spct:team" code-key="team:l.mlb.com-t.16"
+                code-name="Miami Marlins"/>
+        </sports-content-codes>
+    </sports-metadata>
+    <sports-event>
+        <event-metadata key="tsnevent:l.mlb.com-2015-e.43710" event-status="speventstatus:mid-event"
+            temporal-unit-value="vendor:l.mlb.com-2015-e.43710"
+            start-date-time="2015-06-05T20:40:00-04:00">
+            <event-metadata-baseball inning-value="8" inning-half="bottom" outs="1" strikes="2"
+                balls="2" runner-on-first="false" runner-on-second="true"
+                runner-on-second-idref="l.mlb.com-p.18606" runner-on-third="false"
+                runs-this-inning-half="0"/>
+        </event-metadata>
+        <team id="l.mlb.com-t.16">
+            <team-metadata key="tsnteam:l.mlb.com-t.16" alignment="away">
+                <name role="nrol:full">Miami Marlins</name>
+                <name part="nprt:common">Miami</name>
+                <name part="nprt:nickname">Marlins</name>
+            </team-metadata>
+            <team-stats event-outcome="speventoutcome:undecided" score="6" score-opposing="1">
+                <sub-score period-value="1" score="0"/>
+                <sub-score period-value="2" score="2"/>
+                <sub-score period-value="3" score="1"/>
+                <sub-score period-value="4" score="0"/>
+                <sub-score period-value="5" score="1"/>
+                <sub-score period-value="6" score="2"/>
+                <sub-score period-value="7" score="0"/>
+                <sub-score period-value="8" score="0"/>
+                <team-stats-baseball>
+                    <stats-baseball-offensive runs-scored="6" hits="12"/>
+                    <stats-baseball-defensive errors="1"/>
+                </team-stats-baseball>
+            </team-stats>
+            <player id="l.mlb.com-p.20339">
+                <player-metadata key="tsnperson:l.mlb.com-p.20339" position-event="spbblposition:4"
+                    lineup-slot="1" lineup-slot-sequence="1">
+                    <name role="nrol:full">Dee Gordon</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="5" hits="1" rbi="1"
+                            singles="0" doubles="1" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="1"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="2" outs-fly="1"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".364" on-base-percentage=".391"
+                            slugging-percentage=".431"/>
+                        <stats-baseball-defensive putouts="0" assists="8" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="2" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.15229">
+                <player-metadata key="tsnperson:l.mlb.com-p.15229" position-event="spbblposition:5"
+                    lineup-slot="2" lineup-slot-sequence="1">
+                    <name role="nrol:full">Martin Prado</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="4" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="2" outs-fly="1"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".286" on-base-percentage=".322"
+                            slugging-percentage=".368"/>
+                        <stats-baseball-defensive putouts="0" assists="0" errors="1"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.19947">
+                <player-metadata key="tsnperson:l.mlb.com-p.19947" position-event="spbblposition:9"
+                    lineup-slot="3" lineup-slot-sequence="1">
+                    <name role="nrol:full">Giancarlo Stanton</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="4" hits="2" rbi="1"
+                            singles="1" doubles="0" triples="0" home-runs="1" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="2"
+                            strikeouts-looking="1" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".236" on-base-percentage=".328"
+                            slugging-percentage=".547"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21070">
+                <player-metadata key="tsnperson:l.mlb.com-p.21070" position-event="spbblposition:3"
+                    lineup-slot="4" lineup-slot-sequence="1">
+                    <name role="nrol:full">Justin Bour</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="1"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="1" outs-fly="1"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".333" on-base-percentage=".383"
+                            slugging-percentage=".573"/>
+                        <stats-baseball-defensive putouts="10" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="2" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21163">
+                <player-metadata key="tsnperson:l.mlb.com-p.21163" position-event="spbblposition:8"
+                    lineup-slot="5" lineup-slot-sequence="1">
+                    <name role="nrol:full">Marcell Ozuna</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="4" hits="1" rbi="1"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="2" outs-ground="0" outs-fly="1"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".278" on-base-percentage=".335"
+                            slugging-percentage=".379"/>
+                        <stats-baseball-defensive putouts="2" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.22022">
+                <player-metadata key="tsnperson:l.mlb.com-p.22022" position-event="spbblposition:7"
+                    lineup-slot="6" lineup-slot-sequence="1">
+                    <name role="nrol:full">Christian Yelich</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="4" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="1"
+                            triple-plays-against="0" grounded-into-double-play="1"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="3" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".221" on-base-percentage=".284"
+                            slugging-percentage=".287"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.22034">
+                <player-metadata key="tsnperson:l.mlb.com-p.22034" position-event="spbblposition:2"
+                    lineup-slot="7" lineup-slot-sequence="1">
+                    <name role="nrol:full">J.T. Realmuto</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="4" hits="4" rbi="1"
+                            singles="3" doubles="0" triples="1" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".230" on-base-percentage=".256"
+                            slugging-percentage=".368"/>
+                        <stats-baseball-defensive putouts="6" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="1" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21182">
+                <player-metadata key="tsnperson:l.mlb.com-p.21182" position-event="spbblposition:6"
+                    lineup-slot="8" lineup-slot-sequence="1">
+                    <name role="nrol:full">Adeiny Hechavarria</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="3" hits="1" rbi="1"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="1"
+                            bases-on-balls-intentional="0" strikeouts-against="1"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".305" on-base-percentage=".337"
+                            slugging-percentage=".405"/>
+                        <stats-baseball-defensive putouts="4" assists="1" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="2" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21298">
+                <player-metadata key="tsnperson:l.mlb.com-p.21298" position-event="spbblposition:1"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="1">
+                    <name role="nrol:full">Tom Koehler</name>
+                    <sports-property formal-name="pitching-order" value="1"/>
+                    <player-metadata-baseball batting-hand="right" throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="1" hits="0" rbi="1"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="1" outs-fly="0"
+                            sac-flies="0" sacrifices="2" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".053" on-base-percentage=".053"
+                            slugging-percentage=".053"/>
+                        <stats-baseball-pitching innings-pitched="7.0" runs-allowed="1"
+                            hits-allowed="8" earned-runs="1" batters-doubles-against="0"
+                            batters-triples-against="0" home-runs-allowed="0"
+                            bases-on-balls-allowed="1" bases-on-balls-intentional-pitcher="0"
+                            strikeouts="6" errors-hit-with-pitch="0" errors-wild-pitch="0" balks="0"
+                            sacrifice-flies-allowed="0" sacrifice-hits-allowed="0"
+                            batters-total-against="28" batters-at-bats-against="27"
+                            number-of-strikes="70" number-of-pitches="105" era="3.72" whip="34.81"
+                            wins="0" losses="0" saves="0"/>
+                        <stats-baseball-defensive putouts="0" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="1" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.5603">
+                <player-metadata key="tsnperson:l.mlb.com-p.5603" position-event="spbblposition:ph"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="2">
+                    <name role="nrol:full">Ichiro Suzuki</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="1" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="1" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".283" on-base-percentage=".336"
+                            slugging-percentage=".325"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.23884">
+                <player-metadata key="tsnperson:l.mlb.com-p.23884" position-event="spbblposition:1"
+                    lineup-slot="9" lineup-slot-sequence="3">
+                    <name role="nrol:full">Vin Mazzaro</name>
+                    <sports-property formal-name="pitching-order" value="2"/>
+                    <player-metadata-baseball batting-hand="right" throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="0" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".000" on-base-percentage=".000"
+                            slugging-percentage=".000"/>
+                        <stats-baseball-pitching innings-pitched="0.1" runs-allowed="0"
+                            hits-allowed="1" earned-runs="0" batters-doubles-against="0"
+                            batters-triples-against="0" home-runs-allowed="0"
+                            bases-on-balls-allowed="0" bases-on-balls-intentional-pitcher="0"
+                            strikeouts="0" errors-hit-with-pitch="0" errors-wild-pitch="0" balks="0"
+                            sacrifice-flies-allowed="0" sacrifice-hits-allowed="0"
+                            batters-total-against="2" batters-at-bats-against="2"
+                            number-of-strikes="5" number-of-pitches="8" era="1.50" whip="2.67"
+                            wins="0" losses="0" saves="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.6523">
+                <player-metadata key="tsnperson:l.mlb.com-p.6523" position-event="spbblposition:4">
+                    <name role="nrol:full">Jeff Baker</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.6928">
+                <player-metadata key="tsnperson:l.mlb.com-p.6928" position-event="spbblposition:2">
+                    <name role="nrol:full">Jeff Mathis</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.24606">
+                <player-metadata key="tsnperson:l.mlb.com-p.24606" position-event="spbblposition:pr">
+                    <name role="nrol:full">Anthony Gomez</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.19762">
+                <player-metadata key="tsnperson:l.mlb.com-p.19762" position-event="spbblposition:6">
+                    <name role="nrol:full">Donovan Solano</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.22339">
+                <player-metadata key="tsnperson:l.mlb.com-p.22339" position-event="spbblposition:1">
+                    <name role="nrol:full">Sam Dyson</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.19917">
+                <player-metadata key="tsnperson:l.mlb.com-p.19917" position-event="spbblposition:1">
+                    <name role="nrol:full">Mike Dunn</name>
+                    <player-metadata-baseball throwing-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21175">
+                <player-metadata key="tsnperson:l.mlb.com-p.21175" position-event="spbblposition:1">
+                    <name role="nrol:full">A.J. Ramos</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.22340">
+                <player-metadata key="tsnperson:l.mlb.com-p.22340" position-event="spbblposition:1">
+                    <name role="nrol:full">Carter Capps</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21332">
+                <player-metadata key="tsnperson:l.mlb.com-p.21332" position-event="spbblposition:1">
+                    <name role="nrol:full">David Phelps</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20631">
+                <player-metadata key="tsnperson:l.mlb.com-p.20631" position-event="spbblposition:1">
+                    <name role="nrol:full">Bryan Morris</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21296">
+                <player-metadata key="tsnperson:l.mlb.com-p.21296" position-event="spbblposition:1">
+                    <name role="nrol:full">Brad Hand</name>
+                    <player-metadata-baseball throwing-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21730">
+                <player-metadata key="tsnperson:l.mlb.com-p.21730" position-event="spbblposition:1">
+                    <name role="nrol:full">Andre Rienzo</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.23524">
+                <player-metadata key="tsnperson:l.mlb.com-p.23524" position-event="spbblposition:1">
+                    <name role="nrol:full">Kendry Flores</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.23516">
+                <player-metadata key="tsnperson:l.mlb.com-p.23516" position-event="spbblposition:1">
+                    <name role="nrol:full">Jose Urena</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.7505">
+                <player-metadata key="tsnperson:l.mlb.com-p.7505" position-event="spbblposition:1">
+                    <name role="nrol:full">Dan Haren</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+        </team>
+        <team id="l.mlb.com-t.27">
+            <team-metadata key="tsnteam:l.mlb.com-t.27" alignment="home">
+                <name role="nrol:full">Colorado Rockies</name>
+                <name part="nprt:common">Colorado</name>
+                <name part="nprt:nickname">Rockies</name>
+            </team-metadata>
+            <team-stats event-outcome="speventoutcome:undecided" score="1" score-opposing="6">
+                <sub-score period-value="1" score="0"/>
+                <sub-score period-value="2" score="0"/>
+                <sub-score period-value="3" score="0"/>
+                <sub-score period-value="4" score="0"/>
+                <sub-score period-value="5" score="0"/>
+                <sub-score period-value="6" score="1"/>
+                <sub-score period-value="7" score="0"/>
+                <sub-score period-value="8" score="0"/>
+                <team-stats-baseball>
+                    <stats-baseball-offensive runs-scored="1" hits="9"/>
+                    <stats-baseball-defensive errors="0"/>
+                </team-stats-baseball>
+            </team-stats>
+            <player id="l.mlb.com-p.16929">
+                <player-metadata key="tsnperson:l.mlb.com-p.16929" position-event="spbblposition:8"
+                    lineup-slot="1" lineup-slot-sequence="1">
+                    <name role="nrol:full">Charlie Blackmon</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="1" at-bats="4" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="3" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="1" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".261" on-base-percentage=".338"
+                            slugging-percentage=".427"/>
+                        <stats-baseball-defensive putouts="2" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20871">
+                <player-metadata key="tsnperson:l.mlb.com-p.20871" position-event="spbblposition:4"
+                    lineup-slot="2" lineup-slot-sequence="1">
+                    <name role="nrol:full">DJ LeMahieu</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="1"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="2" outs-fly="1"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".333" on-base-percentage=".391"
+                            slugging-percentage=".428"/>
+                        <stats-baseball-defensive putouts="4" assists="4" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="1" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.18606">
+                <player-metadata key="tsnperson:l.mlb.com-p.18606" position-event="spbblposition:6"
+                    lineup-slot="3" lineup-slot-sequence="1">
+                    <name role="nrol:full">Troy Tulowitzki</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="4" hits="3" rbi="1"
+                            singles="3" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="1"
+                            triple-plays-against="0" grounded-into-double-play="1"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="1" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".303" on-base-percentage=".326"
+                            slugging-percentage=".494"/>
+                        <stats-baseball-defensive putouts="1" assists="3" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="1" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.11641">
+                <player-metadata key="tsnperson:l.mlb.com-p.11641" position-event="spbblposition:9"
+                    lineup-slot="4" lineup-slot-sequence="1">
+                    <name role="nrol:full">Carlos Gonzalez</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="2"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".229" on-base-percentage=".306"
+                            slugging-percentage=".337"/>
+                        <stats-baseball-defensive putouts="1" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21548">
+                <player-metadata key="tsnperson:l.mlb.com-p.21548" position-event="spbblposition:5"
+                    lineup-slot="5" lineup-slot-sequence="1">
+                    <name role="nrol:full">Nolan Arenado</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="1"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".281" on-base-percentage=".318"
+                            slugging-percentage=".551"/>
+                        <stats-baseball-defensive putouts="0" assists="3" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21327">
+                <player-metadata key="tsnperson:l.mlb.com-p.21327" position-event="spbblposition:3"
+                    lineup-slot="6" lineup-slot-sequence="1">
+                    <name role="nrol:full">Ben Paulsen</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="2" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".333" on-base-percentage=".390"
+                            slugging-percentage=".630"/>
+                        <stats-baseball-defensive putouts="10" assists="1" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="1" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.19052">
+                <player-metadata key="tsnperson:l.mlb.com-p.19052" position-event="spbblposition:2"
+                    lineup-slot="7" lineup-slot-sequence="1">
+                    <name role="nrol:full">Nick Hundley</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="1"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".299" on-base-percentage=".333"
+                            slugging-percentage=".469"/>
+                        <stats-baseball-defensive putouts="4" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20918">
+                <player-metadata key="tsnperson:l.mlb.com-p.20918" position-event="spbblposition:7"
+                    lineup-slot="8" lineup-slot-sequence="1">
+                    <name role="nrol:full">Brandon Barnes</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="3" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="1"
+                            triple-plays-against="0" grounded-into-double-play="1"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="1" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".347" on-base-percentage=".385"
+                            slugging-percentage=".449"/>
+                        <stats-baseball-defensive putouts="2" assists="0" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.23596">
+                <player-metadata key="tsnperson:l.mlb.com-p.23596" position-event="spbblposition:1"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="1">
+                    <name role="nrol:full">Eddie Butler</name>
+                    <sports-property formal-name="pitching-order" value="1"/>
+                    <player-metadata-baseball batting-hand="both" throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="1" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="1"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".000" on-base-percentage=".000"
+                            slugging-percentage=".000"/>
+                        <stats-baseball-pitching innings-pitched="5.1" runs-allowed="6"
+                            hits-allowed="11" earned-runs="6" batters-doubles-against="1"
+                            batters-triples-against="1" home-runs-allowed="1"
+                            bases-on-balls-allowed="2" bases-on-balls-intentional-pitcher="0"
+                            strikeouts="3" errors-hit-with-pitch="0" errors-wild-pitch="0" balks="0"
+                            sacrifice-flies-allowed="0" sacrifice-hits-allowed="2"
+                            batters-total-against="28" batters-at-bats-against="24"
+                            number-of-strikes="54" number-of-pitches="85" era="4.80" whip="42.07"
+                            wins="0" losses="0" saves="0"/>
+                        <stats-baseball-defensive putouts="0" assists="2" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.22797">
+                <player-metadata key="tsnperson:l.mlb.com-p.22797" position-event="spbblposition:1"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="2">
+                    <name role="nrol:full">Tommy Kahnle</name>
+                    <sports-property formal-name="pitching-order" value="2"/>
+                    <player-metadata-baseball batting-hand="right" throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="0" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".000" on-base-percentage=".000"
+                            slugging-percentage=".000"/>
+                        <stats-baseball-pitching innings-pitched="0.2" runs-allowed="0"
+                            hits-allowed="0" earned-runs="0" batters-doubles-against="0"
+                            batters-triples-against="0" home-runs-allowed="0"
+                            bases-on-balls-allowed="0" bases-on-balls-intentional-pitcher="0"
+                            strikeouts="1" errors-hit-with-pitch="0" errors-wild-pitch="0" balks="0"
+                            sacrifice-flies-allowed="0" sacrifice-hits-allowed="0"
+                            batters-total-against="2" batters-at-bats-against="2"
+                            number-of-strikes="5" number-of-pitches="9" era="0.00" whip="3.43"
+                            wins="0" losses="0" saves="0"/>
+                        <stats-baseball-defensive putouts="0" assists="1" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20411">
+                <player-metadata key="tsnperson:l.mlb.com-p.20411" position-event="spbblposition:ph"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="3">
+                    <name role="nrol:full">Daniel Descalso</name>
+                    <player-metadata-baseball batting-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="1" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="1"
+                            strikeouts-looking="1" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".243" on-base-percentage=".291"
+                            slugging-percentage=".338"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.23382">
+                <player-metadata key="tsnperson:l.mlb.com-p.23382" position-event="spbblposition:1"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="4">
+                    <name role="nrol:full">Christian Bergman</name>
+                    <sports-property formal-name="pitching-order" value="3"/>
+                    <player-metadata-baseball batting-hand="right" throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="0" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".000" on-base-percentage=".000"
+                            slugging-percentage=".000"/>
+                        <stats-baseball-pitching innings-pitched="1.0" runs-allowed="0"
+                            hits-allowed="0" earned-runs="0" batters-doubles-against="0"
+                            batters-triples-against="0" home-runs-allowed="0"
+                            bases-on-balls-allowed="0" bases-on-balls-intentional-pitcher="0"
+                            strikeouts="0" errors-hit-with-pitch="0" errors-wild-pitch="0" balks="0"
+                            sacrifice-flies-allowed="0" sacrifice-hits-allowed="0"
+                            batters-total-against="3" batters-at-bats-against="3"
+                            number-of-strikes="6" number-of-pitches="11" era="4.45" whip="8.19"
+                            wins="0" losses="0" saves="0"/>
+                        <stats-baseball-defensive putouts="0" assists="1" errors="0"
+                            errors-passed-ball="0" errors-catchers-interference="0"
+                            stolen-bases-average-defense="0" stolen-bases-caught-defense="0"
+                            double-plays="0" triple-plays="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20027">
+                <player-metadata key="tsnperson:l.mlb.com-p.20027" position-event="spbblposition:ph"
+                    status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="5">
+                    <name role="nrol:full">Wilin Rosario</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="1" hits="1" rbi="0"
+                            singles="1" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".294" on-base-percentage=".310"
+                            slugging-percentage=".447"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.19442">
+                <player-metadata key="tsnperson:l.mlb.com-p.19442" position-event="spbblposition:1"
+                    lineup-slot="9" lineup-slot-sequence="6">
+                    <name role="nrol:full">Brooks Brown</name>
+                    <sports-property formal-name="pitching-order" value="4"/>
+                    <player-metadata-baseball batting-hand="left" throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball>
+                        <stats-baseball-offensive runs-scored="0" at-bats="0" hits="0" rbi="0"
+                            singles="0" doubles="0" triples="0" home-runs="0" bases-on-balls="0"
+                            bases-on-balls-intentional="0" strikeouts-against="0"
+                            strikeouts-looking="0" hit-by-pitch="0" double-plays-against="0"
+                            triple-plays-against="0" grounded-into-double-play="0"
+                            reached-base-defensive-interference="0" reached-base-error="0"
+                            reached-base-fielder-choice="0" outs-ground="0" outs-fly="0"
+                            sac-flies="0" sacrifices="0" stolen-bases="0" stolen-bases-caught="0"
+                            pick-offs-against="0" average=".000" on-base-percentage=".000"
+                            slugging-percentage=".000"/>
+                        <stats-baseball-pitching innings-pitched="1.0" runs-allowed="0"
+                            hits-allowed="1" earned-runs="0" batters-doubles-against="0"
+                            batters-triples-against="0" home-runs-allowed="0"
+                            bases-on-balls-allowed="0" bases-on-balls-intentional-pitcher="0"
+                            strikeouts="0" errors-hit-with-pitch="0" errors-wild-pitch="0" balks="0"
+                            sacrifice-flies-allowed="0" sacrifice-hits-allowed="0"
+                            batters-total-against="4" batters-at-bats-against="4"
+                            number-of-strikes="9" number-of-pitches="16" era="4.12" whip="10.81"
+                            wins="0" losses="0" saves="0"/>
+                    </player-stats-baseball>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21015">
+                <player-metadata key="tsnperson:l.mlb.com-p.21015" position-event="spbblposition:4">
+                    <name role="nrol:full">Rafael Ynoa</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.19418">
+                <player-metadata key="tsnperson:l.mlb.com-p.19418" position-event="spbblposition:2">
+                    <name role="nrol:full">Michael McKenry</name>
+                    <player-metadata-baseball batting-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.7412">
+                <player-metadata key="tsnperson:l.mlb.com-p.7412" position-event="spbblposition:1">
+                    <name role="nrol:full">Rafael Betancourt</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.23597">
+                <player-metadata key="tsnperson:l.mlb.com-p.23597" position-event="spbblposition:1">
+                    <name role="nrol:full">Scott Oberg</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21821">
+                <player-metadata key="tsnperson:l.mlb.com-p.21821" position-event="spbblposition:1">
+                    <name role="nrol:full">Chad Bettis</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.12845">
+                <player-metadata key="tsnperson:l.mlb.com-p.12845" position-event="spbblposition:1">
+                    <name role="nrol:full">Boone Logan</name>
+                    <player-metadata-baseball throwing-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20598">
+                <player-metadata key="tsnperson:l.mlb.com-p.20598" position-event="spbblposition:1">
+                    <name role="nrol:full">John Axford</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.5990">
+                <player-metadata key="tsnperson:l.mlb.com-p.5990" position-event="spbblposition:1">
+                    <name role="nrol:full">Jorge De La Rosa</name>
+                    <player-metadata-baseball throwing-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.21816">
+                <player-metadata key="tsnperson:l.mlb.com-p.21816" position-event="spbblposition:1">
+                    <name role="nrol:full">Chris Rusin</name>
+                    <player-metadata-baseball throwing-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.20736">
+                <player-metadata key="tsnperson:l.mlb.com-p.20736" position-event="spbblposition:1">
+                    <name role="nrol:full">Christian Friedrich</name>
+                    <player-metadata-baseball throwing-hand="left"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+            <player id="l.mlb.com-p.11969">
+                <player-metadata key="tsnperson:l.mlb.com-p.11969" position-event="spbblposition:1">
+                    <name role="nrol:full">Kyle Kendrick</name>
+                    <player-metadata-baseball throwing-hand="right"/>
+                </player-metadata>
+                <player-stats>
+                    <player-stats-baseball/>
+                </player-stats>
+            </player>
+        </team>
+        <actions>
+            <action class="spactionclass:play" id="play.68" sequence-number="68"
+                type="spbblaction:double" play-scorekeepers-notation="5"
+                hit-type="spbblhit:single"
+                comment="Troy Tulowitzki singled to third and advanced to second on Martin Prado's throwing error. Runner on second with one out and Carlos Gonzalez due up."
+                inning-value="8" inning-half="bottom" outs="1" batter-advance="2"
+                runner-on-first="false" runner-on-second="false" runner-on-third="false"
+                runs-this-inning-half="0" batter-side="right">
+                <action class="spactionclass:play" type="spbblaction:pitch" sequence-number="1"
+                    umpire-call="strike" strike-type="swinging" strikes="1" balls="0"/>
+                <action class="spactionclass:play" type="spbblaction:pitch" sequence-number="2"
+                    umpire-call="ball" strikes="1" balls="1"/>
+                <action class="spactionclass:play" type="spbblaction:pitch" sequence-number="3"
+                    umpire-call="strike" strike-type="called" strikes="2" balls="1"/>
+                <action class="spactionclass:play" type="spbblaction:pitch" sequence-number="4"
+                    umpire-call="ball" strikes="2" balls="2"/>
+                <action class="spactionclass:play" type="spbblaction:pitch" sequence-number="5"
+                    strikes="3" balls="2"/>
+                <participant idref="l.mlb.com-p.23884" team-idref="l.mlb.com-t.16"
+                    role="spbblrole:pitcher"/>
+                <participant idref="l.mlb.com-p.18606" team-idref="l.mlb.com-t.27"
+                    role="spbblrole:batter"/>
+                <participant idref="l.mlb.com-p.15229" team-idref="l.mlb.com-t.16"
+                    role="spbblrole:fielder"/>
+                <participant idref="l.mlb.com-p.11641" team-idref="l.mlb.com-t.27"
+                    role="spbblrole:next-batter"/>
+            </action>
+        </actions>
+    </sports-event>
+</sports-content>

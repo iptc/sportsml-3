@@ -1,0 +1,1827 @@
+<?xml version="1.0"?>
+<newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    standard="NewsML-G2"
+    standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
+    guid="xt.sdi.20151012022705-standings_NHL">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+    <itemMeta>
+        <itemClass qcode="ninat:text"/>
+        <provider qcode="web:xmlteam.com">
+            <name>XML Team Solutions, Inc.</name>
+        </provider>
+        <versionCreated>2015-10-12T02:27:05-04:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
+        <fileName>xt.sdi.20151012022705-standings_NHL</fileName>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2015-10-12T02:27:05-04:00</contentCreated>
+        <located qcode="city:Toronto">
+            <broader qcode="reg:Ontario"/>
+            <broader qcode="cntry:CA"/>
+        </located>
+        <creator qcode="web:sportsdirectinc.com">
+            <name>Sports Direct, Inc.</name>
+        </creator>
+        <genre qcode="spfixt:standings">
+            <name xml:lang="en-US">Standings</name>
+            <broader qcode="spct:standings"/>
+        </genre>
+        <genre qcode="spct:standings"/>
+        <language tag="en-US"/>
+        <subject type="spct:season" literal="2015"/>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15031000">
+            <name xml:lang="en-US">Ice Hockey</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <subject qcode="league:l.nhl.com" type="spct:league">
+            <name xml:lang="en-US">National Hockey League</name>
+            <broader qcode="subj:15031000"/>
+            <sameAs qcode="subj:15031001"/>
+        </subject>
+        <headline>NHL Standings: standings NHL</headline>
+    </contentMeta>
+    <contentSet>
+        <inlineXML contenttype="application/sportsml+xml">
+            <sports-content>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-exhibition" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.pacific" code-name="Pacific"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.western" code-name="Western Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.24">
+                            <name role="nrol:full">San Jose Sharks</name>
+                            <name part="nprt:common">San Jose</name>
+                            <name part="nprt:nickname">Sharks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="4" losses="2" losses-overtime="1" points-scored-for="15"
+                                points-scored-against="10"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.28">
+                            <name role="nrol:full">Calgary Flames</name>
+                            <name part="nprt:common">Calgary</name>
+                            <name part="nprt:nickname">Flames</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="4" losses="4" losses-overtime="0" points-scored-for="17"
+                                points-scored-against="17"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.25">
+                            <name role="nrol:full">Arizona Coyotes</name>
+                            <name part="nprt:common">Arizona</name>
+                            <name part="nprt:nickname">Coyotes</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="0" losses="5" losses-overtime="1" points-scored-for="4"
+                                points-scored-against="20"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.22">
+                            <name role="nrol:full">Anaheim Ducks</name>
+                            <name part="nprt:common">Anaheim</name>
+                            <name part="nprt:nickname">Ducks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="5" losses="0" losses-overtime="1" points-scored-for="18"
+                                points-scored-against="9"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.23">
+                            <name role="nrol:full">Los Angeles Kings</name>
+                            <name part="nprt:common">Los Angeles</name>
+                            <name part="nprt:nickname">Kings</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="4" losses="1" losses-overtime="1" points-scored-for="16"
+                                points-scored-against="8"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.29">
+                            <name role="nrol:full">Edmonton Oilers</name>
+                            <name part="nprt:common">Edmonton</name>
+                            <name part="nprt:nickname">Oilers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="6" losses="1" losses-overtime="1" points-scored-for="25"
+                                points-scored-against="16"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.26">
+                            <name role="nrol:full">Vancouver Canucks</name>
+                            <name part="nprt:common">Vancouver</name>
+                            <name part="nprt:nickname">Canucks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="4" losses="3" losses-overtime="1" points-scored-for="15"
+                                points-scored-against="18"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.pacific" code-name="Pacific"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.western" code-name="Western Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.24">
+                            <name role="nrol:full">San Jose Sharks</name>
+                            <name part="nprt:common">San Jose</name>
+                            <name part="nprt:nickname">Sharks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="7" points-scored-against="1"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.28">
+                            <name role="nrol:full">Calgary Flames</name>
+                            <name part="nprt:common">Calgary</name>
+                            <name part="nprt:nickname">Flames</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="2" wins="1" losses="1" losses-overtime="0"
+                                points-scored-for="4" points-scored-against="7"
+                                streak-type="spstreaktype:win" streak-total="1"/>
+                            <rank value="4"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.25">
+                            <name role="nrol:full">Arizona Coyotes</name>
+                            <name part="nprt:common">Arizona</name>
+                            <name part="nprt:nickname">Coyotes</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="6" points-scored-against="2"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="2"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.22">
+                            <name role="nrol:full">Anaheim Ducks</name>
+                            <name part="nprt:common">Anaheim</name>
+                            <name part="nprt:nickname">Ducks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="1"
+                                standing-points="0" wins="0" losses="1" losses-overtime="0"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
+                            <rank value="5"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.23">
+                            <name role="nrol:full">Los Angeles Kings</name>
+                            <name part="nprt:common">Los Angeles</name>
+                            <name part="nprt:nickname">Kings</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="2" points-scored-against="9"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="7"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.29">
+                            <name role="nrol:full">Edmonton Oilers</name>
+                            <name part="nprt:common">Edmonton</name>
+                            <name part="nprt:nickname">Oilers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="2" wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="1" points-scored-against="5"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="6"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.26">
+                            <name role="nrol:full">Vancouver Canucks</name>
+                            <name part="nprt:common">Vancouver</name>
+                            <name part="nprt:nickname">Canucks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="1" losses="0" losses-overtime="1"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="1"
+                                losses="0" losses-overtime="1"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="1" losses="0" losses-overtime="1"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="1"
+                                losses="0" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="1"
+                                losses="0" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="0" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="3" wins="1" losses="0" losses-overtime="1"
+                                points-scored-for="7" points-scored-against="4"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
+                            <rank value="3"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-exhibition" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.central" code-name="Central"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.western" code-name="Western Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.18">
+                            <name role="nrol:full">St. Louis Blues</name>
+                            <name part="nprt:common">St. Louis</name>
+                            <name part="nprt:nickname">Blues</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="4" losses="2" losses-overtime="0" points-scored-for="22"
+                                points-scored-against="11"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.21">
+                            <name role="nrol:full">Dallas Stars</name>
+                            <name part="nprt:common">Dallas</name>
+                            <name part="nprt:nickname">Stars</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="1" losses="6" losses-overtime="0" points-scored-for="13"
+                                points-scored-against="27"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.27">
+                            <name role="nrol:full">Colorado Avalanche</name>
+                            <name part="nprt:common">Colorado</name>
+                            <name part="nprt:nickname">Avalanche</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="1" losses="4" losses-overtime="0" points-scored-for="6"
+                                points-scored-against="16"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.16">
+                            <name role="nrol:full">Chicago Blackhawks</name>
+                            <name part="nprt:common">Chicago</name>
+                            <name part="nprt:nickname">Blackhawks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="4" losses="2" losses-overtime="0" points-scored-for="20"
+                                points-scored-against="15"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.19">
+                            <name role="nrol:full">Nashville Predators</name>
+                            <name part="nprt:common">Nashville</name>
+                            <name part="nprt:nickname">Predators</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="3" losses="2" losses-overtime="1" points-scored-for="18"
+                                points-scored-against="21"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.30">
+                            <name role="nrol:full">Minnesota Wild</name>
+                            <name part="nprt:common">Minnesota</name>
+                            <name part="nprt:nickname">Wild</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="4" losses="2" losses-overtime="0" points-scored-for="22"
+                                points-scored-against="10"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.9">
+                            <name role="nrol:full">Winnipeg Jets</name>
+                            <name part="nprt:common">Winnipeg</name>
+                            <name part="nprt:nickname">Jets</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="3" losses="2" losses-overtime="2" points-scored-for="16"
+                                points-scored-against="22"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.central" code-name="Central"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.western" code-name="Western Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.18">
+                            <name role="nrol:full">St. Louis Blues</name>
+                            <name part="nprt:common">St. Louis</name>
+                            <name part="nprt:nickname">Blues</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="2" wins="1" losses="1" losses-overtime="0"
+                                points-scored-for="5" points-scored-against="4"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
+                            <rank value="6"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.21">
+                            <name role="nrol:full">Dallas Stars</name>
+                            <name part="nprt:common">Dallas</name>
+                            <name part="nprt:nickname">Stars</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="2" wins="1" losses="1" losses-overtime="0"
+                                points-scored-for="6" points-scored-against="6"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
+                            <rank value="7"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.27">
+                            <name role="nrol:full">Colorado Avalanche</name>
+                            <name part="nprt:common">Colorado</name>
+                            <name part="nprt:nickname">Avalanche</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="1"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="2" wins="1" losses="1" losses-overtime="0"
+                                points-scored-for="10" points-scored-against="8"
+                                streak-type="spstreaktype:win" streak-total="1"/>
+                            <rank value="5"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.16">
+                            <name role="nrol:full">Chicago Blackhawks</name>
+                            <name part="nprt:common">Chicago</name>
+                            <name part="nprt:nickname">Blackhawks</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="3" wins="2"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="1" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="3"
+                                standing-points="4" wins="2" losses="1" losses-overtime="0"
+                                points-scored-for="9" points-scored-against="6"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="4"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.19">
+                            <name role="nrol:full">Nashville Predators</name>
+                            <name part="nprt:common">Nashville</name>
+                            <name part="nprt:nickname">Predators</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="4" points-scored-against="1"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="2"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.30">
+                            <name role="nrol:full">Minnesota Wild</name>
+                            <name part="nprt:common">Minnesota</name>
+                            <name part="nprt:nickname">Wild</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="8" points-scored-against="6"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="3"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.9">
+                            <name role="nrol:full">Winnipeg Jets</name>
+                            <name part="nprt:common">Winnipeg</name>
+                            <name part="nprt:nickname">Jets</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="2" wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="9" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="1"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-exhibition" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.metropolitan" code-name="Metropolitan"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.eastern" code-name="Eastern Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.20">
+                            <name role="nrol:full">Columbus Blue Jackets</name>
+                            <name part="nprt:common">Columbus</name>
+                            <name part="nprt:nickname">Blue Jackets</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="5" losses="2" losses-overtime="0" points-scored-for="29"
+                                points-scored-against="21"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.5">
+                            <name role="nrol:full">Pittsburgh Penguins</name>
+                            <name part="nprt:common">Pittsburgh</name>
+                            <name part="nprt:nickname">Penguins</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="3" losses="5" losses-overtime="0" points-scored-for="19"
+                                points-scored-against="28"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.6">
+                            <name role="nrol:full">Carolina Hurricanes</name>
+                            <name part="nprt:common">Carolina</name>
+                            <name part="nprt:nickname">Hurricanes</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="4" losses="2" losses-overtime="0" points-scored-for="16"
+                                points-scored-against="17"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.4">
+                            <name role="nrol:full">Philadelphia Flyers</name>
+                            <name part="nprt:common">Philadelphia</name>
+                            <name part="nprt:nickname">Flyers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="3" losses="2" losses-overtime="1" points-scored-for="23"
+                                points-scored-against="21"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.2">
+                            <name role="nrol:full">New York Islanders</name>
+                            <name part="nprt:common">New York</name>
+                            <name part="nprt:nickname">Islanders</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="2" losses="6" losses-overtime="0" points-scored-for="18"
+                                points-scored-against="31"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.3">
+                            <name role="nrol:full">New York Rangers</name>
+                            <name part="nprt:common">New York</name>
+                            <name part="nprt:nickname">Rangers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="4" losses="1" losses-overtime="0" points-scored-for="22"
+                                points-scored-against="19"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.1">
+                            <name role="nrol:full">New Jersey Devils</name>
+                            <name part="nprt:common">New Jersey</name>
+                            <name part="nprt:nickname">Devils</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="3" losses="4" losses-overtime="0" points-scored-for="18"
+                                points-scored-against="20"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.8">
+                            <name role="nrol:full">Washington Capitals</name>
+                            <name part="nprt:common">Washington</name>
+                            <name part="nprt:nickname">Capitals</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="5" losses="0" losses-overtime="1" points-scored-for="21"
+                                points-scored-against="13"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.metropolitan" code-name="Metropolitan"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.eastern" code-name="Eastern Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.20">
+                            <name role="nrol:full">Columbus Blue Jackets</name>
+                            <name part="nprt:common">Columbus</name>
+                            <name part="nprt:nickname">Blue Jackets</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="4" points-scored-against="9"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="8"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.5">
+                            <name role="nrol:full">Pittsburgh Penguins</name>
+                            <name part="nprt:common">Pittsburgh</name>
+                            <name part="nprt:nickname">Penguins</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="2" wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="1" points-scored-against="5"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="7"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.6">
+                            <name role="nrol:full">Carolina Hurricanes</name>
+                            <name part="nprt:common">Carolina</name>
+                            <name part="nprt:nickname">Hurricanes</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="4" points-scored-against="6"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="5"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.4">
+                            <name role="nrol:full">Philadelphia Flyers</name>
+                            <name part="nprt:common">Philadelphia</name>
+                            <name part="nprt:nickname">Flyers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="0" losses="1" losses-overtime="1"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="0"
+                                losses="1" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="1" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="2" wins="0" losses="1" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="1" wins="0" losses="1" losses-overtime="1"
+                                points-scored-for="3" points-scored-against="10"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="4"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.2">
+                            <name role="nrol:full">New York Islanders</name>
+                            <name part="nprt:common">New York</name>
+                            <name part="nprt:nickname">Islanders</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="1" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="0" losses-overtime="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="1" wins="0" losses="1" losses-overtime="1"
+                                points-scored-for="3" points-scored-against="7"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="3"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.3">
+                            <name role="nrol:full">New York Rangers</name>
+                            <name part="nprt:common">New York</name>
+                            <name part="nprt:nickname">Rangers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="3" wins="3"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="2" wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="3"
+                                standing-points="6" wins="3" losses="0" losses-overtime="0"
+                                points-scored-for="12" points-scored-against="6"
+                                streak-type="spstreaktype:win" streak-total="3"/>
+                            <rank value="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.1">
+                            <name role="nrol:full">New Jersey Devils</name>
+                            <name part="nprt:common">New Jersey</name>
+                            <name part="nprt:nickname">Devils</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="4" points-scored-against="8"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="6"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.8">
+                            <name role="nrol:full">Washington Capitals</name>
+                            <name part="nprt:common">Washington</name>
+                            <name part="nprt:nickname">Capitals</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="1"
+                                standing-points="2" wins="1" losses="0" losses-overtime="0"
+                                points-scored-for="5" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="1"/>
+                            <rank value="2"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-exhibition" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.atlantic" code-name="Atlantic"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.eastern" code-name="Eastern Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.7">
+                            <name role="nrol:full">Tampa Bay Lightning</name>
+                            <name part="nprt:common">Tampa Bay</name>
+                            <name part="nprt:nickname">Lightning</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="3" losses="3" losses-overtime="1" points-scored-for="19"
+                                points-scored-against="23"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.14">
+                            <name role="nrol:full">Ottawa Senators</name>
+                            <name part="nprt:common">Ottawa</name>
+                            <name part="nprt:nickname">Senators</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="3" losses="3" losses-overtime="2" points-scored-for="27"
+                                points-scored-against="28"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.12">
+                            <name role="nrol:full">Buffalo Sabres</name>
+                            <name part="nprt:common">Buffalo</name>
+                            <name part="nprt:nickname">Sabres</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="4" losses="3" losses-overtime="0" points-scored-for="26"
+                                points-scored-against="27"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.11">
+                            <name role="nrol:full">Boston Bruins</name>
+                            <name part="nprt:common">Boston</name>
+                            <name part="nprt:nickname">Bruins</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="4" losses="2" losses-overtime="0" points-scored-for="16"
+                                points-scored-against="15"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.13">
+                            <name role="nrol:full">Montreal Canadiens</name>
+                            <name part="nprt:common">Montreal</name>
+                            <name part="nprt:nickname">Canadiens</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="7"
+                                wins="2" losses="3" losses-overtime="1" points-scored-for="16"
+                                points-scored-against="22"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-exhibition" losses="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.10">
+                            <name role="nrol:full">Florida Panthers</name>
+                            <name part="nprt:common">Florida</name>
+                            <name part="nprt:nickname">Panthers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="6"
+                                wins="3" losses="3" losses-overtime="0" points-scored-for="15"
+                                points-scored-against="18"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.15">
+                            <name role="nrol:full">Toronto Maple Leafs</name>
+                            <name part="nprt:common">Toronto</name>
+                            <name part="nprt:nickname">Maple Leafs</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="3" losses="5" losses-overtime="0" points-scored-for="17"
+                                points-scored-against="22"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.17">
+                            <name role="nrol:full">Detroit Red Wings</name>
+                            <name part="nprt:common">Detroit</name>
+                            <name part="nprt:nickname">Red Wings</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-exhibition"
+                                scoping-label="pre-season-league-standings" events-played="8"
+                                wins="6" losses="0" losses-overtime="2" points-scored-for="33"
+                                points-scored-against="17"/>
+                        </team-stats>
+                    </team>
+                </standing>
+                <standing>
+                    <standing-metadata stats-coverage="spstatscoverage:expanded"
+                        team-coverage="multi-team" temporal-unit-value="vendor:2015"
+                        temporal-unit-type="spct:season-regular" competition="spct:league">
+                        <sports-content-codes>
+                            <sports-content-code code-type="spct:division"
+                                code-key="division:d.atlantic" code-name="Atlantic"/>
+                            <sports-content-code code-type="spct:conference"
+                                code-key="conference:c.eastern" code-name="Eastern Conference"/>
+                        </sports-content-codes>
+                    </standing-metadata>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.7">
+                            <name role="nrol:full">Tampa Bay Lightning</name>
+                            <name part="nprt:common">Tampa Bay</name>
+                            <name part="nprt:nickname">Lightning</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="7" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="3"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.14">
+                            <name role="nrol:full">Ottawa Senators</name>
+                            <name part="nprt:common">Ottawa</name>
+                            <name part="nprt:nickname">Senators</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="3"
+                                wins="2" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="3" wins="2"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="3"
+                                wins="2" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="3" wins="2"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="3" wins="2"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="2" wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="3"
+                                standing-points="4" wins="2" losses="1" losses-overtime="0"
+                                points-scored-for="9" points-scored-against="8"
+                                streak-type="spstreaktype:loss" streak-total="1"/>
+                            <rank value="4"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.12">
+                            <name role="nrol:full">Buffalo Sabres</name>
+                            <name part="nprt:common">Buffalo</name>
+                            <name part="nprt:nickname">Sabres</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="2" points-scored-against="7"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="7"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.11">
+                            <name role="nrol:full">Boston Bruins</name>
+                            <name part="nprt:common">Boston</name>
+                            <name part="nprt:nickname">Bruins</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="0"
+                                losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="0" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="4" points-scored-against="10"
+                                streak-type="spstreaktype:loss" streak-total="2"/>
+                            <rank value="8"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.13">
+                            <name role="nrol:full">Montreal Canadiens</name>
+                            <name part="nprt:common">Montreal</name>
+                            <name part="nprt:nickname">Canadiens</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="3"
+                                wins="3" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="3" wins="3"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="3"
+                                wins="3" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="3" wins="3"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="3" wins="3"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="3" wins="3" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="3"
+                                standing-points="6" wins="3" losses="0" losses-overtime="0"
+                                points-scored-for="10" points-scored-against="4"
+                                streak-type="spstreaktype:win" streak-total="3"/>
+                            <rank value="1"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.10">
+                            <name role="nrol:full">Florida Panthers</name>
+                            <name part="nprt:common">Florida</name>
+                            <name part="nprt:nickname">Panthers</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="0" wins="0"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="1"
+                                standing-points="2" wins="1" losses="0" losses-overtime="0"
+                                points-scored-for="7" points-scored-against="1"
+                                streak-type="spstreaktype:win" streak-total="1"/>
+                            <rank value="5"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.15">
+                            <name role="nrol:full">Toronto Maple Leafs</name>
+                            <name part="nprt:common">Toronto</name>
+                            <name part="nprt:nickname">Maple Leafs</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="3"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="sptemporalunit:recent-ten-events" losses="1"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="3" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-regular" losses="1"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="3"
+                                wins="0" losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="sptemporalunit:recent-ten-events" losses="1"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="3" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-regular" losses="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="3" wins="0"
+                                losses="2" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="sptemporalunit:recent-ten-events" losses="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="2" wins="0" losses="1" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-regular" losses="1"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="3"
+                                standing-points="1" wins="0" losses="2" losses-overtime="0"
+                                points-scored-for="5" points-scored-against="12"
+                                streak-type="spstreaktype:loss" streak-total="3"/>
+                            <outcome-totals competition="spct:league"
+                                duration-scope="spdurationscope:events-shootout"
+                                temporal-unit-type="spct:season-regular" losses="1"/>
+                            <rank value="6"/>
+                        </team-stats>
+                    </team>
+                    <team>
+                        <team-metadata key="sditeam:l.nhl.com-t.17">
+                            <name role="nrol:full">Detroit Red Wings</name>
+                            <name part="nprt:common">Detroit</name>
+                            <name part="nprt:nickname">Red Wings</name>
+                        </team-metadata>
+                        <team-stats>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-division-standings" events-played="1"
+                                wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:division"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="division-standings" events-played="1" wins="1"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-conference-standings" events-played="2"
+                                wins="2" losses="0" losses-overtime="0"/>
+                            <outcome-totals unit-type="spct:conference"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="conference-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="sptemporalunit:recent-ten-events"
+                                scoping-label="last-10-league-standings" events-played="2" wins="2"
+                                losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-away" scoping-label="away-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                alignment-scope="events-home" scoping-label="home-league-standings"
+                                events-played="1" wins="1" losses="0" losses-overtime="0"/>
+                            <outcome-totals competition="spct:league"
+                                temporal-unit-type="spct:season-regular"
+                                scoping-label="league-standings" events-played="2"
+                                standing-points="4" wins="2" losses="0" losses-overtime="0"
+                                points-scored-for="8" points-scored-against="3"
+                                streak-type="spstreaktype:win" streak-total="2"/>
+                            <rank value="2"/>
+                        </team-stats>
+                    </team>
+                </standing>
+            </sports-content>
+        </inlineXML>
+    </contentSet>
+</newsItem>
