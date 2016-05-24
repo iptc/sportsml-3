@@ -27,104 +27,121 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>The unit of performance to which the stats apply eg. single-event, season,
             career.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sptemporalunitperiod">
-            <conceptId qcode="sptemporalunit:period"/>
+            <conceptId qcode="sptemporalunit:period" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">period</name>
+            <name xml:lang="en-GB">period</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitevent">
-            <conceptId qcode="sptemporalunit:event"/>
+            <conceptId qcode="sptemporalunit:event" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">event</name>
+            <name xml:lang="en-GB">event</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunittournament">
-            <conceptId qcode="sptemporalunit:tournament"/>
+            <conceptId qcode="sptemporalunit:tournament" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tournament</name>
+            <name xml:lang="en-GB">tournament</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunittournament-pool">
-            <conceptId qcode="sptemporalunit:tournament-pool"/>
+            <conceptId qcode="sptemporalunit:tournament-pool" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tournament-pool</name>
+            <name xml:lang="en-GB">tournament-pool</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunittournament-seed">
-            <conceptId qcode="sptemporalunit:tournament-seed"/>
+            <conceptId qcode="sptemporalunit:tournament-seed" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tournament-seed</name>
+            <name xml:lang="en-GB">tournament-seed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitrecent-ten-events">
-            <conceptId qcode="sptemporalunit:recent-ten-events"/>
+            <conceptId qcode="sptemporalunit:recent-ten-events" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">recent-ten-events</name>
+            <name xml:lang="en-GB">recent-ten-events</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunithourly">
-            <conceptId qcode="sptemporalunit:hourly"/>
+            <conceptId qcode="sptemporalunit:hourly" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">hourly</name>
+            <name xml:lang="en-GB">hourly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitdaily">
-            <conceptId qcode="sptemporalunit:daily"/>
+            <conceptId qcode="sptemporalunit:daily" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">daily</name>
+            <name xml:lang="en-GB">daily</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitweekly">
-            <conceptId qcode="sptemporalunit:weekly"/>
+            <conceptId qcode="sptemporalunit:weekly" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">weekly</name>
+            <name xml:lang="en-GB">weekly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitmonthly">
-            <conceptId qcode="sptemporalunit:monthly"/>
+            <conceptId qcode="sptemporalunit:monthly" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">monthly</name>
+            <name xml:lang="en-GB">monthly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitpreseason">
-            <conceptId qcode="sptemporalunit:preseason"/>
+            <conceptId qcode="sptemporalunit:preseason" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">preseason</name>
+            <name xml:lang="en-GB">preseason</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason-exhibition">
-            <conceptId qcode="sptemporalunit:season-exhibition"/>
+            <conceptId qcode="sptemporalunit:season-exhibition" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">season-exhibition</name>
+            <name xml:lang="en-GB">season-exhibition</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason-regular">
-            <conceptId qcode="sptemporalunit:season-regular"/>
+            <conceptId qcode="sptemporalunit:season-regular" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">season-regular</name>
+            <name xml:lang="en-GB">season-regular</name>
             <definition>The default value.</definition>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason-playoffs">
-            <conceptId qcode="sptemporalunit:season-playoffs"/>
+            <conceptId qcode="sptemporalunit:season-playoffs" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">season-playoffs</name>
+            <name xml:lang="en-GB">season-playoffs</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitseason">
-            <conceptId qcode="sptemporalunit:season"/>
+            <conceptId qcode="sptemporalunit:season" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">season</name>
+            <name xml:lang="en-GB">season</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptemporalunitcareer">
-            <conceptId qcode="sptemporalunit:career"/>
+            <conceptId qcode="sptemporalunit:career" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">career</name>
+            <name xml:lang="en-GB">career</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptemporalunit/" rel="skos:inScheme"/>
         </concept>
@@ -134,6 +151,7 @@
         <definition xml:lang="en-US">The unit of performance to which the stats apply eg.
             single-event, season, career.</definition>
         <name xml:lang="en-US">Temporal Unit</name>
+            <name xml:lang="en-GB">Temporal Unit</name>
         <related qcode="sptemporalunit:period" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:event" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:tournament" rel="skos:hasTopConcept"/>
@@ -150,6 +168,6 @@
         <related qcode="sptemporalunit:season-playoffs" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:season" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:career" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

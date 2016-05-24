@@ -26,29 +26,34 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15027000">
             <name xml:lang="en-US">golf</name>
+            <name xml:lang="en-GB">golf</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of shot in golf.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spgolshotdrive">
-            <conceptId qcode="spgolshot:drive"/>
+            <conceptId qcode="spgolshot:drive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">drive</name>
+            <name xml:lang="en-GB">drive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgolshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgolshotputt">
-            <conceptId qcode="spgolshot:putt"/>
+            <conceptId qcode="spgolshot:putt" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">putt</name>
+            <name xml:lang="en-GB">putt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgolshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgolshotpitch">
-            <conceptId qcode="spgolshot:pitch"/>
+            <conceptId qcode="spgolshot:pitch" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">pitch</name>
+            <name xml:lang="en-GB">pitch</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgolshot/" rel="skos:inScheme"/>
         </concept>
@@ -57,9 +62,10 @@
         preferredalias="spgolshot">
         <definition xml:lang="en-US">Types of shot in golf.</definition>
         <name xml:lang="en-US">Golf Shot Types</name>
+            <name xml:lang="en-GB">Golf Shot Types</name>
         <related qcode="spgolshot:drive" rel="skos:hasTopConcept"/>
         <related qcode="spgolshot:putt" rel="skos:hasTopConcept"/>
         <related qcode="spgolshot:pitch" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

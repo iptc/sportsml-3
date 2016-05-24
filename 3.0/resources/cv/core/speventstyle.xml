@@ -26,20 +26,23 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Indicates whether competitors are trying to defeat each other or just outdo one
             another.</description>
     </contentMeta>
     <conceptSet>
         <concept id="speventstylehead-to-head">
-            <conceptId qcode="speventstyle:head-to-head"/>
+            <conceptId qcode="speventstyle:head-to-head" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">head-to-head</name>
+            <name xml:lang="en-GB">head-to-head</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventstyle/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventstyleranked">
-            <conceptId qcode="speventstyle:ranked"/>
+            <conceptId qcode="speventstyle:ranked" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">ranked</name>
+            <name xml:lang="en-GB">ranked</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventstyle/" rel="skos:inScheme"/>
         </concept>
@@ -49,8 +52,9 @@
         <definition xml:lang="en-US">Indicates whether competitors are trying to defeat each other
             or just outdo one another.</definition>
         <name xml:lang="en-US">Event Style</name>
+            <name xml:lang="en-GB">Event Style</name>
         <related qcode="speventstyle:head-to-head" rel="skos:hasTopConcept"/>
         <related qcode="speventstyle:ranked" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

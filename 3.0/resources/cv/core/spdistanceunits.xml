@@ -26,19 +26,22 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Units of distance for shot, jump, etc.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spdistanceunitsmeters">
-            <conceptId qcode="spdistanceunits:meters"/>
+            <conceptId qcode="spdistanceunits:meters" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">meters</name>
+            <name xml:lang="en-GB">meters</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdistanceunits/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdistanceunitsyards">
-            <conceptId qcode="spdistanceunits:yards"/>
+            <conceptId qcode="spdistanceunits:yards" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">yards</name>
+            <name xml:lang="en-GB">yards</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdistanceunits/" rel="skos:inScheme"/>
         </concept>
@@ -47,8 +50,9 @@
         preferredalias="spdistanceunits">
         <definition xml:lang="en-US">Units of distance for shot, jump, etc.</definition>
         <name xml:lang="en-US">Distance Units</name>
+            <name xml:lang="en-GB">Distance Units</name>
         <related qcode="spdistanceunits:meters" rel="skos:hasTopConcept"/>
         <related qcode="spdistanceunits:yards" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

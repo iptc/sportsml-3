@@ -27,6 +27,7 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Describes the effect that the result of the event or rank changing has had on
             the team. Example: Whether or not a team has qualified for the playoffs, or has been
@@ -34,20 +35,23 @@
     </contentMeta>
     <conceptSet>
         <concept id="spresulteffectqualification">
-            <conceptId qcode="spresulteffect:qualification"/>
+            <conceptId qcode="spresulteffect:qualification" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">qualification</name>
+            <name xml:lang="en-GB">qualification</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spresulteffect/" rel="skos:inScheme"/>
         </concept>
         <concept id="spresulteffectpromotion">
-            <conceptId qcode="spresulteffect:promotion"/>
+            <conceptId qcode="spresulteffect:promotion" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">promotion</name>
+            <name xml:lang="en-GB">promotion</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spresulteffect/" rel="skos:inScheme"/>
         </concept>
         <concept id="spresulteffectdemotion">
-            <conceptId qcode="spresulteffect:demotion"/>
+            <conceptId qcode="spresulteffect:demotion" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">demotion</name>
+            <name xml:lang="en-GB">demotion</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spresulteffect/" rel="skos:inScheme"/>
         </concept>
@@ -58,9 +62,10 @@
             changing has had on the team. Example: Whether or not a team has qualified for the
             playoffs, or has been promoted or demoted to a different division.</definition>
         <name xml:lang="en-US">Result Effect</name>
+            <name xml:lang="en-GB">Result Effect</name>
         <related qcode="spresulteffect:qualification" rel="skos:hasTopConcept"/>
         <related qcode="spresulteffect:promotion" rel="skos:hasTopConcept"/>
         <related qcode="spresulteffect:demotion" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

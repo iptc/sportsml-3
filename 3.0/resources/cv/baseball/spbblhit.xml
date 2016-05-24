@@ -27,35 +27,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15007000">
             <name xml:lang="en-US">baseball</name>
+            <name xml:lang="en-GB">baseball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of baseball hits</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbblhitsingle">
-            <conceptId qcode="spbblhit:single"/>
+            <conceptId qcode="spbblhit:single" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">single</name>
+            <name xml:lang="en-GB">single</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblhitdouble">
-            <conceptId qcode="spbblhit:double"/>
+            <conceptId qcode="spbblhit:double" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">double</name>
+            <name xml:lang="en-GB">double</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblhittriple">
-            <conceptId qcode="spbblhit:triple"/>
+            <conceptId qcode="spbblhit:triple" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">triple</name>
+            <name xml:lang="en-GB">triple</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblhithome-run">
-            <conceptId qcode="spbblhit:home-run"/>
+            <conceptId qcode="spbblhit:home-run" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">home-run</name>
+            <name xml:lang="en-GB">home-run</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblhit/" rel="skos:inScheme"/>
         </concept>
@@ -64,10 +70,11 @@
         preferredalias="spbblhit">
         <definition xml:lang="en-US">Types of baseball hits</definition>
         <name xml:lang="en-US">Baseball Hit Types</name>
+            <name xml:lang="en-GB">Baseball Hit Types</name>
         <related qcode="spbblhit:single" rel="skos:hasTopConcept"/>
         <related qcode="spbblhit:double" rel="skos:hasTopConcept"/>
         <related qcode="spbblhit:triple" rel="skos:hasTopConcept"/>
         <related qcode="spbblhit:home-run" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

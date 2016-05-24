@@ -27,73 +27,85 @@
 		</creator>
 		<subject qcode="subj:15000000">
 			<name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
 		</subject>
 		<description>The phase of the tournament: semi-final, quarter-final, etc.</description>
 	</contentMeta>
 	<conceptSet>
 		<concept id="sptournamentphaseelimination">
-			<conceptId qcode="sptournamentphase:elimination"/>
+			<conceptId qcode="sptournamentphase:elimination" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Elimination</name>
+            <name xml:lang="en-GB">Elimination</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasegroup">
-			<conceptId qcode="sptournamentphase:group"/>
+			<conceptId qcode="sptournamentphase:group" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Group</name>
+            <name xml:lang="en-GB">Group</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphaseplay-off">
-			<conceptId qcode="sptournamentphase:play-off"/>
+			<conceptId qcode="sptournamentphase:play-off" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Play Off</name>
+            <name xml:lang="en-GB">Play Off</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasetiebreaker">
-			<conceptId qcode="sptournamentphase:tiebreaker"/>
+			<conceptId qcode="sptournamentphase:tiebreaker" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Tie Breaker</name>
+            <name xml:lang="en-GB">Tie Breaker</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphaseround">
-			<conceptId qcode="sptournamentphase:round"/>
+			<conceptId qcode="sptournamentphase:round" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Round</name>
+            <name xml:lang="en-GB">Round</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphaseround-robin">
-			<conceptId qcode="sptournamentphase:round-robin"/>
+			<conceptId qcode="sptournamentphase:round-robin" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Round Robin</name>
+            <name xml:lang="en-GB">Round Robin</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasequarter-final">
-			<conceptId qcode="sptournamentphase:quarter-final"/>
+			<conceptId qcode="sptournamentphase:quarter-final" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Quarter Final</name>
+            <name xml:lang="en-GB">Quarter Final</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasesemi-final">
-			<conceptId qcode="sptournamentphase:semi-final"/>
+			<conceptId qcode="sptournamentphase:semi-final" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Semi Final</name>
+            <name xml:lang="en-GB">Semi Final</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasethird-final">
-			<conceptId qcode="sptournamentphase:third-final"/>
+			<conceptId qcode="sptournamentphase:third-final" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Third Place Final</name>
+            <name xml:lang="en-GB">Third Place Final</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasefinal">
-			<conceptId qcode="sptournamentphase:final"/>
+			<conceptId qcode="sptournamentphase:final" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">Final</name>
+            <name xml:lang="en-GB">Final</name>
 			<definition/>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentphasequalification">
-			<conceptId qcode="sptournamentphase:qualification"/>
+			<conceptId qcode="sptournamentphase:qualification" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">qualification</name>
+            <name xml:lang="en-GB">qualification</name>
 			<definition>The stage, usually prior to a group or elimination stage, where entities
 				compete to qualify for the later "playoff" stage.</definition>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentphase/" rel="skos:inScheme"/>
@@ -103,6 +115,7 @@
 		preferredalias="sptournamentphase">
 		<definition xml:lang="en-US">The phase of the tournament: semi-final, quarter-final, etc.</definition>
 		<name xml:lang="en-US">Tournament Phase</name>
+            <name xml:lang="en-GB">Tournament Phase</name>
 		<related qcode="sptournamentphase:elimination" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:group" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:play-off" rel="skos:hasTopConcept"/>
@@ -114,6 +127,6 @@
 		<related qcode="sptournamentphase:third-final" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:final" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentphase:qualification" rel="skos:hasTopConcept"/>
-		<schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+		<schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
 	</schemeMeta>
 </knowledgeItem>

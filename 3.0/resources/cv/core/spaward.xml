@@ -27,19 +27,22 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Types of award in sport</description>
     </contentMeta>
     <conceptSet>
         <concept id="spawardmedal">
-            <conceptId qcode="spaward:medal"/>
+            <conceptId qcode="spaward:medal" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">medal</name>
+            <name xml:lang="en-GB">medal</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spaward/" rel="skos:inScheme"/>
         </concept>
         <concept id="spawardtrophy">
-            <conceptId qcode="spaward:trophy"/>
+            <conceptId qcode="spaward:trophy" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">trophy</name>
+            <name xml:lang="en-GB">trophy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spaward/" rel="skos:inScheme"/>
         </concept>
@@ -48,8 +51,9 @@
         preferredalias="spaward">
         <definition xml:lang="en-US">Types of award in sport</definition>
         <name xml:lang="en-US">Award Types</name>
+            <name xml:lang="en-GB">Award Types</name>
         <related qcode="spaward:medal" rel="skos:hasTopConcept"/>
         <related qcode="spaward:trophy" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

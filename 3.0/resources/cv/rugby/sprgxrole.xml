@@ -27,71 +27,83 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="en-GB">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Role of player in the described action.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprgxroleon-field">
-            <conceptId qcode="sprgxrole:on-field"/>
+            <conceptId qcode="sprgxrole:on-field" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">on-field</name>
+            <name xml:lang="en-GB">on-field</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxrolescorer">
-            <conceptId qcode="sprgxrole:scorer"/>
+            <conceptId qcode="sprgxrole:scorer" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">scorer</name>
+            <name xml:lang="en-GB">scorer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxroleblocker">
-            <conceptId qcode="sprgxrole:blocker"/>
+            <conceptId qcode="sprgxrole:blocker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blocker</name>
+            <name xml:lang="en-GB">blocker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxroleinfraction-by">
-            <conceptId qcode="sprgxrole:infraction-by"/>
+            <conceptId qcode="sprgxrole:infraction-by" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">infraction-by</name>
+            <name xml:lang="en-GB">infraction-by</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxroleinfraction-against">
-            <conceptId qcode="sprgxrole:infraction-against"/>
+            <conceptId qcode="sprgxrole:infraction-against" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">infraction-against</name>
+            <name xml:lang="en-GB">infraction-against</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxrolegiveaway">
-            <conceptId qcode="sprgxrole:giveaway"/>
+            <conceptId qcode="sprgxrole:giveaway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">giveaway</name>
+            <name xml:lang="en-GB">giveaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxroletakeaway">
-            <conceptId qcode="sprgxrole:takeaway"/>
+            <conceptId qcode="sprgxrole:takeaway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">takeaway</name>
+            <name xml:lang="en-GB">takeaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxrolethrower">
-            <conceptId qcode="sprgxrole:thrower"/>
+            <conceptId qcode="sprgxrole:thrower" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">thrower</name>
+            <name xml:lang="en-GB">thrower</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxrolesub-on">
-            <conceptId qcode="sprgxrole:sub-on"/>
+            <conceptId qcode="sprgxrole:sub-on" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">sub-on</name>
+            <name xml:lang="en-GB">sub-on</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxrolesub-off">
-            <conceptId qcode="sprgxrole:sub-off"/>
+            <conceptId qcode="sprgxrole:sub-off" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">sub-off</name>
+            <name xml:lang="en-GB">sub-off</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprgxrole/" rel="skos:inScheme"/>
         </concept>
@@ -100,6 +112,7 @@
         preferredalias="sprgxrole">
         <definition xml:lang="en-US">Role of player in the described action.</definition>
         <name xml:lang="en-US">Rugby Player Roles</name>
+            <name xml:lang="en-GB">Rugby Player Roles</name>
         <related qcode="sprgxrole:on-field" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:scorer" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:assist" rel="skos:hasTopConcept"/>
@@ -110,6 +123,6 @@
         <related qcode="sprgxrole:takeaway" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:sub-on" rel="skos:hasTopConcept"/>
         <related qcode="sprgxrole:sub-off" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

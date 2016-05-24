@@ -27,61 +27,71 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Career phases of athletes</description>
     </contentMeta>
     <conceptSet>
         <concept id="spphasescholastic">
-            <conceptId qcode="spphase:scholastic"/>
+            <conceptId qcode="spphase:scholastic" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">scholastic</name>
+            <name xml:lang="en-GB">scholastic</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasecollege">
-            <conceptId qcode="spphase:college"/>
+            <conceptId qcode="spphase:college" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">college</name>
+            <name xml:lang="en-GB">college</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseamateur">
-            <conceptId qcode="spphase:amateur"/>
+            <conceptId qcode="spphase:amateur" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">amateur</name>
+            <name xml:lang="en-GB">amateur</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseprofessional">
-            <conceptId qcode="spphase:professional"/>
+            <conceptId qcode="spphase:professional" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">professional</name>
+            <name xml:lang="en-GB">professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseminor-league">
-            <conceptId qcode="spphase:minor-league"/>
+            <conceptId qcode="spphase:minor-league" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">minor-league</name>
+            <name xml:lang="en-GB">minor-league</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasesemi-professional">
-            <conceptId qcode="spphase:semi-professional"/>
+            <conceptId qcode="spphase:semi-professional" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">semi-professional</name>
+            <name xml:lang="en-GB">semi-professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphaseformer-professional">
-            <conceptId qcode="spphase:former-professional"/>
+            <conceptId qcode="spphase:former-professional" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">former-professional</name>
+            <name xml:lang="en-GB">former-professional</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasereleased">
-            <conceptId qcode="spphase:released"/>
+            <conceptId qcode="spphase:released" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">released</name>
+            <name xml:lang="en-GB">released</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
         <concept id="spphasefree-agent">
-            <conceptId qcode="spphase:free-agent"/>
+            <conceptId qcode="spphase:free-agent" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">free-agent</name>
+            <name xml:lang="en-GB">free-agent</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spphase/" rel="skos:inScheme"/>
         </concept>
@@ -90,6 +100,7 @@
         preferredalias="spphase">
         <definition xml:lang="en-US">Career phases of athletes</definition>
         <name xml:lang="en-US">Career Phase</name>
+            <name xml:lang="en-GB">Career Phase</name>
         <related qcode="spphase:scholastic" rel="skos:hasTopConcept"/>
         <related qcode="spphase:college" rel="skos:hasTopConcept"/>
         <related qcode="spphase:amateur" rel="skos:hasTopConcept"/>
@@ -99,6 +110,6 @@
         <related qcode="spphase:former-professional" rel="skos:hasTopConcept"/>
         <related qcode="spphase:released" rel="skos:hasTopConcept"/>
         <related qcode="spphase:free-agent" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

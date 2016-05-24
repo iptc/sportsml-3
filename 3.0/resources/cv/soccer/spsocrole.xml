@@ -27,113 +27,132 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="en-GB">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Role of player in the described action.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spsocroleon-field">
-            <conceptId qcode="spsocrole:on-field"/>
+            <conceptId qcode="spsocrole:on-field" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">on-field</name>
+            <name xml:lang="en-GB">on-field</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolescorer">
-            <conceptId qcode="spsocrole:scorer"/>
+            <conceptId qcode="spsocrole:scorer" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">scorer</name>
+            <name xml:lang="en-GB">scorer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroleassist">
-            <conceptId qcode="spsocrole:assist"/>
+            <conceptId qcode="spsocrole:assist" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">assist</name>
+            <name xml:lang="en-GB">assist</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroleshooter">
-            <conceptId qcode="spsocrole:shooter"/>
+            <conceptId qcode="spsocrole:shooter" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">shooter</name>
+            <name xml:lang="en-GB">shooter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroleblocker">
-            <conceptId qcode="spsocrole:blocker"/>
+            <conceptId qcode="spsocrole:blocker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blocker</name>
+            <name xml:lang="en-GB">blocker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroleinfraction-committed-by">
-            <conceptId qcode="spsocrole:infraction-committed-by"/>
+            <conceptId qcode="spsocrole:infraction-committed-by" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">infraction-committed-by</name>
+            <name xml:lang="en-GB">infraction-committed-by</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroleinfraction-committed-against">
-            <conceptId qcode="spsocrole:infraction-committed-against"/>
+            <conceptId qcode="spsocrole:infraction-committed-against" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">infraction-committed-against</name>
+            <name xml:lang="en-GB">infraction-committed-against</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolegiveaway">
-            <conceptId qcode="spsocrole:giveaway"/>
+            <conceptId qcode="spsocrole:giveaway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">giveaway</name>
+            <name xml:lang="en-GB">giveaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroletakeaway">
-            <conceptId qcode="spsocrole:takeaway"/>
+            <conceptId qcode="spsocrole:takeaway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">takeaway</name>
+            <name xml:lang="en-GB">takeaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolethrower">
-            <conceptId qcode="spsocrole:thrower"/>
+            <conceptId qcode="spsocrole:thrower" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">thrower</name>
+            <name xml:lang="en-GB">thrower</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolecorner-kicker">
-            <conceptId qcode="spsocrole:corner-kicker"/>
+            <conceptId qcode="spsocrole:corner-kicker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">corner-kicker</name>
+            <name xml:lang="en-GB">corner-kicker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocroleoffside">
-            <conceptId qcode="spsocrole:offside"/>
+            <conceptId qcode="spsocrole:offside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">offside</name>
+            <name xml:lang="en-GB">offside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolefree-kicker">
-            <conceptId qcode="spsocrole:free-kicker"/>
+            <conceptId qcode="spsocrole:free-kicker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">free-kicker</name>
+            <name xml:lang="en-GB">free-kicker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolepenalty-kicker">
-            <conceptId qcode="spsocrole:penalty-kicker"/>
+            <conceptId qcode="spsocrole:penalty-kicker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-kicker</name>
+            <name xml:lang="en-GB">penalty-kicker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolegoalkeeper">
-            <conceptId qcode="spsocrole:goalkeeper"/>
+            <conceptId qcode="spsocrole:goalkeeper" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">goalkeeper</name>
+            <name xml:lang="en-GB">goalkeeper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolesub-on">
-            <conceptId qcode="spsocrole:sub-on"/>
+            <conceptId qcode="spsocrole:sub-on" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">sub-on</name>
+            <name xml:lang="en-GB">sub-on</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocrolesub-off">
-            <conceptId qcode="spsocrole:sub-off"/>
+            <conceptId qcode="spsocrole:sub-off" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">sub-off</name>
+            <name xml:lang="en-GB">sub-off</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocrole/" rel="skos:inScheme"/>
         </concept>
@@ -142,6 +161,7 @@
         preferredalias="spsocrole">
         <definition xml:lang="en-US">Role of player in the described action.</definition>
         <name xml:lang="en-US">Soccer Player Roles</name>
+            <name xml:lang="en-GB">Soccer Player Roles</name>
         <related qcode="spsocrole:on-field" rel="skos:hasTopConcept"/>
         <related qcode="spsocrole:scorer" rel="skos:hasTopConcept"/>
         <related qcode="spsocrole:assist" rel="skos:hasTopConcept"/>
@@ -159,6 +179,6 @@
         <related qcode="spsocrole:goalkeeper" rel="skos:hasTopConcept"/>
         <related qcode="spsocrole:sub-on" rel="skos:hasTopConcept"/>
         <related qcode="spsocrole:sub-off" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

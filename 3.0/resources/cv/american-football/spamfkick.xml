@@ -26,35 +26,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15003000">
             <name xml:lang="en-US">american-football</name>
+            <name xml:lang="en-GB">american-football</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of kicking in American football.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spamfkickpunt">
-            <conceptId qcode="spamfkick:punt"/>
+            <conceptId qcode="spamfkick:punt" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">punt</name>
+            <name xml:lang="en-GB">punt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickonside">
-            <conceptId qcode="spamfkick:onside"/>
+            <conceptId qcode="spamfkick:onside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">onside</name>
+            <name xml:lang="en-GB">onside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickextra-point">
-            <conceptId qcode="spamfkick:extra-point"/>
+            <conceptId qcode="spamfkick:extra-point" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">extra-point</name>
+            <name xml:lang="en-GB">extra-point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickfield-goal-attempt">
-            <conceptId qcode="spamfkick:field-goal-attempt"/>
+            <conceptId qcode="spamfkick:field-goal-attempt" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">field-goal-attempt</name>
+            <name xml:lang="en-GB">field-goal-attempt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
@@ -63,10 +69,11 @@
         preferredalias="spamfkick">
         <definition xml:lang="en-US">Types of kicking in American football.</definition>
         <name xml:lang="en-US">American Football Kick Types</name>
+            <name xml:lang="en-GB">American Football Kick Types</name>
         <related qcode="spamfkick:punt" rel="skos:hasTopConcept"/>
         <related qcode="spamfkick:onside" rel="skos:hasTopConcept"/>
         <related qcode="spamfkick:extra-point" rel="skos:hasTopConcept"/>
         <related qcode="spamfkick:field-goal-attempt" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

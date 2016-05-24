@@ -26,35 +26,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15007000">
             <name xml:lang="en-US">baseball</name>
+            <name xml:lang="en-GB">baseball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Trajectories of baseball hits</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbbltrajectoryground">
-            <conceptId qcode="spbbltrajectory:ground"/>
+            <conceptId qcode="spbbltrajectory:ground" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">ground</name>
+            <name xml:lang="en-GB">ground</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbbltrajectory/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbltrajectoryfly">
-            <conceptId qcode="spbbltrajectory:fly"/>
+            <conceptId qcode="spbbltrajectory:fly" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">fly</name>
+            <name xml:lang="en-GB">fly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbbltrajectory/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbltrajectoryline-drive">
-            <conceptId qcode="spbbltrajectory:line-drive"/>
+            <conceptId qcode="spbbltrajectory:line-drive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">line-drive</name>
+            <name xml:lang="en-GB">line-drive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbbltrajectory/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbbltrajectorypop-fly">
-            <conceptId qcode="spbbltrajectory:pop-fly"/>
+            <conceptId qcode="spbbltrajectory:pop-fly" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">pop-fly</name>
+            <name xml:lang="en-GB">pop-fly</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbbltrajectory/" rel="skos:inScheme"/>
         </concept>
@@ -63,10 +69,11 @@
         preferredalias="spbbltrajectory">
         <definition xml:lang="en-US">Trajectories of baseball hits</definition>
         <name xml:lang="en-US">Baseball Hit Trajectory</name>
+            <name xml:lang="en-GB">Baseball Hit Trajectory</name>
         <related qcode="spbbltrajectory:ground" rel="skos:hasTopConcept"/>
         <related qcode="spbbltrajectory:fly" rel="skos:hasTopConcept"/>
         <related qcode="spbbltrajectory:line-drive" rel="skos:hasTopConcept"/>
         <related qcode="spbbltrajectory:pop-fly" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

@@ -27,47 +27,54 @@
 		</creator>
 		<subject qcode="subj:15000000">
 			<name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
 		</subject>
 		<description>Whether a player starts playing at the beginning of a sports-event, joins
 			mid-game, or is not available to participate.</description>
 	</contentMeta>
 	<conceptSet>
 		<concept id="spplayerstatusstarter">
-			<conceptId qcode="spplayerstatus:starter"/>
+			<conceptId qcode="spplayerstatus:starter" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">starter</name>
+            <name xml:lang="en-GB">starter</name>
 			<definition>A member of the lineup that enters the field at the commencement of
 				play.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatusbench">
-			<conceptId qcode="spplayerstatus:bench"/>
+			<conceptId qcode="spplayerstatus:bench" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">bench</name>
+            <name xml:lang="en-GB">bench</name>
 			<definition>Does not enter field at commencement of play, is substituted in or remains
 				on bench.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatusscratched">
-			<conceptId qcode="spplayerstatus:scratched"/>
+			<conceptId qcode="spplayerstatus:scratched" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">scratched</name>
+            <name xml:lang="en-GB">scratched</name>
 			<definition>Does not dress for event, usually for having not earned a slot in the
 				lineup.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatusinjured">
-			<conceptId qcode="spplayerstatus:injured"/>
+			<conceptId qcode="spplayerstatus:injured" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">injured</name>
+            <name xml:lang="en-GB">injured</name>
 			<definition>Unable to play due to injury.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatussuspended">
-			<conceptId qcode="spplayerstatus:suspended"/>
+			<conceptId qcode="spplayerstatus:suspended" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">suspended</name>
+            <name xml:lang="en-GB">suspended</name>
 			<definition>Unable to play due to suspension due to transgression.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spplayerstatussidelined">
-			<conceptId qcode="spplayerstatus:sidelined"/>
+			<conceptId qcode="spplayerstatus:sidelined" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">sidelined</name>
+            <name xml:lang="en-GB">sidelined</name>
 			<definition>Does not play for other reason.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spplayerstatus/" rel="skos:inScheme"/>
 		</concept>
@@ -77,12 +84,13 @@
 		<definition xml:lang="en-US">Whether a player starts playing at the beginning of a
 			sports-event, joins mid-game, or is not available to participate.</definition>
 		<name xml:lang="en-US">Player Status</name>
+            <name xml:lang="en-GB">Player Status</name>
 		<related qcode="spplayerstatus:starter" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:bench" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:scratched" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:injured" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:suspended" rel="skos:hasTopConcept"/>
 		<related qcode="spplayerstatus:sidelined" rel="skos:hasTopConcept"/>
-		<schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+		<schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
 	</schemeMeta>
 </knowledgeItem>

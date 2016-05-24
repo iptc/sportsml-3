@@ -26,26 +26,30 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Groupings of participants playing on a team or side in the events
             covered.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spparticipantcountindividual">
-            <conceptId qcode="spparticipantcount:individual"/>
+            <conceptId qcode="spparticipantcount:individual" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">individual</name>
+            <name xml:lang="en-GB">individual</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spparticipantcount/" rel="skos:inScheme"/>
         </concept>
         <concept id="spparticipantcountdoubles">
-            <conceptId qcode="spparticipantcount:doubles"/>
+            <conceptId qcode="spparticipantcount:doubles" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">doubles</name>
+            <name xml:lang="en-GB">doubles</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spparticipantcount/" rel="skos:inScheme"/>
         </concept>
         <concept id="spparticipantcountteam">
-            <conceptId qcode="spparticipantcount:team"/>
+            <conceptId qcode="spparticipantcount:team" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">team</name>
+            <name xml:lang="en-GB">team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spparticipantcount/" rel="skos:inScheme"/>
         </concept>
@@ -55,9 +59,10 @@
         <definition xml:lang="en-US">Groupings of participants playing on a team or side in the
             events covered.</definition>
         <name xml:lang="en-US">Participant Grouping</name>
+            <name xml:lang="en-GB">Participant Grouping</name>
         <related qcode="spparticipantcount:individual" rel="skos:hasTopConcept"/>
         <related qcode="spparticipantcount:doubles" rel="skos:hasTopConcept"/>
         <related qcode="spparticipantcount:team" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

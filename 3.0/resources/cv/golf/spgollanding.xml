@@ -26,47 +26,55 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15027000">
             <name xml:lang="en-US">golf</name>
+            <name xml:lang="en-GB">golf</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>The place or surface where a golf ball lands after being shot.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spgollandingfairway">
-            <conceptId qcode="spgollanding:fairway"/>
+            <conceptId qcode="spgollanding:fairway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">fairway</name>
+            <name xml:lang="en-GB">fairway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandingsand">
-            <conceptId qcode="spgollanding:sand"/>
+            <conceptId qcode="spgollanding:sand" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">sand</name>
+            <name xml:lang="en-GB">sand</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandingwater">
-            <conceptId qcode="spgollanding:water"/>
+            <conceptId qcode="spgollanding:water" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">water</name>
+            <name xml:lang="en-GB">water</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandingrough">
-            <conceptId qcode="spgollanding:rough"/>
+            <conceptId qcode="spgollanding:rough" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">rough</name>
+            <name xml:lang="en-GB">rough</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandinggreen">
-            <conceptId qcode="spgollanding:green"/>
+            <conceptId qcode="spgollanding:green" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">green</name>
+            <name xml:lang="en-GB">green</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
         <concept id="spgollandinghole">
-            <conceptId qcode="spgollanding:hole"/>
+            <conceptId qcode="spgollanding:hole" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">hole</name>
+            <name xml:lang="en-GB">hole</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spgollanding/" rel="skos:inScheme"/>
         </concept>
@@ -76,12 +84,13 @@
         <definition xml:lang="en-US">The place or surface where a golf ball lands after being
             shot.</definition>
         <name xml:lang="en-US">Golf Shot Landings</name>
+            <name xml:lang="en-GB">Golf Shot Landings</name>
         <related qcode="spgollanding:fairway" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:sand" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:water" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:rough" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:green" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:hole" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

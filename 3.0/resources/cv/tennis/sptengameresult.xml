@@ -26,9 +26,11 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15065000">
             <name xml:lang="en-US">tennis</name>
+            <name xml:lang="en-GB">tennis</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>The score of the player or team presently serving, either love, 15, 30, 40,
@@ -36,44 +38,51 @@
     </contentMeta>
     <conceptSet>
         <concept id="sptengameresultlove">
-            <conceptId qcode="sptengameresult:love"/>
+            <conceptId qcode="sptengameresult:love" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">love</name>
+            <name xml:lang="en-GB">love</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptengameresult15">
-            <conceptId qcode="sptengameresult:15"/>
+            <conceptId qcode="sptengameresult:15" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">15</name>
+            <name xml:lang="en-GB">15</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptengameresult30">
-            <conceptId qcode="sptengameresult:30"/>
+            <conceptId qcode="sptengameresult:30" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">30</name>
+            <name xml:lang="en-GB">30</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptengameresult40">
-            <conceptId qcode="sptengameresult:40"/>
+            <conceptId qcode="sptengameresult:40" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">40</name>
+            <name xml:lang="en-GB">40</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptengameresultgame">
-            <conceptId qcode="sptengameresult:game"/>
+            <conceptId qcode="sptengameresult:game" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">game</name>
+            <name xml:lang="en-GB">game</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptengameresultad">
-            <conceptId qcode="sptengameresult:ad"/>
+            <conceptId qcode="sptengameresult:ad" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">ad</name>
+            <name xml:lang="en-GB">ad</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptengameresultdeuce">
-            <conceptId qcode="sptengameresult:deuce"/>
+            <conceptId qcode="sptengameresult:deuce" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">deuce</name>
+            <name xml:lang="en-GB">deuce</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptengameresult/" rel="skos:inScheme"/>
         </concept>
@@ -83,6 +92,7 @@
         <definition xml:lang="en-US">The score of the player or team presently serving, either love,
             15, 30, 40, game.</definition>
         <name xml:lang="en-US">Tennis Scoring</name>
+            <name xml:lang="en-GB">Tennis Scoring</name>
         <related qcode="sptengameresult:love" rel="skos:hasTopConcept"/>
         <related qcode="sptengameresult:15" rel="skos:hasTopConcept"/>
         <related qcode="sptengameresult:30" rel="skos:hasTopConcept"/>
@@ -90,6 +100,6 @@
         <related qcode="sptengameresult:game" rel="skos:hasTopConcept"/>
         <related qcode="sptengameresult:ad" rel="skos:hasTopConcept"/>
         <related qcode="sptengameresult:deuce" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

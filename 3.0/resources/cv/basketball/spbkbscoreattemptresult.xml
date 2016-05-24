@@ -26,31 +26,36 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15008000">
             <name xml:lang="en-US">basketball</name>
+            <name xml:lang="en-GB">basketball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of scoring failure in basketball.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbkbscoreattemptresultmissed">
-            <conceptId qcode="spbkbscoreattemptresult:missed"/>
+            <conceptId qcode="spbkbscoreattemptresult:missed" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">missed</name>
+            <name xml:lang="en-GB">missed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spbkbscoreattemptresultblocked">
-            <conceptId qcode="spbkbscoreattemptresult:blocked"/>
+            <conceptId qcode="spbkbscoreattemptresult:blocked" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked</name>
+            <name xml:lang="en-GB">blocked</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spbkbscoreattemptresultturnover">
-            <conceptId qcode="spbkbscoreattemptresult:turnover"/>
+            <conceptId qcode="spbkbscoreattemptresult:turnover" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">turnover</name>
+            <name xml:lang="en-GB">turnover</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattemptresult/" rel="skos:inScheme"
             />
@@ -61,9 +66,10 @@
         preferredalias="spbkbscoreattemptresult">
         <definition xml:lang="en-US">Types of scoring failure in basketball.</definition>
         <name xml:lang="en-US">Basketball Score Attempt Results</name>
+            <name xml:lang="en-GB">Basketball Score Attempt Results</name>
         <related qcode="spbkbscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattemptresult:turnover" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

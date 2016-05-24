@@ -26,31 +26,36 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15047007">
             <name xml:lang="en-US">rugby</name>
+            <name xml:lang="en-GB">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of scoring failure in rugby.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprgxscoreattemptresultmissed">
-            <conceptId qcode="sprgxscoreattemptresult:missed"/>
+            <conceptId qcode="sprgxscoreattemptresult:missed" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">missed</name>
+            <name xml:lang="en-GB">missed</name>
             <definition>The kick fell below or outside the uprights.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="sprgxscoreattemptresultblocked">
-            <conceptId qcode="sprgxscoreattemptresult:blocked"/>
+            <conceptId qcode="sprgxscoreattemptresult:blocked" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked</name>
+            <name xml:lang="en-GB">blocked</name>
             <definition>The kick was blocked.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="sprgxscoreattemptresultout-of-bounds">
-            <conceptId qcode="sprgxscoreattemptresult:out-of-bounds"/>
+            <conceptId qcode="sprgxscoreattemptresult:out-of-bounds" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">out-of-bounds</name>
+            <name xml:lang="en-GB">out-of-bounds</name>
             <definition>The kick went out of bounds.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattemptresult/" rel="skos:inScheme"
             />
@@ -61,9 +66,10 @@
         preferredalias="sprgxscoreattemptresult">
         <definition xml:lang="en-US">Types of scoring failure in rugby.</definition>
         <name xml:lang="en-US">Rugby Score Attempt Types</name>
+            <name xml:lang="en-GB">Rugby Score Attempt Types</name>
         <related qcode="sprgxscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattemptresult:out-of-bounds" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

@@ -27,24 +27,28 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15047007">
             <name xml:lang="en-US">rugby</name>
+            <name xml:lang="en-GB">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of substitution in rugby</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprgxsubstitutionblood">
-            <conceptId qcode="sprgxsubstitution:blood"/>
+            <conceptId qcode="sprgxsubstitution:blood" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blood</name>
+            <name xml:lang="en-GB">blood</name>
             <definition>A temporary replacement in which the player must return to the field within
                 15 minutes</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxsubstitution/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxsubstitutionregular">
-            <conceptId qcode="sprgxsubstitution:regular"/>
+            <conceptId qcode="sprgxsubstitution:regular" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">regular</name>
+            <name xml:lang="en-GB">regular</name>
             <definition>One of seven allowed permanent player substitutions.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxsubstitution/" rel="skos:inScheme"/>
         </concept>
@@ -53,8 +57,9 @@
         uri="http://cv.iptc.org/newscodes/sprgxsubstitution/" preferredalias="sprgxsubstitution">
         <definition xml:lang="en-US">Types of substitution in rugby</definition>
         <name xml:lang="en-US">Rugby Substitution Types</name>
+            <name xml:lang="en-GB">Rugby Substitution Types</name>
         <related qcode="sprgxsubstitution:blood" rel="skos:hasTopConcept"/>
         <related qcode="sprgxsubstitution:regular" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

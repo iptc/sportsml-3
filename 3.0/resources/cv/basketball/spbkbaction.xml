@@ -26,59 +26,69 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15008000">
             <name xml:lang="en-US">basketball</name>
+            <name xml:lang="en-GB">basketball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of basketball actions</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbkbactionshot">
-            <conceptId qcode="spbkbaction:shot"/>
+            <conceptId qcode="spbkbaction:shot" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">shot</name>
+            <name xml:lang="en-GB">shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionrebound">
-            <conceptId qcode="spbkbaction:rebound"/>
+            <conceptId qcode="spbkbaction:rebound" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">rebound</name>
+            <name xml:lang="en-GB">rebound</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionjump-ball">
-            <conceptId qcode="spbkbaction:jump-ball"/>
+            <conceptId qcode="spbkbaction:jump-ball" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">jump-ball</name>
+            <name xml:lang="en-GB">jump-ball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionturnover">
-            <conceptId qcode="spbkbaction:turnover"/>
+            <conceptId qcode="spbkbaction:turnover" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">turnover</name>
+            <name xml:lang="en-GB">turnover</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionthrow-in">
-            <conceptId qcode="spbkbaction:throw-in"/>
+            <conceptId qcode="spbkbaction:throw-in" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">throw-in</name>
+            <name xml:lang="en-GB">throw-in</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionfoul">
-            <conceptId qcode="spbkbaction:foul"/>
+            <conceptId qcode="spbkbaction:foul" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">foul</name>
+            <name xml:lang="en-GB">foul</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionsubstitution">
-            <conceptId qcode="spbkbaction:substitution"/>
+            <conceptId qcode="spbkbaction:substitution" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">substitution</name>
+            <name xml:lang="en-GB">substitution</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbactionpass">
-            <conceptId qcode="spbkbaction:pass"/>
+            <conceptId qcode="spbkbaction:pass" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">pass</name>
+            <name xml:lang="en-GB">pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbkbaction/" rel="skos:inScheme"/>
         </concept>
@@ -87,6 +97,7 @@
         preferredalias="spbkbaction">
         <definition xml:lang="en-US">Types of basketball actions</definition>
         <name xml:lang="en-US">Basketball Actions</name>
+            <name xml:lang="en-GB">Basketball Actions</name>
         <related qcode="spbkbaction:shot" rel="skos:hasTopConcept"/>
         <related qcode="spbkbaction:rebound" rel="skos:hasTopConcept"/>
         <related qcode="spbkbaction:jump-ball" rel="skos:hasTopConcept"/>
@@ -95,6 +106,6 @@
         <related qcode="spbkbaction:foul" rel="skos:hasTopConcept"/>
         <related qcode="spbkbaction:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spbkbaction:pass" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

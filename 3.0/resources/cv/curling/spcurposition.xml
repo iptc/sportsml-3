@@ -27,45 +27,52 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15018000">
             <name xml:lang="en-US">curling</name>
+            <name xml:lang="en-GB">curling</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Curling player positions</description>
     </contentMeta>
     <conceptSet>
         <concept id="spcurpositionA">
-            <conceptId qcode="spcurposition:A"/>
+            <conceptId qcode="spcurposition:A" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">A</name>
+            <name xml:lang="en-GB">A</name>
             <definition>The player is a reserve for the team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition1">
-            <conceptId qcode="spcurposition:1"/>
+            <conceptId qcode="spcurposition:1" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">1</name>
+            <name xml:lang="en-GB">1</name>
             <definition>The player plays the first stones for the team. In a four player team the
                 player plays stones 1 and 2. If the team only has three players the first player
                 plays stones 1-3.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition2">
-            <conceptId qcode="spcurposition:2"/>
+            <conceptId qcode="spcurposition:2" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">2</name>
+            <name xml:lang="en-GB">2</name>
             <definition>The player plays second for the team, stones 3 and 4 when the team has four
                 players, stones 4-6 if a three player team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition3">
-            <conceptId qcode="spcurposition:3"/>
+            <conceptId qcode="spcurposition:3" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">3</name>
+            <name xml:lang="en-GB">3</name>
             <definition>The player plays third for the team, stones 5 and 6 if the team has four
                 players, the last two stones if a three player team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurposition4">
-            <conceptId qcode="spcurposition:4"/>
+            <conceptId qcode="spcurposition:4" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">4</name>
+            <name xml:lang="en-GB">4</name>
             <definition>The player plays the last two stones if the team has four
                 players.</definition>
             <related uri="http://cv.iptc.org/newscodes/spcurposition/" rel="skos:inScheme"/>
@@ -75,11 +82,12 @@
         preferredalias="spcurposition">
         <definition xml:lang="en-US">Curling player positions</definition>
         <name xml:lang="en-US">Curling Player Positions</name>
+            <name xml:lang="en-GB">Curling Player Positions</name>
         <related qcode="spcurposition:A" rel="skos:hasTopConcept"/>
         <related qcode="spcurposition:1" rel="skos:hasTopConcept"/>
         <related qcode="spcurposition:2" rel="skos:hasTopConcept"/>
         <related qcode="spcurposition:3" rel="skos:hasTopConcept"/>
         <related qcode="spcurposition:4" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

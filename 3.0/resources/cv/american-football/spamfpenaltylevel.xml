@@ -27,35 +27,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15003000">
             <name xml:lang="en-US">americanfootball</name>
+            <name xml:lang="en-GB">americanfootball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Levels of penalized infractions in American Football</description>
     </contentMeta>
     <conceptSet>
         <concept id="spamfpenaltyleveldelay-of-game">
-            <conceptId qcode="spamfpenaltylevel:delay-of-game"/>
+            <conceptId qcode="spamfpenaltylevel:delay-of-game" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">delay-of-game</name>
+            <name xml:lang="en-GB">delay-of-game</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpenaltylevelencroachment">
-            <conceptId qcode="spamfpenaltylevel:encroachment"/>
+            <conceptId qcode="spamfpenaltylevel:encroachment" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">encroachment</name>
+            <name xml:lang="en-GB">encroachment</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpenaltylevelfalse-start">
-            <conceptId qcode="spamfpenaltylevel:false-start"/>
+            <conceptId qcode="spamfpenaltylevel:false-start" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">false-start</name>
+            <name xml:lang="en-GB">false-start</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpenaltyleveloffside">
-            <conceptId qcode="spamfpenaltylevel:offside"/>
+            <conceptId qcode="spamfpenaltylevel:offside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">offside</name>
+            <name xml:lang="en-GB">offside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfpenaltylevel/" rel="skos:inScheme"/>
         </concept>
@@ -65,10 +71,11 @@
         preferredalias="spamfpenaltylevel">
         <definition xml:lang="en-US">Levels of penalized infractions in American Football</definition>
         <name xml:lang="en-US">American Football Penalty Levels</name>
+            <name xml:lang="en-GB">American Football Penalty Levels</name>
         <related qcode="spamfpenaltylevel:delay-of-game" rel="skos:hasTopConcept"/>
         <related qcode="spamfpenaltylevel:encroachment" rel="skos:hasTopConcept"/>
         <related qcode="spamfpenaltylevel:false-start" rel="skos:hasTopConcept"/>
         <related qcode="spamfpenaltylevel:offside" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

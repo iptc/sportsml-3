@@ -27,35 +27,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15007000">
             <name xml:lang="en-US">baseball</name>
+            <name xml:lang="en-GB">baseball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of baseball pitches</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbblpitchcurveball">
-            <conceptId qcode="spbblpitch:curveball"/>
+            <conceptId qcode="spbblpitch:curveball" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">curveball</name>
+            <name xml:lang="en-GB">curveball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpitchfastball">
-            <conceptId qcode="spbblpitch:fastball"/>
+            <conceptId qcode="spbblpitch:fastball" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">fastball</name>
+            <name xml:lang="en-GB">fastball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpitchslider">
-            <conceptId qcode="spbblpitch:slider"/>
+            <conceptId qcode="spbblpitch:slider" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">slider</name>
+            <name xml:lang="en-GB">slider</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpitchknuckleball">
-            <conceptId qcode="spbblpitch:knuckleball"/>
+            <conceptId qcode="spbblpitch:knuckleball" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">knuckleball</name>
+            <name xml:lang="en-GB">knuckleball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblpitch/" rel="skos:inScheme"/>
         </concept>
@@ -64,10 +70,11 @@
         preferredalias="spbblpitch">
         <definition xml:lang="en-US">Types of baseball pitches</definition>
         <name xml:lang="en-US">Baseball Pitch Types</name>
+            <name xml:lang="en-GB">Baseball Pitch Types</name>
         <related qcode="spbblpitch:curveball" rel="skos:hasTopConcept"/>
         <related qcode="spbblpitch:fastball" rel="skos:hasTopConcept"/>
         <related qcode="spbblpitch:slider" rel="skos:hasTopConcept"/>
         <related qcode="spbblpitch:knuckleball" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

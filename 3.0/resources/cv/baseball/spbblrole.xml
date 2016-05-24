@@ -27,65 +27,76 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15007000">
             <name xml:lang="en-US">baseball</name>
+            <name xml:lang="en-GB">baseball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Roles of Baseball players</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbblrolebatter">
-            <conceptId qcode="spbblrole:batter"/>
+            <conceptId qcode="spbblrole:batter" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">Batter</name>
+            <name xml:lang="en-GB">Batter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolepitcher">
-            <conceptId qcode="spbblrole:pitcher"/>
+            <conceptId qcode="spbblrole:pitcher" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">Pitcher</name>
+            <name xml:lang="en-GB">Pitcher</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolerunner-1">
-            <conceptId qcode="spbblrole:runner-1"/>
+            <conceptId qcode="spbblrole:runner-1" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">Runner on 1st</name>
+            <name xml:lang="en-GB">Runner on 1st</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolerunner-2">
-            <conceptId qcode="spbblrole:runner-2"/>
+            <conceptId qcode="spbblrole:runner-2" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">Runner on 2nd</name>
+            <name xml:lang="en-GB">Runner on 2nd</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolerunner-3">
-            <conceptId qcode="spbblrole:runner-3"/>
+            <conceptId qcode="spbblrole:runner-3" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">Runner on 3rd</name>
+            <name xml:lang="en-GB">Runner on 3rd</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolenext-batter">
-            <conceptId qcode="spbblrole:next-batter"/>
+            <conceptId qcode="spbblrole:next-batter" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">The next batter up</name>
+            <name xml:lang="en-GB">The next batter up</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblrolefielder">
-            <conceptId qcode="spbblrole:fielder"/>
+            <conceptId qcode="spbblrole:fielder" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">fielder</name>
+            <name xml:lang="en-GB">fielder</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblroleofficial">
-            <conceptId qcode="spbblrole:official"/>
+            <conceptId qcode="spbblrole:official" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">official</name>
+            <name xml:lang="en-GB">official</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblroleauxilliary">
-            <conceptId qcode="spbblrole:auxilliary"/>
+            <conceptId qcode="spbblrole:auxilliary" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">auxilliary</name>
+            <name xml:lang="en-GB">auxilliary</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblrole/" rel="skos:inScheme"/>
         </concept>
@@ -94,6 +105,7 @@
         preferredalias="spbblrole">
         <definition xml:lang="en-US">Roles of Baseball players</definition>
         <name xml:lang="en-US">Baseball Player Roles</name>
+            <name xml:lang="en-GB">Baseball Player Roles</name>
         <related qcode="spbblrole:batter" rel="skos:hasTopConcept"/>
         <related qcode="spbblrole:pitcher" rel="skos:hasTopConcept"/>
         <related qcode="spbblrole:runner-1" rel="skos:hasTopConcept"/>
@@ -103,6 +115,6 @@
         <related qcode="spbblrole:fielder" rel="skos:hasTopConcept"/>
         <related qcode="spbblrole:official" rel="skos:hasTopConcept"/>
         <related qcode="spbblrole:auxilliary" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

@@ -26,35 +26,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15047007">
             <name xml:lang="en-US">rugby</name>
+            <name xml:lang="en-GB">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of scoring in rugby.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprgxscoreattempttry">
-            <conceptId qcode="sprgxscoreattempt:try"/>
+            <conceptId qcode="sprgxscoreattempt:try" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">Try</name>
+            <name xml:lang="en-GB">Try</name>
             <definition>Score by grounding the ball in the in-goal area (between the goal line and the dead-ball line); worth 5 points.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptpenalty">
-            <conceptId qcode="sprgxscoreattempt:penalty"/>
+            <conceptId qcode="sprgxscoreattempt:penalty" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty</name>
+            <name xml:lang="en-GB">penalty</name>
             <definition>The score attempt is made as a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptdrop">
-            <conceptId qcode="sprgxscoreattempt:drop"/>
+            <conceptId qcode="sprgxscoreattempt:drop" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">drop</name>
+            <name xml:lang="en-GB">drop</name>
             <definition>The score attempt is made as a drop kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptconversion">
-            <conceptId qcode="sprgxscoreattempt:conversion"/>
+            <conceptId qcode="sprgxscoreattempt:conversion" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">conversion</name>
+            <name xml:lang="en-GB">conversion</name>
             <definition>The score attempt is made as a try conversion.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
@@ -63,10 +69,11 @@
         uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" preferredalias="sprgxscoreattempt">
         <definition xml:lang="en-US">Types of scoring in rugby.</definition>
         <name xml:lang="en-US">Rugby Score Types</name>
+            <name xml:lang="en-GB">Rugby Score Types</name>
         <related qcode="sprgxscoreattempt:try" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:penalty" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:drop" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattempt:conversion" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

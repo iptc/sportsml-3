@@ -27,151 +27,176 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Describes expected weather conditions for event.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spweatherpredictionrain">
-            <conceptId qcode="spweatherprediction:rain"/>
+            <conceptId qcode="spweatherprediction:rain" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">rain</name>
+            <name xml:lang="en-GB">rain</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionsunny">
-            <conceptId qcode="spweatherprediction:sunny"/>
+            <conceptId qcode="spweatherprediction:sunny" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">sunny</name>
+            <name xml:lang="en-GB">sunny</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionclear">
-            <conceptId qcode="spweatherprediction:clear"/>
+            <conceptId qcode="spweatherprediction:clear" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">clear</name>
+            <name xml:lang="en-GB">clear</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictioncloudy">
-            <conceptId qcode="spweatherprediction:cloudy"/>
+            <conceptId qcode="spweatherprediction:cloudy" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">cloudy</name>
+            <name xml:lang="en-GB">cloudy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionwindy">
-            <conceptId qcode="spweatherprediction:windy"/>
+            <conceptId qcode="spweatherprediction:windy" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">windy</name>
+            <name xml:lang="en-GB">windy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionwindy">
-            <conceptId qcode="spweatherprediction:windy"/>
+            <conceptId qcode="spweatherprediction:windy" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">windy</name>
+            <name xml:lang="en-GB">windy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-fair">
-            <conceptId qcode="spweatherprediction:mostly-fair"/>
+            <conceptId qcode="spweatherprediction:mostly-fair" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-fair</name>
+            <name xml:lang="en-GB">mostly-fair</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionsnow">
-            <conceptId qcode="spweatherprediction:snow"/>
+            <conceptId qcode="spweatherprediction:snow" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">snow</name>
+            <name xml:lang="en-GB">snow</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionshowers">
-            <conceptId qcode="spweatherprediction:showers"/>
+            <conceptId qcode="spweatherprediction:showers" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">showers</name>
+            <name xml:lang="en-GB">showers</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-cloudy,rain">
-            <conceptId qcode="spweatherprediction:mostly-cloudy,rain"/>
+            <conceptId qcode="spweatherprediction:mostly-cloudy,rain" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-cloudy,rain</name>
+            <name xml:lang="en-GB">mostly-cloudy,rain</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-sunny,rain">
-            <conceptId qcode="spweatherprediction:partly-sunny,rain"/>
+            <conceptId qcode="spweatherprediction:partly-sunny,rain" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-sunny,rain</name>
+            <name xml:lang="en-GB">partly-sunny,rain</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-cloudy,rain">
-            <conceptId qcode="spweatherprediction:partly-cloudy,rain"/>
+            <conceptId qcode="spweatherprediction:partly-cloudy,rain" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-cloudy,rain</name>
+            <name xml:lang="en-GB">partly-cloudy,rain</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-cloudy,snow">
-            <conceptId qcode="spweatherprediction:mostly-cloudy,snow"/>
+            <conceptId qcode="spweatherprediction:mostly-cloudy,snow" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-cloudy,snow</name>
+            <name xml:lang="en-GB">mostly-cloudy,snow</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-sunny,snow">
-            <conceptId qcode="spweatherprediction:partly-sunny,snow"/>
+            <conceptId qcode="spweatherprediction:partly-sunny,snow" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-sunny,snow</name>
+            <name xml:lang="en-GB">partly-sunny,snow</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-cloudy,snow">
-            <conceptId qcode="spweatherprediction:partly-cloudy,snow"/>
+            <conceptId qcode="spweatherprediction:partly-cloudy,snow" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-cloudy,snow</name>
+            <name xml:lang="en-GB">partly-cloudy,snow</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-cloudy,showers">
-            <conceptId qcode="spweatherprediction:mostly-cloudy,showers"/>
+            <conceptId qcode="spweatherprediction:mostly-cloudy,showers" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-cloudy,showers</name>
+            <name xml:lang="en-GB">mostly-cloudy,showers</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-sunny,showers">
-            <conceptId qcode="spweatherprediction:partly-sunny,showers"/>
+            <conceptId qcode="spweatherprediction:partly-sunny,showers" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-sunny,showers</name>
+            <name xml:lang="en-GB">partly-sunny,showers</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-cloudy,showers">
-            <conceptId qcode="spweatherprediction:partly-cloudy,showers"/>
+            <conceptId qcode="spweatherprediction:partly-cloudy,showers" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-cloudy,showers</name>
+            <name xml:lang="en-GB">partly-cloudy,showers</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-cloudy">
-            <conceptId qcode="spweatherprediction:partly-cloudy"/>
+            <conceptId qcode="spweatherprediction:partly-cloudy" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-cloudy</name>
+            <name xml:lang="en-GB">partly-cloudy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionpartly-sunny">
-            <conceptId qcode="spweatherprediction:partly-sunny"/>
+            <conceptId qcode="spweatherprediction:partly-sunny" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">partly-sunny</name>
+            <name xml:lang="en-GB">partly-sunny</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-cloudy">
-            <conceptId qcode="spweatherprediction:mostly-cloudy"/>
+            <conceptId qcode="spweatherprediction:mostly-cloudy" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-cloudy</name>
+            <name xml:lang="en-GB">mostly-cloudy</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-sunny">
-            <conceptId qcode="spweatherprediction:mostly-sunny"/>
+            <conceptId qcode="spweatherprediction:mostly-sunny" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-sunny</name>
+            <name xml:lang="en-GB">mostly-sunny</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionmostly-clear">
-            <conceptId qcode="spweatherprediction:mostly-clear"/>
+            <conceptId qcode="spweatherprediction:mostly-clear" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">mostly-clear</name>
+            <name xml:lang="en-GB">mostly-clear</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spweatherpredictionindoor-play">
-            <conceptId qcode="spweatherprediction:indoor-play"/>
+            <conceptId qcode="spweatherprediction:indoor-play" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">indoor-play</name>
+            <name xml:lang="en-GB">indoor-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spweatherprediction/" rel="skos:inScheme"/>
         </concept>
@@ -180,6 +205,7 @@
         uri="http://cv.iptc.org/newscodes/spweatherprediction/" preferredalias="spweatherprediction">
         <definition xml:lang="en-US">Describes expected weather conditions for event.</definition>
         <name xml:lang="en-US">Weather Terms</name>
+            <name xml:lang="en-GB">Weather Terms</name>
         <related qcode="spweatherprediction:rain" rel="skos:hasTopConcept"/>
         <related qcode="spweatherprediction:sunny" rel="skos:hasTopConcept"/>
         <related qcode="spweatherprediction:clear" rel="skos:hasTopConcept"/>
@@ -204,6 +230,6 @@
         <related qcode="spweatherprediction:mostly-sunny" rel="skos:hasTopConcept"/>
         <related qcode="spweatherprediction:mostly-clear" rel="skos:hasTopConcept"/>
         <related qcode="spweatherprediction:indoor-play" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

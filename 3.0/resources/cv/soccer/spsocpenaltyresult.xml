@@ -26,42 +26,49 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="en-GB">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Results of penalties in soccer.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spsocpenaltyresultplay-on">
-            <conceptId qcode="spsocpenaltyresult:play-on"/>
+            <conceptId qcode="spsocpenaltyresult:play-on" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">play-on</name>
+            <name xml:lang="en-GB">play-on</name>
             <definition>Fouled team has advantage of the ball and is allowed to play
                 on.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyresultfreekick">
-            <conceptId qcode="spsocpenaltyresult:freekick"/>
+            <conceptId qcode="spsocpenaltyresult:freekick" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">freekick</name>
+            <name xml:lang="en-GB">freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyresultindirect-freekick">
-            <conceptId qcode="spsocpenaltyresult:indirect-freekick"/>
+            <conceptId qcode="spsocpenaltyresult:indirect-freekick" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">indirect-freekick</name>
+            <name xml:lang="en-GB">indirect-freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyresultdirect-freekick">
-            <conceptId qcode="spsocpenaltyresult:direct-freekick"/>
+            <conceptId qcode="spsocpenaltyresult:direct-freekick" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">direct-freekick</name>
+            <name xml:lang="en-GB">direct-freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyresultpenalty-shot">
-            <conceptId qcode="spsocpenaltyresult:penalty-shot"/>
+            <conceptId qcode="spsocpenaltyresult:penalty-shot" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-shot</name>
+            <name xml:lang="en-GB">penalty-shot</name>
             <definition>The foul occured in the penalty-shot area so the fouled team is awarded a
                 penalty-shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltyresult/" rel="skos:inScheme"/>
@@ -72,11 +79,12 @@
         preferredalias="spsocpenaltyresult">
         <definition xml:lang="en-US">Results of penalties in soccer.</definition>
         <name xml:lang="en-US">Soccer Penalty Results</name>
+            <name xml:lang="en-GB">Soccer Penalty Results</name>
         <related qcode="spsocpenaltyresult:play-on" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenaltyresult:freekick" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenaltyresult:indirect-freekick" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenaltyresult:direct-freekick" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenaltyresult:penalty-shot" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

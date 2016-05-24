@@ -26,73 +26,84 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="en-GB">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Methods of soccer scoring used by a player.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spsocscoreattemptmethodhead">
-            <conceptId qcode="spsocscoreattemptmethod:head"/>
+            <conceptId qcode="spsocscoreattemptmethod:head" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">head</name>
+            <name xml:lang="en-GB">head</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodbicycle-kick">
-            <conceptId qcode="spsocscoreattemptmethod:bicycle-kick"/>
+            <conceptId qcode="spsocscoreattemptmethod:bicycle-kick" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">bicycle-kick</name>
+            <name xml:lang="en-GB">bicycle-kick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodlob">
-            <conceptId qcode="spsocscoreattemptmethod:lob"/>
+            <conceptId qcode="spsocscoreattemptmethod:lob" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">lob</name>
+            <name xml:lang="en-GB">lob</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodchip">
-            <conceptId qcode="spsocscoreattemptmethod:chip"/>
+            <conceptId qcode="spsocscoreattemptmethod:chip" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">chip</name>
+            <name xml:lang="en-GB">chip</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodfoot">
-            <conceptId qcode="spsocscoreattemptmethod:foot"/>
+            <conceptId qcode="spsocscoreattemptmethod:foot" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">foot</name>
+            <name xml:lang="en-GB">foot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodchest">
-            <conceptId qcode="spsocscoreattemptmethod:chest"/>
+            <conceptId qcode="spsocscoreattemptmethod:chest" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">chest</name>
+            <name xml:lang="en-GB">chest</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodknee">
-            <conceptId qcode="spsocscoreattemptmethod:knee"/>
+            <conceptId qcode="spsocscoreattemptmethod:knee" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">knee</name>
+            <name xml:lang="en-GB">knee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodthigh">
-            <conceptId qcode="spsocscoreattemptmethod:thigh"/>
+            <conceptId qcode="spsocscoreattemptmethod:thigh" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">thigh</name>
+            <name xml:lang="en-GB">thigh</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptmethodback">
-            <conceptId qcode="spsocscoreattemptmethod:back"/>
+            <conceptId qcode="spsocscoreattemptmethod:back" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">back</name>
+            <name xml:lang="en-GB">back</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptmethod/" rel="skos:inScheme"
             />
@@ -103,6 +114,7 @@
         preferredalias="spsocscoreattemptmethod">
         <definition xml:lang="en-US">Methods of soccer scoring used by a player.</definition>
         <name xml:lang="en-US">Soccer Scoring Methods</name>
+            <name xml:lang="en-GB">Soccer Scoring Methods</name>
         <related qcode="spsocscoreattemptmethod:head" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptmethod:bicycle-kick" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptmethod:lob" rel="skos:hasTopConcept"/>
@@ -112,6 +124,6 @@
         <related qcode="spsocscoreattemptmethod:knee" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptmethod:thigh" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptmethod:back" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

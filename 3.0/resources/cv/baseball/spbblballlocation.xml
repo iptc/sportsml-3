@@ -27,35 +27,41 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15007000">
             <name xml:lang="en-US">baseball</name>
+            <name xml:lang="en-GB">baseball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Location of baseball pitches</description>
     </contentMeta>
     <conceptSet>
         <concept id="spbblballlocationhigh">
-            <conceptId qcode="spbblballlocation:high"/>
+            <conceptId qcode="spbblballlocation:high" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">high</name>
+            <name xml:lang="en-GB">high</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationlow">
-            <conceptId qcode="spbblballlocation:low"/>
+            <conceptId qcode="spbblballlocation:low" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">low</name>
+            <name xml:lang="en-GB">low</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationinside">
-            <conceptId qcode="spbblballlocation:inside"/>
+            <conceptId qcode="spbblballlocation:inside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">inside</name>
+            <name xml:lang="en-GB">inside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblballlocationoutside">
-            <conceptId qcode="spbblballlocation:outside"/>
+            <conceptId qcode="spbblballlocation:outside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">outside</name>
+            <name xml:lang="en-GB">outside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spbblballlocation/" rel="skos:inScheme"/>
         </concept>
@@ -64,10 +70,11 @@
         uri="http://cv.iptc.org/newscodes/spbblballlocation/" preferredalias="spbblballlocation">
         <definition xml:lang="en-US">Location of baseball pitches</definition>
         <name xml:lang="en-US">Baseball Pitch Location</name>
+            <name xml:lang="en-GB">Baseball Pitch Location</name>
         <related qcode="spbblballlocation:high" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocation:low" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocation:inside" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocation:outside" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

@@ -26,43 +26,50 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>The type of streak of team or player: win, loss, etc.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spstreaktypewin">
-            <conceptId qcode="spstreaktype:win"/>
+            <conceptId qcode="spstreaktype:win" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">win</name>
+            <name xml:lang="en-GB">win</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypeloss">
-            <conceptId qcode="spstreaktype:loss"/>
+            <conceptId qcode="spstreaktype:loss" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">loss</name>
+            <name xml:lang="en-GB">loss</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypetie">
-            <conceptId qcode="spstreaktype:tie"/>
+            <conceptId qcode="spstreaktype:tie" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tie</name>
+            <name xml:lang="en-GB">tie</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypescore">
-            <conceptId qcode="spstreaktype:score"/>
+            <conceptId qcode="spstreaktype:score" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">score</name>
+            <name xml:lang="en-GB">score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypeassist">
-            <conceptId qcode="spstreaktype:assist"/>
+            <conceptId qcode="spstreaktype:assist" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">assist</name>
+            <name xml:lang="en-GB">assist</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstreaktypepoint">
-            <conceptId qcode="spstreaktype:point"/>
+            <conceptId qcode="spstreaktype:point" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">point</name>
+            <name xml:lang="en-GB">point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstreaktype/" rel="skos:inScheme"/>
         </concept>
@@ -72,12 +79,13 @@
         <definition xml:lang="en-US">The type of streak of team or player: win, loss,
             etc.</definition>
         <name xml:lang="en-US">Streak Type</name>
+            <name xml:lang="en-GB">Streak Type</name>
         <related qcode="spstreaktype:win" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:loss" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:tie" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:score" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:assist" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:point" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

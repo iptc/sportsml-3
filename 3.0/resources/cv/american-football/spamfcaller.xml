@@ -27,23 +27,27 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15003000">
             <name xml:lang="en-US">americanfootball</name>
+            <name xml:lang="en-GB">americanfootball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Requestor of time out in American Football</description>
     </contentMeta>
     <conceptSet>
         <concept id="spamfcallerteam">
-            <conceptId qcode="spamfcaller:team"/>
+            <conceptId qcode="spamfcaller:team" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">team</name>
+            <name xml:lang="en-GB">team</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfcaller/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfcallerofficial">
-            <conceptId qcode="spamfcaller:official"/>
+            <conceptId qcode="spamfcaller:official" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">official</name>
+            <name xml:lang="en-GB">official</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfcaller/" rel="skos:inScheme"/>
         </concept>
@@ -52,8 +56,9 @@
         preferredalias="spamfcaller">
         <definition xml:lang="en-US">Requestor of time out in American Football</definition>
         <name xml:lang="en-US">American Football time-out Caller</name>
+            <name xml:lang="en-GB">American Football time-out Caller</name>
         <related qcode="spamfcaller:team" rel="skos:hasTopConcept"/>
         <related qcode="spamfcaller:official" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

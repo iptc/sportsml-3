@@ -27,45 +27,51 @@
 		</creator>
 		<subject qcode="subj:15000000">
 			<name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
 		</subject>
 		<description>The format type of tournament or tournament phase: group, elimination, etc.</description>
 	</contentMeta>
 	<conceptSet>
 		<concept id="sptournamentformhosted">
-			<conceptId qcode="sptournamentform:hosted"/>
+			<conceptId qcode="sptournamentform:hosted" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">hosted</name>
+            <name xml:lang="en-GB">hosted</name>
 			<definition>For a tournament that holds stages in different locations. Eg. different
 				host cities/countries for PGA, FIS, Diamond League (IAAF) and even Tour de
 				France</definition>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentformsingle-group">
-			<conceptId qcode="sptournamentform:single-group"/>
+			<conceptId qcode="sptournamentform:single-group" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">single-group</name>
+            <name xml:lang="en-GB">single-group</name>
 			<definition>The stage involves only a single group of competitors. For example Italian
 				Serie A where teams vie for placement in the league table. Also, a single group
 				competition in a multi-group stage, such as the World Cup group stage.</definition>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentformseries">
-			<conceptId qcode="sptournamentform:series"/>
+			<conceptId qcode="sptournamentform:series" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">series</name>
+            <name xml:lang="en-GB">series</name>
 			<definition>A stage in which two competitors face off in a series of games (eg. best 3
 				of 5) the winner of which proceeds to the next stage, or wins the
 				tournament.</definition>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentformsingle-elimination">
-			<conceptId qcode="sptournamentform:single-elimination"/>
+			<conceptId qcode="sptournamentform:single-elimination" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">single-elimination</name>
+            <name xml:lang="en-GB">single-elimination</name>
 			<definition>A stage in which two competitors face off in a single match to determine who
 				proceeds to the next stage, or wins the tournament. Eg. elimination stage of World
 				Cup of Soccer or NFL playoffs.</definition>
 			<related uri="http://cv.iptc.org/newscodes/sptournamentform/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="sptournamentformhome-and-home">
-			<conceptId qcode="sptournamentform:home-and-home"/>
+			<conceptId qcode="sptournamentform:home-and-home" created="2016-05-01T00:00:00+00:00"/>
 			<name xml:lang="en-US">home-and-home</name>
+            <name xml:lang="en-GB">home-and-home</name>
 			<definition>A stage in which two competitors face off in a two matches (or legs) at each
 				team's home location. The overall winner proceeds ahead. Usually culiminates in a
 				single-elimination match at a neutral location i.e. UEFA Champions
@@ -77,11 +83,12 @@
 		preferredalias="sptournamentform">
 		<definition xml:lang="en-US">The format type of tournament or tournament phase: group, elimination, etc.</definition>
 		<name xml:lang="en-US">Tournament Format Type</name>
+            <name xml:lang="en-GB">Tournament Format Type</name>
 		<related qcode="sptournamentform:hosted" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:single-group" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:series" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:single-elimination" rel="skos:hasTopConcept"/>
 		<related qcode="sptournamentform:home-and-home" rel="skos:hasTopConcept"/>
-		<schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+		<schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
 	</schemeMeta>
 </knowledgeItem>

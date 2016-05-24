@@ -27,293 +27,342 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15003000">
             <name xml:lang="en-US">americanfootball</name>
+            <name xml:lang="en-GB">americanfootball</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Player positions in american football</description>
     </contentMeta>
     <conceptSet>
         <concept id="spamfpositioncenter">
-            <conceptId qcode="spamfposition:center"/>
+            <conceptId qcode="spamfposition:center" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">center</name>
+            <name xml:lang="en-GB">center</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionguard">
-            <conceptId qcode="spamfposition:guard"/>
+            <conceptId qcode="spamfposition:guard" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">guard</name>
+            <name xml:lang="en-GB">guard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiontackle-offensive">
-            <conceptId qcode="spamfposition:tackle-offensive"/>
+            <conceptId qcode="spamfposition:tackle-offensive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tackle-offensive</name>
+            <name xml:lang="en-GB">tackle-offensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiontight-end">
-            <conceptId qcode="spamfposition:tight-end"/>
+            <conceptId qcode="spamfposition:tight-end" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tight-end</name>
+            <name xml:lang="en-GB">tight-end</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionwide-receiver">
-            <conceptId qcode="spamfposition:wide-receiver"/>
+            <conceptId qcode="spamfposition:wide-receiver" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">wide-receiver</name>
+            <name xml:lang="en-GB">wide-receiver</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionfullback">
-            <conceptId qcode="spamfposition:fullback"/>
+            <conceptId qcode="spamfposition:fullback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">fullback</name>
+            <name xml:lang="en-GB">fullback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionrunning-back">
-            <conceptId qcode="spamfposition:running-back"/>
+            <conceptId qcode="spamfposition:running-back" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">running-back</name>
+            <name xml:lang="en-GB">running-back</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiontail-back">
-            <conceptId qcode="spamfposition:tail-back"/>
+            <conceptId qcode="spamfposition:tail-back" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tail-back</name>
+            <name xml:lang="en-GB">tail-back</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionh-back">
-            <conceptId qcode="spamfposition:h-back"/>
+            <conceptId qcode="spamfposition:h-back" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">h-back</name>
+            <name xml:lang="en-GB">h-back</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionhalfback">
-            <conceptId qcode="spamfposition:halfback"/>
+            <conceptId qcode="spamfposition:halfback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">halfback</name>
+            <name xml:lang="en-GB">halfback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionwingback">
-            <conceptId qcode="spamfposition:wingback"/>
+            <conceptId qcode="spamfposition:wingback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">wingback</name>
+            <name xml:lang="en-GB">wingback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionslotback">
-            <conceptId qcode="spamfposition:slotback"/>
+            <conceptId qcode="spamfposition:slotback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">slotback</name>
+            <name xml:lang="en-GB">slotback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionquarterback">
-            <conceptId qcode="spamfposition:quarterback"/>
+            <conceptId qcode="spamfposition:quarterback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">quarterback</name>
+            <name xml:lang="en-GB">quarterback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiondefensive-end">
-            <conceptId qcode="spamfposition:defensive-end"/>
+            <conceptId qcode="spamfposition:defensive-end" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">defensive-end</name>
+            <name xml:lang="en-GB">defensive-end</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiontackle-defensive">
-            <conceptId qcode="spamfposition:tackle-defensive"/>
+            <conceptId qcode="spamfposition:tackle-defensive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tackle-defensive</name>
+            <name xml:lang="en-GB">tackle-defensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionguard-defensive">
-            <conceptId qcode="spamfposition:guard-defensive"/>
+            <conceptId qcode="spamfposition:guard-defensive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">guard-defensive</name>
+            <name xml:lang="en-GB">guard-defensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionnose-tackle">
-            <conceptId qcode="spamfposition:nose-tackle"/>
+            <conceptId qcode="spamfposition:nose-tackle" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">nose-tackle</name>
+            <name xml:lang="en-GB">nose-tackle</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlinebacker-outside">
-            <conceptId qcode="spamfposition:linebacker-outside"/>
+            <conceptId qcode="spamfposition:linebacker-outside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">linebacker-outside</name>
+            <name xml:lang="en-GB">linebacker-outside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlinebacker-middle">
-            <conceptId qcode="spamfposition:linebacker-middle"/>
+            <conceptId qcode="spamfposition:linebacker-middle" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">linebacker-middle</name>
+            <name xml:lang="en-GB">linebacker-middle</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlinebacker-inside">
-            <conceptId qcode="spamfposition:linebacker-inside"/>
+            <conceptId qcode="spamfposition:linebacker-inside" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">linebacker-inside</name>
+            <name xml:lang="en-GB">linebacker-inside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositioncornerback">
-            <conceptId qcode="spamfposition:cornerback"/>
+            <conceptId qcode="spamfposition:cornerback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">cornerback</name>
+            <name xml:lang="en-GB">cornerback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionnickelback">
-            <conceptId qcode="spamfposition:nickelback"/>
+            <conceptId qcode="spamfposition:nickelback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">nickelback</name>
+            <name xml:lang="en-GB">nickelback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiondimeback">
-            <conceptId qcode="spamfposition:dimeback"/>
+            <conceptId qcode="spamfposition:dimeback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">dimeback</name>
+            <name xml:lang="en-GB">dimeback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiondefensive-quarterback">
-            <conceptId qcode="spamfposition:defensive-quarterback"/>
+            <conceptId qcode="spamfposition:defensive-quarterback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">defensive-quarterback</name>
+            <name xml:lang="en-GB">defensive-quarterback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiondefensive-halfback">
-            <conceptId qcode="spamfposition:defensive-halfback"/>
+            <conceptId qcode="spamfposition:defensive-halfback" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">defensive-halfback</name>
+            <name xml:lang="en-GB">defensive-halfback</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionsafety-free">
-            <conceptId qcode="spamfposition:safety-free"/>
+            <conceptId qcode="spamfposition:safety-free" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">safety-free</name>
+            <name xml:lang="en-GB">safety-free</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionsafety-strong">
-            <conceptId qcode="spamfposition:safety-strong"/>
+            <conceptId qcode="spamfposition:safety-strong" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">safety-strong</name>
+            <name xml:lang="en-GB">safety-strong</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionkicker">
-            <conceptId qcode="spamfposition:kicker"/>
+            <conceptId qcode="spamfposition:kicker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">kicker</name>
+            <name xml:lang="en-GB">kicker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionpunter">
-            <conceptId qcode="spamfposition:punter"/>
+            <conceptId qcode="spamfposition:punter" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">punter</name>
+            <name xml:lang="en-GB">punter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionkickoff-returner">
-            <conceptId qcode="spamfposition:kickoff-returner"/>
+            <conceptId qcode="spamfposition:kickoff-returner" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">kickoff-returner</name>
+            <name xml:lang="en-GB">kickoff-returner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionpunt-returner">
-            <conceptId qcode="spamfposition:punt-returner"/>
+            <conceptId qcode="spamfposition:punt-returner" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">punt-returner</name>
+            <name xml:lang="en-GB">punt-returner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlong-snapper">
-            <conceptId qcode="spamfposition:long-snapper"/>
+            <conceptId qcode="spamfposition:long-snapper" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">long-snapper</name>
+            <name xml:lang="en-GB">long-snapper</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionholder">
-            <conceptId qcode="spamfposition:holder"/>
+            <conceptId qcode="spamfposition:holder" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">holder</name>
+            <name xml:lang="en-GB">holder</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlineman-offensive">
-            <conceptId qcode="spamfposition:lineman-offensive"/>
+            <conceptId qcode="spamfposition:lineman-offensive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">lineman-offensive</name>
+            <name xml:lang="en-GB">lineman-offensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlineman-defensive">
-            <conceptId qcode="spamfposition:lineman-defensive"/>
+            <conceptId qcode="spamfposition:lineman-defensive" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">lineman-defensive</name>
+            <name xml:lang="en-GB">lineman-defensive</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositiondefensive-back">
-            <conceptId qcode="spamfposition:defensive-back"/>
+            <conceptId qcode="spamfposition:defensive-back" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">defensive-back</name>
+            <name xml:lang="en-GB">defensive-back</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionsafety">
-            <conceptId qcode="spamfposition:safety"/>
+            <conceptId qcode="spamfposition:safety" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">safety</name>
+            <name xml:lang="en-GB">safety</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlinebacker">
-            <conceptId qcode="spamfposition:linebacker"/>
+            <conceptId qcode="spamfposition:linebacker" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">linebacker</name>
+            <name xml:lang="en-GB">linebacker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionkick-returner">
-            <conceptId qcode="spamfposition:kick-returner"/>
+            <conceptId qcode="spamfposition:kick-returner" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">kick-returner</name>
+            <name xml:lang="en-GB">kick-returner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionreferee">
-            <conceptId qcode="spamfposition:referee"/>
+            <conceptId qcode="spamfposition:referee" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">referee</name>
+            <name xml:lang="en-GB">referee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionlinesman">
-            <conceptId qcode="spamfposition:linesman"/>
+            <conceptId qcode="spamfposition:linesman" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">linesman</name>
+            <name xml:lang="en-GB">linesman</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionline-judge">
-            <conceptId qcode="spamfposition:line-judge"/>
+            <conceptId qcode="spamfposition:line-judge" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">line-judge</name>
+            <name xml:lang="en-GB">line-judge</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionback-judge">
-            <conceptId qcode="spamfposition:back-judge"/>
+            <conceptId qcode="spamfposition:back-judge" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">back-judge</name>
+            <name xml:lang="en-GB">back-judge</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionside-judge">
-            <conceptId qcode="spamfposition:side-judge"/>
+            <conceptId qcode="spamfposition:side-judge" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">side-judge</name>
+            <name xml:lang="en-GB">side-judge</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionfield-judge">
-            <conceptId qcode="spamfposition:field-judge"/>
+            <conceptId qcode="spamfposition:field-judge" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">field-judge</name>
+            <name xml:lang="en-GB">field-judge</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositioncoach">
-            <conceptId qcode="spamfposition:coach"/>
+            <conceptId qcode="spamfposition:coach" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">coach</name>
+            <name xml:lang="en-GB">coach</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfpositionassistant-coach">
-            <conceptId qcode="spamfposition:assistant-coach"/>
+            <conceptId qcode="spamfposition:assistant-coach" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">assistant-coach</name>
+            <name xml:lang="en-GB">assistant-coach</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfposition/" rel="skos:inScheme"/>
         </concept>
@@ -322,6 +371,7 @@
         preferredalias="spamfposition">
         <definition xml:lang="en-US">Player positions in american football</definition>
         <name xml:lang="en-US">American Football Positions</name>
+            <name xml:lang="en-GB">American Football Positions</name>
         <related qcode="spamfposition:center" rel="skos:hasTopConcept"/>
         <related qcode="spamfposition:guard" rel="skos:hasTopConcept"/>
         <related qcode="spamfposition:tackle-offensive" rel="skos:hasTopConcept"/>
@@ -369,6 +419,6 @@
         <related qcode="spamfposition:field-judge" rel="skos:hasTopConcept"/>
         <related qcode="spamfposition:coach" rel="skos:hasTopConcept"/>
         <related qcode="spamfposition:assistant-coach" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

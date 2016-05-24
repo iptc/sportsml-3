@@ -27,14 +27,16 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>The reason for the event status. Eg. why the cancellation, postponement,
             etc.</description>
     </contentMeta>
     <conceptSet>
         <concept id="speventstatusreasonwithdrawal">
-            <conceptId qcode="speventstatusreason:withdrawal"/>
+            <conceptId qcode="speventstatusreason:withdrawal" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">withdrawal</name>
+            <name xml:lang="en-GB">withdrawal</name>
             <definition>A forfeited or canceled event because a participant withdrew.</definition>
             <related uri="http://cv.iptc.org/newscodes/speventstatusreason/" rel="skos:inScheme"/>
         </concept>
@@ -44,7 +46,8 @@
         <definition xml:lang="en-US">The reason for the event status. Eg. why the cancellation,
             postponement, etc.</definition>
         <name xml:lang="en-US">Event Status Reason</name>
+            <name xml:lang="en-GB">Event Status Reason</name>
         <related qcode="speventstatusreason:withdrawal" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

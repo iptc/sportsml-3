@@ -26,47 +26,55 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15018000">
             <name xml:lang="en-US">curling</name>
+            <name xml:lang="en-GB">curling</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Curling shot result scores</description>
     </contentMeta>
     <conceptSet>
         <concept id="spcurresult0">
-            <conceptId qcode="spcurresult:0"/>
+            <conceptId qcode="spcurresult:0" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">0</name>
+            <name xml:lang="en-GB">0</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult25">
-            <conceptId qcode="spcurresult:25"/>
+            <conceptId qcode="spcurresult:25" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">25</name>
+            <name xml:lang="en-GB">25</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult50">
-            <conceptId qcode="spcurresult:50"/>
+            <conceptId qcode="spcurresult:50" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">50</name>
+            <name xml:lang="en-GB">50</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult75">
-            <conceptId qcode="spcurresult:75"/>
+            <conceptId qcode="spcurresult:75" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">75</name>
+            <name xml:lang="en-GB">75</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult100">
-            <conceptId qcode="spcurresult:100"/>
+            <conceptId qcode="spcurresult:100" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">100</name>
+            <name xml:lang="en-GB">100</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spcurresult125">
-            <conceptId qcode="spcurresult:125"/>
+            <conceptId qcode="spcurresult:125" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">125</name>
+            <name xml:lang="en-GB">125</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spcurresult/" rel="skos:inScheme"/>
         </concept>
@@ -75,12 +83,13 @@
         preferredalias="spcurresult">
         <definition xml:lang="en-US">Curling shot result scores</definition>
         <name xml:lang="en-US">Curling Shot Results</name>
+            <name xml:lang="en-GB">Curling Shot Results</name>
         <related qcode="spcurresult:0" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:25" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:50" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:75" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:100" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:125" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

@@ -27,25 +27,29 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Reasons for change in status of player/athlete</description>
     </contentMeta>
     <conceptSet>
         <concept id="spstatuschangeinjury">
-            <conceptId qcode="spstatuschange:injury"/>
+            <conceptId qcode="spstatuschange:injury" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">injury</name>
+            <name xml:lang="en-GB">injury</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatuschangetrade">
-            <conceptId qcode="spstatuschange:trade"/>
+            <conceptId qcode="spstatuschange:trade" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">trade</name>
+            <name xml:lang="en-GB">trade</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatuschangecut">
-            <conceptId qcode="spstatuschange:cut"/>
+            <conceptId qcode="spstatuschange:cut" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">cut</name>
+            <name xml:lang="en-GB">cut</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
@@ -54,9 +58,10 @@
         preferredalias="spstatuschange">
         <definition xml:lang="en-US">Reasons for change in status of player/athlete</definition>
         <name xml:lang="en-US">Status Change</name>
+            <name xml:lang="en-GB">Status Change</name>
         <related qcode="spstatuschange:injury" rel="skos:hasTopConcept"/>
         <related qcode="spstatuschange:trade" rel="skos:hasTopConcept"/>
         <related qcode="spstatuschange:cut" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

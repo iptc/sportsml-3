@@ -26,50 +26,58 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15031000">
             <name xml:lang="en-US">ice-hockey</name>
+            <name xml:lang="en-GB">ice-hockey</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of scoring in ice-hockey.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spichscoreattemptregular">
-            <conceptId qcode="spichscoreattempt:regular"/>
+            <conceptId qcode="spichscoreattempt:regular" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">regular</name>
+            <name xml:lang="en-GB">regular</name>
             <definition>Occurs while both teams have an equal number of players on the
                 ice.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptpenalty-shot">
-            <conceptId qcode="spichscoreattempt:penalty-shot"/>
+            <conceptId qcode="spichscoreattempt:penalty-shot" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-shot</name>
+            <name xml:lang="en-GB">penalty-shot</name>
             <definition>Occurs while shooting player is taking a penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptempty-net">
-            <conceptId qcode="spichscoreattempt:empty-net"/>
+            <conceptId qcode="spichscoreattempt:empty-net" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">empty-net</name>
+            <name xml:lang="en-GB">empty-net</name>
             <definition>Occurs when shot is taken on net vacated by goalie who has been replaced on
                 the ice by a non-goalie.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptshootout">
-            <conceptId qcode="spichscoreattempt:shootout"/>
+            <conceptId qcode="spichscoreattempt:shootout" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">shootout</name>
+            <name xml:lang="en-GB">shootout</name>
             <definition>Occurs when a shot is taken during a game-ending shootout
                 situation.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptown-goal">
-            <conceptId qcode="spichscoreattempt:own-goal"/>
+            <conceptId qcode="spichscoreattempt:own-goal" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">own-goal</name>
+            <name xml:lang="en-GB">own-goal</name>
             <definition>Occurs when shot is inadvertantly scored into the wrong goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptawarded">
-            <conceptId qcode="spichscoreattempt:awarded"/>
+            <conceptId qcode="spichscoreattempt:awarded" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">awarded</name>
+            <name xml:lang="en-GB">awarded</name>
             <definition>Occurs when own-goals are not awarded and not opponent has contact with
                 puck. Goal is awarded to non-participant on opposing team of actual
                 scorer.</definition>
@@ -80,12 +88,13 @@
         uri="http://cv.iptc.org/newscodes/spichscoreattempt/" preferredalias="spichscoreattempt">
         <definition xml:lang="en-US">Types of scoring in ice-hockey.</definition>
         <name xml:lang="en-US">Ice Hockey Score Types</name>
+            <name xml:lang="en-GB">Ice Hockey Score Types</name>
         <related qcode="spichscoreattempt:regular" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:penalty-shot" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:empty-net" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:shootout" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:own-goal" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:awarded" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

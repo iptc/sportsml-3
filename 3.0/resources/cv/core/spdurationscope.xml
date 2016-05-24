@@ -26,26 +26,30 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Variations on standard duration of sporting events</description>
     </contentMeta>
     <conceptSet>
         <concept id="spdurationscopeevents-all">
-            <conceptId qcode="spdurationscope:events-all"/>
+            <conceptId qcode="spdurationscope:events-all" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">events-all</name>
+            <name xml:lang="en-GB">events-all</name>
             <definition>Every event played, including overtime games, the most recent ones, etc. The
                 default option.</definition>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdurationscopeevents-overtime">
-            <conceptId qcode="spdurationscope:events-overtime"/>
+            <conceptId qcode="spdurationscope:events-overtime" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">events-overtime</name>
+            <name xml:lang="en-GB">events-overtime</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdurationscopeevents-shootout">
-            <conceptId qcode="spdurationscope:events-shootout"/>
+            <conceptId qcode="spdurationscope:events-shootout" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">events-shootout</name>
+            <name xml:lang="en-GB">events-shootout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
@@ -54,9 +58,10 @@
         preferredalias="spdurationscope">
         <definition xml:lang="en-US">Variations on standard duration of sporting events</definition>
         <name xml:lang="en-US">Duration Scope</name>
+            <name xml:lang="en-GB">Duration Scope</name>
         <related qcode="spdurationscope:events-all" rel="skos:hasTopConcept"/>
         <related qcode="spdurationscope:events-overtime" rel="skos:hasTopConcept"/>
         <related qcode="spdurationscope:events-shootout" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

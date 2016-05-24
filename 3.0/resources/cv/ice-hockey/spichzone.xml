@@ -27,29 +27,34 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15031000">
             <name xml:lang="en-US">icehockey</name>
+            <name xml:lang="en-GB">icehockey</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Zones on ice hockey rinks</description>
     </contentMeta>
     <conceptSet>
         <concept id="spichzoneoffense">
-            <conceptId qcode="spichzone:offense"/>
+            <conceptId qcode="spichzone:offense" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">offense</name>
+            <name xml:lang="en-GB">offense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichzonedefense">
-            <conceptId qcode="spichzone:defense"/>
+            <conceptId qcode="spichzone:defense" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">defense</name>
+            <name xml:lang="en-GB">defense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichzoneneutral">
-            <conceptId qcode="spichzone:neutral"/>
+            <conceptId qcode="spichzone:neutral" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">neutral</name>
+            <name xml:lang="en-GB">neutral</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
@@ -58,9 +63,10 @@
         preferredalias="spichzone">
         <definition xml:lang="en-US">Zones on ice hockey rinks</definition>
         <name xml:lang="en-US">Ice Hockey Rink Zones</name>
+            <name xml:lang="en-GB">Ice Hockey Rink Zones</name>
         <related qcode="spichzone:offense" rel="skos:hasTopConcept"/>
         <related qcode="spichzone:defense" rel="skos:hasTopConcept"/>
         <related qcode="spichzone:neutral" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

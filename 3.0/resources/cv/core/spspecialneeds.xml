@@ -27,25 +27,29 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Events for persons with special-needs.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spspecialneedsnone">
-            <conceptId qcode="spspecialneeds:none"/>
+            <conceptId qcode="spspecialneeds:none" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">none</name>
+            <name xml:lang="en-GB">none</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialneeds/" rel="skos:inScheme"/>
         </concept>
         <concept id="spspecialneedsdisabled">
-            <conceptId qcode="spspecialneeds:disabled"/>
+            <conceptId qcode="spspecialneeds:disabled" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">disabled</name>
+            <name xml:lang="en-GB">disabled</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialneeds/" rel="skos:inScheme"/>
         </concept>
         <concept id="spspecialneedsdeaf">
-            <conceptId qcode="spspecialneeds:deaf"/>
+            <conceptId qcode="spspecialneeds:deaf" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">deaf</name>
+            <name xml:lang="en-GB">deaf</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spspecialneeds/" rel="skos:inScheme"/>
         </concept>
@@ -54,9 +58,10 @@
         preferredalias="spspecialneeds">
         <definition xml:lang="en-US">Events for persons with special-needs.</definition>
         <name xml:lang="en-US">Special Needs</name>
+            <name xml:lang="en-GB">Special Needs</name>
         <related qcode="spspecialneeds:none" rel="skos:hasTopConcept"/>
         <related qcode="spspecialneeds:disabled" rel="skos:hasTopConcept"/>
         <related qcode="spspecialneeds:deaf" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

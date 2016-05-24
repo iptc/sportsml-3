@@ -26,17 +26,20 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15065000">
             <name xml:lang="en-US">tennis</name>
+            <name xml:lang="en-GB">tennis</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description/>
     </contentMeta>
     <conceptSet>
         <concept id="sptenactionpoint">
-            <conceptId qcode="sptenaction:point"/>
+            <conceptId qcode="sptenaction:point" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">point</name>
+            <name xml:lang="en-GB">point</name>
             <definition>Types of actions/plays in tennis</definition>
             <related uri="http://cv.iptc.org/newscodes/sptenaction/" rel="skos:inScheme"/>
         </concept>
@@ -45,7 +48,8 @@
         preferredalias="sptenaction">
         <definition xml:lang="en-US">Types of actions/plays in tennis</definition>
         <name xml:lang="en-US">Tennis Actions</name>
+            <name xml:lang="en-GB">Tennis Actions</name>
         <related qcode="sptenaction:point" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

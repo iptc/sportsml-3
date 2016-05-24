@@ -26,109 +26,125 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="en-GB">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of penalty in soccer.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spsocpenaltyserious-infraction-play">
-            <conceptId qcode="spsocpenalty:serious-infraction-play"/>
+            <conceptId qcode="spsocpenalty:serious-infraction-play" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">serious-infraction-play</name>
+            <name xml:lang="en-GB">serious-infraction-play</name>
             <definition>The player has committed a serious foul play. | This leads to a player being
                 sent of the field (red card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyviolent-conduct">
-            <conceptId qcode="spsocpenalty:violent-conduct"/>
+            <conceptId qcode="spsocpenalty:violent-conduct" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">violent-conduct</name>
+            <name xml:lang="en-GB">violent-conduct</name>
             <definition>The player has committed a violent conduct. | This leads to a player being
                 sent off the field (red card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyspitting">
-            <conceptId qcode="spsocpenalty:spitting"/>
+            <conceptId qcode="spsocpenalty:spitting" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">spitting</name>
+            <name xml:lang="en-GB">spitting</name>
             <definition>The player has spitted at an opponent or any other person. | This leads to a
                 player being sent off the field (red card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyoffensive-language">
-            <conceptId qcode="spsocpenalty:offensive-language"/>
+            <conceptId qcode="spsocpenalty:offensive-language" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">offensive-language</name>
+            <name xml:lang="en-GB">offensive-language</name>
             <definition>The player has used offensive, insulting or abusive language. | This leads
                 to a player being sent off the field (red card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyoffensive-gestures">
-            <conceptId qcode="spsocpenalty:offensive-gestures"/>
+            <conceptId qcode="spsocpenalty:offensive-gestures" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">offensive-gestures</name>
+            <name xml:lang="en-GB">offensive-gestures</name>
             <definition>The player has used offensive, insulting or abusive gestures. | This leads
                 to a player being sent off the field (red card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyprofessional-infraction">
-            <conceptId qcode="spsocpenalty:professional-infraction"/>
+            <conceptId qcode="spsocpenalty:professional-infraction" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">professional-infraction</name>
+            <name xml:lang="en-GB">professional-infraction</name>
             <definition>When a player denies another player an obvious goalscoring opportunity by
                 foul. | This action leads to the player being sent off the field.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyunsporting-behaviour">
-            <conceptId qcode="spsocpenalty:unsporting-behaviour"/>
+            <conceptId qcode="spsocpenalty:unsporting-behaviour" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">unsporting-behaviour</name>
+            <name xml:lang="en-GB">unsporting-behaviour</name>
             <definition>The player has been doing unsporting behaviour. | This leads to a player
                 being given a caution (yellow card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltydelaying-restart">
-            <conceptId qcode="spsocpenalty:delaying-restart"/>
+            <conceptId qcode="spsocpenalty:delaying-restart" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">delaying-restart</name>
+            <name xml:lang="en-GB">delaying-restart</name>
             <definition>The player has delayed the restart of play. | This leads to a player being
                 given a caution (yellow card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyillegal-reentry">
-            <conceptId qcode="spsocpenalty:illegal-reentry"/>
+            <conceptId qcode="spsocpenalty:illegal-reentry" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">illegal-reentry</name>
+            <name xml:lang="en-GB">illegal-reentry</name>
             <definition>The player re-entered the ﬁeld of play without the referee’s permission. |
                 This leads to a player being given a caution (yellow card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyillegal-entry">
-            <conceptId qcode="spsocpenalty:illegal-entry"/>
+            <conceptId qcode="spsocpenalty:illegal-entry" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">illegal-entry</name>
+            <name xml:lang="en-GB">illegal-entry</name>
             <definition>The player entered the ﬁeld of play without the referee’s permission. | This
                 leads to a player being given a caution (yellow card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyrequired-distance-foul">
-            <conceptId qcode="spsocpenalty:required-distance-foul"/>
+            <conceptId qcode="spsocpenalty:required-distance-foul" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">required-distance-foul</name>
+            <name xml:lang="en-GB">required-distance-foul</name>
             <definition>The played has failed to respect the required distance when play is
                 restarted with a corner kick, free kick or throw-in. | This leads to a player being
                 given a caution (yellow card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyillegal-exit">
-            <conceptId qcode="spsocpenalty:illegal-exit"/>
+            <conceptId qcode="spsocpenalty:illegal-exit" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">illegal-exit</name>
+            <name xml:lang="en-GB">illegal-exit</name>
             <definition>The player has deliberately left the field of play without the referee’s
                 permission. | This leads to a player being given a caution (yellow
                 card).</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltyhand-ball">
-            <conceptId qcode="spsocpenalty:hand-ball"/>
+            <conceptId qcode="spsocpenalty:hand-ball" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">hand-ball</name>
+            <name xml:lang="en-GB">hand-ball</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltytackle">
-            <conceptId qcode="spsocpenalty:tackle"/>
+            <conceptId qcode="spsocpenalty:tackle" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">tackle</name>
+            <name xml:lang="en-GB">tackle</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocpenalty/" rel="skos:inScheme"/>
         </concept>
@@ -137,6 +153,7 @@
         preferredalias="spsocpenalty">
         <definition xml:lang="en-US">Types of penalty in soccer.</definition>
         <name xml:lang="en-US">Soccer Penalties</name>
+            <name xml:lang="en-GB">Soccer Penalties</name>
         <related qcode="spsocpenalty:serious-infraction-play" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenalty:violent-conduct" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenalty:spitting" rel="skos:hasTopConcept"/>
@@ -151,6 +168,6 @@
         <related qcode="spsocpenalty:illegal-exit" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenalty:hand-ball" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenalty:tackle" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

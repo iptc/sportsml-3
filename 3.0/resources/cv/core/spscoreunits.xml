@@ -27,27 +27,31 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Describes how the score and score-opposing is valued.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spscoreunitstime-absolute">
-            <conceptId qcode="spscoreunits:time-absolute"/>
+            <conceptId qcode="spscoreunits:time-absolute" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">time-absolute</name>
+            <name xml:lang="en-GB">time-absolute</name>
             <definition>Total time to complete competition, not measured in comparison to other
                 competitors</definition>
             <related uri="http://cv.iptc.org/newscodes/spscoreunits/" rel="skos:inScheme"/>
         </concept>
         <concept id="spscoreunitstime-relative">
-            <conceptId qcode="spscoreunits:time-relative"/>
+            <conceptId qcode="spscoreunits:time-relative" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">time-relative</name>
+            <name xml:lang="en-GB">time-relative</name>
             <definition>Time difference compared (usually) to closest competitor or first-place
                 finalist. First place commonly has absolute value.</definition>
             <related uri="http://cv.iptc.org/newscodes/spscoreunits/" rel="skos:inScheme"/>
         </concept>
         <concept id="spscoreunitsagainst-par">
-            <conceptId qcode="spscoreunits:against-par"/>
+            <conceptId qcode="spscoreunits:against-par" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">against-par</name>
+            <name xml:lang="en-GB">against-par</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spscoreunits/" rel="skos:inScheme"/>
         </concept>
@@ -57,9 +61,10 @@
         <definition xml:lang="en-US">Describes how the score and score-opposing is
             valued.</definition>
         <name xml:lang="en-US">Score Units</name>
+            <name xml:lang="en-GB">Score Units</name>
         <related qcode="spscoreunits:time-absolute" rel="skos:hasTopConcept"/>
         <related qcode="spscoreunits:time-relative" rel="skos:hasTopConcept"/>
         <related qcode="spscoreunits:against-par" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

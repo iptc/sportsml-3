@@ -26,23 +26,27 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15047007">
             <name xml:lang="en-US">rugby</name>
+            <name xml:lang="en-GB">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Levels of penalty in rugby.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprgxpenaltylevelyellow-card">
-            <conceptId qcode="sprgxpenaltylevel:yellow-card"/>
+            <conceptId qcode="sprgxpenaltylevel:yellow-card" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">yellow-card</name>
+            <name xml:lang="en-GB">yellow-card</name>
             <definition>Penalty shown by a yellow card - also known as a caution.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltylevelred-card">
-            <conceptId qcode="sprgxpenaltylevel:red-card"/>
+            <conceptId qcode="sprgxpenaltylevel:red-card" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">red-card</name>
+            <name xml:lang="en-GB">red-card</name>
             <definition>Penalty shown as a red card - also known as an ejection.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltylevel/" rel="skos:inScheme"/>
         </concept>
@@ -52,8 +56,9 @@
         preferredalias="sprgxpenaltylevel">
         <definition xml:lang="en-US">Levels of penalty in rugby.</definition>
         <name xml:lang="en-US">Rugby Penalty Levels</name>
+            <name xml:lang="en-GB">Rugby Penalty Levels</name>
         <related qcode="sprgxpenaltylevel:yellow-card" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltylevel:red-card" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

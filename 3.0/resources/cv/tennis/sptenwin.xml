@@ -27,24 +27,28 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15065000">
             <name xml:lang="en-US">tennis</name>
+            <name xml:lang="en-GB">tennis</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Ways to win in tennis</description>
     </contentMeta>
     <conceptSet>
         <concept id="sptenwinforced">
-            <conceptId qcode="sptenwin:forced"/>
+            <conceptId qcode="sptenwin:forced" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">forced</name>
+            <name xml:lang="en-GB">forced</name>
             <definition>The point was made while the opponent for example advanced towards the
                 net.</definition>
             <related uri="http://cv.iptc.org/newscodes/sptenwin/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenwinunforced">
-            <conceptId qcode="sptenwin:unforced"/>
+            <conceptId qcode="sptenwin:unforced" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">unforced</name>
+            <name xml:lang="en-GB">unforced</name>
             <definition>The point was made regardless of specific actions by the
                 opponent.</definition>
             <related uri="http://cv.iptc.org/newscodes/sptenwin/" rel="skos:inScheme"/>
@@ -54,8 +58,9 @@
         preferredalias="sptenwin">
         <definition xml:lang="en-US">Ways to win in tennis</definition>
         <name xml:lang="en-US">Tennis Win Types</name>
+            <name xml:lang="en-GB">Tennis Win Types</name>
         <related qcode="sptenwin:forced" rel="skos:hasTopConcept"/>
         <related qcode="sptenwin:unforced" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

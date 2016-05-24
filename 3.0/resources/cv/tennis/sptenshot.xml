@@ -26,47 +26,55 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15065000">
             <name xml:lang="en-US">tennis</name>
+            <name xml:lang="en-GB">tennis</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of shot in tennis.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sptenshotcrosscourt">
-            <conceptId qcode="sptenshot:crosscourt"/>
+            <conceptId qcode="sptenshot:crosscourt" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">crosscourt</name>
+            <name xml:lang="en-GB">crosscourt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotdrop">
-            <conceptId qcode="sptenshot:drop"/>
+            <conceptId qcode="sptenshot:drop" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">drop</name>
+            <name xml:lang="en-GB">drop</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotlob">
-            <conceptId qcode="sptenshot:lob"/>
+            <conceptId qcode="sptenshot:lob" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">lob</name>
+            <name xml:lang="en-GB">lob</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotslice">
-            <conceptId qcode="sptenshot:slice"/>
+            <conceptId qcode="sptenshot:slice" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">slice</name>
+            <name xml:lang="en-GB">slice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotsmash">
-            <conceptId qcode="sptenshot:smash"/>
+            <conceptId qcode="sptenshot:smash" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">smash</name>
+            <name xml:lang="en-GB">smash</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenshotvolley">
-            <conceptId qcode="sptenshot:volley"/>
+            <conceptId qcode="sptenshot:volley" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">volley</name>
+            <name xml:lang="en-GB">volley</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sptenshot/" rel="skos:inScheme"/>
         </concept>
@@ -75,12 +83,13 @@
         preferredalias="sptenshot">
         <definition xml:lang="en-US">Types of shot in tennis.</definition>
         <name xml:lang="en-US">Tennis Shot Types</name>
+            <name xml:lang="en-GB">Tennis Shot Types</name>
         <related qcode="sptenshot:crosscourt" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:drop" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:lob" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:slice" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:smash" rel="skos:hasTopConcept"/>
         <related qcode="sptenshot:volley" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

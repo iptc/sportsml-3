@@ -26,77 +26,90 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15031000">
             <name xml:lang="en-US">ice-hockey</name>
+            <name xml:lang="en-GB">ice-hockey</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of ice hockey actions</description>
     </contentMeta>
     <conceptSet>
         <concept id="spichactionfaceoff">
-            <conceptId qcode="spichaction:faceoff"/>
+            <conceptId qcode="spichaction:faceoff" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">faceoff</name>
+            <name xml:lang="en-GB">faceoff</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionsubstitution">
-            <conceptId qcode="spichaction:substitution"/>
+            <conceptId qcode="spichaction:substitution" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">substitution</name>
+            <name xml:lang="en-GB">substitution</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionshot">
-            <conceptId qcode="spichaction:shot"/>
+            <conceptId qcode="spichaction:shot" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">shot</name>
+            <name xml:lang="en-GB">shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionhit">
-            <conceptId qcode="spichaction:hit"/>
+            <conceptId qcode="spichaction:hit" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">hit</name>
+            <name xml:lang="en-GB">hit</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionturnover">
-            <conceptId qcode="spichaction:turnover"/>
+            <conceptId qcode="spichaction:turnover" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">turnover</name>
+            <name xml:lang="en-GB">turnover</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionpenalty-shot">
-            <conceptId qcode="spichaction:penalty-shot"/>
+            <conceptId qcode="spichaction:penalty-shot" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-shot</name>
+            <name xml:lang="en-GB">penalty-shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionshootout">
-            <conceptId qcode="spichaction:shootout"/>
+            <conceptId qcode="spichaction:shootout" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">shootout</name>
+            <name xml:lang="en-GB">shootout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionpenalty">
-            <conceptId qcode="spichaction:penalty"/>
+            <conceptId qcode="spichaction:penalty" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty</name>
+            <name xml:lang="en-GB">penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactiongiveaway">
-            <conceptId qcode="spichaction:giveaway"/>
+            <conceptId qcode="spichaction:giveaway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">giveaway</name>
+            <name xml:lang="en-GB">giveaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactiontakeaway">
-            <conceptId qcode="spichaction:takeaway"/>
+            <conceptId qcode="spichaction:takeaway" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">takeaway</name>
+            <name xml:lang="en-GB">takeaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichactionpass">
-            <conceptId qcode="spichaction:pass"/>
+            <conceptId qcode="spichaction:pass" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">pass</name>
+            <name xml:lang="en-GB">pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichaction/" rel="skos:inScheme"/>
         </concept>
@@ -105,6 +118,7 @@
         preferredalias="spichaction">
         <definition xml:lang="en-US">Types of ice hockey actions</definition>
         <name xml:lang="en-US">Ice Hockey Actions</name>
+            <name xml:lang="en-GB">Ice Hockey Actions</name>
         <related qcode="spichaction:faceoff" rel="skos:hasTopConcept"/>
         <related qcode="spichaction:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spichaction:shot" rel="skos:hasTopConcept"/>
@@ -116,6 +130,6 @@
         <related qcode="spichaction:giveaway" rel="skos:hasTopConcept"/>
         <related qcode="spichaction:takeaway" rel="skos:hasTopConcept"/>
         <related qcode="spichaction:pass" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

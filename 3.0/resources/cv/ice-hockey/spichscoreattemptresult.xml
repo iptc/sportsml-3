@@ -27,38 +27,44 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15031000">
             <name xml:lang="en-US">icehockey</name>
+            <name xml:lang="en-GB">icehockey</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Types of scoring failure in ice hockey</description>
     </contentMeta>
     <conceptSet>
         <concept id="spichscoreattemptresultmissed">
-            <conceptId qcode="spichscoreattemptresult:missed"/>
+            <conceptId qcode="spichscoreattemptresult:missed" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">missed</name>
+            <name xml:lang="en-GB">missed</name>
             <definition>The puck missed the goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spichscoreattemptresultsaved">
-            <conceptId qcode="spichscoreattemptresult:saved"/>
+            <conceptId qcode="spichscoreattemptresult:saved" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">saved</name>
+            <name xml:lang="en-GB">saved</name>
             <definition>The goalie has stopped the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spichscoreattemptresultblocked">
-            <conceptId qcode="spichscoreattemptresult:blocked"/>
+            <conceptId qcode="spichscoreattemptresult:blocked" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked</name>
+            <name xml:lang="en-GB">blocked</name>
             <definition>A non-goalie diverted the shot from reaching the goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spichscoreattemptresultoff-post">
-            <conceptId qcode="spichscoreattemptresult:off-post"/>
+            <conceptId qcode="spichscoreattemptresult:off-post" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">off-post</name>
+            <name xml:lang="en-GB">off-post</name>
             <definition>The framework of the goal itself blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattemptresult/" rel="skos:inScheme"
             />
@@ -69,10 +75,11 @@
         preferredalias="spichscoreattemptresult">
         <definition xml:lang="en-US">Types of scoring failure in ice hockey</definition>
         <name xml:lang="en-US">Ice Hockey Score Attempt Types</name>
+            <name xml:lang="en-GB">Ice Hockey Score Attempt Types</name>
         <related qcode="spichscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattemptresult:saved" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattemptresult:off-post" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

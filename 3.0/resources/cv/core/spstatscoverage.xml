@@ -26,25 +26,29 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Coverage type for statistics</description>
     </contentMeta>
     <conceptSet>
         <concept id="spstatscoveragecompact">
-            <conceptId qcode="spstatscoverage:compact"/>
+            <conceptId qcode="spstatscoverage:compact" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">compact</name>
+            <name xml:lang="en-GB">compact</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscoveragestandard">
-            <conceptId qcode="spstatscoverage:standard"/>
+            <conceptId qcode="spstatscoverage:standard" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">standard</name>
+            <name xml:lang="en-GB">standard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscoverageexpanded">
-            <conceptId qcode="spstatscoverage:expanded"/>
+            <conceptId qcode="spstatscoverage:expanded" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">expanded</name>
+            <name xml:lang="en-GB">expanded</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
@@ -53,9 +57,10 @@
         preferredalias="spstatscoverage">
         <definition xml:lang="en-US">Coverage type for statistics</definition>
         <name xml:lang="en-US">Statistics Coverage</name>
+            <name xml:lang="en-GB">Statistics Coverage</name>
         <related qcode="spstatscoverage:compact" rel="skos:hasTopConcept"/>
         <related qcode="spstatscoverage:standard" rel="skos:hasTopConcept"/>
         <related qcode="spstatscoverage:expanded" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

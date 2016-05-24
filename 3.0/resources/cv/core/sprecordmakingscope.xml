@@ -27,19 +27,22 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>Scope of an achieved record</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprecordmakingscopehigh">
-            <conceptId qcode="sprecordmakingscope:high"/>
+            <conceptId qcode="sprecordmakingscope:high" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">high</name>
+            <name xml:lang="en-GB">high</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprecordmakingscopelow">
-            <conceptId qcode="sprecordmakingscope:low"/>
+            <conceptId qcode="sprecordmakingscope:low" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">low</name>
+            <name xml:lang="en-GB">low</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" rel="skos:inScheme"/>
         </concept>
@@ -48,8 +51,9 @@
         uri="http://cv.iptc.org/newscodes/sprecordmakingscope/" preferredalias="sprecordmakingscope">
         <definition xml:lang="en-US">Scope of an achieved record</definition>
         <name xml:lang="en-US">Record Scope</name>
+            <name xml:lang="en-GB">Record Scope</name>
         <related qcode="sprecordmakingscope:high" rel="skos:hasTopConcept"/>
         <related qcode="sprecordmakingscope:low" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

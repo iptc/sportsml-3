@@ -26,59 +26,68 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15054000">
             <name xml:lang="en-US">soccer</name>
+            <name xml:lang="en-GB">soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Results of scoring attempts in soccer.</description>
     </contentMeta>
     <conceptSet>
         <concept id="spsocscoreattemptresultgoal">
-            <conceptId qcode="spsocscoreattemptresult:goal"/>
+            <conceptId qcode="spsocscoreattemptresult:goal" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">goal</name>
+            <name xml:lang="en-GB">goal</name>
             <definition>The shot was successful.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultmissed">
-            <conceptId qcode="spsocscoreattemptresult:missed"/>
+            <conceptId qcode="spsocscoreattemptresult:missed" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">missed</name>
+            <name xml:lang="en-GB">missed</name>
             <definition>The ball missed the goal completely.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultblocked">
-            <conceptId qcode="spsocscoreattemptresult:blocked"/>
+            <conceptId qcode="spsocscoreattemptresult:blocked" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked</name>
+            <name xml:lang="en-GB">blocked</name>
             <definition>A non-goalkeeper diverted the shot from reaching the goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultsaved">
-            <conceptId qcode="spsocscoreattemptresult:saved"/>
+            <conceptId qcode="spsocscoreattemptresult:saved" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">saved</name>
+            <name xml:lang="en-GB">saved</name>
             <definition>The goalie has stopped the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultoff-post">
-            <conceptId qcode="spsocscoreattemptresult:off-post"/>
+            <conceptId qcode="spsocscoreattemptresult:off-post" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">off-post</name>
+            <name xml:lang="en-GB">off-post</name>
             <definition>The side framework of the goal blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultoff-bar">
-            <conceptId qcode="spsocscoreattemptresult:off-bar"/>
+            <conceptId qcode="spsocscoreattemptresult:off-bar" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">off-bar</name>
+            <name xml:lang="en-GB">off-bar</name>
             <definition>The top framework of the goal blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
         </concept>
         <concept id="spsocscoreattemptresultoff-frame">
-            <conceptId qcode="spsocscoreattemptresult:off-frame"/>
+            <conceptId qcode="spsocscoreattemptresult:off-frame" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">off-frame</name>
+            <name xml:lang="en-GB">off-frame</name>
             <definition>The framework of the goal blocked the shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattemptresult/" rel="skos:inScheme"
             />
@@ -89,6 +98,7 @@
         preferredalias="spsocscoreattemptresult">
         <definition xml:lang="en-US">Results of scoring attempts in soccer.</definition>
         <name xml:lang="en-US">Soccer Score Attempt Types</name>
+            <name xml:lang="en-GB">Soccer Score Attempt Types</name>
         <related qcode="spsocscoreattemptresult:goal" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:missed" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
@@ -96,6 +106,6 @@
         <related qcode="spsocscoreattemptresult:off-post" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:off-bar" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:off-frame" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

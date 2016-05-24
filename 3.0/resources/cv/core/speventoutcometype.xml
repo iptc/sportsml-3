@@ -26,44 +26,51 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <description>What type of outcome. Includes overtime, random (eg. by coin toss),
             etc.</description>
     </contentMeta>
     <conceptSet>
         <concept id="speventoutcometyperegular">
-            <conceptId qcode="speventoutcometype:regular"/>
+            <conceptId qcode="speventoutcometype:regular" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">regular</name>
+            <name xml:lang="en-GB">regular</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeovertime">
-            <conceptId qcode="speventoutcometype:overtime"/>
+            <conceptId qcode="speventoutcometype:overtime" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">overtime</name>
+            <name xml:lang="en-GB">overtime</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeshootout">
-            <conceptId qcode="speventoutcometype:shootout"/>
+            <conceptId qcode="speventoutcometype:shootout" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">shootout</name>
+            <name xml:lang="en-GB">shootout</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeextra-time">
-            <conceptId qcode="speventoutcometype:extra-time"/>
+            <conceptId qcode="speventoutcometype:extra-time" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">extra-time</name>
+            <name xml:lang="en-GB">extra-time</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometyperandom">
-            <conceptId qcode="speventoutcometype:random"/>
+            <conceptId qcode="speventoutcometype:random" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">random</name>
+            <name xml:lang="en-GB">random</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventoutcometypeauthority-decision">
-            <conceptId qcode="speventoutcometype:authority-decision"/>
+            <conceptId qcode="speventoutcometype:authority-decision" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">authority-decision</name>
+            <name xml:lang="en-GB">authority-decision</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventoutcometype/" rel="skos:inScheme"/>
         </concept>
@@ -73,12 +80,13 @@
         <definition xml:lang="en-US">What type of outcome. Includes overtime, random (eg. by coin
             toss), etc.</definition>
         <name xml:lang="en-US">Event Outcome Type</name>
+            <name xml:lang="en-GB">Event Outcome Type</name>
         <related qcode="speventoutcometype:regular" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:overtime" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:shootout" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:extra-time" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:random" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:authority-decision" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>

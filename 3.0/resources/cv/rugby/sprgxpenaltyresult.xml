@@ -26,49 +26,57 @@
         </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
+            <name xml:lang="en-GB">sport</name>
         </subject>
         <subject qcode="subj:15047007">
             <name xml:lang="en-US">rugby</name>
+            <name xml:lang="en-GB">rugby</name>
             <broader qcode="subj:15000000"/>
         </subject>
         <description>Results of penalties in rugby.</description>
     </contentMeta>
     <conceptSet>
         <concept id="sprgxpenaltyresultplay-on">
-            <conceptId qcode="sprgxpenaltyresult:play-on"/>
+            <conceptId qcode="sprgxpenaltyresult:play-on" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">play-on</name>
+            <name xml:lang="en-GB">play-on</name>
             <definition>Fouled team has advantage of the ball and is allowed to play
                 on.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltyresultfreekick">
-            <conceptId qcode="sprgxpenaltyresult:freekick"/>
+            <conceptId qcode="sprgxpenaltyresult:freekick" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">freekick</name>
+            <name xml:lang="en-GB">freekick</name>
             <definition>Fouled team is awarded a freekick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltyresultpenalty-kick">
-            <conceptId qcode="sprgxpenaltyresult:penalty-kick"/>
+            <conceptId qcode="sprgxpenaltyresult:penalty-kick" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-kick</name>
+            <name xml:lang="en-GB">penalty-kick</name>
             <definition>The fouled team is awarded a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltyresultpenalty-try">
-            <conceptId qcode="sprgxpenaltyresult:penalty-try"/>
+            <conceptId qcode="sprgxpenaltyresult:penalty-try" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-try</name>
+            <name xml:lang="en-GB">penalty-try</name>
             <definition>The fouled team is awarded a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltyresultcaution">
-            <conceptId qcode="sprgxpenaltyresult:caution"/>
+            <conceptId qcode="sprgxpenaltyresult:caution" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">caution</name>
+            <name xml:lang="en-GB">caution</name>
             <definition>The player is beeing cautioned. Indicated by a yellow card. Suffered team
                 get a freekick or penalty-shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltyresultejection">
-            <conceptId qcode="sprgxpenaltyresult:ejection"/>
+            <conceptId qcode="sprgxpenaltyresult:ejection" created="2016-05-01T00:00:00+00:00"/>
             <name xml:lang="en-US">ejection</name>
+            <name xml:lang="en-GB">ejection</name>
             <definition>The player is beeing ejected from the game. Shown by a red card. Suffered
                 team get a freekick or penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltyresult/" rel="skos:inScheme"/>
@@ -79,12 +87,13 @@
         preferredalias="sprgxpenaltyresult">
         <definition xml:lang="en-US">Results of penalties in rugby.</definition>
         <name xml:lang="en-US">Rugby Penalty Results</name>
+            <name xml:lang="en-GB">Rugby Penalty Results</name>
         <related qcode="sprgxpenaltyresult:play-on" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltyresult:freekick" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltyresult:penalty-kick" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltyresult:penalty-try" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltyresult:caution" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltyresult:ejection" rel="skos:hasTopConcept"/>
-        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
     </schemeMeta>
 </knowledgeItem>
