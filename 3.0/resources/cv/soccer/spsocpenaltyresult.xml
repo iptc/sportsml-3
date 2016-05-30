@@ -86,5 +86,6 @@
         <related qcode="spsocpenaltyresult:direct-freekick" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenaltyresult:penalty-shot" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

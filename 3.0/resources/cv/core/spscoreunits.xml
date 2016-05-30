@@ -66,5 +66,6 @@
         <related qcode="spscoreunits:time-relative" rel="skos:hasTopConcept"/>
         <related qcode="spscoreunits:against-par" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

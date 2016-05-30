@@ -77,5 +77,6 @@
         <related qcode="spamfpenaltylevel:false-start" rel="skos:hasTopConcept"/>
         <related qcode="spamfpenaltylevel:offside" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

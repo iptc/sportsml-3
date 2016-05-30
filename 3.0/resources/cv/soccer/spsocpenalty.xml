@@ -169,5 +169,6 @@
         <related qcode="spsocpenalty:hand-ball" rel="skos:hasTopConcept"/>
         <related qcode="spsocpenalty:tackle" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

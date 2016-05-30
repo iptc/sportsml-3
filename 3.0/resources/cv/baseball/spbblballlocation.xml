@@ -76,5 +76,6 @@
         <related qcode="spbblballlocation:inside" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocation:outside" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

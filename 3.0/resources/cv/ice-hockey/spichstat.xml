@@ -916,5 +916,6 @@
         <related qcode="spichstat:time-short-handed-empty-net" rel="skos:hasTopConcept"/>
         <related qcode="spichstat:time-even-strength-empty-net" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

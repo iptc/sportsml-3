@@ -89,5 +89,6 @@
         <related qcode="spbblballlocationvertical:low-strike" rel="skos:hasTopConcept"/>
         <related qcode="spbblballlocationvertical:low-ball" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

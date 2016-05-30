@@ -91,5 +91,6 @@
         <related qcode="spcurresult:100" rel="skos:hasTopConcept"/>
         <related qcode="spcurresult:125" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

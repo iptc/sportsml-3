@@ -54,5 +54,6 @@
         <related qcode="spdistanceunits:meters" rel="skos:hasTopConcept"/>
         <related qcode="spdistanceunits:yards" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

@@ -67,5 +67,6 @@
         <related qcode="spbkbscoreattempt:fg" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattempt:fg3" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

@@ -139,5 +139,6 @@
         <related qcode="spamfresult:score" rel="skos:hasTopConcept"/>
         <related qcode="spamfresult:miss" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

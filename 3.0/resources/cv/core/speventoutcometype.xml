@@ -88,5 +88,6 @@
         <related qcode="speventoutcometype:random" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcometype:authority-decision" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

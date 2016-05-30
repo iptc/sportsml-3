@@ -420,5 +420,6 @@
         <related qcode="spamfposition:coach" rel="skos:hasTopConcept"/>
         <related qcode="spamfposition:assistant-coach" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

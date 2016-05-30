@@ -131,5 +131,6 @@
         <related qcode="spsocresult:out-of-play" rel="skos:hasTopConcept"/>
         <related qcode="spsocresult:stoppage" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

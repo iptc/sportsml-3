@@ -505,5 +505,6 @@
         <related qcode="sptenstat:winners-volley" rel="skos:hasTopConcept"/>
         <related qcode="sptenstat:unforced-errors" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

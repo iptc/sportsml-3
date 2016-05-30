@@ -100,5 +100,6 @@
         <related qcode="spsocscoreattempt:open-goal" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattempt:own-goal" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

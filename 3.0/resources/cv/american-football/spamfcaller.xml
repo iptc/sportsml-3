@@ -60,5 +60,6 @@
         <related qcode="spamfcaller:team" rel="skos:hasTopConcept"/>
         <related qcode="spamfcaller:official" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

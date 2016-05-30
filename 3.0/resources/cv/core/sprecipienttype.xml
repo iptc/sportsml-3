@@ -78,5 +78,6 @@
         <related qcode="sprecipienttype:official" rel="skos:hasTopConcept"/>
         <related qcode="sprecipienttype:other" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

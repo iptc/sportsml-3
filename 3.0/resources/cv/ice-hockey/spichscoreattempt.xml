@@ -96,5 +96,6 @@
         <related qcode="spichscoreattempt:own-goal" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattempt:awarded" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

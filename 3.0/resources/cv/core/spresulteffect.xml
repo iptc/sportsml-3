@@ -67,5 +67,6 @@
         <related qcode="spresulteffect:promotion" rel="skos:hasTopConcept"/>
         <related qcode="spresulteffect:demotion" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

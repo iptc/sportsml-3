@@ -156,5 +156,6 @@
         <related qcode="spbkbposition:coach" rel="skos:hasTopConcept"/>
         <related qcode="spbkbposition:assistant-coach" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

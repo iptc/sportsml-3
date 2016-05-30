@@ -411,5 +411,6 @@
         <related qcode="spamfpenalty:unnecessary-roughness" rel="skos:hasTopConcept"/>
         <related qcode="spamfpenalty:unsportsmanlike-conduct" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

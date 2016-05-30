@@ -56,5 +56,6 @@
         <related qcode="speventstyle:head-to-head" rel="skos:hasTopConcept"/>
         <related qcode="speventstyle:ranked" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

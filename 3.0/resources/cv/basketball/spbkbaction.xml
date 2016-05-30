@@ -107,5 +107,6 @@
         <related qcode="spbkbaction:substitution" rel="skos:hasTopConcept"/>
         <related qcode="spbkbaction:pass" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

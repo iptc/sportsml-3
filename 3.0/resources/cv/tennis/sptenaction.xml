@@ -51,5 +51,6 @@
             <name xml:lang="en-GB">Tennis Actions</name>
         <related qcode="sptenaction:point" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

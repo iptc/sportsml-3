@@ -464,5 +464,6 @@
         <related qcode="spmcrstat:duration" rel="skos:hasTopConcept"/>
         <related qcode="spmcrstat:split-location" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

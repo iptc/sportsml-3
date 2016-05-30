@@ -71,5 +71,6 @@
         <related qcode="spbkbscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spbkbscoreattemptresult:turnover" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

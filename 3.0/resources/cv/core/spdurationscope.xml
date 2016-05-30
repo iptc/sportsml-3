@@ -63,5 +63,6 @@
         <related qcode="spdurationscope:events-overtime" rel="skos:hasTopConcept"/>
         <related qcode="spdurationscope:events-shootout" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

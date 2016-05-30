@@ -62,5 +62,6 @@
         <related qcode="sptenwin:forced" rel="skos:hasTopConcept"/>
         <related qcode="sptenwin:unforced" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

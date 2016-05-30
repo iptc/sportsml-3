@@ -87,5 +87,6 @@
         <related qcode="spstreaktype:assist" rel="skos:hasTopConcept"/>
         <related qcode="spstreaktype:point" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

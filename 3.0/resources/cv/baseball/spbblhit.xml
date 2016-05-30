@@ -76,5 +76,6 @@
         <related qcode="spbblhit:triple" rel="skos:hasTopConcept"/>
         <related qcode="spbblhit:home-run" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

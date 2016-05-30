@@ -412,5 +412,6 @@
         <related qcode="spichpenalty:tripping" rel="skos:hasTopConcept"/>
         <related qcode="spichpenalty:unsportsmanlike-conduct" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

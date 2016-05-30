@@ -118,5 +118,6 @@
         <related qcode="spamftouchdown:pass" rel="skos:hasTopConcept"/>
         <related qcode="spamftouchdown:rush" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

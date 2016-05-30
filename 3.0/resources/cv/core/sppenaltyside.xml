@@ -54,5 +54,6 @@
         <related qcode="sppenaltyside:offensive" rel="skos:hasTopConcept"/>
         <related qcode="sppenaltyside:defensive" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

@@ -442,5 +442,6 @@
         <related qcode="sprgxstat:ejections-total" rel="skos:hasTopConcept"/>
         <related qcode="sprgxstat:ejections-per-game" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

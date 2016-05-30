@@ -212,5 +212,6 @@
         <related qcode="sprgxposition:back-row" rel="skos:hasTopConcept"/>
         <related qcode="sprgxposition:flanker" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

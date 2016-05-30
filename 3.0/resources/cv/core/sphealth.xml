@@ -55,5 +55,6 @@
         <related qcode="sphealth:injured" rel="skos:hasTopConcept"/>
         <related qcode="sphealth:fine" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

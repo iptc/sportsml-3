@@ -63,5 +63,6 @@
         <related qcode="spspecialneeds:disabled" rel="skos:hasTopConcept"/>
         <related qcode="spspecialneeds:deaf" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

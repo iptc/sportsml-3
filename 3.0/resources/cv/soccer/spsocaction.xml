@@ -275,5 +275,6 @@
         <related qcode="spsocaction:giveaway" rel="skos:hasTopConcept"/>
         <related qcode="spsocaction:takeaway" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

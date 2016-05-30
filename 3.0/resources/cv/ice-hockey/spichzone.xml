@@ -68,5 +68,6 @@
         <related qcode="spichzone:defense" rel="skos:hasTopConcept"/>
         <related qcode="spichzone:neutral" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

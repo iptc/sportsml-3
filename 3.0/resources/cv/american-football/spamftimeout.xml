@@ -59,5 +59,6 @@
         <related qcode="spamftimeout:2-minute" rel="skos:hasTopConcept"/>
         <related qcode="spamftimeout:1-minute" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

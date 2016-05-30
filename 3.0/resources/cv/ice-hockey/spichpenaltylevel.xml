@@ -121,5 +121,6 @@
         <related qcode="spichpenaltylevel:gross-misconduct" rel="skos:hasTopConcept"/>
         <related qcode="spichpenaltylevel:penalty-shot" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

@@ -1103,5 +1103,6 @@
         <related qcode="spbblstat:innings-played" rel="skos:hasTopConcept"/>
         <related qcode="spbblstat:games-played-position" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

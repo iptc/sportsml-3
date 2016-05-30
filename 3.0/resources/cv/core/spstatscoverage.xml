@@ -62,5 +62,6 @@
         <related qcode="spstatscoverage:standard" rel="skos:hasTopConcept"/>
         <related qcode="spstatscoverage:expanded" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

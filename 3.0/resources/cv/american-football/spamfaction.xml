@@ -163,5 +163,6 @@
         <related qcode="spamfaction:punt" rel="skos:hasTopConcept"/>
         <related qcode="spamfaction:sack" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

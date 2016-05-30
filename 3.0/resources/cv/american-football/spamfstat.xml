@@ -2388,5 +2388,6 @@
         <related qcode="spamfstat:penalties-reviewed" rel="skos:hasTopConcept"/>
         <related qcode="spamfstat:penalties-overturned" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

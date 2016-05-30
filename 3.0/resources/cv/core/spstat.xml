@@ -364,5 +364,6 @@
         <related qcode="spstat:adjusted-score-for" rel="skos:hasTopConcept"/>
         <related qcode="spstat:adjusted-score-against" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

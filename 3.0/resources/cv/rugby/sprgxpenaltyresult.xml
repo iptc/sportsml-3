@@ -95,5 +95,6 @@
         <related qcode="sprgxpenaltyresult:caution" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltyresult:ejection" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

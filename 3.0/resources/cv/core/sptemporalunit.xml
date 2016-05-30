@@ -169,5 +169,6 @@
         <related qcode="sptemporalunit:season" rel="skos:hasTopConcept"/>
         <related qcode="sptemporalunit:career" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

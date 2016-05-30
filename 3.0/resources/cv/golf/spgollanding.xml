@@ -92,5 +92,6 @@
         <related qcode="spgollanding:green" rel="skos:hasTopConcept"/>
         <related qcode="spgollanding:hole" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

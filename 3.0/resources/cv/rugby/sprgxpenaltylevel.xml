@@ -60,5 +60,6 @@
         <related qcode="sprgxpenaltylevel:yellow-card" rel="skos:hasTopConcept"/>
         <related qcode="sprgxpenaltylevel:red-card" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

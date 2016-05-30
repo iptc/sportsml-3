@@ -76,5 +76,6 @@
         <related qcode="spbkbpenaltylevel:technical" rel="skos:hasTopConcept"/>
         <related qcode="spbkbpenaltylevel:illegal-defense" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

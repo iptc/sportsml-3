@@ -107,5 +107,6 @@
         <related qcode="spsocscoreattemptresult:off-bar" rel="skos:hasTopConcept"/>
         <related qcode="spsocscoreattemptresult:off-frame" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

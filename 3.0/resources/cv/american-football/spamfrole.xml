@@ -244,5 +244,6 @@
         <related qcode="spamfrole:fumbler" rel="skos:hasTopConcept"/>
         <related qcode="spamfrole:penalty-recipient" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

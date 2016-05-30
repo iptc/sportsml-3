@@ -81,5 +81,6 @@
         <related qcode="spichscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="spichscoreattemptresult:off-post" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

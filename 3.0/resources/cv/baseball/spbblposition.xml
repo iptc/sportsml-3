@@ -252,5 +252,6 @@
         <related qcode="spbblposition:official-scorekeeper" rel="skos:hasTopConcept"/>
         <related qcode="spbblposition:technical-commissioner" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

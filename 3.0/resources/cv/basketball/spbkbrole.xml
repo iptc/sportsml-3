@@ -148,5 +148,6 @@
         <related qcode="spbkbrole:rebounder-offense" rel="skos:hasTopConcept"/>
         <related qcode="spbkbrole:rebounder-defense" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

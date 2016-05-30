@@ -61,5 +61,6 @@
         <related qcode="sprgxsubstitution:blood" rel="skos:hasTopConcept"/>
         <related qcode="sprgxsubstitution:regular" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

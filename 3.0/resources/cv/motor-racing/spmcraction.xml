@@ -59,5 +59,6 @@
         <related qcode="spmcraction:flag-change" rel="skos:hasTopConcept"/>
         <related qcode="spmcraction:position-change" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

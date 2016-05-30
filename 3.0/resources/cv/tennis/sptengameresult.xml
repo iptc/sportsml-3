@@ -101,5 +101,6 @@
         <related qcode="sptengameresult:ad" rel="skos:hasTopConcept"/>
         <related qcode="sptengameresult:deuce" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

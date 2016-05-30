@@ -71,5 +71,6 @@
         <related qcode="sprgxscoreattemptresult:blocked" rel="skos:hasTopConcept"/>
         <related qcode="sprgxscoreattemptresult:out-of-bounds" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

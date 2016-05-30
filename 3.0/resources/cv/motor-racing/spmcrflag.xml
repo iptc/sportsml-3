@@ -107,5 +107,6 @@
         <related qcode="spmcrflag:black-with-x" rel="skos:hasTopConcept"/>
         <related qcode="spmcrflag:blue-with-orange-stripe" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

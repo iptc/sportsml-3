@@ -235,5 +235,6 @@
         <related qcode="spbblaction:fielders-choice" rel="skos:hasTopConcept"/>
         <related qcode="spbblaction:missing-play" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>

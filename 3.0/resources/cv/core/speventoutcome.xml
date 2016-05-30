@@ -70,5 +70,6 @@
         <related qcode="speventoutcome:tie" rel="skos:hasTopConcept"/>
         <related qcode="speventoutcome:undecided" rel="skos:hasTopConcept"/>
         <schemeMetaExtProperty rel="ikos:availLang" value="en-US"/>
+        <schemeMetaExtProperty rel="ikos:availLang" value="en-GB"/>
     </schemeMeta>
 </knowledgeItem>
