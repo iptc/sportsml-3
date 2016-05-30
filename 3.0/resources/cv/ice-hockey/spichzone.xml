@@ -38,21 +38,21 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichzoneoffense">
-            <conceptId qcode="spichzone:offense" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichzone:offense" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">offense</name>
             <name xml:lang="en-GB">offense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichzonedefense">
-            <conceptId qcode="spichzone:defense" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichzone:defense" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">defense</name>
             <name xml:lang="en-GB">defense</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichzone/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichzoneneutral">
-            <conceptId qcode="spichzone:neutral" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichzone:neutral" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">neutral</name>
             <name xml:lang="en-GB">neutral</name>
             <definition/>

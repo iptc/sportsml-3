@@ -38,7 +38,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="sprgxstattries-scored">
-            <conceptId qcode="sprgxstat:tries-scored" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:tries-scored" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">tries-scored</name>
             <name xml:lang="en-GB">tries-scored</name>
@@ -46,7 +46,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstattries-scored-per-game">
-            <conceptId qcode="sprgxstat:tries-scored-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:tries-scored-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">tries-scored-per-game</name>
             <name xml:lang="en-GB">tries-scored-per-game</name>
@@ -54,7 +54,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-tries-total">
-            <conceptId qcode="sprgxstat:penalty-tries-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalty-tries-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">penalty-tries-total</name>
             <name xml:lang="en-GB">penalty-tries-total</name>
@@ -62,7 +62,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-tries-per-game">
-            <conceptId qcode="sprgxstat:penalty-tries-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalty-tries-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">penalty-tries-per-game</name>
             <name xml:lang="en-GB">penalty-tries-per-game</name>
@@ -70,7 +70,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatdrop-goal-attempts">
-            <conceptId qcode="sprgxstat:drop-goal-attempts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:drop-goal-attempts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">drop-goal-attempts</name>
             <name xml:lang="en-GB">drop-goal-attempts</name>
@@ -78,7 +78,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatdrop-goals-scored">
-            <conceptId qcode="sprgxstat:drop-goals-scored" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:drop-goals-scored" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">drop-goals-scored</name>
             <name xml:lang="en-GB">drop-goals-scored</name>
@@ -86,7 +86,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatdrop-goals-scored-per-game">
-            <conceptId qcode="sprgxstat:drop-goals-scored-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:drop-goals-scored-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">drop-goals-scored-per-game</name>
             <name xml:lang="en-GB">drop-goals-scored-per-game</name>
@@ -94,7 +94,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-goal-attempts">
-            <conceptId qcode="sprgxstat:penalty-goal-attempts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalty-goal-attempts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">penalty-goal-attempts</name>
             <name xml:lang="en-GB">penalty-goal-attempts</name>
@@ -102,7 +102,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-goals-scored">
-            <conceptId qcode="sprgxstat:penalty-goals-scored" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalty-goals-scored" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">penalty-goals-scored</name>
             <name xml:lang="en-GB">penalty-goals-scored</name>
@@ -110,7 +110,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalty-goals-scored-per-game">
-            <conceptId qcode="sprgxstat:penalty-goals-scored-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalty-goals-scored-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">penalty-goals-scored-per-game</name>
             <name xml:lang="en-GB">penalty-goals-scored-per-game</name>
@@ -118,7 +118,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatconversion-attempts">
-            <conceptId qcode="sprgxstat:conversion-attempts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:conversion-attempts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">conversion-attempts</name>
             <name xml:lang="en-GB">conversion-attempts</name>
@@ -126,7 +126,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatconversions-scored">
-            <conceptId qcode="sprgxstat:conversions-scored" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:conversions-scored" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">conversions-scored</name>
             <name xml:lang="en-GB">conversions-scored</name>
@@ -134,7 +134,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatconversions-scored-per-game">
-            <conceptId qcode="sprgxstat:conversions-scored-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:conversions-scored-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">conversions-scored-per-game</name>
             <name xml:lang="en-GB">conversions-scored-per-game</name>
@@ -142,7 +142,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatfree-kicks-total">
-            <conceptId qcode="sprgxstat:free-kicks-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:free-kicks-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-kicks-total</name>
             <name xml:lang="en-GB">free-kicks-total</name>
@@ -150,7 +150,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatfree-kicks-per-game">
-            <conceptId qcode="sprgxstat:free-kicks-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:free-kicks-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-kicks-per-game</name>
             <name xml:lang="en-GB">free-kicks-per-game</name>
@@ -158,7 +158,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatkicks-total">
-            <conceptId qcode="sprgxstat:kicks-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:kicks-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">kicks-total</name>
             <name xml:lang="en-GB">kicks-total</name>
@@ -166,7 +166,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatkicks-into-touch">
-            <conceptId qcode="sprgxstat:kicks-into-touch" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:kicks-into-touch" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">kicks-into-touch</name>
             <name xml:lang="en-GB">kicks-into-touch</name>
@@ -174,7 +174,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatruns">
-            <conceptId qcode="sprgxstat:runs" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:runs" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">runs</name>
             <name xml:lang="en-GB">runs</name>
@@ -182,7 +182,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmetres-gained">
-            <conceptId qcode="sprgxstat:metres-gained" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:metres-gained" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">metres-gained</name>
             <name xml:lang="en-GB">metres-gained</name>
@@ -190,7 +190,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatscrums-total">
-            <conceptId qcode="sprgxstat:scrums-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:scrums-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">scrums-total</name>
             <name xml:lang="en-GB">scrums-total</name>
@@ -198,7 +198,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatscrums-won-for">
-            <conceptId qcode="sprgxstat:scrums-won-for" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:scrums-won-for" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">scrums-won-for</name>
             <name xml:lang="en-GB">scrums-won-for</name>
@@ -206,7 +206,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatline-outs-total">
-            <conceptId qcode="sprgxstat:line-outs-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:line-outs-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">line-outs-total</name>
             <name xml:lang="en-GB">line-outs-total</name>
@@ -214,7 +214,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatline-outs-won-for">
-            <conceptId qcode="sprgxstat:line-outs-won-for" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:line-outs-won-for" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">line-outs-won-for</name>
             <name xml:lang="en-GB">line-outs-won-for</name>
@@ -222,7 +222,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatrucks-total">
-            <conceptId qcode="sprgxstat:rucks-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:rucks-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">rucks-total</name>
             <name xml:lang="en-GB">rucks-total</name>
@@ -230,7 +230,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatrucks-won-for">
-            <conceptId qcode="sprgxstat:rucks-won-for" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:rucks-won-for" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">rucks-won-for</name>
             <name xml:lang="en-GB">rucks-won-for</name>
@@ -238,7 +238,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmauls-total">
-            <conceptId qcode="sprgxstat:mauls-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:mauls-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">mauls-total</name>
             <name xml:lang="en-GB">mauls-total</name>
@@ -246,7 +246,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmauls-won-for">
-            <conceptId qcode="sprgxstat:mauls-won-for" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:mauls-won-for" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">mauls-won-for</name>
             <name xml:lang="en-GB">mauls-won-for</name>
@@ -254,7 +254,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstathandling-errors">
-            <conceptId qcode="sprgxstat:handling-errors" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:handling-errors" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">handling-errors</name>
             <name xml:lang="en-GB">handling-errors</name>
@@ -262,7 +262,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstathandling-errors-per-game">
-            <conceptId qcode="sprgxstat:handling-errors-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:handling-errors-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">handling-errors-per-game</name>
             <name xml:lang="en-GB">handling-errors-per-game</name>
@@ -270,7 +270,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstattackles">
-            <conceptId qcode="sprgxstat:tackles" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:tackles" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">tackles</name>
             <name xml:lang="en-GB">tackles</name>
@@ -278,7 +278,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstattackles-missed">
-            <conceptId qcode="sprgxstat:tackles-missed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:tackles-missed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">tackles-missed</name>
             <name xml:lang="en-GB">tackles-missed</name>
@@ -286,7 +286,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatscrums-won-against">
-            <conceptId qcode="sprgxstat:scrums-won-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:scrums-won-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">scrums-won-against</name>
             <name xml:lang="en-GB">scrums-won-against</name>
@@ -294,7 +294,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatline-outs-won-against">
-            <conceptId qcode="sprgxstat:line-outs-won-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:line-outs-won-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">line-outs-won-against</name>
             <name xml:lang="en-GB">line-outs-won-against</name>
@@ -302,7 +302,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatrucks-won-against">
-            <conceptId qcode="sprgxstat:rucks-won-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:rucks-won-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">rucks-won-against</name>
             <name xml:lang="en-GB">rucks-won-against</name>
@@ -310,7 +310,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatmauls-won-against">
-            <conceptId qcode="sprgxstat:mauls-won-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:mauls-won-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">mauls-won-against</name>
             <name xml:lang="en-GB">mauls-won-against</name>
@@ -318,7 +318,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalties-conceded">
-            <conceptId qcode="sprgxstat:penalties-conceded" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalties-conceded" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">penalties-conceded</name>
             <name xml:lang="en-GB">penalties-conceded</name>
@@ -326,7 +326,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatpenalties-conceded-per-game">
-            <conceptId qcode="sprgxstat:penalties-conceded-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:penalties-conceded-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">penalties-conceded-per-game</name>
             <name xml:lang="en-GB">penalties-conceded-per-game</name>
@@ -334,7 +334,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcautions-total">
-            <conceptId qcode="sprgxstat:cautions-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:cautions-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">cautions-total</name>
             <name xml:lang="en-GB">cautions-total</name>
@@ -342,7 +342,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcautions-per-game">
-            <conceptId qcode="sprgxstat:cautions-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:cautions-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">cautions-per-game</name>
             <name xml:lang="en-GB">cautions-per-game</name>
@@ -350,7 +350,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcautions-pending">
-            <conceptId qcode="sprgxstat:cautions-pending" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:cautions-pending" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">cautions-pending</name>
             <name xml:lang="en-GB">cautions-pending</name>
@@ -358,7 +358,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcaution-points-total">
-            <conceptId qcode="sprgxstat:caution-points-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:caution-points-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">caution-points-total</name>
             <name xml:lang="en-GB">caution-points-total</name>
@@ -367,7 +367,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatcaution-points-pending">
-            <conceptId qcode="sprgxstat:caution-points-pending" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:caution-points-pending" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">caution-points-pending</name>
             <name xml:lang="en-GB">caution-points-pending</name>
@@ -376,7 +376,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatejections-total">
-            <conceptId qcode="sprgxstat:ejections-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:ejections-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">ejections-total</name>
             <name xml:lang="en-GB">ejections-total</name>
@@ -384,7 +384,7 @@
             <related uri="http://cv.iptc.org/newscodes/sprgxstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxstatejections-per-game">
-            <conceptId qcode="sprgxstat:ejections-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxstat:ejections-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:penalty"/>
             <name xml:lang="en-US">ejections-per-game</name>
             <name xml:lang="en-GB">ejections-per-game</name>

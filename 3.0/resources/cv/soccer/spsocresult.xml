@@ -37,77 +37,77 @@
     </contentMeta>
     <conceptSet>
         <concept id="spsocresultplay-on">
-            <conceptId qcode="spsocresult:play-on" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:play-on" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">play-on</name>
             <name xml:lang="en-GB">play-on</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultfreekick">
-            <conceptId qcode="spsocresult:freekick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:freekick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">freekick</name>
             <name xml:lang="en-GB">freekick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultcorner">
-            <conceptId qcode="spsocresult:corner" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:corner" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">corner</name>
             <name xml:lang="en-GB">corner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultoffside">
-            <conceptId qcode="spsocresult:offside" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:offside" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">offside</name>
             <name xml:lang="en-GB">offside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultindirect-freekick">
-            <conceptId qcode="spsocresult:indirect-freekick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:indirect-freekick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">indirect-freekick</name>
             <name xml:lang="en-GB">indirect-freekick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultdirect-freekick">
-            <conceptId qcode="spsocresult:direct-freekick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:direct-freekick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">direct-freekick</name>
             <name xml:lang="en-GB">direct-freekick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultpenalty-shot">
-            <conceptId qcode="spsocresult:penalty-shot" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:penalty-shot" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-shot</name>
             <name xml:lang="en-GB">penalty-shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultdisallowed">
-            <conceptId qcode="spsocresult:disallowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:disallowed" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">disallowed</name>
             <name xml:lang="en-GB">disallowed</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultfair-play">
-            <conceptId qcode="spsocresult:fair-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:fair-play" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">fair-play</name>
             <name xml:lang="en-GB">fair-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultout-of-play">
-            <conceptId qcode="spsocresult:out-of-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:out-of-play" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">out-of-play</name>
             <name xml:lang="en-GB">out-of-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsocresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocresultstoppage">
-            <conceptId qcode="spsocresult:stoppage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocresult:stoppage" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">stoppage</name>
             <name xml:lang="en-GB">stoppage</name>
             <definition/>

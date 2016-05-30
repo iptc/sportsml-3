@@ -33,7 +33,7 @@
 	</contentMeta>
 	<conceptSet>
 		<concept id="spseasontypepre-season">
-			<conceptId qcode="spseasontype:pre-season" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spseasontype:pre-season" created="2016-05-02T00:00:00+00:00"/>
 			<name xml:lang="en-US">pre-season</name>
             <name xml:lang="en-GB">pre-season</name>
 			<definition>Events played in an exhibition before the regular phase when standings
@@ -41,7 +41,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypeseason-regular">
-			<conceptId qcode="spseasontype:season-regular" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spseasontype:season-regular" created="2016-05-02T00:00:00+00:00"/>
 			<name xml:lang="en-US">season-regular</name>
             <name xml:lang="en-GB">season-regular</name>
 			<definition>The phase of a league competition when standings points are awarded toward a
@@ -49,7 +49,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypepost-season">
-			<conceptId qcode="spseasontype:post-season" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spseasontype:post-season" created="2016-05-02T00:00:00+00:00"/>
 			<name xml:lang="en-US">post-season</name>
             <name xml:lang="en-GB">post-season</name>
 			<definition>A championship phase of a league competition, usually comprosed of
@@ -57,7 +57,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypeall-star-game">
-			<conceptId qcode="spseasontype:all-star-game" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spseasontype:all-star-game" created="2016-05-02T00:00:00+00:00"/>
 			<name xml:lang="en-US">all-star-game</name>
             <name xml:lang="en-GB">all-star-game</name>
 			<definition>Some leagues have an all-star break and game comprised of the best
@@ -65,7 +65,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spseasontype/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spseasontypeexhibition">
-			<conceptId qcode="spseasontype:exhibition" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spseasontype:exhibition" created="2016-05-02T00:00:00+00:00"/>
 			<name xml:lang="en-US">exhibition</name>
             <name xml:lang="en-GB">exhibition</name>
 			<definition>A game or phase with no standings points awarded.</definition>

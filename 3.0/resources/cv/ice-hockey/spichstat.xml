@@ -38,7 +38,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichstatminutes-played">
-            <conceptId qcode="spichstat:minutes-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:minutes-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">minutes-played</name>
             <name xml:lang="en-GB">minutes-played</name>
@@ -46,7 +46,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatplus-minus">
-            <conceptId qcode="spichstat:plus-minus" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:plus-minus" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">plus-minus</name>
             <name xml:lang="en-GB">plus-minus</name>
@@ -55,7 +55,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatplus-total">
-            <conceptId qcode="spichstat:plus-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:plus-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">plus-total</name>
             <name xml:lang="en-GB">plus-total</name>
@@ -63,7 +63,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatminus-total">
-            <conceptId qcode="spichstat:minus-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:minus-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">minus-total</name>
             <name xml:lang="en-GB">minus-total</name>
@@ -71,7 +71,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpenalty-minutes">
-            <conceptId qcode="spichstat:penalty-minutes" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:penalty-minutes" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">penalty-minutes</name>
             <name xml:lang="en-GB">penalty-minutes</name>
@@ -80,7 +80,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-total">
-            <conceptId qcode="spichstat:goals-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-total</name>
             <name xml:lang="en-GB">goals-total</name>
@@ -89,7 +89,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-game-winning">
-            <conceptId qcode="spichstat:goals-game-winning" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-game-winning" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-game-winning</name>
             <name xml:lang="en-GB">goals-game-winning</name>
@@ -97,7 +97,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-game-tying">
-            <conceptId qcode="spichstat:goals-game-tying" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-game-tying" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-game-tying</name>
             <name xml:lang="en-GB">goals-game-tying</name>
@@ -105,7 +105,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-power-play">
-            <conceptId qcode="spichstat:goals-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-power-play</name>
             <name xml:lang="en-GB">goals-power-play</name>
@@ -113,7 +113,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-short-handed">
-            <conceptId qcode="spichstat:goals-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-short-handed</name>
             <name xml:lang="en-GB">goals-short-handed</name>
@@ -121,7 +121,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-even-strength">
-            <conceptId qcode="spichstat:goals-even-strength" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-even-strength" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-even-strength</name>
             <name xml:lang="en-GB">goals-even-strength</name>
@@ -129,7 +129,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-empty-net">
-            <conceptId qcode="spichstat:goals-empty-net" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-empty-net" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-empty-net</name>
             <name xml:lang="en-GB">goals-empty-net</name>
@@ -138,7 +138,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-overtime">
-            <conceptId qcode="spichstat:goals-overtime" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-overtime" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-overtime</name>
             <name xml:lang="en-GB">goals-overtime</name>
@@ -146,7 +146,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-shootout">
-            <conceptId qcode="spichstat:goals-shootout" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-shootout" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-shootout</name>
             <name xml:lang="en-GB">goals-shootout</name>
@@ -154,7 +154,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-shootout-attempts">
-            <conceptId qcode="spichstat:goals-shootout-attempts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-shootout-attempts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-shootout-attempts</name>
             <name xml:lang="en-GB">goals-shootout-attempts</name>
@@ -162,7 +162,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-penalty-shot">
-            <conceptId qcode="spichstat:goals-penalty-shot" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-penalty-shot" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-penalty-shot</name>
             <name xml:lang="en-GB">goals-penalty-shot</name>
@@ -170,7 +170,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-per-game">
-            <conceptId qcode="spichstat:goals-per-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-per-game" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">goals-per-game</name>
             <name xml:lang="en-GB">goals-per-game</name>
@@ -178,7 +178,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatassists">
-            <conceptId qcode="spichstat:assists" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:assists" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists</name>
             <name xml:lang="en-GB">assists</name>
@@ -186,7 +186,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatassists-power-play">
-            <conceptId qcode="spichstat:assists-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:assists-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-power-play</name>
             <name xml:lang="en-GB">assists-power-play</name>
@@ -194,7 +194,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatassists-short-handed">
-            <conceptId qcode="spichstat:assists-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:assists-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-short-handed</name>
             <name xml:lang="en-GB">assists-short-handed</name>
@@ -202,7 +202,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatassists-game-winning">
-            <conceptId qcode="spichstat:assists-game-winning" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:assists-game-winning" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-game-winning</name>
             <name xml:lang="en-GB">assists-game-winning</name>
@@ -210,7 +210,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatassists-game-tying">
-            <conceptId qcode="spichstat:assists-game-tying" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:assists-game-tying" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-game-tying</name>
             <name xml:lang="en-GB">assists-game-tying</name>
@@ -218,7 +218,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatassists-overtime">
-            <conceptId qcode="spichstat:assists-overtime" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:assists-overtime" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-overtime</name>
             <name xml:lang="en-GB">assists-overtime</name>
@@ -226,7 +226,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpoints">
-            <conceptId qcode="spichstat:points" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:points" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points</name>
             <name xml:lang="en-GB">points</name>
@@ -235,7 +235,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpoints-power-play">
-            <conceptId qcode="spichstat:points-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:points-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-power-play</name>
             <name xml:lang="en-GB">points-power-play</name>
@@ -244,7 +244,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpoints-short-handed">
-            <conceptId qcode="spichstat:points-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:points-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-short-handed</name>
             <name xml:lang="en-GB">points-short-handed</name>
@@ -253,7 +253,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpower-play-amount">
-            <conceptId qcode="spichstat:power-play-amount" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:power-play-amount" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">power-play-amount</name>
             <name xml:lang="en-GB">power-play-amount</name>
@@ -261,7 +261,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpower-play-percentage">
-            <conceptId qcode="spichstat:power-play-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:power-play-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">power-play-percentage</name>
             <name xml:lang="en-GB">power-play-percentage</name>
@@ -270,7 +270,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-penalty-shot-taken">
-            <conceptId qcode="spichstat:shots-penalty-shot-taken" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-penalty-shot-taken" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-penalty-shot-taken</name>
             <name xml:lang="en-GB">shots-penalty-shot-taken</name>
@@ -278,7 +278,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-penalty-shot-missed">
-            <conceptId qcode="spichstat:shots-penalty-shot-missed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-penalty-shot-missed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-penalty-shot-missed</name>
             <name xml:lang="en-GB">shots-penalty-shot-missed</name>
@@ -286,7 +286,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-penalty-shot-percentage">
-            <conceptId qcode="spichstat:shots-penalty-shot-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-penalty-shot-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-penalty-shot-percentage</name>
             <name xml:lang="en-GB">shots-penalty-shot-percentage</name>
@@ -294,7 +294,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgiveaways">
-            <conceptId qcode="spichstat:giveaways" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:giveaways" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">giveaways</name>
             <name xml:lang="en-GB">giveaways</name>
@@ -303,7 +303,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatminutes-power-play">
-            <conceptId qcode="spichstat:minutes-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:minutes-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">minutes-power-play</name>
             <name xml:lang="en-GB">minutes-power-play</name>
@@ -311,7 +311,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatscoring-chances">
-            <conceptId qcode="spichstat:scoring-chances" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:scoring-chances" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">scoring-chances</name>
             <name xml:lang="en-GB">scoring-chances</name>
@@ -319,7 +319,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstathat-tricks">
-            <conceptId qcode="spichstat:hat-tricks" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:hat-tricks" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hat-tricks</name>
             <name xml:lang="en-GB">hat-tricks</name>
@@ -327,7 +327,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-missed">
-            <conceptId qcode="spichstat:shots-missed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-missed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-missed</name>
             <name xml:lang="en-GB">shots-missed</name>
@@ -335,7 +335,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshot-attempts-blocked">
-            <conceptId qcode="spichstat:shot-attempts-blocked" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shot-attempts-blocked" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shot-attempts-blocked</name>
             <name xml:lang="en-GB">shot-attempts-blocked</name>
@@ -343,7 +343,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-even-strength">
-            <conceptId qcode="spichstat:shots-even-strength" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-even-strength" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-even-strength</name>
             <name xml:lang="en-GB">shots-even-strength</name>
@@ -351,7 +351,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-power-play">
-            <conceptId qcode="spichstat:shots-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-power-play</name>
             <name xml:lang="en-GB">shots-power-play</name>
@@ -359,7 +359,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-short-handed">
-            <conceptId qcode="spichstat:shots-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">shots-short-handed</name>
             <name xml:lang="en-GB">shots-short-handed</name>
@@ -367,7 +367,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-power-play-allowed">
-            <conceptId qcode="spichstat:shots-power-play-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-power-play-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">shots-power-play-allowed</name>
             <name xml:lang="en-GB">shots-power-play-allowed</name>
@@ -375,7 +375,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-penalty-shot-allowed">
-            <conceptId qcode="spichstat:shots-penalty-shot-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-penalty-shot-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">shots-penalty-shot-allowed</name>
             <name xml:lang="en-GB">shots-penalty-shot-allowed</name>
@@ -383,7 +383,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-power-play-allowed">
-            <conceptId qcode="spichstat:goals-power-play-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-power-play-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-power-play-allowed</name>
             <name xml:lang="en-GB">goals-power-play-allowed</name>
@@ -392,7 +392,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-penalty-shot-allowed">
-            <conceptId qcode="spichstat:goals-penalty-shot-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-penalty-shot-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-penalty-shot-allowed</name>
             <name xml:lang="en-GB">goals-penalty-shot-allowed</name>
@@ -400,7 +400,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-empty-net-allowed">
-            <conceptId qcode="spichstat:goals-empty-net-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-empty-net-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-empty-net-allowed</name>
             <name xml:lang="en-GB">goals-empty-net-allowed</name>
@@ -408,7 +408,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-short-handed-allowed">
-            <conceptId qcode="spichstat:goals-short-handed-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-short-handed-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-short-handed-allowed</name>
             <name xml:lang="en-GB">goals-short-handed-allowed</name>
@@ -416,7 +416,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-against-total">
-            <conceptId qcode="spichstat:goals-against-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-against-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-against-total</name>
             <name xml:lang="en-GB">goals-against-total</name>
@@ -425,7 +425,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-against-average">
-            <conceptId qcode="spichstat:goals-against-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-against-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-against-average</name>
             <name xml:lang="en-GB">goals-against-average</name>
@@ -433,7 +433,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatsaves">
-            <conceptId qcode="spichstat:saves" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:saves" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">saves</name>
             <name xml:lang="en-GB">saves</name>
@@ -441,7 +441,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatsave-percentage">
-            <conceptId qcode="spichstat:save-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:save-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">save-percentage</name>
             <name xml:lang="en-GB">save-percentage</name>
@@ -449,7 +449,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoals-shootout-allowed">
-            <conceptId qcode="spichstat:goals-shootout-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goals-shootout-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goals-shootout-allowed</name>
             <name xml:lang="en-GB">goals-shootout-allowed</name>
@@ -458,7 +458,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-shootout-allowed">
-            <conceptId qcode="spichstat:shots-shootout-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-shootout-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">shots-shootout-allowed</name>
             <name xml:lang="en-GB">shots-shootout-allowed</name>
@@ -467,7 +467,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpenalty-killing-amount">
-            <conceptId qcode="spichstat:penalty-killing-amount" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:penalty-killing-amount" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">penalty-killing-amount</name>
             <name xml:lang="en-GB">penalty-killing-amount</name>
@@ -476,7 +476,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatpenalty-killing-percentage">
-            <conceptId qcode="spichstat:penalty-killing-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:penalty-killing-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">penalty-killing-percentage</name>
             <name xml:lang="en-GB">penalty-killing-percentage</name>
@@ -484,7 +484,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshots-blocked">
-            <conceptId qcode="spichstat:shots-blocked" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shots-blocked" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">shots-blocked</name>
             <name xml:lang="en-GB">shots-blocked</name>
@@ -493,7 +493,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattakeaways">
-            <conceptId qcode="spichstat:takeaways" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:takeaways" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">takeaways</name>
             <name xml:lang="en-GB">takeaways</name>
@@ -502,7 +502,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshutouts">
-            <conceptId qcode="spichstat:shutouts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shutouts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">shutouts</name>
             <name xml:lang="en-GB">shutouts</name>
@@ -510,7 +510,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatminutes-penalty-killing">
-            <conceptId qcode="spichstat:minutes-penalty-killing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:minutes-penalty-killing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">minutes-penalty-killing</name>
             <name xml:lang="en-GB">minutes-penalty-killing</name>
@@ -519,7 +519,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstathits">
-            <conceptId qcode="spichstat:hits" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:hits" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">hits</name>
             <name xml:lang="en-GB">hits</name>
@@ -527,7 +527,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoaltender-wins">
-            <conceptId qcode="spichstat:goaltender-wins" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goaltender-wins" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goaltender-wins</name>
             <name xml:lang="en-GB">goaltender-wins</name>
@@ -535,7 +535,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoaltender-losses">
-            <conceptId qcode="spichstat:goaltender-losses" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goaltender-losses" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goaltender-losses</name>
             <name xml:lang="en-GB">goaltender-losses</name>
@@ -543,7 +543,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoaltender-ties">
-            <conceptId qcode="spichstat:goaltender-ties" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goaltender-ties" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goaltender-ties</name>
             <name xml:lang="en-GB">goaltender-ties</name>
@@ -551,7 +551,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoaltender-wins-overtime">
-            <conceptId qcode="spichstat:goaltender-wins-overtime" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goaltender-wins-overtime" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goaltender-wins-overtime</name>
             <name xml:lang="en-GB">goaltender-wins-overtime</name>
@@ -559,7 +559,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatgoaltender-losses-overtime">
-            <conceptId qcode="spichstat:goaltender-losses-overtime" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:goaltender-losses-overtime" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">goaltender-losses-overtime</name>
             <name xml:lang="en-GB">goaltender-losses-overtime</name>
@@ -567,7 +567,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-total">
-            <conceptId qcode="spichstat:faceoffs-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-total</name>
             <name xml:lang="en-GB">faceoffs-total</name>
@@ -575,7 +575,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoff-wins">
-            <conceptId qcode="spichstat:faceoff-wins" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoff-wins" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoff-wins</name>
             <name xml:lang="en-GB">faceoff-wins</name>
@@ -583,7 +583,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoff-losses">
-            <conceptId qcode="spichstat:faceoff-losses" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoff-losses" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoff-losses</name>
             <name xml:lang="en-GB">faceoff-losses</name>
@@ -591,7 +591,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoff-win-percentage">
-            <conceptId qcode="spichstat:faceoff-win-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoff-win-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoff-win-percentage</name>
             <name xml:lang="en-GB">faceoff-win-percentage</name>
@@ -599,7 +599,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-even-strength-total">
-            <conceptId qcode="spichstat:faceoffs-even-strength-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-even-strength-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-even-strength-total</name>
             <name xml:lang="en-GB">faceoffs-even-strength-total</name>
@@ -607,7 +607,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-even-strength-wins">
-            <conceptId qcode="spichstat:faceoffs-even-strength-wins" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-even-strength-wins" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-even-strength-wins</name>
             <name xml:lang="en-GB">faceoffs-even-strength-wins</name>
@@ -615,7 +615,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-even-strength-losses">
-            <conceptId qcode="spichstat:faceoffs-even-strength-losses" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-even-strength-losses" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-even-strength-losses</name>
             <name xml:lang="en-GB">faceoffs-even-strength-losses</name>
@@ -623,7 +623,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-even-strength-win-percentage">
-            <conceptId qcode="spichstat:faceoffs-even-strength-win-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-even-strength-win-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-even-strength-win-percentage</name>
             <name xml:lang="en-GB">faceoffs-even-strength-win-percentage</name>
@@ -631,7 +631,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-power-play-total">
-            <conceptId qcode="spichstat:faceoffs-power-play-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-power-play-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-power-play-total</name>
             <name xml:lang="en-GB">faceoffs-power-play-total</name>
@@ -639,7 +639,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-power-play-wins">
-            <conceptId qcode="spichstat:faceoffs-power-play-wins" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-power-play-wins" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-power-play-wins</name>
             <name xml:lang="en-GB">faceoffs-power-play-wins</name>
@@ -647,7 +647,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-power-play-losses">
-            <conceptId qcode="spichstat:faceoffs-power-play-losses" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-power-play-losses" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-power-play-losses</name>
             <name xml:lang="en-GB">faceoffs-power-play-losses</name>
@@ -655,7 +655,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-power-play-win-percentage">
-            <conceptId qcode="spichstat:faceoffs-power-play-win-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-power-play-win-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-power-play-win-percentage</name>
             <name xml:lang="en-GB">faceoffs-power-play-win-percentage</name>
@@ -663,7 +663,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-short-handed-total">
-            <conceptId qcode="spichstat:faceoffs-short-handed-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-short-handed-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-short-handed-total</name>
             <name xml:lang="en-GB">faceoffs-short-handed-total</name>
@@ -671,7 +671,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-short-handed-wins">
-            <conceptId qcode="spichstat:faceoffs-short-handed-wins" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-short-handed-wins" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-short-handed-wins</name>
             <name xml:lang="en-GB">faceoffs-short-handed-wins</name>
@@ -679,7 +679,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-short-handed-losses">
-            <conceptId qcode="spichstat:faceoffs-short-handed-losses" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-short-handed-losses" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-short-handed-losses</name>
             <name xml:lang="en-GB">faceoffs-short-handed-losses</name>
@@ -687,7 +687,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatfaceoffs-short-handed-win-percentage">
-            <conceptId qcode="spichstat:faceoffs-short-handed-win-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:faceoffs-short-handed-win-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:faceoff"/>
             <name xml:lang="en-US">faceoffs-short-handed-win-percentage</name>
             <name xml:lang="en-GB">faceoffs-short-handed-win-percentage</name>
@@ -695,7 +695,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshifts">
-            <conceptId qcode="spichstat:shifts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shifts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">shifts</name>
             <name xml:lang="en-GB">shifts</name>
@@ -703,7 +703,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshifts-power-play">
-            <conceptId qcode="spichstat:shifts-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shifts-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">shifts-power-play</name>
             <name xml:lang="en-GB">shifts-power-play</name>
@@ -711,7 +711,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshifts-short-handed">
-            <conceptId qcode="spichstat:shifts-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shifts-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">shifts-short-handed</name>
             <name xml:lang="en-GB">shifts-short-handed</name>
@@ -719,7 +719,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstatshifts-average">
-            <conceptId qcode="spichstat:shifts-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:shifts-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">shifts-average</name>
             <name xml:lang="en-GB">shifts-average</name>
@@ -727,7 +727,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-average-per-shift">
-            <conceptId qcode="spichstat:time-average-per-shift" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-average-per-shift" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-average-per-shift</name>
             <name xml:lang="en-GB">time-average-per-shift</name>
@@ -735,7 +735,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-average-even-strength">
-            <conceptId qcode="spichstat:time-average-even-strength" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-average-even-strength" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-average-even-strength</name>
             <name xml:lang="en-GB">time-average-even-strength</name>
@@ -743,7 +743,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-average-short-handed">
-            <conceptId qcode="spichstat:time-average-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-average-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-average-short-handed</name>
             <name xml:lang="en-GB">time-average-short-handed</name>
@@ -751,7 +751,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-average-power-play">
-            <conceptId qcode="spichstat:time-average-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-average-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-average-power-play</name>
             <name xml:lang="en-GB">time-average-power-play</name>
@@ -759,7 +759,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-power-play">
-            <conceptId qcode="spichstat:time-power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-power-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-power-play</name>
             <name xml:lang="en-GB">time-power-play</name>
@@ -767,7 +767,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-short-handed">
-            <conceptId qcode="spichstat:time-short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-short-handed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-short-handed</name>
             <name xml:lang="en-GB">time-short-handed</name>
@@ -775,7 +775,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-even-strength">
-            <conceptId qcode="spichstat:time-even-strength" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-even-strength" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-even-strength</name>
             <name xml:lang="en-GB">time-even-strength</name>
@@ -783,7 +783,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-empty-net">
-            <conceptId qcode="spichstat:time-empty-net" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-empty-net" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-empty-net</name>
             <name xml:lang="en-GB">time-empty-net</name>
@@ -791,7 +791,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-power-play-empty-net">
-            <conceptId qcode="spichstat:time-power-play-empty-net" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-power-play-empty-net" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-power-play-empty-net</name>
             <name xml:lang="en-GB">time-power-play-empty-net</name>
@@ -799,7 +799,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-short-handed-empty-net">
-            <conceptId qcode="spichstat:time-short-handed-empty-net" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-short-handed-empty-net" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-short-handed-empty-net</name>
             <name xml:lang="en-GB">time-short-handed-empty-net</name>
@@ -807,7 +807,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstattime-even-strength-empty-net">
-            <conceptId qcode="spichstat:time-even-strength-empty-net" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstat:time-even-strength-empty-net" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:time-on-ice"/>
             <name xml:lang="en-US">time-even-strength-empty-net</name>
             <name xml:lang="en-GB">time-even-strength-empty-net</name>

@@ -38,21 +38,21 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichstrengtheven-strength">
-            <conceptId qcode="spichstrength:even-strength" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstrength:even-strength" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">even-strength</name>
             <name xml:lang="en-GB">even-strength</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichstrength/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstrengthpower-play">
-            <conceptId qcode="spichstrength:power-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstrength:power-play" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">power-play</name>
             <name xml:lang="en-GB">power-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichstrength/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichstrengthshort-handed">
-            <conceptId qcode="spichstrength:short-handed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichstrength:short-handed" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">short-handed</name>
             <name xml:lang="en-GB">short-handed</name>
             <definition/>

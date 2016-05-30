@@ -37,42 +37,42 @@
     </contentMeta>
     <conceptSet>
         <concept id="spsocscoreattemptregular">
-            <conceptId qcode="spsocscoreattempt:regular" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:regular" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">regular</name>
             <name xml:lang="en-GB">regular</name>
             <definition>The score attempt is made during regular play.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptpenalty">
-            <conceptId qcode="spsocscoreattempt:penalty" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:penalty" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty</name>
             <name xml:lang="en-GB">penalty</name>
             <definition>The score attempt is made as a penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptshootout">
-            <conceptId qcode="spsocscoreattempt:shootout" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:shootout" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty</name>
             <name xml:lang="en-GB">penalty</name>
             <definition>The score attempt is made as a shootout during tiebreaker.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptfreekick">
-            <conceptId qcode="spsocscoreattempt:freekick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:freekick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">freekick</name>
             <name xml:lang="en-GB">freekick</name>
             <definition>The score attempt is made as a free kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptcorner-kick">
-            <conceptId qcode="spsocscoreattempt:corner-kick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:corner-kick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">corner-kick</name>
             <name xml:lang="en-GB">corner-kick</name>
             <definition>The score attempt is made as a kick from the corner.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptopen-goal">
-            <conceptId qcode="spsocscoreattempt:open-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:open-goal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">open-goal</name>
             <name xml:lang="en-GB">open-goal</name>
             <definition>The score attempt is made when there is no goal-keeper in place, but still
@@ -80,7 +80,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocscoreattemptown-goal">
-            <conceptId qcode="spsocscoreattempt:own-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocscoreattempt:own-goal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">own-goal</name>
             <name xml:lang="en-GB">own-goal</name>
             <definition>The score attempt is made towards the own goal.</definition>

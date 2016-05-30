@@ -37,42 +37,42 @@
     </contentMeta>
     <conceptSet>
         <concept id="spamfdriveresultscore">
-            <conceptId qcode="spamfdriveresult:score" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfdriveresult:score" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">score</name>
             <name xml:lang="en-GB">score</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultscore-attempt">
-            <conceptId qcode="spamfdriveresult:score-attempt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfdriveresult:score-attempt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">score-attempt</name>
             <name xml:lang="en-GB">score-attempt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultpunt">
-            <conceptId qcode="spamfdriveresult:punt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfdriveresult:punt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">punt</name>
             <name xml:lang="en-GB">punt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultfumble">
-            <conceptId qcode="spamfdriveresult:fumble" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfdriveresult:fumble" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">fumble</name>
             <name xml:lang="en-GB">fumble</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultinterception">
-            <conceptId qcode="spamfdriveresult:interception" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfdriveresult:interception" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">interception</name>
             <name xml:lang="en-GB">interception</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfdriveresult/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfdriveresultmarker-not-reached">
-            <conceptId qcode="spamfdriveresult:marker-not-reached" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfdriveresult:marker-not-reached" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">marker-not-reached</name>
             <name xml:lang="en-GB">marker-not-reached</name>
             <definition>On the final down, the team in possession did not reach the first-down

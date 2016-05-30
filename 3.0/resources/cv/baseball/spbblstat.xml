@@ -38,7 +38,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spbblstataverage">
-            <conceptId qcode="spbblstat:average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">average</name>
             <name xml:lang="en-GB">average</name>
@@ -46,7 +46,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatruns-scored">
-            <conceptId qcode="spbblstat:runs-scored" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:runs-scored" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">runs-scored</name>
             <name xml:lang="en-GB">runs-scored</name>
@@ -54,7 +54,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatat-bats">
-            <conceptId qcode="spbblstat:at-bats" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:at-bats" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">at-bats</name>
             <name xml:lang="en-GB">at-bats</name>
@@ -62,7 +62,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits">
-            <conceptId qcode="spbblstat:hits" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:hits" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hits</name>
             <name xml:lang="en-GB">hits</name>
@@ -70,7 +70,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatrbi">
-            <conceptId qcode="spbblstat:rbi" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:rbi" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">rbi</name>
             <name xml:lang="en-GB">rbi</name>
@@ -78,7 +78,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattotal-bases">
-            <conceptId qcode="spbblstat:total-bases" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:total-bases" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">total-bases</name>
             <name xml:lang="en-GB">total-bases</name>
@@ -87,7 +87,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatslugging-percentage">
-            <conceptId qcode="spbblstat:slugging-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:slugging-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">slugging-percentage</name>
             <name xml:lang="en-GB">slugging-percentage</name>
@@ -95,7 +95,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls">
-            <conceptId qcode="spbblstat:bases-on-balls" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:bases-on-balls" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">bases-on-balls</name>
             <name xml:lang="en-GB">bases-on-balls</name>
@@ -103,7 +103,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-rate">
-            <conceptId qcode="spbblstat:bases-on-balls-rate" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:bases-on-balls-rate" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">bases-on-balls-rate</name>
             <name xml:lang="en-GB">bases-on-balls-rate</name>
@@ -111,7 +111,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-intentional">
-            <conceptId qcode="spbblstat:bases-on-balls-intentional" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:bases-on-balls-intentional" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">bases-on-balls-intentional</name>
             <name xml:lang="en-GB">bases-on-balls-intentional</name>
@@ -119,7 +119,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeouts-against">
-            <conceptId qcode="spbblstat:strikeouts-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:strikeouts-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">strikeouts-against</name>
             <name xml:lang="en-GB">strikeouts-against</name>
@@ -127,7 +127,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeouts-looking">
-            <conceptId qcode="spbblstat:strikeouts-looking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:strikeouts-looking" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">strikeouts-looking</name>
             <name xml:lang="en-GB">strikeouts-looking</name>
@@ -135,7 +135,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatouts-ground">
-            <conceptId qcode="spbblstat:outs-ground" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:outs-ground" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">outs-ground</name>
             <name xml:lang="en-GB">outs-ground</name>
@@ -143,7 +143,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatouts-fly">
-            <conceptId qcode="spbblstat:outs-fly" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:outs-fly" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">outs-fly</name>
             <name xml:lang="en-GB">outs-fly</name>
@@ -151,7 +151,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatleft-on-base">
-            <conceptId qcode="spbblstat:left-on-base" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:left-on-base" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">left-on-base</name>
             <name xml:lang="en-GB">left-on-base</name>
@@ -159,7 +159,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatleft-in-scoring-position">
-            <conceptId qcode="spbblstat:left-in-scoring-position" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:left-in-scoring-position" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">left-in-scoring-position</name>
             <name xml:lang="en-GB">left-in-scoring-position</name>
@@ -167,7 +167,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsingles">
-            <conceptId qcode="spbblstat:singles" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:singles" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">singles</name>
             <name xml:lang="en-GB">singles</name>
@@ -175,7 +175,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdoubles">
-            <conceptId qcode="spbblstat:doubles" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:doubles" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">doubles</name>
             <name xml:lang="en-GB">doubles</name>
@@ -183,7 +183,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattriples">
-            <conceptId qcode="spbblstat:triples" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:triples" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">triples</name>
             <name xml:lang="en-GB">triples</name>
@@ -191,7 +191,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathome-runs">
-            <conceptId qcode="spbblstat:home-runs" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:home-runs" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">home-runs</name>
             <name xml:lang="en-GB">home-runs</name>
@@ -199,7 +199,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathome-runs-season">
-            <conceptId qcode="spbblstat:home-runs-season" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:home-runs-season" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">home-runs-season</name>
             <name xml:lang="en-GB">home-runs-season</name>
@@ -207,7 +207,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgrand-slams">
-            <conceptId qcode="spbblstat:grand-slams" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:grand-slams" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">grand-slams</name>
             <name xml:lang="en-GB">grand-slams</name>
@@ -215,7 +215,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstreak-hits">
-            <conceptId qcode="spbblstat:streak-hits" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:streak-hits" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">streak-hits</name>
             <name xml:lang="en-GB">streak-hits</name>
@@ -223,7 +223,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits-event-winning">
-            <conceptId qcode="spbblstat:hits-event-winning" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:hits-event-winning" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hits-event-winning</name>
             <name xml:lang="en-GB">hits-event-winning</name>
@@ -231,7 +231,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatat-bats-per-rbi">
-            <conceptId qcode="spbblstat:at-bats-per-rbi" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:at-bats-per-rbi" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">at-bats-per-rbi</name>
             <name xml:lang="en-GB">at-bats-per-rbi</name>
@@ -239,7 +239,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatplate-appearances-per-rbi">
-            <conceptId qcode="spbblstat:plate-appearances-per-rbi" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:plate-appearances-per-rbi" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">plate-appearances-per-rbi</name>
             <name xml:lang="en-GB">plate-appearances-per-rbi</name>
@@ -247,7 +247,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatat-bats-per-home-run">
-            <conceptId qcode="spbblstat:at-bats-per-home-run" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:at-bats-per-home-run" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">at-bats-per-home-run</name>
             <name xml:lang="en-GB">at-bats-per-home-run</name>
@@ -255,7 +255,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatplate-appearances-per-home-run">
-            <conceptId qcode="spbblstat:plate-appearances-per-home-run" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:plate-appearances-per-home-run" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">plate-appearances-per-home-run</name>
             <name xml:lang="en-GB">plate-appearances-per-home-run</name>
@@ -263,7 +263,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsac-flies">
-            <conceptId qcode="spbblstat:sac-flies" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:sac-flies" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">sac-flies</name>
             <name xml:lang="en-GB">sac-flies</name>
@@ -272,7 +272,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsac-bunts">
-            <conceptId qcode="spbblstat:sac-bunts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:sac-bunts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">sac-bunts</name>
             <name xml:lang="en-GB">sac-bunts</name>
@@ -281,7 +281,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifices">
-            <conceptId qcode="spbblstat:sacrifices" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:sacrifices" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">sacrifices</name>
             <name xml:lang="en-GB">sacrifices</name>
@@ -289,7 +289,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgrounded-into-double-play">
-            <conceptId qcode="spbblstat:grounded-into-double-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:grounded-into-double-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">grounded-into-double-play</name>
             <name xml:lang="en-GB">grounded-into-double-play</name>
@@ -298,7 +298,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathit-into-double-play">
-            <conceptId qcode="spbblstat:hit-into-double-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:hit-into-double-play" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hit-into-double-play</name>
             <name xml:lang="en-GB">hit-into-double-play</name>
@@ -306,7 +306,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatmoved-up">
-            <conceptId qcode="spbblstat:moved-up" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:moved-up" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">moved-up</name>
             <name xml:lang="en-GB">moved-up</name>
@@ -314,7 +314,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaton-base-percentage">
-            <conceptId qcode="spbblstat:on-base-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:on-base-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">on-base-percentage</name>
             <name xml:lang="en-GB">on-base-percentage</name>
@@ -323,7 +323,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases">
-            <conceptId qcode="spbblstat:stolen-bases" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:stolen-bases" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">stolen-bases</name>
             <name xml:lang="en-GB">stolen-bases</name>
@@ -331,7 +331,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-caught">
-            <conceptId qcode="spbblstat:stolen-bases-caught" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:stolen-bases-caught" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">stolen-bases-caught</name>
             <name xml:lang="en-GB">stolen-bases-caught</name>
@@ -340,7 +340,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-average">
-            <conceptId qcode="spbblstat:stolen-bases-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:stolen-bases-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">stolen-bases-average</name>
             <name xml:lang="en-GB">stolen-bases-average</name>
@@ -348,7 +348,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathit-by-pitch">
-            <conceptId qcode="spbblstat:hit-by-pitch" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:hit-by-pitch" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hit-by-pitch</name>
             <name xml:lang="en-GB">hit-by-pitch</name>
@@ -356,7 +356,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatreached-base-defensive-interference">
-            <conceptId qcode="spbblstat:reached-base-defensive-interference" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:reached-base-defensive-interference" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">reached-base-defensive-interference</name>
             <name xml:lang="en-GB">reached-base-defensive-interference</name>
@@ -365,7 +365,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatreached-base-error">
-            <conceptId qcode="spbblstat:reached-base-error" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:reached-base-error" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">reached-base-error</name>
             <name xml:lang="en-GB">reached-base-error</name>
@@ -373,7 +373,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatreached-base-fielder-choice">
-            <conceptId qcode="spbblstat:reached-base-fielder-choice" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:reached-base-fielder-choice" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">reached-base-fielder-choice</name>
             <name xml:lang="en-GB">reached-base-fielder-choice</name>
@@ -381,7 +381,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaton-base-plus-slugging">
-            <conceptId qcode="spbblstat:on-base-plus-slugging" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:on-base-plus-slugging" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">on-base-plus-slugging</name>
             <name xml:lang="en-GB">on-base-plus-slugging</name>
@@ -389,7 +389,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatplate-appearances">
-            <conceptId qcode="spbblstat:plate-appearances" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:plate-appearances" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">plate-appearances</name>
             <name xml:lang="en-GB">plate-appearances</name>
@@ -398,7 +398,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits-extra-base">
-            <conceptId qcode="spbblstat:hits-extra-base" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:hits-extra-base" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hits-extra-base</name>
             <name xml:lang="en-GB">hits-extra-base</name>
@@ -406,7 +406,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeout-rate">
-            <conceptId qcode="spbblstat:strikeout-rate" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:strikeout-rate" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">strikeout-rate</name>
             <name xml:lang="en-GB">strikeout-rate</name>
@@ -414,7 +414,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdouble-plays-against">
-            <conceptId qcode="spbblstat:double-plays-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:double-plays-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">double-plays-against</name>
             <name xml:lang="en-GB">double-plays-against</name>
@@ -422,7 +422,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattriple-plays-against">
-            <conceptId qcode="spbblstat:triple-plays-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:triple-plays-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">triple-plays-against</name>
             <name xml:lang="en-GB">triple-plays-against</name>
@@ -430,7 +430,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatpick-offs-against">
-            <conceptId qcode="spbblstat:pick-offs-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:pick-offs-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">pick-offs-against</name>
             <name xml:lang="en-GB">pick-offs-against</name>
@@ -438,7 +438,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-played">
-            <conceptId qcode="spbblstat:games-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:games-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">games-played</name>
             <name xml:lang="en-GB">games-played</name>
@@ -446,7 +446,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatruns-allowed">
-            <conceptId qcode="spbblstat:runs-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:runs-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">runs-allowed</name>
             <name xml:lang="en-GB">runs-allowed</name>
@@ -454,7 +454,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathome-runs-allowed">
-            <conceptId qcode="spbblstat:home-runs-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:home-runs-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">home-runs-allowed</name>
             <name xml:lang="en-GB">home-runs-allowed</name>
@@ -462,7 +462,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifice-bunts-allowed">
-            <conceptId qcode="spbblstat:sacrifice-bunts-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:sacrifice-bunts-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">sacrifice-bunts-allowed</name>
             <name xml:lang="en-GB">sacrifice-bunts-allowed</name>
@@ -470,7 +470,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifice-hits-allowed">
-            <conceptId qcode="spbblstat:sacrifice-hits-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:sacrifice-hits-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">sacrifice-hits-allowed</name>
             <name xml:lang="en-GB">sacrifice-hits-allowed</name>
@@ -478,7 +478,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinterferences">
-            <conceptId qcode="spbblstat:interferences" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:interferences" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">interferences</name>
             <name xml:lang="en-GB">interferences</name>
@@ -486,7 +486,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinnings-pitched">
-            <conceptId qcode="spbblstat:innings-pitched" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:innings-pitched" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">innings-pitched</name>
             <name xml:lang="en-GB">innings-pitched</name>
@@ -494,7 +494,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinnings-pitched-average">
-            <conceptId qcode="spbblstat:innings-pitched-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:innings-pitched-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">innings-pitched-average</name>
             <name xml:lang="en-GB">innings-pitched-average</name>
@@ -502,7 +502,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits-allowed">
-            <conceptId qcode="spbblstat:hits-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:hits-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">hits-allowed</name>
             <name xml:lang="en-GB">hits-allowed</name>
@@ -510,7 +510,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatearned-runs">
-            <conceptId qcode="spbblstat:earned-runs" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:earned-runs" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">earned-runs</name>
             <name xml:lang="en-GB">earned-runs</name>
@@ -518,7 +518,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatunearned-runs">
-            <conceptId qcode="spbblstat:unearned-runs" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:unearned-runs" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">unearned-runs</name>
             <name xml:lang="en-GB">unearned-runs</name>
@@ -526,7 +526,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-allowed">
-            <conceptId qcode="spbblstat:bases-on-balls-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:bases-on-balls-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">bases-on-balls-allowed</name>
             <name xml:lang="en-GB">bases-on-balls-allowed</name>
@@ -534,7 +534,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-intentional-pitcher">
-            <conceptId qcode="spbblstat:bases-on-balls-intentional-pitcher" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:bases-on-balls-intentional-pitcher" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">bases-on-balls-intentional-pitcher</name>
             <name xml:lang="en-GB">bases-on-balls-intentional-pitcher</name>
@@ -542,7 +542,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeouts">
-            <conceptId qcode="spbblstat:strikeouts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:strikeouts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">strikeouts</name>
             <name xml:lang="en-GB">strikeouts</name>
@@ -550,7 +550,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeout-to-bb-ratio">
-            <conceptId qcode="spbblstat:strikeout-to-bb-ratio" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:strikeout-to-bb-ratio" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">strikeout-to-bb-ratio</name>
             <name xml:lang="en-GB">strikeout-to-bb-ratio</name>
@@ -558,7 +558,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatnumber-of-pitches">
-            <conceptId qcode="spbblstat:number-of-pitches" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:number-of-pitches" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">number-of-pitches</name>
             <name xml:lang="en-GB">number-of-pitches</name>
@@ -566,7 +566,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatnumber-of-strikes">
-            <conceptId qcode="spbblstat:number-of-strikes" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:number-of-strikes" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">number-of-strikes</name>
             <name xml:lang="en-GB">number-of-strikes</name>
@@ -574,7 +574,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatera">
-            <conceptId qcode="spbblstat:era" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:era" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">era</name>
             <name xml:lang="en-GB">era</name>
@@ -583,7 +583,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatwhip">
-            <conceptId qcode="spbblstat:whip" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:whip" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">whip</name>
             <name xml:lang="en-GB">whip</name>
@@ -591,7 +591,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinherited-runners-scored">
-            <conceptId qcode="spbblstat:inherited-runners-scored" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:inherited-runners-scored" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">inherited-runners-scored</name>
             <name xml:lang="en-GB">inherited-runners-scored</name>
@@ -600,7 +600,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatpick-offs">
-            <conceptId qcode="spbblstat:pick-offs" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:pick-offs" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">pick-offs</name>
             <name xml:lang="en-GB">pick-offs</name>
@@ -609,7 +609,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors-hit-with-pitch">
-            <conceptId qcode="spbblstat:errors-hit-with-pitch" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:errors-hit-with-pitch" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">errors-hit-with-pitch</name>
             <name xml:lang="en-GB">errors-hit-with-pitch</name>
@@ -617,7 +617,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors-wild-pitch">
-            <conceptId qcode="spbblstat:errors-wild-pitch" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:errors-wild-pitch" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">errors-wild-pitch</name>
             <name xml:lang="en-GB">errors-wild-pitch</name>
@@ -625,7 +625,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbalks">
-            <conceptId qcode="spbblstat:balks" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:balks" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">balks</name>
             <name xml:lang="en-GB">balks</name>
@@ -633,7 +633,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatwins">
-            <conceptId qcode="spbblstat:wins" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:wins" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">wins</name>
             <name xml:lang="en-GB">wins</name>
@@ -641,7 +641,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatlosses">
-            <conceptId qcode="spbblstat:losses" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:losses" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">losses</name>
             <name xml:lang="en-GB">losses</name>
@@ -649,7 +649,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves">
-            <conceptId qcode="spbblstat:saves" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:saves" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves</name>
             <name xml:lang="en-GB">saves</name>
@@ -657,7 +657,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatholds">
-            <conceptId qcode="spbblstat:holds" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:holds" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">holds</name>
             <name xml:lang="en-GB">holds</name>
@@ -665,7 +665,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves-blown">
-            <conceptId qcode="spbblstat:saves-blown" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:saves-blown" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves-blown</name>
             <name xml:lang="en-GB">saves-blown</name>
@@ -673,7 +673,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves-tough">
-            <conceptId qcode="spbblstat:saves-tough" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:saves-tough" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves-tough</name>
             <name xml:lang="en-GB">saves-tough</name>
@@ -681,7 +681,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves-opportunities">
-            <conceptId qcode="spbblstat:saves-opportunities" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:saves-opportunities" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves-opportunities</name>
             <name xml:lang="en-GB">saves-opportunities</name>
@@ -689,7 +689,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatrelief-points">
-            <conceptId qcode="spbblstat:relief-points" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:relief-points" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">relief-points</name>
             <name xml:lang="en-GB">relief-points</name>
@@ -699,7 +699,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatshutouts">
-            <conceptId qcode="spbblstat:shutouts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:shutouts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">shutouts</name>
             <name xml:lang="en-GB">shutouts</name>
@@ -707,7 +707,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-complete">
-            <conceptId qcode="spbblstat:games-complete" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:games-complete" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">games-complete</name>
             <name xml:lang="en-GB">games-complete</name>
@@ -715,7 +715,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-finished">
-            <conceptId qcode="spbblstat:games-finished" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:games-finished" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">games-finished</name>
             <name xml:lang="en-GB">games-finished</name>
@@ -723,7 +723,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-pitched">
-            <conceptId qcode="spbblstat:games-pitched" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:games-pitched" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">games-pitched</name>
             <name xml:lang="en-GB">games-pitched</name>
@@ -731,7 +731,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatwinning-percentage">
-            <conceptId qcode="spbblstat:winning-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:winning-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">winning-percentage</name>
             <name xml:lang="en-GB">winning-percentage</name>
@@ -739,7 +739,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatevent-credit">
-            <conceptId qcode="spbblstat:event-credit" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:event-credit" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">event-credit</name>
             <name xml:lang="en-GB">event-credit</name>
@@ -749,7 +749,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsave-credit">
-            <conceptId qcode="spbblstat:save-credit" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:save-credit" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">save-credit</name>
             <name xml:lang="en-GB">save-credit</name>
@@ -759,7 +759,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-average-against">
-            <conceptId qcode="spbblstat:batters-average-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-average-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-average-against</name>
             <name xml:lang="en-GB">batters-average-against</name>
@@ -767,7 +767,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-at-bats-against">
-            <conceptId qcode="spbblstat:batters-at-bats-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-at-bats-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-at-bats-against</name>
             <name xml:lang="en-GB">batters-at-bats-against</name>
@@ -775,7 +775,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-total-against">
-            <conceptId qcode="spbblstat:batters-total-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-total-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-total-against</name>
             <name xml:lang="en-GB">batters-total-against</name>
@@ -783,7 +783,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-total-bases-against">
-            <conceptId qcode="spbblstat:batters-total-bases-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-total-bases-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-total-bases-against</name>
             <name xml:lang="en-GB">batters-total-bases-against</name>
@@ -791,7 +791,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-slugging-percentage-against">
-            <conceptId qcode="spbblstat:batters-slugging-percentage-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-slugging-percentage-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-slugging-percentage-against</name>
             <name xml:lang="en-GB">batters-slugging-percentage-against</name>
@@ -799,7 +799,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-on-base-percentage-against">
-            <conceptId qcode="spbblstat:batters-on-base-percentage-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-on-base-percentage-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-on-base-percentage-against</name>
             <name xml:lang="en-GB">batters-on-base-percentage-against</name>
@@ -807,7 +807,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-doubles-against">
-            <conceptId qcode="spbblstat:batters-doubles-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-doubles-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-doubles-against</name>
             <name xml:lang="en-GB">batters-doubles-against</name>
@@ -815,7 +815,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-triples-against">
-            <conceptId qcode="spbblstat:batters-triples-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-triples-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-triples-against</name>
             <name xml:lang="en-GB">batters-triples-against</name>
@@ -823,7 +823,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-home-runs-against">
-            <conceptId qcode="spbblstat:batters-home-runs-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:batters-home-runs-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-home-runs-against</name>
             <name xml:lang="en-GB">batters-home-runs-against</name>
@@ -831,7 +831,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinherited-runners-total">
-            <conceptId qcode="spbblstat:inherited-runners-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:inherited-runners-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">inherited-runners-total</name>
             <name xml:lang="en-GB">inherited-runners-total</name>
@@ -839,7 +839,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifice-flies-allowed">
-            <conceptId qcode="spbblstat:sacrifice-flies-allowed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:sacrifice-flies-allowed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">sacrifice-flies-allowed</name>
             <name xml:lang="en-GB">sacrifice-flies-allowed</name>
@@ -847,7 +847,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatshutouts-combined">
-            <conceptId qcode="spbblstat:shutouts-combined" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:shutouts-combined" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">shutouts-combined</name>
             <name xml:lang="en-GB">shutouts-combined</name>
@@ -855,7 +855,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdouble-plays">
-            <conceptId qcode="spbblstat:double-plays" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:double-plays" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">double-plays</name>
             <name xml:lang="en-GB">double-plays</name>
@@ -863,7 +863,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattriple-plays">
-            <conceptId qcode="spbblstat:triple-plays" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:triple-plays" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">triple-plays</name>
             <name xml:lang="en-GB">triple-plays</name>
@@ -871,7 +871,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatputouts">
-            <conceptId qcode="spbblstat:putouts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:putouts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">putouts</name>
             <name xml:lang="en-GB">putouts</name>
@@ -879,7 +879,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatassists">
-            <conceptId qcode="spbblstat:assists" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:assists" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">assists</name>
             <name xml:lang="en-GB">assists</name>
@@ -888,7 +888,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors">
-            <conceptId qcode="spbblstat:errors" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:errors" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">errors</name>
             <name xml:lang="en-GB">errors</name>
@@ -897,7 +897,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatfielding-chances">
-            <conceptId qcode="spbblstat:fielding-chances" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:fielding-chances" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">fielding-chances</name>
             <name xml:lang="en-GB">fielding-chances</name>
@@ -905,7 +905,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatfielding-percentage">
-            <conceptId qcode="spbblstat:fielding-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:fielding-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">fielding-percentage</name>
             <name xml:lang="en-GB">fielding-percentage</name>
@@ -914,7 +914,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdefensive-average">
-            <conceptId qcode="spbblstat:defensive-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:defensive-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">defensive-average</name>
             <name xml:lang="en-GB">defensive-average</name>
@@ -922,7 +922,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors-passed-ball">
-            <conceptId qcode="spbblstat:errors-passed-ball" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:errors-passed-ball" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">errors-passed-ball</name>
             <name xml:lang="en-GB">errors-passed-ball</name>
@@ -931,7 +931,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors-catchers-interference">
-            <conceptId qcode="spbblstat:errors-catchers-interference" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:errors-catchers-interference" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">errors-catchers-interference</name>
             <name xml:lang="en-GB">errors-catchers-interference</name>
@@ -939,7 +939,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-against">
-            <conceptId qcode="spbblstat:stolen-bases-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:stolen-bases-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">stolen-bases-against</name>
             <name xml:lang="en-GB">stolen-bases-against</name>
@@ -948,7 +948,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-caught-defense">
-            <conceptId qcode="spbblstat:stolen-bases-caught-defense" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:stolen-bases-caught-defense" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">stolen-bases-caught-defense</name>
             <name xml:lang="en-GB">stolen-bases-caught-defense</name>
@@ -957,7 +957,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-average-defense">
-            <conceptId qcode="spbblstat:stolen-bases-average-defense" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:stolen-bases-average-defense" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">stolen-bases-average-defense</name>
             <name xml:lang="en-GB">stolen-bases-average-defense</name>
@@ -966,7 +966,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinnings-played">
-            <conceptId qcode="spbblstat:innings-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:innings-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">innings-played</name>
             <name xml:lang="en-GB">innings-played</name>
@@ -974,7 +974,7 @@
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-played-position">
-            <conceptId qcode="spbblstat:games-played-position" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbblstat:games-played-position" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">games-played-position</name>
             <name xml:lang="en-GB">games-played-position</name>

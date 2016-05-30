@@ -37,7 +37,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichscoreattemptregular">
-            <conceptId qcode="spichscoreattempt:regular" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattempt:regular" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">regular</name>
             <name xml:lang="en-GB">regular</name>
             <definition>Occurs while both teams have an equal number of players on the
@@ -45,14 +45,14 @@
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptpenalty-shot">
-            <conceptId qcode="spichscoreattempt:penalty-shot" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattempt:penalty-shot" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-shot</name>
             <name xml:lang="en-GB">penalty-shot</name>
             <definition>Occurs while shooting player is taking a penalty shot.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptempty-net">
-            <conceptId qcode="spichscoreattempt:empty-net" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattempt:empty-net" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">empty-net</name>
             <name xml:lang="en-GB">empty-net</name>
             <definition>Occurs when shot is taken on net vacated by goalie who has been replaced on
@@ -60,7 +60,7 @@
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptshootout">
-            <conceptId qcode="spichscoreattempt:shootout" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattempt:shootout" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">shootout</name>
             <name xml:lang="en-GB">shootout</name>
             <definition>Occurs when a shot is taken during a game-ending shootout
@@ -68,14 +68,14 @@
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptown-goal">
-            <conceptId qcode="spichscoreattempt:own-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattempt:own-goal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">own-goal</name>
             <name xml:lang="en-GB">own-goal</name>
             <definition>Occurs when shot is inadvertantly scored into the wrong goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spichscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichscoreattemptawarded">
-            <conceptId qcode="spichscoreattempt:awarded" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattempt:awarded" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">awarded</name>
             <name xml:lang="en-GB">awarded</name>
             <definition>Occurs when own-goals are not awarded and not opponent has contact with

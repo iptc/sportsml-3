@@ -33,14 +33,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="spawardmedal">
-            <conceptId qcode="spaward:medal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spaward:medal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">medal</name>
             <name xml:lang="en-GB">medal</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spaward/" rel="skos:inScheme"/>
         </concept>
         <concept id="spawardtrophy">
-            <conceptId qcode="spaward:trophy" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spaward:trophy" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">trophy</name>
             <name xml:lang="en-GB">trophy</name>
             <definition/>

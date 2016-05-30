@@ -37,7 +37,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="sptenactionpoint">
-            <conceptId qcode="sptenaction:point" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenaction:point" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">point</name>
             <name xml:lang="en-GB">point</name>
             <definition>Types of actions/plays in tennis</definition>

@@ -32,14 +32,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="spprofessionalstatusamateur">
-            <conceptId qcode="spprofessionalstatus:amateur" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spprofessionalstatus:amateur" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">amateur</name>
             <name xml:lang="en-GB">amateur</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spprofessionalstatus/" rel="skos:inScheme"/>
         </concept>
         <concept id="spprofessionalstatusprofessional">
-            <conceptId qcode="spprofessionalstatus:professional" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spprofessionalstatus:professional" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">professional</name>
             <name xml:lang="en-GB">professional</name>
             <definition/>

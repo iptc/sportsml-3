@@ -56,7 +56,7 @@
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctseason-type">
-            <conceptId qcode="spct:season-type" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:season-type" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">season-type</name>
             <name xml:lang="en-GB">season-type</name>
             <definition>Which segment of the season: pre-season, post-season, regular,
@@ -271,63 +271,63 @@
         
         <!-- news management codes -->
         <concept id="spctarticle-ref">
-            <conceptId qcode="spct:article-ref" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:article-ref" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">article-ref</name>
             <name xml:lang="en-GB">article-ref</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctphoto-ref">
-            <conceptId qcode="spct:photo-ref" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:photo-ref" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">photo-ref</name>
             <name xml:lang="en-GB">photo-ref</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctaudio-ref">
-            <conceptId qcode="spct:audio-ref" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:audio-ref" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">audio-ref</name>
             <name xml:lang="en-GB">audio-ref</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctvideo-ref">
-            <conceptId qcode="spct:video-ref" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:video-ref" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">video-ref</name>
             <name xml:lang="en-GB">video-ref</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctxref-key">
-            <conceptId qcode="spct:xref-key" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:xref-key" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">xref-key</name>
             <name xml:lang="en-GB">xref-key</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctslug">
-            <conceptId qcode="spct:slug" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:slug" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">slug</name>
             <name xml:lang="en-GB">slug</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctpublisher">
-            <conceptId qcode="spct:publisher" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:publisher" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">publisher</name>
             <name xml:lang="en-GB">publisher</name>
             <definition>The source of the data/content.</definition>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctdistributor">
-            <conceptId qcode="spct:distributor" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:distributor" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">distributor</name>
             <name xml:lang="en-GB">distributor</name>
             <definition>The immediate provider of the data/content.</definition>
             <related uri="http://cv.iptc.org/newscodes/spct/" rel="skos:inScheme"/>
         </concept>
         <concept id="spctpriority">
-            <conceptId qcode="spct:priority" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spct:priority" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">priority</name>
             <name xml:lang="en-GB">priority</name>
             <definition/>

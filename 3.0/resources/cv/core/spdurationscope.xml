@@ -32,7 +32,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spdurationscopeevents-all">
-            <conceptId qcode="spdurationscope:events-all" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spdurationscope:events-all" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">events-all</name>
             <name xml:lang="en-GB">events-all</name>
             <definition>Every event played, including overtime games, the most recent ones, etc. The
@@ -40,14 +40,14 @@
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdurationscopeevents-overtime">
-            <conceptId qcode="spdurationscope:events-overtime" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spdurationscope:events-overtime" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">events-overtime</name>
             <name xml:lang="en-GB">events-overtime</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spdurationscope/" rel="skos:inScheme"/>
         </concept>
         <concept id="spdurationscopeevents-shootout">
-            <conceptId qcode="spdurationscope:events-shootout" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spdurationscope:events-shootout" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">events-shootout</name>
             <name xml:lang="en-GB">events-shootout</name>
             <definition/>

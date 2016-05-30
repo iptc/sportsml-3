@@ -37,14 +37,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="spamftimeout2-minute">
-            <conceptId qcode="spamftimeout:2-minute" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftimeout:2-minute" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">2-minute</name>
             <name xml:lang="en-GB">2-minute</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftimeout/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftimeout1-minute">
-            <conceptId qcode="spamftimeout:1-minute" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftimeout:1-minute" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">1-minute</name>
             <name xml:lang="en-GB">1-minute</name>
             <definition/>

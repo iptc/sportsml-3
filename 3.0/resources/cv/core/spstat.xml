@@ -33,7 +33,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spstatpoints">
-            <conceptId qcode="spstat:points" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:points" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">points</name>
             <name xml:lang="en-GB">points</name>
@@ -42,7 +42,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevents-played">
-            <conceptId qcode="spstat:events-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:events-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">events-played</name>
             <name xml:lang="en-GB">events-played</name>
@@ -51,7 +51,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-played-total">
-            <conceptId qcode="spstat:time-played-total" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-played-total" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-played-total</name>
             <name xml:lang="en-GB">time-played-total</name>
@@ -60,7 +60,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-played-event">
-            <conceptId qcode="spstat:time-played-event" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-played-event" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-played-event</name>
             <name xml:lang="en-GB">time-played-event</name>
@@ -69,7 +69,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-played-event-average">
-            <conceptId qcode="spstat:time-played-event-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-played-event-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-played-event-average</name>
             <name xml:lang="en-GB">time-played-event-average</name>
@@ -78,7 +78,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevents-started">
-            <conceptId qcode="spstat:events-started" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:events-started" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">events-started</name>
             <name xml:lang="en-GB">events-started</name>
@@ -87,7 +87,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatperiod-extra-time-added">
-            <conceptId qcode="spstat:period-extra-time-added" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:period-extra-time-added" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">period-extra-time-added</name>
             <name xml:lang="en-GB">period-extra-time-added</name>
@@ -95,7 +95,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatperiod-extra-time-elapsed">
-            <conceptId qcode="spstat:period-extra-time-elapsed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:period-extra-time-elapsed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">period-extra-time-elapsed</name>
             <name xml:lang="en-GB">period-extra-time-elapsed</name>
@@ -104,7 +104,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore">
-            <conceptId qcode="spstat:score" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score</name>
             <name xml:lang="en-GB">score</name>
@@ -112,7 +112,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-opposing">
-            <conceptId qcode="spstat:score-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-opposing</name>
             <name xml:lang="en-GB">score-opposing</name>
@@ -120,7 +120,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-average">
-            <conceptId qcode="spstat:score-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-average</name>
             <name xml:lang="en-GB">score-average</name>
@@ -128,7 +128,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-opposing-average">
-            <conceptId qcode="spstat:score-opposing-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-opposing-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-opposing-average</name>
             <name xml:lang="en-GB">score-opposing-average</name>
@@ -136,7 +136,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-behind">
-            <conceptId qcode="spstat:score-behind" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-behind" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-behind</name>
             <name xml:lang="en-GB">score-behind</name>
@@ -144,7 +144,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-attempts">
-            <conceptId qcode="spstat:score-attempts" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-attempts" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-attempts</name>
             <name xml:lang="en-GB">score-attempts</name>
@@ -153,7 +153,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-attempts-opposing">
-            <conceptId qcode="spstat:score-attempts-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-attempts-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-attempts-opposing</name>
             <name xml:lang="en-GB">score-attempts-opposing</name>
@@ -162,7 +162,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-attempts-on-goal">
-            <conceptId qcode="spstat:score-attempts-on-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-attempts-on-goal" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-attempts-on-goal</name>
             <name xml:lang="en-GB">score-attempts-on-goal</name>
@@ -171,7 +171,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-attempts-on-goal-opposing">
-            <conceptId qcode="spstat:score-attempts-on-goal-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-attempts-on-goal-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-attempts-on-goal-opposing</name>
             <name xml:lang="en-GB">score-attempts-on-goal-opposing</name>
@@ -180,7 +180,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-percentage">
-            <conceptId qcode="spstat:score-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-percentage</name>
             <name xml:lang="en-GB">score-percentage</name>
@@ -188,7 +188,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscore-percentage-opposing">
-            <conceptId qcode="spstat:score-percentage-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:score-percentage-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-percentage-opposing</name>
             <name xml:lang="en-GB">score-percentage-opposing</name>
@@ -197,7 +197,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatresult-effect">
-            <conceptId qcode="spstat:result-effect" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:result-effect" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">result-effect</name>
             <name xml:lang="en-GB">result-effect</name>
@@ -207,7 +207,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevent-outcome">
-            <conceptId qcode="spstat:event-outcome" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:event-outcome" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">event-outcome</name>
             <name xml:lang="en-GB">event-outcome</name>
@@ -215,7 +215,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevent-standing-points">
-            <conceptId qcode="spstat:event-standing-points" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:event-standing-points" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">event-standing-points</name>
             <name xml:lang="en-GB">event-standing-points</name>
@@ -224,7 +224,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevent-standing-points-against">
-            <conceptId qcode="spstat:event-standing-points-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:event-standing-points-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">event-standing-points-against</name>
             <name xml:lang="en-GB">event-standing-points-against</name>
@@ -233,7 +233,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatevents-remaining">
-            <conceptId qcode="spstat:events-remaining" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:events-remaining" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">events-remaining</name>
             <name xml:lang="en-GB">events-remaining</name>
@@ -241,7 +241,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-of-possession">
-            <conceptId qcode="spstat:time-of-possession" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-of-possession" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-of-possession</name>
             <name xml:lang="en-GB">time-of-possession</name>
@@ -250,7 +250,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-of-possession-percentage">
-            <conceptId qcode="spstat:time-of-possession-percentage" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-of-possession-percentage" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-of-possession-percentage</name>
             <name xml:lang="en-GB">time-of-possession-percentage</name>
@@ -259,7 +259,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-of-possession-percentage-opposing">
-            <conceptId qcode="spstat:time-of-possession-percentage-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-of-possession-percentage-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-of-possession-percentage-opposing</name>
             <name xml:lang="en-GB">time-of-possession-percentage-opposing</name>
@@ -269,7 +269,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-of-possession-average">
-            <conceptId qcode="spstat:time-of-possession-average" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-of-possession-average" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-of-possession-average</name>
             <name xml:lang="en-GB">time-of-possession-average</name>
@@ -278,7 +278,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstattime-of-possession-average-opposing">
-            <conceptId qcode="spstat:time-of-possession-average-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:time-of-possession-average-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">time-of-possession-average-opposing</name>
             <name xml:lang="en-GB">time-of-possession-average-opposing</name>
@@ -287,7 +287,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatseries-score">
-            <conceptId qcode="spstat:series-score" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:series-score" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">series-score</name>
             <name xml:lang="en-GB">series-score</name>
@@ -295,7 +295,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatseries-score-opposing">
-            <conceptId qcode="spstat:series-score-opposing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:series-score-opposing" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">series-score-opposing</name>
             <name xml:lang="en-GB">series-score-opposing</name>
@@ -303,7 +303,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatadjusted-score-for">
-            <conceptId qcode="spstat:adjusted-score-for" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:adjusted-score-for" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">adjusted-score-for</name>
             <name xml:lang="en-GB">adjusted-score-for</name>
@@ -314,7 +314,7 @@
             <related uri="http://cv.iptc.org/newscodes/spstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatadjusted-score-against">
-            <conceptId qcode="spstat:adjusted-score-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstat:adjusted-score-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">adjusted-score-against</name>
             <name xml:lang="en-GB">adjusted-score-against</name>

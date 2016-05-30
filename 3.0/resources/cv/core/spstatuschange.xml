@@ -33,21 +33,21 @@
     </contentMeta>
     <conceptSet>
         <concept id="spstatuschangeinjury">
-            <conceptId qcode="spstatuschange:injury" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstatuschange:injury" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">injury</name>
             <name xml:lang="en-GB">injury</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatuschangetrade">
-            <conceptId qcode="spstatuschange:trade" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstatuschange:trade" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">trade</name>
             <name xml:lang="en-GB">trade</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatuschange/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatuschangecut">
-            <conceptId qcode="spstatuschange:cut" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstatuschange:cut" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">cut</name>
             <name xml:lang="en-GB">cut</name>
             <definition/>

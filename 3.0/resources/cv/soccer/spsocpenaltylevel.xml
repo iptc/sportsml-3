@@ -37,14 +37,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="spsocpenaltylevelyellow-card">
-            <conceptId qcode="spsocpenaltylevel:yellow-card" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocpenaltylevel:yellow-card" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">yellow-card</name>
             <name xml:lang="en-GB">yellow-card</name>
             <definition>Foul shown by a yellow card - also known as a caution.</definition>
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltylevelyellow-red-card">
-            <conceptId qcode="spsocpenaltylevel:yellow-red-card" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocpenaltylevel:yellow-red-card" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">yellow-red-card</name>
             <name xml:lang="en-GB">yellow-red-card</name>
             <definition>Foul shown as a second yellow card then followed by a red card - also known
@@ -52,7 +52,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpenaltylevelred-card">
-            <conceptId qcode="spsocpenaltylevel:red-card" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocpenaltylevel:red-card" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">red-card</name>
             <name xml:lang="en-GB">red-card</name>
             <definition>Foul shown as a red card - also known as an ejection.</definition>

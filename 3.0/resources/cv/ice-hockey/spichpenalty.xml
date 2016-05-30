@@ -37,14 +37,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichpenaltyabuse-of-officials">
-            <conceptId qcode="spichpenalty:abuse-of-officials" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:abuse-of-officials" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">abuse-of-officials</name>
             <name xml:lang="en-GB">abuse-of-officials</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyadjustment-to-clothing-equipment">
-            <conceptId qcode="spichpenalty:adjustment-to-clothing-equipment" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:adjustment-to-clothing-equipment" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">adjustment-to-clothing-equipment</name>
             <name xml:lang="en-GB">adjustment-to-clothing-equipment</name>
             <definition>A penalty may be assessed when a player adjusting his equipment delays the
@@ -52,308 +52,308 @@
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyattempt-to-injure">
-            <conceptId qcode="spichpenalty:attempt-to-injure" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:attempt-to-injure" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">attempt-to-injure</name>
             <name xml:lang="en-GB">attempt-to-injure</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyboarding">
-            <conceptId qcode="spichpenalty:boarding" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:boarding" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">boarding</name>
             <name xml:lang="en-GB">boarding</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltybroken-stick">
-            <conceptId qcode="spichpenalty:broken-stick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:broken-stick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">broken-stick</name>
             <name xml:lang="en-GB">broken-stick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltybutt-ending">
-            <conceptId qcode="spichpenalty:butt-ending" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:butt-ending" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">butt-ending</name>
             <name xml:lang="en-GB">butt-ending</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltycharging">
-            <conceptId qcode="spichpenalty:charging" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:charging" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">charging</name>
             <name xml:lang="en-GB">charging</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltychecking-from-behind">
-            <conceptId qcode="spichpenalty:checking-from-behind" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:checking-from-behind" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">checking-from-behind</name>
             <name xml:lang="en-GB">checking-from-behind</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyclipping">
-            <conceptId qcode="spichpenalty:clipping" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:clipping" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">clipping</name>
             <name xml:lang="en-GB">clipping</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyclosing-hand-on-puck">
-            <conceptId qcode="spichpenalty:closing-hand-on-puck" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:closing-hand-on-puck" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">closing-hand-on-puck</name>
             <name xml:lang="en-GB">closing-hand-on-puck</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltycross-checking">
-            <conceptId qcode="spichpenalty:cross-checking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:cross-checking" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">cross-checking</name>
             <name xml:lang="en-GB">cross-checking</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltydelay-of-game">
-            <conceptId qcode="spichpenalty:delay-of-game" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:delay-of-game" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">delay-of-game</name>
             <name xml:lang="en-GB">delay-of-game</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltydeliberate-injury">
-            <conceptId qcode="spichpenalty:deliberate-injury" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:deliberate-injury" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">deliberate-injury</name>
             <name xml:lang="en-GB">deliberate-injury</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltydiving">
-            <conceptId qcode="spichpenalty:diving" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:diving" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">diving</name>
             <name xml:lang="en-GB">diving</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyelbowing">
-            <conceptId qcode="spichpenalty:elbowing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:elbowing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">elbowing</name>
             <name xml:lang="en-GB">elbowing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyfalling-on-puck">
-            <conceptId qcode="spichpenalty:falling-on-puck" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:falling-on-puck" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">falling-on-puck</name>
             <name xml:lang="en-GB">falling-on-puck</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyfighting">
-            <conceptId qcode="spichpenalty:fighting" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:fighting" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">fighting</name>
             <name xml:lang="en-GB">fighting</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltygoalie-interference">
-            <conceptId qcode="spichpenalty:goalie-interference" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:goalie-interference" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">goalie-interference</name>
             <name xml:lang="en-GB">goalie-interference</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltygross-misconduct">
-            <conceptId qcode="spichpenalty:gross-misconduct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:gross-misconduct" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">gross-misconduct</name>
             <name xml:lang="en-GB">gross-misconduct</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyhead-butting">
-            <conceptId qcode="spichpenalty:head-butting" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:head-butting" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">head-butting</name>
             <name xml:lang="en-GB">head-butting</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyhigh-sticking">
-            <conceptId qcode="spichpenalty:high-sticking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:high-sticking" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">high-sticking</name>
             <name xml:lang="en-GB">high-sticking</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyholding">
-            <conceptId qcode="spichpenalty:holding" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:holding" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">holding</name>
             <name xml:lang="en-GB">holding</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyholding-the-stick">
-            <conceptId qcode="spichpenalty:holding-the-stick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:holding-the-stick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">holding-the-stick</name>
             <name xml:lang="en-GB">holding-the-stick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyhooking">
-            <conceptId qcode="spichpenalty:hooking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:hooking" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">hooking</name>
             <name xml:lang="en-GB">hooking</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyillegal-stick">
-            <conceptId qcode="spichpenalty:illegal-stick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:illegal-stick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">illegal-stick</name>
             <name xml:lang="en-GB">illegal-stick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyinstigator">
-            <conceptId qcode="spichpenalty:instigator" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:instigator" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">instigator</name>
             <name xml:lang="en-GB">instigator</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyinterference">
-            <conceptId qcode="spichpenalty:interference" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:interference" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">interference</name>
             <name xml:lang="en-GB">interference</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyinterference-by-with-spectator">
-            <conceptId qcode="spichpenalty:interference-by-with-spectator" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:interference-by-with-spectator" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">interference-by-with-spectator</name>
             <name xml:lang="en-GB">interference-by-with-spectator</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltykicking">
-            <conceptId qcode="spichpenalty:kicking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:kicking" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">kicking</name>
             <name xml:lang="en-GB">kicking</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltykneeing">
-            <conceptId qcode="spichpenalty:kneeing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:kneeing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">kneeing</name>
             <name xml:lang="en-GB">kneeing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyleaving-the-bench-penalty">
-            <conceptId qcode="spichpenalty:leaving-the-bench-penalty" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:leaving-the-bench-penalty" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">leaving-the-bench-penalty</name>
             <name xml:lang="en-GB">leaving-the-bench-penalty</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyleft-crease">
-            <conceptId qcode="spichpenalty:left-crease" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:left-crease" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">left-crease</name>
             <name xml:lang="en-GB">left-crease</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyob-high-sticking">
-            <conceptId qcode="spichpenalty:ob-high-sticking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:ob-high-sticking" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ob-high-sticking</name>
             <name xml:lang="en-GB">ob-high-sticking</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyob-holding">
-            <conceptId qcode="spichpenalty:ob-holding" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:ob-holding" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ob-holding</name>
             <name xml:lang="en-GB">ob-holding</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyob-holding-the-stick">
-            <conceptId qcode="spichpenalty:ob-holding-the-stick" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:ob-holding-the-stick" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ob-holding-the-stick</name>
             <name xml:lang="en-GB">ob-holding-the-stick</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyob-hooking">
-            <conceptId qcode="spichpenalty:ob-hooking" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:ob-hooking" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ob-hooking</name>
             <name xml:lang="en-GB">ob-hooking</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyob-interference">
-            <conceptId qcode="spichpenalty:ob-interference" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:ob-interference" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ob-interference</name>
             <name xml:lang="en-GB">ob-interference</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyob-tripping">
-            <conceptId qcode="spichpenalty:ob-tripping" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:ob-tripping" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ob-tripping</name>
             <name xml:lang="en-GB">ob-tripping</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyobscene-language">
-            <conceptId qcode="spichpenalty:obscene-language" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:obscene-language" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">obscene-language</name>
             <name xml:lang="en-GB">obscene-language</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyrefusal-to-start-play">
-            <conceptId qcode="spichpenalty:refusal-to-start-play" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:refusal-to-start-play" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">refusal-to-start-play</name>
             <name xml:lang="en-GB">refusal-to-start-play</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyroughing">
-            <conceptId qcode="spichpenalty:roughing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:roughing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">roughing</name>
             <name xml:lang="en-GB">roughing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyslashing">
-            <conceptId qcode="spichpenalty:slashing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:slashing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">slashing</name>
             <name xml:lang="en-GB">slashing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyspearing">
-            <conceptId qcode="spichpenalty:spearing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:spearing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">spearing</name>
             <name xml:lang="en-GB">spearing</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltytoo-many-men-on-ice">
-            <conceptId qcode="spichpenalty:too-many-men-on-ice" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:too-many-men-on-ice" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">too-many-men-on-ice</name>
             <name xml:lang="en-GB">too-many-men-on-ice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltytripping">
-            <conceptId qcode="spichpenalty:tripping" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:tripping" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">tripping</name>
             <name xml:lang="en-GB">tripping</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichpenalty/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichpenaltyunsportsmanlike-conduct">
-            <conceptId qcode="spichpenalty:unsportsmanlike-conduct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichpenalty:unsportsmanlike-conduct" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">unsportsmanlike-conduct</name>
             <name xml:lang="en-GB">unsportsmanlike-conduct</name>
             <definition/>

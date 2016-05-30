@@ -38,7 +38,7 @@
 	</contentMeta>
 	<conceptSet>
 		<concept id="spsocstatline-formation-row">
-			<conceptId qcode="spsocstat:line-formation-row" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:line-formation-row" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">line-formation-row</name>
             <name xml:lang="en-GB">line-formation-row</name>
@@ -49,7 +49,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatline-formation-position">
-			<conceptId qcode="spsocstat:line-formation-position" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:line-formation-position" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">line-formation-position</name>
             <name xml:lang="en-GB">line-formation-position</name>
@@ -59,7 +59,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatline-formation">
-			<conceptId qcode="spsocstat:line-formation" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:line-formation" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">line-formation</name>
             <name xml:lang="en-GB">line-formation</name>
@@ -71,7 +71,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattime-entered-event">
-			<conceptId qcode="spsocstat:time-entered-event" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:time-entered-event" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">time-entered-event</name>
             <name xml:lang="en-GB">time-entered-event</name>
@@ -79,7 +79,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattime-exited-event">
-			<conceptId qcode="spsocstat:time-exited-event" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:time-exited-event" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">time-exited-event</name>
             <name xml:lang="en-GB">time-exited-event</name>
@@ -87,7 +87,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-game-winning">
-			<conceptId qcode="spsocstat:goals-game-winning" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-game-winning" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-game-winning</name>
             <name xml:lang="en-GB">goals-game-winning</name>
@@ -95,7 +95,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-game-tying">
-			<conceptId qcode="spsocstat:goals-game-tying" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-game-tying" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-game-tying</name>
             <name xml:lang="en-GB">goals-game-tying</name>
@@ -103,7 +103,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-overtime">
-			<conceptId qcode="spsocstat:goals-overtime" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-overtime" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-overtime</name>
             <name xml:lang="en-GB">goals-overtime</name>
@@ -111,7 +111,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-shootout">
-			<conceptId qcode="spsocstat:goals-shootout" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-shootout" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-shootout</name>
             <name xml:lang="en-GB">goals-shootout</name>
@@ -119,7 +119,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-total">
-			<conceptId qcode="spsocstat:goals-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-total</name>
             <name xml:lang="en-GB">goals-total</name>
@@ -127,7 +127,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-game-winning">
-			<conceptId qcode="spsocstat:assists-game-winning" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:assists-game-winning" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-game-winning</name>
             <name xml:lang="en-GB">assists-game-winning</name>
@@ -135,7 +135,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-game-tying">
-			<conceptId qcode="spsocstat:assists-game-tying" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:assists-game-tying" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-game-tying</name>
             <name xml:lang="en-GB">assists-game-tying</name>
@@ -143,7 +143,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-overtime">
-			<conceptId qcode="spsocstat:assists-overtime" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:assists-overtime" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-overtime</name>
             <name xml:lang="en-GB">assists-overtime</name>
@@ -151,7 +151,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-total">
-			<conceptId qcode="spsocstat:assists-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:assists-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-total</name>
             <name xml:lang="en-GB">assists-total</name>
@@ -159,7 +159,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpoints">
-			<conceptId qcode="spsocstat:points" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:points" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">points</name>
             <name xml:lang="en-GB">points</name>
@@ -167,7 +167,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-total">
-			<conceptId qcode="spsocstat:shots-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-total</name>
             <name xml:lang="en-GB">shots-total</name>
@@ -175,7 +175,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-on-goal-total">
-			<conceptId qcode="spsocstat:shots-on-goal-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-on-goal-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-on-goal-total</name>
             <name xml:lang="en-GB">shots-on-goal-total</name>
@@ -183,7 +183,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-off-goal-total">
-			<conceptId qcode="spsocstat:shots-off-goal-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-off-goal-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-off-goal-total</name>
             <name xml:lang="en-GB">shots-off-goal-total</name>
@@ -192,7 +192,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-taken">
-			<conceptId qcode="spsocstat:shots-penalty-shot-taken" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-penalty-shot-taken" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-taken</name>
             <name xml:lang="en-GB">shots-penalty-shot-taken</name>
@@ -200,7 +200,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-scored">
-			<conceptId qcode="spsocstat:shots-penalty-shot-scored" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-penalty-shot-scored" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-scored</name>
             <name xml:lang="en-GB">shots-penalty-shot-scored</name>
@@ -208,7 +208,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-missed">
-			<conceptId qcode="spsocstat:shots-penalty-shot-missed" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-penalty-shot-missed" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-missed</name>
             <name xml:lang="en-GB">shots-penalty-shot-missed</name>
@@ -217,7 +217,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-percentage">
-			<conceptId qcode="spsocstat:shots-penalty-shot-percentage" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-penalty-shot-percentage" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-percentage</name>
             <name xml:lang="en-GB">shots-penalty-shot-percentage</name>
@@ -226,7 +226,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-taken">
-			<conceptId qcode="spsocstat:shots-shootout-taken" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-shootout-taken" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-taken</name>
             <name xml:lang="en-GB">shots-shootout-taken</name>
@@ -234,7 +234,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-scored">
-			<conceptId qcode="spsocstat:shots-shootout-scored" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-shootout-scored" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-scored</name>
             <name xml:lang="en-GB">shots-shootout-scored</name>
@@ -242,7 +242,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-missed">
-			<conceptId qcode="spsocstat:shots-shootout-missed" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-shootout-missed" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-missed</name>
             <name xml:lang="en-GB">shots-shootout-missed</name>
@@ -250,7 +250,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-percentage">
-			<conceptId qcode="spsocstat:shots-shootout-percentage" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-shootout-percentage" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-percentage</name>
             <name xml:lang="en-GB">shots-shootout-percentage</name>
@@ -258,7 +258,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgiveaways">
-			<conceptId qcode="spsocstat:giveaways" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:giveaways" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">giveaways</name>
             <name xml:lang="en-GB">giveaways</name>
@@ -267,7 +267,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatoffsides">
-			<conceptId qcode="spsocstat:offsides" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:offsides" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">offsides</name>
             <name xml:lang="en-GB">offsides</name>
@@ -275,7 +275,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcorner-kicks">
-			<conceptId qcode="spsocstat:corner-kicks" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:corner-kicks" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">corner-kicks</name>
             <name xml:lang="en-GB">corner-kicks</name>
@@ -283,7 +283,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstathat-tricks">
-			<conceptId qcode="spsocstat:hat-tricks" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:hat-tricks" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">hat-tricks</name>
             <name xml:lang="en-GB">hat-tricks</name>
@@ -293,7 +293,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-hit-frame">
-			<conceptId qcode="spsocstat:shots-hit-frame" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-hit-frame" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-hit-frame</name>
             <name xml:lang="en-GB">shots-hit-frame</name>
@@ -301,7 +301,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-own">
-			<conceptId qcode="spsocstat:goals-own" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-own" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-own</name>
             <name xml:lang="en-GB">goals-own</name>
@@ -309,7 +309,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatfree-kicks">
-			<conceptId qcode="spsocstat:free-kicks" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:free-kicks" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">free-kicks</name>
             <name xml:lang="en-GB">free-kicks</name>
@@ -318,7 +318,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-allowed">
-			<conceptId qcode="spsocstat:shots-penalty-shot-allowed" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-penalty-shot-allowed" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-penalty-shot-allowed</name>
             <name xml:lang="en-GB">shots-penalty-shot-allowed</name>
@@ -326,7 +326,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-penalty-shot-allowed">
-			<conceptId qcode="spsocstat:goals-penalty-shot-allowed" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-penalty-shot-allowed" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">goals-penalty-shot-allowed</name>
             <name xml:lang="en-GB">goals-penalty-shot-allowed</name>
@@ -334,7 +334,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-against-average">
-			<conceptId qcode="spsocstat:goals-against-average" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-against-average" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">goals-against-average</name>
             <name xml:lang="en-GB">goals-against-average</name>
@@ -342,7 +342,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-against-total">
-			<conceptId qcode="spsocstat:goals-against-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-against-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">goals-against-total</name>
             <name xml:lang="en-GB">goals-against-total</name>
@@ -350,7 +350,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatsaves">
-			<conceptId qcode="spsocstat:saves" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:saves" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">saves</name>
             <name xml:lang="en-GB">saves</name>
@@ -358,7 +358,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatsave-percentage">
-			<conceptId qcode="spsocstat:save-percentage" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:save-percentage" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">save-percentage</name>
             <name xml:lang="en-GB">save-percentage</name>
@@ -366,7 +366,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcatches-punches">
-			<conceptId qcode="spsocstat:catches-punches" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:catches-punches" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">catches-punches</name>
             <name xml:lang="en-GB">catches-punches</name>
@@ -375,7 +375,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-on-goal-against-total">
-			<conceptId qcode="spsocstat:shots-on-goal-against-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-on-goal-against-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-on-goal-against-total</name>
             <name xml:lang="en-GB">shots-on-goal-against-total</name>
@@ -383,7 +383,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-total">
-			<conceptId qcode="spsocstat:shots-shootout-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-shootout-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-shootout-total</name>
             <name xml:lang="en-GB">shots-shootout-total</name>
@@ -391,7 +391,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-allowed">
-			<conceptId qcode="spsocstat:shots-shootout-allowed" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-shootout-allowed" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-shootout-allowed</name>
             <name xml:lang="en-GB">shots-shootout-allowed</name>
@@ -399,7 +399,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-blocked">
-			<conceptId qcode="spsocstat:shots-blocked" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-blocked" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-blocked</name>
             <name xml:lang="en-GB">shots-blocked</name>
@@ -408,7 +408,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshutouts">
-			<conceptId qcode="spsocstat:shutouts" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shutouts" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shutouts</name>
             <name xml:lang="en-GB">shutouts</name>
@@ -416,7 +416,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatfouls-commited">
-			<conceptId qcode="spsocstat:fouls-commited" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:fouls-commited" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">fouls-commited</name>
             <name xml:lang="en-GB">fouls-commited</name>
@@ -424,7 +424,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatfouls-suffered">
-			<conceptId qcode="spsocstat:fouls-suffered" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:fouls-suffered" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">fouls-suffered</name>
             <name xml:lang="en-GB">fouls-suffered</name>
@@ -433,7 +433,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcautions-total">
-			<conceptId qcode="spsocstat:cautions-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:cautions-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">cautions-total</name>
             <name xml:lang="en-GB">cautions-total</name>
@@ -441,7 +441,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcautions-pending">
-			<conceptId qcode="spsocstat:cautions-pending" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:cautions-pending" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">cautions-pending</name>
             <name xml:lang="en-GB">cautions-pending</name>
@@ -449,7 +449,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcaution-points-total">
-			<conceptId qcode="spsocstat:caution-points-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:caution-points-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">caution-points-total</name>
             <name xml:lang="en-GB">caution-points-total</name>
@@ -458,7 +458,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcaution-points-pending">
-			<conceptId qcode="spsocstat:caution-points-pending" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:caution-points-pending" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">caution-points-pending</name>
             <name xml:lang="en-GB">caution-points-pending</name>
@@ -467,7 +467,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatejections-total">
-			<conceptId qcode="spsocstat:ejections-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:ejections-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">ejections-total</name>
             <name xml:lang="en-GB">ejections-total</name>
@@ -475,7 +475,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatejections-second-caution">
-			<conceptId qcode="spsocstat:ejections-second-caution" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:ejections-second-caution" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">ejections-second-caution</name>
             <name xml:lang="en-GB">ejections-second-caution</name>
@@ -483,7 +483,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatejections-straight">
-			<conceptId qcode="spsocstat:ejections-straight" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:ejections-straight" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">ejections-straight</name>
             <name xml:lang="en-GB">ejections-straight</name>
@@ -491,7 +491,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattouches">
-			<conceptId qcode="spsocstat:touches" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:touches" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">touches</name>
             <name xml:lang="en-GB">touches</name>
@@ -499,7 +499,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-total">
-			<conceptId qcode="spsocstat:passes-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:passes-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-total</name>
             <name xml:lang="en-GB">passes-total</name>
@@ -507,7 +507,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete">
-			<conceptId qcode="spsocstat:passes-complete" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:passes-complete" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete</name>
             <name xml:lang="en-GB">passes-complete</name>
@@ -515,7 +515,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete-percentage">
-			<conceptId qcode="spsocstat:passes-complete-percentage" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:passes-complete-percentage" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete-percentage</name>
             <name xml:lang="en-GB">passes-complete-percentage</name>
@@ -523,7 +523,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-incomplete">
-			<conceptId qcode="spsocstat:passes-incomplete" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:passes-incomplete" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-incomplete</name>
             <name xml:lang="en-GB">passes-incomplete</name>
@@ -531,7 +531,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete-3rd-final">
-			<conceptId qcode="spsocstat:passes-complete-3rd-final" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:passes-complete-3rd-final" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete-3rd-final</name>
             <name xml:lang="en-GB">passes-complete-3rd-final</name>
@@ -539,7 +539,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete-long">
-			<conceptId qcode="spsocstat:passes-complete-long" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:passes-complete-long" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete-long</name>
             <name xml:lang="en-GB">passes-complete-long</name>
@@ -547,7 +547,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstataerials-won">
-			<conceptId qcode="spsocstat:aerials-won" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:aerials-won" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:general"/>
 			<name xml:lang="en-US">aerials-won</name>
             <name xml:lang="en-GB">aerials-won</name>
@@ -555,7 +555,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcrosses-18-yard">
-			<conceptId qcode="spsocstat:crosses-18-yard" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:crosses-18-yard" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">crosses-18-yard-plus</name>
             <name xml:lang="en-GB">crosses-18-yard-plus</name>
@@ -564,7 +564,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcrosses-18-yard-plus">
-			<conceptId qcode="spsocstat:crosses-18-yard-plus" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:crosses-18-yard-plus" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">crosses-18-yard-plus</name>
             <name xml:lang="en-GB">crosses-18-yard-plus</name>
@@ -573,7 +573,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-total">
-			<conceptId qcode="spsocstat:tackles-total" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:tackles-total" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-total</name>
             <name xml:lang="en-GB">tackles-total</name>
@@ -581,7 +581,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-won">
-			<conceptId qcode="spsocstat:tackles-won" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:tackles-won" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-won</name>
             <name xml:lang="en-GB">tackles-won</name>
@@ -589,7 +589,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-won-percentage">
-			<conceptId qcode="spsocstat:tackles-won-percentage" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:tackles-won-percentage" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-won-percentage</name>
             <name xml:lang="en-GB">tackles-won-percentage</name>
@@ -597,7 +597,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-lost">
-			<conceptId qcode="spsocstat:tackles-lost" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:tackles-lost" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-lost</name>
             <name xml:lang="en-GB">tackles-lost</name>
@@ -605,7 +605,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-blocked-outfielder">
-			<conceptId qcode="spsocstat:shots-blocked-outfielder" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-blocked-outfielder" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-blocked-outfielder</name>
             <name xml:lang="en-GB">shots-blocked-outfielder</name>
@@ -613,7 +613,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-blocked-cross">
-			<conceptId qcode="spsocstat:shots-blocked-cross" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:shots-blocked-cross" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-blocked-cross</name>
             <name xml:lang="en-GB">shots-blocked-cross</name>
@@ -621,7 +621,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatclearancesl">
-			<conceptId qcode="spsocstat:clearances" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:clearances" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">clearances-successful</name>
             <name xml:lang="en-GB">clearances-successful</name>
@@ -629,7 +629,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatinterceptions">
-			<conceptId qcode="spsocstat:interceptions" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:interceptions" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">interceptions</name>
             <name xml:lang="en-GB">interceptions</name>
@@ -638,7 +638,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-left-foot">
-			<conceptId qcode="spsocstat:goals-left-foot" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-left-foot" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-left-foot</name>
             <name xml:lang="en-GB">goals-left-foot</name>
@@ -646,7 +646,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-right-foot">
-			<conceptId qcode="spsocstat:goals-right-foot" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-right-foot" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-right-foot</name>
             <name xml:lang="en-GB">goals-right-foot</name>
@@ -654,7 +654,7 @@
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-head">
-			<conceptId qcode="spsocstat:goals-head" created="2016-05-01T00:00:00+00:00"/>
+			<conceptId qcode="spsocstat:goals-head" created="2016-05-02T00:00:00+00:00"/>
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-head</name>
             <name xml:lang="en-GB">goals-head</name>

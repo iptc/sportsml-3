@@ -37,14 +37,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="sprgxpenaltylevelyellow-card">
-            <conceptId qcode="sprgxpenaltylevel:yellow-card" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxpenaltylevel:yellow-card" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">yellow-card</name>
             <name xml:lang="en-GB">yellow-card</name>
             <definition>Penalty shown by a yellow card - also known as a caution.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxpenaltylevel/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxpenaltylevelred-card">
-            <conceptId qcode="sprgxpenaltylevel:red-card" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxpenaltylevel:red-card" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">red-card</name>
             <name xml:lang="en-GB">red-card</name>
             <definition>Penalty shown as a red card - also known as an ejection.</definition>

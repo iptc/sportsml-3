@@ -37,28 +37,28 @@
     </contentMeta>
     <conceptSet>
         <concept id="sprgxscoreattempttry">
-            <conceptId qcode="sprgxscoreattempt:try" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxscoreattempt:try" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">Try</name>
             <name xml:lang="en-GB">Try</name>
             <definition>Score by grounding the ball in the in-goal area (between the goal line and the dead-ball line); worth 5 points.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptpenalty">
-            <conceptId qcode="sprgxscoreattempt:penalty" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxscoreattempt:penalty" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty</name>
             <name xml:lang="en-GB">penalty</name>
             <definition>The score attempt is made as a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptdrop">
-            <conceptId qcode="sprgxscoreattempt:drop" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxscoreattempt:drop" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">drop</name>
             <name xml:lang="en-GB">drop</name>
             <definition>The score attempt is made as a drop kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptconversion">
-            <conceptId qcode="sprgxscoreattempt:conversion" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sprgxscoreattempt:conversion" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">conversion</name>
             <name xml:lang="en-GB">conversion</name>
             <definition>The score attempt is made as a try conversion.</definition>

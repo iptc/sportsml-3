@@ -37,28 +37,28 @@
     </contentMeta>
     <conceptSet>
         <concept id="spamfkickpunt">
-            <conceptId qcode="spamfkick:punt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfkick:punt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">punt</name>
             <name xml:lang="en-GB">punt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickonside">
-            <conceptId qcode="spamfkick:onside" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfkick:onside" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">onside</name>
             <name xml:lang="en-GB">onside</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickextra-point">
-            <conceptId qcode="spamfkick:extra-point" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfkick:extra-point" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">extra-point</name>
             <name xml:lang="en-GB">extra-point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfkick/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfkickfield-goal-attempt">
-            <conceptId qcode="spamfkick:field-goal-attempt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfkick:field-goal-attempt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">field-goal-attempt</name>
             <name xml:lang="en-GB">field-goal-attempt</name>
             <definition/>

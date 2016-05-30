@@ -33,14 +33,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="speventstylehead-to-head">
-            <conceptId qcode="speventstyle:head-to-head" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="speventstyle:head-to-head" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">head-to-head</name>
             <name xml:lang="en-GB">head-to-head</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/speventstyle/" rel="skos:inScheme"/>
         </concept>
         <concept id="speventstyleranked">
-            <conceptId qcode="speventstyle:ranked" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="speventstyle:ranked" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ranked</name>
             <name xml:lang="en-GB">ranked</name>
             <definition/>

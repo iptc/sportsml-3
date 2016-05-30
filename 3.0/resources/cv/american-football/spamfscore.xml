@@ -37,56 +37,56 @@
     </contentMeta>
     <conceptSet>
         <concept id="spamfscoretouchdown">
-            <conceptId qcode="spamfscore:touchdown" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:touchdown" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">touchdown</name>
             <name xml:lang="en-GB">touchdown</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoresafety">
-            <conceptId qcode="spamfscore:safety" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:safety" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">safety</name>
             <name xml:lang="en-GB">safety</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreconversion">
-            <conceptId qcode="spamfscore:conversion" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:conversion" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">conversion</name>
             <name xml:lang="en-GB">conversion</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreconversion-1pt">
-            <conceptId qcode="spamfscore:conversion-1pt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:conversion-1pt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">conversion-1pt</name>
             <name xml:lang="en-GB">conversion-1pt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreconversion-2pt">
-            <conceptId qcode="spamfscore:conversion-2pt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:conversion-2pt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">conversion-2pt</name>
             <name xml:lang="en-GB">conversion-2pt</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscorefield-goal">
-            <conceptId qcode="spamfscore:field-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:field-goal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">field-goal</name>
             <name xml:lang="en-GB">field-goal</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoreextra-point">
-            <conceptId qcode="spamfscore:extra-point" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:extra-point" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">extra-point</name>
             <name xml:lang="en-GB">extra-point</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamfscore/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamfscoresingle-point">
-            <conceptId qcode="spamfscore:single-point" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamfscore:single-point" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">single-point</name>
             <name xml:lang="en-GB">single-point</name>
             <definition>In Canadian football, a single point is awarded when a kick landing in the

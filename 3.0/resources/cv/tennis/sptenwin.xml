@@ -38,7 +38,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="sptenwinforced">
-            <conceptId qcode="sptenwin:forced" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenwin:forced" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">forced</name>
             <name xml:lang="en-GB">forced</name>
             <definition>The point was made while the opponent for example advanced towards the
@@ -46,7 +46,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenwin/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenwinunforced">
-            <conceptId qcode="sptenwin:unforced" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenwin:unforced" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">unforced</name>
             <name xml:lang="en-GB">unforced</name>
             <definition>The point was made regardless of specific actions by the

@@ -38,119 +38,119 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichroleon-ice">
-            <conceptId qcode="spichrole:on-ice" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:on-ice" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">on-ice</name>
             <name xml:lang="en-GB">on-ice</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolescorer">
-            <conceptId qcode="spichrole:scorer" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:scorer" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">scorer</name>
             <name xml:lang="en-GB">scorer</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleassist">
-            <conceptId qcode="spichrole:assist" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:assist" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">assist</name>
             <name xml:lang="en-GB">assist</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolegoaltender">
-            <conceptId qcode="spichrole:goaltender" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:goaltender" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">goaltender</name>
             <name xml:lang="en-GB">goaltender</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleshooter">
-            <conceptId qcode="spichrole:shooter" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:shooter" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">shooter</name>
             <name xml:lang="en-GB">shooter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleblocker">
-            <conceptId qcode="spichrole:blocker" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:blocker" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">blocker</name>
             <name xml:lang="en-GB">blocker</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolehitter">
-            <conceptId qcode="spichrole:hitter" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:hitter" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">hitter</name>
             <name xml:lang="en-GB">hitter</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolehittee">
-            <conceptId qcode="spichrole:hittee" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:hittee" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">hittee</name>
             <name xml:lang="en-GB">hittee</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleshot">
-            <conceptId qcode="spichrole:shot" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:shot" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">shot</name>
             <name xml:lang="en-GB">shot</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolepenalty-committed-by">
-            <conceptId qcode="spichrole:penalty-committed-by" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:penalty-committed-by" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-committed-by</name>
             <name xml:lang="en-GB">penalty-committed-by</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolepenalty-committed-against">
-            <conceptId qcode="spichrole:penalty-committed-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:penalty-committed-against" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-committed-against</name>
             <name xml:lang="en-GB">penalty-committed-against</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolepenalty-served-by">
-            <conceptId qcode="spichrole:penalty-served-by" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:penalty-served-by" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty-served-by</name>
             <name xml:lang="en-GB">penalty-served-by</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolefaceoff-winner">
-            <conceptId qcode="spichrole:faceoff-winner" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:faceoff-winner" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">faceoff-winner</name>
             <name xml:lang="en-GB">faceoff-winner</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolefaceoff-loser">
-            <conceptId qcode="spichrole:faceoff-loser" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:faceoff-loser" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">faceoff-loser</name>
             <name xml:lang="en-GB">faceoff-loser</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichrolegiveaway">
-            <conceptId qcode="spichrole:giveaway" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:giveaway" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">giveaway</name>
             <name xml:lang="en-GB">giveaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroletakeaway">
-            <conceptId qcode="spichrole:takeaway" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:takeaway" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">takeaway</name>
             <name xml:lang="en-GB">takeaway</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spichrole/" rel="skos:inScheme"/>
         </concept>
         <concept id="spichroleoff-ice">
-            <conceptId qcode="spichrole:off-ice" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichrole:off-ice" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">off-ice</name>
             <name xml:lang="en-GB">off-ice</name>
             <definition/>

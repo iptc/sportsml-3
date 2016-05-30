@@ -33,14 +33,14 @@
     </contentMeta>
     <conceptSet>
         <concept id="spsitesurfacehard-court">
-            <conceptId qcode="spsitesurface:hard-court" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsitesurface:hard-court" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">hard-court</name>
             <name xml:lang="en-GB">hard-court</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spsitesurface/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsitesurfaceclay">
-            <conceptId qcode="spsitesurface:clay" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsitesurface:clay" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">clay</name>
             <name xml:lang="en-GB">clay</name>
             <definition/>

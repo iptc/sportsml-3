@@ -40,7 +40,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spsocpositionright-fullback">
-            <conceptId qcode="spsocposition:right-fullback" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:right-fullback" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">right-fullback</name>
             <name xml:lang="en-GB">right-fullback</name>
             <name xml:lang="nb-NO">høyreback</name>
@@ -48,7 +48,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionleft-fullback">
-            <conceptId qcode="spsocposition:left-fullback" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:left-fullback" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">left-fullback</name>
             <name xml:lang="en-GB">left-fullback</name>
             <name xml:lang="nb-NO">venstreback</name>
@@ -56,7 +56,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionsweeper">
-            <conceptId qcode="spsocposition:sweeper" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:sweeper" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">sweeper</name>
             <name xml:lang="en-GB">sweeper</name>
             <name xml:lang="nb-NO">sweeper</name>
@@ -64,7 +64,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositiondefender">
-            <conceptId qcode="spsocposition:defender" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:defender" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">defender</name>
             <name xml:lang="en-GB">defender</name>
             <name xml:lang="nb-NO">forsvar</name>
@@ -72,7 +72,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositioncentral-defender">
-            <conceptId qcode="spsocposition:central-defender" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:central-defender" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">central-defender</name>
             <name xml:lang="en-GB">central-defender</name>
             <name xml:lang="nb-NO">midtstopper</name>
@@ -80,7 +80,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionright-midfielder">
-            <conceptId qcode="spsocposition:right-midfielder" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:right-midfielder" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">right-midfielder</name>
             <name xml:lang="en-GB">right-midfielder</name>
             <name xml:lang="nb-NO">høyre-midtbane</name>
@@ -88,7 +88,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionleft-midfielder">
-            <conceptId qcode="spsocposition:left-midfielder" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:left-midfielder" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">left-midfielder</name>
             <name xml:lang="en-GB">left-midfielder</name>
             <name xml:lang="nb-NO">venstre-midtbane</name>
@@ -96,7 +96,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositioncenter-midfielder">
-            <conceptId qcode="spsocposition:center-midfielder" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:center-midfielder" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">center-midfielder</name>
             <name xml:lang="en-GB">center-midfielder</name>
             <name xml:lang="nb-NO">sentral-midtbane</name>
@@ -104,7 +104,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionmidfielder">
-            <conceptId qcode="spsocposition:midfielder" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:midfielder" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">midfielder</name>
             <name xml:lang="en-GB">midfielder</name>
             <name xml:lang="nb-NO">midtbane</name>
@@ -112,7 +112,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionattacking-midfielder">
-            <conceptId qcode="spsocposition:attacking-midfielder" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:attacking-midfielder" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">attacking-midfielder</name>
             <name xml:lang="en-GB">attacking-midfielder</name>
             <name xml:lang="nb-NO">offensiv-midtbane</name>
@@ -120,7 +120,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositiondefensive-midfielder">
-            <conceptId qcode="spsocposition:defensive-midfielder" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:defensive-midfielder" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">defensive-midfielder</name>
             <name xml:lang="en-GB">defensive-midfielder</name>
             <name xml:lang="nb-NO">defensiv-midtbane</name>
@@ -128,7 +128,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionhalf-backs">
-            <conceptId qcode="spsocposition:half-backs" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:half-backs" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">half-backs</name>
             <name xml:lang="en-GB">half-backs</name>
             <name xml:lang="nb-NO">midtforsvar</name>
@@ -136,7 +136,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionright-wing">
-            <conceptId qcode="spsocposition:right-wing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:right-wing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">right-wing</name>
             <name xml:lang="en-GB">right-wing</name>
             <name xml:lang="nb-NO">høyreving</name>
@@ -144,7 +144,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionleft-wing">
-            <conceptId qcode="spsocposition:left-wing" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:left-wing" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">left-wing</name>
             <name xml:lang="en-GB">left-wing</name>
             <name xml:lang="nb-NO">venstreving</name>
@@ -152,7 +152,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositioncenter-forward">
-            <conceptId qcode="spsocposition:center-forward" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:center-forward" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">center-forward</name>
             <name xml:lang="en-GB">center-forward</name>
             <name xml:lang="nb-NO">spiss</name>
@@ -160,7 +160,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionforward">
-            <conceptId qcode="spsocposition:forward" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:forward" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">forward</name>
             <name xml:lang="en-GB">forward</name>
             <name xml:lang="nb-NO">angrep</name>
@@ -168,7 +168,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionstriker">
-            <conceptId qcode="spsocposition:striker" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:striker" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">striker</name>
             <name xml:lang="en-GB">striker</name>
             <name xml:lang="nb-NO">spiss</name>
@@ -176,7 +176,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositiongoalkeeper">
-            <conceptId qcode="spsocposition:goalkeeper" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:goalkeeper" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">goalkeeper</name>
             <name xml:lang="en-GB">goalkeeper</name>
             <name xml:lang="nb-NO">målvakt</name>
@@ -184,7 +184,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositioncoach">
-            <conceptId qcode="spsocposition:coach" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:coach" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">coach</name>
             <name xml:lang="en-GB">coach</name>
             <name xml:lang="nb-NO">trener</name>
@@ -192,7 +192,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionassistant-coach">
-            <conceptId qcode="spsocposition:assistant-coach" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:assistant-coach" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">assistant-coach</name>
             <name xml:lang="en-GB">assistant-coach</name>
             <name xml:lang="nb-NO">assistenttrener</name>
@@ -200,7 +200,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionreferee">
-            <conceptId qcode="spsocposition:referee" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:referee" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">referee</name>
             <name xml:lang="en-GB">referee</name>
             <name xml:lang="nb-NO">dommer</name>
@@ -208,7 +208,7 @@
             <related uri="http://cv.iptc.org/newscodes/spsocposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spsocpositionassistant-referee">
-            <conceptId qcode="spsocposition:assistant-referee" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spsocposition:assistant-referee" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">assistant-referee</name>
             <name xml:lang="en-GB">assistant-referee</name>
             <name xml:lang="nb-NO">assistentdommer</name>

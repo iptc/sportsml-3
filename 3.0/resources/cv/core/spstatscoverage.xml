@@ -32,21 +32,21 @@
     </contentMeta>
     <conceptSet>
         <concept id="spstatscoveragecompact">
-            <conceptId qcode="spstatscoverage:compact" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstatscoverage:compact" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">compact</name>
             <name xml:lang="en-GB">compact</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscoveragestandard">
-            <conceptId qcode="spstatscoverage:standard" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstatscoverage:standard" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">standard</name>
             <name xml:lang="en-GB">standard</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spstatscoverage/" rel="skos:inScheme"/>
         </concept>
         <concept id="spstatscoverageexpanded">
-            <conceptId qcode="spstatscoverage:expanded" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spstatscoverage:expanded" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">expanded</name>
             <name xml:lang="en-GB">expanded</name>
             <definition/>

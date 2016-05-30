@@ -38,7 +38,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="spichscoreattemptresultmissed">
-            <conceptId qcode="spichscoreattemptresult:missed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattemptresult:missed" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">missed</name>
             <name xml:lang="en-GB">missed</name>
             <definition>The puck missed the goal.</definition>
@@ -46,7 +46,7 @@
             />
         </concept>
         <concept id="spichscoreattemptresultsaved">
-            <conceptId qcode="spichscoreattemptresult:saved" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattemptresult:saved" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">saved</name>
             <name xml:lang="en-GB">saved</name>
             <definition>The goalie has stopped the shot.</definition>
@@ -54,7 +54,7 @@
             />
         </concept>
         <concept id="spichscoreattemptresultblocked">
-            <conceptId qcode="spichscoreattemptresult:blocked" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattemptresult:blocked" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked</name>
             <name xml:lang="en-GB">blocked</name>
             <definition>A non-goalie diverted the shot from reaching the goal.</definition>
@@ -62,7 +62,7 @@
             />
         </concept>
         <concept id="spichscoreattemptresultoff-post">
-            <conceptId qcode="spichscoreattemptresult:off-post" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spichscoreattemptresult:off-post" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">off-post</name>
             <name xml:lang="en-GB">off-post</name>
             <definition>The framework of the goal itself blocked the shot.</definition>

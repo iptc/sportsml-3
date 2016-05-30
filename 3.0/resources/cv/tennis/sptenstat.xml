@@ -38,7 +38,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="sptenstatscore">
-            <conceptId qcode="sptenstat:score" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:score" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score</name>
             <name xml:lang="en-GB">score</name>
@@ -46,7 +46,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatduration">
-            <conceptId qcode="sptenstat:duration" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:duration" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">duration</name>
             <name xml:lang="en-GB">duration</name>
@@ -54,7 +54,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatset-number">
-            <conceptId qcode="sptenstat:set-number" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:set-number" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">set-number</name>
             <name xml:lang="en-GB">set-number</name>
@@ -62,7 +62,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatscore-tiebreaker">
-            <conceptId qcode="sptenstat:score-tiebreaker" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:score-tiebreaker" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">score-tiebreaker</name>
             <name xml:lang="en-GB">score-tiebreaker</name>
@@ -70,7 +70,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstataces">
-            <conceptId qcode="sptenstat:aces" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:aces" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">aces</name>
             <name xml:lang="en-GB">aces</name>
@@ -78,7 +78,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-services-good">
-            <conceptId qcode="sptenstat:first-services-good" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-services-good" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-services-good</name>
             <name xml:lang="en-GB">first-services-good</name>
@@ -86,7 +86,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-services-good-pct">
-            <conceptId qcode="sptenstat:first-services-good-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-services-good-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-services-good-pct</name>
             <name xml:lang="en-GB">first-services-good-pct</name>
@@ -94,7 +94,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-services-points-won">
-            <conceptId qcode="sptenstat:first-services-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-services-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-services-points-won</name>
             <name xml:lang="en-GB">first-services-points-won</name>
@@ -102,7 +102,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-services-points-won-pct">
-            <conceptId qcode="sptenstat:first-services-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-services-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-services-points-won-pct</name>
             <name xml:lang="en-GB">first-services-points-won-pct</name>
@@ -110,7 +110,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-services-points-won">
-            <conceptId qcode="sptenstat:second-services-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-services-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-services-points-won</name>
             <name xml:lang="en-GB">second-services-points-won</name>
@@ -118,7 +118,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-services-points-won-pct">
-            <conceptId qcode="sptenstat:second-services-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-services-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-services-points-won-pct</name>
             <name xml:lang="en-GB">second-services-points-won-pct</name>
@@ -126,7 +126,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatservice-games-played">
-            <conceptId qcode="sptenstat:service-games-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:service-games-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">service-games-played</name>
             <name xml:lang="en-GB">service-games-played</name>
@@ -134,7 +134,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatservice-games-won">
-            <conceptId qcode="sptenstat:service-games-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:service-games-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">service-games-won</name>
             <name xml:lang="en-GB">service-games-won</name>
@@ -142,7 +142,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatservice-games-won-pct">
-            <conceptId qcode="sptenstat:service-games-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:service-games-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">service-games-won-pct</name>
             <name xml:lang="en-GB">service-games-won-pct</name>
@@ -150,7 +150,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatbreak-points-against">
-            <conceptId qcode="sptenstat:break-points-against" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:break-points-against" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">break-points-against</name>
             <name xml:lang="en-GB">break-points-against</name>
@@ -159,7 +159,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatbreak-points-saved">
-            <conceptId qcode="sptenstat:break-points-saved" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:break-points-saved" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">break-points-saved</name>
             <name xml:lang="en-GB">break-points-saved</name>
@@ -168,7 +168,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatbreak-points-saved-pct">
-            <conceptId qcode="sptenstat:break-points-saved-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:break-points-saved-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">break-points-saved-pct</name>
             <name xml:lang="en-GB">break-points-saved-pct</name>
@@ -177,7 +177,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatserve-points-played">
-            <conceptId qcode="sptenstat:serve-points-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:serve-points-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">serve-points-played</name>
             <name xml:lang="en-GB">serve-points-played</name>
@@ -186,7 +186,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatservice-points-won">
-            <conceptId qcode="sptenstat:service-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:service-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">service-points-won</name>
             <name xml:lang="en-GB">service-points-won</name>
@@ -195,7 +195,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatservice-points-won-pct">
-            <conceptId qcode="sptenstat:service-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:service-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">service-points-won-pct</name>
             <name xml:lang="en-GB">service-points-won-pct</name>
@@ -204,7 +204,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatdouble-faults">
-            <conceptId qcode="sptenstat:double-faults" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:double-faults" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">double-faults</name>
             <name xml:lang="en-GB">double-faults</name>
@@ -212,7 +212,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-service-top-speed">
-            <conceptId qcode="sptenstat:first-service-top-speed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-service-top-speed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-service-top-speed</name>
             <name xml:lang="en-GB">first-service-top-speed</name>
@@ -220,7 +220,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-serve-average-speed">
-            <conceptId qcode="sptenstat:first-serve-average-speed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-serve-average-speed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-serve-average-speed</name>
             <name xml:lang="en-GB">first-serve-average-speed</name>
@@ -230,7 +230,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-services-good">
-            <conceptId qcode="sptenstat:second-services-good" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-services-good" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-services-good</name>
             <name xml:lang="en-GB">second-services-good</name>
@@ -238,7 +238,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-services-good-pct">
-            <conceptId qcode="sptenstat:second-services-good-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-services-good-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-services-good-pct</name>
             <name xml:lang="en-GB">second-services-good-pct</name>
@@ -246,7 +246,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-serve-average-speed">
-            <conceptId qcode="sptenstat:second-serve-average-speed" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-serve-average-speed" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-serve-average-speed</name>
             <name xml:lang="en-GB">second-serve-average-speed</name>
@@ -256,7 +256,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatspeed-units">
-            <conceptId qcode="sptenstat:speed-units" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:speed-units" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">speed-units</name>
             <name xml:lang="en-GB">speed-units</name>
@@ -265,7 +265,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatreturns-played">
-            <conceptId qcode="sptenstat:returns-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:returns-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">returns-played</name>
             <name xml:lang="en-GB">returns-played</name>
@@ -274,7 +274,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatreceive-points-won">
-            <conceptId qcode="sptenstat:receive-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:receive-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">receive-points-won</name>
             <name xml:lang="en-GB">receive-points-won</name>
@@ -283,7 +283,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatreceive-points-won-pct">
-            <conceptId qcode="sptenstat:receive-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:receive-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">receive-points-won-pct</name>
             <name xml:lang="en-GB">receive-points-won-pct</name>
@@ -292,7 +292,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-service-return-points-won">
-            <conceptId qcode="sptenstat:first-service-return-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-service-return-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-service-return-points-won</name>
             <name xml:lang="en-GB">first-service-return-points-won</name>
@@ -301,7 +301,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatfirst-service-return-points-won-pct">
-            <conceptId qcode="sptenstat:first-service-return-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:first-service-return-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">first-service-return-points-won-pct</name>
             <name xml:lang="en-GB">first-service-return-points-won-pct</name>
@@ -310,7 +310,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-service-return-points-won">
-            <conceptId qcode="sptenstat:second-service-return-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-service-return-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-service-return-points-won</name>
             <name xml:lang="en-GB">second-service-return-points-won</name>
@@ -318,7 +318,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatsecond-service-return-points-won-pct">
-            <conceptId qcode="sptenstat:second-service-return-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:second-service-return-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">second-service-return-points-won-pct</name>
             <name xml:lang="en-GB">second-service-return-points-won-pct</name>
@@ -326,7 +326,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatreturn-games-played">
-            <conceptId qcode="sptenstat:return-games-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:return-games-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">return-games-played</name>
             <name xml:lang="en-GB">return-games-played</name>
@@ -335,7 +335,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatreturn-games-won">
-            <conceptId qcode="sptenstat:return-games-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:return-games-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">return-games-won</name>
             <name xml:lang="en-GB">return-games-won</name>
@@ -343,7 +343,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatreturn-games-won-pct">
-            <conceptId qcode="sptenstat:return-games-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:return-games-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">return-games-won-pct</name>
             <name xml:lang="en-GB">return-games-won-pct</name>
@@ -351,7 +351,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatbreak-points-played">
-            <conceptId qcode="sptenstat:break-points-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:break-points-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">break-points-played</name>
             <name xml:lang="en-GB">break-points-played</name>
@@ -359,7 +359,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatbreak-points-converted">
-            <conceptId qcode="sptenstat:break-points-converted" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:break-points-converted" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">break-points-converted</name>
             <name xml:lang="en-GB">break-points-converted</name>
@@ -368,7 +368,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatbreak-points-converted-pct">
-            <conceptId qcode="sptenstat:break-points-converted-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:break-points-converted-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">break-points-converted-pct</name>
             <name xml:lang="en-GB">break-points-converted-pct</name>
@@ -376,7 +376,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatnet-points-won">
-            <conceptId qcode="sptenstat:net-points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:net-points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">net-points-won</name>
             <name xml:lang="en-GB">net-points-won</name>
@@ -384,7 +384,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatnet-points-played">
-            <conceptId qcode="sptenstat:net-points-played" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:net-points-played" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">net-points-played</name>
             <name xml:lang="en-GB">net-points-played</name>
@@ -393,7 +393,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatnet-points-won-pct">
-            <conceptId qcode="sptenstat:net-points-won-pct" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:net-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">net-points-won-pct</name>
             <name xml:lang="en-GB">net-points-won-pct</name>
@@ -402,7 +402,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatpoints-won">
-            <conceptId qcode="sptenstat:points-won" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:points-won" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">points-won</name>
             <name xml:lang="en-GB">points-won</name>
@@ -410,7 +410,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatwinners">
-            <conceptId qcode="sptenstat:winners" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:winners" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">winners</name>
             <name xml:lang="en-GB">winners</name>
@@ -418,7 +418,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatwinners-forehand">
-            <conceptId qcode="sptenstat:winners-forehand" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:winners-forehand" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">winners-forehand</name>
             <name xml:lang="en-GB">winners-forehand</name>
@@ -426,7 +426,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatwinners-backhand">
-            <conceptId qcode="sptenstat:winners-backhand" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:winners-backhand" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">winners-backhand</name>
             <name xml:lang="en-GB">winners-backhand</name>
@@ -434,7 +434,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatwinners-volley">
-            <conceptId qcode="sptenstat:winners-volley" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:winners-volley" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">winners-volley</name>
             <name xml:lang="en-GB">winners-volley</name>
@@ -442,7 +442,7 @@
             <related uri="http://cv.iptc.org/newscodes/sptenstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="sptenstatunforced-errors">
-            <conceptId qcode="sptenstat:unforced-errors" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="sptenstat:unforced-errors" created="2016-05-02T00:00:00+00:00"/>
             <type qcode="spct:general"/>
             <name xml:lang="en-US">unforced-errors</name>
             <name xml:lang="en-GB">unforced-errors</name>

@@ -37,21 +37,21 @@
     </contentMeta>
     <conceptSet>
         <concept id="spamftouchdownfumble-return">
-            <conceptId qcode="spamftouchdown:fumble-return" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:fumble-return" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">fumble-return</name>
             <name xml:lang="en-GB">fumble-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdowninterception-return">
-            <conceptId qcode="spamftouchdown:interception-return" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:interception-return" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">interception-return</name>
             <name xml:lang="en-GB">interception-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownblocked-field-goal">
-            <conceptId qcode="spamftouchdown:blocked-field-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:blocked-field-goal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked-field-goal</name>
             <name xml:lang="en-GB">blocked-field-goal</name>
             <definition>Scored when the opposing team recovers the live ball off a blocked field
@@ -59,7 +59,7 @@
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownmissed-field-goal">
-            <conceptId qcode="spamftouchdown:missed-field-goal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:missed-field-goal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">missed-field-goal</name>
             <name xml:lang="en-GB">missed-field-goal</name>
             <definition>Scored when the opposing team opts to return a missed field goal and runs
@@ -67,7 +67,7 @@
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownblocked-punt">
-            <conceptId qcode="spamftouchdown:blocked-punt" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:blocked-punt" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">blocked-punt</name>
             <name xml:lang="en-GB">blocked-punt</name>
             <definition>Scored when the opposing team recovers the live ball off a blocked punt and
@@ -75,28 +75,28 @@
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownpunt-return">
-            <conceptId qcode="spamftouchdown:punt-return" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:punt-return" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">punt-return</name>
             <name xml:lang="en-GB">punt-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownkickoff-return">
-            <conceptId qcode="spamftouchdown:kickoff-return" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:kickoff-return" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">kickoff-return</name>
             <name xml:lang="en-GB">kickoff-return</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownpass">
-            <conceptId qcode="spamftouchdown:pass" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:pass" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">pass</name>
             <name xml:lang="en-GB">pass</name>
             <definition/>
             <related uri="http://cv.iptc.org/newscodes/spamftouchdown/" rel="skos:inScheme"/>
         </concept>
         <concept id="spamftouchdownrush">
-            <conceptId qcode="spamftouchdown:rush" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spamftouchdown:rush" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">rush</name>
             <name xml:lang="en-GB">rush</name>
             <definition/>

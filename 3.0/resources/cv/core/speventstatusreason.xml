@@ -34,7 +34,7 @@
     </contentMeta>
     <conceptSet>
         <concept id="speventstatusreasonwithdrawal">
-            <conceptId qcode="speventstatusreason:withdrawal" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="speventstatusreason:withdrawal" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">withdrawal</name>
             <name xml:lang="en-GB">withdrawal</name>
             <definition>A forfeited or canceled event because a participant withdrew.</definition>

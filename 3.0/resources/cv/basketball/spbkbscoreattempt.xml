@@ -37,21 +37,21 @@
     </contentMeta>
     <conceptSet>
         <concept id="spbkbscoreattemptfree-throw">
-            <conceptId qcode="spbkbscoreattempt:free-throw" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbkbscoreattempt:free-throw" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">free-throw</name>
             <name xml:lang="en-GB">free-throw</name>
             <definition>A foul shot, worth one point.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbscoreattemptfg">
-            <conceptId qcode="spbkbscoreattempt:fg" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbkbscoreattempt:fg" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">fg</name>
             <name xml:lang="en-GB">fg</name>
             <definition>A two-point field goal.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbscoreattemptfg3">
-            <conceptId qcode="spbkbscoreattempt:fg3" created="2016-05-01T00:00:00+00:00"/>
+            <conceptId qcode="spbkbscoreattempt:fg3" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">fg3</name>
             <name xml:lang="en-GB">fg3</name>
             <definition>A three-pointer.</definition>
