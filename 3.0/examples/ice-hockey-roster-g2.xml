@@ -3,9 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     standard="NewsML-G2"
-    standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    guid="xt.23209532-roster-dal">
+    standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
+    guid="urn:newsml:sportsml.org:20160502:xt.23209532-roster-dal">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <itemMeta>
         <itemClass qcode="ninat:text"/>
         <provider qcode="web:xmlteam.com">

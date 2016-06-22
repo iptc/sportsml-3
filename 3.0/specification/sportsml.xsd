@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 IPTC - International Press Telecommunications Council
-20 Garrick Street, London WC2E 9BT, United Kingdom
+25 Southampton Buildings, London WC2A 1AL, United Kingdom
 www.iptc.org
-See bottom of this file to view Non-Exclusive License
-Council, which applies to this specification (including
-this file and all of its companion documents).
-Agreement for International Press Telecommunications
+This document is published under the Creative Commons Attribution 4.0 license - see the full license agreement at http://creativecommons.org/licenses/by/4.0/. 
+By obtaining, using and/or copying this document, you (the licensee) agree that you have read, understood, and will comply with the terms and conditions of the license.
+
 -->
 
 <!-- xmlns="http://www.w3.org/2001/XMLSchema"-->
@@ -26,7 +25,7 @@ Agreement for International Press Telecommunications
             sports.</xs:documentation>
     </xs:annotation>
     
-    <xs:include schemaLocation="NewsML-G2_2.18-spec-All-Power.xsd"/>    
+    <xs:include schemaLocation="NewsML-G2_2.22-spec-All-Power.xsd"/>    
     <!-- The NewsMLG2 schema contain the NAR building blocks used in G2-compliant SportsML -->
     
     <!-- Plug-In Schemas for Specific Sports -->
