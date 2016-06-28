@@ -270,6 +270,7 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
             <xs:extension base="baseOfficialMetadataComplexType"/>
         </xs:complexContent>
     </xs:complexType>
+    
     <xs:complexType name="officialStatsComplexType">
         <xs:complexContent>
             <xs:extension base="baseStatsComplexType"/>
@@ -284,6 +285,7 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
             <xs:extension base="base2StatsComplexType"/>
         </xs:complexContent>
     </xs:complexType>
+    
     <xs:complexType name="associateMetadataComplexType">
         <xs:complexContent>
             <xs:extension base="baseAssociateMetadataComplexType">
