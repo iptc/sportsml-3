@@ -17,6 +17,8 @@
                 code-key="league:l.rugby.england.premiership" code-name="Aviva Premiership Rugby"/>
             <sports-content-code code-type="spct:season" code-key="season:2014"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
         <event-metadata temporal-unit-type="cpnat:event"

@@ -22,6 +22,8 @@
             <sports-content-code code-type="spct:team" code-name="Toronto Maple Leafs"
                 code-key="team:l.nhl.com-t.10"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
         <event-metadata key="nhlevent:l.nhl.com-2015-e.20001"

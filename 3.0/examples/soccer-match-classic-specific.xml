@@ -20,6 +20,8 @@
             <sports-content-code code-type="spct:team" code-key="team:o.thefa.com-t.2"
                 code-name="Aston Villa Villans"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
         <event-metadata temporal-unit-type="cpnat:event"

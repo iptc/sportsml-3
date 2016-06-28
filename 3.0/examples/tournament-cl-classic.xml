@@ -16,6 +16,8 @@
                 code-name="Champions League"/>
             <sports-content-code code-type="spct:season" code-key="season:2014"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <tournament>
         <tournament-metadata temporal-unit-type="spct:tournament" temporal-unit-value="vendor:2014"

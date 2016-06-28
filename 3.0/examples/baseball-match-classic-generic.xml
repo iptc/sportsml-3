@@ -24,6 +24,8 @@
             <sports-content-code code-type="spct:team" code-key="team:l.mlb.com-t.16"
                 code-name="Miami Marlins"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
         <event-metadata key="tsnevent:l.mlb.com-2015-e.43710" event-status="speventstatus:mid-event"

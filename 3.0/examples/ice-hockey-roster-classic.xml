@@ -20,6 +20,8 @@
             <sports-content-code code-type="spct:team" code-key="team:l.nhl.com-t.21"
                 code-name="Dallas Stars"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <statistic content-label="Team Roster">
         <statistic-metadata team-coverage="single-team" temporal-unit-type="spct:season-regular"

@@ -5,6 +5,7 @@
     >
     <sports-metadata date-time="2015-02-02T00:35:00-05:00" doc-id="xt.22956338-box" language="en-US"
         fixture-key="tsndoc:event-stats" document-class="spct:event-summary">
+        
         <sports-content-codes>
             <sports-content-code code-name="The Sports Network"
                 code-key="publisher:sportsnetwork.com" code-type="spct:publisher"/>
@@ -26,6 +27,8 @@
             <sports-content-code code-type="spct:team" code-key="team:l.nfl.com-t.4"
                 code-name="New England Patriots"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
         <event-metadata key="tsnevent:l.nfl.com-2014-e.4481"

@@ -17,6 +17,8 @@
                 code-name="National Hockey League"/>
             <sports-content-code code-type="spct:season" code-key="season:2015"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <standing>
         <standing-metadata stats-coverage="spstatscoverage:expanded" team-coverage="multi-team"

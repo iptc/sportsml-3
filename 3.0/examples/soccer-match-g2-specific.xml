@@ -82,7 +82,7 @@
                             <name role="nrol:full">Aston Villa</name>
                             <name part="nprt:common">Aston Villa</name>
                         </team-metadata>
-                        <team-stats score="0" score-opposing="2" event-outcome="speventoutcome:loss"
+                        <team-stats score="0" score-opposing="2" event-outcome="speventtest:loss"
                             time-of-possession-percentage="31.6">
                             <sub-score period-value="1" score="0"/>
                             <sub-score period-value="2" score="0"/>
