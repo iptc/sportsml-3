@@ -3,11 +3,12 @@
     standard="NewsML-G2" standardversion="2.18" conformance="power"
     guid="urn:newsml:iptc.org:20080229:srcncdki-spbblstat" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC - International Press Telecommunications Council</name>
         </copyrightHolder>
-        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <copyrightNotice>Copyright 2016, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
         <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
             Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
@@ -16,15 +17,10 @@
         <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC</name>
         </provider>
-        <versionCreated>2015-10-19T17:57:26-04:00</versionCreated>
+        <versionCreated>2016-06-13T15:15:32-04:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-        <contentCreated>2015-10-19T17:57:26-04:00</contentCreated>
-        <infoSource literal="IPTC"/>
-        <creator qcode="web:iptc.org">
-            <name>International Press Telecommunications Council (IPTC)</name>
-        </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
             <name xml:lang="en-GB">sport</name>
@@ -42,7 +38,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">average</name>
             <name xml:lang="en-GB">average</name>
-            <definition>Average number of hits per at-bats</definition>
+            <definition xml:lang="en-GB">Average number of hits per at-bats</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatruns-scored">
@@ -50,7 +46,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">runs-scored</name>
             <name xml:lang="en-GB">runs-scored</name>
-            <definition>Number of runs scored</definition>
+            <definition xml:lang="en-GB">Number of runs scored</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatat-bats">
@@ -58,7 +54,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">at-bats</name>
             <name xml:lang="en-GB">at-bats</name>
-            <definition>Number of at-bats (Does not include walks or Sacrifice Hits)</definition>
+            <definition xml:lang="en-GB">Number of at-bats (Does not include walks or Sacrifice Hits)</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits">
@@ -66,7 +62,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hits</name>
             <name xml:lang="en-GB">hits</name>
-            <definition>Number of hits</definition>
+            <definition xml:lang="en-GB">Number of hits</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatrbi">
@@ -74,7 +70,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">rbi</name>
             <name xml:lang="en-GB">rbi</name>
-            <definition>Number of runs batted in</definition>
+            <definition xml:lang="en-GB">Number of runs batted in</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattotal-bases">
@@ -82,7 +78,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">total-bases</name>
             <name xml:lang="en-GB">total-bases</name>
-            <definition>Calculated by hits + doubles + (triples times 2) + (home-runs times
+            <definition xml:lang="en-GB">Calculated by hits + doubles + (triples times 2) + (home-runs times
                 3).</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -91,7 +87,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">slugging-percentage</name>
             <name xml:lang="en-GB">slugging-percentage</name>
-            <definition>Total bases divided by at-bats.</definition>
+            <definition xml:lang="en-GB">Total bases divided by at-bats.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls">
@@ -99,7 +95,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">bases-on-balls</name>
             <name xml:lang="en-GB">bases-on-balls</name>
-            <definition>Number of times batter was walked</definition>
+            <definition xml:lang="en-GB">Number of times batter was walked</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-rate">
@@ -107,7 +103,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">bases-on-balls-rate</name>
             <name xml:lang="en-GB">bases-on-balls-rate</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-intentional">
@@ -115,7 +111,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">bases-on-balls-intentional</name>
             <name xml:lang="en-GB">bases-on-balls-intentional</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeouts-against">
@@ -123,7 +119,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">strikeouts-against</name>
             <name xml:lang="en-GB">strikeouts-against</name>
-            <definition>Number of times batter struck out</definition>
+            <definition xml:lang="en-GB">Number of times batter struck out</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeouts-looking">
@@ -131,7 +127,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">strikeouts-looking</name>
             <name xml:lang="en-GB">strikeouts-looking</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatouts-ground">
@@ -139,7 +135,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">outs-ground</name>
             <name xml:lang="en-GB">outs-ground</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatouts-fly">
@@ -147,7 +143,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">outs-fly</name>
             <name xml:lang="en-GB">outs-fly</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatleft-on-base">
@@ -155,7 +151,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">left-on-base</name>
             <name xml:lang="en-GB">left-on-base</name>
-            <definition>Number of runners left on base</definition>
+            <definition xml:lang="en-GB">Number of runners left on base</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatleft-in-scoring-position">
@@ -163,7 +159,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">left-in-scoring-position</name>
             <name xml:lang="en-GB">left-in-scoring-position</name>
-            <definition>Number of runners left on second and/or third base</definition>
+            <definition xml:lang="en-GB">Number of runners left on second and/or third base</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsingles">
@@ -171,7 +167,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">singles</name>
             <name xml:lang="en-GB">singles</name>
-            <definition>Number of hits off of which batter advances to first base</definition>
+            <definition xml:lang="en-GB">Number of hits off of which batter advances to first base</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdoubles">
@@ -179,7 +175,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">doubles</name>
             <name xml:lang="en-GB">doubles</name>
-            <definition>Number of hits off of which batter advances to second base</definition>
+            <definition xml:lang="en-GB">Number of hits off of which batter advances to second base</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattriples">
@@ -187,7 +183,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">triples</name>
             <name xml:lang="en-GB">triples</name>
-            <definition>Number of hits off of which batter advances to third base</definition>
+            <definition xml:lang="en-GB">Number of hits off of which batter advances to third base</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathome-runs">
@@ -195,7 +191,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">home-runs</name>
             <name xml:lang="en-GB">home-runs</name>
-            <definition>Number of hits off of which batter advances to home plate</definition>
+            <definition xml:lang="en-GB">Number of hits off of which batter advances to home plate</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathome-runs-season">
@@ -203,7 +199,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">home-runs-season</name>
             <name xml:lang="en-GB">home-runs-season</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgrand-slams">
@@ -211,7 +207,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">grand-slams</name>
             <name xml:lang="en-GB">grand-slams</name>
-            <definition>Number of home runs with bases loaded</definition>
+            <definition xml:lang="en-GB">Number of home runs with bases loaded</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstreak-hits">
@@ -219,7 +215,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">streak-hits</name>
             <name xml:lang="en-GB">streak-hits</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits-event-winning">
@@ -227,7 +223,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hits-event-winning</name>
             <name xml:lang="en-GB">hits-event-winning</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatat-bats-per-rbi">
@@ -235,7 +231,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">at-bats-per-rbi</name>
             <name xml:lang="en-GB">at-bats-per-rbi</name>
-            <definition>RBI per at-bat ratio</definition>
+            <definition xml:lang="en-GB">RBI per at-bat ratio</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatplate-appearances-per-rbi">
@@ -243,7 +239,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">plate-appearances-per-rbi</name>
             <name xml:lang="en-GB">plate-appearances-per-rbi</name>
-            <definition>Plate appearances per at-bat ratio</definition>
+            <definition xml:lang="en-GB">Plate appearances per at-bat ratio</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatat-bats-per-home-run">
@@ -251,7 +247,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">at-bats-per-home-run</name>
             <name xml:lang="en-GB">at-bats-per-home-run</name>
-            <definition>Home runs per at-bat ratio</definition>
+            <definition xml:lang="en-GB">Home runs per at-bat ratio</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatplate-appearances-per-home-run">
@@ -259,7 +255,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">plate-appearances-per-home-run</name>
             <name xml:lang="en-GB">plate-appearances-per-home-run</name>
-            <definition>Plate appearances per home run ratio</definition>
+            <definition xml:lang="en-GB">Plate appearances per home run ratio</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsac-flies">
@@ -267,7 +263,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">sac-flies</name>
             <name xml:lang="en-GB">sac-flies</name>
-            <definition>Number of hits resulting in batter out which advance base
+            <definition xml:lang="en-GB">Number of hits resulting in batter out which advance base
                 runner(s)</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -276,7 +272,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">sac-bunts</name>
             <name xml:lang="en-GB">sac-bunts</name>
-            <definition>Number of bunts resulting in batter out which advance base
+            <definition xml:lang="en-GB">Number of bunts resulting in batter out which advance base
                 runner(s)</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -285,7 +281,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">sacrifices</name>
             <name xml:lang="en-GB">sacrifices</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgrounded-into-double-play">
@@ -293,7 +289,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">grounded-into-double-play</name>
             <name xml:lang="en-GB">grounded-into-double-play</name>
-            <definition>Number of ground balls which result in batter and base runner
+            <definition xml:lang="en-GB">Number of ground balls which result in batter and base runner
                 outs</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -302,7 +298,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hit-into-double-play</name>
             <name xml:lang="en-GB">hit-into-double-play</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatmoved-up">
@@ -310,7 +306,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">moved-up</name>
             <name xml:lang="en-GB">moved-up</name>
-            <definition>Number of times runner advances to another base</definition>
+            <definition xml:lang="en-GB">Number of times runner advances to another base</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaton-base-percentage">
@@ -318,7 +314,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">on-base-percentage</name>
             <name xml:lang="en-GB">on-base-percentage</name>
-            <definition>Calculated as follows: (hits + bases-on-balls + hit-by-pitch) / (at-bats +
+            <definition xml:lang="en-GB">Calculated as follows: (hits + bases-on-balls + hit-by-pitch) / (at-bats +
                 bases-on-balls + hit-by-pitch + sac-flies)</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -327,7 +323,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">stolen-bases</name>
             <name xml:lang="en-GB">stolen-bases</name>
-            <definition>Number of successfully stolen bases.</definition>
+            <definition xml:lang="en-GB">Number of successfully stolen bases.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-caught">
@@ -335,7 +331,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">stolen-bases-caught</name>
             <name xml:lang="en-GB">stolen-bases-caught</name>
-            <definition>Number of times the runner was caught while trying to steal
+            <definition xml:lang="en-GB">Number of times the runner was caught while trying to steal
                 bases.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -344,7 +340,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">stolen-bases-average</name>
             <name xml:lang="en-GB">stolen-bases-average</name>
-            <definition>Success rate for stealing bases.</definition>
+            <definition xml:lang="en-GB">Success rate for stealing bases.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathit-by-pitch">
@@ -352,7 +348,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hit-by-pitch</name>
             <name xml:lang="en-GB">hit-by-pitch</name>
-            <definition>Number of times batter hit by pitch</definition>
+            <definition xml:lang="en-GB">Number of times batter hit by pitch</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatreached-base-defensive-interference">
@@ -360,7 +356,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">reached-base-defensive-interference</name>
             <name xml:lang="en-GB">reached-base-defensive-interference</name>
-            <definition>The number of times the player reached a base due to interference by the
+            <definition xml:lang="en-GB">The number of times the player reached a base due to interference by the
                 defense.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -369,7 +365,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">reached-base-error</name>
             <name xml:lang="en-GB">reached-base-error</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatreached-base-fielder-choice">
@@ -377,7 +373,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">reached-base-fielder-choice</name>
             <name xml:lang="en-GB">reached-base-fielder-choice</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaton-base-plus-slugging">
@@ -385,7 +381,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">on-base-plus-slugging</name>
             <name xml:lang="en-GB">on-base-plus-slugging</name>
-            <definition>Calculated by adding on-base-percentage to slugging-percentage.</definition>
+            <definition xml:lang="en-GB">Calculated by adding on-base-percentage to slugging-percentage.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatplate-appearances">
@@ -393,7 +389,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">plate-appearances</name>
             <name xml:lang="en-GB">plate-appearances</name>
-            <definition>Calculated by adding at-bats, bases-on-balls, hit-by-pitch, sac-flies,
+            <definition xml:lang="en-GB">Calculated by adding at-bats, bases-on-balls, hit-by-pitch, sac-flies,
                 sac-bunts, and defensive-interfance-reaches.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -402,7 +398,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">hits-extra-base</name>
             <name xml:lang="en-GB">hits-extra-base</name>
-            <definition>Calculated by adding doubles, triples, and home-runs.</definition>
+            <definition xml:lang="en-GB">Calculated by adding doubles, triples, and home-runs.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeout-rate">
@@ -410,7 +406,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">strikeout-rate</name>
             <name xml:lang="en-GB">strikeout-rate</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdouble-plays-against">
@@ -418,7 +414,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">double-plays-against</name>
             <name xml:lang="en-GB">double-plays-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattriple-plays-against">
@@ -426,7 +422,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">triple-plays-against</name>
             <name xml:lang="en-GB">triple-plays-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatpick-offs-against">
@@ -434,7 +430,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">pick-offs-against</name>
             <name xml:lang="en-GB">pick-offs-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-played">
@@ -442,7 +438,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">games-played</name>
             <name xml:lang="en-GB">games-played</name>
-            <definition>Number of games played.</definition>
+            <definition xml:lang="en-GB">Number of games played.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatruns-allowed">
@@ -450,7 +446,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">runs-allowed</name>
             <name xml:lang="en-GB">runs-allowed</name>
-            <definition>Number of runs against</definition>
+            <definition xml:lang="en-GB">Number of runs against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathome-runs-allowed">
@@ -458,7 +454,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">home-runs-allowed</name>
             <name xml:lang="en-GB">home-runs-allowed</name>
-            <definition>Number of home runs against</definition>
+            <definition xml:lang="en-GB">Number of home runs against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifice-bunts-allowed">
@@ -466,7 +462,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">sacrifice-bunts-allowed</name>
             <name xml:lang="en-GB">sacrifice-bunts-allowed</name>
-            <definition>Number of sacrifice bunts against</definition>
+            <definition xml:lang="en-GB">Number of sacrifice bunts against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifice-hits-allowed">
@@ -474,7 +470,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">sacrifice-hits-allowed</name>
             <name xml:lang="en-GB">sacrifice-hits-allowed</name>
-            <definition>Number of sacrifice hits against</definition>
+            <definition xml:lang="en-GB">Number of sacrifice hits against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinterferences">
@@ -482,7 +478,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">interferences</name>
             <name xml:lang="en-GB">interferences</name>
-            <definition>Number of interference or obstruction calls</definition>
+            <definition xml:lang="en-GB">Number of interference or obstruction calls</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinnings-pitched">
@@ -490,7 +486,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">innings-pitched</name>
             <name xml:lang="en-GB">innings-pitched</name>
-            <definition>Number of innings pitched</definition>
+            <definition xml:lang="en-GB">Number of innings pitched</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinnings-pitched-average">
@@ -498,7 +494,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">innings-pitched-average</name>
             <name xml:lang="en-GB">innings-pitched-average</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstathits-allowed">
@@ -506,7 +502,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">hits-allowed</name>
             <name xml:lang="en-GB">hits-allowed</name>
-            <definition>Number of hits against</definition>
+            <definition xml:lang="en-GB">Number of hits against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatearned-runs">
@@ -514,7 +510,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">earned-runs</name>
             <name xml:lang="en-GB">earned-runs</name>
-            <definition>Number of earned runs against</definition>
+            <definition xml:lang="en-GB">Number of earned runs against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatunearned-runs">
@@ -522,7 +518,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">unearned-runs</name>
             <name xml:lang="en-GB">unearned-runs</name>
-            <definition>Number of unearned runs against</definition>
+            <definition xml:lang="en-GB">Number of unearned runs against</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-allowed">
@@ -530,7 +526,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">bases-on-balls-allowed</name>
             <name xml:lang="en-GB">bases-on-balls-allowed</name>
-            <definition>Number of earned walks allowed</definition>
+            <definition xml:lang="en-GB">Number of earned walks allowed</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbases-on-balls-intentional-pitcher">
@@ -538,7 +534,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">bases-on-balls-intentional-pitcher</name>
             <name xml:lang="en-GB">bases-on-balls-intentional-pitcher</name>
-            <definition>Number of batters intentionally walked</definition>
+            <definition xml:lang="en-GB">Number of batters intentionally walked</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeouts">
@@ -546,7 +542,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">strikeouts</name>
             <name xml:lang="en-GB">strikeouts</name>
-            <definition>Number of earned strikeouts</definition>
+            <definition xml:lang="en-GB">Number of earned strikeouts</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstrikeout-to-bb-ratio">
@@ -554,7 +550,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">strikeout-to-bb-ratio</name>
             <name xml:lang="en-GB">strikeout-to-bb-ratio</name>
-            <definition>Strikeout to walks ratio</definition>
+            <definition xml:lang="en-GB">Strikeout to walks ratio</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatnumber-of-pitches">
@@ -562,7 +558,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">number-of-pitches</name>
             <name xml:lang="en-GB">number-of-pitches</name>
-            <definition>Number of pitches thrown</definition>
+            <definition xml:lang="en-GB">Number of pitches thrown</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatnumber-of-strikes">
@@ -570,7 +566,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">number-of-strikes</name>
             <name xml:lang="en-GB">number-of-strikes</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatera">
@@ -578,7 +574,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">era</name>
             <name xml:lang="en-GB">era</name>
-            <definition>Earned run average: Number of earned runs divided by number of innings
+            <definition xml:lang="en-GB">Earned run average: Number of earned runs divided by number of innings
                 pitched multiplied by nine</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -587,7 +583,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">whip</name>
             <name xml:lang="en-GB">whip</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinherited-runners-scored">
@@ -595,7 +591,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">inherited-runners-scored</name>
             <name xml:lang="en-GB">inherited-runners-scored</name>
-            <definition>Number of runners which a previous pitcher allowed on base which
+            <definition xml:lang="en-GB">Number of runners which a previous pitcher allowed on base which
                 scored</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -604,7 +600,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">pick-offs</name>
             <name xml:lang="en-GB">pick-offs</name>
-            <definition>The number of times the pitcher caught a player trying to steal, before
+            <definition xml:lang="en-GB">The number of times the pitcher caught a player trying to steal, before
                 making the pitch.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -613,7 +609,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">errors-hit-with-pitch</name>
             <name xml:lang="en-GB">errors-hit-with-pitch</name>
-            <definition>Number of times pitcher hits batter with pitch</definition>
+            <definition xml:lang="en-GB">Number of times pitcher hits batter with pitch</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors-wild-pitch">
@@ -621,7 +617,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">errors-wild-pitch</name>
             <name xml:lang="en-GB">errors-wild-pitch</name>
-            <definition>Number of wild pitches thrown</definition>
+            <definition xml:lang="en-GB">Number of wild pitches thrown</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbalks">
@@ -629,7 +625,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">balks</name>
             <name xml:lang="en-GB">balks</name>
-            <definition>Number of balks</definition>
+            <definition xml:lang="en-GB">Number of balks</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatwins">
@@ -637,7 +633,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">wins</name>
             <name xml:lang="en-GB">wins</name>
-            <definition>Number of games pitcher has won</definition>
+            <definition xml:lang="en-GB">Number of games pitcher has won</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatlosses">
@@ -645,7 +641,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">losses</name>
             <name xml:lang="en-GB">losses</name>
-            <definition>Number of games pitcher has lost</definition>
+            <definition xml:lang="en-GB">Number of games pitcher has lost</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves">
@@ -653,7 +649,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves</name>
             <name xml:lang="en-GB">saves</name>
-            <definition>Number of games pitcher has saved</definition>
+            <definition xml:lang="en-GB">Number of games pitcher has saved</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatholds">
@@ -661,7 +657,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">holds</name>
             <name xml:lang="en-GB">holds</name>
-            <definition>Number of games relief pitcher has held the lead</definition>
+            <definition xml:lang="en-GB">Number of games relief pitcher has held the lead</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves-blown">
@@ -669,7 +665,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves-blown</name>
             <name xml:lang="en-GB">saves-blown</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves-tough">
@@ -677,7 +673,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves-tough</name>
             <name xml:lang="en-GB">saves-tough</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsaves-opportunities">
@@ -685,7 +681,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">saves-opportunities</name>
             <name xml:lang="en-GB">saves-opportunities</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatrelief-points">
@@ -693,7 +689,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">relief-points</name>
             <name xml:lang="en-GB">relief-points</name>
-            <definition>Formula for rating relief performances. 4 points for a tough save; 3 points
+            <definition xml:lang="en-GB">Formula for rating relief performances. 4 points for a tough save; 3 points
                 for a save; 2 for a relief win; minus 2 for a relief loss and blown
                 save.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
@@ -703,7 +699,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">shutouts</name>
             <name xml:lang="en-GB">shutouts</name>
-            <definition>Number of games pitched in which opposing team did not score</definition>
+            <definition xml:lang="en-GB">Number of games pitched in which opposing team did not score</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-complete">
@@ -711,7 +707,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">games-complete</name>
             <name xml:lang="en-GB">games-complete</name>
-            <definition>Number of complete games pitched</definition>
+            <definition xml:lang="en-GB">Number of complete games pitched</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-finished">
@@ -719,7 +715,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">games-finished</name>
             <name xml:lang="en-GB">games-finished</name>
-            <definition>Number of games pitched to the end</definition>
+            <definition xml:lang="en-GB">Number of games pitched to the end</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-pitched">
@@ -727,7 +723,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">games-pitched</name>
             <name xml:lang="en-GB">games-pitched</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatwinning-percentage">
@@ -735,7 +731,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">winning-percentage</name>
             <name xml:lang="en-GB">winning-percentage</name>
-            <definition>Calculated by wins divided by (wins + losses).</definition>
+            <definition xml:lang="en-GB">Calculated by wins divided by (wins + losses).</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatevent-credit">
@@ -743,7 +739,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">event-credit</name>
             <name xml:lang="en-GB">event-credit</name>
-            <definition>Whether a pitcher has received credit for winning or losing the game. TBD.
+            <definition xml:lang="en-GB">Whether a pitcher has received credit for winning or losing the game. TBD.
                 Controlled Vocabulary.
                 (win|loss|save|blown-save|win-blown-save|loss-blown-save|hold-win|hold-loss)</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
@@ -753,7 +749,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">save-credit</name>
             <name xml:lang="en-GB">save-credit</name>
-            <definition>Whether a pitcher has received credit for winning or losing the game. TBD.
+            <definition xml:lang="en-GB">Whether a pitcher has received credit for winning or losing the game. TBD.
                 Controlled Vocabulary.
                 (win|loss|save|blown-save|win-blown-save|loss-blown-save|hold-win|hold-loss)</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
@@ -763,7 +759,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-average-against</name>
             <name xml:lang="en-GB">batters-average-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-at-bats-against">
@@ -771,7 +767,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-at-bats-against</name>
             <name xml:lang="en-GB">batters-at-bats-against</name>
-            <definition>Number of batters faced who were credited with at-bats.</definition>
+            <definition xml:lang="en-GB">Number of batters faced who were credited with at-bats.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-total-against">
@@ -779,7 +775,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-total-against</name>
             <name xml:lang="en-GB">batters-total-against</name>
-            <definition>Total number of batters faced.</definition>
+            <definition xml:lang="en-GB">Total number of batters faced.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-total-bases-against">
@@ -787,7 +783,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-total-bases-against</name>
             <name xml:lang="en-GB">batters-total-bases-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-slugging-percentage-against">
@@ -795,7 +791,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-slugging-percentage-against</name>
             <name xml:lang="en-GB">batters-slugging-percentage-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-on-base-percentage-against">
@@ -803,7 +799,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-on-base-percentage-against</name>
             <name xml:lang="en-GB">batters-on-base-percentage-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-doubles-against">
@@ -811,7 +807,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-doubles-against</name>
             <name xml:lang="en-GB">batters-doubles-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-triples-against">
@@ -819,7 +815,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-triples-against</name>
             <name xml:lang="en-GB">batters-triples-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatbatters-home-runs-against">
@@ -827,7 +823,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">batters-home-runs-against</name>
             <name xml:lang="en-GB">batters-home-runs-against</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatinherited-runners-total">
@@ -835,7 +831,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">inherited-runners-total</name>
             <name xml:lang="en-GB">inherited-runners-total</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatsacrifice-flies-allowed">
@@ -843,7 +839,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">sacrifice-flies-allowed</name>
             <name xml:lang="en-GB">sacrifice-flies-allowed</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatshutouts-combined">
@@ -851,7 +847,7 @@
             <type qcode="spct:pitching"/>
             <name xml:lang="en-US">shutouts-combined</name>
             <name xml:lang="en-GB">shutouts-combined</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatdouble-plays">
@@ -859,7 +855,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">double-plays</name>
             <name xml:lang="en-GB">double-plays</name>
-            <definition>Number of times two runners thrown out at the base.</definition>
+            <definition xml:lang="en-GB">Number of times two runners thrown out at the base.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstattriple-plays">
@@ -867,7 +863,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">triple-plays</name>
             <name xml:lang="en-GB">triple-plays</name>
-            <definition>Number of times three runners thrown out at the base.</definition>
+            <definition xml:lang="en-GB">Number of times three runners thrown out at the base.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatputouts">
@@ -875,7 +871,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">putouts</name>
             <name xml:lang="en-GB">putouts</name>
-            <definition>Number of times a fielder caught a fly ball for an out.</definition>
+            <definition xml:lang="en-GB">Number of times a fielder caught a fly ball for an out.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatassists">
@@ -883,7 +879,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">assists</name>
             <name xml:lang="en-GB">assists</name>
-            <definition>Number of plays in which a fielder throws a ball to another fielder for the
+            <definition xml:lang="en-GB">Number of plays in which a fielder throws a ball to another fielder for the
                 out.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -892,7 +888,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">errors</name>
             <name xml:lang="en-GB">errors</name>
-            <definition>Number of plays in which a fielder committed an error, such as dropping a
+            <definition xml:lang="en-GB">Number of plays in which a fielder committed an error, such as dropping a
                 ball.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -901,7 +897,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">fielding-chances</name>
             <name xml:lang="en-GB">fielding-chances</name>
-            <definition>TBD.</definition>
+            <definition xml:lang="en-GB">TBD.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatfielding-percentage">
@@ -909,7 +905,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">fielding-percentage</name>
             <name xml:lang="en-GB">fielding-percentage</name>
-            <definition>A measure of fielding success. Calculated as follows: (putouts + assists) /
+            <definition xml:lang="en-GB">A measure of fielding success. Calculated as follows: (putouts + assists) /
                 (putouts + assists + errors).</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -918,7 +914,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">defensive-average</name>
             <name xml:lang="en-GB">defensive-average</name>
-            <definition>Rate a fielder turns a bill hit to their area into an out.</definition>
+            <definition xml:lang="en-GB">Rate a fielder turns a bill hit to their area into an out.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstaterrors-passed-ball">
@@ -926,7 +922,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">errors-passed-ball</name>
             <name xml:lang="en-GB">errors-passed-ball</name>
-            <definition>Number of times a catcher is faulted with letting a pitched ball go
+            <definition xml:lang="en-GB">Number of times a catcher is faulted with letting a pitched ball go
                 past.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -935,7 +931,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">errors-catchers-interference</name>
             <name xml:lang="en-GB">errors-catchers-interference</name>
-            <definition>Number of times a catcher has improperly interfered with play.</definition>
+            <definition xml:lang="en-GB">Number of times a catcher has improperly interfered with play.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatstolen-bases-against">
@@ -943,7 +939,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">stolen-bases-against</name>
             <name xml:lang="en-GB">stolen-bases-against</name>
-            <definition>Number of bases successfully stolen while this player was on the
+            <definition xml:lang="en-GB">Number of bases successfully stolen while this player was on the
                 field.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -952,7 +948,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">stolen-bases-caught-defense</name>
             <name xml:lang="en-GB">stolen-bases-caught-defense</name>
-            <definition>Number of times a runner was caught while trying to steal bases while this
+            <definition xml:lang="en-GB">Number of times a runner was caught while trying to steal bases while this
                 player was on the field.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -961,7 +957,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">stolen-bases-average-defense</name>
             <name xml:lang="en-GB">stolen-bases-average-defense</name>
-            <definition>Success rate for stealing bases while this player was on the
+            <definition xml:lang="en-GB">Success rate for stealing bases while this player was on the
                 field.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
@@ -970,7 +966,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">innings-played</name>
             <name xml:lang="en-GB">innings-played</name>
-            <definition>Number of innings played at the named position.</definition>
+            <definition xml:lang="en-GB">Number of innings played at the named position.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblstatgames-played-position">
@@ -978,13 +974,13 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">games-played-position</name>
             <name xml:lang="en-GB">games-played-position</name>
-            <definition>Number of games played at the named position.</definition>
+            <definition xml:lang="en-GB">Number of games played at the named position.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblstat/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spbblstat/" authority="http://www.iptc.org"
         preferredalias="spbblstat">
-        <definition xml:lang="en-US">Vocabulary of statistics for Baseball</definition>
+        <definition xml:lang="en-GB">Vocabulary of statistics for Baseball</definition>
         <name xml:lang="en-US">Baseball Statistics</name>
             <name xml:lang="en-GB">Baseball Statistics</name>
         <related qcode="spbblstat:average" rel="skos:hasTopConcept"/>

@@ -3,11 +3,12 @@
     standard="NewsML-G2" standardversion="2.18" conformance="power"
     guid="urn:newsml:iptc.org:20080229:srcncdki-spbkbstat" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC - International Press Telecommunications Council</name>
         </copyrightHolder>
-        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <copyrightNotice>Copyright 2016, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
         <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
             Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
@@ -16,15 +17,10 @@
         <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC</name>
         </provider>
-        <versionCreated>2015-10-19T20:46:27-04:00</versionCreated>
+        <versionCreated>2016-06-13T15:15:32-04:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-        <contentCreated>2015-10-19T20:46:27-04:00</contentCreated>
-        <infoSource literal="IPTC"/>
-        <creator qcode="web:iptc.org">
-            <name>International Press Telecommunications Council (IPTC)</name>
-        </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
             <name xml:lang="en-GB">sport</name>
@@ -39,94 +35,94 @@
     <conceptSet>
         <concept id="spbkbstatminutes-played">
             <conceptId qcode="spbkbstat:minutes-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">minutes-played</name>
             <name xml:lang="en-GB">minutes-played</name>
-            <definition>Number of minutes this player has spent playing during a particular
+            <definition xml:lang="en-GB">Number of minutes this player has spent playing during a particular
                 game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatgames-played">
             <conceptId qcode="spbkbstat:games-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">games-played</name>
             <name xml:lang="en-GB">games-played</name>
-            <definition>Number of games played.</definition>
+            <definition xml:lang="en-GB">Number of games played.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatgames-started">
             <conceptId qcode="spbkbstat:games-started" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">games-started</name>
             <name xml:lang="en-GB">games-started</name>
-            <definition>Number of games that started with this player on the court,.</definition>
+            <definition xml:lang="en-GB">Number of games that started with this player on the court,.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstataverage-minutes-per-game">
             <conceptId qcode="spbkbstat:average-minutes-per-game" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">average-minutes-per-game</name>
             <name xml:lang="en-GB">average-minutes-per-game</name>
-            <definition>Average number of minutes per game played by this player.</definition>
+            <definition xml:lang="en-GB">Average number of minutes per game played by this player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpersonal-fouls-per-game">
             <conceptId qcode="spbkbstat:personal-fouls-per-game" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">personal-fouls-per-game</name>
             <name xml:lang="en-GB">personal-fouls-per-game</name>
-            <definition>Average number of fouls made by the player per game.</definition>
+            <definition xml:lang="en-GB">Average number of fouls made by the player per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatdouble-doubles">
             <conceptId qcode="spbkbstat:double-doubles" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">double-doubles</name>
             <name xml:lang="en-GB">double-doubles</name>
-            <definition>A double digit number in any two of these categories: points, rebounds,
+            <definition xml:lang="en-GB">A double digit number in any two of these categories: points, rebounds,
                 assists, steals, and blocked shots.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstattriple-doubles">
             <conceptId qcode="spbkbstat:triple-doubles" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">triple-doubles</name>
             <name xml:lang="en-GB">triple-doubles</name>
-            <definition>A double digit number in any three of these categories: points, rebounds,
+            <definition xml:lang="en-GB">A double digit number in any three of these categories: points, rebounds,
                 assists, steals, and blocked shots.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstattimeouts-left">
             <conceptId qcode="spbkbstat:timeouts-left" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">timeouts-left</name>
             <name xml:lang="en-GB">timeouts-left</name>
-            <definition>Number of timeouts a team has left during the current event.</definition>
+            <definition xml:lang="en-GB">Number of timeouts a team has left during the current event.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatlargest-lead">
             <conceptId qcode="spbkbstat:largest-lead" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">largest-lead</name>
             <name xml:lang="en-GB">largest-lead</name>
-            <definition>Largest number of points this team has led the opposition. Could be a
+            <definition xml:lang="en-GB">Largest number of points this team has led the opposition. Could be a
                 negative number.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfouls-total">
             <conceptId qcode="spbkbstat:fouls-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">fouls-total</name>
             <name xml:lang="en-GB">fouls-total</name>
-            <definition>Total number of fouls comitted by the team during this event.</definition>
+            <definition xml:lang="en-GB">Total number of fouls comitted by the team during this event.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatturnover-margin">
             <conceptId qcode="spbkbstat:turnover-margin" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:general"/>
+            <type qcode="spct:core"/>
             <name xml:lang="en-US">turnover-margin</name>
             <name xml:lang="en-GB">turnover-margin</name>
-            <definition>Turnover margain is the number of turnovers made by this team minus the
+            <definition xml:lang="en-GB">Turnover margain is the number of turnovers made by this team minus the
                 number of turnovers made by the opposing team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -135,7 +131,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">field-goals-made</name>
             <name xml:lang="en-GB">field-goals-made</name>
-            <definition>Shots made that were worth two points each.</definition>
+            <definition xml:lang="en-GB">Shots made that were worth two points each.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfield-goals-attempted">
@@ -143,7 +139,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">field-goals-attempted</name>
             <name xml:lang="en-GB">field-goals-attempted</name>
-            <definition>Two-point shots that were attempted.</definition>
+            <definition xml:lang="en-GB">Two-point shots that were attempted.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfield-goals-percentage">
@@ -151,7 +147,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">field-goals-percentage</name>
             <name xml:lang="en-GB">field-goals-percentage</name>
-            <definition>Field goals made versus attempted. This could also be calculated from the
+            <definition xml:lang="en-GB">Field goals made versus attempted. This could also be calculated from the
                 above.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -160,7 +156,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">field-goals-per-game</name>
             <name xml:lang="en-GB">field-goals-per-game</name>
-            <definition>Average number of field goals made per game.</definition>
+            <definition xml:lang="en-GB">Average number of field goals made per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfield-goals-attempted-per-game">
@@ -168,7 +164,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">field-goals-attempted-per-game</name>
             <name xml:lang="en-GB">field-goals-attempted-per-game</name>
-            <definition>Average number of field goals attempted per game.</definition>
+            <definition xml:lang="en-GB">Average number of field goals attempted per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfield-goals-percentage-adjusted">
@@ -176,7 +172,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">field-goals-percentage-adjusted</name>
             <name xml:lang="en-GB">field-goals-percentage-adjusted</name>
-            <definition>A formula measuring shooting efficiency: [(points-scored-total -
+            <definition xml:lang="en-GB">A formula measuring shooting efficiency: [(points-scored-total -
                 free-throws-made)/field-goals-attempted]/2.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -185,7 +181,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">three-pointers-made</name>
             <name xml:lang="en-GB">three-pointers-made</name>
-            <definition>Shots made that were worth three points each.</definition>
+            <definition xml:lang="en-GB">Shots made that were worth three points each.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatthree-pointers-attempted">
@@ -193,7 +189,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">three-pointers-attempted</name>
             <name xml:lang="en-GB">three-pointers-attempted</name>
-            <definition>Three-point shots that were attempted.</definition>
+            <definition xml:lang="en-GB">Three-point shots that were attempted.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatthree-pointers-percentage">
@@ -201,7 +197,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">three-pointers-percentage</name>
             <name xml:lang="en-GB">three-pointers-percentage</name>
-            <definition>Three-pointers made versus attempted. This could be calculated.</definition>
+            <definition xml:lang="en-GB">Three-pointers made versus attempted. This could be calculated.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatthree-pointers-per-game">
@@ -209,7 +205,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">three-pointers-per-game</name>
             <name xml:lang="en-GB">three-pointers-per-game</name>
-            <definition>Average number of three-pointers made per game.</definition>
+            <definition xml:lang="en-GB">Average number of three-pointers made per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatthree-pointers-attempted-per-game">
@@ -217,7 +213,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">three-pointers-attempted-per-game</name>
             <name xml:lang="en-GB">three-pointers-attempted-per-game</name>
-            <definition>Average number of three-pointers attempted per game.</definition>
+            <definition xml:lang="en-GB">Average number of three-pointers attempted per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfree-throws-made">
@@ -225,7 +221,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-throws-made</name>
             <name xml:lang="en-GB">free-throws-made</name>
-            <definition>Shots made that were worth one point each.</definition>
+            <definition xml:lang="en-GB">Shots made that were worth one point each.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfree-throws-attempted">
@@ -233,7 +229,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-throws-attempted</name>
             <name xml:lang="en-GB">free-throws-attempted</name>
-            <definition>One-point shots that were attempted.</definition>
+            <definition xml:lang="en-GB">One-point shots that were attempted.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfree-throws-percentage">
@@ -241,7 +237,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-throws-percentage</name>
             <name xml:lang="en-GB">free-throws-percentage</name>
-            <definition>Free throws made versus attempted.</definition>
+            <definition xml:lang="en-GB">Free throws made versus attempted.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfree-throws-per-game">
@@ -249,7 +245,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-throws-per-game</name>
             <name xml:lang="en-GB">free-throws-per-game</name>
-            <definition>Average number of free throws made per game.</definition>
+            <definition xml:lang="en-GB">Average number of free throws made per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfree-throws-attempted-per-game">
@@ -257,7 +253,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">free-throws-attempted-per-game</name>
             <name xml:lang="en-GB">free-throws-attempted-per-game</name>
-            <definition>Average number of free throws attempted per game.</definition>
+            <definition xml:lang="en-GB">Average number of free throws attempted per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-total">
@@ -265,7 +261,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-total</name>
             <name xml:lang="en-GB">points-scored-total</name>
-            <definition>Total number of points scored, over.</definition>
+            <definition xml:lang="en-GB">Total number of points scored, over.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-per-game">
@@ -273,7 +269,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-per-game</name>
             <name xml:lang="en-GB">points-scored-per-game</name>
-            <definition>Average number of points scored in games played.</definition>
+            <definition xml:lang="en-GB">Average number of points scored in games played.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-per-game-highest">
@@ -281,7 +277,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-per-game-highest</name>
             <name xml:lang="en-GB">points-scored-per-game-highest</name>
-            <definition>Highest number of points scored in one game played.</definition>
+            <definition xml:lang="en-GB">Highest number of points scored in one game played.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-per-shot">
@@ -289,7 +285,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-per-shot</name>
             <name xml:lang="en-GB">points-scored-per-shot</name>
-            <definition>Calculated by dividing points-scored-total by
+            <definition xml:lang="en-GB">Calculated by dividing points-scored-total by
                 field-goals-attempted.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -298,7 +294,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-total</name>
             <name xml:lang="en-GB">assists-total</name>
-            <definition>Total number of assists.</definition>
+            <definition xml:lang="en-GB">Total number of assists.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatassists-per-game">
@@ -306,7 +302,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">assists-per-game</name>
             <name xml:lang="en-GB">assists-per-game</name>
-            <definition>Total number of assists per games played.</definition>
+            <definition xml:lang="en-GB">Total number of assists per games played.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatturnovers-total">
@@ -314,7 +310,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">turnovers-total</name>
             <name xml:lang="en-GB">turnovers-total</name>
-            <definition>Total number of turnovers.</definition>
+            <definition xml:lang="en-GB">Total number of turnovers.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatturnovers-per-game">
@@ -322,7 +318,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">turnovers-per-game</name>
             <name xml:lang="en-GB">turnovers-per-game</name>
-            <definition>Average number of turnovers per game.</definition>
+            <definition xml:lang="en-GB">Average number of turnovers per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-turnovers-total">
@@ -330,7 +326,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">team-turnovers-total</name>
             <name xml:lang="en-GB">team-turnovers-total</name>
-            <definition>Total number of team turnovers.</definition>
+            <definition xml:lang="en-GB">Total number of team turnovers.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-turnovers-per-game">
@@ -338,7 +334,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">team-turnovers-per-game</name>
             <name xml:lang="en-GB">team-turnovers-per-game</name>
-            <definition>Average number of team turnovers per game.</definition>
+            <definition xml:lang="en-GB">Average number of team turnovers per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-off-turnovers">
@@ -346,7 +342,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-off-turnovers</name>
             <name xml:lang="en-GB">points-scored-off-turnovers</name>
-            <definition>Total number of points scored off turnovers.</definition>
+            <definition xml:lang="en-GB">Total number of points scored off turnovers.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-in-paint">
@@ -354,7 +350,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-in-paint</name>
             <name xml:lang="en-GB">points-scored-in-paint</name>
-            <definition>Total number of points scored from within the painted area surrounding the
+            <definition xml:lang="en-GB">Total number of points scored from within the painted area surrounding the
                 basket.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -363,7 +359,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-on-second-chance</name>
             <name xml:lang="en-GB">points-scored-on-second-chance</name>
-            <definition>Total number of points scored after fielding an offensive
+            <definition xml:lang="en-GB">Total number of points scored after fielding an offensive
                 rebound.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -372,7 +368,7 @@
             <type qcode="spct:offense"/>
             <name xml:lang="en-US">points-scored-on-fast-break</name>
             <name xml:lang="en-GB">points-scored-on-fast-break</name>
-            <definition>Total number of points scored off a fast break.</definition>
+            <definition xml:lang="en-GB">Total number of points scored off a fast break.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-total">
@@ -380,7 +376,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-total</name>
             <name xml:lang="en-GB">rebounds-total</name>
-            <definition>The sum of all rebounds that were credited to particular
+            <definition xml:lang="en-GB">The sum of all rebounds that were credited to particular
                 players.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -389,7 +385,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-total-percentage</name>
             <name xml:lang="en-GB">rebounds-total-percentage</name>
-            <definition>The percentage of rebounds total compared to total number of
+            <definition xml:lang="en-GB">The percentage of rebounds total compared to total number of
                 attempts.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -398,7 +394,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-defensive</name>
             <name xml:lang="en-GB">rebounds-defensive</name>
-            <definition>The sum of all defensive rebounds credited to particular players. A
+            <definition xml:lang="en-GB">The sum of all defensive rebounds credited to particular players. A
                 defensive rebound occurs when the team is in defence but gains possession through a
                 rebound.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
@@ -408,7 +404,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-opponent-defensive</name>
             <name xml:lang="en-GB">rebounds-opponent-defensive</name>
-            <definition>The total defensive rebounds by the opposing team or player.</definition>
+            <definition xml:lang="en-GB">The total defensive rebounds by the opposing team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-defensive-percentage">
@@ -416,7 +412,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-defensive-percentage</name>
             <name xml:lang="en-GB">rebounds-defensive-percentage</name>
-            <definition>The percentage of defensive rebounds.</definition>
+            <definition xml:lang="en-GB">The percentage of defensive rebounds.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-offensive">
@@ -424,7 +420,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-offensive</name>
             <name xml:lang="en-GB">rebounds-offensive</name>
-            <definition>The sum of all offensive rebounds credited to particular player. An
+            <definition xml:lang="en-GB">The sum of all offensive rebounds credited to particular player. An
                 offensive rebound is when the team keep possession of the ball through a
                 rebound.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
@@ -434,7 +430,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-offensive-percentage</name>
             <name xml:lang="en-GB">rebounds-offensive-percentage</name>
-            <definition>The percentage of offensive rebounds.</definition>
+            <definition xml:lang="en-GB">The percentage of offensive rebounds.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-opponent-offensive">
@@ -442,7 +438,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-opponent-offensive</name>
             <name xml:lang="en-GB">rebounds-opponent-offensive</name>
-            <definition>The total offensive rebounds by the opposing team or player.</definition>
+            <definition xml:lang="en-GB">The total offensive rebounds by the opposing team or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-rebounds-total">
@@ -450,7 +446,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-total</name>
             <name xml:lang="en-GB">team-rebounds-total</name>
-            <definition>The number of rebounds that did not credited to individual players, but were
+            <definition xml:lang="en-GB">The number of rebounds that did not credited to individual players, but were
                 instead credited to the team as a whole.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -459,7 +455,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-total-percentage</name>
             <name xml:lang="en-GB">team-rebounds-total-percentage</name>
-            <definition>Percentage of team rebounds.</definition>
+            <definition xml:lang="en-GB">Percentage of team rebounds.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-rebounds-defensive">
@@ -467,7 +463,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-defensive</name>
             <name xml:lang="en-GB">team-rebounds-defensive</name>
-            <definition>The sum of all defensive rebounds credited to the team as a
+            <definition xml:lang="en-GB">The sum of all defensive rebounds credited to the team as a
                 whole.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -476,7 +472,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-defensive-percentage</name>
             <name xml:lang="en-GB">team-rebounds-defensive-percentage</name>
-            <definition>The percentage of defensive rebounds credited to the team.</definition>
+            <definition xml:lang="en-GB">The percentage of defensive rebounds credited to the team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-rebounds-offensive">
@@ -484,7 +480,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-offensive</name>
             <name xml:lang="en-GB">team-rebounds-offensive</name>
-            <definition>The sum of all offensive rebounds credited to the team as a
+            <definition xml:lang="en-GB">The sum of all offensive rebounds credited to the team as a
                 whol.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -493,7 +489,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-offensive-percentage</name>
             <name xml:lang="en-GB">team-rebounds-offensive-percentage</name>
-            <definition>The percentage of offensive rebounds credited to the team.</definition>
+            <definition xml:lang="en-GB">The percentage of offensive rebounds credited to the team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-rebounds-opponent-defensive">
@@ -501,7 +497,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-opponent-defensive</name>
             <name xml:lang="en-GB">team-rebounds-opponent-defensive</name>
-            <definition>The total defensive team rebounds by the opposing team or
+            <definition xml:lang="en-GB">The total defensive team rebounds by the opposing team or
                 player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -510,7 +506,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-opponent-offensive</name>
             <name xml:lang="en-GB">team-rebounds-opponent-offensive</name>
-            <definition>The total offensive team rebounds by the opposing team or
+            <definition xml:lang="en-GB">The total offensive team rebounds by the opposing team or
                 player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -519,7 +515,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-per-game</name>
             <name xml:lang="en-GB">rebounds-per-game</name>
-            <definition>The average number of personal rebounds per game.</definition>
+            <definition xml:lang="en-GB">The average number of personal rebounds per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatteam-rebounds-per-game">
@@ -527,7 +523,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-per-game</name>
             <name xml:lang="en-GB">team-rebounds-per-game</name>
-            <definition>The average number of team rebounds per game.</definition>
+            <definition xml:lang="en-GB">The average number of team rebounds per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-offensive-per-game">
@@ -535,7 +531,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-offensive-per-game</name>
             <name xml:lang="en-GB">rebounds-offensive-per-game</name>
-            <definition>The average number of offensive personal rebounds per game.</definition>
+            <definition xml:lang="en-GB">The average number of offensive personal rebounds per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-defensive-per-game">
@@ -543,7 +539,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-defensive-per-game</name>
             <name xml:lang="en-GB">rebounds-defensive-per-game</name>
-            <definition>The average numer of defensive personal rebounds per game.</definition>
+            <definition xml:lang="en-GB">The average numer of defensive personal rebounds per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatrebounds-differential">
@@ -551,7 +547,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-differential</name>
             <name xml:lang="en-GB">rebounds-differential</name>
-            <definition>The differential between the total number of rebounds from this team
+            <definition xml:lang="en-GB">The differential between the total number of rebounds from this team
                 compared to the opposing team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -560,7 +556,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">rebounds-opponent-total</name>
             <name xml:lang="en-GB">rebounds-opponent-total</name>
-            <definition>The total number of rebounds (ofensive and defensive) by the opposing team
+            <definition xml:lang="en-GB">The total number of rebounds (ofensive and defensive) by the opposing team
                 or player.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -569,7 +565,7 @@
             <type qcode="spct:rebounding"/>
             <name xml:lang="en-US">team-rebounds-opponent-total</name>
             <name xml:lang="en-GB">team-rebounds-opponent-total</name>
-            <definition>The total number of rebounds (ofensive and defensive) by the opponent which
+            <definition xml:lang="en-GB">The total number of rebounds (ofensive and defensive) by the opponent which
                 are credited to the team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -578,7 +574,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">steals-total</name>
             <name xml:lang="en-GB">steals-total</name>
-            <definition>Total number of steals.</definition>
+            <definition xml:lang="en-GB">Total number of steals.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatsteals-per-game">
@@ -586,7 +582,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">steals-per-game</name>
             <name xml:lang="en-GB">steals-per-game</name>
-            <definition>Average number of steals per game.</definition>
+            <definition xml:lang="en-GB">Average number of steals per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatsteals-opponent">
@@ -594,7 +590,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">steals-opponent</name>
             <name xml:lang="en-GB">steals-opponent</name>
-            <definition>Total number of steals-against by opponent.</definition>
+            <definition xml:lang="en-GB">Total number of steals-against by opponent.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatsteals-differential">
@@ -602,7 +598,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">steals-differential</name>
             <name xml:lang="en-GB">steals-differential</name>
-            <definition>The number of steals made by this team compared to steals made by the other
+            <definition xml:lang="en-GB">The number of steals made by this team compared to steals made by the other
                 team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -611,7 +607,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">blocks-total</name>
             <name xml:lang="en-GB">blocks-total</name>
-            <definition>Total number of blocks.</definition>
+            <definition xml:lang="en-GB">Total number of blocks.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatblocks-per-game">
@@ -619,7 +615,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">blocks-per-game</name>
             <name xml:lang="en-GB">blocks-per-game</name>
-            <definition>Average number of blocks per game.</definition>
+            <definition xml:lang="en-GB">Average number of blocks per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatblocks-opponent">
@@ -627,7 +623,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">blocks-opponent</name>
             <name xml:lang="en-GB">blocks-opponent</name>
-            <definition>Total number of blocks-against by opponent.</definition>
+            <definition xml:lang="en-GB">Total number of blocks-against by opponent.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatblocks-differential">
@@ -635,7 +631,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">blocks-differential</name>
             <name xml:lang="en-GB">blocks-differential</name>
-            <definition>Total number of blocks made by this team compared to blocks made by the
+            <definition xml:lang="en-GB">Total number of blocks made by this team compared to blocks made by the
                 other team.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
@@ -644,7 +640,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">points-scored-against-per-game</name>
             <name xml:lang="en-GB">points-scored-against-per-game</name>
-            <definition>Average of points scored against per game.</definition>
+            <definition xml:lang="en-GB">Average of points scored against per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatpoints-scored-against-per-game-highest">
@@ -652,7 +648,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">points-scored-against-per-game-highest</name>
             <name xml:lang="en-GB">points-scored-against-per-game-highest</name>
-            <definition>Highest number of points scored against in one game played.</definition>
+            <definition xml:lang="en-GB">Highest number of points scored against in one game played.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfield-goals-against-per-game">
@@ -660,7 +656,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">field-goals-against-per-game</name>
             <name xml:lang="en-GB">field-goals-against-per-game</name>
-            <definition>The average number of field goals scored agains per game.</definition>
+            <definition xml:lang="en-GB">The average number of field goals scored agains per game.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatfield-goals-against-percentage">
@@ -668,7 +664,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">field-goals-against-percentage</name>
             <name xml:lang="en-GB">field-goals-against-percentage</name>
-            <definition>The percentage of field goals scored against.</definition>
+            <definition xml:lang="en-GB">The percentage of field goals scored against.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbkbstatcharges-taken">
@@ -676,7 +672,7 @@
             <type qcode="spct:defense"/>
             <name xml:lang="en-US">charges-taken</name>
             <name xml:lang="en-GB">charges-taken</name>
-            <definition>Total number of charges taken. A charge is when the referee toss the ball
+            <definition xml:lang="en-GB">Total number of charges taken. A charge is when the referee toss the ball
                 and one player of each team try to give their team possession of the
                 ball.</definition>
             <related uri="http://cv.iptc.org/newscodes/spbkbstat/" rel="skos:inScheme"/>
@@ -684,7 +680,7 @@
     </conceptSet>
     <schemeMeta uri="http://cv.iptc.org/newscodes/spbkbstat/" authority="http://www.iptc.org"
         preferredalias="spbkbstat">
-        <definition xml:lang="en-US">Vocabulary of statistics for Basketball</definition>
+        <definition xml:lang="en-GB">Vocabulary of statistics for Basketball</definition>
         <name xml:lang="en-US">Basketball Statistics</name>
             <name xml:lang="en-GB">Basketball Statistics</name>
         <related qcode="spbkbstat:minutes-played" rel="skos:hasTopConcept"/>

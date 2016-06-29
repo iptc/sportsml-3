@@ -2,11 +2,12 @@
     standardversion="2.18" conformance="power"
     guid="urn:newsml:iptc.org:20080229:srcncdki-sprgxscoreattempt" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC - International Press Telecommunications Council</name>
         </copyrightHolder>
-        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <copyrightNotice>Copyright 2016, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
         <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
             Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
@@ -15,15 +16,10 @@
         <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC</name>
         </provider>
-        <versionCreated>2015-10-21T15:05:05-04:00</versionCreated>
+        <versionCreated>2016-06-13T15:15:32-04:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-        <contentCreated>2015-10-21T15:05:05-04:00</contentCreated>
-        <infoSource literal="IPTC"/>
-        <creator qcode="web:iptc.org">
-            <name>International Press Telecommunications Council (IPTC)</name>
-        </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
             <name xml:lang="en-GB">sport</name>
@@ -40,34 +36,34 @@
             <conceptId qcode="sprgxscoreattempt:try" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">Try</name>
             <name xml:lang="en-GB">Try</name>
-            <definition>Score by grounding the ball in the in-goal area (between the goal line and the dead-ball line); worth 5 points.</definition>
+            <definition xml:lang="en-GB">Score by grounding the ball in the in-goal area (between the goal line and the dead-ball line); worth 5 points.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptpenalty">
             <conceptId qcode="sprgxscoreattempt:penalty" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">penalty</name>
             <name xml:lang="en-GB">penalty</name>
-            <definition>The score attempt is made as a penalty kick.</definition>
+            <definition xml:lang="en-GB">The score attempt is made as a penalty kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptdrop">
             <conceptId qcode="sprgxscoreattempt:drop" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">drop</name>
             <name xml:lang="en-GB">drop</name>
-            <definition>The score attempt is made as a drop kick.</definition>
+            <definition xml:lang="en-GB">The score attempt is made as a drop kick.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
         <concept id="sprgxscoreattemptconversion">
             <conceptId qcode="sprgxscoreattempt:conversion" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">conversion</name>
             <name xml:lang="en-GB">conversion</name>
-            <definition>The score attempt is made as a try conversion.</definition>
+            <definition xml:lang="en-GB">The score attempt is made as a try conversion.</definition>
             <related uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" rel="skos:inScheme"/>
         </concept>
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org"
         uri="http://cv.iptc.org/newscodes/sprgxscoreattempt/" preferredalias="sprgxscoreattempt">
-        <definition xml:lang="en-US">Types of scoring in rugby.</definition>
+        <definition xml:lang="en-GB">Types of scoring in rugby.</definition>
         <name xml:lang="en-US">Rugby Score Types</name>
             <name xml:lang="en-GB">Rugby Score Types</name>
         <related qcode="sprgxscoreattempt:try" rel="skos:hasTopConcept"/>

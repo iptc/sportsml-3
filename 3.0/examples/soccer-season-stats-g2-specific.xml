@@ -6,7 +6,7 @@
     standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
     guid="urn:newsml:sportsml.org:20160502:xt.opta.stats-20151021085919-8">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
-<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
+	<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <itemMeta>
         <itemClass qcode="ninat:text"/>
         <provider qcode="web:xmlteam.com">

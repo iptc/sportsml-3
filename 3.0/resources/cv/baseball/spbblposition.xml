@@ -3,11 +3,12 @@
     standard="NewsML-G2" standardversion="2.18" conformance="power"
     guid="urn:newsml:iptc.org:20080229:srcncdki-spbblposition" version="1">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_25.xml"/>
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <rightsInfo>
         <copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC - International Press Telecommunications Council</name>
         </copyrightHolder>
-        <copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+        <copyrightNotice>Copyright 2016, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
         <usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
             Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
     </rightsInfo>
@@ -16,15 +17,10 @@
         <provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
             <name>IPTC</name>
         </provider>
-        <versionCreated>2015-10-22T05:36:49-04:00</versionCreated>
+        <versionCreated>2016-06-13T15:15:32-04:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
     </itemMeta>
     <contentMeta>
-        <contentCreated>2015-10-22T05:36:49-04:00</contentCreated>
-        <infoSource literal="IPTC"/>
-        <creator qcode="web:iptc.org">
-            <name>International Press Telecommunications Council (IPTC)</name>
-        </creator>
         <subject qcode="subj:15000000">
             <name xml:lang="en-US">sport</name>
             <name xml:lang="en-GB">sport</name>
@@ -41,91 +37,91 @@
             <conceptId qcode="spbblposition:1" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">1</name>
             <name xml:lang="en-GB">1</name>
-            <definition>pitcher</definition>
+            <definition xml:lang="en-GB">pitcher</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition2">
             <conceptId qcode="spbblposition:2" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">2</name>
             <name xml:lang="en-GB">2</name>
-            <definition>catcher</definition>
+            <definition xml:lang="en-GB">catcher</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition3">
             <conceptId qcode="spbblposition:3" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">3</name>
             <name xml:lang="en-GB">3</name>
-            <definition>first baseman</definition>
+            <definition xml:lang="en-GB">first baseman</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition4">
             <conceptId qcode="spbblposition:4" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">4</name>
             <name xml:lang="en-GB">4</name>
-            <definition>second baseman</definition>
+            <definition xml:lang="en-GB">second baseman</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition5">
             <conceptId qcode="spbblposition:5" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">5</name>
             <name xml:lang="en-GB">5</name>
-            <definition>third baseman</definition>
+            <definition xml:lang="en-GB">third baseman</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition6">
             <conceptId qcode="spbblposition:6" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">6</name>
             <name xml:lang="en-GB">6</name>
-            <definition>shortstop</definition>
+            <definition xml:lang="en-GB">shortstop</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition7">
             <conceptId qcode="spbblposition:7" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">7</name>
             <name xml:lang="en-GB">7</name>
-            <definition>left fielder</definition>
+            <definition xml:lang="en-GB">left fielder</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition8">
             <conceptId qcode="spbblposition:8" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">8</name>
             <name xml:lang="en-GB">8</name>
-            <definition>center fielder</definition>
+            <definition xml:lang="en-GB">center fielder</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition9">
             <conceptId qcode="spbblposition:9" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">9</name>
             <name xml:lang="en-GB">9</name>
-            <definition>right fielder</definition>
+            <definition xml:lang="en-GB">right fielder</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblposition10">
             <conceptId qcode="spbblposition:10" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">10</name>
             <name xml:lang="en-GB">10</name>
-            <definition>tenth man (for softball), playing in the outfield</definition>
+            <definition xml:lang="en-GB">tenth man (for softball), playing in the outfield</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositiondh">
             <conceptId qcode="spbblposition:dh" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">dh</name>
             <name xml:lang="en-GB">dh</name>
-            <definition>designated hitter</definition>
+            <definition xml:lang="en-GB">designated hitter</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionph">
             <conceptId qcode="spbblposition:ph" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">ph</name>
             <name xml:lang="en-GB">ph</name>
-            <definition>pinch hitter</definition>
+            <definition xml:lang="en-GB">pinch hitter</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionpr">
             <conceptId qcode="spbblposition:pr" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">pr</name>
             <name xml:lang="en-GB">pr</name>
-            <definition>pinch runner</definition>
+            <definition xml:lang="en-GB">pinch runner</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionmanager">
@@ -167,42 +163,42 @@
             <conceptId qcode="spbblposition:umpire-2" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">umpire-2</name>
             <name xml:lang="en-GB">umpire-2</name>
-            <definition>home plate umpire</definition>
+            <definition xml:lang="en-GB">home plate umpire</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionumpire-3">
             <conceptId qcode="spbblposition:umpire-3" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">umpire-3</name>
             <name xml:lang="en-GB">umpire-3</name>
-            <definition>first base umpire</definition>
+            <definition xml:lang="en-GB">first base umpire</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionumpire-4">
             <conceptId qcode="spbblposition:umpire-4" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">umpire-4</name>
             <name xml:lang="en-GB">umpire-4</name>
-            <definition>second base umpire</definition>
+            <definition xml:lang="en-GB">second base umpire</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionumpire-5">
             <conceptId qcode="spbblposition:umpire-5" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">umpire-5</name>
             <name xml:lang="en-GB">umpire-5</name>
-            <definition>third base umpire</definition>
+            <definition xml:lang="en-GB">third base umpire</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionumpire-7">
             <conceptId qcode="spbblposition:umpire-7" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">umpire-7</name>
             <name xml:lang="en-GB">umpire-7</name>
-            <definition>left field umpire</definition>
+            <definition xml:lang="en-GB">left field umpire</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionumpire-9">
             <conceptId qcode="spbblposition:umpire-9" created="2016-05-02T00:00:00+00:00"/>
             <name xml:lang="en-US">umpire-9</name>
             <name xml:lang="en-GB">umpire-9</name>
-            <definition>right field umpire</definition>
+            <definition xml:lang="en-GB">right field umpire</definition>
             <related uri="http://cv.iptc.org/newscodes/spbblposition/" rel="skos:inScheme"/>
         </concept>
         <concept id="spbblpositionofficial-scorekeeper">
@@ -222,7 +218,7 @@
     </conceptSet>
     <schemeMeta authority="http://www.iptc.org" uri="http://cv.iptc.org/newscodes/spbblposition/"
         preferredalias="spbblposition">
-        <definition xml:lang="en-US">Baseball player positions</definition>
+        <definition xml:lang="en-GB">Baseball player positions</definition>
         <name xml:lang="en-US">Baseball Player Positions</name>
             <name xml:lang="en-GB">Baseball Player Positions</name>
         <related qcode="spbblposition:1" rel="skos:hasTopConcept"/>

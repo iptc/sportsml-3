@@ -7,7 +7,7 @@
 		<copyrightHolder uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
 			<name>IPTC - International Press Telecommunications Council</name>
 		</copyrightHolder>
-		<copyrightNotice>Copyright 2015, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
+		<copyrightNotice>Copyright 2016, IPTC, www.iptc.org, Rights Reserved</copyrightNotice>
 		<usageTerms href="http://creativecommons.org/licenses/by/4.0/">the Creative Commons
 			Attribution (CC BY) 4.0 license applies to all NewsCodes</usageTerms>
 	</rightsInfo>
@@ -16,15 +16,10 @@
 		<provider uri="http://cv.iptc.org/newscodes/newsprovider/IPTC">
 			<name>IPTC</name>
 		</provider>
-		<versionCreated>2015-10-20T14:40:13-04:00</versionCreated>
+		<versionCreated>2016-06-13T15:15:32-04:00</versionCreated>
 		<pubStatus qcode="stat:usable"/>
 	</itemMeta>
 	<contentMeta>
-		<contentCreated>2015-10-20T14:40:13-04:00</contentCreated>
-		<infoSource literal="IPTC"/>
-		<creator qcode="web:iptc.org">
-			<name>International Press Telecommunications Council (IPTC)</name>
-		</creator>
 		<subject qcode="subj:15000000">
 			<name xml:lang="en-US">sport</name>
             <name xml:lang="en-GB">sport</name>
@@ -39,10 +34,10 @@
 	<conceptSet>
 		<concept id="spsocstatline-formation-row">
 			<conceptId qcode="spsocstat:line-formation-row" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">line-formation-row</name>
             <name xml:lang="en-GB">line-formation-row</name>
-			<definition>Integer value ascending from closest to the goalkeeper. All players in the
+			<definition xml:lang="en-GB">Integer value ascending from closest to the goalkeeper. All players in the
 				row closest to the goalkeeper have 1 as value, the next row 2, etc. Indicates row
 				the player belonged to at the start of the game or when they entered the
 				game.</definition>
@@ -50,20 +45,20 @@
 		</concept>
 		<concept id="spsocstatline-formation-position">
 			<conceptId qcode="spsocstat:line-formation-position" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">line-formation-position</name>
             <name xml:lang="en-GB">line-formation-position</name>
-			<definition>Integer value ascending from left side of field. Starts at 1 for the first
+			<definition xml:lang="en-GB">Integer value ascending from left side of field. Starts at 1 for the first
 				player in each line-formation. | Indicates line-position player had at the start of
 				the game or when the player entered the game.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatline-formation">
 			<conceptId qcode="spsocstat:line-formation" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">line-formation</name>
             <name xml:lang="en-GB">line-formation</name>
-			<definition>String representing the formation of the team on the field starting from the
+			<definition xml:lang="en-GB">String representing the formation of the team on the field starting from the
 				back of the field. This can be written as 4-4-2 where the hyphens separates the
 				lines on the field from the defense at left to the forwards to the right. Depending
 				on the formation of the team other than three digits can be used, for example
@@ -72,18 +67,18 @@
 		</concept>
 		<concept id="spsocstattime-entered-event">
 			<conceptId qcode="spsocstat:time-entered-event" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">time-entered-event</name>
             <name xml:lang="en-GB">time-entered-event</name>
-			<definition>Time in minutes when the player entered the event.</definition>
+			<definition xml:lang="en-GB">Time in minutes when the player entered the event.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattime-exited-event">
 			<conceptId qcode="spsocstat:time-exited-event" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">time-exited-event</name>
             <name xml:lang="en-GB">time-exited-event</name>
-			<definition>Time in minutes when the player exited the event.</definition>
+			<definition xml:lang="en-GB">Time in minutes when the player exited the event.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-game-winning">
@@ -91,7 +86,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-game-winning</name>
             <name xml:lang="en-GB">goals-game-winning</name>
-			<definition>Goals that meant winning a game.</definition>
+			<definition xml:lang="en-GB">Goals that meant winning a game.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-game-tying">
@@ -99,7 +94,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-game-tying</name>
             <name xml:lang="en-GB">goals-game-tying</name>
-			<definition>Goals that meant tying a game.</definition>
+			<definition xml:lang="en-GB">Goals that meant tying a game.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-overtime">
@@ -107,7 +102,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-overtime</name>
             <name xml:lang="en-GB">goals-overtime</name>
-			<definition>Goals scored during overtime.</definition>
+			<definition xml:lang="en-GB">Goals scored during overtime.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-shootout">
@@ -115,7 +110,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-shootout</name>
             <name xml:lang="en-GB">goals-shootout</name>
-			<definition>Goals scored during shootout.</definition>
+			<definition xml:lang="en-GB">Goals scored during shootout.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-total">
@@ -123,7 +118,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-total</name>
             <name xml:lang="en-GB">goals-total</name>
-			<definition>Total number of goals by the team.</definition>
+			<definition xml:lang="en-GB">Total number of goals by the team.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-game-winning">
@@ -131,7 +126,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-game-winning</name>
             <name xml:lang="en-GB">assists-game-winning</name>
-			<definition>Assists to goals that meant winning a game.</definition>
+			<definition xml:lang="en-GB">Assists to goals that meant winning a game.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-game-tying">
@@ -139,7 +134,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-game-tying</name>
             <name xml:lang="en-GB">assists-game-tying</name>
-			<definition>Assists to goals that meant tying a game.</definition>
+			<definition xml:lang="en-GB">Assists to goals that meant tying a game.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-overtime">
@@ -147,7 +142,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-overtime</name>
             <name xml:lang="en-GB">assists-overtime</name>
-			<definition>Assists made on goals scored during overtime.</definition>
+			<definition xml:lang="en-GB">Assists made on goals scored during overtime.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatassists-total">
@@ -155,7 +150,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">assists-total</name>
             <name xml:lang="en-GB">assists-total</name>
-			<definition>Number of assists.</definition>
+			<definition xml:lang="en-GB">Number of assists.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpoints">
@@ -163,7 +158,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">points</name>
             <name xml:lang="en-GB">points</name>
-			<definition>Sum of goals and assists.</definition>
+			<definition xml:lang="en-GB">Sum of goals and assists.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-total">
@@ -171,7 +166,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-total</name>
             <name xml:lang="en-GB">shots-total</name>
-			<definition>Total number of shots made in attempt to score goal.</definition>
+			<definition xml:lang="en-GB">Total number of shots made in attempt to score goal.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-on-goal-total">
@@ -179,7 +174,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-on-goal-total</name>
             <name xml:lang="en-GB">shots-on-goal-total</name>
-			<definition>Total number of shots on goal that did not hit the net.</definition>
+			<definition xml:lang="en-GB">Total number of shots on goal that did not hit the net.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-off-goal-total">
@@ -187,7 +182,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-off-goal-total</name>
             <name xml:lang="en-GB">shots-off-goal-total</name>
-			<definition>Total number of shots towards the goal, but that would have missed the
+			<definition xml:lang="en-GB">Total number of shots towards the goal, but that would have missed the
 				target anyway.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -196,7 +191,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-taken</name>
             <name xml:lang="en-GB">shots-penalty-shot-taken</name>
-			<definition>Total number of attempts to score as penalty-shot.</definition>
+			<definition xml:lang="en-GB">Total number of attempts to score as penalty-shot.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-scored">
@@ -204,7 +199,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-scored</name>
             <name xml:lang="en-GB">shots-penalty-shot-scored</name>
-			<definition>Goals scored as penalty-shots.</definition>
+			<definition xml:lang="en-GB">Goals scored as penalty-shots.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-penalty-shot-missed">
@@ -212,7 +207,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-missed</name>
             <name xml:lang="en-GB">shots-penalty-shot-missed</name>
-			<definition>Total number of attempts to score as penalty-shot that did not result in a
+			<definition xml:lang="en-GB">Total number of attempts to score as penalty-shot that did not result in a
 				goal.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -221,7 +216,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-penalty-shot-percentage</name>
             <name xml:lang="en-GB">shots-penalty-shot-percentage</name>
-			<definition>Percentage of penalty shots scored. Could be calculated from above
+			<definition xml:lang="en-GB">Percentage of penalty shots scored. Could be calculated from above
 				values.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -230,7 +225,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-taken</name>
             <name xml:lang="en-GB">shots-shootout-taken</name>
-			<definition>Total number of attempts to score during shootout.</definition>
+			<definition xml:lang="en-GB">Total number of attempts to score during shootout.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-scored">
@@ -238,7 +233,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-scored</name>
             <name xml:lang="en-GB">shots-shootout-scored</name>
-			<definition>Goals scored during shootout.</definition>
+			<definition xml:lang="en-GB">Goals scored during shootout.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-missed">
@@ -246,7 +241,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-missed</name>
             <name xml:lang="en-GB">shots-shootout-missed</name>
-			<definition>Goals missed during shootout.</definition>
+			<definition xml:lang="en-GB">Goals missed during shootout.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-percentage">
@@ -254,7 +249,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-shootout-percentage</name>
             <name xml:lang="en-GB">shots-shootout-percentage</name>
-			<definition>Percentage of shootout goals scored.</definition>
+			<definition xml:lang="en-GB">Percentage of shootout goals scored.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgiveaways">
@@ -262,7 +257,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">giveaways</name>
             <name xml:lang="en-GB">giveaways</name>
-			<definition>Changes in possession, usually as a result of poor play leading to the other
+			<definition xml:lang="en-GB">Changes in possession, usually as a result of poor play leading to the other
 				team getting the ball.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -271,7 +266,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">offsides</name>
             <name xml:lang="en-GB">offsides</name>
-			<definition>Total number of offsides.</definition>
+			<definition xml:lang="en-GB">Total number of offsides.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcorner-kicks">
@@ -279,7 +274,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">corner-kicks</name>
             <name xml:lang="en-GB">corner-kicks</name>
-			<definition>Total number of corner kicks performed.</definition>
+			<definition xml:lang="en-GB">Total number of corner kicks performed.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstathat-tricks">
@@ -287,7 +282,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">hat-tricks</name>
             <name xml:lang="en-GB">hat-tricks</name>
-			<definition>A record of the number of times a player scored three or more goals in a
+			<definition xml:lang="en-GB">A record of the number of times a player scored three or more goals in a
 				game. Sometimes, the rules that govern the assignment of a hat-trick
 				varies.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
@@ -297,7 +292,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">shots-hit-frame</name>
             <name xml:lang="en-GB">shots-hit-frame</name>
-			<definition>Total number of shots hitting the goal frame.</definition>
+			<definition xml:lang="en-GB">Total number of shots hitting the goal frame.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-own">
@@ -305,7 +300,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-own</name>
             <name xml:lang="en-GB">goals-own</name>
-			<definition>Goals scored on own net.</definition>
+			<definition xml:lang="en-GB">Goals scored on own net.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatfree-kicks">
@@ -313,7 +308,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">free-kicks</name>
             <name xml:lang="en-GB">free-kicks</name>
-			<definition>Unopposed kicks on the field awarded to a team due to an opposing team's
+			<definition xml:lang="en-GB">Unopposed kicks on the field awarded to a team due to an opposing team's
 				infraction.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -322,7 +317,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-penalty-shot-allowed</name>
             <name xml:lang="en-GB">shots-penalty-shot-allowed</name>
-			<definition>Total number of penalty-shots allowed from other teams.</definition>
+			<definition xml:lang="en-GB">Total number of penalty-shots allowed from other teams.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-penalty-shot-allowed">
@@ -330,7 +325,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">goals-penalty-shot-allowed</name>
             <name xml:lang="en-GB">goals-penalty-shot-allowed</name>
-			<definition>Total number of goals allowed as penalty shots.</definition>
+			<definition xml:lang="en-GB">Total number of goals allowed as penalty shots.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-against-average">
@@ -338,7 +333,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">goals-against-average</name>
             <name xml:lang="en-GB">goals-against-average</name>
-			<definition>Average goals against per game for the given period.</definition>
+			<definition xml:lang="en-GB">Average goals against per game for the given period.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-against-total">
@@ -346,7 +341,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">goals-against-total</name>
             <name xml:lang="en-GB">goals-against-total</name>
-			<definition>Total goals against per game for the given period.</definition>
+			<definition xml:lang="en-GB">Total goals against per game for the given period.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatsaves">
@@ -354,7 +349,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">saves</name>
             <name xml:lang="en-GB">saves</name>
-			<definition>Score attempts that were saved by the goal-keeper.</definition>
+			<definition xml:lang="en-GB">Score attempts that were saved by the goal-keeper.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatsave-percentage">
@@ -362,7 +357,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">save-percentage</name>
             <name xml:lang="en-GB">save-percentage</name>
-			<definition>Percentage of saves compared to score-attempts on goal.</definition>
+			<definition xml:lang="en-GB">Percentage of saves compared to score-attempts on goal.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcatches-punches">
@@ -370,7 +365,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">catches-punches</name>
             <name xml:lang="en-GB">catches-punches</name>
-			<definition>Situations when the goalie catches or punches the ball. Not a save
+			<definition xml:lang="en-GB">Situations when the goalie catches or punches the ball. Not a save
 				attempt.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -379,7 +374,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-on-goal-against-total</name>
             <name xml:lang="en-GB">shots-on-goal-against-total</name>
-			<definition>Total number of shots on goal against.</definition>
+			<definition xml:lang="en-GB">Total number of shots on goal against.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-total">
@@ -387,7 +382,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-shootout-total</name>
             <name xml:lang="en-GB">shots-shootout-total</name>
-			<definition>Total number of attempts to score during shootout.</definition>
+			<definition xml:lang="en-GB">Total number of attempts to score during shootout.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-shootout-allowed">
@@ -395,7 +390,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-shootout-allowed</name>
             <name xml:lang="en-GB">shots-shootout-allowed</name>
-			<definition>Goals allowed during shootout.</definition>
+			<definition xml:lang="en-GB">Goals allowed during shootout.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-blocked">
@@ -403,7 +398,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-blocked</name>
             <name xml:lang="en-GB">shots-blocked</name>
-			<definition>Score attempts that was blocked by someone else than the
+			<definition xml:lang="en-GB">Score attempts that was blocked by someone else than the
 				goal-keeper.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -412,7 +407,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shutouts</name>
             <name xml:lang="en-GB">shutouts</name>
-			<definition>Number of games when you did not allow the other team to score.</definition>
+			<definition xml:lang="en-GB">Number of games when you did not allow the other team to score.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatfouls-commited">
@@ -420,7 +415,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">fouls-commited</name>
             <name xml:lang="en-GB">fouls-commited</name>
-			<definition>Total number of fouls commited. Generally a defensive foul.</definition>
+			<definition xml:lang="en-GB">Total number of fouls commited. Generally a defensive foul.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatfouls-suffered">
@@ -428,7 +423,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">fouls-suffered</name>
             <name xml:lang="en-GB">fouls-suffered</name>
-			<definition>Total number of fouls the player has suffered. Generally an offensive
+			<definition xml:lang="en-GB">Total number of fouls the player has suffered. Generally an offensive
 				foul.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -437,7 +432,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">cautions-total</name>
             <name xml:lang="en-GB">cautions-total</name>
-			<definition>Total number of cautions recieved.</definition>
+			<definition xml:lang="en-GB">Total number of cautions recieved.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcautions-pending">
@@ -445,7 +440,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">cautions-pending</name>
             <name xml:lang="en-GB">cautions-pending</name>
-			<definition>Number of cautions that could result in a game suspension.</definition>
+			<definition xml:lang="en-GB">Number of cautions that could result in a game suspension.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcaution-points-total">
@@ -453,7 +448,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">caution-points-total</name>
             <name xml:lang="en-GB">caution-points-total</name>
-			<definition>Total amount of caution points. Can occur over various games in a
+			<definition xml:lang="en-GB">Total amount of caution points. Can occur over various games in a
 				season.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -462,7 +457,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">caution-points-pending</name>
             <name xml:lang="en-GB">caution-points-pending</name>
-			<definition>Number of caution points that could result in a game
+			<definition xml:lang="en-GB">Number of caution points that could result in a game
 				suspension.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -471,7 +466,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">ejections-total</name>
             <name xml:lang="en-GB">ejections-total</name>
-			<definition>Total number of ejections.</definition>
+			<definition xml:lang="en-GB">Total number of ejections.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatejections-second-caution">
@@ -479,7 +474,7 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">ejections-second-caution</name>
             <name xml:lang="en-GB">ejections-second-caution</name>
-			<definition>Number of ejections as a result of two cautions received.</definition>
+			<definition xml:lang="en-GB">Number of ejections as a result of two cautions received.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatejections-straight">
@@ -487,15 +482,15 @@
 			<type qcode="spct:penalty"/>
 			<name xml:lang="en-US">ejections-straight</name>
             <name xml:lang="en-GB">ejections-straight</name>
-			<definition>Number of ejections with no caution.</definition>
+			<definition xml:lang="en-GB">Number of ejections with no caution.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattouches">
 			<conceptId qcode="spsocstat:touches" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">touches</name>
             <name xml:lang="en-GB">touches</name>
-			<definition>Number of times player gets control of the ball.</definition>
+			<definition xml:lang="en-GB">Number of times player gets control of the ball.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-total">
@@ -503,7 +498,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-total</name>
             <name xml:lang="en-GB">passes-total</name>
-			<definition>Number of passes attempted.</definition>
+			<definition xml:lang="en-GB">Number of passes attempted.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete">
@@ -511,7 +506,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete</name>
             <name xml:lang="en-GB">passes-complete</name>
-			<definition>Number of passes attempted which were successful.</definition>
+			<definition xml:lang="en-GB">Number of passes attempted which were successful.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete-percentage">
@@ -519,7 +514,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete-percentage</name>
             <name xml:lang="en-GB">passes-complete-percentage</name>
-			<definition>Percentage of successful complete passes.</definition>
+			<definition xml:lang="en-GB">Percentage of successful complete passes.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-incomplete">
@@ -527,7 +522,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-incomplete</name>
             <name xml:lang="en-GB">passes-incomplete</name>
-			<definition>Number of passes attempted which were unsuccessful.</definition>
+			<definition xml:lang="en-GB">Number of passes attempted which were unsuccessful.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete-3rd-final">
@@ -535,7 +530,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete-3rd-final</name>
             <name xml:lang="en-GB">passes-complete-3rd-final</name>
-			<definition>Successful final third passes.</definition>
+			<definition xml:lang="en-GB">Successful final third passes.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatpasses-complete-long">
@@ -543,15 +538,15 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">passes-complete-long</name>
             <name xml:lang="en-GB">passes-complete-long</name>
-			<definition>Number of successful long passes.</definition>
+			<definition xml:lang="en-GB">Number of successful long passes.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstataerials-won">
 			<conceptId qcode="spsocstat:aerials-won" created="2016-05-02T00:00:00+00:00"/>
-			<type qcode="spct:general"/>
+			<type qcode="spct:core"/>
 			<name xml:lang="en-US">aerials-won</name>
             <name xml:lang="en-GB">aerials-won</name>
-			<definition>Gained possession after an aerial duel.</definition>
+			<definition xml:lang="en-GB">Gained possession after an aerial duel.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatcrosses-18-yard">
@@ -559,7 +554,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">crosses-18-yard-plus</name>
             <name xml:lang="en-GB">crosses-18-yard-plus</name>
-			<definition>A cross pass less than 18 yards from the byline which was caught by the
+			<definition xml:lang="en-GB">A cross pass less than 18 yards from the byline which was caught by the
 				goalkeeper.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -568,7 +563,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">crosses-18-yard-plus</name>
             <name xml:lang="en-GB">crosses-18-yard-plus</name>
-			<definition>A cross pass more than 18 yards from the byline which was caught by the
+			<definition xml:lang="en-GB">A cross pass more than 18 yards from the byline which was caught by the
 				goalkeeper.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -577,7 +572,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-total</name>
             <name xml:lang="en-GB">tackles-total</name>
-			<definition>The number of total tackles by the player</definition>
+			<definition xml:lang="en-GB">The number of total tackles by the player</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-won">
@@ -585,7 +580,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-won</name>
             <name xml:lang="en-GB">tackles-won</name>
-			<definition>The number of total tackles won by the player</definition>
+			<definition xml:lang="en-GB">The number of total tackles won by the player</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-won-percentage">
@@ -593,7 +588,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-won-percentage</name>
             <name xml:lang="en-GB">tackles-won-percentage</name>
-			<definition>Percentage of successful tackles.</definition>
+			<definition xml:lang="en-GB">Percentage of successful tackles.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstattackles-lost">
@@ -601,7 +596,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">tackles-lost</name>
             <name xml:lang="en-GB">tackles-lost</name>
-			<definition>The number of total tackles lost by the player</definition>
+			<definition xml:lang="en-GB">The number of total tackles lost by the player</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-blocked-outfielder">
@@ -609,7 +604,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-blocked-outfielder</name>
             <name xml:lang="en-GB">shots-blocked-outfielder</name>
-			<definition>The number of shots blocked by a defender.</definition>
+			<definition xml:lang="en-GB">The number of shots blocked by a defender.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatshots-blocked-cross">
@@ -617,7 +612,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">shots-blocked-cross</name>
             <name xml:lang="en-GB">shots-blocked-cross</name>
-			<definition>The number of cross passes blocked.</definition>
+			<definition xml:lang="en-GB">The number of cross passes blocked.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatclearancesl">
@@ -625,7 +620,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">clearances-successful</name>
             <name xml:lang="en-GB">clearances-successful</name>
-			<definition>The number of times the ball is cleared from the goal area.</definition>
+			<definition xml:lang="en-GB">The number of times the ball is cleared from the goal area.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatinterceptions">
@@ -633,7 +628,7 @@
 			<type qcode="spct:defense"/>
 			<name xml:lang="en-US">interceptions</name>
             <name xml:lang="en-GB">interceptions</name>
-			<definition>The number of times the ball is taken from the opponent and possession is
+			<definition xml:lang="en-GB">The number of times the ball is taken from the opponent and possession is
 				retained.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
@@ -642,7 +637,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-left-foot</name>
             <name xml:lang="en-GB">goals-left-foot</name>
-			<definition>Number of goals scored from the left foot.</definition>
+			<definition xml:lang="en-GB">Number of goals scored from the left foot.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-right-foot">
@@ -650,7 +645,7 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-right-foot</name>
             <name xml:lang="en-GB">goals-right-foot</name>
-			<definition>Number of goals scored from the right foot.</definition>
+			<definition xml:lang="en-GB">Number of goals scored from the right foot.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 		<concept id="spsocstatgoals-head">
@@ -658,13 +653,13 @@
 			<type qcode="spct:offense"/>
 			<name xml:lang="en-US">goals-head</name>
             <name xml:lang="en-GB">goals-head</name>
-			<definition>Number of goals scored from the head.</definition>
+			<definition xml:lang="en-GB">Number of goals scored from the head.</definition>
 			<related uri="http://cv.iptc.org/newscodes/spsocstat/" rel="skos:inScheme"/>
 		</concept>
 	</conceptSet>
 	<schemeMeta uri="http://cv.iptc.org/newscodes/spsocstat/" authority="http://www.iptc.org"
 		preferredalias="spsocstat">
-		<definition xml:lang="en-US">Vocabulary of statistics for Soccer</definition>
+		<definition xml:lang="en-GB">Vocabulary of statistics for Soccer</definition>
 		<name xml:lang="en-US">Soccer Statistics</name>
             <name xml:lang="en-GB">Soccer Statistics</name>
 		<related qcode="spsocstat:line-formation-row" rel="skos:hasTopConcept"/>
