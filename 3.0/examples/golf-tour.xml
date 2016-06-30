@@ -12,7 +12,6 @@
         <versionCreated>2011-02-01T19:23:43+01:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
         <fileName>tt.se.20110201192343-pgatour-123456</fileName>
-        <link rel="path:fixture" href="event-stats"/>
     </itemMeta>
     <contentMeta>
         <contentCreated>2011-02-01T19:23:43+01:00</contentCreated>
@@ -136,19 +135,19 @@
 
 
                         <tournament-part>
-                            <tournament-part-metadata start-date-time="2011-01-19" type="tp:preliminary">
+                            <tournament-part-metadata start-date-time="2011-01-19" type="vendtourpart:preliminary">
                                 <name>Preliminary</name>
                             </tournament-part-metadata>
 
                             <tournament-part>
-                                <tournament-part-metadata number="1" type="tp:round"/>
+                                <tournament-part-metadata number="1" type="vendtourpart:round"/>
 
                                 <sports-event>
                                     <event-metadata>
                                         
                                         
                                         <site>
-                                            <site-metadata surface="surf:grass" style="outdoor">
+                                            <site-metadata surface="vendst:grass" style="outdoor">
                                                 <name>PGA West (Palmer Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -280,11 +279,11 @@
                             </tournament-part>
 
                             <tournament-part>
-                                <tournament-part-metadata number="2" type="tp:round"/>
+                                <tournament-part-metadata number="2" type="vendtourpart:round"/>
                                 <sports-event>
                                     <event-metadata>
                                         <site>
-                                            <site-metadata surface="surf:grass" style="outdoor">
+                                            <site-metadata surface="vendst:grass" style="outdoor">
                                                 <name>PGA West (Nicklaus Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -361,17 +360,17 @@
 
                         <tournament-part>
                             <!-- When theres a tie for the top places in the main tournament there is a playoff to decide the winner -->
-                            <tournament-part-metadata type="tp:playoff">
+                            <tournament-part-metadata type="vendtourpart:playoff">
                                 <name>Playoff</name>
                             </tournament-part-metadata>
 
                             <tournament-part>
-                                <tournament-part-metadata key="tp:P1" type="tp:P1"/>
+                                <tournament-part-metadata key="vendtourpart:P1" type="vendtourpart:P1"/>
 
                                 <sports-event>
                                     <event-metadata>
                                         <site>
-                                            <site-metadata surface="surf:grass" style="outdoor">
+                                            <site-metadata surface="vendst:grass" style="outdoor">
                                                 <name>PGA West (Palmer Course)</name>
                                                 <home-location>
                                                     <POIDetails>
@@ -425,12 +424,12 @@
                             </tournament-part>
 
                             <tournament-part>
-                                <tournament-part-metadata key="tp:P2" type="tp:P2"/>
+                                <tournament-part-metadata key="vendtourpart:P2" type="vendtourpart:P2"/>
 
                                 <sports-event>
                                     <event-metadata>
                                         <site>
-                                            <site-metadata surface="surf:grass" style="outdoor">
+                                            <site-metadata surface="vendst:grass" style="outdoor">
                                                 <name>PGA West (Palmer Course)</name>
                                                 <home-location>
                                                     <POIDetails>

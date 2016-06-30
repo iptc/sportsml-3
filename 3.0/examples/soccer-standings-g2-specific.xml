@@ -39,7 +39,7 @@
             <name xml:lang="en-US">Soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject qcode="league:l.bundesliga.de" type="spct:league">
+        <subject qcode="vendleague:l.bundesliga.de" type="spct:league">
             <name xml:lang="en-US">German Bundesliga</name>
             <broader qcode="subj:15054000"/>
         </subject>
@@ -55,7 +55,7 @@
                         <sports-property formal-name="match-day" value="8"/>
                     </standing-metadata>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.198" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.198" alignment="none">
                             <name role="nrol:full">FC Bayern München</name>
                             <name part="nprt:common">FC Bayern München</name>
                         </team-metadata>
@@ -78,7 +78,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.286" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.286" alignment="none">
                             <name role="nrol:full">Borussia Dortmund</name>
                             <name part="nprt:common">Borussia Dortmund</name>
                         </team-metadata>
@@ -101,7 +101,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.358" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.358" alignment="none">
                             <name role="nrol:full">FC Schalke 04</name>
                             <name part="nprt:common">FC Schalke 04</name>
                         </team-metadata>
@@ -124,7 +124,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.701" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.701" alignment="none">
                             <name role="nrol:full">Hertha BSC</name>
                             <name part="nprt:common">Hertha BSC</name>
                         </team-metadata>
@@ -148,7 +148,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:t.2743" alignment="none">
+                        <team-metadata key="vendteam:t.2743" alignment="none">
                             <name role="nrol:full">FC Ingolstadt 04</name>
                             <name part="nprt:common">FC Ingolstadt 04</name>
                         </team-metadata>
@@ -171,7 +171,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.1445" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.1445" alignment="none">
                             <name role="nrol:full">1. FSV Mainz 05</name>
                             <name part="nprt:common">1. FSV Mainz 05</name>
                         </team-metadata>
@@ -194,7 +194,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.700" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.700" alignment="none">
                             <name role="nrol:full">VfL Wolfsburg</name>
                             <name part="nprt:common">VfL Wolfsburg</name>
                         </team-metadata>
@@ -216,7 +216,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.353" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.353" alignment="none">
                             <name role="nrol:full">Bayer 04 Leverkusen</name>
                             <name part="nprt:common">Bayer 04 Leverkusen</name>
                         </team-metadata>
@@ -238,7 +238,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.1457" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.1457" alignment="none">
                             <name role="nrol:full">1. FC Köln</name>
                             <name part="nprt:common">1. FC Köln</name>
                         </team-metadata>
@@ -260,7 +260,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:t.1756" alignment="none">
+                        <team-metadata key="vendteam:t.1756" alignment="none">
                             <name role="nrol:full">SV Darmstadt 98</name>
                             <name part="nprt:common">SV Darmstadt 98</name>
                         </team-metadata>
@@ -282,7 +282,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.326" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.326" alignment="none">
                             <name role="nrol:full">Hamburger SV</name>
                             <name part="nprt:common">Hamburger SV</name>
                         </team-metadata>
@@ -304,7 +304,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.926" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.926" alignment="none">
                             <name role="nrol:full">Eintracht Frankfurt</name>
                             <name part="nprt:common">Eintracht Frankfurt</name>
                         </team-metadata>
@@ -326,7 +326,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.310" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.310" alignment="none">
                             <name role="nrol:full">Borussia Mönchengladbach</name>
                             <name part="nprt:common">Borussia Mönchengladbach</name>
                         </team-metadata>
@@ -348,7 +348,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.293" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.293" alignment="none">
                             <name role="nrol:full">SV Werder Bremen</name>
                             <name part="nprt:common">SV Werder Bremen</name>
                         </team-metadata>
@@ -370,7 +370,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.2074" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.2074" alignment="none">
                             <name role="nrol:full">TSG 1899 Hoffenheim</name>
                             <name part="nprt:common">TSG 1899 Hoffenheim</name>
                         </team-metadata>
@@ -392,7 +392,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.1452" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.1452" alignment="none">
                             <name role="nrol:full">Hannover 96</name>
                             <name part="nprt:common">Hannover 96</name>
                         </team-metadata>
@@ -415,7 +415,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.1000" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.1000" alignment="none">
                             <name role="nrol:full">FC Augsburg</name>
                             <name part="nprt:common">FC Augsburg</name>
                         </team-metadata>
@@ -438,7 +438,7 @@
                         </team-stats>
                     </team>
                     <team>
-                        <team-metadata key="optateam:o.dfb.de-t.352" alignment="none">
+                        <team-metadata key="vendteam:o.dfb.de-t.352" alignment="none">
                             <name role="nrol:full">VfB Stuttgart</name>
                             <name part="nprt:common">VfB Stuttgart</name>
                         </team-metadata>

@@ -40,16 +40,16 @@
             <name xml:lang="en-US">Ice Hockey</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject qcode="league:l.nhl.com" type="spct:league">
+        <subject qcode="vendleague:l.nhl.com" type="spct:league">
             <name xml:lang="en-US">National Hockey League</name>
             <broader qcode="subj:15031000"/>
             <sameAs qcode="subj:15031001"/>
         </subject>
-        <subject type="cpnat:event" qcode="event:l.nhl.com-2015-e.20001"/>
-        <subject type="spct:team" qcode="team:l.nhl.com-t.10">
+        <subject type="cpnat:event" qcode="vendevent:l.nhl.com-2015-e.20001"/>
+        <subject type="spct:team" qcode="vendteam:l.nhl.com-t.10">
             <name>Toronto Maple Leafs</name>
         </subject>
-        <subject type="spct:team" qcode="team:l.nhl.com-t.8">
+        <subject type="spct:team" qcode="vendteam:l.nhl.com-t.8">
             <name>Montreal Canadiens</name>
         </subject>
         <headline>NHL Event Summary - MTL at TOR</headline>
@@ -58,20 +58,20 @@
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content>
                 <sports-event>
-                    <event-metadata key="nhlevent:l.nhl.com-2015-e.20001"
+                    <event-metadata key="vendevent:l.nhl.com-2015-e.20001"
                         temporal-unit-value="vendor:l.nhl.com-2015-e.20001"
                         event-status="speventstatus:post-event"
                         start-date-time="2015-10-07T19:20:43-04:00"
                         end-date-time="2015-10-07T21:56:38-04:00">
                         <site>
-                            <site-metadata key="nhlsite:s.Air_Canada_Centre">
+                            <site-metadata key="vendsite:s.Air_Canada_Centre">
                                 <name role="nrol:full">Air Canada Centre</name>
                             </site-metadata>
                             <site-stats attendance="19241"/>
                         </site>
                     </event-metadata>
                     <team id="l.nhl.com-t.10">
-                        <team-metadata key="nhlteam:l.nhl.com-t.10" alignment="home">
+                        <team-metadata key="vendteam:l.nhl.com-t.10" alignment="home">
                             <name role="nrol:full">Toronto Maple Leafs</name>
                             <name part="nprt:common">Toronto</name>
                             <name part="nprt:nickname">Maple Leafs</name>
@@ -82,47 +82,47 @@
                                 <stat stat-type="spstat:score-attempts" value="37"/>
                                 <stat stat-type="spstat:time-played-total" value="60:00"/>
                                 <stat stat-type="spichstat:plus-minus" value="-16"/>
-                                <stat situation="nhlstrength:5-on-5" class="spct:offense"
+                                <stat situation="vendstrength:5-on-5" class="spct:offense"
                                     stat-type="spichstat:goals-even-strength" value="0"/>
-                                <stat situation="nhlstrength:5-on-5" class="spct:offense"
+                                <stat situation="vendstrength:5-on-5" class="spct:offense"
                                     stat-type="spichstat:shots-even-strength" value="33"/>
-                                <stat situation="nhlstrength:4-on-4" class="spct:offense"
+                                <stat situation="vendstrength:4-on-4" class="spct:offense"
                                     stat-type="spichstat:goals-even-strength" value="0"/>
-                                <stat situation="nhlstrength:4-on-4" class="spct:offense"
+                                <stat situation="vendstrength:4-on-4" class="spct:offense"
                                     stat-type="spichstat:shots-even-strength" value="0"/>
-                                <stat situation="nhlstrength:3-on-3" class="spct:offense"
+                                <stat situation="vendstrength:3-on-3" class="spct:offense"
                                     stat-type="spichstat:goals-even-strength" value="0"/>
-                                <stat situation="nhlstrength:3-on-3" class="spct:offense"
+                                <stat situation="vendstrength:3-on-3" class="spct:offense"
                                     stat-type="spichstat:shots-even-strength" value="0"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:offense"
+                                <stat situation="vendstrength:5-on-4" class="spct:offense"
                                     stat-type="spichstat:power-play-amount" value="3"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:offense"
+                                <stat situation="vendstrength:5-on-4" class="spct:offense"
                                     stat-type="spichstat:goals-power-play" value="1"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:offense"
+                                <stat situation="vendstrength:5-on-4" class="spct:offense"
                                     stat-type="spichstat:shots-power-play" value="4"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:offense"
+                                <stat situation="vendstrength:5-on-3" class="spct:offense"
                                     stat-type="spichstat:power-play-amount" value="0"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:offense"
+                                <stat situation="vendstrength:5-on-3" class="spct:offense"
                                     stat-type="spichstat:goals-power-play" value="0"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:offense"
+                                <stat situation="vendstrength:5-on-3" class="spct:offense"
                                     stat-type="spichstat:shots-power-play" value="0"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:offense"
+                                <stat situation="vendstrength:4-on-3" class="spct:offense"
                                     stat-type="spichstat:power-play-amount" value="0"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:offense"
+                                <stat situation="vendstrength:4-on-3" class="spct:offense"
                                     stat-type="spichstat:goals-power-play" value="0"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:offense"
+                                <stat situation="vendstrength:4-on-3" class="spct:offense"
                                     stat-type="spichstat:shots-power-play" value="0"/>
-                                <stat situation="nhlstrength:4-on-5" class="spct:offense"
+                                <stat situation="vendstrength:4-on-5" class="spct:offense"
                                     stat-type="spichstat:goals-short-handed" value="0"/>
-                                <stat situation="nhlstrength:4-on-5" class="spct:offense"
+                                <stat situation="vendstrength:4-on-5" class="spct:offense"
                                     stat-type="spichstat:shots-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-4" class="spct:offense"
+                                <stat situation="vendstrength:3-on-4" class="spct:offense"
                                     stat-type="spichstat:goals-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-4" class="spct:offense"
+                                <stat situation="vendstrength:3-on-4" class="spct:offense"
                                     stat-type="spichstat:shots-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-5" class="spct:offense"
+                                <stat situation="vendstrength:3-on-5" class="spct:offense"
                                     stat-type="spichstat:goals-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-5" class="spct:offense"
+                                <stat situation="vendstrength:3-on-5" class="spct:offense"
                                     stat-type="spichstat:shots-short-handed" value="0"/>
                                 <stat class="spct:offense" stat-type="spstat:points"
                                     value="3"/>
@@ -193,11 +193,11 @@
                                 <stat class="spct:faceoffs"
                                     stat-type="spichstat:faceoffs-even-strength-win-percentage"
                                     value="57"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:time-on-ice"
+                                <stat situation="vendstrength:5-on-4" class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="04:06"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:time-on-ice"
+                                <stat situation="vendstrength:5-on-3" class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="00:00"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:time-on-ice"
+                                <stat situation="vendstrength:4-on-3" class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="00:00"/>
                                 <stat class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="04:06"/>
@@ -218,7 +218,7 @@
                         </team-stats>
                         <player id="l.nhl.com-p.8474037">
                             <player-metadata position-event="spichposition:left-forward"
-                                key="nhlperson:l.nhl.com-p.8474037" uniform-number="21"
+                                key="vendperson:l.nhl.com-p.8474037" uniform-number="21"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">JAMES VAN RIEMSDYK</name>
                             </player-metadata>
@@ -280,7 +280,7 @@
                         </player>
                         <player id="l.nhl.com-p.8476062">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8476062" uniform-number="33"
+                                key="vendperson:l.nhl.com-p.8476062" uniform-number="33"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">MARK ARCOBELLO</name>
                             </player-metadata>
@@ -342,27 +342,27 @@
                         </player>
                         <player id="l.nhl.com-p.8473541">
                             <player-metadata position-event="spichposition:goalie"
-                                key="nhlperson:l.nhl.com-p.8473541" uniform-number="45"
+                                key="vendperson:l.nhl.com-p.8473541" uniform-number="45"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">JONATHAN BERNIER</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:1"
+                                    <stat temporal-unit-value="vendperiod:1"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="6"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:2"
+                                    <stat temporal-unit-value="vendperiod:2"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="16"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:3"
+                                    <stat temporal-unit-value="vendperiod:3"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="5"/>
                                 </stats>
@@ -373,7 +373,7 @@
                                     <stat stat-type="spstat:score-opposing" value="2"/>
                                     <stat stat-type="spstat:score-attempts-opposing" value="29"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
-                                    <stat stat-type="ich:award" value="Second Star"/>
+                                    <stat stat-type="vendstat:award" value="Second Star"/>
                                     <stat class="spct:offense" stat-type="spstat:points"
                                         value="0"/>
                                     <stat class="spct:offense"
@@ -421,7 +421,7 @@
                         </player>
                         <player id="l.nhl.com-p.8468504">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8468504" uniform-number="28"
+                                key="vendperson:l.nhl.com-p.8468504" uniform-number="28"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">BRAD BOYES</name>
                             </player-metadata>
@@ -483,7 +483,7 @@
                         </player>
                         <player id="l.nhl.com-p.8475098">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8475098" uniform-number="42"
+                                key="vendperson:l.nhl.com-p.8475098" uniform-number="42"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">TYLER BOZAK</name>
                             </player-metadata>
@@ -545,14 +545,14 @@
                         </player>
                         <player id="l.nhl.com-p.8476302">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8476302" uniform-number="20"
+                                key="vendperson:l.nhl.com-p.8476302" uniform-number="20"
                                 status="spplayerstatus:scratched">
                                 <name role="nrol:full">FRANK CORRADO</name>
                             </player-metadata>
                         </player>
                         <player id="l.nhl.com-p.8474581">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8474581" uniform-number="51"
+                                key="vendperson:l.nhl.com-p.8474581" uniform-number="51"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">JAKE GARDINER</name>
                             </player-metadata>
@@ -614,14 +614,14 @@
                         </player>
                         <player id="l.nhl.com-p.8473546">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8473546" uniform-number="40"
+                                key="vendperson:l.nhl.com-p.8473546" uniform-number="40"
                                 status="spplayerstatus:scratched">
                                 <name role="nrol:full">MICHAEL GRABNER</name>
                             </player-metadata>
                         </player>
                         <player id="l.nhl.com-p.8476449">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8476449" uniform-number="36"
+                                key="vendperson:l.nhl.com-p.8476449" uniform-number="36"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">SCOTT HARRINGTON</name>
                             </player-metadata>
@@ -683,7 +683,7 @@
                         </player>
                         <player id="l.nhl.com-p.8475180">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8475180" uniform-number="24"
+                                key="vendperson:l.nhl.com-p.8475180" uniform-number="24"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">PETER HOLLAND</name>
                             </player-metadata>
@@ -745,7 +745,7 @@
                         </player>
                         <player id="l.nhl.com-p.8471436">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8471436" uniform-number="2"
+                                key="vendperson:l.nhl.com-p.8471436" uniform-number="2"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">MATT HUNWICK</name>
                             </player-metadata>
@@ -807,7 +807,7 @@
                         </player>
                         <player id="l.nhl.com-p.8475172">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8475172" uniform-number="43"
+                                key="vendperson:l.nhl.com-p.8475172" uniform-number="43"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">NAZEM KADRI</name>
                             </player-metadata>
@@ -869,7 +869,7 @@
                         </player>
                         <player id="l.nhl.com-p.8473463">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8473463" uniform-number="47"
+                                key="vendperson:l.nhl.com-p.8473463" uniform-number="47"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">LEO KOMAROV</name>
                             </player-metadata>
@@ -931,7 +931,7 @@
                         </player>
                         <player id="l.nhl.com-p.8470207">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8470207" uniform-number="19"
+                                key="vendperson:l.nhl.com-p.8470207" uniform-number="19"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">JOFFREY LUPUL</name>
                             </player-metadata>
@@ -993,7 +993,7 @@
                         </player>
                         <player id="l.nhl.com-p.8475716">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8475716" uniform-number="52"
+                                key="vendperson:l.nhl.com-p.8475716" uniform-number="52"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">MARTIN MARINCIN</name>
                             </player-metadata>
@@ -1055,7 +1055,7 @@
                         </player>
                         <player id="l.nhl.com-p.8473574">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8473574" uniform-number="23"
+                                key="vendperson:l.nhl.com-p.8473574" uniform-number="23"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">SHAWN MATTHIAS</name>
                             </player-metadata>
@@ -1117,7 +1117,7 @@
                         </player>
                         <player id="l.nhl.com-p.8469707">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8469707" uniform-number="15"
+                                key="vendperson:l.nhl.com-p.8469707" uniform-number="15"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">PIERRE-ALEXANDRE PARENTEAU</name>
                             </player-metadata>
@@ -1179,7 +1179,7 @@
                         </player>
                         <player id="l.nhl.com-p.8470602">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8470602" uniform-number="3"
+                                key="vendperson:l.nhl.com-p.8470602" uniform-number="3"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">DION PHANEUF</name>
                             </player-metadata>
@@ -1241,34 +1241,34 @@
                         </player>
                         <player id="l.nhl.com-p.8471392">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8471392" uniform-number="46"
+                                key="vendperson:l.nhl.com-p.8471392" uniform-number="46"
                                 status="spplayerstatus:scratched">
                                 <name role="nrol:full">ROMAN POLAK</name>
                             </player-metadata>
                         </player>
                         <player id="l.nhl.com-p.8473503">
                             <player-metadata position-event="spichposition:goalie"
-                                key="nhlperson:l.nhl.com-p.8473503" uniform-number="34"
+                                key="vendperson:l.nhl.com-p.8473503" uniform-number="34"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">JAMES REIMER</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:1"
+                                    <stat temporal-unit-value="vendperiod:1"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="0"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:2"
+                                    <stat temporal-unit-value="vendperiod:2"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="0"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:3"
+                                    <stat temporal-unit-value="vendperiod:3"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="0"/>
                                 </stats>
@@ -1326,7 +1326,7 @@
                         </player>
                         <player id="l.nhl.com-p.8476853">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8476853" uniform-number="44"
+                                key="vendperson:l.nhl.com-p.8476853" uniform-number="44"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">MORGAN RIELLY</name>
                             </player-metadata>
@@ -1388,7 +1388,7 @@
                         </player>
                         <player id="l.nhl.com-p.8474096">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8474096" uniform-number="16"
+                                key="vendperson:l.nhl.com-p.8474096" uniform-number="16"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">NICK SPALING</name>
                             </player-metadata>
@@ -1450,7 +1450,7 @@
                         </player>
                         <player id="l.nhl.com-p.8471476">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8471476" uniform-number="26"
+                                key="vendperson:l.nhl.com-p.8471476" uniform-number="26"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">DANIEL WINNIK</name>
                             </player-metadata>
@@ -1512,7 +1512,7 @@
                         </player>
                     </team>
                     <team id="l.nhl.com-t.8">
-                        <team-metadata key="nhlteam:l.nhl.com-t.8" alignment="away">
+                        <team-metadata key="vendteam:l.nhl.com-t.8" alignment="away">
                             <name role="nrol:full">Montreal Canadiens</name>
                             <name part="nprt:common">Montreal</name>
                             <name part="nprt:nickname">Canadiens</name>
@@ -1523,47 +1523,47 @@
                                 <stat stat-type="spstat:score-attempts" value="30"/>
                                 <stat stat-type="spstat:time-played-total" value="60:00"/>
                                 <stat stat-type="spichstat:plus-minus" value="15"/>
-                                <stat situation="nhlstrength:5-on-5" class="spct:offense"
+                                <stat situation="vendstrength:5-on-5" class="spct:offense"
                                     stat-type="spichstat:goals-even-strength" value="3"/>
-                                <stat situation="nhlstrength:5-on-5" class="spct:offense"
+                                <stat situation="vendstrength:5-on-5" class="spct:offense"
                                     stat-type="spichstat:shots-even-strength" value="27"/>
-                                <stat situation="nhlstrength:4-on-4" class="spct:offense"
+                                <stat situation="vendstrength:4-on-4" class="spct:offense"
                                     stat-type="spichstat:goals-even-strength" value="0"/>
-                                <stat situation="nhlstrength:4-on-4" class="spct:offense"
+                                <stat situation="vendstrength:4-on-4" class="spct:offense"
                                     stat-type="spichstat:shots-even-strength" value="2"/>
-                                <stat situation="nhlstrength:3-on-3" class="spct:offense"
+                                <stat situation="vendstrength:3-on-3" class="spct:offense"
                                     stat-type="spichstat:goals-even-strength" value="0"/>
-                                <stat situation="nhlstrength:3-on-3" class="spct:offense"
+                                <stat situation="vendstrength:3-on-3" class="spct:offense"
                                     stat-type="spichstat:shots-even-strength" value="0"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:offense"
+                                <stat situation="vendstrength:5-on-4" class="spct:offense"
                                     stat-type="spichstat:power-play-amount" value="1"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:offense"
+                                <stat situation="vendstrength:5-on-4" class="spct:offense"
                                     stat-type="spichstat:goals-power-play" value="0"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:offense"
+                                <stat situation="vendstrength:5-on-4" class="spct:offense"
                                     stat-type="spichstat:shots-power-play" value="0"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:offense"
+                                <stat situation="vendstrength:5-on-3" class="spct:offense"
                                     stat-type="spichstat:power-play-amount" value="0"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:offense"
+                                <stat situation="vendstrength:5-on-3" class="spct:offense"
                                     stat-type="spichstat:goals-power-play" value="0"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:offense"
+                                <stat situation="vendstrength:5-on-3" class="spct:offense"
                                     stat-type="spichstat:shots-power-play" value="0"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:offense"
+                                <stat situation="vendstrength:4-on-3" class="spct:offense"
                                     stat-type="spichstat:power-play-amount" value="0"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:offense"
+                                <stat situation="vendstrength:4-on-3" class="spct:offense"
                                     stat-type="spichstat:goals-power-play" value="0"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:offense"
+                                <stat situation="vendstrength:4-on-3" class="spct:offense"
                                     stat-type="spichstat:shots-power-play" value="0"/>
-                                <stat situation="nhlstrength:4-on-5" class="spct:offense"
+                                <stat situation="vendstrength:4-on-5" class="spct:offense"
                                     stat-type="spichstat:goals-short-handed" value="0"/>
-                                <stat situation="nhlstrength:4-on-5" class="spct:offense"
+                                <stat situation="vendstrength:4-on-5" class="spct:offense"
                                     stat-type="spichstat:shots-short-handed" value="1"/>
-                                <stat situation="nhlstrength:3-on-4" class="spct:offense"
+                                <stat situation="vendstrength:3-on-4" class="spct:offense"
                                     stat-type="spichstat:goals-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-4" class="spct:offense"
+                                <stat situation="vendstrength:3-on-4" class="spct:offense"
                                     stat-type="spichstat:shots-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-5" class="spct:offense"
+                                <stat situation="vendstrength:3-on-5" class="spct:offense"
                                     stat-type="spichstat:goals-short-handed" value="0"/>
-                                <stat situation="nhlstrength:3-on-5" class="spct:offense"
+                                <stat situation="vendstrength:3-on-5" class="spct:offense"
                                     stat-type="spichstat:shots-short-handed" value="0"/>
                                 <stat class="spct:offense" stat-type="spstat:points"
                                     value="8"/>
@@ -1634,11 +1634,11 @@
                                 <stat class="spct:faceoffs"
                                     stat-type="spichstat:faceoffs-even-strength-win-percentage"
                                     value="43"/>
-                                <stat situation="nhlstrength:5-on-4" class="spct:time-on-ice"
+                                <stat situation="vendstrength:5-on-4" class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="02:00"/>
-                                <stat situation="nhlstrength:5-on-3" class="spct:time-on-ice"
+                                <stat situation="vendstrength:5-on-3" class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="00:00"/>
-                                <stat situation="nhlstrength:4-on-3" class="spct:time-on-ice"
+                                <stat situation="vendstrength:4-on-3" class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="00:00"/>
                                 <stat class="spct:time-on-ice"
                                     stat-type="spichstat:time-power-play" value="02:00"/>
@@ -1659,7 +1659,7 @@
                         </team-stats>
                         <player id="l.nhl.com-p.8476470">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8476470" uniform-number="28"
+                                key="vendperson:l.nhl.com-p.8476470" uniform-number="28"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">NATHAN BEAULIEU</name>
                             </player-metadata>
@@ -1721,34 +1721,34 @@
                         </player>
                         <player id="l.nhl.com-p.8474038">
                             <player-metadata position-event="spichposition:left-forward"
-                                key="nhlperson:l.nhl.com-p.8474038" uniform-number="41"
+                                key="vendperson:l.nhl.com-p.8474038" uniform-number="41"
                                 status="spplayerstatus:scratched">
                                 <name role="nrol:full">PAUL BYRON</name>
                             </player-metadata>
                         </player>
                         <player id="l.nhl.com-p.8477237">
                             <player-metadata position-event="spichposition:goalie"
-                                key="nhlperson:l.nhl.com-p.8477237" uniform-number="39"
+                                key="vendperson:l.nhl.com-p.8477237" uniform-number="39"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">MIKE CONDON</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:1"
+                                    <stat temporal-unit-value="vendperiod:1"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="0"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:2"
+                                    <stat temporal-unit-value="vendperiod:2"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="0"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:3"
+                                    <stat temporal-unit-value="vendperiod:3"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="0"/>
                                 </stats>
@@ -1806,7 +1806,7 @@
                         </player>
                         <player id="l.nhl.com-p.8471976">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8471976" uniform-number="51"
+                                key="vendperson:l.nhl.com-p.8471976" uniform-number="51"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">DAVID DESHARNAIS</name>
                             </player-metadata>
@@ -1868,7 +1868,7 @@
                         </player>
                         <player id="l.nhl.com-p.8474189">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8474189" uniform-number="81"
+                                key="vendperson:l.nhl.com-p.8474189" uniform-number="81"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">LARS ELLER</name>
                             </player-metadata>
@@ -1930,7 +1930,7 @@
                         </player>
                         <player id="l.nhl.com-p.8471296">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8471296" uniform-number="74"
+                                key="vendperson:l.nhl.com-p.8471296" uniform-number="74"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">ALEXEI EMELIN</name>
                             </player-metadata>
@@ -1992,7 +1992,7 @@
                         </player>
                         <player id="l.nhl.com-p.8470039">
                             <player-metadata position-event="spichposition:left-forward"
-                                key="nhlperson:l.nhl.com-p.8470039" uniform-number="15"
+                                key="vendperson:l.nhl.com-p.8470039" uniform-number="15"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">TOMAS FLEISCHMANN</name>
                             </player-metadata>
@@ -2054,7 +2054,7 @@
                         </player>
                         <player id="l.nhl.com-p.8476808">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8476808" uniform-number="32"
+                                key="vendperson:l.nhl.com-p.8476808" uniform-number="32"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">BRIAN FLYNN</name>
                             </player-metadata>
@@ -2116,7 +2116,7 @@
                         </player>
                         <player id="l.nhl.com-p.8476851">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8476851" uniform-number="27"
+                                key="vendperson:l.nhl.com-p.8476851" uniform-number="27"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">ALEX GALCHENYUK</name>
                             </player-metadata>
@@ -2126,7 +2126,7 @@
                                     <stat stat-type="spstat:score" value="1"/>
                                     <stat stat-type="spstat:score-attempts" value="2"/>
                                     <stat stat-type="spstat:events-started" value="0"/>
-                                    <stat stat-type="ich:award" value="Third Star"/>
+                                    <stat stat-type="vendstat:award" value="Third Star"/>
                                     <stat stat-type="spichstat:plus-minus" value="1"/>
                                     <stat class="spct:offense" stat-type="spstat:points"
                                         value="1"/>
@@ -2179,7 +2179,7 @@
                         </player>
                         <player id="l.nhl.com-p.8475848">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8475848" uniform-number="11"
+                                key="vendperson:l.nhl.com-p.8475848" uniform-number="11"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">BRENDAN GALLAGHER</name>
                             </player-metadata>
@@ -2241,7 +2241,7 @@
                         </player>
                         <player id="l.nhl.com-p.8470104">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8470104" uniform-number="77"
+                                key="vendperson:l.nhl.com-p.8470104" uniform-number="77"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">TOM GILBERT</name>
                             </player-metadata>
@@ -2303,7 +2303,7 @@
                         </player>
                         <player id="l.nhl.com-p.8467496">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8467496" uniform-number="79"
+                                key="vendperson:l.nhl.com-p.8467496" uniform-number="79"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">ANDREI MARKOV</name>
                             </player-metadata>
@@ -2365,7 +2365,7 @@
                         </player>
                         <player id="l.nhl.com-p.8471338">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8471338" uniform-number="17"
+                                key="vendperson:l.nhl.com-p.8471338" uniform-number="17"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">TORREY MITCHELL</name>
                             </player-metadata>
@@ -2427,7 +2427,7 @@
                         </player>
                         <player id="l.nhl.com-p.8474157">
                             <player-metadata position-event="spichposition:left-forward"
-                                key="nhlperson:l.nhl.com-p.8474157" uniform-number="67"
+                                key="vendperson:l.nhl.com-p.8474157" uniform-number="67"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">MAX PACIORETTY</name>
                             </player-metadata>
@@ -2489,14 +2489,14 @@
                         </player>
                         <player id="l.nhl.com-p.8474688">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8474688" uniform-number="6"
+                                key="vendperson:l.nhl.com-p.8474688" uniform-number="6"
                                 status="spplayerstatus:scratched">
                                 <name role="nrol:full">GREG PATERYN</name>
                             </player-metadata>
                         </player>
                         <player id="l.nhl.com-p.8473507">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8473507" uniform-number="26"
+                                key="vendperson:l.nhl.com-p.8473507" uniform-number="26"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">JEFF PETRY</name>
                             </player-metadata>
@@ -2558,7 +2558,7 @@
                         </player>
                         <player id="l.nhl.com-p.8469521">
                             <player-metadata position-event="spichposition:center"
-                                key="nhlperson:l.nhl.com-p.8469521" uniform-number="14"
+                                key="vendperson:l.nhl.com-p.8469521" uniform-number="14"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">TOMAS PLEKANEC</name>
                             </player-metadata>
@@ -2620,27 +2620,27 @@
                         </player>
                         <player id="l.nhl.com-p.8471679">
                             <player-metadata position-event="spichposition:goalie"
-                                key="nhlperson:l.nhl.com-p.8471679" uniform-number="31"
+                                key="vendperson:l.nhl.com-p.8471679" uniform-number="31"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">CAREY PRICE</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:1"
+                                    <stat temporal-unit-value="vendperiod:1"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="11"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:2"
+                                    <stat temporal-unit-value="vendperiod:2"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="15"/>
                                 </stats>
                             </player-stats>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:period">
-                                    <stat temporal-unit-value="nhlperiod:3"
+                                    <stat temporal-unit-value="vendperiod:3"
                                         class="spct:defense" stat-type="spichstat:saves"
                                         value="10"/>
                                 </stats>
@@ -2651,7 +2651,7 @@
                                     <stat stat-type="spstat:score-opposing" value="1"/>
                                     <stat stat-type="spstat:score-attempts-opposing" value="37"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
-                                    <stat stat-type="ich:award" value="First Star"/>
+                                    <stat stat-type="vendstat:award" value="First Star"/>
                                     <stat class="spct:offense" stat-type="spstat:points"
                                         value="0"/>
                                     <stat class="spct:offense"
@@ -2699,7 +2699,7 @@
                         </player>
                         <player id="l.nhl.com-p.8470120">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8470120" uniform-number="13"
+                                key="vendperson:l.nhl.com-p.8470120" uniform-number="13"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">ALEXANDER SEMIN</name>
                             </player-metadata>
@@ -2761,7 +2761,7 @@
                         </player>
                         <player id="l.nhl.com-p.8475758">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8475758" uniform-number="21"
+                                key="vendperson:l.nhl.com-p.8475758" uniform-number="21"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">DEVANTE SMITH-PELLY</name>
                             </player-metadata>
@@ -2823,7 +2823,7 @@
                         </player>
                         <player id="l.nhl.com-p.8474056">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8474056" uniform-number="76"
+                                key="vendperson:l.nhl.com-p.8474056" uniform-number="76"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">P.K. SUBBAN</name>
                             </player-metadata>
@@ -2885,14 +2885,14 @@
                         </player>
                         <player id="l.nhl.com-p.8475797">
                             <player-metadata position-event="spichposition:defenseman"
-                                key="nhlperson:l.nhl.com-p.8475797" uniform-number="24"
+                                key="vendperson:l.nhl.com-p.8475797" uniform-number="24"
                                 status="spplayerstatus:scratched">
                                 <name role="nrol:full">JARRED TINORDI</name>
                             </player-metadata>
                         </player>
                         <player id="l.nhl.com-p.8474668">
                             <player-metadata position-event="spichposition:right-forward"
-                                key="nhlperson:l.nhl.com-p.8474668" uniform-number="22"
+                                key="vendperson:l.nhl.com-p.8474668" uniform-number="22"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">DALE WEISE</name>
                             </player-metadata>
@@ -2955,26 +2955,26 @@
                     </team>
                     <officials>
                         <official>
-                            <official-metadata key="nhlperson:l.nhl.com-o.Frederick_L'Ecuyer"
-                                position-event="offpos:Referee">
+                            <official-metadata key="vendperson:l.nhl.com-o.Frederick_L'Ecuyer"
+                                position-event="vendoffpos:Referee">
                                 <name role="nrol:full">Frederick L'Ecuyer</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata key="nhlperson:l.nhl.com-o.Dan_O'Rourke"
-                                position-event="offpos:Referee">
+                            <official-metadata key="vendperson:l.nhl.com-o.Dan_O'Rourke"
+                                position-event="vendoffpos:Referee">
                                 <name role="nrol:full">Dan O'Rourke</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata key="nhlperson:l.nhl.com-o.Ryan_Galloway"
-                                position-event="offpos:Linesman">
+                            <official-metadata key="vendperson:l.nhl.com-o.Ryan_Galloway"
+                                position-event="vendoffpos:Linesman">
                                 <name role="nrol:full">Ryan Galloway</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata key="nhlperson:l.nhl.com-o.Bryan_Pancich"
-                                position-event="offpos:Linesman">
+                            <official-metadata key="vendperson:l.nhl.com-o.Bryan_Pancich"
+                                position-event="vendoffpos:Linesman">
                                 <name role="nrol:full">Bryan Pancich</name>
                             </official-metadata>
                         </official>
@@ -2983,7 +2983,7 @@
                         <action class="spactionclass:score" sequence-number="1"
                             score-attempt-type="spichscoreattempt:regular" team-idref="l.nhl.com-t.8"
                             period-value="1" period-time-elapsed="03:09"
-                            period-time-remaining="16:51" shot-type="nhlshot:Wrist"
+                            period-time-remaining="16:51" shot-type="vendshot:Wrist"
                             shot-distance="38" field-location="63,-27"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474157" team-idref="l.nhl.com-t.8"
@@ -2994,7 +2994,7 @@
                         <action class="spactionclass:score" sequence-number="2"
                             score-attempt-type="spichscoreattempt:regular" team-idref="l.nhl.com-t.10"
                             period-value="2" period-time-elapsed="00:19"
-                            period-time-remaining="19:41" shot-type="nhlshot:Deflected"
+                            period-time-remaining="19:41" shot-type="vendshot:Deflected"
                             shot-distance="163" field-location="-73,-1"
                             strength="spichstrength:power-play">
                             <participant idref="l.nhl.com-p.8474037" team-idref="l.nhl.com-t.10"
@@ -3007,7 +3007,7 @@
                         <action class="spactionclass:score" sequence-number="3"
                             score-attempt-type="spichscoreattempt:regular" team-idref="l.nhl.com-t.8"
                             period-value="3" period-time-elapsed="12:02"
-                            period-time-remaining="07:58" shot-type="nhlshot:Snap"
+                            period-time-remaining="07:58" shot-type="vendshot:Snap"
                             shot-distance="23" field-location="67,0"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8476851" team-idref="l.nhl.com-t.8"
@@ -3020,7 +3020,7 @@
                         <action class="spactionclass:score" sequence-number="4"
                             score-attempt-type="spichscoreattempt:empty-net" team-idref="l.nhl.com-t.8"
                             period-value="3" period-time-elapsed="19:29"
-                            period-time-remaining="00:31" shot-type="nhlshot:Wrist"
+                            period-time-remaining="00:31" shot-type="vendshot:Wrist"
                             shot-distance="38" field-location="52,4"
                             strength="spichstrength:even-strength">
                             <participant idref="l.nhl.com-p.8474157" team-idref="l.nhl.com-t.8"

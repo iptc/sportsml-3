@@ -12,7 +12,6 @@
         <versionCreated>2015-03-08T19:23:43+01:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
         <fileName>tt.se.20150308192343-vasaloppet-155363</fileName>
-        <link rel="path:fixture" href="event-stats"/>
     </itemMeta>
     <contentMeta>
         <contentCreated>2015-03-08T19:23:43+01:00</contentCreated>
@@ -32,8 +31,8 @@
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content>
                 <tournament>
-                    <tournament-metadata status="tps:post-event" start-date-time="2015-03-08"
-                        venue-type="spsitestyle:outdoor" surface-type="st:snow">
+                    <tournament-metadata status="speventstatus:post-event" start-date-time="2015-03-08"
+                        venue-type="spsitestyle:outdoor" surface-type="vendst:snow">
                         <name>Vasaloppet 2015</name>
                         <site>
                             <site-metadata>

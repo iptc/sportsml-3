@@ -25,8 +25,7 @@
         <creator qcode="web:sportsnetwork.com">
             <name>The Sports Network</name>
         </creator>
-        <altId type="idtype:tsn-id" id="sportsnetwork.com"/>
-        <genre qcode="spfixt:event-stats">
+                <genre qcode="spfixt:event-stats">
             <name xml:lang="en-US">Box Score</name>
             <broader qcode="spct:event-summary"/>
         </genre>
@@ -41,20 +40,20 @@
             <name xml:lang="en-US">American Football</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject qcode="league:l.nfl.com" type="spct:league">
+        <subject qcode="vendleague:l.nfl.com" type="spct:league">
             <name xml:lang="en-US">National Football League</name>
             <broader qcode="subj:15003000"/>
             <sameAs qcode="subj:15003001"/>
         </subject>
-        <subject type="spct:conference" qcode="conference:l.nfl.com-c.american">
+        <subject type="spct:conference" qcode="vendconf:l.nfl.com-c.american">
             <name xml:lang="en-US">American</name>
-            <broader qcode="league:l.nfl.com"/>
+            <broader qcode="vendleague:l.nfl.com"/>
         </subject>
-        <subject type="cpnat:event" qcode="event:l.nfl.com-2014-e.4481"/>
-        <subject type="spct:team" qcode="team:l.nfl.com-t.4">
+        <subject type="cpnat:event" qcode="vendevent:l.nfl.com-2014-e.4481"/>
+        <subject type="spct:team" qcode="vendteam:l.nfl.com-t.4">
             <name>New England Patriots</name>
         </subject>
-        <subject type="spct:team" qcode="team:l.nfl.com-t.16">
+        <subject type="spct:team" qcode="vendteam:l.nfl.com-t.16">
             <name>Seattle Seahawks</name>
         </subject>
         <headline>New England at Seattle</headline>
@@ -63,7 +62,7 @@
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content>
                 <sports-event>
-                    <event-metadata key="tsnevent:l.nfl.com-2014-e.4481"
+                    <event-metadata key="vendevent:l.nfl.com-2014-e.4481"
                         temporal-unit-value="vendor:l.nfl.com-2014-e.4481"
                         event-status="speventstatus:post-event" duration="PT3H36M"
                         start-date-time="2015-02-01T18:30:00-05:00">
@@ -79,7 +78,7 @@
                         </site>
                     </event-metadata>
                     <team id="l.nfl.com-t.4">
-                        <team-metadata key="tsnteam:l.nfl.com-t.4" alignment="away">
+                        <team-metadata key="vendteam:l.nfl.com-t.4" alignment="away">
                             <name role="nrol:full">New England Patriots</name>
                             <name part="nprt:common">New England</name>
                             <name part="nprt:nickname">Patriots</name>
@@ -188,7 +187,7 @@
                         </team-stats>
                         <player id="l.nfl.com-p.11652">
                             <player-metadata position-event="spamfposition:punter"
-                                key="tsnperson:l.nfl.com-p.11652">
+                                key="vendperson:l.nfl.com-p.11652">
                                 <name role="nrol:full">Ryan Allen</name>
                             </player-metadata>
                             <player-stats>
@@ -212,7 +211,7 @@
                         </player>
                         <player id="l.nfl.com-p.7756">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.7756">
+                                key="vendperson:l.nfl.com-p.7756">
                                 <name role="nrol:full">Danny Amendola</name>
                             </player-metadata>
                             <player-stats>
@@ -234,7 +233,7 @@
                         </player>
                         <player id="l.nfl.com-p.7722">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.7722">
+                                key="vendperson:l.nfl.com-p.7722">
                                 <name role="nrol:full">Kyle Arrington</name>
                             </player-metadata>
                             <player-stats>
@@ -272,7 +271,7 @@
                         </player>
                         <player id="l.nfl.com-p.9899">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.9899">
+                                key="vendperson:l.nfl.com-p.9899">
                                 <name role="nrol:full">Akeem Ayers</name>
                             </player-metadata>
                             <player-stats>
@@ -310,7 +309,7 @@
                         </player>
                         <player id="l.nfl.com-p.8806">
                             <player-metadata position-event="spamfposition:running-back"
-                                key="tsnperson:l.nfl.com-p.8806">
+                                key="vendperson:l.nfl.com-p.8806">
                                 <name role="nrol:full">LeGarrette Blount</name>
                             </player-metadata>
                             <player-stats>
@@ -319,7 +318,7 @@
                         </player>
                         <player id="l.nfl.com-p.10774">
                             <player-metadata position-event="spamfposition:running-back"
-                                key="tsnperson:l.nfl.com-p.10774">
+                                key="vendperson:l.nfl.com-p.10774">
                                 <name role="nrol:full">Brandon Bolden</name>
                             </player-metadata>
                             <player-stats>
@@ -357,7 +356,7 @@
                         </player>
                         <player id="l.nfl.com-p.678">
                             <player-metadata position-event="spamfposition:quarterback"
-                                key="tsnperson:l.nfl.com-p.678">
+                                key="vendperson:l.nfl.com-p.678">
                                 <name role="nrol:full">Tom Brady</name>
                             </player-metadata>
                             <player-stats>
@@ -366,7 +365,7 @@
                         </player>
                         <player id="l.nfl.com-p.6509">
                             <player-metadata position-event="spamfposition:lineman-defensive"
-                                key="tsnperson:l.nfl.com-p.6509">
+                                key="vendperson:l.nfl.com-p.6509">
                                 <name role="nrol:full">Alan Branch</name>
                             </player-metadata>
                             <player-stats>
@@ -404,7 +403,7 @@
                         </player>
                         <player id="l.nfl.com-p.5519">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.5519">
+                                key="vendperson:l.nfl.com-p.5519">
                                 <name role="nrol:full">Brandon Browner</name>
                             </player-metadata>
                             <player-stats>
@@ -442,7 +441,7 @@
                         </player>
                         <player id="l.nfl.com-p.13234">
                             <player-metadata position-event="spamfposition:defensive-back"
-                                key="tsnperson:l.nfl.com-p.13234">
+                                key="vendperson:l.nfl.com-p.13234">
                                 <name role="nrol:full">Malcolm Butler</name>
                             </player-metadata>
                             <player-stats>
@@ -480,7 +479,7 @@
                         </player>
                         <player id="l.nfl.com-p.8288">
                             <player-metadata position-event="spamfposition:safety"
-                                key="tsnperson:l.nfl.com-p.8288">
+                                key="vendperson:l.nfl.com-p.8288">
                                 <name role="nrol:full">Patrick Chung</name>
                             </player-metadata>
                             <player-stats>
@@ -518,7 +517,7 @@
                         </player>
                         <player id="l.nfl.com-p.11730">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.11730">
+                                key="vendperson:l.nfl.com-p.11730">
                                 <name role="nrol:full">Jamie Collins</name>
                             </player-metadata>
                             <player-stats>
@@ -556,7 +555,7 @@
                         </player>
                         <player id="l.nfl.com-p.9582">
                             <player-metadata position-event="spamfposition:running-back"
-                                key="tsnperson:l.nfl.com-p.9582">
+                                key="vendperson:l.nfl.com-p.9582">
                                 <name role="nrol:full">James Develin</name>
                             </player-metadata>
                             <player-stats>
@@ -576,7 +575,7 @@
                         </player>
                         <player id="l.nfl.com-p.8444">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.8444">
+                                key="vendperson:l.nfl.com-p.8444">
                                 <name role="nrol:full">Julian Edelman</name>
                             </player-metadata>
                             <player-stats>
@@ -626,7 +625,7 @@
                         </player>
                         <player id="l.nfl.com-p.5978">
                             <player-metadata position-event="spamfposition:kicker"
-                                key="tsnperson:l.nfl.com-p.5978">
+                                key="vendperson:l.nfl.com-p.5978">
                                 <name role="nrol:full">Stephen Gostkowski</name>
                             </player-metadata>
                             <player-stats>
@@ -642,7 +641,7 @@
                         </player>
                         <player id="l.nfl.com-p.8896">
                             <player-metadata position-event="spamfposition:tight-end"
-                                key="tsnperson:l.nfl.com-p.8896">
+                                key="vendperson:l.nfl.com-p.8896">
                                 <name role="nrol:full">Rob Gronkowski</name>
                             </player-metadata>
                             <player-stats>
@@ -654,7 +653,7 @@
                         </player>
                         <player id="l.nfl.com-p.10646">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.10646">
+                                key="vendperson:l.nfl.com-p.10646">
                                 <name role="nrol:full">Dont'a Hightower</name>
                             </player-metadata>
                             <player-stats>
@@ -692,7 +691,7 @@
                         </player>
                         <player id="l.nfl.com-p.8898">
                             <player-metadata position-event="spamfposition:tight-end"
-                                key="tsnperson:l.nfl.com-p.8898">
+                                key="vendperson:l.nfl.com-p.8898">
                                 <name role="nrol:full">Michael Hoomanawanui</name>
                             </player-metadata>
                             <player-stats>
@@ -701,7 +700,7 @@
                         </player>
                         <player id="l.nfl.com-p.10587">
                             <player-metadata position-event="spamfposition:defensive-end"
-                                key="tsnperson:l.nfl.com-p.10587">
+                                key="vendperson:l.nfl.com-p.10587">
                                 <name role="nrol:full">Chandler Jones</name>
                             </player-metadata>
                             <player-stats>
@@ -739,7 +738,7 @@
                         </player>
                         <player id="l.nfl.com-p.8844">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.8844">
+                                key="vendperson:l.nfl.com-p.8844">
                                 <name role="nrol:full">Brandon LaFell</name>
                             </player-metadata>
                             <player-stats>
@@ -751,7 +750,7 @@
                         </player>
                         <player id="l.nfl.com-p.9079">
                             <player-metadata position-event="spamfposition:defensive-back"
-                                key="tsnperson:l.nfl.com-p.9079">
+                                key="vendperson:l.nfl.com-p.9079">
                                 <name role="nrol:full">Devin McCourty</name>
                             </player-metadata>
                             <player-stats>
@@ -789,7 +788,7 @@
                         </player>
                         <player id="l.nfl.com-p.5781">
                             <player-metadata position-event="spamfposition:lineman-defensive"
-                                key="tsnperson:l.nfl.com-p.5781">
+                                key="vendperson:l.nfl.com-p.5781">
                                 <name role="nrol:full">Rob Ninkovich</name>
                             </player-metadata>
                             <player-stats>
@@ -827,7 +826,7 @@
                         </player>
                         <player id="l.nfl.com-p.6631">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.6631">
+                                key="vendperson:l.nfl.com-p.6631">
                                 <name role="nrol:full">Darrelle Revis</name>
                             </player-metadata>
                             <player-stats>
@@ -865,7 +864,7 @@
                         </player>
                         <player id="l.nfl.com-p.11515">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.11515">
+                                key="vendperson:l.nfl.com-p.11515">
                                 <name role="nrol:full">Logan Ryan</name>
                             </player-metadata>
                             <player-stats>
@@ -903,7 +902,7 @@
                         </player>
                         <player id="l.nfl.com-p.10432">
                             <player-metadata position-event="spamfposition:tackle-defensive"
-                                key="tsnperson:l.nfl.com-p.10432">
+                                key="vendperson:l.nfl.com-p.10432">
                                 <name role="nrol:full">Sealver Siliga</name>
                             </player-metadata>
                             <player-stats>
@@ -941,7 +940,7 @@
                         </player>
                         <player id="l.nfl.com-p.7661">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.7661">
+                                key="vendperson:l.nfl.com-p.7661">
                                 <name role="nrol:full">Matthew Slater</name>
                             </player-metadata>
                             <player-stats>
@@ -979,7 +978,7 @@
                         </player>
                         <player id="l.nfl.com-p.9853">
                             <player-metadata position-event="spamfposition:running-back"
-                                key="tsnperson:l.nfl.com-p.9853">
+                                key="vendperson:l.nfl.com-p.9853">
                                 <name role="nrol:full">Shane Vereen</name>
                             </player-metadata>
                             <player-stats>
@@ -988,7 +987,7 @@
                         </player>
                         <player id="l.nfl.com-p.4347">
                             <player-metadata position-event="spamfposition:nose-tackle"
-                                key="tsnperson:l.nfl.com-p.4347">
+                                key="vendperson:l.nfl.com-p.4347">
                                 <name role="nrol:full">Vince Wilfork</name>
                             </player-metadata>
                             <player-stats>
@@ -1026,7 +1025,7 @@
                         </player>
                     </team>
                     <team id="l.nfl.com-t.16">
-                        <team-metadata key="tsnteam:l.nfl.com-t.16" alignment="home">
+                        <team-metadata key="vendteam:l.nfl.com-t.16" alignment="home">
                             <name role="nrol:full">Seattle Seahawks</name>
                             <name part="nprt:common">Seattle</name>
                             <name part="nprt:nickname">Seahawks</name>
@@ -1135,7 +1134,7 @@
                         </team-stats>
                         <player id="l.nfl.com-p.7565">
                             <player-metadata position-event="spamfposition:defensive-end"
-                                key="tsnperson:l.nfl.com-p.7565">
+                                key="vendperson:l.nfl.com-p.7565">
                                 <name role="nrol:full">Cliff Avril</name>
                             </player-metadata>
                             <player-stats>
@@ -1173,7 +1172,7 @@
                         </player>
                         <player id="l.nfl.com-p.10188">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.10188">
+                                key="vendperson:l.nfl.com-p.10188">
                                 <name role="nrol:full">Doug Baldwin</name>
                             </player-metadata>
                             <player-stats>
@@ -1185,7 +1184,7 @@
                         </player>
                         <player id="l.nfl.com-p.8656">
                             <player-metadata position-event="spamfposition:defensive-end"
-                                key="tsnperson:l.nfl.com-p.8656">
+                                key="vendperson:l.nfl.com-p.8656">
                                 <name role="nrol:full">Michael Bennett</name>
                             </player-metadata>
                             <player-stats>
@@ -1223,7 +1222,7 @@
                         </player>
                         <player id="l.nfl.com-p.9099">
                             <player-metadata position-event="spamfposition:safety-strong"
-                                key="tsnperson:l.nfl.com-p.9099">
+                                key="vendperson:l.nfl.com-p.9099">
                                 <name role="nrol:full">Kam Chancellor</name>
                             </player-metadata>
                             <player-stats>
@@ -1261,7 +1260,7 @@
                         </player>
                         <player id="l.nfl.com-p.12827">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.12827">
+                                key="vendperson:l.nfl.com-p.12827">
                                 <name role="nrol:full">Brock Coyle</name>
                             </player-metadata>
                             <player-stats>
@@ -1299,7 +1298,7 @@
                         </player>
                         <player id="l.nfl.com-p.7786">
                             <player-metadata position-event="spamfposition:kicker"
-                                key="tsnperson:l.nfl.com-p.7786">
+                                key="vendperson:l.nfl.com-p.7786">
                                 <name role="nrol:full">Steven Hauschka</name>
                             </player-metadata>
                             <player-stats>
@@ -1323,7 +1322,7 @@
                         </player>
                         <player id="l.nfl.com-p.10647">
                             <player-metadata position-event="spamfposition:defensive-end"
-                                key="tsnperson:l.nfl.com-p.10647">
+                                key="vendperson:l.nfl.com-p.10647">
                                 <name role="nrol:full">Bruce Irvin</name>
                             </player-metadata>
                             <player-stats>
@@ -1361,7 +1360,7 @@
                         </player>
                         <player id="l.nfl.com-p.9886">
                             <player-metadata position-event="spamfposition:safety-strong"
-                                key="tsnperson:l.nfl.com-p.9886">
+                                key="vendperson:l.nfl.com-p.9886">
                                 <name role="nrol:full">Jeron Johnson</name>
                             </player-metadata>
                             <player-stats>
@@ -1399,7 +1398,7 @@
                         </player>
                         <player id="l.nfl.com-p.10687">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.10687">
+                                key="vendperson:l.nfl.com-p.10687">
                                 <name role="nrol:full">Jermaine Kearse</name>
                             </player-metadata>
                             <player-stats>
@@ -1408,7 +1407,7 @@
                         </player>
                         <player id="l.nfl.com-p.10872">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.10872">
+                                key="vendperson:l.nfl.com-p.10872">
                                 <name role="nrol:full">Jeremy Lane</name>
                             </player-metadata>
                             <player-stats>
@@ -1446,7 +1445,7 @@
                         </player>
                         <player id="l.nfl.com-p.10212">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.10212">
+                                key="vendperson:l.nfl.com-p.10212">
                                 <name role="nrol:full">Ricardo Lockette</name>
                             </player-metadata>
                             <player-stats>
@@ -1484,7 +1483,7 @@
                         </player>
                         <player id="l.nfl.com-p.6695">
                             <player-metadata position-event="spamfposition:running-back"
-                                key="tsnperson:l.nfl.com-p.6695">
+                                key="vendperson:l.nfl.com-p.6695">
                                 <name role="nrol:full">Marshawn Lynch</name>
                             </player-metadata>
                             <player-stats>
@@ -1496,7 +1495,7 @@
                         </player>
                         <player id="l.nfl.com-p.10037">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.10037">
+                                key="vendperson:l.nfl.com-p.10037">
                                 <name role="nrol:full">Chris Matthews</name>
                             </player-metadata>
                             <player-stats>
@@ -1508,7 +1507,7 @@
                         </player>
                         <player id="l.nfl.com-p.9965">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.9965">
+                                key="vendperson:l.nfl.com-p.9965">
                                 <name role="nrol:full">Byron Maxwell</name>
                             </player-metadata>
                             <player-stats>
@@ -1546,7 +1545,7 @@
                         </player>
                         <player id="l.nfl.com-p.6266">
                             <player-metadata position-event="spamfposition:tackle-defensive"
-                                key="tsnperson:l.nfl.com-p.6266">
+                                key="vendperson:l.nfl.com-p.6266">
                                 <name role="nrol:full">Tony McDaniel</name>
                             </player-metadata>
                             <player-stats>
@@ -1584,7 +1583,7 @@
                         </player>
                         <player id="l.nfl.com-p.6057">
                             <player-metadata position-event="spamfposition:punter"
-                                key="tsnperson:l.nfl.com-p.6057">
+                                key="vendperson:l.nfl.com-p.6057">
                                 <name role="nrol:full">Jon Ryan</name>
                             </player-metadata>
                             <player-stats>
@@ -1608,7 +1607,7 @@
                         </player>
                         <player id="l.nfl.com-p.8999">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.8999">
+                                key="vendperson:l.nfl.com-p.8999">
                                 <name role="nrol:full">O'Brien Schofield</name>
                             </player-metadata>
                             <player-stats>
@@ -1646,7 +1645,7 @@
                         </player>
                         <player id="l.nfl.com-p.11220">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.11220">
+                                key="vendperson:l.nfl.com-p.11220">
                                 <name role="nrol:full">DeShawn Shead</name>
                             </player-metadata>
                             <player-stats>
@@ -1684,7 +1683,7 @@
                         </player>
                         <player id="l.nfl.com-p.9961">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.9961">
+                                key="vendperson:l.nfl.com-p.9961">
                                 <name role="nrol:full">Richard Sherman</name>
                             </player-metadata>
                             <player-stats>
@@ -1722,7 +1721,7 @@
                         </player>
                         <player id="l.nfl.com-p.11516">
                             <player-metadata position-event="spamfposition:cornerback"
-                                key="tsnperson:l.nfl.com-p.11516">
+                                key="vendperson:l.nfl.com-p.11516">
                                 <name role="nrol:full">Tharold Simon</name>
                             </player-metadata>
                             <player-stats>
@@ -1760,7 +1759,7 @@
                         </player>
                         <player id="l.nfl.com-p.12069">
                             <player-metadata position-event="spamfposition:safety-free"
-                                key="tsnperson:l.nfl.com-p.12069">
+                                key="vendperson:l.nfl.com-p.12069">
                                 <name role="nrol:full">Steven Terrell</name>
                             </player-metadata>
                             <player-stats>
@@ -1798,7 +1797,7 @@
                         </player>
                         <player id="l.nfl.com-p.9115">
                             <player-metadata position-event="spamfposition:safety-free"
-                                key="tsnperson:l.nfl.com-p.9115">
+                                key="vendperson:l.nfl.com-p.9115">
                                 <name role="nrol:full">Earl Thomas</name>
                             </player-metadata>
                             <player-stats>
@@ -1836,7 +1835,7 @@
                         </player>
                         <player id="l.nfl.com-p.10802">
                             <player-metadata position-event="spamfposition:running-back"
-                                key="tsnperson:l.nfl.com-p.10802">
+                                key="vendperson:l.nfl.com-p.10802">
                                 <name role="nrol:full">Robert Turbin</name>
                             </player-metadata>
                             <player-stats>
@@ -1845,7 +1844,7 @@
                         </player>
                         <player id="l.nfl.com-p.10661">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.10661">
+                                key="vendperson:l.nfl.com-p.10661">
                                 <name role="nrol:full">Bobby Wagner</name>
                             </player-metadata>
                             <player-stats>
@@ -1883,7 +1882,7 @@
                         </player>
                         <player id="l.nfl.com-p.9457">
                             <player-metadata position-event="spamfposition:wide-receiver"
-                                key="tsnperson:l.nfl.com-p.9457">
+                                key="vendperson:l.nfl.com-p.9457">
                                 <name role="nrol:full">Bryan Walters</name>
                             </player-metadata>
                             <player-stats>
@@ -1903,7 +1902,7 @@
                         </player>
                         <player id="l.nfl.com-p.3884">
                             <player-metadata position-event="spamfposition:tackle-defensive"
-                                key="tsnperson:l.nfl.com-p.3884">
+                                key="vendperson:l.nfl.com-p.3884">
                                 <name role="nrol:full">Kevin Williams</name>
                             </player-metadata>
                             <player-stats>
@@ -1941,7 +1940,7 @@
                         </player>
                         <player id="l.nfl.com-p.10767">
                             <player-metadata position-event="spamfposition:quarterback"
-                                key="tsnperson:l.nfl.com-p.10767">
+                                key="vendperson:l.nfl.com-p.10767">
                                 <name role="nrol:full">Russell Wilson</name>
                             </player-metadata>
                             <player-stats>
@@ -1950,7 +1949,7 @@
                         </player>
                         <player id="l.nfl.com-p.9941">
                             <player-metadata position-event="spamfposition:linebacker"
-                                key="tsnperson:l.nfl.com-p.9941">
+                                key="vendperson:l.nfl.com-p.9941">
                                 <name role="nrol:full">K.J. Wright</name>
                             </player-metadata>
                             <player-stats>
@@ -1989,37 +1988,37 @@
                     </team>
                     <officials>
                         <official>
-                            <official-metadata position-event="offpos:Referee">
+                            <official-metadata position-event="vendoffpos:Referee">
                                 <name role="nrol:full">Bill Vinovich</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="offpos:Umpire">
+                            <official-metadata position-event="vendoffpos:Umpire">
                                 <name role="nrol:full">Bill Schuster</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="offpos:Head-Linesman">
+                            <official-metadata position-event="vendoffpos:Head-Linesman">
                                 <name role="nrol:full">Dana McKenzie</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="offpos:Line-Judge">
+                            <official-metadata position-event="vendoffpos:Line-Judge">
                                 <name role="nrol:full">Mark Perlman</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="offpos:Side-Judge">
+                            <official-metadata position-event="vendoffpos:Side-Judge">
                                 <name role="nrol:full">Adrian Hill</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="offpos:Back-Judge">
+                            <official-metadata position-event="vendoffpos:Back-Judge">
                                 <name role="nrol:full">Terrence Miles</name>
                             </official-metadata>
                         </official>
                         <official>
-                            <official-metadata position-event="offpos:Field-Judge">
+                            <official-metadata position-event="vendoffpos:Field-Judge">
                                 <name role="nrol:full">Bob Waggoner</name>
                             </official-metadata>
                         </official>

@@ -12,7 +12,6 @@
         <versionCreated>2014-12-02T09:23:43+01:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
         <fileName>tt.se.20141202092343-755363-post-event</fileName>
-        <link rel="path:fixture" href="event-stats"/>
     </itemMeta>
     <contentMeta>
         <contentCreated>2014-12-02T09:23:43+01:00</contentCreated>
@@ -24,7 +23,7 @@
             <name xml:lang="en-GB">Tennis</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject type="cpnat:event" qcode="event:tt.se:xtz123">
+        <subject type="cpnat:event" qcode="vendevent:tt.se:xtz123">
             <name>Davis Cup</name>
         </subject>
         <subject type="spct:season" literal="2011"/>
@@ -95,7 +94,7 @@
                                         </player-metadata>
 
                                         <player-stats event-outcome="speventoutcome:win" score="3">
-                                            <rank value="2" type="rt:single"/>
+                                            <rank value="2" type="vendrt:single"/>
                                             <player-stats-tennis unforced-errors="21"
                                                 points-won="93" winners="29" net-points-played="19"
                                                 net-points-won="15" net-points-won-pct="79">
@@ -198,7 +197,7 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats event-outcome="speventoutcome:loss" score="0">
-                                            <rank type="rt:single" value="12"/>
+                                            <rank type="vendrt:single" value="12"/>
                                             <player-stats-tennis unforced-errors="17"
                                                 points-won="78" winners="27" net-points-played="31"
                                                 net-points-won="19" net-points-won-pct="61">
@@ -294,13 +293,13 @@
                                     <actions>
                                         <!-- OBS: This is not real data, just made up to test the event-actions constructions. -->
                                         <action set="3" game="10">
-                                            <action shot-type="tennis:volley"
+                                            <action shot-type="sptenshot:volley"
                                                 receiver-score="sptengameresult:30"
-                                                serve-number="tenserve:first"
+                                                serve-number="vendtenserve:first"
                                                 server-score="sptengameresult:game">
-                                                <participant idref="p_1" role="tenrole:server"/>
-                                                <participant idref="p_2" role="tenrole:receiver"/>
-                                                <participant idref="p_1" role="tenrole:ball-winner"/>
+                                                <participant idref="p_1" role="vendtenrole:server"/>
+                                                <participant idref="p_2" role="vendtenrole:receiver"/>
+                                                <participant idref="p_1" role="vendtenrole:ball-winner"/>
                                             </action>
                                         </action>
                                     </actions>
@@ -310,7 +309,7 @@
 
                         <tournament-part><!-- The second round in this file is the semifinal round with two games. The first complete and the second just the game result. -->
                             
-                            <tournament-part-metadata type="trt:semifinal" status="speventstatus:post-event"
+                            <tournament-part-metadata type="sptournamentphase:semi-final" status="speventstatus:post-event"
                                 start-date-time="2011-09-16" end-date-time="2011-09-18">
                                 <name>Semi-final</name>
                             </tournament-part-metadata>
@@ -372,8 +371,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="1" event-outcome="speventoutcome:loss">
-                                            <rank value="17" type="rt:single"/>
-                                            <rank value="90" type="rt:double"/>
+                                            <rank value="17" type="vendrt:single"/>
+                                            <rank value="90" type="vendrt:double"/>
                                             <sub-score score="4" period-value="1"/>
                                             <!-- The set result can be listed using the sub-score -->
                                             <sub-score score="6" period-value="2"/>
@@ -401,7 +400,7 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="3" event-outcome="speventoutcome:win">
-                                            <rank value="57" type="rt:single"/>
+                                            <rank value="57" type="vendrt:single"/>
                                             <sub-score score="6" period-value="1"/>
                                             <sub-score score="4" period-value="2"/>
                                             <sub-score score="6" period-value="3"/>
@@ -436,8 +435,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="0" event-outcome="speventoutcome:loss">
-                                            <rank value="13" type="rt:single"/>
-                                            <rank value="69" type="rt:double"/>
+                                            <rank value="13" type="vendrt:single"/>
+                                            <rank value="69" type="vendrt:double"/>
                                             <sub-score score="5" period-value="1"/>
                                             <sub-score score="3" period-value="2"/>
                                             <sub-score score="4" period-value="3"/>
@@ -461,8 +460,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="3" event-outcome="speventoutcome:win">
-                                            <rank value="14" type="rt:single"/>
-                                            <rank value="169" type="rt:double"/>
+                                            <rank value="14" type="vendrt:single"/>
+                                            <rank value="169" type="vendrt:double"/>
                                             <sub-score score="7" period-value="1"/>
                                             <sub-score score="6" period-value="2"/>
                                             <sub-score score="6" period-value="3"/>
@@ -514,8 +513,8 @@
                                                 </home-location>
                                             </player-metadata>
                                             <player-stats>
-                                                <rank value="17" type="rt:single"/>
-                                                <rank value="90" type="rt:double"/>
+                                                <rank value="17" type="vendrt:single"/>
+                                                <rank value="90" type="vendrt:double"/>
                                             </player-stats>
                                         </player>
                                         <player>
@@ -531,7 +530,7 @@
                                                 </home-location>
                                             </player-metadata>
                                             <player-stats>
-                                                <rank value="3" type="rt:double"/>
+                                                <rank value="3" type="vendrt:double"/>
                                             </player-stats>
                                         </player>
                                     </team>
@@ -565,8 +564,8 @@
                                                 </home-location>
                                             </player-metadata>
                                             <player-stats>
-                                                <rank value="28" type="rt:single"/>
-                                                <rank value="51" type="rt:double"/>
+                                                <rank value="28" type="vendrt:single"/>
+                                                <rank value="51" type="vendrt:double"/>
                                             </player-stats>
                                         </player>
                                         <player>
@@ -582,8 +581,8 @@
                                                 </home-location>
                                             </player-metadata>
                                             <player-stats>
-                                                <rank value="41" type="rt:single"/>
-                                                <rank value="181" type="rt:double"/>
+                                                <rank value="41" type="vendrt:single"/>
+                                                <rank value="181" type="vendrt:double"/>
                                             </player-stats>
                                         </player>
                                     </team>
@@ -611,8 +610,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="0" event-outcome="speventoutcome:loss">
-                                            <rank value="1" type="rt:single"/>
-                                            <rank value="241" type="rt:double"/>
+                                            <rank value="1" type="vendrt:single"/>
+                                            <rank value="241" type="vendrt:double"/>
                                             <sub-score score="6" period-value="1"/>
                                             <sub-score score="0" period-value="2"/>
                                             <player-stats-tennis>
@@ -635,8 +634,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="2" event-outcome="speventoutcome:win">
-                                            <rank value="12" type="rt:single"/>
-                                            <rank value="183" type="rt:double"/>
+                                            <rank value="12" type="vendrt:single"/>
+                                            <rank value="183" type="vendrt:double"/>
                                             <sub-score score="7" period-value="1"/>
                                             <sub-score score="3" period-value="2"/>
                                             <player-stats-tennis>
@@ -668,8 +667,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="1" event-outcome="speventoutcome:win">
-                                            <rank value="13" type="rt:single"/>
-                                            <rank value="69" type="rt:double"/>
+                                            <rank value="13" type="vendrt:single"/>
+                                            <rank value="69" type="vendrt:double"/>
                                             <sub-score score="6" period-value="1"/>
                                             <player-stats-tennis>
                                                 <stats-tennis-set set-number="1" score="6"/>
@@ -689,8 +688,8 @@
                                             </home-location>
                                         </player-metadata>
                                         <player-stats score="0" event-outcome="speventoutcome:loss">
-                                            <rank value="34" type="rt:single"/>
-                                            <rank value="178" type="rt:double"/>
+                                            <rank value="34" type="vendrt:single"/>
+                                            <rank value="178" type="vendrt:double"/>
                                             <sub-score score="2" period-value="1"/>
                                             <player-stats-tennis>
                                                 <stats-tennis-set set-number="1" score="2"/>

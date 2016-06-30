@@ -12,7 +12,6 @@
         <versionCreated>2014-11-30T19:23:43+01:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
         <fileName>tt.se.20141130192343-skidskytte-vcmixed-955362</fileName>
-        <link rel="path:fixture" href="event-stats"/>
     </itemMeta>
     <contentMeta>
         <contentCreated>2014-11-30T19:23:43+01:00</contentCreated>
@@ -44,7 +43,7 @@
                     </event-metadata>
 
                     <team id="BIB6">
-                        <team-metadata nationality="France" key="BIB:6">
+                        <team-metadata nationality="France" key="vendBIB:6">
                             <name>France</name>
                         </team-metadata>
                         <team-stats score="1.15.05,5">
@@ -110,7 +109,7 @@
                     </team>
 
                     <team id="BIB2">
-                        <team-metadata nationality="Norway" key="BIB:2">
+                        <team-metadata nationality="Norway" key="vendBIB:2">
                             <name>Norway</name>
                         </team-metadata>
                         <team-stats score="1.15.05,7">
