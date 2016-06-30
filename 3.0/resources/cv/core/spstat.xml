@@ -30,7 +30,6 @@
     <conceptSet>
         <concept id="spstatpoints">
             <conceptId qcode="spstat:points" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">points</name>
             <name xml:lang="en-GB">points</name>
             <definition xml:lang="en-GB">Points accumulated by this associate. For example, points earned by a NASCAR
@@ -39,7 +38,6 @@
         </concept>
         <concept id="spstatevents-played">
             <conceptId qcode="spstat:events-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">events-played</name>
             <name xml:lang="en-GB">events-played</name>
             <definition xml:lang="en-GB">The number of sports-events in which this team or player has already
@@ -48,7 +46,6 @@
         </concept>
         <concept id="spstattime-played-total">
             <conceptId qcode="spstat:time-played-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-played-total</name>
             <name xml:lang="en-GB">time-played-total</name>
             <definition xml:lang="en-GB">Value for the amount of time played by the team or player over the course of
@@ -57,7 +54,6 @@
         </concept>
         <concept id="spstattime-played-event">
             <conceptId qcode="spstat:time-played-event" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-played-event</name>
             <name xml:lang="en-GB">time-played-event</name>
             <definition xml:lang="en-GB">Value for the amount of time played by this player in a particular
@@ -66,7 +62,6 @@
         </concept>
         <concept id="spstattime-played-event-average">
             <conceptId qcode="spstat:time-played-event-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-played-event-average</name>
             <name xml:lang="en-GB">time-played-event-average</name>
             <definition xml:lang="en-GB">Value for the average amount of time played per-event by the player over the
@@ -75,7 +70,6 @@
         </concept>
         <concept id="spstatevents-started">
             <conceptId qcode="spstat:events-started" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">events-started</name>
             <name xml:lang="en-GB">events-started</name>
             <definition xml:lang="en-GB">Number of sports-events the player has played in since the start of the
@@ -84,7 +78,6 @@
         </concept>
         <concept id="spstatperiod-extra-time-added">
             <conceptId qcode="spstat:period-extra-time-added" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">period-extra-time-added</name>
             <name xml:lang="en-GB">period-extra-time-added</name>
             <definition xml:lang="en-GB">How many minutes the referee has decided to add to the period.</definition>
@@ -92,7 +85,6 @@
         </concept>
         <concept id="spstatperiod-extra-time-elapsed">
             <conceptId qcode="spstat:period-extra-time-elapsed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">period-extra-time-elapsed</name>
             <name xml:lang="en-GB">period-extra-time-elapsed</name>
             <definition xml:lang="en-GB">How much time exactly MMSS that was actually elapsed in the
@@ -101,7 +93,6 @@
         </concept>
         <concept id="spstatscore">
             <conceptId qcode="spstat:score" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score</name>
             <name xml:lang="en-GB">score</name>
             <definition xml:lang="en-GB">Final or current score of the team or player.</definition>
@@ -109,7 +100,6 @@
         </concept>
         <concept id="spstatscore-opposing">
             <conceptId qcode="spstat:score-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-opposing</name>
             <name xml:lang="en-GB">score-opposing</name>
             <definition xml:lang="en-GB">Final or current score of the opposing team or player.</definition>
@@ -117,7 +107,6 @@
         </concept>
         <concept id="spstatscore-average">
             <conceptId qcode="spstat:score-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-average</name>
             <name xml:lang="en-GB">score-average</name>
             <definition xml:lang="en-GB">Average per-game score for the team or player.</definition>
@@ -125,7 +114,6 @@
         </concept>
         <concept id="spstatscore-opposing-average">
             <conceptId qcode="spstat:score-opposing-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-opposing-average</name>
             <name xml:lang="en-GB">score-opposing-average</name>
             <definition xml:lang="en-GB">Average per-game score for the opposing team or player.</definition>
@@ -133,7 +121,6 @@
         </concept>
         <concept id="spstatscore-behind">
             <conceptId qcode="spstat:score-behind" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-behind</name>
             <name xml:lang="en-GB">score-behind</name>
             <definition xml:lang="en-GB">The points or time behind the leading score.</definition>
@@ -141,7 +128,6 @@
         </concept>
         <concept id="spstatscore-attempts">
             <conceptId qcode="spstat:score-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-attempts</name>
             <name xml:lang="en-GB">score-attempts</name>
             <definition xml:lang="en-GB">Final or current number of attempts to score by a team or player. Example:
@@ -150,7 +136,6 @@
         </concept>
         <concept id="spstatscore-attempts-opposing">
             <conceptId qcode="spstat:score-attempts-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-attempts-opposing</name>
             <name xml:lang="en-GB">score-attempts-opposing</name>
             <definition xml:lang="en-GB">Final or current number of attempts to score by an opposing team or
@@ -159,7 +144,6 @@
         </concept>
         <concept id="spstatscore-attempts-on-goal">
             <conceptId qcode="spstat:score-attempts-on-goal" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-attempts-on-goal</name>
             <name xml:lang="en-GB">score-attempts-on-goal</name>
             <definition xml:lang="en-GB">A subset of score-attempts. Only counts those attempts that were
@@ -168,7 +152,6 @@
         </concept>
         <concept id="spstatscore-attempts-on-goal-opposing">
             <conceptId qcode="spstat:score-attempts-on-goal-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-attempts-on-goal-opposing</name>
             <name xml:lang="en-GB">score-attempts-on-goal-opposing</name>
             <definition xml:lang="en-GB">Final or current number of attempts to score by an opposing team or player
@@ -177,7 +160,6 @@
         </concept>
         <concept id="spstatscore-percentage">
             <conceptId qcode="spstat:score-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-percentage</name>
             <name xml:lang="en-GB">score-percentage</name>
             <definition xml:lang="en-GB">Percentage of attempted scores that reached their mark.</definition>
@@ -185,7 +167,6 @@
         </concept>
         <concept id="spstatscore-percentage-opposing">
             <conceptId qcode="spstat:score-percentage-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-percentage-opposing</name>
             <name xml:lang="en-GB">score-percentage-opposing</name>
             <definition xml:lang="en-GB">Percentage of attempted scores by opposing team or player that reached their
@@ -194,7 +175,6 @@
         </concept>
         <concept id="spstatresult-effect">
             <conceptId qcode="spstat:result-effect" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">result-effect</name>
             <name xml:lang="en-GB">result-effect</name>
             <definition xml:lang="en-GB">Describes the effect that the result of the event or rank changing has had
@@ -204,7 +184,6 @@
         </concept>
         <concept id="spstatevent-outcome">
             <conceptId qcode="spstat:event-outcome" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">event-outcome</name>
             <name xml:lang="en-GB">event-outcome</name>
             <definition xml:lang="en-GB">Whether the competitor won, lost, or tied.</definition>
@@ -212,7 +191,6 @@
         </concept>
         <concept id="spstatevent-standing-points">
             <conceptId qcode="spstat:event-standing-points" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">event-standing-points</name>
             <name xml:lang="en-GB">event-standing-points</name>
             <definition xml:lang="en-GB">How many points were earned as a result of the outcome of this particular
@@ -221,7 +199,6 @@
         </concept>
         <concept id="spstatevent-standing-points-against">
             <conceptId qcode="spstat:event-standing-points-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">event-standing-points-against</name>
             <name xml:lang="en-GB">event-standing-points-against</name>
             <definition xml:lang="en-GB">How many points were deducted as a result of the outcome of this particular
@@ -230,7 +207,6 @@
         </concept>
         <concept id="spstatevents-remaining">
             <conceptId qcode="spstat:events-remaining" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">events-remaining</name>
             <name xml:lang="en-GB">events-remaining</name>
             <definition xml:lang="en-GB">Number of sports-events the player has yet to participate in.</definition>
@@ -238,7 +214,6 @@
         </concept>
         <concept id="spstattime-of-possession">
             <conceptId qcode="spstat:time-of-possession" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-of-possession</name>
             <name xml:lang="en-GB">time-of-possession</name>
             <definition xml:lang="en-GB">Amount of time the team or player has possession of ball (or similar object
@@ -247,7 +222,6 @@
         </concept>
         <concept id="spstattime-of-possession-percentage">
             <conceptId qcode="spstat:time-of-possession-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-of-possession-percentage</name>
             <name xml:lang="en-GB">time-of-possession-percentage</name>
             <definition xml:lang="en-GB">Amount of time the team or player has possession of ball (or similar object
@@ -256,7 +230,6 @@
         </concept>
         <concept id="spstattime-of-possession-percentage-opposing">
             <conceptId qcode="spstat:time-of-possession-percentage-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-of-possession-percentage-opposing</name>
             <name xml:lang="en-GB">time-of-possession-percentage-opposing</name>
             <definition xml:lang="en-GB">Amount of time the opposing team or player has possession of ball (or
@@ -266,7 +239,6 @@
         </concept>
         <concept id="spstattime-of-possession-average">
             <conceptId qcode="spstat:time-of-possession-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-of-possession-average</name>
             <name xml:lang="en-GB">time-of-possession-average</name>
             <definition xml:lang="en-GB">Amount of time the team or player has possession of ball (or similar object
@@ -275,7 +247,6 @@
         </concept>
         <concept id="spstattime-of-possession-average-opposing">
             <conceptId qcode="spstat:time-of-possession-average-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">time-of-possession-average-opposing</name>
             <name xml:lang="en-GB">time-of-possession-average-opposing</name>
             <definition xml:lang="en-GB">Amount of time the opposing team or player has possession of ball (or
@@ -284,7 +255,6 @@
         </concept>
         <concept id="spstatseries-score">
             <conceptId qcode="spstat:series-score" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">series-score</name>
             <name xml:lang="en-GB">series-score</name>
             <definition xml:lang="en-GB">Number of events in a series won by team or player.</definition>
@@ -292,7 +262,6 @@
         </concept>
         <concept id="spstatseries-score-opposing">
             <conceptId qcode="spstat:series-score-opposing" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">series-score-opposing</name>
             <name xml:lang="en-GB">series-score-opposing</name>
             <definition xml:lang="en-GB">Number of events in a series won by opposing team or player.</definition>
@@ -300,7 +269,6 @@
         </concept>
         <concept id="spstatadjusted-score-for">
             <conceptId qcode="spstat:adjusted-score-for" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">adjusted-score-for</name>
             <name xml:lang="en-GB">adjusted-score-for</name>
             <definition xml:lang="en-GB">The final score as adjusted by some authority. Usually as a result of some
@@ -311,7 +279,6 @@
         </concept>
         <concept id="spstatadjusted-score-against">
             <conceptId qcode="spstat:adjusted-score-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">adjusted-score-against</name>
             <name xml:lang="en-GB">adjusted-score-against</name>
             <definition xml:lang="en-GB">The final score against as adjusted by some authority. Usually as a result

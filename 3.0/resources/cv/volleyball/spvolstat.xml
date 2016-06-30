@@ -35,7 +35,6 @@
     <conceptSet>
         <concept id="spvolstaterrors-oppenent">
             <conceptId qcode="spvolstat:errors-oppenent" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">errors-oppenent</name>
             <name xml:lang="en-GB">errors-oppenent</name>
             <definition/>
@@ -43,7 +42,6 @@
         </concept>
         <concept id="spvolstatfaults-opponent">
             <conceptId qcode="spvolstat:faults-opponent" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">faults-opponent</name>
             <name xml:lang="en-GB">faults-opponent</name>
             <definition/>
@@ -51,7 +49,6 @@
         </concept>
         <concept id="spvolstatpoints">
             <conceptId qcode="spvolstat:points" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">points</name>
             <name xml:lang="en-GB">points</name>
             <definition/>
@@ -59,7 +56,6 @@
         </concept>
         <concept id="spvolstatpoint-attempts">
             <conceptId qcode="spvolstat:point-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">point-attempts</name>
             <name xml:lang="en-GB">point-attempts</name>
             <definition/>
@@ -67,7 +63,6 @@
         </concept>
         <concept id="spvolstatattacks-rank">
             <conceptId qcode="spvolstat:attacks-rank" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">attacks-rank</name>
             <name xml:lang="en-GB">attacks-rank</name>
             <definition/>
@@ -75,7 +70,6 @@
         </concept>
         <concept id="spvolstatattacks-total">
             <conceptId qcode="spvolstat:attacks-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">attacks-total</name>
             <name xml:lang="en-GB">attacks-total</name>
             <definition/>
@@ -83,7 +77,6 @@
         </concept>
         <concept id="spvolstatattack-attempts">
             <conceptId qcode="spvolstat:attack-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">attack-attempts</name>
             <name xml:lang="en-GB">attack-attempts</name>
             <definition/>
@@ -91,7 +84,6 @@
         </concept>
         <concept id="spvolstatattack-faults">
             <conceptId qcode="spvolstat:attack-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">attack-faults</name>
             <name xml:lang="en-GB">attack-faults</name>
             <definition/>
@@ -99,7 +91,6 @@
         </concept>
         <concept id="spvolstatattacks-in-play">
             <conceptId qcode="spvolstat:attacks-in-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">attacks-in-play</name>
             <name xml:lang="en-GB">attacks-in-play</name>
             <definition/>
@@ -107,7 +98,6 @@
         </concept>
         <concept id="spvolstatattacks-percentage">
             <conceptId qcode="spvolstat:attacks-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">attacks-percentage</name>
             <name xml:lang="en-GB">attacks-percentage</name>
             <definition/>
@@ -115,7 +105,6 @@
         </concept>
         <concept id="spvolstatblocks-rank">
             <conceptId qcode="spvolstat:blocks-rank" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">blocks-rank</name>
             <name xml:lang="en-GB">blocks-rank</name>
             <definition/>
@@ -123,7 +112,6 @@
         </concept>
         <concept id="spvolstatblocks-total">
             <conceptId qcode="spvolstat:blocks-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">blocks-total</name>
             <name xml:lang="en-GB">blocks-total</name>
             <definition/>
@@ -131,7 +119,6 @@
         </concept>
         <concept id="spvolstatblock-attempts">
             <conceptId qcode="spvolstat:block-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">block-attempts</name>
             <name xml:lang="en-GB">block-attempts</name>
             <definition/>
@@ -139,7 +126,6 @@
         </concept>
         <concept id="spvolstatblock-faults">
             <conceptId qcode="spvolstat:block-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">block-faults</name>
             <name xml:lang="en-GB">block-faults</name>
             <definition/>
@@ -147,7 +133,6 @@
         </concept>
         <concept id="spvolstatblocks-in-play">
             <conceptId qcode="spvolstat:blocks-in-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">blocks-in-play</name>
             <name xml:lang="en-GB">blocks-in-play</name>
             <definition/>
@@ -155,7 +140,6 @@
         </concept>
         <concept id="spvolstatblocks-average-per-set">
             <conceptId qcode="spvolstat:blocks-average-per-set" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">blocks-average-per-set</name>
             <name xml:lang="en-GB">blocks-average-per-set</name>
             <definition/>
@@ -163,7 +147,6 @@
         </concept>
         <concept id="spvolstatservice-rank">
             <conceptId qcode="spvolstat:service-rank" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-rank</name>
             <name xml:lang="en-GB">service-rank</name>
             <definition/>
@@ -171,7 +154,6 @@
         </concept>
         <concept id="spvolstataces">
             <conceptId qcode="spvolstat:aces" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">aces</name>
             <name xml:lang="en-GB">aces</name>
             <definition/>
@@ -179,7 +161,6 @@
         </concept>
         <concept id="spvolstatservices-total">
             <conceptId qcode="spvolstat:services-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">services-total</name>
             <name xml:lang="en-GB">services-total</name>
             <definition/>
@@ -187,7 +168,6 @@
         </concept>
         <concept id="spvolstatservice-faults">
             <conceptId qcode="spvolstat:service-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-faults</name>
             <name xml:lang="en-GB">service-faults</name>
             <definition/>
@@ -195,7 +175,6 @@
         </concept>
         <concept id="spvolstatservices-in-play">
             <conceptId qcode="spvolstat:services-in-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">services-in-play</name>
             <name xml:lang="en-GB">services-in-play</name>
             <definition/>
@@ -203,7 +182,6 @@
         </concept>
         <concept id="spvolstataces-average-per-set">
             <conceptId qcode="spvolstat:aces-average-per-set" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">aces-average-per-set</name>
             <name xml:lang="en-GB">aces-average-per-set</name>
             <definition/>
@@ -211,7 +189,6 @@
         </concept>
         <concept id="spvolstatdefense-rank">
             <conceptId qcode="spvolstat:defense-rank" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">defense-rank</name>
             <name xml:lang="en-GB">defense-rank</name>
             <definition/>
@@ -219,7 +196,6 @@
         </concept>
         <concept id="spvolstatdigs-total">
             <conceptId qcode="spvolstat:digs-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">digs-total</name>
             <name xml:lang="en-GB">digs-total</name>
             <definition/>
@@ -227,7 +203,6 @@
         </concept>
         <concept id="spvolstatdig-attempts">
             <conceptId qcode="spvolstat:dig-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">dig-attempts</name>
             <name xml:lang="en-GB">dig-attempts</name>
             <definition/>
@@ -235,7 +210,6 @@
         </concept>
         <concept id="spvolstatdigs-faults">
             <conceptId qcode="spvolstat:digs-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">digs-faults</name>
             <name xml:lang="en-GB">digs-faults</name>
             <definition/>
@@ -243,7 +217,6 @@
         </concept>
         <concept id="spvolstatdigs-in-play">
             <conceptId qcode="spvolstat:digs-in-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">digs-in-play</name>
             <name xml:lang="en-GB">digs-in-play</name>
             <definition/>
@@ -251,7 +224,6 @@
         </concept>
         <concept id="spvolstatdigs-average-per-set">
             <conceptId qcode="spvolstat:digs-average-per-set" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">digs-average-per-set</name>
             <name xml:lang="en-GB">digs-average-per-set</name>
             <definition/>
@@ -259,7 +231,6 @@
         </concept>
         <concept id="spvolstatdefense-rank-sets">
             <conceptId qcode="spvolstat:defense-rank-sets" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">defense-rank-sets</name>
             <name xml:lang="en-GB">defense-rank-sets</name>
             <definition/>
@@ -267,7 +238,6 @@
         </concept>
         <concept id="spvolstatrunning-sets-total">
             <conceptId qcode="spvolstat:running-sets-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">running-sets-total</name>
             <name xml:lang="en-GB">running-sets-total</name>
             <definition/>
@@ -275,7 +245,6 @@
         </concept>
         <concept id="spvolstatsets-attempts">
             <conceptId qcode="spvolstat:sets-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">sets-attempts</name>
             <name xml:lang="en-GB">sets-attempts</name>
             <definition/>
@@ -283,7 +252,6 @@
         </concept>
         <concept id="spvolstatsets-faults">
             <conceptId qcode="spvolstat:sets-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">sets-faults</name>
             <name xml:lang="en-GB">sets-faults</name>
             <definition/>
@@ -291,7 +259,6 @@
         </concept>
         <concept id="spvolstatsets-in-play">
             <conceptId qcode="spvolstat:sets-in-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">sets-in-play</name>
             <name xml:lang="en-GB">sets-in-play</name>
             <definition/>
@@ -299,7 +266,6 @@
         </concept>
         <concept id="spvolstatsets-average-per-set">
             <conceptId qcode="spvolstat:sets-average-per-set" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">sets-average-per-set</name>
             <name xml:lang="en-GB">sets-average-per-set</name>
             <definition/>
@@ -307,7 +273,6 @@
         </concept>
         <concept id="spvolstatreceptions-rank">
             <conceptId qcode="spvolstat:receptions-rank" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">receptions-rank</name>
             <name xml:lang="en-GB">receptions-rank</name>
             <definition/>
@@ -315,7 +280,6 @@
         </concept>
         <concept id="spvolstatreceptions-excellent">
             <conceptId qcode="spvolstat:receptions-excellent" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">receptions-excellent</name>
             <name xml:lang="en-GB">receptions-excellent</name>
             <definition/>
@@ -323,7 +287,6 @@
         </concept>
         <concept id="spvolstatreceptions-attempts">
             <conceptId qcode="spvolstat:receptions-attempts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">receptions-attempts</name>
             <name xml:lang="en-GB">receptions-attempts</name>
             <definition/>
@@ -331,7 +294,6 @@
         </concept>
         <concept id="spvolstatreception-faults">
             <conceptId qcode="spvolstat:reception-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">reception-faults</name>
             <name xml:lang="en-GB">reception-faults</name>
             <definition/>
@@ -339,7 +301,6 @@
         </concept>
         <concept id="spvolstatreceptions-in-play">
             <conceptId qcode="spvolstat:receptions-in-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">receptions-in-play</name>
             <name xml:lang="en-GB">receptions-in-play</name>
             <definition/>
@@ -347,7 +308,6 @@
         </concept>
         <concept id="spvolstatreception-percentage">
             <conceptId qcode="spvolstat:reception-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">reception-percentage</name>
             <name xml:lang="en-GB">reception-percentage</name>
             <definition/>
@@ -355,7 +315,6 @@
         </concept>
         <concept id="spvolstatpoints-player">
             <conceptId qcode="spvolstat:points-player" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">points-player</name>
             <name xml:lang="en-GB">points-player</name>
             <definition/>
@@ -363,7 +322,6 @@
         </concept>
         <concept id="spvolstatpoint-attempts-player">
             <conceptId qcode="spvolstat:point-attempts-player" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">point-attempts-player</name>
             <name xml:lang="en-GB">point-attempts-player</name>
             <definition/>
@@ -371,7 +329,6 @@
         </concept>
         <concept id="spvolstatpoints-percentage-of-team">
             <conceptId qcode="spvolstat:points-percentage-of-team" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">points-percentage-of-team</name>
             <name xml:lang="en-GB">points-percentage-of-team</name>
             <definition/>

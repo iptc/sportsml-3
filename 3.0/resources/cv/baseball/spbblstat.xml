@@ -35,7 +35,7 @@
     <conceptSet>
         <concept id="spbblstataverage">
             <conceptId qcode="spbblstat:average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">average</name>
             <name xml:lang="en-GB">average</name>
             <definition xml:lang="en-GB">Average number of hits per at-bats</definition>
@@ -43,7 +43,7 @@
         </concept>
         <concept id="spbblstatruns-scored">
             <conceptId qcode="spbblstat:runs-scored" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">runs-scored</name>
             <name xml:lang="en-GB">runs-scored</name>
             <definition xml:lang="en-GB">Number of runs scored</definition>
@@ -51,7 +51,7 @@
         </concept>
         <concept id="spbblstatat-bats">
             <conceptId qcode="spbblstat:at-bats" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">at-bats</name>
             <name xml:lang="en-GB">at-bats</name>
             <definition xml:lang="en-GB">Number of at-bats (Does not include walks or Sacrifice Hits)</definition>
@@ -59,7 +59,7 @@
         </concept>
         <concept id="spbblstathits">
             <conceptId qcode="spbblstat:hits" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">hits</name>
             <name xml:lang="en-GB">hits</name>
             <definition xml:lang="en-GB">Number of hits</definition>
@@ -67,7 +67,7 @@
         </concept>
         <concept id="spbblstatrbi">
             <conceptId qcode="spbblstat:rbi" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">rbi</name>
             <name xml:lang="en-GB">rbi</name>
             <definition xml:lang="en-GB">Number of runs batted in</definition>
@@ -75,7 +75,7 @@
         </concept>
         <concept id="spbblstattotal-bases">
             <conceptId qcode="spbblstat:total-bases" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">total-bases</name>
             <name xml:lang="en-GB">total-bases</name>
             <definition xml:lang="en-GB">Calculated by hits + doubles + (triples times 2) + (home-runs times
@@ -84,7 +84,7 @@
         </concept>
         <concept id="spbblstatslugging-percentage">
             <conceptId qcode="spbblstat:slugging-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">slugging-percentage</name>
             <name xml:lang="en-GB">slugging-percentage</name>
             <definition xml:lang="en-GB">Total bases divided by at-bats.</definition>
@@ -92,7 +92,7 @@
         </concept>
         <concept id="spbblstatbases-on-balls">
             <conceptId qcode="spbblstat:bases-on-balls" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">bases-on-balls</name>
             <name xml:lang="en-GB">bases-on-balls</name>
             <definition xml:lang="en-GB">Number of times batter was walked</definition>
@@ -100,7 +100,7 @@
         </concept>
         <concept id="spbblstatbases-on-balls-rate">
             <conceptId qcode="spbblstat:bases-on-balls-rate" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">bases-on-balls-rate</name>
             <name xml:lang="en-GB">bases-on-balls-rate</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -108,7 +108,7 @@
         </concept>
         <concept id="spbblstatbases-on-balls-intentional">
             <conceptId qcode="spbblstat:bases-on-balls-intentional" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">bases-on-balls-intentional</name>
             <name xml:lang="en-GB">bases-on-balls-intentional</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -116,7 +116,7 @@
         </concept>
         <concept id="spbblstatstrikeouts-against">
             <conceptId qcode="spbblstat:strikeouts-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">strikeouts-against</name>
             <name xml:lang="en-GB">strikeouts-against</name>
             <definition xml:lang="en-GB">Number of times batter struck out</definition>
@@ -124,7 +124,7 @@
         </concept>
         <concept id="spbblstatstrikeouts-looking">
             <conceptId qcode="spbblstat:strikeouts-looking" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">strikeouts-looking</name>
             <name xml:lang="en-GB">strikeouts-looking</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -132,7 +132,7 @@
         </concept>
         <concept id="spbblstatouts-ground">
             <conceptId qcode="spbblstat:outs-ground" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">outs-ground</name>
             <name xml:lang="en-GB">outs-ground</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -140,7 +140,7 @@
         </concept>
         <concept id="spbblstatouts-fly">
             <conceptId qcode="spbblstat:outs-fly" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">outs-fly</name>
             <name xml:lang="en-GB">outs-fly</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -148,7 +148,7 @@
         </concept>
         <concept id="spbblstatleft-on-base">
             <conceptId qcode="spbblstat:left-on-base" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">left-on-base</name>
             <name xml:lang="en-GB">left-on-base</name>
             <definition xml:lang="en-GB">Number of runners left on base</definition>
@@ -156,7 +156,7 @@
         </concept>
         <concept id="spbblstatleft-in-scoring-position">
             <conceptId qcode="spbblstat:left-in-scoring-position" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">left-in-scoring-position</name>
             <name xml:lang="en-GB">left-in-scoring-position</name>
             <definition xml:lang="en-GB">Number of runners left on second and/or third base</definition>
@@ -164,7 +164,7 @@
         </concept>
         <concept id="spbblstatsingles">
             <conceptId qcode="spbblstat:singles" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">singles</name>
             <name xml:lang="en-GB">singles</name>
             <definition xml:lang="en-GB">Number of hits off of which batter advances to first base</definition>
@@ -172,7 +172,7 @@
         </concept>
         <concept id="spbblstatdoubles">
             <conceptId qcode="spbblstat:doubles" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">doubles</name>
             <name xml:lang="en-GB">doubles</name>
             <definition xml:lang="en-GB">Number of hits off of which batter advances to second base</definition>
@@ -180,7 +180,7 @@
         </concept>
         <concept id="spbblstattriples">
             <conceptId qcode="spbblstat:triples" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">triples</name>
             <name xml:lang="en-GB">triples</name>
             <definition xml:lang="en-GB">Number of hits off of which batter advances to third base</definition>
@@ -188,7 +188,7 @@
         </concept>
         <concept id="spbblstathome-runs">
             <conceptId qcode="spbblstat:home-runs" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">home-runs</name>
             <name xml:lang="en-GB">home-runs</name>
             <definition xml:lang="en-GB">Number of hits off of which batter advances to home plate</definition>
@@ -196,7 +196,7 @@
         </concept>
         <concept id="spbblstathome-runs-season">
             <conceptId qcode="spbblstat:home-runs-season" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">home-runs-season</name>
             <name xml:lang="en-GB">home-runs-season</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -204,7 +204,7 @@
         </concept>
         <concept id="spbblstatgrand-slams">
             <conceptId qcode="spbblstat:grand-slams" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">grand-slams</name>
             <name xml:lang="en-GB">grand-slams</name>
             <definition xml:lang="en-GB">Number of home runs with bases loaded</definition>
@@ -212,7 +212,7 @@
         </concept>
         <concept id="spbblstatstreak-hits">
             <conceptId qcode="spbblstat:streak-hits" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">streak-hits</name>
             <name xml:lang="en-GB">streak-hits</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -220,7 +220,7 @@
         </concept>
         <concept id="spbblstathits-event-winning">
             <conceptId qcode="spbblstat:hits-event-winning" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">hits-event-winning</name>
             <name xml:lang="en-GB">hits-event-winning</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -228,7 +228,7 @@
         </concept>
         <concept id="spbblstatat-bats-per-rbi">
             <conceptId qcode="spbblstat:at-bats-per-rbi" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">at-bats-per-rbi</name>
             <name xml:lang="en-GB">at-bats-per-rbi</name>
             <definition xml:lang="en-GB">RBI per at-bat ratio</definition>
@@ -236,7 +236,7 @@
         </concept>
         <concept id="spbblstatplate-appearances-per-rbi">
             <conceptId qcode="spbblstat:plate-appearances-per-rbi" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">plate-appearances-per-rbi</name>
             <name xml:lang="en-GB">plate-appearances-per-rbi</name>
             <definition xml:lang="en-GB">Plate appearances per at-bat ratio</definition>
@@ -244,7 +244,7 @@
         </concept>
         <concept id="spbblstatat-bats-per-home-run">
             <conceptId qcode="spbblstat:at-bats-per-home-run" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">at-bats-per-home-run</name>
             <name xml:lang="en-GB">at-bats-per-home-run</name>
             <definition xml:lang="en-GB">Home runs per at-bat ratio</definition>
@@ -252,7 +252,7 @@
         </concept>
         <concept id="spbblstatplate-appearances-per-home-run">
             <conceptId qcode="spbblstat:plate-appearances-per-home-run" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">plate-appearances-per-home-run</name>
             <name xml:lang="en-GB">plate-appearances-per-home-run</name>
             <definition xml:lang="en-GB">Plate appearances per home run ratio</definition>
@@ -260,7 +260,7 @@
         </concept>
         <concept id="spbblstatsac-flies">
             <conceptId qcode="spbblstat:sac-flies" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">sac-flies</name>
             <name xml:lang="en-GB">sac-flies</name>
             <definition xml:lang="en-GB">Number of hits resulting in batter out which advance base
@@ -269,7 +269,7 @@
         </concept>
         <concept id="spbblstatsac-bunts">
             <conceptId qcode="spbblstat:sac-bunts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">sac-bunts</name>
             <name xml:lang="en-GB">sac-bunts</name>
             <definition xml:lang="en-GB">Number of bunts resulting in batter out which advance base
@@ -278,7 +278,7 @@
         </concept>
         <concept id="spbblstatsacrifices">
             <conceptId qcode="spbblstat:sacrifices" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">sacrifices</name>
             <name xml:lang="en-GB">sacrifices</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -286,7 +286,7 @@
         </concept>
         <concept id="spbblstatgrounded-into-double-play">
             <conceptId qcode="spbblstat:grounded-into-double-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">grounded-into-double-play</name>
             <name xml:lang="en-GB">grounded-into-double-play</name>
             <definition xml:lang="en-GB">Number of ground balls which result in batter and base runner
@@ -295,7 +295,7 @@
         </concept>
         <concept id="spbblstathit-into-double-play">
             <conceptId qcode="spbblstat:hit-into-double-play" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">hit-into-double-play</name>
             <name xml:lang="en-GB">hit-into-double-play</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -303,7 +303,7 @@
         </concept>
         <concept id="spbblstatmoved-up">
             <conceptId qcode="spbblstat:moved-up" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">moved-up</name>
             <name xml:lang="en-GB">moved-up</name>
             <definition xml:lang="en-GB">Number of times runner advances to another base</definition>
@@ -311,7 +311,7 @@
         </concept>
         <concept id="spbblstaton-base-percentage">
             <conceptId qcode="spbblstat:on-base-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">on-base-percentage</name>
             <name xml:lang="en-GB">on-base-percentage</name>
             <definition xml:lang="en-GB">Calculated as follows: (hits + bases-on-balls + hit-by-pitch) / (at-bats +
@@ -320,7 +320,7 @@
         </concept>
         <concept id="spbblstatstolen-bases">
             <conceptId qcode="spbblstat:stolen-bases" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">stolen-bases</name>
             <name xml:lang="en-GB">stolen-bases</name>
             <definition xml:lang="en-GB">Number of successfully stolen bases.</definition>
@@ -328,7 +328,7 @@
         </concept>
         <concept id="spbblstatstolen-bases-caught">
             <conceptId qcode="spbblstat:stolen-bases-caught" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">stolen-bases-caught</name>
             <name xml:lang="en-GB">stolen-bases-caught</name>
             <definition xml:lang="en-GB">Number of times the runner was caught while trying to steal
@@ -337,7 +337,7 @@
         </concept>
         <concept id="spbblstatstolen-bases-average">
             <conceptId qcode="spbblstat:stolen-bases-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">stolen-bases-average</name>
             <name xml:lang="en-GB">stolen-bases-average</name>
             <definition xml:lang="en-GB">Success rate for stealing bases.</definition>
@@ -345,7 +345,7 @@
         </concept>
         <concept id="spbblstathit-by-pitch">
             <conceptId qcode="spbblstat:hit-by-pitch" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">hit-by-pitch</name>
             <name xml:lang="en-GB">hit-by-pitch</name>
             <definition xml:lang="en-GB">Number of times batter hit by pitch</definition>
@@ -353,7 +353,7 @@
         </concept>
         <concept id="spbblstatreached-base-defensive-interference">
             <conceptId qcode="spbblstat:reached-base-defensive-interference" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">reached-base-defensive-interference</name>
             <name xml:lang="en-GB">reached-base-defensive-interference</name>
             <definition xml:lang="en-GB">The number of times the player reached a base due to interference by the
@@ -362,7 +362,7 @@
         </concept>
         <concept id="spbblstatreached-base-error">
             <conceptId qcode="spbblstat:reached-base-error" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">reached-base-error</name>
             <name xml:lang="en-GB">reached-base-error</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -370,7 +370,7 @@
         </concept>
         <concept id="spbblstatreached-base-fielder-choice">
             <conceptId qcode="spbblstat:reached-base-fielder-choice" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">reached-base-fielder-choice</name>
             <name xml:lang="en-GB">reached-base-fielder-choice</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -378,7 +378,7 @@
         </concept>
         <concept id="spbblstaton-base-plus-slugging">
             <conceptId qcode="spbblstat:on-base-plus-slugging" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">on-base-plus-slugging</name>
             <name xml:lang="en-GB">on-base-plus-slugging</name>
             <definition xml:lang="en-GB">Calculated by adding on-base-percentage to slugging-percentage.</definition>
@@ -386,7 +386,7 @@
         </concept>
         <concept id="spbblstatplate-appearances">
             <conceptId qcode="spbblstat:plate-appearances" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">plate-appearances</name>
             <name xml:lang="en-GB">plate-appearances</name>
             <definition xml:lang="en-GB">Calculated by adding at-bats, bases-on-balls, hit-by-pitch, sac-flies,
@@ -395,7 +395,7 @@
         </concept>
         <concept id="spbblstathits-extra-base">
             <conceptId qcode="spbblstat:hits-extra-base" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">hits-extra-base</name>
             <name xml:lang="en-GB">hits-extra-base</name>
             <definition xml:lang="en-GB">Calculated by adding doubles, triples, and home-runs.</definition>
@@ -403,7 +403,7 @@
         </concept>
         <concept id="spbblstatstrikeout-rate">
             <conceptId qcode="spbblstat:strikeout-rate" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">strikeout-rate</name>
             <name xml:lang="en-GB">strikeout-rate</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -411,7 +411,7 @@
         </concept>
         <concept id="spbblstatdouble-plays-against">
             <conceptId qcode="spbblstat:double-plays-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">double-plays-against</name>
             <name xml:lang="en-GB">double-plays-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -419,7 +419,7 @@
         </concept>
         <concept id="spbblstattriple-plays-against">
             <conceptId qcode="spbblstat:triple-plays-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">triple-plays-against</name>
             <name xml:lang="en-GB">triple-plays-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -427,7 +427,7 @@
         </concept>
         <concept id="spbblstatpick-offs-against">
             <conceptId qcode="spbblstat:pick-offs-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">pick-offs-against</name>
             <name xml:lang="en-GB">pick-offs-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -435,7 +435,7 @@
         </concept>
         <concept id="spbblstatgames-played">
             <conceptId qcode="spbblstat:games-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:offense"/>
+            <related qcode="spct:offense" rel="skos:broader"/>
             <name xml:lang="en-US">games-played</name>
             <name xml:lang="en-GB">games-played</name>
             <definition xml:lang="en-GB">Number of games played.</definition>
@@ -443,7 +443,7 @@
         </concept>
         <concept id="spbblstatruns-allowed">
             <conceptId qcode="spbblstat:runs-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">runs-allowed</name>
             <name xml:lang="en-GB">runs-allowed</name>
             <definition xml:lang="en-GB">Number of runs against</definition>
@@ -451,7 +451,7 @@
         </concept>
         <concept id="spbblstathome-runs-allowed">
             <conceptId qcode="spbblstat:home-runs-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">home-runs-allowed</name>
             <name xml:lang="en-GB">home-runs-allowed</name>
             <definition xml:lang="en-GB">Number of home runs against</definition>
@@ -459,7 +459,7 @@
         </concept>
         <concept id="spbblstatsacrifice-bunts-allowed">
             <conceptId qcode="spbblstat:sacrifice-bunts-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">sacrifice-bunts-allowed</name>
             <name xml:lang="en-GB">sacrifice-bunts-allowed</name>
             <definition xml:lang="en-GB">Number of sacrifice bunts against</definition>
@@ -467,7 +467,7 @@
         </concept>
         <concept id="spbblstatsacrifice-hits-allowed">
             <conceptId qcode="spbblstat:sacrifice-hits-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">sacrifice-hits-allowed</name>
             <name xml:lang="en-GB">sacrifice-hits-allowed</name>
             <definition xml:lang="en-GB">Number of sacrifice hits against</definition>
@@ -475,7 +475,7 @@
         </concept>
         <concept id="spbblstatinterferences">
             <conceptId qcode="spbblstat:interferences" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">interferences</name>
             <name xml:lang="en-GB">interferences</name>
             <definition xml:lang="en-GB">Number of interference or obstruction calls</definition>
@@ -483,7 +483,7 @@
         </concept>
         <concept id="spbblstatinnings-pitched">
             <conceptId qcode="spbblstat:innings-pitched" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">innings-pitched</name>
             <name xml:lang="en-GB">innings-pitched</name>
             <definition xml:lang="en-GB">Number of innings pitched</definition>
@@ -491,7 +491,7 @@
         </concept>
         <concept id="spbblstatinnings-pitched-average">
             <conceptId qcode="spbblstat:innings-pitched-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">innings-pitched-average</name>
             <name xml:lang="en-GB">innings-pitched-average</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -499,7 +499,7 @@
         </concept>
         <concept id="spbblstathits-allowed">
             <conceptId qcode="spbblstat:hits-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">hits-allowed</name>
             <name xml:lang="en-GB">hits-allowed</name>
             <definition xml:lang="en-GB">Number of hits against</definition>
@@ -507,7 +507,7 @@
         </concept>
         <concept id="spbblstatearned-runs">
             <conceptId qcode="spbblstat:earned-runs" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">earned-runs</name>
             <name xml:lang="en-GB">earned-runs</name>
             <definition xml:lang="en-GB">Number of earned runs against</definition>
@@ -515,7 +515,7 @@
         </concept>
         <concept id="spbblstatunearned-runs">
             <conceptId qcode="spbblstat:unearned-runs" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">unearned-runs</name>
             <name xml:lang="en-GB">unearned-runs</name>
             <definition xml:lang="en-GB">Number of unearned runs against</definition>
@@ -523,7 +523,7 @@
         </concept>
         <concept id="spbblstatbases-on-balls-allowed">
             <conceptId qcode="spbblstat:bases-on-balls-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">bases-on-balls-allowed</name>
             <name xml:lang="en-GB">bases-on-balls-allowed</name>
             <definition xml:lang="en-GB">Number of earned walks allowed</definition>
@@ -531,7 +531,7 @@
         </concept>
         <concept id="spbblstatbases-on-balls-intentional-pitcher">
             <conceptId qcode="spbblstat:bases-on-balls-intentional-pitcher" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">bases-on-balls-intentional-pitcher</name>
             <name xml:lang="en-GB">bases-on-balls-intentional-pitcher</name>
             <definition xml:lang="en-GB">Number of batters intentionally walked</definition>
@@ -539,7 +539,7 @@
         </concept>
         <concept id="spbblstatstrikeouts">
             <conceptId qcode="spbblstat:strikeouts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">strikeouts</name>
             <name xml:lang="en-GB">strikeouts</name>
             <definition xml:lang="en-GB">Number of earned strikeouts</definition>
@@ -547,7 +547,7 @@
         </concept>
         <concept id="spbblstatstrikeout-to-bb-ratio">
             <conceptId qcode="spbblstat:strikeout-to-bb-ratio" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">strikeout-to-bb-ratio</name>
             <name xml:lang="en-GB">strikeout-to-bb-ratio</name>
             <definition xml:lang="en-GB">Strikeout to walks ratio</definition>
@@ -555,7 +555,7 @@
         </concept>
         <concept id="spbblstatnumber-of-pitches">
             <conceptId qcode="spbblstat:number-of-pitches" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">number-of-pitches</name>
             <name xml:lang="en-GB">number-of-pitches</name>
             <definition xml:lang="en-GB">Number of pitches thrown</definition>
@@ -563,7 +563,7 @@
         </concept>
         <concept id="spbblstatnumber-of-strikes">
             <conceptId qcode="spbblstat:number-of-strikes" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">number-of-strikes</name>
             <name xml:lang="en-GB">number-of-strikes</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -571,7 +571,7 @@
         </concept>
         <concept id="spbblstatera">
             <conceptId qcode="spbblstat:era" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">era</name>
             <name xml:lang="en-GB">era</name>
             <definition xml:lang="en-GB">Earned run average: Number of earned runs divided by number of innings
@@ -580,7 +580,7 @@
         </concept>
         <concept id="spbblstatwhip">
             <conceptId qcode="spbblstat:whip" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">whip</name>
             <name xml:lang="en-GB">whip</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -588,7 +588,7 @@
         </concept>
         <concept id="spbblstatinherited-runners-scored">
             <conceptId qcode="spbblstat:inherited-runners-scored" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">inherited-runners-scored</name>
             <name xml:lang="en-GB">inherited-runners-scored</name>
             <definition xml:lang="en-GB">Number of runners which a previous pitcher allowed on base which
@@ -597,7 +597,7 @@
         </concept>
         <concept id="spbblstatpick-offs">
             <conceptId qcode="spbblstat:pick-offs" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">pick-offs</name>
             <name xml:lang="en-GB">pick-offs</name>
             <definition xml:lang="en-GB">The number of times the pitcher caught a player trying to steal, before
@@ -606,7 +606,7 @@
         </concept>
         <concept id="spbblstaterrors-hit-with-pitch">
             <conceptId qcode="spbblstat:errors-hit-with-pitch" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">errors-hit-with-pitch</name>
             <name xml:lang="en-GB">errors-hit-with-pitch</name>
             <definition xml:lang="en-GB">Number of times pitcher hits batter with pitch</definition>
@@ -614,7 +614,7 @@
         </concept>
         <concept id="spbblstaterrors-wild-pitch">
             <conceptId qcode="spbblstat:errors-wild-pitch" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">errors-wild-pitch</name>
             <name xml:lang="en-GB">errors-wild-pitch</name>
             <definition xml:lang="en-GB">Number of wild pitches thrown</definition>
@@ -622,7 +622,7 @@
         </concept>
         <concept id="spbblstatbalks">
             <conceptId qcode="spbblstat:balks" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">balks</name>
             <name xml:lang="en-GB">balks</name>
             <definition xml:lang="en-GB">Number of balks</definition>
@@ -630,7 +630,7 @@
         </concept>
         <concept id="spbblstatwins">
             <conceptId qcode="spbblstat:wins" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">wins</name>
             <name xml:lang="en-GB">wins</name>
             <definition xml:lang="en-GB">Number of games pitcher has won</definition>
@@ -638,7 +638,7 @@
         </concept>
         <concept id="spbblstatlosses">
             <conceptId qcode="spbblstat:losses" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">losses</name>
             <name xml:lang="en-GB">losses</name>
             <definition xml:lang="en-GB">Number of games pitcher has lost</definition>
@@ -646,7 +646,7 @@
         </concept>
         <concept id="spbblstatsaves">
             <conceptId qcode="spbblstat:saves" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">saves</name>
             <name xml:lang="en-GB">saves</name>
             <definition xml:lang="en-GB">Number of games pitcher has saved</definition>
@@ -654,7 +654,7 @@
         </concept>
         <concept id="spbblstatholds">
             <conceptId qcode="spbblstat:holds" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">holds</name>
             <name xml:lang="en-GB">holds</name>
             <definition xml:lang="en-GB">Number of games relief pitcher has held the lead</definition>
@@ -662,7 +662,7 @@
         </concept>
         <concept id="spbblstatsaves-blown">
             <conceptId qcode="spbblstat:saves-blown" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">saves-blown</name>
             <name xml:lang="en-GB">saves-blown</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -670,7 +670,7 @@
         </concept>
         <concept id="spbblstatsaves-tough">
             <conceptId qcode="spbblstat:saves-tough" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">saves-tough</name>
             <name xml:lang="en-GB">saves-tough</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -678,7 +678,7 @@
         </concept>
         <concept id="spbblstatsaves-opportunities">
             <conceptId qcode="spbblstat:saves-opportunities" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">saves-opportunities</name>
             <name xml:lang="en-GB">saves-opportunities</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -686,7 +686,7 @@
         </concept>
         <concept id="spbblstatrelief-points">
             <conceptId qcode="spbblstat:relief-points" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">relief-points</name>
             <name xml:lang="en-GB">relief-points</name>
             <definition xml:lang="en-GB">Formula for rating relief performances. 4 points for a tough save; 3 points
@@ -696,7 +696,7 @@
         </concept>
         <concept id="spbblstatshutouts">
             <conceptId qcode="spbblstat:shutouts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">shutouts</name>
             <name xml:lang="en-GB">shutouts</name>
             <definition xml:lang="en-GB">Number of games pitched in which opposing team did not score</definition>
@@ -704,7 +704,7 @@
         </concept>
         <concept id="spbblstatgames-complete">
             <conceptId qcode="spbblstat:games-complete" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">games-complete</name>
             <name xml:lang="en-GB">games-complete</name>
             <definition xml:lang="en-GB">Number of complete games pitched</definition>
@@ -712,7 +712,7 @@
         </concept>
         <concept id="spbblstatgames-finished">
             <conceptId qcode="spbblstat:games-finished" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">games-finished</name>
             <name xml:lang="en-GB">games-finished</name>
             <definition xml:lang="en-GB">Number of games pitched to the end</definition>
@@ -720,7 +720,7 @@
         </concept>
         <concept id="spbblstatgames-pitched">
             <conceptId qcode="spbblstat:games-pitched" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">games-pitched</name>
             <name xml:lang="en-GB">games-pitched</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -728,7 +728,7 @@
         </concept>
         <concept id="spbblstatwinning-percentage">
             <conceptId qcode="spbblstat:winning-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">winning-percentage</name>
             <name xml:lang="en-GB">winning-percentage</name>
             <definition xml:lang="en-GB">Calculated by wins divided by (wins + losses).</definition>
@@ -736,7 +736,7 @@
         </concept>
         <concept id="spbblstatevent-credit">
             <conceptId qcode="spbblstat:event-credit" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">event-credit</name>
             <name xml:lang="en-GB">event-credit</name>
             <definition xml:lang="en-GB">Whether a pitcher has received credit for winning or losing the game. TBD.
@@ -746,7 +746,7 @@
         </concept>
         <concept id="spbblstatsave-credit">
             <conceptId qcode="spbblstat:save-credit" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">save-credit</name>
             <name xml:lang="en-GB">save-credit</name>
             <definition xml:lang="en-GB">Whether a pitcher has received credit for winning or losing the game. TBD.
@@ -756,7 +756,7 @@
         </concept>
         <concept id="spbblstatbatters-average-against">
             <conceptId qcode="spbblstat:batters-average-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-average-against</name>
             <name xml:lang="en-GB">batters-average-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -764,7 +764,7 @@
         </concept>
         <concept id="spbblstatbatters-at-bats-against">
             <conceptId qcode="spbblstat:batters-at-bats-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-at-bats-against</name>
             <name xml:lang="en-GB">batters-at-bats-against</name>
             <definition xml:lang="en-GB">Number of batters faced who were credited with at-bats.</definition>
@@ -772,7 +772,7 @@
         </concept>
         <concept id="spbblstatbatters-total-against">
             <conceptId qcode="spbblstat:batters-total-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-total-against</name>
             <name xml:lang="en-GB">batters-total-against</name>
             <definition xml:lang="en-GB">Total number of batters faced.</definition>
@@ -780,7 +780,7 @@
         </concept>
         <concept id="spbblstatbatters-total-bases-against">
             <conceptId qcode="spbblstat:batters-total-bases-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-total-bases-against</name>
             <name xml:lang="en-GB">batters-total-bases-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -788,7 +788,7 @@
         </concept>
         <concept id="spbblstatbatters-slugging-percentage-against">
             <conceptId qcode="spbblstat:batters-slugging-percentage-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-slugging-percentage-against</name>
             <name xml:lang="en-GB">batters-slugging-percentage-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -796,7 +796,7 @@
         </concept>
         <concept id="spbblstatbatters-on-base-percentage-against">
             <conceptId qcode="spbblstat:batters-on-base-percentage-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-on-base-percentage-against</name>
             <name xml:lang="en-GB">batters-on-base-percentage-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -804,7 +804,7 @@
         </concept>
         <concept id="spbblstatbatters-doubles-against">
             <conceptId qcode="spbblstat:batters-doubles-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-doubles-against</name>
             <name xml:lang="en-GB">batters-doubles-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -812,7 +812,7 @@
         </concept>
         <concept id="spbblstatbatters-triples-against">
             <conceptId qcode="spbblstat:batters-triples-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-triples-against</name>
             <name xml:lang="en-GB">batters-triples-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -820,7 +820,7 @@
         </concept>
         <concept id="spbblstatbatters-home-runs-against">
             <conceptId qcode="spbblstat:batters-home-runs-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">batters-home-runs-against</name>
             <name xml:lang="en-GB">batters-home-runs-against</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -828,7 +828,7 @@
         </concept>
         <concept id="spbblstatinherited-runners-total">
             <conceptId qcode="spbblstat:inherited-runners-total" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">inherited-runners-total</name>
             <name xml:lang="en-GB">inherited-runners-total</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -836,7 +836,7 @@
         </concept>
         <concept id="spbblstatsacrifice-flies-allowed">
             <conceptId qcode="spbblstat:sacrifice-flies-allowed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">sacrifice-flies-allowed</name>
             <name xml:lang="en-GB">sacrifice-flies-allowed</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -844,7 +844,7 @@
         </concept>
         <concept id="spbblstatshutouts-combined">
             <conceptId qcode="spbblstat:shutouts-combined" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:pitching"/>
+            <related qcode="spct:pitching" rel="skos:broader"/>
             <name xml:lang="en-US">shutouts-combined</name>
             <name xml:lang="en-GB">shutouts-combined</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -852,7 +852,7 @@
         </concept>
         <concept id="spbblstatdouble-plays">
             <conceptId qcode="spbblstat:double-plays" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">double-plays</name>
             <name xml:lang="en-GB">double-plays</name>
             <definition xml:lang="en-GB">Number of times two runners thrown out at the base.</definition>
@@ -860,7 +860,7 @@
         </concept>
         <concept id="spbblstattriple-plays">
             <conceptId qcode="spbblstat:triple-plays" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">triple-plays</name>
             <name xml:lang="en-GB">triple-plays</name>
             <definition xml:lang="en-GB">Number of times three runners thrown out at the base.</definition>
@@ -868,7 +868,7 @@
         </concept>
         <concept id="spbblstatputouts">
             <conceptId qcode="spbblstat:putouts" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">putouts</name>
             <name xml:lang="en-GB">putouts</name>
             <definition xml:lang="en-GB">Number of times a fielder caught a fly ball for an out.</definition>
@@ -876,7 +876,7 @@
         </concept>
         <concept id="spbblstatassists">
             <conceptId qcode="spbblstat:assists" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">assists</name>
             <name xml:lang="en-GB">assists</name>
             <definition xml:lang="en-GB">Number of plays in which a fielder throws a ball to another fielder for the
@@ -885,7 +885,7 @@
         </concept>
         <concept id="spbblstaterrors">
             <conceptId qcode="spbblstat:errors" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">errors</name>
             <name xml:lang="en-GB">errors</name>
             <definition xml:lang="en-GB">Number of plays in which a fielder committed an error, such as dropping a
@@ -894,7 +894,7 @@
         </concept>
         <concept id="spbblstatfielding-chances">
             <conceptId qcode="spbblstat:fielding-chances" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">fielding-chances</name>
             <name xml:lang="en-GB">fielding-chances</name>
             <definition xml:lang="en-GB">TBD.</definition>
@@ -902,7 +902,7 @@
         </concept>
         <concept id="spbblstatfielding-percentage">
             <conceptId qcode="spbblstat:fielding-percentage" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">fielding-percentage</name>
             <name xml:lang="en-GB">fielding-percentage</name>
             <definition xml:lang="en-GB">A measure of fielding success. Calculated as follows: (putouts + assists) /
@@ -911,7 +911,7 @@
         </concept>
         <concept id="spbblstatdefensive-average">
             <conceptId qcode="spbblstat:defensive-average" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">defensive-average</name>
             <name xml:lang="en-GB">defensive-average</name>
             <definition xml:lang="en-GB">Rate a fielder turns a bill hit to their area into an out.</definition>
@@ -919,7 +919,7 @@
         </concept>
         <concept id="spbblstaterrors-passed-ball">
             <conceptId qcode="spbblstat:errors-passed-ball" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">errors-passed-ball</name>
             <name xml:lang="en-GB">errors-passed-ball</name>
             <definition xml:lang="en-GB">Number of times a catcher is faulted with letting a pitched ball go
@@ -928,7 +928,7 @@
         </concept>
         <concept id="spbblstaterrors-catchers-interference">
             <conceptId qcode="spbblstat:errors-catchers-interference" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">errors-catchers-interference</name>
             <name xml:lang="en-GB">errors-catchers-interference</name>
             <definition xml:lang="en-GB">Number of times a catcher has improperly interfered with play.</definition>
@@ -936,7 +936,7 @@
         </concept>
         <concept id="spbblstatstolen-bases-against">
             <conceptId qcode="spbblstat:stolen-bases-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">stolen-bases-against</name>
             <name xml:lang="en-GB">stolen-bases-against</name>
             <definition xml:lang="en-GB">Number of bases successfully stolen while this player was on the
@@ -945,7 +945,7 @@
         </concept>
         <concept id="spbblstatstolen-bases-caught-defense">
             <conceptId qcode="spbblstat:stolen-bases-caught-defense" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">stolen-bases-caught-defense</name>
             <name xml:lang="en-GB">stolen-bases-caught-defense</name>
             <definition xml:lang="en-GB">Number of times a runner was caught while trying to steal bases while this
@@ -954,7 +954,7 @@
         </concept>
         <concept id="spbblstatstolen-bases-average-defense">
             <conceptId qcode="spbblstat:stolen-bases-average-defense" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">stolen-bases-average-defense</name>
             <name xml:lang="en-GB">stolen-bases-average-defense</name>
             <definition xml:lang="en-GB">Success rate for stealing bases while this player was on the
@@ -963,7 +963,7 @@
         </concept>
         <concept id="spbblstatinnings-played">
             <conceptId qcode="spbblstat:innings-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">innings-played</name>
             <name xml:lang="en-GB">innings-played</name>
             <definition xml:lang="en-GB">Number of innings played at the named position.</definition>
@@ -971,7 +971,7 @@
         </concept>
         <concept id="spbblstatgames-played-position">
             <conceptId qcode="spbblstat:games-played-position" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:defense"/>
+            <related qcode="spct:defense" rel="skos:broader"/>
             <name xml:lang="en-US">games-played-position</name>
             <name xml:lang="en-GB">games-played-position</name>
             <definition xml:lang="en-GB">Number of games played at the named position.</definition>

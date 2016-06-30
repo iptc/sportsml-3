@@ -35,7 +35,6 @@
     <conceptSet>
         <concept id="sptenstatscore">
             <conceptId qcode="sptenstat:score" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score</name>
             <name xml:lang="en-GB">score</name>
             <definition xml:lang="en-GB">Either love, 15, 30, 40, or game.</definition>
@@ -43,7 +42,6 @@
         </concept>
         <concept id="sptenstatduration">
             <conceptId qcode="sptenstat:duration" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">duration</name>
             <name xml:lang="en-GB">duration</name>
             <definition xml:lang="en-GB">The length in minutes of the set or game where it is inserted.</definition>
@@ -51,7 +49,6 @@
         </concept>
         <concept id="sptenstatset-number">
             <conceptId qcode="sptenstat:set-number" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">set-number</name>
             <name xml:lang="en-GB">set-number</name>
             <definition xml:lang="en-GB">An integer, generally 1 through 7.</definition>
@@ -59,7 +56,6 @@
         </concept>
         <concept id="sptenstatscore-tiebreaker">
             <conceptId qcode="sptenstat:score-tiebreaker" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">score-tiebreaker</name>
             <name xml:lang="en-GB">score-tiebreaker</name>
             <definition xml:lang="en-GB">An integer. Generally 0 through 7.</definition>
@@ -67,7 +63,6 @@
         </concept>
         <concept id="sptenstataces">
             <conceptId qcode="sptenstat:aces" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">aces</name>
             <name xml:lang="en-GB">aces</name>
             <definition xml:lang="en-GB">How many serve-aces the player shot.</definition>
@@ -75,7 +70,6 @@
         </concept>
         <concept id="sptenstatfirst-services-good">
             <conceptId qcode="sptenstat:first-services-good" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-services-good</name>
             <name xml:lang="en-GB">first-services-good</name>
             <definition xml:lang="en-GB">Number of first serves that were good.</definition>
@@ -83,7 +77,6 @@
         </concept>
         <concept id="sptenstatfirst-services-good-pct">
             <conceptId qcode="sptenstat:first-services-good-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-services-good-pct</name>
             <name xml:lang="en-GB">first-services-good-pct</name>
             <definition xml:lang="en-GB">The percentage of good first serves.</definition>
@@ -91,7 +84,6 @@
         </concept>
         <concept id="sptenstatfirst-services-points-won">
             <conceptId qcode="sptenstat:first-services-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-services-points-won</name>
             <name xml:lang="en-GB">first-services-points-won</name>
             <definition xml:lang="en-GB">How many points won after the first serve was good.</definition>
@@ -99,7 +91,6 @@
         </concept>
         <concept id="sptenstatfirst-services-points-won-pct">
             <conceptId qcode="sptenstat:first-services-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-services-points-won-pct</name>
             <name xml:lang="en-GB">first-services-points-won-pct</name>
             <definition xml:lang="en-GB">Percentage of games won after first serve was good.</definition>
@@ -107,7 +98,6 @@
         </concept>
         <concept id="sptenstatsecond-services-points-won">
             <conceptId qcode="sptenstat:second-services-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-services-points-won</name>
             <name xml:lang="en-GB">second-services-points-won</name>
             <definition xml:lang="en-GB">How many points won after the second serve was good.</definition>
@@ -115,7 +105,6 @@
         </concept>
         <concept id="sptenstatsecond-services-points-won-pct">
             <conceptId qcode="sptenstat:second-services-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-services-points-won-pct</name>
             <name xml:lang="en-GB">second-services-points-won-pct</name>
             <definition xml:lang="en-GB">Percentage of games won after second serve was good.</definition>
@@ -123,7 +112,6 @@
         </concept>
         <concept id="sptenstatservice-games-played">
             <conceptId qcode="sptenstat:service-games-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-games-played</name>
             <name xml:lang="en-GB">service-games-played</name>
             <definition xml:lang="en-GB">How many games in the match or set this player or team served.</definition>
@@ -131,7 +119,6 @@
         </concept>
         <concept id="sptenstatservice-games-won">
             <conceptId qcode="sptenstat:service-games-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-games-won</name>
             <name xml:lang="en-GB">service-games-won</name>
             <definition xml:lang="en-GB">Number of games won in which the player served.</definition>
@@ -139,7 +126,6 @@
         </concept>
         <concept id="sptenstatservice-games-won-pct">
             <conceptId qcode="sptenstat:service-games-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-games-won-pct</name>
             <name xml:lang="en-GB">service-games-won-pct</name>
             <definition xml:lang="en-GB">The percentage of games won in which the player served.</definition>
@@ -147,7 +133,6 @@
         </concept>
         <concept id="sptenstatbreak-points-against">
             <conceptId qcode="sptenstat:break-points-against" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">break-points-against</name>
             <name xml:lang="en-GB">break-points-against</name>
             <definition xml:lang="en-GB">How many break-points did the other team/player have against the serving
@@ -156,7 +141,6 @@
         </concept>
         <concept id="sptenstatbreak-points-saved">
             <conceptId qcode="sptenstat:break-points-saved" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">break-points-saved</name>
             <name xml:lang="en-GB">break-points-saved</name>
             <definition xml:lang="en-GB">How many of these break-points were saved by the serving
@@ -165,7 +149,6 @@
         </concept>
         <concept id="sptenstatbreak-points-saved-pct">
             <conceptId qcode="sptenstat:break-points-saved-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">break-points-saved-pct</name>
             <name xml:lang="en-GB">break-points-saved-pct</name>
             <definition xml:lang="en-GB">The percentage of breakpoints saved. (There is some discussion on whether to
@@ -174,7 +157,6 @@
         </concept>
         <concept id="sptenstatserve-points-played">
             <conceptId qcode="sptenstat:serve-points-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">serve-points-played</name>
             <name xml:lang="en-GB">serve-points-played</name>
             <definition xml:lang="en-GB">How many points were played with this player/team serving. New attribute and
@@ -183,7 +165,6 @@
         </concept>
         <concept id="sptenstatservice-points-won">
             <conceptId qcode="sptenstat:service-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-points-won</name>
             <name xml:lang="en-GB">service-points-won</name>
             <definition xml:lang="en-GB">Total points won where the player served. This should be the same as a sum
@@ -192,7 +173,6 @@
         </concept>
         <concept id="sptenstatservice-points-won-pct">
             <conceptId qcode="sptenstat:service-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">service-points-won-pct</name>
             <name xml:lang="en-GB">service-points-won-pct</name>
             <definition xml:lang="en-GB">The percentage of points won by the serving player. Should be possible to
@@ -201,7 +181,6 @@
         </concept>
         <concept id="sptenstatdouble-faults">
             <conceptId qcode="sptenstat:double-faults" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">double-faults</name>
             <name xml:lang="en-GB">double-faults</name>
             <definition xml:lang="en-GB">How many double-faults committed by the serving player.</definition>
@@ -209,7 +188,6 @@
         </concept>
         <concept id="sptenstatfirst-service-top-speed">
             <conceptId qcode="sptenstat:first-service-top-speed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-service-top-speed</name>
             <name xml:lang="en-GB">first-service-top-speed</name>
             <definition xml:lang="en-GB">The top speed recorded among the serves from this player/team.</definition>
@@ -217,7 +195,6 @@
         </concept>
         <concept id="sptenstatfirst-serve-average-speed">
             <conceptId qcode="sptenstat:first-serve-average-speed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-serve-average-speed</name>
             <name xml:lang="en-GB">first-serve-average-speed</name>
             <definition xml:lang="en-GB">The average speed recorded among the first serves from this player/team. New
@@ -227,7 +204,6 @@
         </concept>
         <concept id="sptenstatsecond-services-good">
             <conceptId qcode="sptenstat:second-services-good" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-services-good</name>
             <name xml:lang="en-GB">second-services-good</name>
             <definition xml:lang="en-GB">The number of good second serves.</definition>
@@ -235,7 +211,6 @@
         </concept>
         <concept id="sptenstatsecond-services-good-pct">
             <conceptId qcode="sptenstat:second-services-good-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-services-good-pct</name>
             <name xml:lang="en-GB">second-services-good-pct</name>
             <definition xml:lang="en-GB">The percentage of good second serves.</definition>
@@ -243,7 +218,6 @@
         </concept>
         <concept id="sptenstatsecond-serve-average-speed">
             <conceptId qcode="sptenstat:second-serve-average-speed" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-serve-average-speed</name>
             <name xml:lang="en-GB">second-serve-average-speed</name>
             <definition xml:lang="en-GB">The average speed recorded among the second serves from this player/team.
@@ -253,7 +227,6 @@
         </concept>
         <concept id="sptenstatspeed-units">
             <conceptId qcode="sptenstat:speed-units" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">speed-units</name>
             <name xml:lang="en-GB">speed-units</name>
             <definition xml:lang="en-GB">The measurement unit used for the various speed attributes. Normally mph,
@@ -262,7 +235,6 @@
         </concept>
         <concept id="sptenstatreturns-played">
             <conceptId qcode="sptenstat:returns-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">returns-played</name>
             <name xml:lang="en-GB">returns-played</name>
             <definition xml:lang="en-GB">How many points played where this player/team received the
@@ -271,7 +243,6 @@
         </concept>
         <concept id="sptenstatreceive-points-won">
             <conceptId qcode="sptenstat:receive-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">receive-points-won</name>
             <name xml:lang="en-GB">receive-points-won</name>
             <definition xml:lang="en-GB">How many points won by the receiving player. New attribute using the term
@@ -280,7 +251,6 @@
         </concept>
         <concept id="sptenstatreceive-points-won-pct">
             <conceptId qcode="sptenstat:receive-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">receive-points-won-pct</name>
             <name xml:lang="en-GB">receive-points-won-pct</name>
             <definition xml:lang="en-GB">The percentage of points won by the receiving player. New attribute using
@@ -289,7 +259,6 @@
         </concept>
         <concept id="sptenstatfirst-service-return-points-won">
             <conceptId qcode="sptenstat:first-service-return-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-service-return-points-won</name>
             <name xml:lang="en-GB">first-service-return-points-won</name>
             <definition xml:lang="en-GB">How many points won by the player after receiving the first
@@ -298,7 +267,6 @@
         </concept>
         <concept id="sptenstatfirst-service-return-points-won-pct">
             <conceptId qcode="sptenstat:first-service-return-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">first-service-return-points-won-pct</name>
             <name xml:lang="en-GB">first-service-return-points-won-pct</name>
             <definition xml:lang="en-GB">The percentage of points won by the player after receiving the first
@@ -307,7 +275,6 @@
         </concept>
         <concept id="sptenstatsecond-service-return-points-won">
             <conceptId qcode="sptenstat:second-service-return-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-service-return-points-won</name>
             <name xml:lang="en-GB">second-service-return-points-won</name>
             <definition xml:lang="en-GB">How many points won after receiving the second serve.</definition>
@@ -315,7 +282,6 @@
         </concept>
         <concept id="sptenstatsecond-service-return-points-won-pct">
             <conceptId qcode="sptenstat:second-service-return-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">second-service-return-points-won-pct</name>
             <name xml:lang="en-GB">second-service-return-points-won-pct</name>
             <definition xml:lang="en-GB">The percentage of points won after receiving the second serve.</definition>
@@ -323,7 +289,6 @@
         </concept>
         <concept id="sptenstatreturn-games-played">
             <conceptId qcode="sptenstat:return-games-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">return-games-played</name>
             <name xml:lang="en-GB">return-games-played</name>
             <definition xml:lang="en-GB">And how does this compare to the returns-played and matches-played
@@ -332,7 +297,6 @@
         </concept>
         <concept id="sptenstatreturn-games-won">
             <conceptId qcode="sptenstat:return-games-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">return-games-won</name>
             <name xml:lang="en-GB">return-games-won</name>
             <definition xml:lang="en-GB">How many games won after receiving the serve.</definition>
@@ -340,7 +304,6 @@
         </concept>
         <concept id="sptenstatreturn-games-won-pct">
             <conceptId qcode="sptenstat:return-games-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">return-games-won-pct</name>
             <name xml:lang="en-GB">return-games-won-pct</name>
             <definition xml:lang="en-GB">The percentage of games won after receiving the serve.</definition>
@@ -348,7 +311,6 @@
         </concept>
         <concept id="sptenstatbreak-points-played">
             <conceptId qcode="sptenstat:break-points-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">break-points-played</name>
             <name xml:lang="en-GB">break-points-played</name>
             <definition xml:lang="en-GB">How many possible break-points the receiving player/team had.</definition>
@@ -356,7 +318,6 @@
         </concept>
         <concept id="sptenstatbreak-points-converted">
             <conceptId qcode="sptenstat:break-points-converted" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">break-points-converted</name>
             <name xml:lang="en-GB">break-points-converted</name>
             <definition xml:lang="en-GB">The number of break-points that resulted in actually breaking the
@@ -365,7 +326,6 @@
         </concept>
         <concept id="sptenstatbreak-points-converted-pct">
             <conceptId qcode="sptenstat:break-points-converted-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">break-points-converted-pct</name>
             <name xml:lang="en-GB">break-points-converted-pct</name>
             <definition xml:lang="en-GB">The percentage of converted break-points.</definition>
@@ -373,7 +333,6 @@
         </concept>
         <concept id="sptenstatnet-points-won">
             <conceptId qcode="sptenstat:net-points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">net-points-won</name>
             <name xml:lang="en-GB">net-points-won</name>
             <definition xml:lang="en-GB">Points won after the player went forward close to the net.</definition>
@@ -381,7 +340,6 @@
         </concept>
         <concept id="sptenstatnet-points-played">
             <conceptId qcode="sptenstat:net-points-played" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">net-points-played</name>
             <name xml:lang="en-GB">net-points-played</name>
             <definition xml:lang="en-GB">Number of points played where the player went forward to the
@@ -390,7 +348,6 @@
         </concept>
         <concept id="sptenstatnet-points-won-pct">
             <conceptId qcode="sptenstat:net-points-won-pct" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">net-points-won-pct</name>
             <name xml:lang="en-GB">net-points-won-pct</name>
             <definition xml:lang="en-GB">Percentage of points won after the player went forward close to the net.
@@ -399,7 +356,6 @@
         </concept>
         <concept id="sptenstatpoints-won">
             <conceptId qcode="sptenstat:points-won" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">points-won</name>
             <name xml:lang="en-GB">points-won</name>
             <definition xml:lang="en-GB">Total number of points won.</definition>
@@ -407,7 +363,6 @@
         </concept>
         <concept id="sptenstatwinners">
             <conceptId qcode="sptenstat:winners" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">winners</name>
             <name xml:lang="en-GB">winners</name>
             <definition xml:lang="en-GB">Total number of winning strokes.</definition>
@@ -415,7 +370,6 @@
         </concept>
         <concept id="sptenstatwinners-forehand">
             <conceptId qcode="sptenstat:winners-forehand" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">winners-forehand</name>
             <name xml:lang="en-GB">winners-forehand</name>
             <definition xml:lang="en-GB">Total number of winning strokes using the forehand.</definition>
@@ -423,7 +377,6 @@
         </concept>
         <concept id="sptenstatwinners-backhand">
             <conceptId qcode="sptenstat:winners-backhand" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">winners-backhand</name>
             <name xml:lang="en-GB">winners-backhand</name>
             <definition xml:lang="en-GB">Total number of winning strokes using the backhand.</definition>
@@ -431,7 +384,6 @@
         </concept>
         <concept id="sptenstatwinners-volley">
             <conceptId qcode="sptenstat:winners-volley" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">winners-volley</name>
             <name xml:lang="en-GB">winners-volley</name>
             <definition xml:lang="en-GB">Total number of winning strokes using volley.</definition>
@@ -439,7 +391,6 @@
         </concept>
         <concept id="sptenstatunforced-errors">
             <conceptId qcode="sptenstat:unforced-errors" created="2016-05-02T00:00:00+00:00"/>
-            <type qcode="spct:core"/>
             <name xml:lang="en-US">unforced-errors</name>
             <name xml:lang="en-GB">unforced-errors</name>
             <definition xml:lang="en-GB">Total number of unforced errors performed.</definition>
