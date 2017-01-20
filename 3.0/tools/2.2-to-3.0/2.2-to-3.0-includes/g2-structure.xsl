@@ -11,21 +11,22 @@
         <!-- Begin the newItem wrapper built by extracting values from the SportsML, either with explicit xpaths or using the variables declared above -->
         <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/">
             <xsl:attribute name="standard">NewsML-G2</xsl:attribute>
-            <xsl:attribute name="standardversion">2.0</xsl:attribute>
+            <xsl:attribute name="standardversion">2.22</xsl:attribute>
             <xsl:attribute name="version">1</xsl:attribute>
             <xsl:attribute name="conformance">power</xsl:attribute>
             <xsl:attribute name="xml:lang">
                 <xsl:value-of select="$lang"/>
             </xsl:attribute>
-            <xsl:attribute name="xsi:schemaLocation">
+            <!-- xsl:attribute name="xsi:schemaLocation">
                 <xsl:value-of
                     select="concat('http://iptc.org/std/nar/2006-10-01/',' ',$NewsML-schemaLocation)"
                 />
-            </xsl:attribute>
+            </xsl:attribute -->
             <xsl:attribute name="guid">
-                <xsl:value-of select="$doc-id"/>
+                <xsl:value-of select="concat('urn:newsml:sportsml.org:',translate(substring-before(sportsml:sports-content/sportsml:sports-metadata/@date-time,'T'),'-',''),':',$doc-id)"/>
             </xsl:attribute>
             <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+            <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
             <itemMeta>
                 <itemClass qcode="ninat:text"/>
                 <provider qcode="web:xmlteam.com">
@@ -114,14 +115,6 @@
                         />
                     </name>
                 </creator>
-                <xsl:if
-                    test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'sportsnetwork.com'">
-                    <altId type="idtype:tsn-id">
-                        <xsl:attribute name="id">sportsnetwork.com-<xsl:value-of
-                                select="sportsml:sports-content/@xts:tsnid"/>
-                        </xsl:attribute>
-                    </altId>
-                </xsl:if>
                 <xsl:if test="sportsml:sports-content/sportsml:sports-metadata/@revision-id">
                     <altId type="idtype:revision-id">
                         <xsl:attribute name="id">
@@ -130,20 +123,19 @@
                     </altId>
                 </xsl:if>
                 <genre>
-                    <xsl:attribute name="qcode">xtsfixt:<xsl:value-of select="$fixture-key"/>
+                    <xsl:attribute name="qcode">spfixt:<xsl:value-of select="$fixture-key"/>
                     </xsl:attribute>
                     <name xml:lang="{$lang}">
                         <xsl:value-of select="sportsml:sports-content/sportsml:sports-metadata/@fixture-name"/>
                     </name>
                     <broader>
                         <xsl:attribute name="qcode">
-                            <xsl:value-of select="concat('dclass:',$document-class)"/>
+                            <xsl:value-of select="concat('spct:',$document-class)"/>
                         </xsl:attribute>
                     </broader>
                 </genre>
                 <genre>
-                    <xsl:attribute name="type">xts:dclass</xsl:attribute>
-                    <xsl:attribute name="qcode">dclass:<xsl:value-of select="$document-class"/>
+                    <xsl:attribute name="qcode">spct:<xsl:value-of select="$document-class"/>
                     </xsl:attribute>
                 </genre>
                 <language>
@@ -163,7 +155,7 @@
 				</xsl:if>
 				<xsl:if test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='season-type']">
 					<subject>
-					    <xsl:attribute name="type">spct:season-phase</xsl:attribute>
+					    <xsl:attribute name="type">spct:season-type</xsl:attribute>
 					    <xsl:attribute name="qcode">
 					        <xsl:value-of select="concat('spct:',sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='season-type']/@code-key)"/>
 						</xsl:attribute>
@@ -178,7 +170,7 @@
                     </name>
                     <broader qcode="subj:15000000"/>
                 </subject>
-                <subject qcode="league:{$league-key}">
+                <subject qcode="vendleague:{$league-key}">
                     <xsl:attribute name="type">spct:league</xsl:attribute>
                     <name xml:lang="{$lang}">
                         <xsl:value-of select="$league-name"/>
@@ -203,10 +195,10 @@
                 <xsl:if
                     test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='conference']">
                     <subject>
-                        <xsl:attribute name="type">spct:conf</xsl:attribute>
+                        <xsl:attribute name="type">spct:conference</xsl:attribute>
                         <xsl:attribute name="qcode">
                             <xsl:value-of
-                                select="concat('conf:',$league-key,'-',sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='conference']/@code-key)"
+                                select="concat('vendconf:',$league-key,'-',sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='conference']/@code-key)"
                             />
                         </xsl:attribute>
                         <name xml:lang="{$lang}">
@@ -214,7 +206,7 @@
                                 select="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='conference']/@code-name"
                             />
                         </name>
-                        <broader qcode="league:{$league-key}"/>
+                        <broader qcode="vendleague:{$league-key}"/>
                     </subject>
                 </xsl:if>
                 <xsl:if
@@ -225,17 +217,17 @@
                             <xsl:choose>
                                 <xsl:when test="sportsml:sports-content/sportsml:tournament/sportsml:tournament-metadata">
                                     <xsl:value-of
-                                        select="concat('event:',sportsml:sports-content/sportsml:tournament/sportsml:tournament-metadata/@tournament-key)"
+                                        select="concat('vendevent:',sportsml:sports-content/sportsml:tournament/sportsml:tournament-metadata/@tournament-key)"
                                     />
                                 </xsl:when>
                                 <xsl:when test="sportsml:sports-content/sportsml:sports-event/sportsml:event-metadata/@key">
                                     <xsl:value-of
-                                        select="concat('event:',sportsml:sports-content/sportsml:sports-event/sportsml:event-metadata/@key)"
+                                        select="concat('vendevent:',sportsml:sports-content/sportsml:sports-event/sportsml:event-metadata/@key)"
                                     />
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of
-                                        select="concat('event:',sportsml:sports-content/sportsml:sports-event/sportsml:event-metadata/@event-key)"
+                                        select="concat('vendevent:',sportsml:sports-content/sportsml:sports-event/sportsml:event-metadata/@event-key)"
                                     />
                                 </xsl:otherwise>
                             </xsl:choose>
@@ -252,12 +244,12 @@
                             <xsl:choose>
                                 <xsl:when test="sportsml:team-metadata/@key">
                                     <xsl:value-of
-                                        select="concat('event:',sportsml:team-metadata/@key)"
+                                        select="concat('vendevent:',sportsml:team-metadata/@key)"
                                     />
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:value-of
-                                        select="concat('team:',sportsml:team-metadata/@team-key)"
+                                        select="concat('vendteam:',sportsml:team-metadata/@team-key)"
                                     />
                                 </xsl:otherwise>
                             </xsl:choose>
