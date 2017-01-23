@@ -2,8 +2,7 @@
 <newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    standard="NewsML-G2"
-    standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
+    standard="NewsML-G2" standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
     guid="urn:newsml:sportsml.org:20150202:xt.22956338-box">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
@@ -60,8 +59,7 @@
     </contentMeta>
     <contentSet>
         <inlineXML contenttype="application/sportsml+xml">
-            <sports-content
-                xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ /Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd">
+            <sports-content>
                 <sports-event>
                     <event-metadata key="vendevent:l.nfl.com-2014-e.4481"
                         temporal-unit-value="vendor:l.nfl.com-2014-e.4481"
@@ -88,7 +86,7 @@
                             <stats>
                                 <stat stat-type="spstat:score" value="28"/>
                                 <stat stat-type="spstat:score-opposing" value="24"/>
-                                <stat stat-type="spstat:event-outcome" value="win"/>
+                                <stat stat-type="spstat:event-outcome" value="speventoutcome:win"/>
                                 <stat stat-type="spstat:time-of-possession" value="33:46"/>
                                 <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-yards" value="377"/>
@@ -217,6 +215,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="5"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="48"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="9.6"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="7"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="17"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                     <stat class="spct:special-teams"
@@ -316,7 +327,18 @@
                                 <name role="nrol:full">LeGarrette Blount</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="14"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="40"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="0"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="2.9"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="9"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10774">
@@ -364,7 +386,36 @@
                                 <name role="nrol:full">Tom Brady</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:passing" stat-type="spamfstat:passes-attempts"
+                                        value="50"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-completions" value="37"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-percentage" value="74"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-yards-gross" value="328"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-touchdowns" value="4"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-interceptions" value="2"/>
+                                    <stat class="spct:passing" stat-type="spamfstat:passes-longest"
+                                        value="23"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="2"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="-3"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="0"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="-1.5"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="-1"/>
+                                    <stat class="spct:sacks-against"
+                                        stat-type="spamfstat:sacks-against-total" value="1"/>
+                                    <stat class="spct:sacks-against"
+                                        stat-type="spamfstat:sacks-against-yards" value="8"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.6509">
@@ -569,6 +620,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="6"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="6.0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="6"/>
                                     <stat class="spct:special-teams"
                                         stat-type="spamfstat:returns-kickoff-total" value="1"/>
                                     <stat class="spct:special-teams"
@@ -593,6 +657,29 @@
                                         value="1"/>
                                     <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists-offense" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="9"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="109"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="12.1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="12"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="23"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="1"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="7"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="0"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="7.0"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="7"/>
                                     <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
                                         value="0"/>
                                     <stat class="spct:defense" stat-type="spamfstat:tackles-assists"
@@ -656,6 +743,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="6"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="68"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="11.3"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="10"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="22"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
@@ -706,7 +806,21 @@
                                 <name role="nrol:full">Michael Hoomanawanui</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="4"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="4.0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="4"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10587">
@@ -755,6 +869,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="4"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="29"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="7.3"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="7"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="11"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
@@ -1000,7 +1127,31 @@
                                 <name role="nrol:full">Shane Vereen</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="11"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="64"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="5.8"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="12"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="16"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="4"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="13"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="0"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="3.3"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="7"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.4347">
@@ -1197,6 +1348,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="3"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="3.0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="3"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
@@ -1340,6 +1504,36 @@
                                         stat-type="spamfstat:field-goals-missed" value="0"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:field-goals-blocked" value="0"/>
+                                    <stat distance-maximum="19" class="spct:scoring"
+                                        stat-type="field-goal-attempts" value="0"
+                                        measurement-units="yards"/>
+                                    <stat distance-maximum="19" class="spct:scoring"
+                                        stat-type="field-goals-made" value="0"
+                                        measurement-units="yards"/>
+                                    <stat distance-maximum="29" distance-minimum="20"
+                                        class="spct:scoring" stat-type="field-goal-attempts"
+                                        value="1" measurement-units="yards"/>
+                                    <stat distance-maximum="29" distance-minimum="20"
+                                        class="spct:scoring" stat-type="field-goals-made" value="1"
+                                        measurement-units="yards"/>
+                                    <stat distance-maximum="39" distance-minimum="30"
+                                        class="spct:scoring" stat-type="field-goal-attempts"
+                                        value="0" measurement-units="yards"/>
+                                    <stat distance-maximum="39" distance-minimum="30"
+                                        class="spct:scoring" stat-type="field-goals-made" value="0"
+                                        measurement-units="yards"/>
+                                    <stat distance-maximum="49" distance-minimum="40"
+                                        class="spct:scoring" stat-type="field-goal-attempts"
+                                        value="0" measurement-units="yards"/>
+                                    <stat distance-maximum="49" distance-minimum="40"
+                                        class="spct:scoring" stat-type="field-goals-made" value="0"
+                                        measurement-units="yards"/>
+                                    <stat distance-minimum="50" class="spct:scoring"
+                                        stat-type="field-goal-attempts" value="0"
+                                        measurement-units="yards"/>
+                                    <stat distance-minimum="50" class="spct:scoring"
+                                        stat-type="field-goals-made" value="0"
+                                        measurement-units="yards"/>
                                 </stats>
                             </player-stats>
                         </player>
@@ -1427,7 +1621,21 @@
                                 <name role="nrol:full">Jermaine Kearse</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="3"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="45"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="15.0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="6"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="33"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10872">
@@ -1480,6 +1688,19 @@
                                         value="1"/>
                                     <stat class="spct:offense"
                                         stat-type="spamfstat:tackles-assists-offense" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="3"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="59"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="19.7"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="5"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="25"/>
                                     <stat class="spct:defense" stat-type="spamfstat:tackles-solo"
                                         value="0"/>
                                     <stat class="spct:defense" stat-type="spamfstat:tackles-assists"
@@ -1515,6 +1736,29 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="31"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="31.0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="2"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="31"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="24"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="102"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="1"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="4.3"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="15"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
@@ -1527,6 +1771,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="4"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="109"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="27.3"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="5"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="45"/>
                                     <stat class="spct:scoring"
                                         stat-type="spamfstat:touchdowns-total" value="1"/>
                                 </stats>
@@ -1874,7 +2131,18 @@
                                 <name role="nrol:full">Robert Turbin</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="2"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="21"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="0"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="10.5"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="19"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.10661">
@@ -1923,6 +2191,19 @@
                             </player-metadata>
                             <player-stats>
                                 <stats>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-total" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-yards" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-touchdowns" value="0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-average-yards-per"
+                                        value="0.0"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-looks" value="1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:receptions-longest" value="0"/>
                                     <stat class="spct:special-teams"
                                         stat-type="spamfstat:fair-catches" value="0"/>
                                     <stat class="spct:special-teams"
@@ -1981,7 +2262,36 @@
                                 <name role="nrol:full">Russell Wilson</name>
                             </player-metadata>
                             <player-stats>
-                                <stats/>
+                                <stats>
+                                    <stat class="spct:passing" stat-type="spamfstat:passes-attempts"
+                                        value="21"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-completions" value="12"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-percentage" value="57.1"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-yards-gross" value="247"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-touchdowns" value="2"/>
+                                    <stat class="spct:passing"
+                                        stat-type="spamfstat:passes-interceptions" value="1"/>
+                                    <stat class="spct:passing" stat-type="spamfstat:passes-longest"
+                                        value="45"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-attempts"
+                                        value="3"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-yards"
+                                        value="39"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushes-touchdowns" value="0"/>
+                                    <stat class="spct:rushing"
+                                        stat-type="spamfstat:rushing-average-yards-per" value="13.0"/>
+                                    <stat class="spct:rushing" stat-type="spamfstat:rushes-longest"
+                                        value="17"/>
+                                    <stat class="spct:sacks-against"
+                                        stat-type="spamfstat:sacks-against-total" value="3"/>
+                                    <stat class="spct:sacks-against"
+                                        stat-type="spamfstat:sacks-against-yards" value="13"/>
+                                </stats>
                             </player-stats>
                         </player>
                         <player id="l.nfl.com-p.9941">
