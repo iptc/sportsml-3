@@ -7,12 +7,19 @@
     xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/" version="1.0">
 
     <!-- The following variables are set by the user -->
-    <xsl:variable name="NewsML-schemaLocation"
+    
+    <!-- Path on local system to sportsml.xsd -->
+    <xsl:variable name="userSchemaPath"
         >/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
-    <xsl:variable name="SportsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
-    <xsl:variable name="Nitf-schemaLocation"
+    <!-- Path on local system to nitf schema -->
+    <xsl:variable name="userNitfPath"
         >/Users/paul/xmlteam/iptc/specs/LATEST/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
+
+    
+    <xsl:variable name="SportsML-schemaLocation"
+        ><xsl:value-of select="$userSchemaPath"/></xsl:variable>
+    <xsl:variable name="Nitf-schemaLocation"
+        ><xsl:value-of select="$userNitfPath"/></xsl:variable>
     <xsl:variable name="lang">en-US</xsl:variable>
     <xsl:variable name="slug-separator">-</xsl:variable>
         <xsl:variable name="sport-key"
@@ -51,7 +58,19 @@
 	    </xsl:variable>
     <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
 	    <xsl:variable name="schema-specific">
-	    	<xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
+
+                                <xsl:choose>
+                            <xsl:when
+                                test="$sport-name-code = 'unknown'"
+                                >
+                                <xsl:value-of select="$SportsML-schemaLocation"/>
+                                </xsl:when>
+                            <xsl:otherwise>
+                            <xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+
+	    	
 	    </xsl:variable>
 
         <xsl:variable name="publisher"
