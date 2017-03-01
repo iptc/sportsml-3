@@ -3,31 +3,41 @@
     xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:sm="http://iptc.org/std/nar/2006-10-01/" exclude-result-prefixes="xs sm" version="2.0">
 
-    <!-- Separate list with things to check: -->
-    <xsl:param name="attributelist" select="document('attributelist.xml')"/>
+    <!-- Lookup file to get information on element structure -->
+    <xsl:param name="attributelist" select="document('generic-to-specific-lookup.xml')"/>
     <!-- It has groups with either/and rows to check or subgroups to check -->
 
-    <!-- Normal settingsline of xml transformation -->
     <xsl:output method="xml" exclude-result-prefixes="#all" indent="yes"/>
 
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="/">
-        <!-- Root template -->
         <xsl:apply-templates/>
-        <!-- We want to copy everything -->
     </xsl:template>
 
-
-    <!-- All elements and attributes that are not caught by other named templates will be caught by this one -->
-    <xsl:template match="@* | node()">
-        <xsl:copy>
+    <!-- passes an xml thru xsl with no significant changes -->
+    
+    <!-- pass all elements through -->
+    <xsl:template match="*">
+        <xsl:element name="{name()}">
             <xsl:apply-templates select="@* | node()"/>
-            <!-- Continue with any sub-node -->
-        </xsl:copy>
+        </xsl:element>
     </xsl:template>
-
-
+    
+    <!-- pass all attributes through -->
+    <xsl:template match="@*">
+        <xsl:attribute name="{name()}">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+    
+    <!-- pass all values through -->
+    <xsl:template match="text()">
+        <xsl:if test="normalize-space()">
+            <xsl:value-of select="."/>
+        </xsl:if>
+    </xsl:template>
+    
     <!-- team-stats have generic stats so we need to convert any of those to specific stats -->
     <xsl:template match="sm:team-stats">
 

@@ -955,10 +955,6 @@
             <statgroup>stats-american-football-sacks-against</statgroup>
             <elementname>stats-american-football-sacks-against</elementname>
         </substat>
-        <substat>
-            <statgroup>stats-american-football-scoring</statgroup>
-            <elementname>stats-american-football-scoring</elementname>
-        </substat>
     </stats-american-football-offensive>
 
     <stats-american-football-defensive>
