@@ -88,6 +88,7 @@
                                 <stat stat-type="spstat:score-opposing" value="24"/>
                                 <stat stat-type="spstat:event-outcome" value="speventoutcome:win"/>
                                 <stat stat-type="spstat:time-of-possession" value="33:46"/>
+                                
                                 <stat class="spct:offense"
                                     stat-type="spamfstat:offensive-plays-yards" value="377"/>
                                 <stat class="spct:offense"

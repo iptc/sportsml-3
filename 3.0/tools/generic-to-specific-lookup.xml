@@ -125,7 +125,7 @@
         <row>
             <name>event-outcome</name>
             <stat-type>spstat:event-outcome</stat-type>
-            <prefix>speventoutcome:</prefix>
+            <prefix></prefix>
             <class/>
         </row>
         <row>

@@ -68,9 +68,7 @@
                 <xsl:if test="$oneteam//sm:stat[@stat-type = $stat-type]/@value">
                     <!-- If the original has this in the generic stats -->
                     <xsl:attribute name="{$name}">
-                        <xsl:value-of
-                            select="concat($prefix, $oneteam//sm:stat[@stat-type = $stat-type]/@value)"
-                        />
+                        <xsl:value-of  select="concat($prefix, $oneteam//sm:stat[@stat-type = $stat-type]/@value)" />
                     </xsl:attribute>
                     <!-- Create an attribute with it -->
                 </xsl:if>
@@ -101,7 +99,7 @@
                 </xsl:variable>
 
                 <!-- Now is the time to check if the above created variable got any content -->
-                <xsl:if test="$oneSubGroup/node()[1][count(@*) &gt; 0]">
+                <xsl:if test="$oneSubGroup/node()[1][count(@*) &gt; 0] or $oneSubGroup/node()[1][count(node()) &gt; 0]">
                     <!-- If we got any content copy the node -->
                     <xsl:copy-of select="$oneSubGroup"/>
                 </xsl:if>
@@ -146,9 +144,7 @@
                     <xsl:if test="$oneplayer//sm:stat[@stat-type = $stat-type]/@value">
                         <!-- If the original has this in the generic stats -->
                         <xsl:attribute name="{$name}">
-                            <xsl:value-of
-                                select="concat($prefix, $oneplayer//sm:stat[@stat-type = $stat-type]/@value)"
-                            />
+                            <xsl:value-of  select="concat($prefix, $oneplayer//sm:stat[@stat-type = $stat-type]/@value)" />
                         </xsl:attribute>
                         <!-- Create an attribute with it -->
                     </xsl:if>
@@ -206,99 +202,65 @@
 
     <!-- General template to check one group from the datafile -->
     <xsl:template name="CheckSubStatGroup">
-        <xsl:param name="statgroup"/>
-        <!-- The group to get from attributelist.xml -->
-        <xsl:param name="elementname"/>
-        <!-- The name to use in the output -->
-        <xsl:param name="oneteam"/>
-        <!-- Data att kolla i  -->
-        <xsl:param name="situation"/>
+        <xsl:param name="statgroup"/><!-- The group to get from attributelist.xml -->
+        <xsl:param name="elementname"/><!-- The name to use in the output -->
+        <xsl:param name="oneteam"/><!-- The current team or player from the generic file to check. -->
+        <xsl:param name="situation"/><!-- If the stat is about a certain situation. -->
 
-        <xsl:element name="{$elementname}">
-            <!-- Skapa ett element -->
+        <xsl:element name="{$elementname}"> <!-- Create the element -->
 
-            <xsl:if test="$situation != ''">
+            <xsl:if test="$situation != ''"> <!-- If we need the situation attribute -->
                 <xsl:attribute name="situation" select="$situation"/>
             </xsl:if>
-
-            <xsl:for-each select="$attributelist/tests/*[local-name() = $statgroup]/row">
-                <!-- Check all the rows for team-stats in the listfile -->
-                <xsl:variable name="name" select="./name"/>
-                <!-- Get the name -->
-                <xsl:variable name="stat-type" select="./stat-type"/>
-                <!-- Get the stat-type -->
-                <xsl:variable name="prefix" select="./prefix"/>
-                <!-- Get the prefix -->
-                <xsl:variable name="class" select="./class"/>
-                <!-- Get the prefix -->
+            
+            <xsl:for-each select="$attributelist/tests/*[local-name() = $statgroup]/row"> <!-- Check all the rows for stats in the lookup file -->
+                <xsl:variable name="name" select="./name"/> <!-- Get the name -->
+                <xsl:variable name="stat-type" select="./stat-type"/>  <!-- Get the stat-type -->
+                <xsl:variable name="prefix" select="./prefix"/> <!-- Get the prefix -->
+                <xsl:variable name="class" select="./class"/> <!-- Get the prefix -->
 
                 <xsl:choose>
                     <xsl:when test="$situation != ''">
-
                         <xsl:choose>
                             <xsl:when test="$class != ''">
-                                <xsl:if
-                                    test="$oneteam//sm:stat[@class = $class and @stat-type = $stat-type and @situation = $situation]/@value">
+                                <xsl:if test="$oneteam//sm:stat[@class = $class and @stat-type = $stat-type and @situation = $situation]/@value">
                                     <!-- If the original has this in the generic stats -->
                                     <xsl:attribute name="{$name}">
-                                        <xsl:value-of
-                                            select="concat($prefix, $oneteam//sm:stat[@class = $class and @stat-type = $stat-type and @situation = $situation]/@value)"
-                                        />
-                                    </xsl:attribute>
-                                    <!-- Create an attribute with it -->
+                                        <xsl:value-of  select="concat($prefix, $oneteam//sm:stat[@class = $class and @stat-type = $stat-type and @situation = $situation]/@value)"   />
+                                    </xsl:attribute>  <!-- Create an attribute with it -->
                                 </xsl:if>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:if
-                                    test="$oneteam//sm:stat[@stat-type = $stat-type and @situation = $situation]/@value">
+                                <xsl:if test="$oneteam//sm:stat[@stat-type = $stat-type and @situation = $situation]/@value">
                                     <!-- If the original has this in the generic stats -->
                                     <xsl:attribute name="{$name}">
-                                        <xsl:value-of
-                                            select="concat($prefix, $oneteam//sm:stat[@stat-type = $stat-type and @situation = $situation]/@value)"
-                                        />
-                                    </xsl:attribute>
-                                    <!-- Create an attribute with it -->
+                                        <xsl:value-of select="concat($prefix, $oneteam//sm:stat[@stat-type = $stat-type and @situation = $situation]/@value)"/>
+                                    </xsl:attribute><!-- Create an attribute with it -->
                                 </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                    </xsl:when>
+                    </xsl:when> <!-- If we need to check specifically for situation -->
                     <xsl:otherwise>
                         <xsl:choose>
                             <xsl:when test="$class != ''">
-                                <xsl:if
-                                    test="$oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation)]/@value">
+                                <xsl:if  test="$oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation)]/@value">
                                     <!-- If the original has this in the generic stats -->
                                     <xsl:attribute name="{$name}">
-                                        <xsl:value-of
-                                            select="concat($prefix, $oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation)]/@value)"
-                                        />
-                                    </xsl:attribute>
-                                    <!-- Create an attribute with it -->
-
-
-                                    <!--                                    <xsl:for-each select="$oneteam//sm:stat[@class = $class and @stat-type = $stat-type]">
-                                        <xsl:variable name="attname" select="concat($name,'_',position())"/>
-                                       <xsl:attribute name="{$attname}"><xsl:value-of select="concat($prefix,./@value)"/></xsl:attribute> <!-\- Create an attribute with it -\->
-                                    </xsl:for-each>
--->
+                                        <xsl:value-of   select="concat($prefix, $oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation)]/@value)"/>
+                                    </xsl:attribute>  <!-- Create an attribute with it -->
                                 </xsl:if>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:if
-                                    test="$oneteam//sm:stat[@stat-type = $stat-type and not(@situation)]/@value">
+                                <xsl:if  test="$oneteam//sm:stat[@stat-type = $stat-type and not(@situation)]/@value">
                                     <!-- If the original has this in the generic stats -->
                                     <xsl:attribute name="{$name}">
-                                        <xsl:value-of
-                                            select="concat($prefix, $oneteam//sm:stat[@stat-type = $stat-type and not(@situation)]/@value)"
-                                        />
-                                    </xsl:attribute>
-                                    <!-- Create an attribute with it -->
+                                        <xsl:value-of  select="concat($prefix, $oneteam//sm:stat[@stat-type = $stat-type and not(@situation)]/@value)" />
+                                    </xsl:attribute><!-- Create an attribute with it -->
                                 </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:otherwise>
                 </xsl:choose>
-
 
             </xsl:for-each>
             <!-- Alla rader -->
@@ -318,21 +280,23 @@
                     </xsl:call-template>
                 </xsl:variable>
 
-                <xsl:if
-                    test="$oneSubGroup/node()[1][count(@*) &gt; 0] or $oneSubGroup/node()[1][count(node()) &gt; 0]">
-                    <xsl:copy-of select="$oneSubGroup"/>
-                </xsl:if>
+                <xsl:choose> <!-- First we need to exclude results with only a situation attribute because they are in reality empty.  -->
+                    <xsl:when test="$oneSubGroup/node()[1]/@situation and $oneSubGroup/node()[1][count(@*) =1]"></xsl:when>
+                    <xsl:otherwise>
+                        <xsl:if test="$oneSubGroup/node()[1][count(@*) &gt; 0] or $oneSubGroup/node()[1][count(node()) &gt; 0]">
+                            <xsl:copy-of select="$oneSubGroup"/>
+                        </xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+                
 
             </xsl:for-each>
 
         </xsl:element>
-        <!-- slut på ett element -->
-
+        <!-- End of this element -->
 
     </xsl:template>
-    <!-- Slut generellt template för en grupp -->
-
-
+    <!-- End of general check for one group -->
 
 
 </xsl:stylesheet>
