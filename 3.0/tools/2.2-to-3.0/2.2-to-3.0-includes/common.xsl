@@ -8,11 +8,11 @@
 
     <!-- The following variables are set by the user -->
     <xsl:variable name="NewsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
     <xsl:variable name="SportsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
     <xsl:variable name="Nitf-schemaLocation"
-        >/Users/paul/xmlteam/iptc/specs/LATEST/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
     <xsl:variable name="lang">en-US</xsl:variable>
     <xsl:variable name="slug-separator">-</xsl:variable>
         <xsl:variable name="sport-key"
@@ -49,9 +49,9 @@
                             <xsl:otherwise>unknown</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
-    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
+    <xsl:variable name="schema-core">PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
 	    <xsl:variable name="schema-specific">
-	    	<xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
+	        <xsl:value-of select="concat('PATH_TO_SCHEMA/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
 	    </xsl:variable>
 
         <xsl:variable name="publisher"

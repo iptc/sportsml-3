@@ -4,8 +4,8 @@
     xmlns:sm="http://iptc.org/std/nar/2006-10-01/" exclude-result-prefixes="xs sm" version="2.0">
 
     <!-- Lookup file to get information on element structure -->
-    <xsl:param name="attributelist" select="document('generic-to-specific-lookup.xml')"/>
     <!-- It has groups with either/and rows to check or subgroups to check -->
+    <xsl:param name="attributelist" select="document('generic-to-specific-lookup.xml')"/>
 
     <xsl:output method="xml" exclude-result-prefixes="#all" indent="yes"/>
 
@@ -246,7 +246,7 @@
                                 <xsl:if  test="$oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation)]/@value">
                                     <!-- If the original has this in the generic stats -->
                                     <xsl:attribute name="{$name}">
-                                        <xsl:value-of   select="concat($prefix, $oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation)]/@value)"/>
+                                        <xsl:value-of   select="concat($prefix, $oneteam//sm:stat[@class = $class and @stat-type = $stat-type and not(@situation) and not(@measurement-units)]/@value)"/>
                                     </xsl:attribute>  <!-- Create an attribute with it -->
                                 </xsl:if>
                             </xsl:when>
