@@ -263,9 +263,9 @@
                 </xsl:choose>
 
             </xsl:for-each>
-            <!-- Alla rader -->
+            <!-- All rows -->
 
-            <!-- Nu ska vi kolla om denna grupp hade någon undergrupp -->
+            <!-- Check to see if this group have any subgroups-->
             <xsl:for-each select="$attributelist/tests/*[local-name() = $statgroup]/substat">
                 <xsl:variable name="statgroup" select="./statgroup"/>
                 <xsl:variable name="elementname" select="./elementname"/>
