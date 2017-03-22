@@ -1255,11 +1255,9 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
     <!-- ========================================================================================= -->
     <xs:complexType name="articleComplexType">
         <xs:annotation>
-            <xs:documentation>Holds either an article or a reference to an article. | Recommended format is NITF.</xs:documentation>
+            <xs:documentation>Holds either an article or a reference to an article. Format of the content is up to the provider. NITF from IPTC or HTML are common alternatives.</xs:documentation>
         </xs:annotation>
         <xs:sequence>
-            <!-- Comment out nitf:nitf and activate xsl:any below it if you are not using NITF. -->
-            <!-- element ref="nitf:nitf"/ -->
             <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
         <xs:attributeGroup ref="commonAttributes"/>
