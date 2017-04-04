@@ -8,11 +8,11 @@
 
     <!-- The following variables are set by the user -->
     <xsl:variable name="NewsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
     <xsl:variable name="SportsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
     <xsl:variable name="Nitf-schemaLocation"
-        >/Users/paul/xmlteam/iptc/specs/LATEST/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
     <xsl:variable name="lang">en-US</xsl:variable>
     <xsl:variable name="slug-separator">-</xsl:variable>
         <xsl:variable name="sport-key"
@@ -49,9 +49,9 @@
                             <xsl:otherwise>unknown</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
-    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml.xsd</xsl:variable>
+    <xsl:variable name="schema-core">PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
 	    <xsl:variable name="schema-specific">
-	    	<xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/git-sportsml-3/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
+	        <xsl:value-of select="concat('PATH_TO_SCHEMA/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
 	    </xsl:variable>
 
         <xsl:variable name="publisher"
@@ -1130,55 +1130,50 @@
     <xsl:template name="xml-date-time">
         <xsl:param name="date-time"/>
         <xsl:param name="not-att"/>
+        
         <xsl:choose>
-        <xsl:when test="contains($date-time,'/')">
-        <xsl:variable name="year" select="substring-after(substring-after($date-time,'/'),'/')"/>
-        <xsl:variable name="day" select="substring-before(substring-after($date-time,'/'),'/')"/>
-        <xsl:variable name="month" select="substring-before($date-time,'/')"/>
+            <xsl:when test="contains($date-time,'/')">
+                <xsl:variable name="year" select="substring-after(substring-after($date-time,'/'),'/')"/>
+                <xsl:variable name="day" select="substring-before(substring-after($date-time,'/'),'/')"/>
+                <xsl:variable name="month" select="substring-before($date-time,'/')"/>
 
                 <xsl:attribute name="{name()}">
                     <xsl:value-of select="$year"/>-<xsl:value-of select="format-number($month,'00')"/>-<xsl:value-of
                         select="format-number($day,'00')"/>
                 </xsl:attribute>
 
-        </xsl:when>
-        <xsl:when test="contains($date-time,'-')">
-        <xsl:choose>
-            <xsl:when test="$not-att='yes'">
-        <xsl:value-of select="$date-time"/>
+            </xsl:when>
+            <xsl:when test="contains($date-time,'-')">
+                <xsl:choose>
+                    <xsl:when test="$not-att='yes'">
+                        <xsl:value-of select="$date-time"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="{name()}">
+                            <xsl:value-of select="$date-time"/>
+                        </xsl:attribute>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:attribute name="{name()}">
-        <xsl:value-of select="$date-time"/>
-                </xsl:attribute>
-            </xsl:otherwise>
-        </xsl:choose>
-        </xsl:when>
-        <xsl:otherwise>
-        <xsl:variable name="year" select="substring($date-time,0,5)"/>
-        <xsl:variable name="month" select="substring($date-time,5,2)"/>
-        <xsl:variable name="day" select="substring($date-time,7,2)"/>
-        <xsl:variable name="hour" select="substring($date-time,10,2)"/>
-        <xsl:variable name="minute" select="substring($date-time,12,2)"/>
-        <xsl:variable name="second" select="substring($date-time,14,2)"/>
-        <xsl:variable name="zone-hour" select="substring($date-time,16,3)"/>
-        <xsl:variable name="zone-minute" select="substring($date-time,19)"/>
-        <xsl:choose>
-            <xsl:when test="$not-att='yes'">
-                <xsl:value-of select="$year"/>-<xsl:value-of select="$month"/>-<xsl:value-of
-                    select="$day"/>T<xsl:value-of select="$hour"/>:<xsl:value-of select="$minute"
-                    />:<xsl:value-of select="$second"/>
-                <xsl:value-of select="$zone-hour"/>:<xsl:value-of select="$zone-minute"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:attribute name="{name()}">
-                    <xsl:value-of select="$year"/>-<xsl:value-of select="$month"/>-<xsl:value-of
-                        select="$day"/>T<xsl:value-of select="$hour"/>:<xsl:value-of
-                        select="$minute"/>:<xsl:value-of select="$second"/>
-                    <xsl:value-of select="$zone-hour"/>:<xsl:value-of select="$zone-minute"/>
-                </xsl:attribute>
-            </xsl:otherwise>
-        </xsl:choose>
+                <xsl:variable name="year"><xsl:if test="substring($date-time,0,5) != ''"><xsl:value-of select="substring($date-time,0,5)"/></xsl:if></xsl:variable>
+                <xsl:variable name="month"><xsl:if test="substring($date-time,5,2) != ''"><xsl:value-of select="concat('-',substring($date-time,5,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="day"><xsl:if test="substring($date-time,7,2) != ''"><xsl:value-of select="concat('-',substring($date-time,7,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="hour"><xsl:if test="substring($date-time,10,2) != ''"><xsl:value-of select="concat('T',substring($date-time,10,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="minute"><xsl:if test="substring($date-time,12,2) != ''"><xsl:value-of select="concat(':',substring($date-time,12,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="second"><xsl:if test="substring($date-time,14,2) != ''"><xsl:value-of select="concat(':',substring($date-time,14,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="zone-hour"><xsl:if test="substring($date-time,16,3) != ''"><xsl:value-of select="substring($date-time,16,3)"/></xsl:if></xsl:variable>
+                <xsl:variable name="zone-minute"><xsl:if test="substring($date-time,19,2) != ''"><xsl:value-of select="concat(':',substring($date-time,19,2))"/></xsl:if></xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="$not-att='yes'">
+                        <xsl:value-of select="$year"/><xsl:value-of select="$month"/><xsl:value-of select="$day"/><xsl:value-of select="$hour"/><xsl:value-of select="$minute"/><xsl:value-of select="$second"/><xsl:value-of select="$zone-hour"/><xsl:value-of select="$zone-minute"/>
+                   </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="{name()}">
+                            <xsl:value-of select="concat($year,$month,$day,$hour,$minute,$second,$zone-hour,$zone-minute)"/>
+                        </xsl:attribute>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

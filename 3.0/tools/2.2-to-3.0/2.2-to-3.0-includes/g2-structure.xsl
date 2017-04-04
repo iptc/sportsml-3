@@ -17,11 +17,6 @@
             <xsl:attribute name="xml:lang">
                 <xsl:value-of select="$lang"/>
             </xsl:attribute>
-            <!-- xsl:attribute name="xsi:schemaLocation">
-                <xsl:value-of
-                    select="concat('http://iptc.org/std/nar/2006-10-01/',' ',$NewsML-schemaLocation)"
-                />
-            </xsl:attribute -->
             <xsl:attribute name="guid">
                 <xsl:value-of select="concat('urn:newsml:sportsml.org:',translate(substring-before(sportsml:sports-content/sportsml:sports-metadata/@date-time,'T'),'-',''),':',$doc-id)"/>
             </xsl:attribute>
