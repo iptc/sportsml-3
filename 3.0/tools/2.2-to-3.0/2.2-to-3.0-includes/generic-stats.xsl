@@ -30,15 +30,19 @@
 			</xsl:attribute>
        	</xsl:if>
        	<xsl:for-each select="./@*[not(contains(name(),'coverage'))][not(name()='scoping-label')]">
-       	<xsl:variable name="stat-name" select="name()"/>       	
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
        	<xsl:variable name="stat-prefix">
             <xsl:choose>
-                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
-                    >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     >
                     <xsl:value-of select="concat('sp',$sport-name-short,'stat')"/>
                 </xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
                 <xsl:otherwise>none</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -50,13 +54,17 @@
     	</xsl:for-each>
         	<xsl:for-each select="*">
         	<xsl:for-each select="./@*[not(contains(name(),'coverage'))][not(name()='scoping-label')]">
-       	<xsl:variable name="stat-name" select="name()"/>       	
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
        	<xsl:variable name="stat-prefix">
             <xsl:choose>
-                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
-                    >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
                 <xsl:otherwise><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -72,13 +80,17 @@
         	<xsl:for-each select="*">
         	<xsl:variable name="name" select="name(.)"/>
         	<xsl:for-each select="./@*[not(contains(name(),'coverage'))][not(name()='scoping-label')]">
-       	<xsl:variable name="stat-name" select="name()"/>       	
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
        	<xsl:variable name="stat-prefix">
             <xsl:choose>
-                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
-                    >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
                 <xsl:otherwise><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -119,6 +131,89 @@
         	    <xsl:attribute name="value"><xsl:value-of select="."/></xsl:attribute>
         	</stat>
     	</xsl:for-each>
+    	
+     	        	<xsl:for-each select="*">
+        	<xsl:variable name="sub-name" select="name(.)"/>
+        	<xsl:choose>
+            <xsl:when test="$sub-name='stats-american-football-field-goals'">
+
+        	<stat>
+        	<xsl:if test="@maximum-distance">
+        			<xsl:attribute name="distance-maximum"><xsl:value-of select="@maximum-distance"/></xsl:attribute>
+        	</xsl:if>
+        	<xsl:if test="@minimum-distance">
+        			<xsl:attribute name="distance-minimum"><xsl:value-of select="@minimum-distance"/></xsl:attribute>
+        	</xsl:if>
+        	<xsl:attribute name="class">spct:scoring</xsl:attribute>
+        	    <xsl:attribute name="stat-type">field-goal-attempts</xsl:attribute>
+        	    <xsl:attribute name="value"><xsl:value-of select="@attempts"/></xsl:attribute>
+        	<xsl:attribute name="measurement-units">yards</xsl:attribute>
+        	</stat>
+
+        	<stat>
+        	<xsl:if test="@maximum-distance">
+        			<xsl:attribute name="distance-maximum"><xsl:value-of select="@maximum-distance"/></xsl:attribute>
+        	</xsl:if>
+        	<xsl:if test="@minimum-distance">
+        			<xsl:attribute name="distance-minimum"><xsl:value-of select="@minimum-distance"/></xsl:attribute>
+        	</xsl:if>
+        	<xsl:attribute name="class">spct:scoring</xsl:attribute>
+        	    <xsl:attribute name="stat-type">field-goals-made</xsl:attribute>
+        	    <xsl:attribute name="value"><xsl:value-of select="@made"/></xsl:attribute>
+        	<xsl:attribute name="measurement-units">yards</xsl:attribute>
+        	</stat>
+
+            </xsl:when>
+            <xsl:otherwise>
+        	
+        	<xsl:for-each select="./@*[not(contains(name(),'coverage'))][not(name()='scoping-label')]">
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
+       	<xsl:variable name="stat-prefix">
+            <xsl:choose>
+                <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
+                    ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
+                <xsl:otherwise><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        	<stat>
+        	<xsl:if test="../@scoping-label">
+            <xsl:choose>
+                <xsl:when test="substring-before(../@scoping-label,':')='strength'">
+        			<xsl:attribute name="situation"><xsl:value-of 	select="concat($publisher-code,../@scoping-label)"/></xsl:attribute>
+                </xsl:when>
+                <xsl:when test="substring-before(../@scoping-label,':')='period'">
+        			<xsl:attribute name="temporal-unit-value"><xsl:value-of 	select="concat($publisher-code,../@scoping-label)"/></xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise></xsl:otherwise>
+            </xsl:choose>
+        	</xsl:if>
+        	<xsl:attribute name="class">
+        	<xsl:choose>
+            <xsl:when test="contains($sub-name,'field-goals')">spct:scoring</xsl:when>
+            <xsl:when test="contains($sub-name,'passing')">spct:passing</xsl:when>
+            <xsl:when test="contains($sub-name,'rushing')">spct:rushing</xsl:when>
+            <xsl:when test="contains($sub-name,'down-progress')">spct:down-progress</xsl:when>
+            <xsl:when test="contains($sub-name,'sacks-against')">spct:sacks-against</xsl:when>
+            <xsl:otherwise>
+			</xsl:otherwise>
+        	</xsl:choose>
+			</xsl:attribute>
+        	    <xsl:attribute name="stat-type"><xsl:value-of select="concat($stat-prefix,':',$stat-name)"/></xsl:attribute>
+        	    <xsl:attribute name="value"><xsl:value-of select="."/></xsl:attribute>
+        	</stat>
+    	</xsl:for-each>
+            </xsl:otherwise>
+            </xsl:choose>
+	    	</xsl:for-each>
+
+   	
+    	
 	    	</xsl:for-each>
 
 	    	</xsl:for-each>
@@ -162,31 +257,44 @@
 			</xsl:attribute>
        	</xsl:if>
        	<xsl:for-each select="./@*[not(contains(name(),'coverage'))][not(name()='scoping-label')]">
-       	<xsl:variable name="stat-name" select="name()"/>       	
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
        	<xsl:variable name="stat-prefix">
             <xsl:choose>
-                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
-                    >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
                 <xsl:otherwise>none</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
 
         	<stat>
         	    <xsl:attribute name="stat-type"><xsl:value-of select="concat($stat-prefix,':',$stat-name)"/></xsl:attribute>
-        	    <xsl:attribute name="value"><xsl:value-of select="."/></xsl:attribute>
+        	 <xsl:attribute name="value">
+        	    <xsl:choose>
+                <xsl:when test="$stat-name='event-outcome'"><xsl:value-of select="concat('speventoutcome:',.)"/></xsl:when>
+                <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+            	</xsl:choose>
+			</xsl:attribute>
         	</stat>
     	</xsl:for-each>
         	<xsl:for-each select="*[contains(name(),'stats')][not(name()='scoping-label')]">
         	<xsl:for-each select="./@*[not(contains(name(),'coverage'))]">
-       	<xsl:variable name="stat-name" select="name()"/>       	
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
        	<xsl:variable name="stat-prefix">
             <xsl:choose>
-                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
-                    >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
                 <xsl:otherwise>none</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -202,13 +310,17 @@
         	<xsl:for-each select="*">
         	<xsl:variable name="name" select="name(.)"/>
         	<xsl:for-each select="./@*[not(contains(name(),'coverage'))][not(name()='scoping-label')]">
-       	<xsl:variable name="stat-name" select="name()"/>       	
+        	<xsl:variable name="stat-name">
+        <xsl:call-template name="stat-name">
+            <xsl:with-param name="stat-name" select="name()"/>
+        </xsl:call-template>
+			</xsl:variable>
        	<xsl:variable name="stat-prefix">
             <xsl:choose>
-                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
-                    >spcorstat</xsl:when>
                 <xsl:when test="document($schema-specific)//xs:attribute[@name=$stat-name]"
                     ><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:when>
+                <xsl:when test="document($schema-core)//xs:attribute[@name=$stat-name]"
+                    >spstat</xsl:when>
                 <xsl:otherwise><xsl:value-of select="concat('sp',$sport-name-short,'stat')"/></xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -235,8 +347,8 @@
             <xsl:when test="contains($name,'rushing')">spct:rushing</xsl:when>
             <xsl:when test="contains($name,'down-progress')">spct:down-progress</xsl:when>
             <xsl:when test="contains($name,'sacks-against')">spct:sacks-against</xsl:when>
-            <xsl:when test="contains($name,'fumbles')">spct:fumble</xsl:when>
-            <xsl:when test="contains($name,'penalties')">spct:infraction</xsl:when>
+            <xsl:when test="contains($name,'fumbles')">spct:fumbles</xsl:when>
+            <xsl:when test="contains($name,'penalties')">spct:penalty</xsl:when>
             <xsl:when test="contains($name,'pitching')">spct:pitching</xsl:when>
             <xsl:when test="contains($name,'faceoffs')">spct:faceoff</xsl:when>
             <xsl:when test="contains($name,'time-on-ice')">spct:time-on-ice</xsl:when>
@@ -266,5 +378,18 @@
         </xsl:for-each>
     </team-stats>
     </xsl:template>
+    
+    <!-- where attribute names differ between 2.2 and 3.0 -->
+        <xsl:template name="stat-name">
+        <xsl:param name="stat-name"/>
+        	<xsl:choose>
+            <xsl:when test="$stat-name = 'tackles' and parent::sportsml:stats-american-football-offensive">tackles-offense</xsl:when>
+            <xsl:when test="$stat-name = 'tackles-assists' and parent::sportsml:stats-american-football-offensive">tackles-assists-offense</xsl:when>
+            <xsl:when test="$stat-name = 'tackles' and parent::sportsml:stats-american-football-special-teams">tackles-special-teams</xsl:when>
+            <xsl:when test="$stat-name = 'tackles-assists' and parent::sportsml:stats-american-football-special-teams">tackles-assists-special-teams</xsl:when>
+            <xsl:otherwise><xsl:value-of select="$stat-name"/></xsl:otherwise>
+        	</xsl:choose>
+	    </xsl:template>
+
 
 </xsl:stylesheet>

@@ -11,6 +11,8 @@
 
     <!-- In this template we put the NewsML G2 metadata wrapper around the SportsML and then hand off to the templates that operate on the inline SportsML. The files are converted into a NewsML-G2 "newsItem" comprising item metadata (itemMeta), content metadata (contentMeta) and the content itself (the SportsML as child of contentSet/inlineXML). -->
 
+<xsl:output indent="yes" method="xml"/>
+
     <!-- Begin the auto-generation process -->
     <xsl:template match="/">
     	<xsl:call-template name="g2-structure"/>

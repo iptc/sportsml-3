@@ -3,9 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     standard="NewsML-G2"
-    standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
-    guid="xt.opta.stats-20151021085919-8">
+    standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
+    guid="urn:newsml:sportsml.org:20160502:xt.opta.stats-20151021085919-8">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <itemMeta>
         <itemClass qcode="ninat:text"/>
         <provider qcode="web:xmlteam.com">
@@ -38,7 +39,7 @@
             <name xml:lang="en-US">Soccer</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject qcode="league:l.premierleague.com" type="spct:league">
+        <subject qcode="vendleague:l.premierleague.com" type="spct:league">
             <name xml:lang="en-US">English Barclays Premier League</name>
             <broader qcode="subj:15054000"/>
         </subject>
@@ -51,7 +52,7 @@
                     <statistic-metadata team-coverage="single-team" temporal-unit-type="spct:season"
                         temporal-unit-value="vendor:2015"/>
                     <team>
-                        <team-metadata key="optateam:o.thefa.com-t.5">
+                        <team-metadata key="vendteam:o.thefa.com-t.5">
                             <name role="nrol:full">Chelsea</name>
                             <name part="nprt:common">Chelsea</name>
                         </team-metadata>
@@ -90,13 +91,13 @@
                             </stats>
                         </team-stats>
                         <player id="p.41328">
-                            <player-metadata key="optaperson:p.41328"
+                            <player-metadata key="vendperson:p.41328"
                                 position-regular="spsocposition:defender" uniform-number="28">
                                 <name role="nrol:full">César Azpilicueta</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="9"/>
                                     <stat stat-type="spstat:time-played-total" value="788"/>
@@ -143,13 +144,13 @@
                             </player-stats>
                         </player>
                         <player id="p.118335">
-                            <player-metadata key="optaperson:p.118335"
+                            <player-metadata key="vendperson:p.118335"
                                 position-regular="spsocposition:defender" uniform-number="6">
                                 <name role="nrol:full">Abdul Rahman Baba</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="1"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="90"/>
@@ -178,13 +179,13 @@
                             </player-stats>
                         </player>
                         <player id="p.40349">
-                            <player-metadata key="optaperson:p.40349"
+                            <player-metadata key="vendperson:p.40349"
                                 position-regular="spsocposition:goalkeeper" uniform-number="1">
                                 <name role="nrol:full">Asmir Begovic</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="576"/>
@@ -211,19 +212,19 @@
                             </player-stats>
                         </player>
                         <player id="p.108132">
-                            <player-metadata key="optaperson:p.108132"
+                            <player-metadata key="vendperson:p.108132"
                                 position-regular="spsocposition:goalkeeper" uniform-number="27">
                                 <name role="nrol:full">Jamal Blackman</name>
                             </player-metadata>
                         </player>
                         <player id="p.47431">
-                            <player-metadata key="optaperson:p.47431"
+                            <player-metadata key="vendperson:p.47431"
                                 position-regular="spsocposition:midfielder" uniform-number="22">
                                 <name role="nrol:full">Willian Borges Da Silva</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="8"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="483"/>
@@ -276,13 +277,13 @@
                             </player-stats>
                         </player>
                         <player id="p.19419">
-                            <player-metadata key="optaperson:p.19419"
+                            <player-metadata key="vendperson:p.19419"
                                 position-regular="spsocposition:defender" uniform-number="24">
                                 <name role="nrol:full">Gary Cahill</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="574"/>
@@ -319,13 +320,13 @@
                             </player-stats>
                         </player>
                         <player id="p.60772">
-                            <player-metadata key="optaperson:p.60772"
+                            <player-metadata key="vendperson:p.60772"
                                 position-regular="spsocposition:goalkeeper" uniform-number="13">
                                 <name role="nrol:full">Thibaut Courtois</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="3"/>
                                     <stat stat-type="spstat:events-started" value="3"/>
                                     <stat stat-type="spstat:time-played-total" value="232"/>
@@ -358,13 +359,13 @@
                             </player-stats>
                         </player>
                         <player id="p.18507">
-                            <player-metadata key="optaperson:p.18507"
+                            <player-metadata key="vendperson:p.18507"
                                 position-regular="spsocposition:forward" uniform-number="19">
                                 <name role="nrol:full">Diego Da Silva Costa</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="7"/>
                                     <stat stat-type="spstat:time-played-total" value="610"/>
@@ -419,13 +420,13 @@
                             </player-stats>
                         </player>
                         <player id="p.17878">
-                            <player-metadata key="optaperson:p.17878"
+                            <player-metadata key="vendperson:p.17878"
                                 position-regular="spsocposition:midfielder" uniform-number="4">
                                 <name role="nrol:full">Cesc Fàbregas</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="9"/>
                                     <stat stat-type="spstat:time-played-total" value="779"/>
@@ -470,13 +471,13 @@
                             </player-stats>
                         </player>
                         <player id="p.48847">
-                            <player-metadata key="optaperson:p.48847"
+                            <player-metadata key="vendperson:p.48847"
                                 position-regular="spsocposition:forward" uniform-number="9">
                                 <name role="nrol:full">Radamel Falcao García Zárate</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="192"/>
@@ -523,13 +524,13 @@
                             </player-stats>
                         </player>
                         <player id="p.42786">
-                            <player-metadata key="optaperson:p.42786"
+                            <player-metadata key="vendperson:p.42786"
                                 position-regular="spsocposition:midfielder" uniform-number="10">
                                 <name role="nrol:full">Eden Hazard</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="8"/>
                                     <stat stat-type="spstat:time-played-total" value="727"/>
@@ -574,13 +575,13 @@
                             </player-stats>
                         </player>
                         <player id="p.41135">
-                            <player-metadata key="optaperson:p.41135"
+                            <player-metadata key="vendperson:p.41135"
                                 position-regular="spsocposition:defender" uniform-number="2">
                                 <name role="nrol:full">Branislav Ivanovic</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="8"/>
                                     <stat stat-type="spstat:events-started" value="8"/>
                                     <stat stat-type="spstat:time-played-total" value="720"/>
@@ -617,13 +618,13 @@
                             </player-stats>
                         </player>
                         <player id="p.126187">
-                            <player-metadata key="optaperson:p.126187"
+                            <player-metadata key="vendperson:p.126187"
                                 position-regular="spsocposition:midfielder" uniform-number="36">
                                 <name role="nrol:full">Ruben Loftus-Cheek</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="2"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="62"/>
@@ -652,13 +653,13 @@
                             </player-stats>
                         </player>
                         <player id="p.62398">
-                            <player-metadata key="optaperson:p.62398"
+                            <player-metadata key="vendperson:p.62398"
                                 position-regular="spsocposition:midfielder" uniform-number="21">
                                 <name role="nrol:full">Nemanja Matic</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="9"/>
                                     <stat stat-type="spstat:events-started" value="7"/>
                                     <stat stat-type="spstat:time-played-total" value="657"/>
@@ -707,13 +708,13 @@
                             </player-stats>
                         </player>
                         <player id="p.28495">
-                            <player-metadata key="optaperson:p.28495"
+                            <player-metadata key="vendperson:p.28495"
                                 position-regular="spsocposition:midfielder" uniform-number="12">
                                 <name role="nrol:full">John Obi Mikel</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="3"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="62"/>
@@ -744,13 +745,13 @@
                             </player-stats>
                         </player>
                         <player id="p.167767">
-                            <player-metadata key="optaperson:p.167767"
+                            <player-metadata key="vendperson:p.167767"
                                 position-regular="spsocposition:forward" uniform-number="16">
                                 <name role="nrol:full">Robert Kenedy Nunes do Nascimento</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="2"/>
                                     <stat stat-type="spstat:time-played-total" value="57"/>
                                     <stat class="spct:offense" stat-type="spsocstat:shots-total"
@@ -780,13 +781,13 @@
                             </player-stats>
                         </player>
                         <player id="p.38419">
-                            <player-metadata key="optaperson:p.38419"
+                            <player-metadata key="vendperson:p.38419"
                                 position-regular="spsocposition:forward" uniform-number="18">
                                 <name role="nrol:full">Loïc Remy</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="4"/>
                                     <stat stat-type="spstat:events-started" value="1"/>
                                     <stat stat-type="spstat:time-played-total" value="87"/>
@@ -811,13 +812,13 @@
                             </player-stats>
                         </player>
                         <player id="p.49579">
-                            <player-metadata key="optaperson:p.49579"
+                            <player-metadata key="vendperson:p.49579"
                                 position-regular="spsocposition:forward" uniform-number="17">
                                 <name role="nrol:full">Pedro Rodríguez Ledesma</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="7"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="533"/>
@@ -872,13 +873,13 @@
                             </player-stats>
                         </player>
                         <player id="p.53392">
-                            <player-metadata key="optaperson:p.53392"
+                            <player-metadata key="vendperson:p.53392"
                                 position-regular="spsocposition:midfielder" uniform-number="7">
                                 <name role="nrol:full">Ramires Santos do Nascimento</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="5"/>
                                     <stat stat-type="spstat:events-started" value="3"/>
                                     <stat stat-type="spstat:time-played-total" value="237"/>
@@ -925,13 +926,13 @@
                             </player-stats>
                         </player>
                         <player id="p.1718">
-                            <player-metadata key="optaperson:p.1718"
+                            <player-metadata key="vendperson:p.1718"
                                 position-regular="spsocposition:defender" uniform-number="26">
                                 <name role="nrol:full">John Terry</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="6"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="459"/>
@@ -972,19 +973,19 @@
                             </player-stats>
                         </player>
                         <player id="p.110504">
-                            <player-metadata key="optaperson:p.110504"
+                            <player-metadata key="vendperson:p.110504"
                                 position-regular="spsocposition:midfielder" uniform-number="14">
                                 <name role="nrol:full">Bertrand Traore</name>
                             </player-metadata>
                         </player>
                         <player id="p.103192">
-                            <player-metadata key="optaperson:p.103192"
+                            <player-metadata key="vendperson:p.103192"
                                 position-regular="spsocposition:defender" uniform-number="5">
                                 <name role="nrol:full">Kurt Zouma</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="8"/>
                                     <stat stat-type="spstat:events-started" value="6"/>
                                     <stat stat-type="spstat:time-played-total" value="599"/>
@@ -1029,13 +1030,13 @@
                             </player-stats>
                         </player>
                         <player id="p.61262">
-                            <player-metadata key="optaperson:p.61262"
+                            <player-metadata key="vendperson:p.61262"
                                 position-regular="spsocposition:midfielder" uniform-number="8">
                                 <name role="nrol:full">Oscar dos Santos Emboaba Junior</name>
                             </player-metadata>
                             <player-stats>
                                 <stats temporal-unit-type="sptemporalunit:season"
-                                    team="team:o.thefa.com-t.5">
+                                    team="vendteam:o.thefa.com-t.5">
                                     <stat stat-type="spstat:events-played" value="4"/>
                                     <stat stat-type="spstat:events-started" value="4"/>
                                     <stat stat-type="spstat:time-played-total" value="286"/>

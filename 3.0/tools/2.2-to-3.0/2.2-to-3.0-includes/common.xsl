@@ -8,11 +8,11 @@
 
     <!-- The following variables are set by the user -->
     <xsl:variable name="NewsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
     <xsl:variable name="SportsML-schemaLocation"
-        >/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
     <xsl:variable name="Nitf-schemaLocation"
-        >/Users/paul/xmlteam/iptc/specs/LATEST/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
+        >PATH_TO_SCHEMA/NITF/3.4/specification/schema/nitf-3-4.xsd</xsl:variable>
     <xsl:variable name="lang">en-US</xsl:variable>
     <xsl:variable name="slug-separator">-</xsl:variable>
         <xsl:variable name="sport-key"
@@ -29,6 +29,8 @@
                             <xsl:when test="$sport-key = '15031000'">ice-hockey</xsl:when>
                             <xsl:when test="$sport-key = '15007000'">baseball</xsl:when>
                             <xsl:when test="$sport-key = '15008000'">basketball</xsl:when>
+                            <xsl:when test="$sport-key = '15018000'">curling</xsl:when>
+                            <xsl:when test="$sport-key = '15027000'">golf</xsl:when>
                             <xsl:otherwise>unknown</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
@@ -37,17 +39,19 @@
                             <xsl:when test="$sport-key = '15003000'">amf</xsl:when>
                             <xsl:when test="$sport-key = '15054000'">soc</xsl:when>
                             <xsl:when test="$sport-key = '15017000'">cri</xsl:when>
-                            <xsl:when test="$sport-key = '15049000'">rgb</xsl:when>
-                            <xsl:when test="$sport-key = '15048000'">rgb</xsl:when>
-                            <xsl:when test="$sport-key = '15031000'">iho</xsl:when>
+                            <xsl:when test="$sport-key = '15049000'">rgx</xsl:when>
+                            <xsl:when test="$sport-key = '15048000'">rgx</xsl:when>
+                            <xsl:when test="$sport-key = '15031000'">ich</xsl:when>
                             <xsl:when test="$sport-key = '15007000'">bbl</xsl:when>
                             <xsl:when test="$sport-key = '15008000'">bkb</xsl:when>
+                            <xsl:when test="$sport-key = '15018000'">cur</xsl:when>
+                            <xsl:when test="$sport-key = '15027000'">gol</xsl:when>
                             <xsl:otherwise>unknown</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
-    <xsl:variable name="schema-core">/Users/paul/xmlteam/iptc/sportsml-dev/git-new/3.0/sportsml.xsd</xsl:variable>
+    <xsl:variable name="schema-core">PATH_TO_SCHEMA/3.0/specification/sportsml.xsd</xsl:variable>
 	    <xsl:variable name="schema-specific">
-	    	<xsl:value-of select="concat('/Users/paul/xmlteam/iptc/sportsml-dev/svn/2.2/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
+	        <xsl:value-of select="concat('PATH_TO_SCHEMA/3.0/specification/sportsml-specific-',$sport-name-code,'.xsd')"/>
 	    </xsl:variable>
 
         <xsl:variable name="publisher"
@@ -56,27 +60,9 @@
         
                                 <xsl:choose>
                             <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'sportsnetwork.com'"
-                                >tsn</xsl:when>
-                            <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'rotoworld.com'"
-                                >rotoworld</xsl:when>
-                            <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'optasports.com'"
-                                >opta</xsl:when>
-                            <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'fantasysports.ca'"
-                                >fss</xsl:when>
-                            <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'padatasports.com'"
-                                >pad</xsl:when>
-                            <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'nhl.com'"
-                                >nhl</xsl:when>
-                            <xsl:when
-                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'sportsdirectinc.com'"
-                                >sdi</xsl:when>
-                            <xsl:otherwise>unknown</xsl:otherwise>
+                                test="sportsml:sports-content/sportsml:sports-metadata/sportsml:sports-content-codes/sportsml:sports-content-code[@code-type='publisher']/@code-key = 'anyvendor'"
+                                >anyvendor</xsl:when>
+                            <xsl:otherwise>vend</xsl:otherwise>
                         </xsl:choose>
 	    </xsl:variable>
 
@@ -117,25 +103,46 @@
             <xsl:when test="parent::sportsml:player-metadata">
                 <xsl:element xmlns="http://iptc.org/std/nar/2006-10-01/" name="{name()}">
                     <xsl:attribute name="role">nrol:full</xsl:attribute>
-                    <xsl:value-of select="@first"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="@last"/>
+                    <xsl:choose>
+                        <xsl:when test="@full">
+                            <xsl:value-of select="@full"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="@first"/>
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="@last"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:when>
             <xsl:when test="parent::sportsml:official-metadata">
                 <xsl:element xmlns="http://iptc.org/std/nar/2006-10-01/" name="{name()}">
                     <xsl:attribute name="role">nrol:full</xsl:attribute>
-                    <xsl:value-of select="@first"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="@last"/>
+                    <xsl:choose>
+                        <xsl:when test="@full">
+                            <xsl:value-of select="@full"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="@first"/>
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="@last"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:when>
             <xsl:when test="parent::sportsml:associate-metadata">
                 <xsl:element xmlns="http://iptc.org/std/nar/2006-10-01/" name="{name()}">
                     <xsl:attribute name="role">nrol:full</xsl:attribute>
-                    <xsl:value-of select="@first"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="@last"/>
+                    <xsl:choose>
+                        <xsl:when test="@full">
+                            <xsl:value-of select="@full"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="@first"/>
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="@last"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:when>
             <xsl:otherwise>
@@ -186,6 +193,11 @@
                                 </home-location>
     </xsl:template>
 
+    <!-- get rid of empty elements as they pop up -->
+
+    <xsl:template match="sportsml:sports-content-codes[not(*)]"/>
+    <xsl:template match="sportsml:event-metadata-american-football[not(*)]"/>
+    
     <!-- deprecated things that need to be moved to a better place or renamed -->
 
     <xsl:template match="sportsml:team-stats">
@@ -212,6 +224,12 @@
 		</xsl:element>
     </xsl:template>
     
+    <xsl:template match="@tackles[parent::sportsml:stats-american-football-defensive]">
+        <xsl:attribute name="tackles-total">
+            <xsl:value-of select="."/>
+        </xsl:attribute>
+    </xsl:template>
+
     <xsl:template match="@tackles[parent::sportsml:stats-american-football-offensive]">
         <xsl:attribute name="tackles-offense">
             <xsl:value-of select="."/>
@@ -428,7 +446,7 @@
         	<action xmlns="http://iptc.org/std/nar/2006-10-01/">
         	    <xsl:attribute name="class"><xsl:value-of select="concat('spactionclass:',$action-class)"/></xsl:attribute>
         	    <xsl:if test="self::sportsml:action-baseball-pitch">
-        	    <xsl:attribute name="type">spbblactiontype:pitch</xsl:attribute>
+        	    <xsl:attribute name="type">spbblaction:pitch</xsl:attribute>
         	    </xsl:if>
         	    <xsl:apply-templates select="@*"/>
         	    <xsl:for-each select="sportsml:action/@*">
@@ -479,7 +497,7 @@
 
     <xsl:template match="@play-type">
         <xsl:attribute name="type">
-            <xsl:value-of select="concat('sp',$sport-name-short,'actiontype:',.)"/>
+            <xsl:value-of select="concat('sp',$sport-name-short,'action:',.)"/>
         </xsl:attribute>
     </xsl:template>
 
@@ -890,12 +908,12 @@
         	<xsl:choose>
             <xsl:when test="ancestor::sportsml:sports-event">
             <xsl:attribute name="position-event">
-            	<xsl:value-of select="concat('sp',$sport-name-short,'offpos:',translate(.,' ','-'))"/>
+            	<xsl:value-of select="concat('vendoffpos:',translate(.,' ','-'))"/>
             </xsl:attribute>
 </xsl:when>
             <xsl:otherwise>
                     <xsl:attribute name="position-regular">
-            <xsl:value-of select="concat('sp',$sport-name-short,'offpos:',translate(.,' ','-'))"/>
+            <xsl:value-of select="concat('vendoffpos:',translate(.,' ','-'))"/>
             </xsl:attribute>
 			</xsl:otherwise>
         	</xsl:choose>
@@ -952,13 +970,13 @@
         <xsl:attribute name="{$att-name}"><xsl:value-of select="concat('spct:',.)"/></xsl:attribute>
     </xsl:template>
     <xsl:template match="@event-status">
-        	<xsl:attribute name="{name()}"><xsl:value-of select="concat('spevstatus:',.)"/></xsl:attribute>
+        	<xsl:attribute name="{name()}"><xsl:value-of select="concat('speventstatus:',.)"/></xsl:attribute>
     </xsl:template>
     <xsl:template match="@position-regular">
         	<xsl:attribute name="{name()}"><xsl:value-of select="concat('sp',$sport-name-short,'pos:',.)"/></xsl:attribute>
     </xsl:template>
     <xsl:template match="@position-event">
-        	<xsl:attribute name="{name()}"><xsl:value-of select="concat('sp',$sport-name-short,'pos:',.)"/></xsl:attribute>
+        	<xsl:attribute name="{name()}"><xsl:value-of select="concat('sp',$sport-name-short,'position:',.)"/></xsl:attribute>
     </xsl:template>
     <xsl:template match="@status[parent::sportsml:player-metadata]">
         	<xsl:attribute name="{name()}"><xsl:value-of select="concat('spperstatus:',.)"/></xsl:attribute>
@@ -1112,55 +1130,50 @@
     <xsl:template name="xml-date-time">
         <xsl:param name="date-time"/>
         <xsl:param name="not-att"/>
+        
         <xsl:choose>
-        <xsl:when test="contains($date-time,'/')">
-        <xsl:variable name="year" select="substring-after(substring-after($date-time,'/'),'/')"/>
-        <xsl:variable name="day" select="substring-before(substring-after($date-time,'/'),'/')"/>
-        <xsl:variable name="month" select="substring-before($date-time,'/')"/>
+            <xsl:when test="contains($date-time,'/')">
+                <xsl:variable name="year" select="substring-after(substring-after($date-time,'/'),'/')"/>
+                <xsl:variable name="day" select="substring-before(substring-after($date-time,'/'),'/')"/>
+                <xsl:variable name="month" select="substring-before($date-time,'/')"/>
 
                 <xsl:attribute name="{name()}">
                     <xsl:value-of select="$year"/>-<xsl:value-of select="format-number($month,'00')"/>-<xsl:value-of
                         select="format-number($day,'00')"/>
                 </xsl:attribute>
 
-        </xsl:when>
-        <xsl:when test="contains($date-time,'-')">
-        <xsl:choose>
-            <xsl:when test="$not-att='yes'">
-        <xsl:value-of select="$date-time"/>
+            </xsl:when>
+            <xsl:when test="contains($date-time,'-')">
+                <xsl:choose>
+                    <xsl:when test="$not-att='yes'">
+                        <xsl:value-of select="$date-time"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="{name()}">
+                            <xsl:value-of select="$date-time"/>
+                        </xsl:attribute>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:attribute name="{name()}">
-        <xsl:value-of select="$date-time"/>
-                </xsl:attribute>
-            </xsl:otherwise>
-        </xsl:choose>
-        </xsl:when>
-        <xsl:otherwise>
-        <xsl:variable name="year" select="substring($date-time,0,5)"/>
-        <xsl:variable name="month" select="substring($date-time,5,2)"/>
-        <xsl:variable name="day" select="substring($date-time,7,2)"/>
-        <xsl:variable name="hour" select="substring($date-time,10,2)"/>
-        <xsl:variable name="minute" select="substring($date-time,12,2)"/>
-        <xsl:variable name="second" select="substring($date-time,14,2)"/>
-        <xsl:variable name="zone-hour" select="substring($date-time,16,3)"/>
-        <xsl:variable name="zone-minute" select="substring($date-time,19)"/>
-        <xsl:choose>
-            <xsl:when test="$not-att='yes'">
-                <xsl:value-of select="$year"/>-<xsl:value-of select="$month"/>-<xsl:value-of
-                    select="$day"/>T<xsl:value-of select="$hour"/>:<xsl:value-of select="$minute"
-                    />:<xsl:value-of select="$second"/>
-                <xsl:value-of select="$zone-hour"/>:<xsl:value-of select="$zone-minute"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:attribute name="{name()}">
-                    <xsl:value-of select="$year"/>-<xsl:value-of select="$month"/>-<xsl:value-of
-                        select="$day"/>T<xsl:value-of select="$hour"/>:<xsl:value-of
-                        select="$minute"/>:<xsl:value-of select="$second"/>
-                    <xsl:value-of select="$zone-hour"/>:<xsl:value-of select="$zone-minute"/>
-                </xsl:attribute>
-            </xsl:otherwise>
-        </xsl:choose>
+                <xsl:variable name="year"><xsl:if test="substring($date-time,0,5) != ''"><xsl:value-of select="substring($date-time,0,5)"/></xsl:if></xsl:variable>
+                <xsl:variable name="month"><xsl:if test="substring($date-time,5,2) != ''"><xsl:value-of select="concat('-',substring($date-time,5,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="day"><xsl:if test="substring($date-time,7,2) != ''"><xsl:value-of select="concat('-',substring($date-time,7,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="hour"><xsl:if test="substring($date-time,10,2) != ''"><xsl:value-of select="concat('T',substring($date-time,10,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="minute"><xsl:if test="substring($date-time,12,2) != ''"><xsl:value-of select="concat(':',substring($date-time,12,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="second"><xsl:if test="substring($date-time,14,2) != ''"><xsl:value-of select="concat(':',substring($date-time,14,2))"/></xsl:if></xsl:variable>
+                <xsl:variable name="zone-hour"><xsl:if test="substring($date-time,16,3) != ''"><xsl:value-of select="substring($date-time,16,3)"/></xsl:if></xsl:variable>
+                <xsl:variable name="zone-minute"><xsl:if test="substring($date-time,19,2) != ''"><xsl:value-of select="concat(':',substring($date-time,19,2))"/></xsl:if></xsl:variable>
+                <xsl:choose>
+                    <xsl:when test="$not-att='yes'">
+                        <xsl:value-of select="$year"/><xsl:value-of select="$month"/><xsl:value-of select="$day"/><xsl:value-of select="$hour"/><xsl:value-of select="$minute"/><xsl:value-of select="$second"/><xsl:value-of select="$zone-hour"/><xsl:value-of select="$zone-minute"/>
+                   </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:attribute name="{name()}">
+                            <xsl:value-of select="concat($year,$month,$day,$hour,$minute,$second,$zone-hour,$zone-minute)"/>
+                        </xsl:attribute>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

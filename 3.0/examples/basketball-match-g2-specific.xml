@@ -3,10 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     standard="NewsML-G2"
-    standardversion="2.0" version="1" conformance="power" xml:lang="en-US"
+    standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
     
-    guid="xt.prog.20150303231135-20004-04.337-event-stats-progressive">
+    guid="urn:newsml:sportsml.org:20160502:xt.prog.20150303231135-20004-04.337-event-stats-progressive">
     <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <itemMeta>
         <itemClass qcode="ninat:text"/>
         <provider qcode="web:xmlteam.com">
@@ -25,8 +26,7 @@
         <creator qcode="web:sportsnetwork.com">
             <name>The Sports Network, Inc.</name>
         </creator>
-        <altId type="idtype:tsn-id" id="sportsnetwork.com"/>
-        <genre qcode="spfixt:event-stats-progressive">
+                <genre qcode="spfixt:event-stats-progressive">
             <name xml:lang="en-US">Progressive Event Statistics</name>
             <broader qcode="spct:event-summary"/>
         </genre>
@@ -41,20 +41,20 @@
             <name xml:lang="en-US">Basketball</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject qcode="league:l.nba.com" type="spct:league">
+        <subject qcode="vendleague:l.nba.com" type="spct:league">
             <name xml:lang="en-US">National Basketball Association</name>
             <broader qcode="subj:15008000"/>
             <sameAs qcode="subj:15008001"/>
         </subject>
-        <subject type="spct:conference" qcode="conference:l.nba.com-c.eastern">
+        <subject type="spct:conference" qcode="vendconf:l.nba.com-c.eastern">
             <name xml:lang="en-US">Eastern</name>
-            <broader qcode="league:l.nba.com"/>
+            <broader qcode="vendleague:l.nba.com"/>
         </subject>
-        <subject type="cpnat:event" qcode="event:l.nba.com-2014-e.20004"/>
-        <subject type="spct:team" qcode="team:l.nba.com-t.14">
+        <subject type="cpnat:event" qcode="vendevent:l.nba.com-2014-e.20004"/>
+        <subject type="spct:team" qcode="vendteam:l.nba.com-t.14">
             <name>Milwaukee Bucks</name>
         </subject>
-        <subject type="spct:team" qcode="team:l.nba.com-t.17">
+        <subject type="spct:team" qcode="vendteam:l.nba.com-t.17">
             <name>Denver Nuggets</name>
         </subject>
         <headline>Ersan Ilyasova layup assisted by Khris Middleton.</headline>
@@ -63,13 +63,13 @@
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content>
                 <sports-event>
-                    <event-metadata key="tsnevent:l.nba.com-2014-e.20004"
+                    <event-metadata key="vendevent:l.nba.com-2014-e.20004"
                         event-status="speventstatus:mid-event"
                         temporal-unit-value="vendor:l.nba.com-2014-e.20004"
                         start-date-time="2015-03-03T21:00:00-05:00" period-value="4"
                         period-time-remaining="4:51"/>
                     <team id="l.nba.com-t.14">
-                        <team-metadata key="tsnteam:l.nba.com-t.14" alignment="away">
+                        <team-metadata key="vendteam:l.nba.com-t.14" alignment="away">
                             <name role="nrol:full">Milwaukee Bucks</name>
                             <name part="nprt:common">Milwaukee</name>
                             <name part="nprt:nickname">Bucks</name>
@@ -96,7 +96,7 @@
                             </team-stats-basketball>
                         </team-stats>
                         <player id="l.nba.com-p.2404">
-                            <player-metadata key="tsnperson:l.nba.com-p.2404"
+                            <player-metadata key="vendperson:l.nba.com-p.2404"
                                 position-event="spbkbposition:forward" uniform-number="34"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Giannis Antetokounmpo</name>
@@ -117,7 +117,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1024">
-                            <player-metadata key="tsnperson:l.nba.com-p.1024"
+                            <player-metadata key="vendperson:l.nba.com-p.1024"
                                 position-event="spbkbposition:forward" uniform-number="7"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Ersan Ilyasova</name>
@@ -138,7 +138,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.641">
-                            <player-metadata key="tsnperson:l.nba.com-p.641"
+                            <player-metadata key="vendperson:l.nba.com-p.641"
                                 position-event="spbkbposition:center" uniform-number="27"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Zaza Pachulia</name>
@@ -159,7 +159,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2289">
-                            <player-metadata key="tsnperson:l.nba.com-p.2289"
+                            <player-metadata key="vendperson:l.nba.com-p.2289"
                                 position-event="spbkbposition:guard" uniform-number="22"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Khris Middleton</name>
@@ -180,7 +180,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2411">
-                            <player-metadata key="tsnperson:l.nba.com-p.2411"
+                            <player-metadata key="vendperson:l.nba.com-p.2411"
                                 position-event="spbkbposition:guard" uniform-number="5"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Michael Carter-Williams</name>
@@ -201,7 +201,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1504">
-                            <player-metadata key="tsnperson:l.nba.com-p.1504"
+                            <player-metadata key="vendperson:l.nba.com-p.1504"
                                 position-event="spbkbposition:guard" uniform-number="19"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Jerryd Bayless</name>
@@ -222,7 +222,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2281">
-                            <player-metadata key="tsnperson:l.nba.com-p.2281"
+                            <player-metadata key="vendperson:l.nba.com-p.2281"
                                 position-event="spbkbposition:center" uniform-number="31"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">John Henson</name>
@@ -243,7 +243,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1292">
-                            <player-metadata key="tsnperson:l.nba.com-p.1292"
+                            <player-metadata key="vendperson:l.nba.com-p.1292"
                                 position-event="spbkbposition:forward" uniform-number="9"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Jared Dudley</name>
@@ -264,7 +264,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2596">
-                            <player-metadata key="tsnperson:l.nba.com-p.2596"
+                            <player-metadata key="vendperson:l.nba.com-p.2596"
                                 position-event="spbkbposition:guard" uniform-number="11"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Tyler Ennis</name>
@@ -285,7 +285,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2271">
-                            <player-metadata key="tsnperson:l.nba.com-p.2271"
+                            <player-metadata key="vendperson:l.nba.com-p.2271"
                                 position-event="spbkbposition:center" uniform-number="21"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Miles Plumlee</name>
@@ -307,7 +307,7 @@
                         </player>
                     </team>
                     <team id="l.nba.com-t.17">
-                        <team-metadata key="tsnteam:l.nba.com-t.17" alignment="home">
+                        <team-metadata key="vendteam:l.nba.com-t.17" alignment="home">
                             <name role="nrol:full">Denver Nuggets</name>
                             <name part="nprt:common">Denver</name>
                             <name part="nprt:nickname">Nuggets</name>
@@ -334,7 +334,7 @@
                             </team-stats-basketball>
                         </team-stats>
                         <player id="l.nba.com-p.1441">
-                            <player-metadata key="tsnperson:l.nba.com-p.1441"
+                            <player-metadata key="vendperson:l.nba.com-p.1441"
                                 position-event="spbkbposition:forward" uniform-number="8"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Danilo Gallinari</name>
@@ -355,7 +355,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1290">
-                            <player-metadata key="tsnperson:l.nba.com-p.1290"
+                            <player-metadata key="vendperson:l.nba.com-p.1290"
                                 position-event="spbkbposition:forward" uniform-number="21"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Wilson Chandler</name>
@@ -376,7 +376,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2107">
-                            <player-metadata key="tsnperson:l.nba.com-p.2107"
+                            <player-metadata key="vendperson:l.nba.com-p.2107"
                                 position-event="spbkbposition:center" uniform-number="35"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Kenneth Faried</name>
@@ -397,7 +397,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1184">
-                            <player-metadata key="tsnperson:l.nba.com-p.1184"
+                            <player-metadata key="vendperson:l.nba.com-p.1184"
                                 position-event="spbkbposition:guard" uniform-number="4"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Randy Foye</name>
@@ -418,7 +418,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1616">
-                            <player-metadata key="tsnperson:l.nba.com-p.1616"
+                            <player-metadata key="vendperson:l.nba.com-p.1616"
                                 position-event="spbkbposition:guard" uniform-number="3"
                                 status="spplayerstatus:starter">
                                 <name role="nrol:full">Ty Lawson</name>
@@ -439,7 +439,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1467">
-                            <player-metadata key="tsnperson:l.nba.com-p.1467"
+                            <player-metadata key="vendperson:l.nba.com-p.1467"
                                 position-event="spbkbposition:center" uniform-number="7"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">J.J. Hickson</name>
@@ -460,7 +460,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.871">
-                            <player-metadata key="tsnperson:l.nba.com-p.871"
+                            <player-metadata key="vendperson:l.nba.com-p.871"
                                 position-event="spbkbposition:guard" uniform-number="28"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Jameer Nelson</name>
@@ -481,7 +481,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2256">
-                            <player-metadata key="tsnperson:l.nba.com-p.2256"
+                            <player-metadata key="vendperson:l.nba.com-p.2256"
                                 position-event="spbkbposition:guard" uniform-number="5"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Will Barton</name>
@@ -502,7 +502,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.1433">
-                            <player-metadata key="tsnperson:l.nba.com-p.1433"
+                            <player-metadata key="vendperson:l.nba.com-p.1433"
                                 position-event="spbkbposition:forward" uniform-number="00"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Darrell Arthur</name>
@@ -523,7 +523,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2601">
-                            <player-metadata key="tsnperson:l.nba.com-p.2601"
+                            <player-metadata key="vendperson:l.nba.com-p.2601"
                                 position-event="spbkbposition:guard" uniform-number="14"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Gary Harris</name>
@@ -544,7 +544,7 @@
                             </player-stats>
                         </player>
                         <player id="l.nba.com-p.2418">
-                            <player-metadata key="tsnperson:l.nba.com-p.2418"
+                            <player-metadata key="vendperson:l.nba.com-p.2418"
                                 position-event="spbkbposition:guard" uniform-number="11"
                                 status="spplayerstatus:bench">
                                 <name role="nrol:full">Erick Green</name>

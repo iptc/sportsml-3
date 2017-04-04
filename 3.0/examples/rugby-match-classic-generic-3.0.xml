@@ -14,13 +14,15 @@
             <sports-content-code code-type="spct:sport" code-key="sport:15049000"
                 code-name="Rugby Union"/>
             <sports-content-code code-type="spct:league"
-                code-key="league:l.rugby.england.premiership" code-name="Aviva Premiership Rugby"/>
+                code-key="vendleague:l.rugby.england.premiership" code-name="Aviva Premiership Rugby"/>
             <sports-content-code code-type="spct:season" code-key="season:2014"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
         <event-metadata temporal-unit-type="cpnat:event"
-            key="padevent:l.rugby.england.premiership-2014-e.3740642"
+            key="vendevent:l.rugby.england.premiership-2014-e.3740642"
             event-status="speventstatus:post-event" event-status-note="Result"
             start-date-time="2015-02-21T15:15:00+00:00"
             event-outcome-type="speventoutcometype:regular">
@@ -33,7 +35,7 @@
             </site>
         </event-metadata>
         <team id="t.33094">
-            <team-metadata key="padteam:t.33094" alignment="home">
+            <team-metadata key="vendteam:t.33094" alignment="home">
                 <name role="nrol:full">Bath</name>
                 <name part="nprt:common">Bath</name>
             </team-metadata>
@@ -55,7 +57,7 @@
                 <sub-score period-value="" score="13"/>
             </team-stats>
             <player id="p.416094">
-                <player-metadata key="padperson:p.416094" position-event="sprgxposition:fullback"
+                <player-metadata key="vendperson:p.416094" position-event="sprgxposition:fullback"
                     uniform-number="15" status="spplayerstatus:starter">
                     <name role="nrol:full">Tom Homer</name>
                 </player-metadata>
@@ -71,7 +73,7 @@
                 </player-stats>
             </player>
             <player id="p.501168">
-                <player-metadata key="padperson:p.501168" position-event="sprgxposition:fullback"
+                <player-metadata key="vendperson:p.501168" position-event="sprgxposition:fullback"
                     uniform-number="14" status="spplayerstatus:starter">
                     <name role="nrol:full">Semesa Rokoduguni</name>
                 </player-metadata>
@@ -87,7 +89,7 @@
                 </player-stats>
             </player>
             <player id="p.343059">
-                <player-metadata key="padperson:p.343059" position-event="sprgxposition:center"
+                <player-metadata key="vendperson:p.343059" position-event="sprgxposition:center"
                     uniform-number="13" status="spplayerstatus:starter">
                     <name role="nrol:full">Sam Burgess</name>
                 </player-metadata>
@@ -103,7 +105,7 @@
                 </player-stats>
             </player>
             <player id="p.378841">
-                <player-metadata key="padperson:p.378841" position-event="sprgxposition:center"
+                <player-metadata key="vendperson:p.378841" position-event="sprgxposition:center"
                     uniform-number="12" status="spplayerstatus:starter">
                     <name role="nrol:full">Kyle Eastmond</name>
                 </player-metadata>
@@ -119,7 +121,7 @@
                 </player-stats>
             </player>
             <player id="p.476085">
-                <player-metadata key="padperson:p.476085" uniform-number="11"
+                <player-metadata key="vendperson:p.476085" uniform-number="11"
                     status="spplayerstatus:starter">
                     <name role="nrol:full">Ollie Woodburn</name>
                 </player-metadata>
@@ -135,7 +137,7 @@
                 </player-stats>
             </player>
             <player id="p.496022">
-                <player-metadata key="padperson:p.496022" position-event="sprgxposition:center"
+                <player-metadata key="vendperson:p.496022" position-event="sprgxposition:center"
                     uniform-number="10" status="spplayerstatus:starter">
                     <name role="nrol:full">Ollie Devoto</name>
                 </player-metadata>
@@ -151,7 +153,7 @@
                 </player-stats>
             </player>
             <player id="p.390533">
-                <player-metadata key="padperson:p.390533" position-event="sprgxposition:scrum-half"
+                <player-metadata key="vendperson:p.390533" position-event="sprgxposition:scrum-half"
                     uniform-number="9" status="spplayerstatus:starter">
                     <name role="nrol:full">Micky Young</name>
                 </player-metadata>
@@ -167,7 +169,7 @@
                 </player-stats>
             </player>
             <player id="p.18797">
-                <player-metadata key="padperson:p.18797" position-event="sprgxposition:prop"
+                <player-metadata key="vendperson:p.18797" position-event="sprgxposition:prop"
                     uniform-number="1" status="spplayerstatus:starter">
                     <name role="nrol:full">Paul James</name>
                 </player-metadata>
@@ -183,7 +185,7 @@
                 </player-stats>
             </player>
             <player id="p.340055">
-                <player-metadata key="padperson:p.340055" position-event="sprgxposition:hooker"
+                <player-metadata key="vendperson:p.340055" position-event="sprgxposition:hooker"
                     uniform-number="2" status="spplayerstatus:starter">
                     <name role="nrol:full">Rob Webber</name>
                 </player-metadata>
@@ -199,7 +201,7 @@
                 </player-stats>
             </player>
             <player id="p.457961">
-                <player-metadata key="padperson:p.457961" position-event="sprgxposition:prop"
+                <player-metadata key="vendperson:p.457961" position-event="sprgxposition:prop"
                     uniform-number="3" status="spplayerstatus:starter">
                     <name role="nrol:full">Henry Thomas</name>
                 </player-metadata>
@@ -215,7 +217,7 @@
                 </player-stats>
             </player>
             <player id="p.213443">
-                <player-metadata key="padperson:p.213443" position-event="sprgxposition:flanker"
+                <player-metadata key="vendperson:p.213443" position-event="sprgxposition:flanker"
                     uniform-number="4" status="spplayerstatus:starter">
                     <name role="nrol:full">Stuart Hooper</name>
                 </player-metadata>
@@ -231,7 +233,7 @@
                 </player-stats>
             </player>
             <player id="p.343889">
-                <player-metadata key="padperson:p.343889" position-event="sprgxposition:lock"
+                <player-metadata key="vendperson:p.343889" position-event="sprgxposition:lock"
                     uniform-number="5" status="spplayerstatus:starter">
                     <name role="nrol:full">Dominic Day</name>
                 </player-metadata>
@@ -247,7 +249,7 @@
                 </player-stats>
             </player>
             <player id="p.423067">
-                <player-metadata key="padperson:p.423067" position-event="sprgxposition:lock"
+                <player-metadata key="vendperson:p.423067" position-event="sprgxposition:lock"
                     uniform-number="6" status="spplayerstatus:starter">
                     <name role="nrol:full">Matt Garvey</name>
                 </player-metadata>
@@ -263,7 +265,7 @@
                 </player-stats>
             </player>
             <player id="p.360868">
-                <player-metadata key="padperson:p.360868" position-event="sprgxposition:flanker"
+                <player-metadata key="vendperson:p.360868" position-event="sprgxposition:flanker"
                     uniform-number="7" status="spplayerstatus:starter">
                     <name role="nrol:full">Francois Louw</name>
                 </player-metadata>
@@ -279,7 +281,7 @@
                 </player-stats>
             </player>
             <player id="p.415765">
-                <player-metadata key="padperson:p.415765" position-event="sprgxposition:flanker"
+                <player-metadata key="vendperson:p.415765" position-event="sprgxposition:flanker"
                     uniform-number="8" status="spplayerstatus:starter">
                     <name role="nrol:full">Carl Fearns</name>
                 </player-metadata>
@@ -295,7 +297,7 @@
                 </player-stats>
             </player>
             <player id="p.404699">
-                <player-metadata key="padperson:p.404699" uniform-number="16"
+                <player-metadata key="vendperson:p.404699" uniform-number="16"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Ross Batty</name>
                 </player-metadata>
@@ -311,7 +313,7 @@
                 </player-stats>
             </player>
             <player id="p.477874">
-                <player-metadata key="padperson:p.477874" uniform-number="17"
+                <player-metadata key="vendperson:p.477874" uniform-number="17"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Nick Auterac</name>
                 </player-metadata>
@@ -327,7 +329,7 @@
                 </player-stats>
             </player>
             <player id="p.442159">
-                <player-metadata key="padperson:p.442159" uniform-number="18"
+                <player-metadata key="vendperson:p.442159" uniform-number="18"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Kane Palma-Newport</name>
                 </player-metadata>
@@ -343,7 +345,7 @@
                 </player-stats>
             </player>
             <player id="p.412155">
-                <player-metadata key="padperson:p.412155" position-event="sprgxposition:back-row"
+                <player-metadata key="vendperson:p.412155" position-event="sprgxposition:back-row"
                     uniform-number="19" status="spplayerstatus:bench">
                     <name role="nrol:full">Alafoti Faosiliva</name>
                 </player-metadata>
@@ -359,7 +361,7 @@
                 </player-stats>
             </player>
             <player id="p.333959">
-                <player-metadata key="padperson:p.333959" uniform-number="20"
+                <player-metadata key="vendperson:p.333959" uniform-number="20"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Leroy Houston</name>
                 </player-metadata>
@@ -375,7 +377,7 @@
                 </player-stats>
             </player>
             <player id="p.177851">
-                <player-metadata key="padperson:p.177851" position-event="sprgxposition:scrum-half"
+                <player-metadata key="vendperson:p.177851" position-event="sprgxposition:scrum-half"
                     uniform-number="21" status="spplayerstatus:bench">
                     <name role="nrol:full">Peter Stringer</name>
                 </player-metadata>
@@ -391,7 +393,7 @@
                 </player-stats>
             </player>
             <player id="p.547213">
-                <player-metadata key="padperson:p.547213" uniform-number="22"
+                <player-metadata key="vendperson:p.547213" uniform-number="22"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Rory Jennings</name>
                 </player-metadata>
@@ -407,7 +409,7 @@
                 </player-stats>
             </player>
             <player id="p.539400">
-                <player-metadata key="padperson:p.539400" uniform-number="23"
+                <player-metadata key="vendperson:p.539400" uniform-number="23"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Luke Arscott</name>
                 </player-metadata>
@@ -424,7 +426,7 @@
             </player>
         </team>
         <team id="t.33286">
-            <team-metadata key="padteam:t.33286" alignment="away">
+            <team-metadata key="vendteam:t.33286" alignment="away">
                 <name role="nrol:full">Northampton</name>
                 <name part="nprt:common">Northampton</name>
             </team-metadata>
@@ -446,7 +448,7 @@
                 <sub-score period-value="" score="18"/>
             </team-stats>
             <player id="p.373518">
-                <player-metadata key="padperson:p.373518" position-event="sprgxposition:fullback"
+                <player-metadata key="vendperson:p.373518" position-event="sprgxposition:fullback"
                     uniform-number="15" status="spplayerstatus:starter">
                     <name role="nrol:full">James Wilson</name>
                 </player-metadata>
@@ -462,7 +464,7 @@
                 </player-stats>
             </player>
             <player id="p.437613">
-                <player-metadata key="padperson:p.437613" position-event="sprgxposition:fullback"
+                <player-metadata key="vendperson:p.437613" position-event="sprgxposition:fullback"
                     uniform-number="14" status="spplayerstatus:starter">
                     <name role="nrol:full">Ken Pisi</name>
                 </player-metadata>
@@ -478,7 +480,7 @@
                 </player-stats>
             </player>
             <player id="p.324028">
-                <player-metadata key="padperson:p.324028" position-event="sprgxposition:center"
+                <player-metadata key="vendperson:p.324028" position-event="sprgxposition:center"
                     uniform-number="13" status="spplayerstatus:starter">
                     <name role="nrol:full">George Pisi</name>
                 </player-metadata>
@@ -494,7 +496,7 @@
                 </player-stats>
             </player>
             <player id="p.501169">
-                <player-metadata key="padperson:p.501169" uniform-number="12"
+                <player-metadata key="vendperson:p.501169" uniform-number="12"
                     status="spplayerstatus:starter">
                     <name role="nrol:full">Tom Stephenson</name>
                 </player-metadata>
@@ -510,7 +512,7 @@
                 </player-stats>
             </player>
             <player id="p.454870">
-                <player-metadata key="padperson:p.454870" uniform-number="11"
+                <player-metadata key="vendperson:p.454870" uniform-number="11"
                     status="spplayerstatus:starter">
                     <name role="nrol:full">Jamie Elliott</name>
                 </player-metadata>
@@ -526,7 +528,7 @@
                 </player-stats>
             </player>
             <player id="p.240140">
-                <player-metadata key="padperson:p.240140" position-event="sprgxposition:fly-half"
+                <player-metadata key="vendperson:p.240140" position-event="sprgxposition:fly-half"
                     uniform-number="10" status="spplayerstatus:starter">
                     <name role="nrol:full">Stephen Myler</name>
                 </player-metadata>
@@ -542,7 +544,7 @@
                 </player-stats>
             </player>
             <player id="p.301540">
-                <player-metadata key="padperson:p.301540" position-event="sprgxposition:scrum-half"
+                <player-metadata key="vendperson:p.301540" position-event="sprgxposition:scrum-half"
                     uniform-number="9" status="spplayerstatus:starter">
                     <name role="nrol:full">Lee Dickson</name>
                 </player-metadata>
@@ -558,7 +560,7 @@
                 </player-stats>
             </player>
             <player id="p.424118">
-                <player-metadata key="padperson:p.424118" position-event="sprgxposition:prop"
+                <player-metadata key="vendperson:p.424118" position-event="sprgxposition:prop"
                     uniform-number="1" status="spplayerstatus:starter">
                     <name role="nrol:full">Alex Waller</name>
                 </player-metadata>
@@ -574,7 +576,7 @@
                 </player-stats>
             </player>
             <player id="p.454872">
-                <player-metadata key="padperson:p.454872" uniform-number="2"
+                <player-metadata key="vendperson:p.454872" uniform-number="2"
                     status="spplayerstatus:starter">
                     <name role="nrol:full">Mike Haywood</name>
                 </player-metadata>
@@ -590,7 +592,7 @@
                 </player-stats>
             </player>
             <player id="p.436606">
-                <player-metadata key="padperson:p.436606" uniform-number="3"
+                <player-metadata key="vendperson:p.436606" uniform-number="3"
                     status="spplayerstatus:starter">
                     <name role="nrol:full">Gareth Denman</name>
                 </player-metadata>
@@ -606,7 +608,7 @@
                 </player-stats>
             </player>
             <player id="p.171234">
-                <player-metadata key="padperson:p.171234" position-event="sprgxposition:fullback"
+                <player-metadata key="vendperson:p.171234" position-event="sprgxposition:fullback"
                     uniform-number="4" status="spplayerstatus:starter">
                     <name role="nrol:full">James Craig</name>
                 </player-metadata>
@@ -622,7 +624,7 @@
                 </player-stats>
             </player>
             <player id="p.255724">
-                <player-metadata key="padperson:p.255724" position-event="sprgxposition:lock"
+                <player-metadata key="vendperson:p.255724" position-event="sprgxposition:lock"
                     uniform-number="5" status="spplayerstatus:starter">
                     <name role="nrol:full">Christian Day</name>
                 </player-metadata>
@@ -638,7 +640,7 @@
                 </player-stats>
             </player>
             <player id="p.429208">
-                <player-metadata key="padperson:p.429208" position-event="sprgxposition:back-row"
+                <player-metadata key="vendperson:p.429208" position-event="sprgxposition:back-row"
                     uniform-number="6" status="spplayerstatus:starter">
                     <name role="nrol:full">Samu Manoa</name>
                 </player-metadata>
@@ -654,7 +656,7 @@
                 </player-stats>
             </player>
             <player id="p.387549">
-                <player-metadata key="padperson:p.387549" position-event="sprgxposition:back-row"
+                <player-metadata key="vendperson:p.387549" position-event="sprgxposition:back-row"
                     uniform-number="7" status="spplayerstatus:starter">
                     <name role="nrol:full">Calum Clark</name>
                 </player-metadata>
@@ -670,7 +672,7 @@
                 </player-stats>
             </player>
             <player id="p.434761">
-                <player-metadata key="padperson:p.434761" position-event="sprgxposition:back-row"
+                <player-metadata key="vendperson:p.434761" position-event="sprgxposition:back-row"
                     uniform-number="8" status="spplayerstatus:starter">
                     <name role="nrol:full">Sam Dickinson</name>
                 </player-metadata>
@@ -686,7 +688,7 @@
                 </player-stats>
             </player>
             <player id="p.523205">
-                <player-metadata key="padperson:p.523205" uniform-number="16"
+                <player-metadata key="vendperson:p.523205" uniform-number="16"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Matt Williams</name>
                 </player-metadata>
@@ -702,7 +704,7 @@
                 </player-stats>
             </player>
             <player id="p.412577">
-                <player-metadata key="padperson:p.412577" position-event="sprgxposition:prop"
+                <player-metadata key="vendperson:p.412577" position-event="sprgxposition:prop"
                     uniform-number="17" status="spplayerstatus:bench">
                     <name role="nrol:full">Alex Corbisiero</name>
                 </player-metadata>
@@ -718,7 +720,7 @@
                 </player-stats>
             </player>
             <player id="p.342203">
-                <player-metadata key="padperson:p.342203" position-event="sprgxposition:prop"
+                <player-metadata key="vendperson:p.342203" position-event="sprgxposition:prop"
                     uniform-number="18" status="spplayerstatus:bench">
                     <name role="nrol:full">Tom Mercey</name>
                 </player-metadata>
@@ -734,7 +736,7 @@
                 </player-stats>
             </player>
             <player id="p.487121">
-                <player-metadata key="padperson:p.487121" uniform-number="19"
+                <player-metadata key="vendperson:p.487121" uniform-number="19"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Teimana Harrison</name>
                 </player-metadata>
@@ -750,7 +752,7 @@
                 </player-stats>
             </player>
             <player id="p.231887">
-                <player-metadata key="padperson:p.231887" position-event="sprgxposition:back-row"
+                <player-metadata key="vendperson:p.231887" position-event="sprgxposition:back-row"
                     uniform-number="20" status="spplayerstatus:bench">
                     <name role="nrol:full">Phil Dowson</name>
                 </player-metadata>
@@ -766,7 +768,7 @@
                 </player-stats>
             </player>
             <player id="p.377667">
-                <player-metadata key="padperson:p.377667" position-event="sprgxposition:scrum-half"
+                <player-metadata key="vendperson:p.377667" position-event="sprgxposition:scrum-half"
                     uniform-number="21" status="spplayerstatus:bench">
                     <name role="nrol:full">Kahn Fotuali'i</name>
                 </player-metadata>
@@ -782,7 +784,7 @@
                 </player-stats>
             </player>
             <player id="p.246714">
-                <player-metadata key="padperson:p.246714" uniform-number="22"
+                <player-metadata key="vendperson:p.246714" uniform-number="22"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Sam Oliver</name>
                 </player-metadata>
@@ -798,7 +800,7 @@
                 </player-stats>
             </player>
             <player id="p.547569">
-                <player-metadata key="padperson:p.547569" uniform-number="23"
+                <player-metadata key="vendperson:p.547569" uniform-number="23"
                     status="spplayerstatus:bench">
                     <name role="nrol:full">Ahsee Tuala</name>
                 </player-metadata>
@@ -816,7 +818,7 @@
         </team>
         <officials>
             <official>
-                <official-metadata key="padperson:PO291476">
+                <official-metadata key="vendperson:PO291476">
                     <name role="nrol:full">Greg Garner</name>
                 </official-metadata>
             </official>

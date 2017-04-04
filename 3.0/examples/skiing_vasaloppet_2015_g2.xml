@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.20"
-    version="1" conformance="power" xml:lang="en-GB" guid="tt.se.20150308192343-vasaloppet-955363">
-    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
+    xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.22"
+    version="1" conformance="power" xml:lang="en-GB" guid="urn:newsml:sportsml.org:20160502:tt.se.20150308192343-vasaloppet-955363">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <itemMeta>
         <itemClass qcode="ninat:text"/>
         <provider qcode="nprov:tt.se">
@@ -11,7 +12,6 @@
         <versionCreated>2015-03-08T19:23:43+01:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
         <fileName>tt.se.20150308192343-vasaloppet-155363</fileName>
-        <link rel="path:fixture" href="event-stats"/>
     </itemMeta>
     <contentMeta>
         <contentCreated>2015-03-08T19:23:43+01:00</contentCreated>
@@ -31,8 +31,8 @@
         <inlineXML contenttype="application/sportsml+xml">
             <sports-content>
                 <tournament>
-                    <tournament-metadata status="tps:post-event" start-date-time="2015-03-08"
-                        venue-type="spsitestyle:outdoor" surface-type="st:snow">
+                    <tournament-metadata status="speventstatus:post-event" start-date-time="2015-03-08"
+                        venue-type="spsitestyle:outdoor" surface-type="vendst:snow">
                         <name>Vasaloppet 2015</name>
                         <site>
                             <site-metadata>

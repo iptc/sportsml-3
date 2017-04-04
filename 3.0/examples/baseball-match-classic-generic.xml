@@ -5,7 +5,7 @@
     >
     <sports-metadata date-time="2015-06-06T00:59:42-04:00"
         doc-id="xt.prog.20150606005942-43710-16.068-event-stats-progressive" language="en-US"
-        fixture-key="tsndoc:event-stats-progressive" document-class="spct:event-summary">
+        fixture-key="spfixt:event-stats-progressive" document-class="spct:event-summary">
         <sports-content-codes>
             <sports-content-code code-name="The Sports Network, Inc."
                 code-key="publisher:sportsnetwork.com" code-type="spct:publisher"/>
@@ -13,20 +13,22 @@
                 code-key="distributor:xmlteam.com" code-type="spct:distributor"/>
             <sports-content-code code-type="spct:sport" code-key="sport:15007000"
                 code-name="Baseball"/>
-            <sports-content-code code-type="spct:league" code-key="league:l.mlb.com"
+            <sports-content-code code-type="spct:league" code-key="vendleague:l.mlb.com"
                 code-name="Major League Baseball"/>
             <sports-content-code code-type="spct:season" code-key="season:2015"/>
             <sports-content-code code-type="spct:season-type" code-key="season-type:regular"/>
-            <sports-content-code code-type="spct:conference" code-key="conference:c.national"
+            <sports-content-code code-type="spct:conference" code-key="vendconf:c.national"
                 code-name="National"/>
-            <sports-content-code code-type="spct:team" code-key="team:l.mlb.com-t.27"
+            <sports-content-code code-type="spct:team" code-key="vendteam:l.mlb.com-t.27"
                 code-name="Colorado Rockies"/>
-            <sports-content-code code-type="spct:team" code-key="team:l.mlb.com-t.16"
+            <sports-content-code code-type="spct:team" code-key="vendteam:l.mlb.com-t.16"
                 code-name="Miami Marlins"/>
         </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     </sports-metadata>
     <sports-event>
-        <event-metadata key="tsnevent:l.mlb.com-2015-e.43710" event-status="speventstatus:mid-event"
+        <event-metadata key="vendevent:l.mlb.com-2015-e.43710" event-status="speventstatus:mid-event"
             temporal-unit-value="vendor:l.mlb.com-2015-e.43710"
             start-date-time="2015-06-05T20:40:00-04:00">
             <event-metadata-baseball inning-value="8" inning-half="bottom" outs="1" strikes="2"
@@ -35,7 +37,7 @@
                 runs-this-inning-half="0"/>
         </event-metadata>
         <team id="l.mlb.com-t.16">
-            <team-metadata key="tsnteam:l.mlb.com-t.16" alignment="away">
+            <team-metadata key="vendteam:l.mlb.com-t.16" alignment="away">
                 <name role="nrol:full">Miami Marlins</name>
                 <name part="nprt:common">Miami</name>
                 <name part="nprt:nickname">Marlins</name>
@@ -59,7 +61,7 @@
                 <sub-score period-value="8" score="0"/>
             </team-stats>
             <player id="l.mlb.com-p.20339">
-                <player-metadata key="tsnperson:l.mlb.com-p.20339" position-event="spbblposition:4"
+                <player-metadata key="vendperson:l.mlb.com-p.20339" position-event="spbblposition:4"
                     lineup-slot="1" lineup-slot-sequence="1">
                     <name role="nrol:full">Dee Gordon</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -123,7 +125,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.15229">
-                <player-metadata key="tsnperson:l.mlb.com-p.15229" position-event="spbblposition:5"
+                <player-metadata key="vendperson:l.mlb.com-p.15229" position-event="spbblposition:5"
                     lineup-slot="2" lineup-slot-sequence="1">
                     <name role="nrol:full">Martin Prado</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -187,7 +189,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.19947">
-                <player-metadata key="tsnperson:l.mlb.com-p.19947" position-event="spbblposition:9"
+                <player-metadata key="vendperson:l.mlb.com-p.19947" position-event="spbblposition:9"
                     lineup-slot="3" lineup-slot-sequence="1">
                     <name role="nrol:full">Giancarlo Stanton</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -238,7 +240,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21070">
-                <player-metadata key="tsnperson:l.mlb.com-p.21070" position-event="spbblposition:3"
+                <player-metadata key="vendperson:l.mlb.com-p.21070" position-event="spbblposition:3"
                     lineup-slot="4" lineup-slot-sequence="1">
                     <name role="nrol:full">Justin Bour</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -302,7 +304,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21163">
-                <player-metadata key="tsnperson:l.mlb.com-p.21163" position-event="spbblposition:8"
+                <player-metadata key="vendperson:l.mlb.com-p.21163" position-event="spbblposition:8"
                     lineup-slot="5" lineup-slot-sequence="1">
                     <name role="nrol:full">Marcell Ozuna</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -366,7 +368,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.22022">
-                <player-metadata key="tsnperson:l.mlb.com-p.22022" position-event="spbblposition:7"
+                <player-metadata key="vendperson:l.mlb.com-p.22022" position-event="spbblposition:7"
                     lineup-slot="6" lineup-slot-sequence="1">
                     <name role="nrol:full">Christian Yelich</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -417,7 +419,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.22034">
-                <player-metadata key="tsnperson:l.mlb.com-p.22034" position-event="spbblposition:2"
+                <player-metadata key="vendperson:l.mlb.com-p.22034" position-event="spbblposition:2"
                     lineup-slot="7" lineup-slot-sequence="1">
                     <name role="nrol:full">J.T. Realmuto</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -481,7 +483,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21182">
-                <player-metadata key="tsnperson:l.mlb.com-p.21182" position-event="spbblposition:6"
+                <player-metadata key="vendperson:l.mlb.com-p.21182" position-event="spbblposition:6"
                     lineup-slot="8" lineup-slot-sequence="1">
                     <name role="nrol:full">Adeiny Hechavarria</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -545,7 +547,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21298">
-                <player-metadata key="tsnperson:l.mlb.com-p.21298" position-event="spbblposition:1"
+                <player-metadata key="vendperson:l.mlb.com-p.21298" position-event="spbblposition:1"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="1">
                     <name role="nrol:full">Tom Koehler</name>
                     <sports-property formal-name="pitching-order" value="1"/>
@@ -647,7 +649,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.5603">
-                <player-metadata key="tsnperson:l.mlb.com-p.5603" position-event="spbblposition:ph"
+                <player-metadata key="vendperson:l.mlb.com-p.5603" position-event="spbblposition:ph"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="2">
                     <name role="nrol:full">Ichiro Suzuki</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -698,7 +700,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.23884">
-                <player-metadata key="tsnperson:l.mlb.com-p.23884" position-event="spbblposition:1"
+                <player-metadata key="vendperson:l.mlb.com-p.23884" position-event="spbblposition:1"
                     lineup-slot="9" lineup-slot-sequence="3">
                     <name role="nrol:full">Vin Mazzaro</name>
                     <sports-property formal-name="pitching-order" value="2"/>
@@ -787,7 +789,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.6523">
-                <player-metadata key="tsnperson:l.mlb.com-p.6523" position-event="spbblposition:4">
+                <player-metadata key="vendperson:l.mlb.com-p.6523" position-event="spbblposition:4">
                     <name role="nrol:full">Jeff Baker</name>
                     <player-metadata-baseball batting-hand="right"/>
                 </player-metadata>
@@ -796,7 +798,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.6928">
-                <player-metadata key="tsnperson:l.mlb.com-p.6928" position-event="spbblposition:2">
+                <player-metadata key="vendperson:l.mlb.com-p.6928" position-event="spbblposition:2">
                     <name role="nrol:full">Jeff Mathis</name>
                     <player-metadata-baseball batting-hand="right"/>
                 </player-metadata>
@@ -805,7 +807,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.24606">
-                <player-metadata key="tsnperson:l.mlb.com-p.24606" position-event="spbblposition:pr">
+                <player-metadata key="vendperson:l.mlb.com-p.24606" position-event="spbblposition:pr">
                     <name role="nrol:full">Anthony Gomez</name>
                     <player-metadata-baseball batting-hand="right"/>
                 </player-metadata>
@@ -814,7 +816,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.19762">
-                <player-metadata key="tsnperson:l.mlb.com-p.19762" position-event="spbblposition:6">
+                <player-metadata key="vendperson:l.mlb.com-p.19762" position-event="spbblposition:6">
                     <name role="nrol:full">Donovan Solano</name>
                     <player-metadata-baseball batting-hand="right"/>
                 </player-metadata>
@@ -823,7 +825,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.22339">
-                <player-metadata key="tsnperson:l.mlb.com-p.22339" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.22339" position-event="spbblposition:1">
                     <name role="nrol:full">Sam Dyson</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -832,7 +834,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.19917">
-                <player-metadata key="tsnperson:l.mlb.com-p.19917" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.19917" position-event="spbblposition:1">
                     <name role="nrol:full">Mike Dunn</name>
                     <player-metadata-baseball throwing-hand="left"/>
                 </player-metadata>
@@ -841,7 +843,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21175">
-                <player-metadata key="tsnperson:l.mlb.com-p.21175" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.21175" position-event="spbblposition:1">
                     <name role="nrol:full">A.J. Ramos</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -850,7 +852,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.22340">
-                <player-metadata key="tsnperson:l.mlb.com-p.22340" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.22340" position-event="spbblposition:1">
                     <name role="nrol:full">Carter Capps</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -859,7 +861,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21332">
-                <player-metadata key="tsnperson:l.mlb.com-p.21332" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.21332" position-event="spbblposition:1">
                     <name role="nrol:full">David Phelps</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -868,7 +870,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20631">
-                <player-metadata key="tsnperson:l.mlb.com-p.20631" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.20631" position-event="spbblposition:1">
                     <name role="nrol:full">Bryan Morris</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -877,7 +879,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21296">
-                <player-metadata key="tsnperson:l.mlb.com-p.21296" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.21296" position-event="spbblposition:1">
                     <name role="nrol:full">Brad Hand</name>
                     <player-metadata-baseball throwing-hand="left"/>
                 </player-metadata>
@@ -886,7 +888,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21730">
-                <player-metadata key="tsnperson:l.mlb.com-p.21730" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.21730" position-event="spbblposition:1">
                     <name role="nrol:full">Andre Rienzo</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -895,7 +897,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.23524">
-                <player-metadata key="tsnperson:l.mlb.com-p.23524" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.23524" position-event="spbblposition:1">
                     <name role="nrol:full">Kendry Flores</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -904,7 +906,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.23516">
-                <player-metadata key="tsnperson:l.mlb.com-p.23516" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.23516" position-event="spbblposition:1">
                     <name role="nrol:full">Jose Urena</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -913,7 +915,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.7505">
-                <player-metadata key="tsnperson:l.mlb.com-p.7505" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.7505" position-event="spbblposition:1">
                     <name role="nrol:full">Dan Haren</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -923,7 +925,7 @@
             </player>
         </team>
         <team id="l.mlb.com-t.27">
-            <team-metadata key="tsnteam:l.mlb.com-t.27" alignment="home">
+            <team-metadata key="vendteam:l.mlb.com-t.27" alignment="home">
                 <name role="nrol:full">Colorado Rockies</name>
                 <name part="nprt:common">Colorado</name>
                 <name part="nprt:nickname">Rockies</name>
@@ -947,7 +949,7 @@
                 <sub-score period-value="8" score="0"/>
             </team-stats>
             <player id="l.mlb.com-p.16929">
-                <player-metadata key="tsnperson:l.mlb.com-p.16929" position-event="spbblposition:8"
+                <player-metadata key="vendperson:l.mlb.com-p.16929" position-event="spbblposition:8"
                     lineup-slot="1" lineup-slot-sequence="1">
                     <name role="nrol:full">Charlie Blackmon</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -1011,7 +1013,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20871">
-                <player-metadata key="tsnperson:l.mlb.com-p.20871" position-event="spbblposition:4"
+                <player-metadata key="vendperson:l.mlb.com-p.20871" position-event="spbblposition:4"
                     lineup-slot="2" lineup-slot-sequence="1">
                     <name role="nrol:full">DJ LeMahieu</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -1075,7 +1077,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.18606">
-                <player-metadata key="tsnperson:l.mlb.com-p.18606" position-event="spbblposition:6"
+                <player-metadata key="vendperson:l.mlb.com-p.18606" position-event="spbblposition:6"
                     lineup-slot="3" lineup-slot-sequence="1">
                     <name role="nrol:full">Troy Tulowitzki</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -1139,7 +1141,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.11641">
-                <player-metadata key="tsnperson:l.mlb.com-p.11641" position-event="spbblposition:9"
+                <player-metadata key="vendperson:l.mlb.com-p.11641" position-event="spbblposition:9"
                     lineup-slot="4" lineup-slot-sequence="1">
                     <name role="nrol:full">Carlos Gonzalez</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -1203,7 +1205,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21548">
-                <player-metadata key="tsnperson:l.mlb.com-p.21548" position-event="spbblposition:5"
+                <player-metadata key="vendperson:l.mlb.com-p.21548" position-event="spbblposition:5"
                     lineup-slot="5" lineup-slot-sequence="1">
                     <name role="nrol:full">Nolan Arenado</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -1267,7 +1269,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21327">
-                <player-metadata key="tsnperson:l.mlb.com-p.21327" position-event="spbblposition:3"
+                <player-metadata key="vendperson:l.mlb.com-p.21327" position-event="spbblposition:3"
                     lineup-slot="6" lineup-slot-sequence="1">
                     <name role="nrol:full">Ben Paulsen</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -1331,7 +1333,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.19052">
-                <player-metadata key="tsnperson:l.mlb.com-p.19052" position-event="spbblposition:2"
+                <player-metadata key="vendperson:l.mlb.com-p.19052" position-event="spbblposition:2"
                     lineup-slot="7" lineup-slot-sequence="1">
                     <name role="nrol:full">Nick Hundley</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -1395,7 +1397,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20918">
-                <player-metadata key="tsnperson:l.mlb.com-p.20918" position-event="spbblposition:7"
+                <player-metadata key="vendperson:l.mlb.com-p.20918" position-event="spbblposition:7"
                     lineup-slot="8" lineup-slot-sequence="1">
                     <name role="nrol:full">Brandon Barnes</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -1459,7 +1461,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.23596">
-                <player-metadata key="tsnperson:l.mlb.com-p.23596" position-event="spbblposition:1"
+                <player-metadata key="vendperson:l.mlb.com-p.23596" position-event="spbblposition:1"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="1">
                     <name role="nrol:full">Eddie Butler</name>
                     <sports-property formal-name="pitching-order" value="1"/>
@@ -1561,7 +1563,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.22797">
-                <player-metadata key="tsnperson:l.mlb.com-p.22797" position-event="spbblposition:1"
+                <player-metadata key="vendperson:l.mlb.com-p.22797" position-event="spbblposition:1"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="2">
                     <name role="nrol:full">Tommy Kahnle</name>
                     <sports-property formal-name="pitching-order" value="2"/>
@@ -1663,7 +1665,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20411">
-                <player-metadata key="tsnperson:l.mlb.com-p.20411" position-event="spbblposition:ph"
+                <player-metadata key="vendperson:l.mlb.com-p.20411" position-event="spbblposition:ph"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="3">
                     <name role="nrol:full">Daniel Descalso</name>
                     <player-metadata-baseball batting-hand="left"/>
@@ -1714,7 +1716,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.23382">
-                <player-metadata key="tsnperson:l.mlb.com-p.23382" position-event="spbblposition:1"
+                <player-metadata key="vendperson:l.mlb.com-p.23382" position-event="spbblposition:1"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="4">
                     <name role="nrol:full">Christian Bergman</name>
                     <sports-property formal-name="pitching-order" value="3"/>
@@ -1816,7 +1818,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20027">
-                <player-metadata key="tsnperson:l.mlb.com-p.20027" position-event="spbblposition:ph"
+                <player-metadata key="vendperson:l.mlb.com-p.20027" position-event="spbblposition:ph"
                     status="spplayerstatus:bench" lineup-slot="9" lineup-slot-sequence="5">
                     <name role="nrol:full">Wilin Rosario</name>
                     <player-metadata-baseball batting-hand="right"/>
@@ -1867,7 +1869,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.19442">
-                <player-metadata key="tsnperson:l.mlb.com-p.19442" position-event="spbblposition:1"
+                <player-metadata key="vendperson:l.mlb.com-p.19442" position-event="spbblposition:1"
                     lineup-slot="9" lineup-slot-sequence="6">
                     <name role="nrol:full">Brooks Brown</name>
                     <sports-property formal-name="pitching-order" value="4"/>
@@ -1956,7 +1958,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21015">
-                <player-metadata key="tsnperson:l.mlb.com-p.21015" position-event="spbblposition:4">
+                <player-metadata key="vendperson:l.mlb.com-p.21015" position-event="spbblposition:4">
                     <name role="nrol:full">Rafael Ynoa</name>
                     <player-metadata-baseball batting-hand="right"/>
                 </player-metadata>
@@ -1965,7 +1967,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.19418">
-                <player-metadata key="tsnperson:l.mlb.com-p.19418" position-event="spbblposition:2">
+                <player-metadata key="vendperson:l.mlb.com-p.19418" position-event="spbblposition:2">
                     <name role="nrol:full">Michael McKenry</name>
                     <player-metadata-baseball batting-hand="right"/>
                 </player-metadata>
@@ -1974,7 +1976,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.7412">
-                <player-metadata key="tsnperson:l.mlb.com-p.7412" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.7412" position-event="spbblposition:1">
                     <name role="nrol:full">Rafael Betancourt</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -1983,7 +1985,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.23597">
-                <player-metadata key="tsnperson:l.mlb.com-p.23597" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.23597" position-event="spbblposition:1">
                     <name role="nrol:full">Scott Oberg</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -1992,7 +1994,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21821">
-                <player-metadata key="tsnperson:l.mlb.com-p.21821" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.21821" position-event="spbblposition:1">
                     <name role="nrol:full">Chad Bettis</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -2001,7 +2003,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.12845">
-                <player-metadata key="tsnperson:l.mlb.com-p.12845" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.12845" position-event="spbblposition:1">
                     <name role="nrol:full">Boone Logan</name>
                     <player-metadata-baseball throwing-hand="left"/>
                 </player-metadata>
@@ -2010,7 +2012,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20598">
-                <player-metadata key="tsnperson:l.mlb.com-p.20598" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.20598" position-event="spbblposition:1">
                     <name role="nrol:full">John Axford</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>
@@ -2019,7 +2021,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.5990">
-                <player-metadata key="tsnperson:l.mlb.com-p.5990" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.5990" position-event="spbblposition:1">
                     <name role="nrol:full">Jorge De La Rosa</name>
                     <player-metadata-baseball throwing-hand="left"/>
                 </player-metadata>
@@ -2028,7 +2030,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.21816">
-                <player-metadata key="tsnperson:l.mlb.com-p.21816" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.21816" position-event="spbblposition:1">
                     <name role="nrol:full">Chris Rusin</name>
                     <player-metadata-baseball throwing-hand="left"/>
                 </player-metadata>
@@ -2037,7 +2039,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.20736">
-                <player-metadata key="tsnperson:l.mlb.com-p.20736" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.20736" position-event="spbblposition:1">
                     <name role="nrol:full">Christian Friedrich</name>
                     <player-metadata-baseball throwing-hand="left"/>
                 </player-metadata>
@@ -2046,7 +2048,7 @@
                 </player-stats>
             </player>
             <player id="l.mlb.com-p.11969">
-                <player-metadata key="tsnperson:l.mlb.com-p.11969" position-event="spbblposition:1">
+                <player-metadata key="vendperson:l.mlb.com-p.11969" position-event="spbblposition:1">
                     <name role="nrol:full">Kyle Kendrick</name>
                     <player-metadata-baseball throwing-hand="right"/>
                 </player-metadata>

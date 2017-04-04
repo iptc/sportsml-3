@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <newsItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.0"
-    version="1" conformance="power" xml:lang="en-GB" guid="tt.se.20140320092343-755363-post-event">
-    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_3.xml"/>
+    xmlns="http://iptc.org/std/nar/2006-10-01/" standard="NewsML-G2" standardversion="2.22"
+    version="1" conformance="power" xml:lang="en-GB" guid="urn:newsml:sportsml.org:20160502:tt.se.20140320092343-755363-post-event">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
     <itemMeta>
         <itemClass qcode="ninat:text"/>
         <provider qcode="web:tt.se">
@@ -11,7 +12,6 @@
         <versionCreated>2014-03-20T09:23:43+01:00</versionCreated>
         <pubStatus qcode="stat:usable"/>
         <fileName>tt.se.20140320092343-755363-post-event</fileName>
-        <link rel="path:fixture" href="event-stats"/>
     </itemMeta>
     <contentMeta>
         <contentCreated>2014-03-20T09:23:43+01:00</contentCreated>
@@ -23,7 +23,7 @@
             <name xml:lang="en-GB">Curling</name>
             <broader qcode="subj:15000000"/>
         </subject>
-        <subject type="cpnat:event" qcode="event:tt.se:xtz678">
+        <subject type="cpnat:event" qcode="vendevent:tt.se:xtz678">
             <name>World championships</name>
         </subject>
         <headline>Curling Ladies World Championships 2014</headline>
@@ -173,13 +173,13 @@
                                 </tournament-part-metadata>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:1"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="1"
                                         start-date-time="2014-03-15T14:30:00">
                                         <name>Draw #1</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="1" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -201,7 +201,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="1" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -223,7 +223,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="1" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -245,7 +245,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="1" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -270,13 +270,13 @@
 
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:2"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="2"
                                         start-date-time="2014-03-15T19:30:00">
                                         <name>Draw #2</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="2" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -298,7 +298,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="2" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -320,7 +320,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="2" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -342,7 +342,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="2" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -366,13 +366,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:3"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="3"
                                         start-date-time="2014-03-16T09:30:00">
                                         <name>Draw #3</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="3" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -394,7 +394,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="3" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -419,13 +419,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:4"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="4"
                                         start-date-time="2014-03-16T14:30:00">
                                         <name>Draw #4</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="4" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -447,7 +447,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="4" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -469,7 +469,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="4" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -491,7 +491,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="4" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -515,13 +515,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:5"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="5"
                                         start-date-time="2014-03-16T19:30:00">
                                         <name>Draw #5</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="5" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -543,7 +543,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="5" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -565,7 +565,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="5" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -587,7 +587,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="5" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -611,13 +611,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:6"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="6"
                                         start-date-time="2014-03-17T09:30:00">
                                         <name>Draw #6</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="6" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -639,7 +639,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="6" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -661,7 +661,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="6" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -683,7 +683,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="6" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -707,13 +707,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:7"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="7"
                                         start-date-time="2014-03-17T14:30:00">
                                         <name>Draw #7</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="7" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -735,7 +735,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="7" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -757,7 +757,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="7" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -779,7 +779,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="7" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -803,13 +803,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:8"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="8"
                                         start-date-time="2014-03-17T19:30:00">
                                         <name>Draw #8</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="8" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -831,7 +831,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="8" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -853,7 +853,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="8" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -875,7 +875,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="8" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -899,13 +899,13 @@
                                 </tournament-part>
 
                                 <tournament-part>
-                                    <tournament-part-metadata type="sptournamentphase:round" period-value="cdraw:9"
+                                    <tournament-part-metadata type="sptournamentphase:round" period-value="9"
                                         start-date-time="2014-03-18T09:30:00">
                                         <name>Draw #9</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="9" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -927,7 +927,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="9" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -949,7 +949,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="9" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -971,7 +971,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="9" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -996,13 +996,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:10"
+                                        period-value="10"
                                         start-date-time="2014-03-18T14:30:00">
                                         <name>Draw #10</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="10" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1024,7 +1024,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="10" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1046,7 +1046,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="10" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1068,7 +1068,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="10" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1093,13 +1093,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:11"
+                                        period-value="11"
                                         start-date-time="2014-03-18T19:30:00">
                                         <name>Draw #11</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="11" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1121,7 +1121,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="11" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1143,7 +1143,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="11" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1165,7 +1165,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="11" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1190,13 +1190,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:12"
+                                        period-value="12"
                                         start-date-time="2014-03-19T09:30:00">
                                         <name>Draw #12</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="12" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1218,7 +1218,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="12" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1240,7 +1240,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="12" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1262,7 +1262,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="12" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1287,13 +1287,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:13"
+                                        period-value="13"
                                         start-date-time="2014-03-19T14:30:00">
                                         <name>Draw #13</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="13" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1315,7 +1315,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="13" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1337,7 +1337,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="13" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1359,7 +1359,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="13" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1384,13 +1384,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:14"
+                                        period-value="14"
                                         start-date-time="2014-03-19T19:30:00">
                                         <name>Draw #14</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="14" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1412,7 +1412,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="14" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1434,7 +1434,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="14" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1456,7 +1456,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="14" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1481,13 +1481,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:15"
+                                        period-value="15"
                                         start-date-time="2014-03-20T09:30:00">
                                         <name>Draw #15</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="15" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1509,7 +1509,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="15" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1531,7 +1531,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="15" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1553,7 +1553,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="15" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1578,13 +1578,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:16"
+                                        period-value="16"
                                         start-date-time="2014-03-20T14:30:00">
                                         <name>Draw #16</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="16" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1606,7 +1606,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="16" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1628,7 +1628,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="16" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1650,7 +1650,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="16" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1675,13 +1675,13 @@
 
                                 <tournament-part>
                                     <tournament-part-metadata type="sptournamentphase:round"
-                                        period-value="cdraw:17"
+                                        period-value="17"
                                         start-date-time="2014-03-20T19:30:00">
                                         <name>Draw #17</name>
                                     </tournament-part-metadata>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="17" sheet="A"/>
                                         </event-metadata>
                                         <team>
@@ -1703,7 +1703,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="17" sheet="B"/>
                                         </event-metadata>
                                         <team>
@@ -1725,7 +1725,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="17" sheet="C"/>
                                         </event-metadata>
                                         <team>
@@ -1747,7 +1747,7 @@
                                     </sports-event>
 
                                     <sports-event>
-                                        <event-metadata event-status="tps:post-event">
+                                        <event-metadata event-status="speventstatus:post-event">
                                             <event-metadata-curling draw="17" sheet="D"/>
                                         </event-metadata>
                                         <team>
@@ -1780,7 +1780,7 @@
                                 </tournament-part-metadata>
 
                                 <sports-event>
-                                    <event-metadata event-status="tps:post-event"
+                                    <event-metadata event-status="speventstatus:post-event"
                                         start-date-time="2015-03-21T14:30:00">
                                         <event-metadata-curling draw="tb1" sheet="C"/>
                                     </event-metadata>
@@ -1818,7 +1818,7 @@
                             </tournament-part-metadata>
 
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"
+                                <event-metadata event-status="speventstatus:post-event"
                                     start-date-time="2015-03-21T19:30:00">
                                     <event-metadata-curling draw="po1" sheet="B"/>
                                 </event-metadata>
@@ -1841,7 +1841,7 @@
                             </sports-event>
 
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"
+                                <event-metadata event-status="speventstatus:post-event"
                                     start-date-time="2015-03-22T09:30:00">
                                     <event-metadata-curling draw="po2" sheet="B"/>
                                 </event-metadata>
@@ -1873,7 +1873,7 @@
                             </tournament-part-metadata>
 
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"
+                                <event-metadata event-status="speventstatus:post-event"
                                     start-date-time="2015-03-22T14:00:00">
                                     <event-metadata-curling draw="semi1" sheet="B"/>
                                 </event-metadata>
@@ -1904,7 +1904,7 @@
                             </tournament-part-metadata>
 
                             <sports-event>
-                                <event-metadata event-status="tps:post-event"
+                                <event-metadata event-status="speventstatus:post-event"
                                     start-date-time="2015-03-23T12:00:00">
                                     <name>Bronze game</name>
                                     <event-metadata-curling draw="bronze" sheet="B"/>
@@ -1929,7 +1929,7 @@
 
                             <sports-event>
                                 <!-- The final with some extra metadata and stats -->
-                                <event-metadata event-status="tps:post-event"
+                                <event-metadata event-status="speventstatus:post-event"
                                     start-date-time="2015-03-23T19:30:00">
                                     <name>Final</name>
                                     <event-metadata-curling draw="final" sheet="B"/>
