@@ -30,6 +30,9 @@ Here are some xslt tools for transformations between versions. Please see additi
 The complete documentation in html-format. Open sportsml.html in your browser.
 More information can be found in the [NewsML-G2 Guidelines](https://www.iptc.org/std/NewsML-G2/latest/IPTC-G2-Implementation_Guide).
 
+###
+Download version 3.0.3 [here](https://github.com/iptc/sportsml-3/archive/v3.0.3.zip).
+
 ### Revision history
 
 * 3.0.3 Errata correction in schema and tools added.
