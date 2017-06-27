@@ -2447,6 +2447,11 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
                         <xs:documentation>What type of outcome. Includes overtime, random (eg. by coin toss), etc. SportsML vocab uri: http://cv.iptc.org/newscodes/speventoutcometype/</xs:documentation>
                     </xs:annotation>
                 </xs:attribute>
+                <xs:attribute name="round-number" type="xs:string" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>To which round in the current competition this event belong. (Added after decision at meeting 2017-06-13.)</xs:documentation>
+                    </xs:annotation>
+                </xs:attribute>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
