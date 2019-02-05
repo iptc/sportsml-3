@@ -29,8 +29,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.21">
                 <name role="nrol:full">Dallas Stars</name>
-                <name part="nprt:common">Dallas</name>
-                <name part="nprt:nickname">Stars</name>
+                <name role="nrol:short">Dallas</name>
+                <name role="nrol:alternate">Stars</name>
             </team-metadata>
             <player id="l.nhl.com-p.5099">
                 <player-metadata key="vendperson:l.nhl.com-p.5099" uniform-number=""

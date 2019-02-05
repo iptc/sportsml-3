@@ -64,7 +64,7 @@
                         <site>
                             <site-metadata>
                                 <name role="nrol:full">The Recreation Ground</name>
-                                <name part="nprt:common">The Recreation Ground</name>
+                                <name role="nrol:short">The Recreation Ground</name>
                             </site-metadata>
                             <site-stats attendance="13,300"/>
                         </site>
@@ -72,7 +72,7 @@
                     <team id="t.33094">
                         <team-metadata key="vendteam:t.33094" alignment="home">
                             <name role="nrol:full">Bath</name>
-                            <name part="nprt:common">Bath</name>
+                            <name role="nrol:short">Bath</name>
                         </team-metadata>
                         <team-stats>
                             <stats>
@@ -475,7 +475,7 @@
                     <team id="t.33286">
                         <team-metadata key="vendteam:t.33286" alignment="away">
                             <name role="nrol:full">Northampton</name>
-                            <name part="nprt:common">Northampton</name>
+                            <name role="nrol:short">Northampton</name>
                         </team-metadata>
                         <team-stats>
                             <stats>

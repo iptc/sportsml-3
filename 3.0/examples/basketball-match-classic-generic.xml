@@ -37,8 +37,8 @@
         <team id="l.nba.com-t.14">
             <team-metadata key="vendteam:l.nba.com-t.14" alignment="away">
                 <name role="nrol:full">Milwaukee Bucks</name>
-                <name part="nprt:common">Milwaukee</name>
-                <name part="nprt:nickname">Bucks</name>
+                <name role="nrol:short">Milwaukee</name>
+                <name role="nrol:alternate">Bucks</name>
             </team-metadata>
             <team-stats>
                 <stats>
@@ -386,8 +386,8 @@
         <team id="l.nba.com-t.17">
             <team-metadata key="vendteam:l.nba.com-t.17" alignment="home">
                 <name role="nrol:full">Denver Nuggets</name>
-                <name part="nprt:common">Denver</name>
-                <name part="nprt:nickname">Nuggets</name>
+                <name role="nrol:short">Denver</name>
+                <name role="nrol:alternate">Nuggets</name>
             </team-metadata>
             <team-stats>
                 <stats>

@@ -56,8 +56,8 @@
                         <player>
                             <player-metadata team-idref="BIB6" nationality="France" gender="female"
                                 uniform-number="6-1">
-                                <name part="nprt:first">Anais</name>
-                                <name part="nprt:last">Bescond</name>
+                                <name part="nprt:given">Anais</name>
+                                <name part="nprt:family">Bescond</name>
                             </player-metadata>
                             <player-stats score="18.20,6">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -69,8 +69,8 @@
                         <player>
                             <player-metadata team-idref="BIB6" nationality="France" gender="female"
                                 uniform-number="6-2">
-                                <name part="nprt:first">Anais</name>
-                                <name part="nprt:last">Chevalier</name>
+                                <name part="nprt:given">Anais</name>
+                                <name part="nprt:family">Chevalier</name>
                             </player-metadata>
                             <player-stats score="19.26,8">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -82,8 +82,8 @@
                         <player>
                             <player-metadata team-idref="BIB6" nationality="France" gender="male"
                                 uniform-number="6-3">
-                                <name part="nprt:first">Simon</name>
-                                <name part="nprt:last">Fourcade</name>
+                                <name part="nprt:given">Simon</name>
+                                <name part="nprt:family">Fourcade</name>
                             </player-metadata>
                             <player-stats score="19.13,2">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -95,8 +95,8 @@
                         <player>
                             <player-metadata team-idref="BIB6" nationality="France" gender="male"
                                 uniform-number="6-4">
-                                <name part="nprt:first">Martin</name>
-                                <name part="nprt:last">Fourcade</name>
+                                <name part="nprt:given">Martin</name>
+                                <name part="nprt:family">Fourcade</name>
                             </player-metadata>
                             <player-stats score="18.05,5">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -122,8 +122,8 @@
                         <player>
                             <player-metadata team-idref="BIB2" nationality="Norway" gender="female"
                                 uniform-number="2-1">
-                                <name part="nprt:first">Synnoeve</name>
-                                <name part="nprt:last">Solemdal</name>
+                                <name part="nprt:given">Synnoeve</name>
+                                <name part="nprt:family">Solemdal</name>
                             </player-metadata>
                             <player-stats score="19.39,0">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -135,8 +135,8 @@
                         <player>
                             <player-metadata team-idref="BIB2" nationality="Norway" gender="female"
                                 uniform-number="2-2">
-                                <name part="nprt:first">Tiril</name>
-                                <name part="nprt:last">Eckhoff</name>
+                                <name part="nprt:given">Tiril</name>
+                                <name part="nprt:family">Eckhoff</name>
                             </player-metadata>
                             <player-stats score="18.27,2">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -148,8 +148,8 @@
                         <player>
                             <player-metadata team-idref="BIB2" nationality="Norway" gender="male"
                                 uniform-number="2-3">
-                                <name part="nprt:first">Vetle Sjastad</name>
-                                <name part="nprt:last">Christiansen</name>
+                                <name part="nprt:given">Vetle Sjastad</name>
+                                <name part="nprt:family">Christiansen</name>
                             </player-metadata>
                             <player-stats score="18.46,3">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>
@@ -161,8 +161,8 @@
                         <player>
                             <player-metadata team-idref="BIB2" nationality="Norway" gender="male"
                                 uniform-number="2-4">
-                                <name part="nprt:first">Lars Helge</name>
-                                <name part="nprt:last">Birkeland</name>
+                                <name part="nprt:given">Lars Helge</name>
+                                <name part="nprt:family">Birkeland</name>
                             </player-metadata>
                             <player-stats score="18.57,2">
                                 <sub-score period-value="1" score="0" sub-score-name="Penaltyrounds"/>

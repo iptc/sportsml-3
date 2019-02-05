@@ -64,8 +64,8 @@
                     <team id="l.nhl.com-t.3">
                         <team-metadata key="vendteam:l.nhl.com-t.3" alignment="home">
                             <name role="nrol:full">NY Rangers</name>
-                            <name part="nprt:common">New York</name>
-                            <name part="nprt:nickname">Rangers</name>
+                            <name role="nrol:short">New York</name>
+                            <name role="nrol:alternate">Rangers</name>
                         </team-metadata>
                         <team-stats temporal-unit-type="sptemporalunit:event"
                             temporal-unit-value="vendor:l.nhl.com-2014-e.30227" score=""
@@ -242,8 +242,8 @@
                     <team id="l.nhl.com-t.15">
                         <team-metadata key="vendteam:l.nhl.com-t.15" alignment="away">
                             <name role="nrol:full">Washington Capitals</name>
-                            <name part="nprt:common">Washington</name>
-                            <name part="nprt:nickname">Capitals</name>
+                            <name role="nrol:short">Washington</name>
+                            <name role="nrol:alternate">Capitals</name>
                         </team-metadata>
                         <team-stats temporal-unit-type="sptemporalunit:event"
                             temporal-unit-value="vendor:l.nhl.com-2014-e.30227" score=""
