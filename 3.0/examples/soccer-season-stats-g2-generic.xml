@@ -54,7 +54,7 @@
                     <team>
                         <team-metadata key="vendteam:o.thefa.com-t.5">
                             <name role="nrol:full">Chelsea</name>
-                            <name part="nprt:common">Chelsea</name>
+                            <name role="nrol:short">Chelsea</name>
                         </team-metadata>
                         <team-stats>
                             <stats>

@@ -31,7 +31,7 @@
             <site>
                 <site-metadata key="vendsite:s.34">
                     <name role="nrol:full">Villa Park</name>
-                    <name part="nprt:common">Villa Park</name>
+                    <name role="nrol:short">Villa Park</name>
                     <home-location>
                         <POIDetails>
                             <address><country><name>England</name></country></address>
@@ -47,7 +47,7 @@
         <team id="e.755363-t.7">
             <team-metadata key="vendteam:o.thefa.com-t.2" alignment="home">
                 <name role="nrol:full">Aston Villa</name>
-                <name part="nprt:common">Aston Villa</name>
+                <name role="nrol:short">Aston Villa</name>
             </team-metadata>
             <team-stats score="0" score-opposing="2" event-outcome="speventoutcome:loss"
                 time-of-possession-percentage="31.6">
@@ -306,7 +306,7 @@
         <team id="e.755363-t.43">
             <team-metadata key="vendteam:o.thefa.com-t.12" alignment="away">
                 <name role="nrol:full">Manchester City</name>
-                <name part="nprt:common">Manchester City</name>
+                <name role="nrol:short">Manchester City</name>
             </team-metadata>
             <team-stats score="2" score-opposing="0" event-outcome="speventoutcome:win"
                 time-of-possession-percentage="68.4">

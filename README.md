@@ -14,7 +14,7 @@ SportsML is an open and highly flexible standard for the interchange of sports d
 
 The IPTC [Developer Site](http://dev.iptc.org/SportsML) provides technical information.
 
-The [SportsML Users Forum](https://groups.yahoo.com/neo/groups/sportsml/info) is used to share experiences, raise questions and recommend and discuss changes to the SportsML standard. It also connects companies and organizations who use SportsML and vendors who create tools that process NewsML-G2 documents. 
+The [SportsML Users Forum](https://groups.io/g/iptc-sportsml) is used to share experiences, raise questions and recommend and discuss changes to the SportsML standard. It also connects companies and organizations who use SportsML and vendors who create tools that process NewsML-G2 documents. 
 
 ### Specification
 
@@ -31,10 +31,11 @@ The complete documentation in html-format. Open sportsml.html in your browser.
 More information can be found in the [NewsML-G2 Guidelines](https://www.iptc.org/std/NewsML-G2/latest/IPTC-G2-Implementation_Guide).
 
 ###
-Download version 3.0.3 [here](https://github.com/iptc/sportsml-3/archive/v3.0.3.zip).
+Download version 3.0.4 [here](https://github.com/iptc/sportsml-3/archive/v3.0.4.zip).
 
 ### Revision history
 
+* 3.0.4 Examples corrected to use valid NewsCodes for name part and name role (January 2019)
 * 3.0.3 Errata correction in schema and tools added.
 * 3.0.2 IPTC approved version in June 2016.
 * 3.0.1 Official draft version.

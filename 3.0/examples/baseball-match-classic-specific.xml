@@ -39,8 +39,8 @@
         <team id="l.mlb.com-t.16">
             <team-metadata key="vendteam:l.mlb.com-t.16" alignment="away">
                 <name role="nrol:full">Miami Marlins</name>
-                <name part="nprt:common">Miami</name>
-                <name part="nprt:nickname">Marlins</name>
+                <name role="nrol:short">Miami</name>
+                <name role="nrol:alternate">Marlins</name>
             </team-metadata>
             <team-stats event-outcome="speventoutcome:undecided" score="6" score-opposing="1">
                 <sub-score period-value="1" score="0"/>
@@ -474,8 +474,8 @@
         <team id="l.mlb.com-t.27">
             <team-metadata key="vendteam:l.mlb.com-t.27" alignment="home">
                 <name role="nrol:full">Colorado Rockies</name>
-                <name part="nprt:common">Colorado</name>
-                <name part="nprt:nickname">Rockies</name>
+                <name role="nrol:short">Colorado</name>
+                <name role="nrol:alternate">Rockies</name>
             </team-metadata>
             <team-stats event-outcome="speventoutcome:undecided" score="1" score-opposing="6">
                 <sub-score period-value="1" score="0"/>

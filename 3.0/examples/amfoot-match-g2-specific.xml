@@ -82,8 +82,8 @@
                     <team id="l.nfl.com-t.4">
                         <team-metadata key="vendteam:l.nfl.com-t.4" alignment="away">
                             <name role="nrol:full">New England Patriots</name>
-                            <name part="nprt:common">New England</name>
-                            <name part="nprt:nickname">Patriots</name>
+                            <name role="nrol:short">New England</name>
+                            <name role="nrol:alternate">Patriots</name>
                         </team-metadata>
                         <team-stats time-of-possession="33:46" score="28" score-opposing="24"
                             event-outcome="speventoutcome:win">
@@ -703,8 +703,8 @@
                     <team id="l.nfl.com-t.16">
                         <team-metadata key="vendteam:l.nfl.com-t.16" alignment="home">
                             <name role="nrol:full">Seattle Seahawks</name>
-                            <name part="nprt:common">Seattle</name>
-                            <name part="nprt:nickname">Seahawks</name>
+                            <name role="nrol:short">Seattle</name>
+                            <name role="nrol:alternate">Seahawks</name>
                         </team-metadata>
                         <team-stats time-of-possession="26:14" score="24" score-opposing="28"
                             event-outcome="speventoutcome:loss">

@@ -58,8 +58,8 @@
 
                             <player>
                                 <player-metadata>
-                                    <name part="nprt:first">Jhonattan</name>
-                                    <name part="nprt:last">Vegas</name>
+                                    <name part="nprt:given">Jhonattan</name>
+                                    <name part="nprt:family">Vegas</name>
                                     <home-location>
                                         <POIDetails>
                                             <address><locality><name/></locality><area><name/></area><country><name>Venezuela</name></country><postalCode/></address>

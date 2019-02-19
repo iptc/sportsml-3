@@ -34,8 +34,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.24">
                 <name role="nrol:full">San Jose Sharks</name>
-                <name part="nprt:common">San Jose</name>
-                <name part="nprt:nickname">Sharks</name>
+                <name role="nrol:short">San Jose</name>
+                <name role="nrol:alternate">Sharks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -48,8 +48,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.28">
                 <name role="nrol:full">Calgary Flames</name>
-                <name part="nprt:common">Calgary</name>
-                <name part="nprt:nickname">Flames</name>
+                <name role="nrol:short">Calgary</name>
+                <name role="nrol:alternate">Flames</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -62,8 +62,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.25">
                 <name role="nrol:full">Arizona Coyotes</name>
-                <name part="nprt:common">Arizona</name>
-                <name part="nprt:nickname">Coyotes</name>
+                <name role="nrol:short">Arizona</name>
+                <name role="nrol:alternate">Coyotes</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -76,8 +76,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.22">
                 <name role="nrol:full">Anaheim Ducks</name>
-                <name part="nprt:common">Anaheim</name>
-                <name part="nprt:nickname">Ducks</name>
+                <name role="nrol:short">Anaheim</name>
+                <name role="nrol:alternate">Ducks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -90,8 +90,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.23">
                 <name role="nrol:full">Los Angeles Kings</name>
-                <name part="nprt:common">Los Angeles</name>
-                <name part="nprt:nickname">Kings</name>
+                <name role="nrol:short">Los Angeles</name>
+                <name role="nrol:alternate">Kings</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -104,8 +104,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.29">
                 <name role="nrol:full">Edmonton Oilers</name>
-                <name part="nprt:common">Edmonton</name>
-                <name part="nprt:nickname">Oilers</name>
+                <name role="nrol:short">Edmonton</name>
+                <name role="nrol:alternate">Oilers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -118,8 +118,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.26">
                 <name role="nrol:full">Vancouver Canucks</name>
-                <name part="nprt:common">Vancouver</name>
-                <name part="nprt:nickname">Canucks</name>
+                <name role="nrol:short">Vancouver</name>
+                <name role="nrol:alternate">Canucks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -144,8 +144,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.24">
                 <name role="nrol:full">San Jose Sharks</name>
-                <name part="nprt:common">San Jose</name>
-                <name part="nprt:nickname">Sharks</name>
+                <name role="nrol:short">San Jose</name>
+                <name role="nrol:alternate">Sharks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -182,8 +182,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.28">
                 <name role="nrol:full">Calgary Flames</name>
-                <name part="nprt:common">Calgary</name>
-                <name part="nprt:nickname">Flames</name>
+                <name role="nrol:short">Calgary</name>
+                <name role="nrol:alternate">Flames</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -220,8 +220,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.25">
                 <name role="nrol:full">Arizona Coyotes</name>
-                <name part="nprt:common">Arizona</name>
-                <name part="nprt:nickname">Coyotes</name>
+                <name role="nrol:short">Arizona</name>
+                <name role="nrol:alternate">Coyotes</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -258,8 +258,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.22">
                 <name role="nrol:full">Anaheim Ducks</name>
-                <name part="nprt:common">Anaheim</name>
-                <name part="nprt:nickname">Ducks</name>
+                <name role="nrol:short">Anaheim</name>
+                <name role="nrol:alternate">Ducks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -292,8 +292,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.23">
                 <name role="nrol:full">Los Angeles Kings</name>
-                <name part="nprt:common">Los Angeles</name>
-                <name part="nprt:nickname">Kings</name>
+                <name role="nrol:short">Los Angeles</name>
+                <name role="nrol:alternate">Kings</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -327,8 +327,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.29">
                 <name role="nrol:full">Edmonton Oilers</name>
-                <name part="nprt:common">Edmonton</name>
-                <name part="nprt:nickname">Oilers</name>
+                <name role="nrol:short">Edmonton</name>
+                <name role="nrol:alternate">Oilers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -358,8 +358,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.26">
                 <name role="nrol:full">Vancouver Canucks</name>
-                <name part="nprt:common">Vancouver</name>
-                <name part="nprt:nickname">Canucks</name>
+                <name role="nrol:short">Vancouver</name>
+                <name role="nrol:alternate">Canucks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -408,8 +408,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.18">
                 <name role="nrol:full">St. Louis Blues</name>
-                <name part="nprt:common">St. Louis</name>
-                <name part="nprt:nickname">Blues</name>
+                <name role="nrol:short">St. Louis</name>
+                <name role="nrol:alternate">Blues</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -422,8 +422,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.21">
                 <name role="nrol:full">Dallas Stars</name>
-                <name part="nprt:common">Dallas</name>
-                <name part="nprt:nickname">Stars</name>
+                <name role="nrol:short">Dallas</name>
+                <name role="nrol:alternate">Stars</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -436,8 +436,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.27">
                 <name role="nrol:full">Colorado Avalanche</name>
-                <name part="nprt:common">Colorado</name>
-                <name part="nprt:nickname">Avalanche</name>
+                <name role="nrol:short">Colorado</name>
+                <name role="nrol:alternate">Avalanche</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -452,8 +452,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.16">
                 <name role="nrol:full">Chicago Blackhawks</name>
-                <name part="nprt:common">Chicago</name>
-                <name part="nprt:nickname">Blackhawks</name>
+                <name role="nrol:short">Chicago</name>
+                <name role="nrol:alternate">Blackhawks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -466,8 +466,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.19">
                 <name role="nrol:full">Nashville Predators</name>
-                <name part="nprt:common">Nashville</name>
-                <name part="nprt:nickname">Predators</name>
+                <name role="nrol:short">Nashville</name>
+                <name role="nrol:alternate">Predators</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -480,8 +480,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.30">
                 <name role="nrol:full">Minnesota Wild</name>
-                <name part="nprt:common">Minnesota</name>
-                <name part="nprt:nickname">Wild</name>
+                <name role="nrol:short">Minnesota</name>
+                <name role="nrol:alternate">Wild</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -494,8 +494,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.9">
                 <name role="nrol:full">Winnipeg Jets</name>
-                <name part="nprt:common">Winnipeg</name>
-                <name part="nprt:nickname">Jets</name>
+                <name role="nrol:short">Winnipeg</name>
+                <name role="nrol:alternate">Jets</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -520,8 +520,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.18">
                 <name role="nrol:full">St. Louis Blues</name>
-                <name part="nprt:common">St. Louis</name>
-                <name part="nprt:nickname">Blues</name>
+                <name role="nrol:short">St. Louis</name>
+                <name role="nrol:alternate">Blues</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -558,8 +558,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.21">
                 <name role="nrol:full">Dallas Stars</name>
-                <name part="nprt:common">Dallas</name>
-                <name part="nprt:nickname">Stars</name>
+                <name role="nrol:short">Dallas</name>
+                <name role="nrol:alternate">Stars</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -596,8 +596,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.27">
                 <name role="nrol:full">Colorado Avalanche</name>
-                <name part="nprt:common">Colorado</name>
-                <name part="nprt:nickname">Avalanche</name>
+                <name role="nrol:short">Colorado</name>
+                <name role="nrol:alternate">Avalanche</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -631,8 +631,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.16">
                 <name role="nrol:full">Chicago Blackhawks</name>
-                <name part="nprt:common">Chicago</name>
-                <name part="nprt:nickname">Blackhawks</name>
+                <name role="nrol:short">Chicago</name>
+                <name role="nrol:alternate">Blackhawks</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -661,8 +661,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.19">
                 <name role="nrol:full">Nashville Predators</name>
-                <name part="nprt:common">Nashville</name>
-                <name part="nprt:nickname">Predators</name>
+                <name role="nrol:short">Nashville</name>
+                <name role="nrol:alternate">Predators</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -692,8 +692,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.30">
                 <name role="nrol:full">Minnesota Wild</name>
-                <name part="nprt:common">Minnesota</name>
-                <name part="nprt:nickname">Wild</name>
+                <name role="nrol:short">Minnesota</name>
+                <name role="nrol:alternate">Wild</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -730,8 +730,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.9">
                 <name role="nrol:full">Winnipeg Jets</name>
-                <name part="nprt:common">Winnipeg</name>
-                <name part="nprt:nickname">Jets</name>
+                <name role="nrol:short">Winnipeg</name>
+                <name role="nrol:alternate">Jets</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -769,8 +769,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.20">
                 <name role="nrol:full">Columbus Blue Jackets</name>
-                <name part="nprt:common">Columbus</name>
-                <name part="nprt:nickname">Blue Jackets</name>
+                <name role="nrol:short">Columbus</name>
+                <name role="nrol:alternate">Blue Jackets</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -785,8 +785,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.5">
                 <name role="nrol:full">Pittsburgh Penguins</name>
-                <name part="nprt:common">Pittsburgh</name>
-                <name part="nprt:nickname">Penguins</name>
+                <name role="nrol:short">Pittsburgh</name>
+                <name role="nrol:alternate">Penguins</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -799,8 +799,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.6">
                 <name role="nrol:full">Carolina Hurricanes</name>
-                <name part="nprt:common">Carolina</name>
-                <name part="nprt:nickname">Hurricanes</name>
+                <name role="nrol:short">Carolina</name>
+                <name role="nrol:alternate">Hurricanes</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -813,8 +813,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.4">
                 <name role="nrol:full">Philadelphia Flyers</name>
-                <name part="nprt:common">Philadelphia</name>
-                <name part="nprt:nickname">Flyers</name>
+                <name role="nrol:short">Philadelphia</name>
+                <name role="nrol:alternate">Flyers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -829,8 +829,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.2">
                 <name role="nrol:full">New York Islanders</name>
-                <name part="nprt:common">New York</name>
-                <name part="nprt:nickname">Islanders</name>
+                <name role="nrol:short">New York</name>
+                <name role="nrol:alternate">Islanders</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -843,8 +843,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.3">
                 <name role="nrol:full">New York Rangers</name>
-                <name part="nprt:common">New York</name>
-                <name part="nprt:nickname">Rangers</name>
+                <name role="nrol:short">New York</name>
+                <name role="nrol:alternate">Rangers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -859,8 +859,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.1">
                 <name role="nrol:full">New Jersey Devils</name>
-                <name part="nprt:common">New Jersey</name>
-                <name part="nprt:nickname">Devils</name>
+                <name role="nrol:short">New Jersey</name>
+                <name role="nrol:alternate">Devils</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -873,8 +873,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.8">
                 <name role="nrol:full">Washington Capitals</name>
-                <name part="nprt:common">Washington</name>
-                <name part="nprt:nickname">Capitals</name>
+                <name role="nrol:short">Washington</name>
+                <name role="nrol:alternate">Capitals</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -901,8 +901,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.20">
                 <name role="nrol:full">Columbus Blue Jackets</name>
-                <name part="nprt:common">Columbus</name>
-                <name part="nprt:nickname">Blue Jackets</name>
+                <name role="nrol:short">Columbus</name>
+                <name role="nrol:alternate">Blue Jackets</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -939,8 +939,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.5">
                 <name role="nrol:full">Pittsburgh Penguins</name>
-                <name part="nprt:common">Pittsburgh</name>
-                <name part="nprt:nickname">Penguins</name>
+                <name role="nrol:short">Pittsburgh</name>
+                <name role="nrol:alternate">Penguins</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -966,8 +966,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.6">
                 <name role="nrol:full">Carolina Hurricanes</name>
-                <name part="nprt:common">Carolina</name>
-                <name part="nprt:nickname">Hurricanes</name>
+                <name role="nrol:short">Carolina</name>
+                <name role="nrol:alternate">Hurricanes</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -1000,8 +1000,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.4">
                 <name role="nrol:full">Philadelphia Flyers</name>
-                <name part="nprt:common">Philadelphia</name>
-                <name part="nprt:nickname">Flyers</name>
+                <name role="nrol:short">Philadelphia</name>
+                <name role="nrol:alternate">Flyers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -1031,8 +1031,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.2">
                 <name role="nrol:full">New York Islanders</name>
-                <name part="nprt:common">New York</name>
-                <name part="nprt:nickname">Islanders</name>
+                <name role="nrol:short">New York</name>
+                <name role="nrol:alternate">Islanders</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -1061,8 +1061,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.3">
                 <name role="nrol:full">New York Rangers</name>
-                <name part="nprt:common">New York</name>
-                <name part="nprt:nickname">Rangers</name>
+                <name role="nrol:short">New York</name>
+                <name role="nrol:alternate">Rangers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1099,8 +1099,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.1">
                 <name role="nrol:full">New Jersey Devils</name>
-                <name part="nprt:common">New Jersey</name>
-                <name part="nprt:nickname">Devils</name>
+                <name role="nrol:short">New Jersey</name>
+                <name role="nrol:alternate">Devils</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1137,8 +1137,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.8">
                 <name role="nrol:full">Washington Capitals</name>
-                <name part="nprt:common">Washington</name>
-                <name part="nprt:nickname">Capitals</name>
+                <name role="nrol:short">Washington</name>
+                <name role="nrol:alternate">Capitals</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1184,8 +1184,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.7">
                 <name role="nrol:full">Tampa Bay Lightning</name>
-                <name part="nprt:common">Tampa Bay</name>
-                <name part="nprt:nickname">Lightning</name>
+                <name role="nrol:short">Tampa Bay</name>
+                <name role="nrol:alternate">Lightning</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1198,8 +1198,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.14">
                 <name role="nrol:full">Ottawa Senators</name>
-                <name part="nprt:common">Ottawa</name>
-                <name part="nprt:nickname">Senators</name>
+                <name role="nrol:short">Ottawa</name>
+                <name role="nrol:alternate">Senators</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1212,8 +1212,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.12">
                 <name role="nrol:full">Buffalo Sabres</name>
-                <name part="nprt:common">Buffalo</name>
-                <name part="nprt:nickname">Sabres</name>
+                <name role="nrol:short">Buffalo</name>
+                <name role="nrol:alternate">Sabres</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1226,8 +1226,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.11">
                 <name role="nrol:full">Boston Bruins</name>
-                <name part="nprt:common">Boston</name>
-                <name part="nprt:nickname">Bruins</name>
+                <name role="nrol:short">Boston</name>
+                <name role="nrol:alternate">Bruins</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1242,8 +1242,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.13">
                 <name role="nrol:full">Montreal Canadiens</name>
-                <name part="nprt:common">Montreal</name>
-                <name part="nprt:nickname">Canadiens</name>
+                <name role="nrol:short">Montreal</name>
+                <name role="nrol:alternate">Canadiens</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1258,8 +1258,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.10">
                 <name role="nrol:full">Florida Panthers</name>
-                <name part="nprt:common">Florida</name>
-                <name part="nprt:nickname">Panthers</name>
+                <name role="nrol:short">Florida</name>
+                <name role="nrol:alternate">Panthers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1272,8 +1272,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.15">
                 <name role="nrol:full">Toronto Maple Leafs</name>
-                <name part="nprt:common">Toronto</name>
-                <name part="nprt:nickname">Maple Leafs</name>
+                <name role="nrol:short">Toronto</name>
+                <name role="nrol:alternate">Maple Leafs</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1286,8 +1286,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.17">
                 <name role="nrol:full">Detroit Red Wings</name>
-                <name part="nprt:common">Detroit</name>
-                <name part="nprt:nickname">Red Wings</name>
+                <name role="nrol:short">Detroit</name>
+                <name role="nrol:alternate">Red Wings</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-exhibition">
                 <outcome-totals competition="spct:league"
@@ -1312,8 +1312,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.7">
                 <name role="nrol:full">Tampa Bay Lightning</name>
-                <name part="nprt:common">Tampa Bay</name>
-                <name part="nprt:nickname">Lightning</name>
+                <name role="nrol:short">Tampa Bay</name>
+                <name role="nrol:alternate">Lightning</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1350,8 +1350,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.14">
                 <name role="nrol:full">Ottawa Senators</name>
-                <name part="nprt:common">Ottawa</name>
-                <name part="nprt:nickname">Senators</name>
+                <name role="nrol:short">Ottawa</name>
+                <name role="nrol:alternate">Senators</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1388,8 +1388,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.12">
                 <name role="nrol:full">Buffalo Sabres</name>
-                <name part="nprt:common">Buffalo</name>
-                <name part="nprt:nickname">Sabres</name>
+                <name role="nrol:short">Buffalo</name>
+                <name role="nrol:alternate">Sabres</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1423,8 +1423,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.11">
                 <name role="nrol:full">Boston Bruins</name>
-                <name part="nprt:common">Boston</name>
-                <name part="nprt:nickname">Bruins</name>
+                <name role="nrol:short">Boston</name>
+                <name role="nrol:alternate">Bruins</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1458,8 +1458,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.13">
                 <name role="nrol:full">Montreal Canadiens</name>
-                <name part="nprt:common">Montreal</name>
-                <name part="nprt:nickname">Canadiens</name>
+                <name role="nrol:short">Montreal</name>
+                <name role="nrol:alternate">Canadiens</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1493,8 +1493,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.10">
                 <name role="nrol:full">Florida Panthers</name>
-                <name part="nprt:common">Florida</name>
-                <name part="nprt:nickname">Panthers</name>
+                <name role="nrol:short">Florida</name>
+                <name role="nrol:alternate">Panthers</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division" temporal-unit-type="spct:season-regular"
@@ -1524,8 +1524,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.15">
                 <name role="nrol:full">Toronto Maple Leafs</name>
-                <name part="nprt:common">Toronto</name>
-                <name part="nprt:nickname">Maple Leafs</name>
+                <name role="nrol:short">Toronto</name>
+                <name role="nrol:alternate">Maple Leafs</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"
@@ -1583,8 +1583,8 @@
         <team>
             <team-metadata key="vendteam:l.nhl.com-t.17">
                 <name role="nrol:full">Detroit Red Wings</name>
-                <name part="nprt:common">Detroit</name>
-                <name part="nprt:nickname">Red Wings</name>
+                <name role="nrol:short">Detroit</name>
+                <name role="nrol:alternate">Red Wings</name>
             </team-metadata>
             <team-stats temporal-unit-type="spct:season-regular">
                 <outcome-totals unit-type="spct:division"

@@ -84,8 +84,8 @@
 
                                     <player id="p_1">
                                         <player-metadata>
-                                            <name role="nrol:first">Rafael</name>
-                                            <name role="nrol:last">Nadal</name>
+                                            <name part="nprt:given">Rafael</name>
+                                            <name part="nprt:family">Nadal</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><country><name>Spain</name></country></address>
@@ -188,8 +188,8 @@
 
                                     <player id="p_2">
                                         <player-metadata>
-                                            <name role="nrol:first">David</name>
-                                            <name role="nrol:last">Nalbandian</name>
+                                            <name part="nprt:given">David</name>
+                                            <name part="nprt:family">Nalbandian</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><country><name>Argentina</name></country></address>
@@ -362,8 +362,8 @@
                                         <player-metadata team-idref="DC_Serbia"
                                             date-of-birth="1986-02-10" gender="male"
                                             nationality="Serbian">
-                                            <name role="nrol:first">Viktor</name>
-                                            <name role="nrol:last">Troicki</name>
+                                            <name part="nprt:given">Viktor</name>
+                                            <name part="nprt:family">Troicki</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
@@ -391,8 +391,8 @@
                                     <player>
                                         <player-metadata date-of-birth="1982-01-01" gender="male"
                                             nationality="Argentinian">
-                                            <name role="nrol:first">David</name>
-                                            <name role="nrol:last">Nalbandian</name>
+                                            <name part="nprt:given">David</name>
+                                            <name part="nprt:family">Nalbandian</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Cordoba</name></locality><country><name>Argentina</name></country></address>
@@ -426,8 +426,8 @@
                                     <player>
                                         <player-metadata date-of-birth="1986-02-10" gender="male"
                                             nationality="Serbian">
-                                            <name role="nrol:first">Janko</name>
-                                            <name role="nrol:last">Tipsarevic</name>
+                                            <name part="nprt:given">Janko</name>
+                                            <name part="nprt:family">Tipsarevic</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Belgrade</name></locality><country><name>Servia</name></country></address>
@@ -451,8 +451,8 @@
                                     <player>
                                         <player-metadata date-of-birth="1988-09-23" gender="male"
                                             nationality="Argentinian">
-                                            <name role="nrol:first">Juan Martin</name>
-                                            <name role="nrol:last">Del Potro</name>
+                                            <name part="nprt:given">Juan Martin</name>
+                                            <name part="nprt:family">Del Potro</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Tandil</name></locality><country><name>Argentina</name></country></address>
@@ -504,8 +504,8 @@
                                             <player-metadata team-idref="DC_Serbia"
                                                 date-of-birth="1986-02-10" gender="male"
                                                 nationality="Serbian">
-                                                <name role="nrol:first">Viktor</name>
-                                                <name role="nrol:last">Troicki</name>
+                                                <name part="nprt:given">Viktor</name>
+                                                <name part="nprt:family">Troicki</name>
                                                 <home-location>
                                                   <POIDetails>
                                                   <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
@@ -521,8 +521,8 @@
                                             <player-metadata team-idref="DC_Serbia"
                                                 date-of-birth="1986-02-10" gender="male"
                                                 nationality="Serbian">
-                                                <name role="nrol:first">Nenad</name>
-                                                <name role="nrol:last">Zimonjic</name>
+                                                <name part="nprt:given">Nenad</name>
+                                                <name part="nprt:family">Zimonjic</name>
                                                 <home-location>
                                                   <POIDetails>
                                                   <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
@@ -555,8 +555,8 @@
                                             <player-metadata team-idref="DC_Argentina"
                                                 date-of-birth="1979-08-30" gender="male"
                                                 nationality="Serbian">
-                                                <name role="nrol:first">Juan Ignacio</name>
-                                                <name role="nrol:last">Chela</name>
+                                                <name part="nprt:given">Juan Ignacio</name>
+                                                <name part="nprt:family">Chela</name>
                                                 <home-location>
                                                   <POIDetails>
                                                   <address><locality><name>Buenos Aires</name></locality><country><name>Argentina</name></country></address>
@@ -572,8 +572,8 @@
                                             <player-metadata team-idref="DC_Argentina"
                                                 date-of-birth="1984-03-29" gender="male"
                                                 nationality="Serbian">
-                                                <name role="nrol:first">Juan</name>
-                                                <name role="nrol:last">Monaco</name>
+                                                <name part="nprt:given">Juan</name>
+                                                <name part="nprt:family">Monaco</name>
                                                 <home-location>
                                                   <POIDetails>
                                                   <address><locality><name>Buenos Aires</name></locality><country><name>Argentina</name></country></address>
@@ -601,8 +601,8 @@
                                         <player-metadata team-idref="DC_Serbia"
                                             date-of-birth="1987-05-22" gender="male"
                                             nationality="Serbian">
-                                            <name role="nrol:first">Novak</name>
-                                            <name role="nrol:last">Djokovic</name>
+                                            <name part="nprt:given">Novak</name>
+                                            <name part="nprt:family">Djokovic</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Belgrade</name></locality><country><name>Serbia</name></country></address>
@@ -625,8 +625,8 @@
                                     <player>
                                         <player-metadata date-of-birth="1988-09-23" gender="male"
                                             nationality="Argentinian">
-                                            <name role="nrol:first">Juan Martin</name>
-                                            <name role="nrol:last">Del Potro</name>
+                                            <name part="nprt:given">Juan Martin</name>
+                                            <name part="nprt:family">Del Potro</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Tandil</name></locality><country><name>Argentina</name></country></address>
@@ -658,8 +658,8 @@
                                     <player>
                                         <player-metadata date-of-birth="1986-02-10" gender="male"
                                             nationality="Serbian">
-                                            <name role="nrol:first">Janko</name>
-                                            <name role="nrol:last">Tipsarevic</name>
+                                            <name part="nprt:given">Janko</name>
+                                            <name part="nprt:family">Tipsarevic</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Belgrade</name></locality><country><name>Servia</name></country></address>
@@ -679,8 +679,8 @@
                                     <player>
                                         <player-metadata date-of-birth="1984-03-29" gender="male"
                                             nationality="Argentinian">
-                                            <name role="nrol:first">Juan</name>
-                                            <name role="nrol:last">Monaco</name>
+                                            <name part="nprt:given">Juan</name>
+                                            <name part="nprt:family">Monaco</name>
                                             <home-location>
                                                 <POIDetails>
                                                   <address><locality><name>Buenos Aires</name></locality><country><name>Argentina</name></country></address>

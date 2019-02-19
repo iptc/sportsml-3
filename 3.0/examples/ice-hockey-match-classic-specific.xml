@@ -39,8 +39,8 @@
         <team id="l.nhl.com-t.10">
             <team-metadata key="vendteam:l.nhl.com-t.10" alignment="home">
                 <name role="nrol:full">Toronto Maple Leafs</name>
-                <name part="nprt:common">Toronto</name>
-                <name part="nprt:nickname">Maple Leafs</name>
+                <name role="nrol:short">Toronto</name>
+                <name role="nrol:alternate">Maple Leafs</name>
             </team-metadata>
             <team-stats temporal-unit-type="sptemporalunit:event"
                 temporal-unit-value="vendor:l.nhl.com-2015-e.20001" score="1" score-attempts="37"
@@ -641,8 +641,8 @@
         <team id="l.nhl.com-t.8">
             <team-metadata key="vendteam:l.nhl.com-t.8" alignment="away">
                 <name role="nrol:full">Montreal Canadiens</name>
-                <name part="nprt:common">Montreal</name>
-                <name part="nprt:nickname">Canadiens</name>
+                <name role="nrol:short">Montreal</name>
+                <name role="nrol:alternate">Canadiens</name>
             </team-metadata>
             <team-stats temporal-unit-type="sptemporalunit:event"
                 temporal-unit-value="vendor:l.nhl.com-2015-e.20001" score="3" score-attempts="30"
