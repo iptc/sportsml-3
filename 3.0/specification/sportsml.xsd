@@ -923,6 +923,11 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
                 <xs:documentation>Number of events remaining within the scope of play.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
+        <xs:attribute name="events-discarded" type="xs:integer" use="optional">
+            <xs:annotation>
+                <xs:documentation>The number of events that the team or player has discarded under this particular time period. Added from issue #29 2019-03-20.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
         <xs:attribute name="games-back" type="xs:integer" use="optional">
             <xs:annotation>
                 <xs:documentation>A number used to measure how behind one team is from first place. The first place team is 0 games back.</xs:documentation>
@@ -936,11 +941,6 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
 	    <xs:attribute name="relegation-average" type="xs:decimal" use="optional">
             <xs:annotation>
                 <xs:documentation>The product of a relegation average formula used to determine which team is demoted to a lower league. The formula may vary by league but the average typically looks at team performance across multiple competitions. The team(s) with the lowest relegation averages is sent to the league below.</xs:documentation>
-            </xs:annotation>
-        </xs:attribute>
-        <xs:attribute name="events-discarded" type="xs:integer" use="optional">
-            <xs:annotation>
-                <xs:documentation>The number of results the team or player have discarded under this particular time period. Added from issue #29 2019-03-20.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
     </xs:complexType>
@@ -1760,7 +1760,7 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
                 <xs:attributeGroup ref="statAttributes"/>
                 <xs:attribute name="result-status" use="optional">
                     <xs:annotation>
-                        <xs:documentation>Optional attribute if you want to record stats for a team or a player that was discarded as per the rules in the sport. Default value is valid.</xs:documentation>
+                        <xs:documentation>Optional attribute that can be used to record that team player results were discarded as per the rules in the sport. Default value is valid.</xs:documentation>
                     </xs:annotation>
                     <xs:simpleType id="resultStatus">
                         <xs:restriction base="xs:string">
