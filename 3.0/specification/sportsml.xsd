@@ -2236,7 +2236,7 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
         </xs:attribute>
         <xs:attribute name="distance" use="optional" type="xs:string">
             <xs:annotation>
-                <xs:documentation>Angle on the field of the play.</xs:documentation>
+                <xs:documentation>Distance relevant to this action.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
         <xs:attribute name="body-part" use="optional" type="QCodeType">
