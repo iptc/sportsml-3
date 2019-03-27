@@ -938,6 +938,11 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
                 <xs:documentation>The product of a relegation average formula used to determine which team is demoted to a lower league. The formula may vary by league but the average typically looks at team performance across multiple competitions. The team(s) with the lowest relegation averages is sent to the league below.</xs:documentation>
             </xs:annotation>
         </xs:attribute>
+        <xs:attribute name="events-discarded" type="xs:integer" use="optional">
+            <xs:annotation>
+                <xs:documentation>The number of results the team or player have discarded under this particular time period. Added from issue #29 2019-03-20.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
     </xs:complexType>
     
     <!-- ========================================================================================= -->
@@ -1753,6 +1758,18 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
                 </xs:sequence>
                 <xs:attributeGroup ref="coverageAttributes"/>
                 <xs:attributeGroup ref="statAttributes"/>
+                <xs:attribute name="result-status" use="optional">
+                    <xs:annotation>
+                        <xs:documentation>Optional attribute if you want to record stats for a team or a player that was discarded as per the rules in the sport. Default value is valid.</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType id="resultStatus">
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration id="resultStatusValid" value="valid"/>
+                            <xs:enumeration id="resultStatusDiscarded" value="discarded"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                    
+                </xs:attribute>
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
