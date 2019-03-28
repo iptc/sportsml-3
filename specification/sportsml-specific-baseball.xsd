@@ -20,7 +20,7 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	elementFormDefault="qualified" 
 	attributeFormDefault="unqualified" 
-	version="3.0">
+	version="3.1">
 	
 	<!-- ========================================================================================= -->
 	<!--        Baseball metadata complex types               -->	
