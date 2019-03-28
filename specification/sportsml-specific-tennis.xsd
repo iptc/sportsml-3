@@ -18,7 +18,7 @@ By obtaining, using and/or copying this document, you (the licensee) agree that 
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     elementFormDefault="qualified" 
     attributeFormDefault="unqualified" 
-    version="3.0">
+    version="3.1">
     
     <xs:annotation>
         <xs:documentation>Tennis scoring: A game is a subpart of a set and a tennis match is played in best of 3 or 5 sets. A set is played within matches and you need 6 games to win the set. Sets are won by two games unless games are tied 6-6, in which case a tie-breaker ensues with the set won 7-6. The tie-break is counted point by point and is won at 7 by a two-point margin. Play will continue past 7 until that margin is achieved. In games the count proceeds from "love" (0) to 15, 30 and 40, after which the game must be won. If it is not 40-40, the player winning the next point has an "advantage" and if winning the next point too it means winning the game. Otherwise it is back to 40-40 and a continued play for advantage followed by a second winning point to win the game. A game won off an opponent's serve is called a break.</xs:documentation>
