@@ -1,0 +1,788 @@
+<?xml version="1.0"?>
+<sports-content xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    >
+    <sports-metadata date-time="2015-10-21T08:59:19-04:00" doc-id="xt.opta.stats-20151021085919-8"
+        language="en-US" fixture-key="spfixt:season-stats" document-class="spct:statistics">
+        <sports-content-codes>
+            <sports-content-code code-name="Opta" code-key="publisher:optasports.com"
+                code-type="spct:publisher"/>
+            <sports-content-code code-name="XML Team Solutions, Inc."
+                code-key="distributor:xmlteam.com" code-type="spct:distributor"/>
+            <sports-content-code code-type="spct:sport" code-key="sport:15054000" code-name="Soccer"/>
+            <sports-content-code code-type="spct:league" code-key="vendleague:l.premierleague.com"
+                code-name="English Barclays Premier League"/>
+            <sports-content-code code-type="spct:season" code-key="season:2015"/>
+            <sports-content-code code-type="spct:team" code-key="vendteam:o.thefa.com-t.5"
+                code-name="Chelsea Blues"/>
+        </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
+    </sports-metadata>
+    <statistic>
+        <statistic-metadata team-coverage="single-team" temporal-unit-type="spct:season"
+            temporal-unit-value="vendor:2015"/>
+        <team>
+            <team-metadata key="vendteam:o.thefa.com-t.5">
+                <name role="nrol:full">Chelsea</name>
+                <name role="nrol:short">Chelsea</name>
+            </team-metadata>
+            <team-stats>
+                <stats>
+                    <stat stat-type="spstat:time-of-possession-percentage" value="58"/>
+                    <stat stat-type="spstat:events-played" value="9"/>
+                    <stat class="spct:offense" stat-type="spsocstat:shots-total" value="90"/>
+                    <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total" value="38"/>
+                    <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="52"/>
+                    <stat class="spct:offense" stat-type="spsocstat:goals-total" value="14"/>
+                    <stat class="spct:offense" stat-type="spsocstat:assists-total" value="7"/>
+                    <stat class="spct:offense" stat-type="spsocstat:offsides" value="13"/>
+                    <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total" value="52"/>
+                    <stat class="spct:defense" stat-type="spsocstat:shutouts" value="2"/>
+                    <stat class="spct:defense" stat-type="spsocstat:goals-against-total" value="17"/>
+                    <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="44"/>
+                    <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="124"/>
+                    <stat class="spct:penalty" stat-type="spsocstat:ejections-total" value="2"/>
+                    <stat class="spct:penalty" stat-type="spsocstat:ejections-second-caution"
+                        value="0"/>
+                    <stat class="spct:penalty" stat-type="spsocstat:ejections-straight" value="2"/>
+                    <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="15"/>
+                </stats>
+            </team-stats>
+            <player id="p.41328">
+                <player-metadata key="vendperson:p.41328" position-regular="spsocposition:defender"
+                    uniform-number="28">
+                    <name role="nrol:full">César Azpilicueta</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="9"/>
+                        <stat stat-type="spstat:events-started" value="9"/>
+                        <stat stat-type="spstat:time-played-total" value="788"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="478"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="378"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="100"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.791"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="30"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="23"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="7"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.767"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="2"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="2"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
+                            value="11"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.118335">
+                <player-metadata key="vendperson:p.118335" position-regular="spsocposition:defender"
+                    uniform-number="6">
+                    <name role="nrol:full">Abdul Rahman Baba</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="1"/>
+                        <stat stat-type="spstat:events-started" value="1"/>
+                        <stat stat-type="spstat:time-played-total" value="90"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="37"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="30"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete" value="7"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.811"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="1.000"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="2"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.40349">
+                <player-metadata key="vendperson:p.40349" position-regular="spsocposition:goalkeeper"
+                    uniform-number="1">
+                    <name role="nrol:full">Asmir Begovic</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="7"/>
+                        <stat stat-type="spstat:events-started" value="6"/>
+                        <stat stat-type="spstat:time-played-total" value="576"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="153"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="83"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="70"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.542"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="2"/>
+                        <stat class="spct:defense" stat-type="spsocstat:goals-against-total"
+                            value="12"/>
+                        <stat class="spct:defense" stat-type="spsocstat:goals-penalty-shot-allowed"
+                            value="12"/>
+                        <stat class="spct:defense" stat-type="spsocstat:saves" value="23"/>
+                        <stat class="spct:defense" stat-type="spsocstat:save-percentage"
+                            value="0.657"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.108132">
+                <player-metadata key="vendperson:p.108132" position-regular="spsocposition:goalkeeper"
+                    uniform-number="27">
+                    <name role="nrol:full">Jamal Blackman</name>
+                </player-metadata>
+            </player>
+            <player id="p.47431">
+                <player-metadata key="vendperson:p.47431" position-regular="spsocposition:midfielder"
+                    uniform-number="22">
+                    <name role="nrol:full">Willian Borges Da Silva</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="8"/>
+                        <stat stat-type="spstat:events-started" value="6"/>
+                        <stat stat-type="spstat:time-played-total" value="483"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="8"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="252"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="218"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="34"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.865"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="9"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="6"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.667"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="4"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="7"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.19419">
+                <player-metadata key="vendperson:p.19419" position-regular="spsocposition:defender"
+                    uniform-number="24">
+                    <name role="nrol:full">Gary Cahill</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="7"/>
+                        <stat stat-type="spstat:events-started" value="6"/>
+                        <stat stat-type="spstat:time-played-total" value="574"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="239"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="203"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="36"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.849"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="1.000"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="6"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.60772">
+                <player-metadata key="vendperson:p.60772" position-regular="spsocposition:goalkeeper"
+                    uniform-number="13">
+                    <name role="nrol:full">Thibaut Courtois</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="3"/>
+                        <stat stat-type="spstat:events-started" value="3"/>
+                        <stat stat-type="spstat:time-played-total" value="232"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="57"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="26"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="31"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.456"/>
+                        <stat class="spct:defense" stat-type="spsocstat:goals-against-total"
+                            value="5"/>
+                        <stat class="spct:defense" stat-type="spsocstat:goals-penalty-shot-allowed"
+                            value="5"/>
+                        <stat class="spct:defense" stat-type="spsocstat:saves" value="10"/>
+                        <stat class="spct:defense" stat-type="spsocstat:save-percentage"
+                            value="0.667"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:ejections-total"
+                            value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:ejections-second-caution"
+                            value="0"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:ejections-straight"
+                            value="1"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.18507">
+                <player-metadata key="vendperson:p.18507" position-regular="spsocposition:forward"
+                    uniform-number="19">
+                    <name role="nrol:full">Diego Da Silva Costa</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="7"/>
+                        <stat stat-type="spstat:events-started" value="7"/>
+                        <stat stat-type="spstat:time-played-total" value="610"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="10"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="6"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="204"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="157"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="47"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.770"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="6"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.833"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="3"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="8"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="2"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.17878">
+                <player-metadata key="vendperson:p.17878" position-regular="spsocposition:midfielder"
+                    uniform-number="4">
+                    <name role="nrol:full">Cesc Fàbregas</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="9"/>
+                        <stat stat-type="spstat:events-started" value="9"/>
+                        <stat stat-type="spstat:time-played-total" value="779"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="10"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="26"/>
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="710"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="588"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="122"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.828"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="19"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="14"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.737"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="4"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
+                            value="14"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.48847">
+                <player-metadata key="vendperson:p.48847" position-regular="spsocposition:forward"
+                    uniform-number="9">
+                    <name role="nrol:full">Radamel Falcao García Zárate</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="7"/>
+                        <stat stat-type="spstat:events-started" value="1"/>
+                        <stat stat-type="spstat:time-played-total" value="192"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="7"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="65"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="50"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="15"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.769"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="1.000"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="2"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="7"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.42786">
+                <player-metadata key="vendperson:p.42786" position-regular="spsocposition:midfielder"
+                    uniform-number="10">
+                    <name role="nrol:full">Eden Hazard</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="9"/>
+                        <stat stat-type="spstat:events-started" value="8"/>
+                        <stat stat-type="spstat:time-played-total" value="727"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="9"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="468"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="406"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="62"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.868"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="1.000"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="3"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="6"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.41135">
+                <player-metadata key="vendperson:p.41135" position-regular="spsocposition:defender"
+                    uniform-number="2">
+                    <name role="nrol:full">Branislav Ivanovic</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="8"/>
+                        <stat stat-type="spstat:events-started" value="8"/>
+                        <stat stat-type="spstat:time-played-total" value="720"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="342"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="291"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="51"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.851"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="19"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="14"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.737"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="7"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
+                            value="14"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="3"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.126187">
+                <player-metadata key="vendperson:p.126187" position-regular="spsocposition:midfielder"
+                    uniform-number="36">
+                    <name role="nrol:full">Ruben Loftus-Cheek</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="2"/>
+                        <stat stat-type="spstat:events-started" value="1"/>
+                        <stat stat-type="spstat:time-played-total" value="62"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="23"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="19"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.826"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="1.000"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.62398">
+                <player-metadata key="vendperson:p.62398" position-regular="spsocposition:midfielder"
+                    uniform-number="21">
+                    <name role="nrol:full">Nemanja Matic</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="9"/>
+                        <stat stat-type="spstat:events-started" value="7"/>
+                        <stat stat-type="spstat:time-played-total" value="657"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="443"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="393"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="50"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.887"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="35"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="28"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="7"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.800"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="5"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
+                            value="19"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.28495">
+                <player-metadata key="vendperson:p.28495" position-regular="spsocposition:midfielder"
+                    uniform-number="12">
+                    <name role="nrol:full">John Obi Mikel</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="3"/>
+                        <stat stat-type="spstat:events-started" value="1"/>
+                        <stat stat-type="spstat:time-played-total" value="62"/>
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="61"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="56"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.918"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.000"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.167767">
+                <player-metadata key="vendperson:p.167767" position-regular="spsocposition:forward"
+                    uniform-number="16">
+                    <name role="nrol:full">Robert Kenedy Nunes do Nascimento</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="2"/>
+                        <stat stat-type="spstat:time-played-total" value="57"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="34"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="27"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete" value="7"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.794"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.000"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.38419">
+                <player-metadata key="vendperson:p.38419" position-regular="spsocposition:forward"
+                    uniform-number="18">
+                    <name role="nrol:full">Loïc Remy</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="4"/>
+                        <stat stat-type="spstat:events-started" value="1"/>
+                        <stat stat-type="spstat:time-played-total" value="87"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="27"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="21"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete" value="6"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.778"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="2"/>
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.49579">
+                <player-metadata key="vendperson:p.49579" position-regular="spsocposition:forward"
+                    uniform-number="17">
+                    <name role="nrol:full">Pedro Rodríguez Ledesma</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="7"/>
+                        <stat stat-type="spstat:events-started" value="6"/>
+                        <stat stat-type="spstat:time-played-total" value="533"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="13"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="10"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="15"/>
+                        <stat class="spct:offense" stat-type="spsocstat:assists-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:free-kicks" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="233"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="192"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="41"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.824"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="13"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="12"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.923"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="5"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="9"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.53392">
+                <player-metadata key="vendperson:p.53392" position-regular="spsocposition:midfielder"
+                    uniform-number="7">
+                    <name role="nrol:full">Ramires Santos do Nascimento</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="5"/>
+                        <stat stat-type="spstat:events-started" value="3"/>
+                        <stat stat-type="spstat:time-played-total" value="237"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="120"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="89"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="31"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.742"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="14"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="9"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.643"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="2"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited"
+                            value="11"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.1718">
+                <player-metadata key="vendperson:p.1718" position-regular="spsocposition:defender"
+                    uniform-number="26">
+                    <name role="nrol:full">John Terry</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="6"/>
+                        <stat stat-type="spstat:events-started" value="6"/>
+                        <stat stat-type="spstat:time-played-total" value="459"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="235"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="212"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="23"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.902"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.750"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="2"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:ejections-total"
+                            value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:ejections-second-caution"
+                            value="0"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:ejections-straight"
+                            value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.110504">
+                <player-metadata key="vendperson:p.110504" position-regular="spsocposition:midfielder"
+                    uniform-number="14">
+                    <name role="nrol:full">Bertrand Traore</name>
+                </player-metadata>
+            </player>
+            <player id="p.103192">
+                <player-metadata key="vendperson:p.103192" position-regular="spsocposition:defender"
+                    uniform-number="5">
+                    <name role="nrol:full">Kurt Zouma</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="8"/>
+                        <stat stat-type="spstat:events-started" value="6"/>
+                        <stat stat-type="spstat:time-played-total" value="599"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="4"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="262"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="220"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="42"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.840"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="9"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="6"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.667"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shutouts" value="2"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="3"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="3"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+            <player id="p.61262">
+                <player-metadata key="vendperson:p.61262" position-regular="spsocposition:midfielder"
+                    uniform-number="8">
+                    <name role="nrol:full">Oscar dos Santos Emboaba Junior</name>
+                </player-metadata>
+                <player-stats>
+                    <stats temporal-unit-type="sptemporalunit:season" team="vendteam:o.thefa.com-t.5">
+                        <stat stat-type="spstat:events-played" value="4"/>
+                        <stat stat-type="spstat:events-started" value="4"/>
+                        <stat stat-type="spstat:time-played-total" value="286"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-total" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-left-foot" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-right-foot" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:goals-head" value="0"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-total" value="7"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-on-goal-total"
+                            value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:shots-off-goal-total"
+                            value="5"/>
+                        <stat class="spct:offense" stat-type="spsocstat:corner-kicks" value="3"/>
+                        <stat class="spct:offense" stat-type="spsocstat:offsides" value="1"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-total" value="189"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete" value="147"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-incomplete"
+                            value="42"/>
+                        <stat class="spct:offense" stat-type="spsocstat:passes-complete-percentage"
+                            value="0.778"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-total" value="8"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won" value="6"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-lost" value="2"/>
+                        <stat class="spct:offense" stat-type="spsocstat:tackles-won-percentage"
+                            value="0.750"/>
+                        <stat class="spct:defense" stat-type="spsocstat:shots-blocked" value="1"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:fouls-commited" value="2"/>
+                        <stat class="spct:penalty" stat-type="spsocstat:cautions-total" value="1"
+                        />
+                    </stats>
+                </player-stats>
+            </player>
+        </team>
+    </statistic>
+</sports-content>

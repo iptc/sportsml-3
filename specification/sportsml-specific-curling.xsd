@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<!--
+IPTC - International Press Telecommunications Council
+25 Southampton Buildings, London WC2A 1AL, United Kingdom
+www.iptc.org
+This document is published under the Creative Commons Attribution 4.0 license - see the full license agreement at http://creativecommons.org/licenses/by/4.0/. 
+By obtaining, using and/or copying this document, you (the licensee) agree that you have read, understood, and will comply with the terms and conditions of the license.
+
+
+-->
+
+<!-- ========================================================================================= -->
+<!--        SportsML Curling plugin               -->	
+<!-- ========================================================================================= -->	
+
+
+<xs:schema xmlns="http://iptc.org/std/nar/2006-10-01/" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    elementFormDefault="qualified" 
+    attributeFormDefault="unqualified" 
+    version="3.1">
+
+    <!-- ========================================================================================= -->
+    <!--        Curling metadata complex types               -->	
+    <!-- ========================================================================================= -->	
+    
+        <xs:complexType name="curlingEventMetadataComplexType">
+            <xs:annotation>
+                <xs:documentation>An element holding sport-specific metadata about a curling game.</xs:documentation>
+            </xs:annotation>
+            <xs:attribute name="sheet" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The playing field (ice) for one curling game is called the sheet. In various tournaments the sheets could be identified with numbers, letters or a combination.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="draw" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>In curling a game is also called a draw. This is not to be confused with the shot type draw. This attributes can be used to record any curling-specific identification this game/draw has.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    
+        <xs:complexType name="curlingPlayerMetadataComplexType">
+            <xs:annotation>
+                <xs:documentation>Holds metadata specific to a curling player.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attribute name="delivery" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>If the player is playing righthanded or lefthanded.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="role" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>If the player has a named role in the team. For example skip or vice skip.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    
+    <!-- ========================================================================================= -->
+    <!--        Curling Stats complex types               -->	
+    <!-- ========================================================================================= -->	
+
+        <xs:complexType name="curlingPlayerStatsComplexType">
+            <xs:annotation>
+                <xs:documentation>Holds curling-specific stats for certain player.</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="stats-curling-accuracy" type="curlingStatsAccuracyComplexType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+        </xs:complexType>
+
+        <xs:complexType name="curlingTeamStatsComplexType">
+            <xs:annotation>
+                <xs:documentation>Statistics summarizing the actions of one team.</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+                <xs:element name="stats-curling-stone" type="curlingStatsStoneComplexType" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="stats-curling-end" type="curlingStatsEndComplexType" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="stats-curling-accuracy" type="curlingStatsAccuracyComplexType" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+            <xs:attribute name="hammer" type="xs:boolean"/>
+        </xs:complexType>
+
+        <xs:complexType name="curlingStatsStoneComplexType">
+            <xs:annotation>
+                <xs:documentation>Description of an individual stone used in a curling game.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+            <xs:attribute name="stone-number" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The number on the stone.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="stone-color" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>The color of the stone.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    
+        <xs:complexType name="curlingStatsEndComplexType">
+            <xs:annotation>
+                <xs:documentation>Statistics for one end (round) for one team in a curling game.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+            <xs:attribute name="end-number" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Which number the end has.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="score" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>What was the score for this team this end.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="throw-order" use="optional">
+                <xs:annotation>
+                    <xs:documentation>What order of play, did this team play the first or last stone this end.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="first">
+                            <xs:annotation>
+                                <xs:documentation>The team plays the first stone in this round.</xs:documentation>
+                            </xs:annotation>
+                        </xs:enumeration>
+                        <xs:enumeration value="last">
+                            <xs:annotation>
+                                <xs:documentation>This team has the last stone in this round.</xs:documentation>
+                            </xs:annotation>
+                        </xs:enumeration>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="time-used" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>How much time was used by this team this end.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    
+        <xs:complexType name="curlingStatsAccuracyComplexType">
+            <xs:annotation>
+                <xs:documentation>Holds the summary for shots and percentage for one team or one player and optionally for just one type of shots.</xs:documentation>
+            </xs:annotation>
+            <xs:attributeGroup ref="commonAttributes"/>
+            <xs:attributeGroup ref="coverageAttributes"/>
+            <xs:attribute name="shot-type" use="optional" type="QCodeType">
+                <xs:annotation>
+                    <xs:documentation>If the stats cover a specific shot-type. Use http://cv.iptc.org/newscodes/spcurshot/</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+            <xs:attribute name="turn" use="optional">
+                <xs:annotation>
+                    <xs:documentation>If the stats show the values for a specific turn-type inhand or outhand.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="inturn">
+                            <xs:annotation>
+                                <xs:documentation>When the stone is released with a clock-wise turn.</xs:documentation>
+                            </xs:annotation>
+                        </xs:enumeration>
+                        <xs:enumeration value="outturn">
+                            <xs:annotation>
+                                <xs:documentation>When the stone is released with a anti-clock-wise turn.</xs:documentation>
+                            </xs:annotation>
+                        </xs:enumeration>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="percentage"  use="optional">
+                <xs:annotation>
+                    <xs:documentation>The calculated percentage of the shots covered in this stats summary.</xs:documentation>
+                </xs:annotation>
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:annotation>
+                            <xs:documentation>For individual shots the result is scored as 0,25,50,75,100,125 or 150 is used. But since the type is used for calculated averages for several shots it must be open to any value. 
+                                0 is a complete miss, 25 a bad shot, 50 an average, 75 a good shot and 100 for a perfect shot. 125 is reserved to exceptional shots and 150 for very exceptional shots that are also changing the outcome of the game.</xs:documentation>
+                        </xs:annotation>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="number-of-shots" type="xs:string" use="optional">
+                <xs:annotation>
+                    <xs:documentation>Number of shots covered in this stats summary.</xs:documentation>
+                </xs:annotation>
+            </xs:attribute>
+        </xs:complexType>
+    
+    <!-- ========================================================================================= -->
+    <!--        Curling attribute groups complex types               -->	
+    <!-- ========================================================================================= -->	
+
+    <xs:attributeGroup name="eventStateCurling">
+        <xs:attribute name="stone-idref" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>A reference to an id of the stone used.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+        <xs:attribute name="end-number" type="xs:string" use="optional">
+            <xs:annotation>
+                <xs:documentation>The number of the end. Rounds of normally 8+8 stones are called ends in curling.</xs:documentation>
+            </xs:annotation>
+        </xs:attribute>
+    </xs:attributeGroup>
+    
+    
+</xs:schema>

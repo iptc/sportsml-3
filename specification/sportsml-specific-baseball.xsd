@@ -1,0 +1,808 @@
+<?xml version="1.0"?>
+<!--
+IPTC - International Press Telecommunications Council
+25 Southampton Buildings, London WC2A 1AL, United Kingdom
+www.iptc.org
+This document is published under the Creative Commons Attribution 4.0 license - see the full license agreement at http://creativecommons.org/licenses/by/4.0/. 
+By obtaining, using and/or copying this document, you (the licensee) agree that you have read, understood, and will comply with the terms and conditions of the license.
+
+-->
+
+<!-- 
+	* Changed batting- and throwing-hand to enumeration, not qcode
+-->
+
+<!-- ========================================================================================= -->
+<!--        SportsML Baseball plugin               -->	
+<!-- ========================================================================================= -->	
+
+<xs:schema xmlns="http://iptc.org/std/nar/2006-10-01/" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	version="3.1">
+	
+	<!-- ========================================================================================= -->
+	<!--        Baseball metadata complex types               -->	
+	<!-- ========================================================================================= -->	
+	
+		<xs:complexType name="baseballEventMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the event itself. | Includes what state the game is in.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="eventStateBaseball"/>
+		</xs:complexType>
+	
+		<xs:complexType name="baseballTeamMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the team. | Specific to the sport of baseball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attribute name="probable-starting-pitcher-idref" type="xs:IDREF" use="optional">
+				<xs:annotation>
+					<xs:documentation>ID of the pitcher who will probably start the game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="baseballPlayerMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the player. | Specific to the sport of baseball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attribute name="batting-hand" type="bodySideList" use="optional">
+				<xs:annotation>
+					<xs:documentation>Indicates whether player bats left, right, or is a switch-hitter.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="throwing-hand" type="bodySideList" use="optional">
+				<xs:annotation>
+					<xs:documentation>Indicates whether player throws left, right, or is a switch-thrower.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+	<!-- ========================================================================================= -->
+	<!--        Baseball Stats complex types               -->	
+	<!-- ========================================================================================= -->	
+	
+		<xs:complexType name="baseballPlayerStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Stats collected by a player. | Includes offensive, pitching, and defensive stats.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseBaseballStatsComplexType"></xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	
+		<xs:complexType name="baseballTeamStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Specific statistics for baseball. | Includes offensive, pitching, and defensive stats.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseBaseballStatsComplexType"></xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	
+	<xs:complexType name="baseBaseballStatsComplexType">
+		<xs:annotation>
+			<xs:documentation>Specific statistics for baseball. | Includes offensive, pitching, and defensive stats.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="stats-baseball-offensive" type="baseballStatsOffensiveComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="stats-baseball-pitching" type="baseballStatsPitchingComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="stats-baseball-defensive" type="baseballStatsDefensiveComplexType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="commonAttributes"/>
+		<xs:attributeGroup ref="coverageAttributes"/>
+	</xs:complexType>
+	
+	
+		<xs:complexType name="baseballStatsOffensiveComplexType">
+			<xs:annotation>
+				<xs:documentation>Stats accumulated while a team is at bat. | Includes hits and runs.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of hits per at-bats</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="runs-scored" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of runs scored</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="at-bats" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of at-bats  (Does not include walks or Sacrifice Hits)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hits" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rbi" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of runs batted in</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="total-bases" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Calculated by hits + doubles + (triples times 2) + (home-runs times 3).</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="slugging-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total bases divided by at-bats.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bases-on-balls" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times batter was walked</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bases-on-balls-rate" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bases-on-balls-intentional" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="strikeouts-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times batter struck out</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="strikeouts-looking" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="outs-ground" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="outs-fly" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="left-on-base" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of runners left on base</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="left-in-scoring-position" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of runners left on second and/or third base</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="singles" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits off of which batter advances to first base</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="doubles" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits off of which batter advances to second base</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="triples" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits off of which batter advances to third base</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="home-runs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits off of which batter advances to home plate</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="home-runs-season" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="grand-slams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of home runs with bases loaded</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="streak-hits" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hits-event-winning" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="at-bats-per-rbi" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>RBI per at-bat ratio</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="plate-appearances-per-rbi" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Plate appearances per at-bat ratio</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="at-bats-per-home-run" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Home runs per at-bat ratio</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="plate-appearances-per-home-run" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Plate appearances per home run ratio</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sac-flies" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits resulting in batter out which advance base runner(s)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sac-bunts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of bunts resulting in batter out which advance base runner(s)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacrifices" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="grounded-into-double-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of ground balls which result in batter and base runner outs</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hit-into-double-play" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="moved-up" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times runner advances to another base</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="on-base-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Calculated as follows: (hits + bases-on-balls + hit-by-pitch) / (at-bats + bases-on-balls + hit-by-pitch + sac-flies)</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="stolen-bases" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of successfully stolen bases.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="stolen-bases-caught" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times the runner was caught while trying to steal bases.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="stolen-bases-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Success rate for stealing bases.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hit-by-pitch" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times batter hit by pitch</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="reached-base-defensive-interference" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of times the player reached a base due to interference by the defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="reached-base-error" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="reached-base-fielder-choice" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="on-base-plus-slugging" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Calculated by adding on-base-percentage to slugging-percentage.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="plate-appearances" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Calculated by adding at-bats, bases-on-balls, hit-by-pitch, sac-flies, sac-bunts, and defensive-interfance-reaches.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hits-extra-base" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Calculated by adding doubles, triples, and home-runs.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="strikeout-rate" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="double-plays-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="triple-plays-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="pick-offs-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="games-played" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games played.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="baseballStatsPitchingComplexType">
+			<xs:annotation>
+				<xs:documentation>Stats accumulated while a team is pitching. | Includes strikeouts and shutouts.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="runs-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of runs against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="home-runs-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of home runs against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacrifice-bunts-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of sacrifice bunts against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacrifice-hits-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of sacrifice hits against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interferences" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of interference or obstruction calls</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="innings-pitched" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of innings pitched</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="innings-pitched-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hits-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of hits against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="earned-runs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of earned runs against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="unearned-runs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of unearned runs against</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bases-on-balls-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of earned walks allowed</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="bases-on-balls-intentional-pitcher" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of batters intentionally walked</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="strikeouts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of earned strikeouts</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="strikeout-to-bb-ratio" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Strikeout to walks ratio</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="number-of-pitches" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of pitches thrown</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="number-of-strikes" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="era" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Earned run average: Number of earned runs divided by number of innings pitched multiplied by nine</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="whip" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inherited-runners-scored" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of runners which a previous pitcher allowed on base which scored</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="pick-offs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of times the pitcher caught a player trying to steal, before making the pitch.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="errors-hit-with-pitch" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times pitcher hits batter with pitch</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="errors-wild-pitch" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of wild pitches thrown</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="balks" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of balks</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="wins" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games pitcher has won</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="losses" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games pitcher has lost</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="saves" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games pitcher has saved</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="holds" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games relief pitcher has held the lead</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="saves-blown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="saves-tough" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="saves-opportunities" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="relief-points" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Formula for rating relief performances. 4 points for a tough save; 3 points for a save; 2 for a relief win; minus 2 for a relief loss and blown save.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="shutouts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games pitched in which opposing team did not score</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="games-complete" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of complete games pitched</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="games-finished" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games pitched to the end</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="games-pitched" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="winning-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Calculated by wins divided by (wins + losses).</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="event-credit" use="optional">
+				<xs:annotation>
+					<xs:documentation>Whether a pitcher has received credit for winning or losing the game. TBD. Controlled Vocabulary. (win|loss|save|blown-save|win-blown-save|loss-blown-save|hold-win|hold-loss)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="win"/>
+						<xs:enumeration value="loss"/>
+						<xs:enumeration value="save"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="save-credit" use="optional">
+				<xs:annotation>
+					<xs:documentation>Whether a pitcher has received credit for winning or losing the game. TBD. Controlled Vocabulary. (win|loss|save|blown-save|win-blown-save|loss-blown-save|hold-win|hold-loss)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="hold"/>
+						<xs:enumeration value="blown"/>
+						<xs:enumeration value="save"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="batters-average-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-at-bats-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of batters faced who were credited with at-bats.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-total-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of batters faced.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-total-bases-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-slugging-percentage-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-on-base-percentage-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-doubles-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-triples-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="batters-home-runs-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inherited-runners-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacrifice-flies-allowed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="shutouts-combined" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="baseballStatsDefensiveComplexType">
+			<xs:annotation>
+				<xs:documentation>Stats accumulated while a team is out in the field. | Includes double-plays and errors.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="double-plays" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times two runners thrown out at the base.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="triple-plays" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times three runners thrown out at the base.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="putouts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times a fielder caught a fly ball for an out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="assists" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of plays in which a fielder throws a ball to another fielder for the out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="errors" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of plays in which a fielder committed an error, such as dropping a ball.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fielding-chances" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>TBD.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fielding-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>A measure of fielding success. Calculated as follows: (putouts + assists) / (putouts + assists + errors).</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defensive-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Rate a fielder turns a bill hit to their area into an out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="errors-passed-ball" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times a catcher is faulted with letting a pitched ball go past.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="errors-catchers-interference" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times a catcher has improperly interfered with play.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="stolen-bases-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of bases successfully stolen while this player was on the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="stolen-bases-caught-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times a runner was caught while trying to steal bases while this player was on the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="stolen-bases-average-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Success rate for stealing bases while this player was on the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="innings-played" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of innings played at the named position.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="games-played-position" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of games played at the named position.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+	<!-- ========================================================================================= -->
+	<!--        Baseball attribute groups complex types               -->	
+	<!-- ========================================================================================= -->	
+	
+	<xs:attributeGroup name="eventStateBaseball">
+		<xs:attribute name="inning-value" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>An integer. 1 through 9 for the main innings. 10, 11, 12, etc. for extra innings.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="inning-half" use="optional">
+			<xs:annotation>
+				<xs:documentation>Either top or bottom.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="top"/>
+					<xs:enumeration value="bottom"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="outs" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Either 1, 2, or 3.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="balls" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Either 1, 2, 3, or 4.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="strikes" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Either 1, 2, or 3.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runner-on-first" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Whether or not a player is standing on first base. Either true or false.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runner-on-first-idref" type="xs:IDREF" use="optional">
+			<xs:annotation>
+				<xs:documentation>A pointer to the player on first base.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runner-on-second" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Whether or not a player is standing on second base. Either true or false.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runner-on-second-idref" type="xs:IDREF" use="optional">
+			<xs:annotation>
+				<xs:documentation>A pointer to the player on second base.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runner-on-third" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Whether or not a player is standing on third base. Either true or false.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runner-on-third-idref" type="xs:IDREF" use="optional">
+			<xs:annotation>
+				<xs:documentation>A pointer to the player on third base.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="runs-this-inning-half" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>An integer.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="pitcher-idref" type="xs:IDREF" use="optional">
+			<xs:annotation>
+				<xs:documentation>A pointer to the player element for the pitcher standing on the mound.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="batter-idref" type="xs:IDREF" use="optional">
+			<xs:annotation>
+				<xs:documentation>A pointer to the player element for the batter at the plate.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="batter-side" type="bodySideList" use="optional">
+			<xs:annotation>
+				<xs:documentation>Which side of the plate the batter was on when taking the pitch.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="at-bat-number" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Incremented throughout game on a per-team basis. A perfect game would have at-bat-number go from 1 to 27 for the team that didn't get any hits.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+
+</xs:schema>
