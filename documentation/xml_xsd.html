@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <title>Schema documentation for </title>
+      <title>Schema documentation for xml.xsd</title>
       <link rel="stylesheet" href="docHtml.css" type="text/css" /><script type="text/javascript">
          <!--
         var propertiesBoxes= new Array('properties_xml.xsd', 
@@ -11,30 +11,23 @@
 				'properties_space', 
 				'properties_base', 
 				'properties_id');
-
-        var facetsBoxes= new Array('facets_space');
-
-        var usedByBoxes= new Array('usedBy_lang', 
+var facetsBoxes= new Array('facets_space');
+var usedByBoxes= new Array('usedBy_lang', 
 				'usedBy_space', 
 				'usedBy_base');
-
-        var sourceBoxes= new Array('source_lang', 
+var sourceBoxes= new Array('source_lang', 
 				'source_space', 
 				'source_base', 
 				'source_id', 
 				'source_specialAttrs');
-
-        
-        var diagramBoxes= new Array('diagram_specialAttrs');
-
-        var annotationBoxes= new Array('annotations_xml.xsd', 
+var diagramBoxes= new Array('diagram_specialAttrs');
+var annotationBoxes= new Array('annotations_xml.xsd', 
 				'annotations_lang', 
 				'annotations_base', 
 				'annotations_id');
+var attributesBoxes= new Array('attributes_specialAttrs');
 
-        var attributesBoxes= new Array('attributes_specialAttrs');
-
-        
+      
         var button_prefix = 'button_';
         
         /**
@@ -263,7 +256,8 @@
          }
           
 
-    --></script></head>
+    
+                    //--></script></head>
    <body>
       <div id="global_controls" class="globalControls" style="position:absolute;right:0;">
          <table class="rt">
@@ -278,44 +272,28 @@
                   <h3>Showing:</h3>
                   <table>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, annotationBoxes);"
-                                     class="control" /></span><span class="globalControlName">Annotations</span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, annotationBoxes);" class="control" /></span><span class="globalControlName">Annotations</span></td>
                      </tr>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, attributesBoxes);"
-                                     class="control" /></span><span class="globalControlName">Attributes </span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, attributesBoxes);" class="control" /></span><span class="globalControlName">Attributes </span></td>
                      </tr>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, diagramBoxes);"
-                                     class="control" /></span><span class="globalControlName">Diagrams</span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, diagramBoxes);" class="control" /></span><span class="globalControlName">Diagrams</span></td>
                      </tr>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, facetsBoxes);"
-                                     class="control" /></span><span class="globalControlName">Facets </span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, facetsBoxes);" class="control" /></span><span class="globalControlName">Facets </span></td>
                      </tr>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, propertiesBoxes);"
-                                     class="control" /></span><span class="globalControlName">Properties </span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, propertiesBoxes);" class="control" /></span><span class="globalControlName">Properties </span></td>
                      </tr>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, sourceBoxes);"
-                                     class="control" /></span><span class="globalControlName">Source</span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, sourceBoxes);" class="control" /></span><span class="globalControlName">Source</span></td>
                      </tr>
                      <tr>
-                        <td><span><input type="checkbox" value="-" checked="checked"
-                                     onclick="switchStateForAll(this, usedByBoxes);"
-                                     class="control" /></span><span class="globalControlName">Used by </span></td>
+                        <td><span><input type="checkbox" value="-" checked="checked" onclick="switchStateForAll(this, usedByBoxes);" class="control" /></span><span class="globalControlName">Used by </span></td>
                      </tr>
                   </table>
-                  <div align="right"><span><input type="button"
-                               onclick="getElementObject('global_controls').style.display = 'none';"
-                               value="Close" /></span></div>
+                  <div align="right"><span><input type="button" onclick="getElementObject('global_controls').style.display = 'none';" value="Close" /></span></div>
                </td>
                <td class="rt_lineRight"></td>
             </tr>
@@ -344,15 +322,12 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Annotations</b></div>
-                           <div class="floatRight"><input id="button_annotations_xml.xsd" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('annotations_xml.xsd');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_annotations_xml.xsd" type="image" src="img/btM.gif" value="-" onclick="switchState('annotations_xml.xsd');" class="control" /></div>
                         </td>
                         <td>
                            <div id="annotations_xml.xsd" style="display:block">
                               <div class="annotation">
-                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                        class="preWrapContainer">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                     <tr>
                                        <td width="100%"><pre><span class="tT">See http://www.w3.org/XML/1998/namespace.html and</span><span class="tI">
 </span><span class="tT">   http://www.w3.org/TR/REC-xml for information about this namespace.</span><span class="tI">
@@ -403,8 +378,7 @@
                                  </table>
                               </div>
                               <div class="annotation">
-                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                        class="preWrapContainer">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                     <tr>
                                        <td width="100%"><pre><span class="tT">This schema defines attributes and an attribute group</span><span class="tI">
 </span><span class="tT">        suitable for use by</span><span class="tI">
@@ -431,8 +405,7 @@
                                  </table>
                               </div>
                               <div class="annotation">
-                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                        class="preWrapContainer">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                     <tr>
                                        <td width="100%"><pre><span class="tT">In keeping with the XML Schema WG's standard versioning</span><span class="tI">
 </span><span class="tT">policy, this schema document will persist at</span><span class="tI">
@@ -455,23 +428,17 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Properties</b></div>
-                           <div class="floatRight"><input id="button_properties_xml.xsd" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('properties_xml.xsd');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_properties_xml.xsd" type="image" src="img/btM.gif" value="-" onclick="switchState('properties_xml.xsd');" class="control" /></div>
                         </td>
                         <td>
                            <div id="properties_xml.xsd" style="display:block">
                               <table class="propertiesTable">
                                  <tr>
-                                    <td class="firstColumn">attribute form default:
-                                       
-                                    </td>
+                                    <td class="firstColumn" style="white-space: nowrap;">attribute form default</td>
                                     <td><b>unqualified</b></td>
                                  </tr>
                                  <tr>
-                                    <td class="firstColumn">element form default:
-                                       
-                                    </td>
+                                    <td class="firstColumn" style="white-space: nowrap;">element form default</td>
                                     <td><b>unqualified</b></td>
                                  </tr>
                               </table>
@@ -507,15 +474,12 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Annotations</b></div>
-                           <div class="floatRight"><input id="button_annotations_lang" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('annotations_lang');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_annotations_lang" type="image" src="img/btM.gif" value="-" onclick="switchState('annotations_lang');" class="control" /></div>
                         </td>
                         <td>
                            <div id="annotations_lang" style="display:block">
                               <div class="annotation">
-                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                        class="preWrapContainer">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                     <tr>
                                        <td width="100%"><pre><span class="tT">Attempting to install the relevant ISO 2- and 3-letter</span><span class="tI">
 </span><span class="tT">         codes as the enumerated possible values is probably never</span><span class="tI">
@@ -540,17 +504,13 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Properties</b></div>
-                           <div class="floatRight"><input id="button_properties_lang" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('properties_lang');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_properties_lang" type="image" src="img/btM.gif" value="-" onclick="switchState('properties_lang');" class="control" /></div>
                         </td>
                         <td>
                            <div id="properties_lang" style="display:block">
                               <table class="propertiesTable">
                                  <tr>
-                                    <td class="firstColumn">content:
-                                       
-                                    </td>
+                                    <td class="firstColumn" style="white-space: nowrap;">content</td>
                                     <td><b>simple</b></td>
                                  </tr>
                               </table>
@@ -560,20 +520,14 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Used by</b></div>
-                           <div class="floatRight"><input id="button_usedBy_lang" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('usedBy_lang');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_usedBy_lang" type="image" src="img/btM.gif" value="-" onclick="switchState('usedBy_lang');" class="control" /></div>
                         </td>
                         <td>
                            <div id="usedBy_lang" style="display:block">
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Attribute Groups </td>
-                                    <td><b><a href="NewsML-G2_2_22-spec-All-Power_xsd.html#i18nAttributes" target="mainFrame"
-                                             title="http://iptc.org/std/nar/2006-10-01/"
-                                             onclick="updatePageTitle('Schema documentation for NewsML-G2_2.22-spec-All-Power.xsd')">i18nAttributes</a></b>, <b><a href="xml_xsd.html#specialAttrs" target="mainFrame"
-                                             title="http://www.w3.org/XML/1998/namespace"
-                                             onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:specialAttrs</a></b></td>
+                                    <td><b><a href="NewsML-G2_2_22-spec-All-Power_xsd.html#i18nAttributes" target="mainFrame" title="http://iptc.org/std/nar/2006-10-01/" onclick="updatePageTitle('Schema documentation for NewsML-G2_2.22-spec-All-Power.xsd')">i18nAttributes</a></b>, <b><a href="xml_xsd.html#specialAttrs" target="mainFrame" title="http://www.w3.org/XML/1998/namespace" onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:specialAttrs</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -582,14 +536,11 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Source</b></div>
-                           <div class="floatRight"><input id="button_source_lang" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('source_lang');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_source_lang" type="image" src="img/btM.gif" value="-" onclick="switchState('source_lang');" class="control" /></div>
                         </td>
                         <td>
                            <div id="source_lang" style="display:block">
-                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                     class="preWrapContainer">
+                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                  <tr>
                                     <td width="100%"><pre><span class="tEl">&lt;xs:attribute</span><span class="tAN"> name=</span><span class="tAV">"lang"</span><span class="tEl">&gt;</span><span class="tI">
   </span><span class="tEl">&lt;xs:annotation</span><span class="tEl">&gt;</span><span class="tI">
@@ -643,17 +594,13 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Properties</b></div>
-                           <div class="floatRight"><input id="button_properties_space" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('properties_space');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_properties_space" type="image" src="img/btM.gif" value="-" onclick="switchState('properties_space');" class="control" /></div>
                         </td>
                         <td>
                            <div id="properties_space" style="display:block">
                               <table class="propertiesTable">
                                  <tr>
-                                    <td class="firstColumn">content:
-                                       
-                                    </td>
+                                    <td class="firstColumn" style="white-space: nowrap;">content</td>
                                     <td><b>simple</b></td>
                                  </tr>
                               </table>
@@ -663,9 +610,7 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Facets</b></div>
-                           <div class="floatRight"><input id="button_facets_space" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('facets_space');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_facets_space" type="image" src="img/btM.gif" value="-" onclick="switchState('facets_space');" class="control" /></div>
                         </td>
                         <td>
                            <div id="facets_space" style="display:block">
@@ -691,18 +636,14 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Used by</b></div>
-                           <div class="floatRight"><input id="button_usedBy_space" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('usedBy_space');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_usedBy_space" type="image" src="img/btM.gif" value="-" onclick="switchState('usedBy_space');" class="control" /></div>
                         </td>
                         <td>
                            <div id="usedBy_space" style="display:block">
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Attribute Group </td>
-                                    <td><b><a href="xml_xsd.html#specialAttrs" target="mainFrame"
-                                             title="http://www.w3.org/XML/1998/namespace"
-                                             onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:specialAttrs</a></b></td>
+                                    <td><b><a href="xml_xsd.html#specialAttrs" target="mainFrame" title="http://www.w3.org/XML/1998/namespace" onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:specialAttrs</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -711,14 +652,11 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Source</b></div>
-                           <div class="floatRight"><input id="button_source_space" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('source_space');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_source_space" type="image" src="img/btM.gif" value="-" onclick="switchState('source_space');" class="control" /></div>
                         </td>
                         <td>
                            <div id="source_space" style="display:block">
-                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                     class="preWrapContainer">
+                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                  <tr>
                                     <td width="100%"><pre><span class="tEl">&lt;xs:attribute</span><span class="tAN"> name=</span><span class="tAV">"space"</span><span class="tEl">&gt;</span><span class="tI">
   </span><span class="tEl">&lt;xs:simpleType</span><span class="tEl">&gt;</span><span class="tI">
@@ -762,15 +700,12 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Annotations</b></div>
-                           <div class="floatRight"><input id="button_annotations_base" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('annotations_base');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_annotations_base" type="image" src="img/btM.gif" value="-" onclick="switchState('annotations_base');" class="control" /></div>
                         </td>
                         <td>
                            <div id="annotations_base" style="display:block">
                               <div class="annotation">
-                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                        class="preWrapContainer">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                     <tr>
                                        <td width="100%"><pre><span class="tT">See http://www.w3.org/TR/xmlbase/ for</span><span class="tI">
 </span><span class="tT">information about this attribute.</span></pre></td>
@@ -787,17 +722,13 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Properties</b></div>
-                           <div class="floatRight"><input id="button_properties_base" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('properties_base');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_properties_base" type="image" src="img/btM.gif" value="-" onclick="switchState('properties_base');" class="control" /></div>
                         </td>
                         <td>
                            <div id="properties_base" style="display:block">
                               <table class="propertiesTable">
                                  <tr>
-                                    <td class="firstColumn">content:
-                                       
-                                    </td>
+                                    <td class="firstColumn" style="white-space: nowrap;">content</td>
                                     <td><b>simple</b></td>
                                  </tr>
                               </table>
@@ -807,18 +738,14 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Used by</b></div>
-                           <div class="floatRight"><input id="button_usedBy_base" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('usedBy_base');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_usedBy_base" type="image" src="img/btM.gif" value="-" onclick="switchState('usedBy_base');" class="control" /></div>
                         </td>
                         <td>
                            <div id="usedBy_base" style="display:block">
                               <table class="usedByTable">
                                  <tr>
                                     <td class="firstColumn">Attribute Group </td>
-                                    <td><b><a href="xml_xsd.html#specialAttrs" target="mainFrame"
-                                             title="http://www.w3.org/XML/1998/namespace"
-                                             onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:specialAttrs</a></b></td>
+                                    <td><b><a href="xml_xsd.html#specialAttrs" target="mainFrame" title="http://www.w3.org/XML/1998/namespace" onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:specialAttrs</a></b></td>
                                  </tr>
                               </table>
                            </div>
@@ -827,14 +754,11 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Source</b></div>
-                           <div class="floatRight"><input id="button_source_base" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('source_base');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_source_base" type="image" src="img/btM.gif" value="-" onclick="switchState('source_base');" class="control" /></div>
                         </td>
                         <td>
                            <div id="source_base" style="display:block">
-                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                     class="preWrapContainer">
+                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                  <tr>
                                     <td width="100%"><pre><span class="tEl">&lt;xs:attribute</span><span class="tAN"> name=</span><span class="tAV">"base"</span><span class="tAN"> type=</span><span class="tAV">"xs:anyURI"</span><span class="tEl">&gt;</span><span class="tI">
   </span><span class="tEl">&lt;xs:annotation</span><span class="tEl">&gt;</span><span class="tI">
@@ -875,15 +799,12 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Annotations</b></div>
-                           <div class="floatRight"><input id="button_annotations_id" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('annotations_id');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_annotations_id" type="image" src="img/btM.gif" value="-" onclick="switchState('annotations_id');" class="control" /></div>
                         </td>
                         <td>
                            <div id="annotations_id" style="display:block">
                               <div class="annotation">
-                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                        class="preWrapContainer">
+                                 <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                     <tr>
                                        <td width="100%"><pre><span class="tT">See http://www.w3.org/TR/xml-id/ for</span><span class="tI">
 </span><span class="tT">information about this attribute.</span></pre></td>
@@ -900,17 +821,13 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Properties</b></div>
-                           <div class="floatRight"><input id="button_properties_id" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('properties_id');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_properties_id" type="image" src="img/btM.gif" value="-" onclick="switchState('properties_id');" class="control" /></div>
                         </td>
                         <td>
                            <div id="properties_id" style="display:block">
                               <table class="propertiesTable">
                                  <tr>
-                                    <td class="firstColumn">content:
-                                       
-                                    </td>
+                                    <td class="firstColumn" style="white-space: nowrap;">content</td>
                                     <td><b>simple</b></td>
                                  </tr>
                               </table>
@@ -920,14 +837,11 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Source</b></div>
-                           <div class="floatRight"><input id="button_source_id" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('source_id');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_source_id" type="image" src="img/btM.gif" value="-" onclick="switchState('source_id');" class="control" /></div>
                         </td>
                         <td>
                            <div id="source_id" style="display:block">
-                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                     class="preWrapContainer">
+                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                  <tr>
                                     <td width="100%"><pre><span class="tEl">&lt;xs:attribute</span><span class="tAN"> name=</span><span class="tAV">"id"</span><span class="tAN"> type=</span><span class="tAV">"xs:ID"</span><span class="tEl">&gt;</span><span class="tI">
   </span><span class="tEl">&lt;xs:annotation</span><span class="tEl">&gt;</span><span class="tI">
@@ -968,26 +882,19 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Diagram</b></div>
-                           <div class="floatRight"><input id="button_diagram_specialAttrs" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('diagram_specialAttrs');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_diagram_specialAttrs" type="image" src="img/btM.gif" value="-" onclick="switchState('diagram_specialAttrs');" class="control" /></div>
                         </td>
                         <td class="diagram">
-                           <div id="diagram_specialAttrs" style="display:block"><img alt="Diagram" border="0"
-                                   src="img/xml_xsd_Attribute_Group_xml_specialAttrs.jpeg"
-                                   usemap="#xml_xsd_Attribute_Group_xml_specialAttrs" /><map name="xml_xsd_Attribute_Group_xml_specialAttrs"
-                                   id="xml_xsd_Attribute_Group_xml_specialAttrs">
-                                 <area alt="xml_xsd.tmp#base" href="xml_xsd.html#base" coords="147,0,243,24" />
-                                 <area alt="xml_xsd.tmp#lang" href="xml_xsd.html#lang" coords="147,34,241,58" />
-                                 <area alt="xml_xsd.tmp#space" href="xml_xsd.html#space" coords="147,68,249,92" /></map></div>
+                           <div id="diagram_specialAttrs" style="display:block"><img alt="Diagram" border="0" src="img/xml_xsd_Attribute_Group_xml_specialAttrs.jpeg" usemap="#xml_xsd_Attribute_Group_xml_specialAttrs" /><map name="xml_xsd_Attribute_Group_xml_specialAttrs" id="xml_xsd_Attribute_Group_xml_specialAttrs">
+                                 <area alt="xml_xsd.tmp#base" href="xml_xsd.html#base" coords="206,0,342,35" />
+                                 <area alt="xml_xsd.tmp#lang" href="xml_xsd.html#lang" coords="206,108,336,143" />
+                                 <area alt="xml_xsd.tmp#space" href="xml_xsd.html#space" coords="206,235,350,270" /></map></div>
                         </td>
                      </tr>
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Attributes</b></div>
-                           <div class="floatRight"><input id="button_attributes_specialAttrs" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('attributes_specialAttrs');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_attributes_specialAttrs" type="image" src="img/btM.gif" value="-" onclick="switchState('attributes_specialAttrs');" class="control" /></div>
                         </td>
                         <td>
                            <div id="attributes_specialAttrs" style="display:block">
@@ -995,25 +902,18 @@
                                  <thead>
                                     <tr>
                                        <th>QName</th>
-                                       <th>Type</th>
-                                       <th>Fixed</th>
-                                       <th>Default</th>
-                                       <th>Use</th>
+                                       <th width="10%">Type</th>
+                                       <th width="5%">Use</th>
                                        <th>Annotation</th>
                                     </tr>
                                  </thead>
                                  <tr>
-                                    <td class="firstColumn"><b><a href="xml_xsd.html#base" target="mainFrame"
-                                             title="http://www.w3.org/XML/1998/namespace"
-                                             onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:base</a></b></td>
+                                    <td class="firstColumn"><b><a href="xml_xsd.html#base" target="mainFrame" title="http://www.w3.org/XML/1998/namespace" onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:base</a></b></td>
                                     <td><b>xs:anyURI</b></td>
-                                    <td></td>
-                                    <td></td>
                                     <td>optional</td>
                                     <td>
                                        <div class="annotation">
-                                          <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                                 class="preWrapContainer">
+                                          <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                              <tr>
                                                 <td width="100%"><pre><span class="tT">See http://www.w3.org/TR/xmlbase/ for</span><span class="tI">
 </span><span class="tT">information about this attribute.</span></pre></td>
@@ -1023,18 +923,13 @@
                                     </td>
                                  </tr>
                                  <tr>
-                                    <td class="firstColumn"><b><a href="xml_xsd.html#lang" target="mainFrame"
-                                             title="http://www.w3.org/XML/1998/namespace"
-                                             onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:lang</a></b></td>
+                                    <td class="firstColumn"><b><a href="xml_xsd.html#lang" target="mainFrame" title="http://www.w3.org/XML/1998/namespace" onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:lang</a></b></td>
                                     <td>union of(<b>xs:language</b>, restriction of <b>xs:string</b>)
                                     </td>
-                                    <td></td>
-                                    <td></td>
                                     <td>optional</td>
                                     <td>
                                        <div class="annotation">
-                                          <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                                 class="preWrapContainer">
+                                          <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                              <tr>
                                                 <td width="100%"><pre><span class="tT">Attempting to install the relevant ISO 2- and 3-letter</span><span class="tI">
 </span><span class="tT">         codes as the enumerated possible values is probably never</span><span class="tI">
@@ -1051,12 +946,8 @@
                                     </td>
                                  </tr>
                                  <tr>
-                                    <td class="firstColumn"><b><a href="xml_xsd.html#space" target="mainFrame"
-                                             title="http://www.w3.org/XML/1998/namespace"
-                                             onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:space</a></b></td>
+                                    <td class="firstColumn"><b><a href="xml_xsd.html#space" target="mainFrame" title="http://www.w3.org/XML/1998/namespace" onclick="updatePageTitle('Schema documentation for xml.xsd')">xml:space</a></b></td>
                                     <td>restriction of <b>xs:NCName</b></td>
-                                    <td></td>
-                                    <td></td>
                                     <td>optional</td>
                                     <td>
                                        <div class="annotation"></div>
@@ -1069,14 +960,11 @@
                      <tr>
                         <td class="firstColumn">
                            <div class="floatLeft"><b>Source</b></div>
-                           <div class="floatRight"><input id="button_source_specialAttrs" type="image" src="img/btM.gif" value="-"
-                                     onclick="switchState('source_specialAttrs');"
-                                     class="control" /></div>
+                           <div class="floatRight"><input id="button_source_specialAttrs" type="image" src="img/btM.gif" value="-" onclick="switchState('source_specialAttrs');" class="control" /></div>
                         </td>
                         <td>
                            <div id="source_specialAttrs" style="display:block">
-                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;"
-                                     class="preWrapContainer">
+                              <table style="table-layout:fixed;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space: -o-pre-wrap;word-wrap: break-word;_white-space:pre;" class="preWrapContainer">
                                  <tr>
                                     <td width="100%"><pre><span class="tEl">&lt;xs:attributeGroup</span><span class="tAN"> name=</span><span class="tAV">"specialAttrs"</span><span class="tEl">&gt;</span><span class="tI">
   </span><span class="tEl">&lt;xs:attribute</span><span class="tAN"> ref=</span><span class="tAV">"xml:base"</span><span class="tEl">/&gt;</span><span class="tI">
@@ -1104,7 +992,7 @@
          <div align="center">XML Schema documentation generated by <a href="http://www.oxygenxml.com" target="_parent"><span class="oXygenLogo"><span class="redX">&lt;</span>o<span class="redX">X</span>ygen<span class="redX">/&gt;</span></span></a><sup>®</sup> XML Editor.
          </div>
       </div><script type="text/javascript">
-         <!--                     
+         <!--
                      // The namespace is the selected option in the TOC combo.
                     
                      // Floats the toolbar.
@@ -1132,5 +1020,5 @@
 	                     
 	                     globalControls.style.right='0';                       
                      }
-                --></script></body>
+                //--></script></body>
 </html>
