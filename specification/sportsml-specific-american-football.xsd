@@ -1,0 +1,1547 @@
+<?xml version="1.0"?>
+<!--
+IPTC - International Press Telecommunications Council
+25 Southampton Buildings, London WC2A 1AL, United Kingdom
+www.iptc.org
+This document is published under the Creative Commons Attribution 4.0 license - see the full license agreement at http://creativecommons.org/licenses/by/4.0/. 
+By obtaining, using and/or copying this document, you (the licensee) agree that you have read, understood, and will comply with the terms and conditions of the license.
+
+-->
+<!--
+	Differences between CFL and NFL Play
+
+		Kickers get credited with a single point when a punt, kickoff or Field Goal goes
+		through the back or side of the End Zone.
+
+		When a Field Goal misses, a player from the defending team can catch the
+		failed attempt and return it (for a gain or TD).
+
+		Quarterbacks are charged with a Sack Taken stat.
+
+		A player can be credited with an Own Team Fumble Recovery when he secures
+		a ball that was fumbled by a player on his own team.
+
+		Players can be credited with either a Special Teams Tackle or a Defensive
+		Tackle. A Special Teams is credited when a tackle is made during any special
+		teams play (e.g. kicking play) all other tackles are Defensive. The top
+		special teams tackler each year usually records about 20 - 30 in a season,
+		while the top defensive tackler usually records 90 - 110 defensive tackles
+		in a season.
+
+		Quarterbacks can be credited with a defensive tackle.
+
+		Players can also be credited with a pass knocked down or a forced fumble
+		(self explanatory).
+
+		In OT we don't play first-score-wins, like the NFL, instead we play a
+		"Shoot-Out" format. Each club gets the ball on the opposing team's 35 yard
+		line. They both get an equal chance to score until someone is unable
+		(similar to extra innings in Baseball). If, after two attempts each at the
+		tie-breaker then a tie game is declared.
+
+		CFL has 3 downs, while NFL is 4 downs.
+-->
+
+<!-- ========================================================================================= -->
+<!--        SportsML American Fotball plugin               -->	
+<!-- ========================================================================================= -->	
+
+<xs:schema xmlns="http://iptc.org/std/nar/2006-10-01/" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" 
+	attributeFormDefault="unqualified" 
+	version="3.1">
+	
+	<!-- ========================================================================================= -->
+	<!--        American Fotball metadata complex types               -->	
+	<!-- ========================================================================================= -->	
+
+		<xs:complexType name="americanFootballEventMetadataComplexType">
+			<xs:annotation>
+				<xs:documentation>Metadata about the event itself. | Includes the time left, and where the ball is.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="eventStateAmericanFootball"/>
+			<xs:attribute name="week" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The week during the season in which this game is played. Usually an integer.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+	<!-- ========================================================================================= -->
+	<!--        American Football Stats complex types               -->	
+	<!-- ========================================================================================= -->	
+	
+		<xs:complexType name="americanFootballPlayerStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Player statistics for football. | Includes the same elements as team statistics.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseAmericanFootballStatsComplexType"></xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+
+	<xs:complexType name="baseAmericanFootballStatsComplexType">
+		<xs:annotation>
+			<xs:documentation>Player statistics for football. | Includes the same elements as team statistics.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="stats-american-football-offensive" type="americanFootballStatsOffensiveComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="stats-american-football-defensive" type="americanFootballStatsDefensiveComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="stats-american-football-scoring" type="americanFootballStatsScoringComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+			<xs:element name="stats-american-football-special-teams" type="americanFootballStatsSpecialTeamsComplexType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="stats-american-football-fumbles" type="americanFootballStatsFumblesComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+			<xs:element name="stats-american-football-penalties" type="americanFootballStatsPenaltiesComplexType" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:attributeGroup ref="commonAttributes"/>
+		<xs:attributeGroup ref="coverageAttributes"/>
+	</xs:complexType>
+	
+
+		<xs:complexType name="americanFootballTeamStatsComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team. | Holds elements that divide statistics into categories.</xs:documentation>
+			</xs:annotation>
+			<xs:complexContent>
+				<xs:extension base="baseAmericanFootballStatsComplexType">
+					<xs:attribute name="yards-per-attempt" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>The average yards gained per play.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="number-of-plays" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>The number of plays this team has completed, including for offensive, defensive, and special teams.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="number-of-plays-gaining" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>The number of plays this team has completed for which yards were gained, including for offensive, defensive, and special teams.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="number-of-plays-losing" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>The number of plays this team has completed for which yards were lost, including for offensive, defensive, and special teams.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="average-starting-position" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>Average yard-line that the team started on per-drive.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="timeouts" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>The number of timeouts a team has remaining, either in regulation or in overtime, whichever state the game is currently in.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="turnover-ratio" type="xs:string" use="optional">
+						<xs:annotation>
+							<xs:documentation>Derived by subtracting turnovers-giveaways from turnovers-takeaways.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsOffensiveComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team or player's offensive performance. | Further breaks down stats into passing, rushing, etc.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="stats-american-football-passing" type="americanFootballStatsPassingComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-rushing" type="americanFootballStatsRushingComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-down-progress" type="americanFootballStatsDownProgressComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-sacks-against" type="americanFootballStatsSacksAgainstComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-scoring" type="americanFootballStatsScoringComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="offensive-plays-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The total yards accumulated through offensive plays.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="offensive-plays-number" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of offensive plays.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="offensive-plays-average-yards-per" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average number of yards gained per play.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="offensive-plays-average-yards-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average number of yards gained via offensive plays per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="offensive-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>How team's offense compares with rest of league or conference.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="possession-duration" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average amount of time the team had possession per-drive.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="possessions-inside-20" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times team has driven inside its opponent's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="turnovers-giveaway" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Derived by adding passes-interceptions plus fumbles-own-lost.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="turnovers-giveaway-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average-per-game for turnovers-giveaway.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="handoffs-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Usually, number of times QB has handed off, typically leading to a running play.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="pitches-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Usually, number of times QB has pitched back to another player, typically leading to a running play.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-offense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackles performed while on offense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-assists-offense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackle assists performed while on offense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsPassingComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team or player's passing performance. | Used for quarterbacks and receivers.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="passes-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of passes attempted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-completions" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of passes completed successfully.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-completions-average-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of completed passes a game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of all passes that are completed successfully.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-yards-gross" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained from passing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-yards-net" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Subtracts out the sacks-against-yards-lost value of stats-american-football-sacks-against element.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-yards-lost" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Amount of yards lost due to sacks and completed passing plays that ended behind the line of scrimmage.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-yards-per-attempt" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Gross passing yards divided by number of pass attempts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-first-down" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of passes a player or team has made for a first-down.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-touchdowns-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The ratio of touchdown passes to attempted passes.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-interceptions" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of passes that were intercepted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-interceptions-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The ratio of intercepted passes to attempted passes.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-interceptions-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Opponent's yards gained after interceptions.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-interceptions-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of interceptions per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-interceptions-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Longest interception return against a passer.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-interceptions-touchdown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of opponents' touchdowns scored from passer's interceptions.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The yards gained by the single longest completion.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-average-yards-per" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Gross passing yards divided by number of pass completions.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-average-yards-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total yards passing divided by number of games played.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passer-rating" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>A complex formula designed to measure quarterback performance.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The total number of successful passes.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-average-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of receptions per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of yards a receiver is credited for.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-first-down" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of receptions a player has taken for a first-down.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The longest reception a player had, including to the point where they scored, were-tackled, etc.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-looks" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of opportunities this receiver had to receive the ball.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-average-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average yards per game from receptions.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-average-yards-per" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average yards per reception.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passing-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>How a player or team's passing stats ranks in a league or conference, usually using total passing yards as the measure.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="times-thrown-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of passes directed at receiver, including incompletions, interceptions, etc.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="receptions-career-100-yard-games" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times in receiver's career where total receiving yardage per game exceeded 100.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passing-career-300-yard-games" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times in passer's career where total passing yardage per game exceeded 300.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsRushingComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team or player's rushing performance. | How well they ran with the ball.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="rushes-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of attempted rushes.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained by rushing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-yards-left" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained by rushing up the left side of the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-yards-middle" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained by rushing up the middle of the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-yards-right" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained by rushing up the right side of the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushing-average-yards-per" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average number of yards per rush.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-first-down" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of rushes that have resulted in a first-down.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained by the single longest rushing play.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-average-attempts-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of rushing attempts per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-average-yards-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of yards gaining from rushes a game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushing-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>How a player or team's rushing stats ranks in a league or conference, usually using total rushing yards as the measure.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rushes-career-100-yard-games" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of times in rusher's career where total rushing yardage per game exceeded 100.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsDownProgressComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team or player's performance on downs. | Covers first downs and conversions.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="first-downs-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="first-downs-pass" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved from passing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="first-downs-run" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved from rushing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="first-downs-penalty" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved from penalties on the other team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="first-downs-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of yards gained on first down plays.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="first-downs-average-yards-per" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of average yards gained on first down plays.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-second-down" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved on a second down.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-second-down-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of second downs.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-second-down-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of first down attempts on a second down that were successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-third-down" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved on a third down.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-third-down-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of third downs.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-third-down-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of first down attempts on a third down that were successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-fourth-down" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs achieved on a fourth down.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-fourth-down-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fourth downs.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="conversions-fourth-down-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of first down attempts on a fourth down that were successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsSacksAgainstComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about the sacks suffered by the offensive team. | How many times and the team was sacked, and for how many yards.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="sacks-against-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of yards lost by the offense from sacks.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-against-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of times that the offense was sacked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-against-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of times per game a quarterback is sacked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-against-safeties" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of sacks that resulted in safeties.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsDefensiveComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular player or team's defensive performance. | Covers tackles, interceptions, sacks.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="stats-american-football-passing" type="americanFootballStatsPassingComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-rushing" type="americanFootballStatsRushingComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-down-progress" type="americanFootballStatsDownProgressComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-sacks-against" type="americanFootballStatsSacksAgainstComplexType" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="stats-american-football-scoring" type="americanFootballStatsScoringComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="tackles-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackles made by the defense. Commonly the sum of tackles-solo and tackles-assists.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-solo" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackles made where only one member of the defense commited the tackle.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-assists" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackles made where multiple members of the defense commited the tackle.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-team" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackles made which were credited to the team as a whole.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="quarterback-hurries" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>An unofficial stat given when a defensive player pressures and hurries the quarterback into making a throw to avoid being sacked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="passes-defensed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of times a pass was deflected or otherwise defended against, causing a pass to be incomplete.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="turnovers-takeaway" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Derived by adding interceptions-total plus fumbles-opposing-recovered.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="yards-allowed-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total yardage a defense allowed, usually through passing and rushing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="yards-allowed-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total yardage a defense allows per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defensive-plays-number" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of plays a defense is on the field.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-plays" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of plays inside defensive team's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-points-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of points given up when opponents' possession starts inside defensive team's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-touchdowns-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of touchdowns given up when opponents' possession starts inside defensive team's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-touchdowns-against-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Ratio of touchdowns allowed to possessions when opponents' possession starts inside defensive team's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defense-rank" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>How a team's defensive stats rank in a league or conference, usually using yards allowed per game as the measure.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defense-rank-pass" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>How a team's passing defense stats rank in a league or conference, usually using passing yards allowed per game as the measure.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defense-rank-rush" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>How a team's rushing defense stats rank in a league or conference, usually using rushing yards allowed per game as the measure.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interceptions-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of passes the defense has intercepted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interceptions-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained as a result of an interception.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interceptions-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average number of yards gained from interceptions.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interceptions-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Percentage of passes intercepted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interceptions-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The longest interception returned. Greatest number of yards gained on an interception.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="interceptions-touchdown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of interceptions that were run back for a touchdown.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of sacks made by the defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of yards gained by the defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-team" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of sacks credited to the team as a whole.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="sacks-yards-team" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of yards gained by the defense on sacks credited to the team as a whole.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsScoringComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team's scoring performance. | For touchdowns, field goals, etc.</xs:documentation>
+			</xs:annotation>
+			<xs:sequence>
+				<xs:element name="stats-american-football-field-goals" type="americanFootballStatsFieldGoalsComplexType" minOccurs="0"	maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="touchdowns-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns scored by the offense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchdowns-passing" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns scored by passing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchdowns-rushing" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns scored by rushing.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchdowns-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns scored by special teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchdowns-defensive" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns scored by the defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchdowns-receptions" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of receptions resulting in a touchdown.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of extra points attempted by the offense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-made" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of extra points made.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-missed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of extra points missed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-blocked" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of extra point attempts that were blocked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Ratio of extra points completed to attempts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goal-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of field goals attempted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-made" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of field goals made.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-missed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of field goals missed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-blocked" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of field goal attempts that were blocked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goal-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Yardage of longest successful field goal attempt.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Ratio of field goals made to attempts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of field goals made per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="safeties-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of safeties scored against the offense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="two-point-conversions-attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of two point conversions attempted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="two-point-conversions-made" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of successful two point conversions.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="two-point-conversions-made-rushing" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of successful two-point conversions from running plays.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="two-point-conversions-made-passing" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of successful two-point conversions from passing plays.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>For Canadian Football. Used to record the number of touchbacks that resulted in scores.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="single-points" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of points earned from the single, a CFL-specific scoring play where a kicking team prevents its opponent from returning a kickoff, punt or missed field goal from outside the opponent's own end zone.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-points" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Points earned by offensive team when possession starts inside opponent's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-touchdowns" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Touchdowns scored by offensive team when possession starts inside opponent's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="inside-20-touchdowns-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Ratio of touchdowns to possessions when possession starts inside opponent's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsFieldGoalsComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about attempted and made field goals. | Allows for breakdowns between particular yard markers.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="minimum-distance" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The minimum distance in the range for the kick attempts. NOTE: Worth revisiting.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="maximum-distance" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The maximum distance in the range for the kick attempts. NOTE: Worth revisiting.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="attempts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of attempted field goals.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="made" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of successful field goals.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsSpecialTeamsComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about a particular team's special teams performance. | Covers punts, touchbacks.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="returns-punt-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts returned.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained from punt returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average number of yards gained on each punt return.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained on the longest punt return.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-touchdown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts returned for a touchdown.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-against-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of punt returns defended.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-against-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of yards allowed from punt returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-against-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of yards allowed from punt returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-against-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Yardage of longest punt return allowed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-punt-against-touchdown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of touchdowns from punt returns allowed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="kickoffs-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of kickoffs to opposition.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="kickoffs-adjusted" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of kickoffs excluding onside kicks or kickoffs at the end of a half unless either kickoff is returned for a touchdown.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="kickoffs-to-inside-20" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of kickoffs resulting in opponent's possession starting inside own 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="kickoffs-drive-start-against-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average starting position of opponent's possession after a kickoff.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="onside-kicks-attempted" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of onside kicks attempted.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="onside-kicks-recovered" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of onside kicks recovered by kicking team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of kickoffs returned.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained from kickoff returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average number of yards gained on each kickoff return.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained on the longest kickoff return.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-touchdown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of kickoffs returned for a touchdown.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-adjusted" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number kickoffs adjusted for onside and end-of-half (non-touchdown) kickoffs.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-inside-20" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of kickoff returns that failed to advance past the returning team's 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-drive-start-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average start position after kickoff returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-against-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of kickoff returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-against-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Yards allowed from kickoff returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-against-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average yards allowed per kickoff return.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-against-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Yardage of longest kickoff return allowed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-kickoff-against-touchdown" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Touchdowns allowed from kickoff returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The total number of returns.  Punts + kickoffs.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="returns-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The total number of yards gained on punts and kickoffs combined.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-yards-gross" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The sum of the distances of all punts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-yards-net" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The sum of the distances of all punts, minus the distances they were returned.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The distance of the longest punt.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-inside-20" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts inside the 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-inside-20-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of punts inside the 20 yard line.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The average gross punting yardage.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-average-net" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average net yards - punt length minus return - per punt.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of punts forced by defensive team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-yards-gross" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of yards of opposing team's punts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-yards-net" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of net yards - punt length minus return - of opposing team's punts.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-longest" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Longest punt by opposing team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-inside-20" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Punt returns failed to advance beyond team's own 20.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-inside-20-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Ratio of punt returns failed to advance beyond team's own 20 and total punt returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-average" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average length of opponent's punt.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-average-net" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average net length - punt length minus return - of opponent's punt..</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-blocked" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts that were blocked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="punts-against-blocked" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts made by the opposing team that this team or player has blocked.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The total number of touchbacks, from kickoffs, punts, interceptions, and fumbles.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-total-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of kickoffs, punts, interceptions, and fumbles which resulted in a touchback.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-kickoffs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of kickoffs that went into the end zone and were not brought out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-kickoffs-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of kickoffs resulting in touchbacks.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-punts" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of punts that went into the end zone and were not brought out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-punts-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of punts resulting in touchbacks.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-interceptions" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of interceptions that went into the end zone and were not brought out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-interceptions-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of interceptions resulting in touchbacks.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-punts-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of punts not returned out of receiving team's end zone.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fair-catches" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fair catches.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fair-catches-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of fair catches by opponents.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="total-return-yardage-not-kickoffs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Net return yardage excluding kickoff returns.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchdowns-against" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total number of special teams touchdowns allowed.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackles made while playing for a special-team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="tackles-assists-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of tackle assists performed while on special-teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-against-made" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of extra point attempts made by the opposing team that were successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-against-missed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of extra point attempts made by the opposing team that were not successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="extra-points-against-blocked" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of extra point attempts made by the opposing team that were blocked by this team or player.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-against-made" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of field goal attempts made by the opposing team that were successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-against-missed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of field goal attempts made by the opposing team that were not successful.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="field-goals-against-blocked" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Number of field goal attempts made by the opposing team that were blocked by this player or team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsFumblesComplexType">
+			<xs:annotation>
+				<xs:documentation>For tracking fumble stats. | Covers teams that do the fumbling and the recovering.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="fumbles-committed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The total number of fumbles.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-forced" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles that were forced by the opposing team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles that were recovered by the fumbling team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-lost" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles that were not recovered by the fumbling team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-lost-average-per-game" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of fumbles lost per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-yards-gained" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained as a result of fumbles.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-own-committed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by this team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-own-recovered" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by this team that were then also recovered by this team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-own-lost" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by this team but recovered by the other team. A subset of turnovers. Also referred to as a giveaway.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-own-yards-gained" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained as a result of fumbles by this team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-own-touchdowns" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns earned after a team recovers its own fumbles.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-opposing-committed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by the opposing team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-opposing-recovered" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by the opposing but recovered by this team. A subset of turnovers. Also referred to a takeaway.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-opposing-recovered-average-per-game" type="xs:string"
+				use="optional">
+				<xs:annotation>
+					<xs:documentation>Average number of opposing team's fumbles recovered per game.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-opposing-lost" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by the opposing team that were subsequently lost to the opposing team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-opposing-yards-gained" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained as a result of fumbles by the opposing team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-opposing-touchdowns" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of touchdowns scored as a result of fumbles by the opposing team..</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-committed-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by a player or team on defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-lost-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles lost by a player or team on defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-forced-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles forced by a player or team on defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles recovered by a player or team on defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered-yards-defense" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained on fumbles recovered by a player or team on defense.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-committed-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by a player or team on special-teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-lost-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles lost by a player or team on special-teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-forced-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles forced by a player or team on special-teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles recovered by a player or team on special-teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered-yards-special-teams" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained on fumbles recovered by a player or team on special-teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-committed-other" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles committed by a player or team on neither defense or special teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-lost-other" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles lost by a player or team on neither defense or special teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-forced-other" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles forced by a player or team on neither defense or special teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered-other" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles recovered by a player or team on neither defense or special teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="fumbles-recovered-yards-other" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of yards gained on fumbles recovered by a player or team on neither defense or special teams.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-fumbles" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of fumbles into the end zone that are not brought out.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="touchbacks-fumbles-percentage" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The percentage of fumbles that resulted in touchbacks.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	
+		<xs:complexType name="americanFootballStatsPenaltiesComplexType">
+			<xs:annotation>
+				<xs:documentation>Statistics about penalties. | Applies to both offensive and defensive penalties.</xs:documentation>
+			</xs:annotation>
+			<xs:attributeGroup ref="commonAttributes"/>
+			<xs:attributeGroup ref="coverageAttributes"/>
+			<xs:attribute name="penalties-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of penalties.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalty-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The yards gained as a result of penalties.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalty-first-downs" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of first downs gained as a result of penalties.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalty-opponent-yards" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Yards opponents gain as a result of penalties.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalties-opponent-total" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Total of penalties by opposing team.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalties-challenged" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Includes penalty challenges that were both won and lost.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalties-reviewed" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Includes both coach challenges and booth challenges (by the replay assistant in the NFL).</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="penalties-overturned" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>The number of successful penalty challenges by a team, leading to the overturning of the original call.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+		
+	
+	<!-- ========================================================================================= -->
+	<!--        American Football attribute groups complex types               -->	
+	<!-- ========================================================================================= -->	
+
+	<xs:attributeGroup name="eventStateAmericanFootball">
+		<xs:attribute name="clock-state" use="optional">
+			<xs:annotation>
+				<xs:documentation>Whether the clock is running or stopped.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="stopped"/>
+					<xs:enumeration value="running"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="team-in-possession-idref" type="xs:IDREF" use="optional">
+			<xs:annotation>
+				<xs:documentation>The ID of the team with the football.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="down" use="optional">
+			<xs:annotation>
+				<xs:documentation>The current down. Valid values are 1,2,3,4,5.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="1"/>
+					<xs:enumeration value="2"/>
+					<xs:enumeration value="3"/>
+					<xs:enumeration value="4"/>
+					<xs:enumeration value="5"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="distance-for-1st-down" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The distance between the current line of scrimmage and the line to gain, 10 yards downfield from the start of possession. In yards. The word goal is used when the distance to the goal line is less than 10 yards. The word kick is used for kick-scoring attempt.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="field-side" use="optional">
+			<xs:annotation>
+				<xs:documentation>Which side of the field the event is taking place.  Either "home" or "away".</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:enumeration value="home"/>
+					<xs:enumeration value="away"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="field-line" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>The line of scrimmage. The yard line where the ball is placed at the start of play.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:attributeGroup>
+	
+</xs:schema>

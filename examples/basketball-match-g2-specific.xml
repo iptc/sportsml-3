@@ -1,0 +1,584 @@
+<?xml version="1.0"?>
+<newsItem xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    standard="NewsML-G2"
+    standardversion="2.22" version="1" conformance="power" xml:lang="en-US"
+    
+    guid="urn:newsml:sportsml.org:20160502:xt.prog.20150303231135-20004-04.337-event-stats-progressive">
+    <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+<catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
+    <itemMeta>
+        <itemClass qcode="ninat:text"/>
+        <provider qcode="web:xmlteam.com">
+            <name>XML Team Solutions, Inc.</name>
+        </provider>
+        <versionCreated>2015-03-03T23:11:35-05:00</versionCreated>
+        <pubStatus qcode="stat:usable"/>
+        <fileName>xt.prog.20150303231135-20004-04.337-event-stats-progressive</fileName>
+    </itemMeta>
+    <contentMeta>
+        <contentCreated>2015-03-03T23:11:35-05:00</contentCreated>
+        <located qcode="city:Philadelphia">
+            <broader qcode="reg:Pennsylvania"/>
+            <broader qcode="cntry:CA"/>
+        </located>
+        <creator qcode="web:sportsnetwork.com">
+            <name>The Sports Network, Inc.</name>
+        </creator>
+                <genre qcode="spfixt:event-stats-progressive">
+            <name xml:lang="en-US">Progressive Event Statistics</name>
+            <broader qcode="spct:event-summary"/>
+        </genre>
+        <genre qcode="spct:event-summary"/>
+        <language tag="en-US"/>
+        <subject type="spct:season" literal="2014"/>
+        <subject type="spct:season-type" qcode="spct:season-regular"/>
+        <subject qcode="subj:15000000">
+            <name xml:lang="en-US">sport</name>
+        </subject>
+        <subject qcode="subj:15008000">
+            <name xml:lang="en-US">Basketball</name>
+            <broader qcode="subj:15000000"/>
+        </subject>
+        <subject qcode="vendleague:l.nba.com" type="spct:league">
+            <name xml:lang="en-US">National Basketball Association</name>
+            <broader qcode="subj:15008000"/>
+            <sameAs qcode="subj:15008001"/>
+        </subject>
+        <subject type="spct:conference" qcode="vendconf:l.nba.com-c.eastern">
+            <name xml:lang="en-US">Eastern</name>
+            <broader qcode="vendleague:l.nba.com"/>
+        </subject>
+        <subject type="cpnat:event" qcode="vendevent:l.nba.com-2014-e.20004"/>
+        <subject type="spct:team" qcode="vendteam:l.nba.com-t.14">
+            <name>Milwaukee Bucks</name>
+        </subject>
+        <subject type="spct:team" qcode="vendteam:l.nba.com-t.17">
+            <name>Denver Nuggets</name>
+        </subject>
+        <headline>Ersan Ilyasova layup assisted by Khris Middleton.</headline>
+    </contentMeta>
+    <contentSet>
+        <inlineXML contenttype="application/sportsml+xml">
+            <sports-content>
+                <sports-event>
+                    <event-metadata key="vendevent:l.nba.com-2014-e.20004"
+                        event-status="speventstatus:mid-event"
+                        temporal-unit-value="vendor:l.nba.com-2014-e.20004"
+                        start-date-time="2015-03-03T21:00:00-05:00" period-value="4"
+                        period-time-remaining="4:51"/>
+                    <team id="l.nba.com-t.14">
+                        <team-metadata key="vendteam:l.nba.com-t.14" alignment="away">
+                            <name role="nrol:full">Milwaukee Bucks</name>
+                            <name role="nrol:short">Milwaukee</name>
+                            <name role="nrol:alternate">Bucks</name>
+                        </team-metadata>
+                        <team-stats event-outcome="speventoutcome:undecided" score="84"
+                            score-opposing="93">
+                            <penalty-stats count="0" type="team technical fouls"/>
+                            <penalty-stats count="2" type="technical fouls"/>
+                            <penalty-stats count="24" type="personal fouls"/>
+                            <sub-score period-value="1" score="29"/>
+                            <sub-score period-value="2" score="22"/>
+                            <sub-score period-value="3" score="19"/>
+                            <sub-score period-value="4" score="14"/>
+                            <team-stats-basketball>
+                                <stats-basketball-offensive field-goals-made="31"
+                                    field-goals-attempted="79" three-pointers-made="9"
+                                    three-pointers-attempted="22" free-throws-made="13"
+                                    free-throws-attempted="20" assists-total="19"
+                                    team-turnovers-total="14" turnovers-total="0"/>
+                                <stats-basketball-rebounding rebounds-total="51"
+                                    rebounds-offensive="8" rebounds-defensive="29"
+                                    team-rebounds-total="14"/>
+                                <stats-basketball-defensive steals-total="6" blocks-total="6"/>
+                            </team-stats-basketball>
+                        </team-stats>
+                        <player id="l.nba.com-p.2404">
+                            <player-metadata key="vendperson:l.nba.com-p.2404"
+                                position-event="spbkbposition:forward" uniform-number="34"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Giannis Antetokounmpo</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="5" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="16"
+                                        field-goals-made="6" field-goals-attempted="8"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="4" free-throws-attempted="6"
+                                        assists-total="2" turnovers-total="5"/>
+                                    <stats-basketball-rebounding rebounds-total="10"
+                                        rebounds-offensive="2" rebounds-defensive="8"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="2"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1024">
+                            <player-metadata key="vendperson:l.nba.com-p.1024"
+                                position-event="spbkbposition:forward" uniform-number="7"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Ersan Ilyasova</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="3" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="17"
+                                        field-goals-made="7" field-goals-attempted="13"
+                                        three-pointers-made="3" three-pointers-attempted="6"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="2" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="3"
+                                        rebounds-offensive="1" rebounds-defensive="2"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="1"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.641">
+                            <player-metadata key="vendperson:l.nba.com-p.641"
+                                position-event="spbkbposition:center" uniform-number="27"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Zaza Pachulia</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="1" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="0"
+                                        field-goals-made="0" field-goals-attempted="1"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="0" turnovers-total="3"/>
+                                    <stats-basketball-rebounding rebounds-total="0"
+                                        rebounds-offensive="0" rebounds-defensive="0"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2289">
+                            <player-metadata key="vendperson:l.nba.com-p.2289"
+                                position-event="spbkbposition:guard" uniform-number="22"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Khris Middleton</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="1" type="technical fouls"/>
+                                <penalty-stats count="3" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="20"
+                                        field-goals-made="6" field-goals-attempted="19"
+                                        three-pointers-made="3" three-pointers-attempted="4"
+                                        free-throws-made="5" free-throws-attempted="5"
+                                        assists-total="4" turnovers-total="0"/>
+                                    <stats-basketball-rebounding rebounds-total="7"
+                                        rebounds-offensive="1" rebounds-defensive="6"/>
+                                    <stats-basketball-defensive steals-total="2" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2411">
+                            <player-metadata key="vendperson:l.nba.com-p.2411"
+                                position-event="spbkbposition:guard" uniform-number="5"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Michael Carter-Williams</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="3" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="7"
+                                        field-goals-made="3" field-goals-attempted="10"
+                                        three-pointers-made="1" three-pointers-attempted="3"
+                                        free-throws-made="0" free-throws-attempted="2"
+                                        assists-total="5" turnovers-total="2"/>
+                                    <stats-basketball-rebounding rebounds-total="2"
+                                        rebounds-offensive="0" rebounds-defensive="2"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="1"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1504">
+                            <player-metadata key="vendperson:l.nba.com-p.1504"
+                                position-event="spbkbposition:guard" uniform-number="19"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Jerryd Bayless</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="1" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="7"
+                                        field-goals-made="2" field-goals-attempted="8"
+                                        three-pointers-made="1" three-pointers-attempted="2"
+                                        free-throws-made="2" free-throws-attempted="2"
+                                        assists-total="2" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="3"
+                                        rebounds-offensive="0" rebounds-defensive="3"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2281">
+                            <player-metadata key="vendperson:l.nba.com-p.2281"
+                                position-event="spbkbposition:center" uniform-number="31"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">John Henson</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="10"
+                                        field-goals-made="4" field-goals-attempted="6"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="2" free-throws-attempted="5"
+                                        assists-total="1" turnovers-total="0"/>
+                                    <stats-basketball-rebounding rebounds-total="4"
+                                        rebounds-offensive="2" rebounds-defensive="2"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="2"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1292">
+                            <player-metadata key="vendperson:l.nba.com-p.1292"
+                                position-event="spbkbposition:forward" uniform-number="9"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Jared Dudley</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="1" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="2"
+                                        field-goals-made="1" field-goals-attempted="6"
+                                        three-pointers-made="0" three-pointers-attempted="3"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="1" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="5"
+                                        rebounds-offensive="0" rebounds-defensive="5"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2596">
+                            <player-metadata key="vendperson:l.nba.com-p.2596"
+                                position-event="spbkbposition:guard" uniform-number="11"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Tyler Ennis</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="5"
+                                        field-goals-made="2" field-goals-attempted="6"
+                                        three-pointers-made="1" three-pointers-attempted="4"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="2" turnovers-total="0"/>
+                                    <stats-basketball-rebounding rebounds-total="1"
+                                        rebounds-offensive="0" rebounds-defensive="1"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2271">
+                            <player-metadata key="vendperson:l.nba.com-p.2271"
+                                position-event="spbkbposition:center" uniform-number="21"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Miles Plumlee</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="0"
+                                        field-goals-made="0" field-goals-attempted="2"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="0" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="2"
+                                        rebounds-offensive="2" rebounds-defensive="0"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                    </team>
+                    <team id="l.nba.com-t.17">
+                        <team-metadata key="vendteam:l.nba.com-t.17" alignment="home">
+                            <name role="nrol:full">Denver Nuggets</name>
+                            <name role="nrol:short">Denver</name>
+                            <name role="nrol:alternate">Nuggets</name>
+                        </team-metadata>
+                        <team-stats event-outcome="speventoutcome:undecided" score="93"
+                            score-opposing="84">
+                            <penalty-stats count="2" type="team technical fouls"/>
+                            <penalty-stats count="3" type="technical fouls"/>
+                            <penalty-stats count="23" type="personal fouls"/>
+                            <sub-score period-value="1" score="29"/>
+                            <sub-score period-value="2" score="26"/>
+                            <sub-score period-value="3" score="21"/>
+                            <sub-score period-value="4" score="17"/>
+                            <team-stats-basketball>
+                                <stats-basketball-offensive field-goals-made="35"
+                                    field-goals-attempted="77" three-pointers-made="9"
+                                    three-pointers-attempted="28" free-throws-made="14"
+                                    free-throws-attempted="18" assists-total="22"
+                                    team-turnovers-total="13" turnovers-total="0"/>
+                                <stats-basketball-rebounding rebounds-total="50"
+                                    rebounds-offensive="7" rebounds-defensive="32"
+                                    team-rebounds-total="11"/>
+                                <stats-basketball-defensive steals-total="8" blocks-total="5"/>
+                            </team-stats-basketball>
+                        </team-stats>
+                        <player id="l.nba.com-p.1441">
+                            <player-metadata key="vendperson:l.nba.com-p.1441"
+                                position-event="spbkbposition:forward" uniform-number="8"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Danilo Gallinari</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="3" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="21"
+                                        field-goals-made="7" field-goals-attempted="15"
+                                        three-pointers-made="3" three-pointers-attempted="8"
+                                        free-throws-made="4" free-throws-attempted="4"
+                                        assists-total="0" turnovers-total="3"/>
+                                    <stats-basketball-rebounding rebounds-total="7"
+                                        rebounds-offensive="0" rebounds-defensive="7"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="1"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1290">
+                            <player-metadata key="vendperson:l.nba.com-p.1290"
+                                position-event="spbkbposition:forward" uniform-number="21"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Wilson Chandler</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="4" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="12"
+                                        field-goals-made="5" field-goals-attempted="10"
+                                        three-pointers-made="2" three-pointers-attempted="4"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="3" turnovers-total="2"/>
+                                    <stats-basketball-rebounding rebounds-total="3"
+                                        rebounds-offensive="0" rebounds-defensive="3"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2107">
+                            <player-metadata key="vendperson:l.nba.com-p.2107"
+                                position-event="spbkbposition:center" uniform-number="35"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Kenneth Faried</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="1" type="technical fouls"/>
+                                <penalty-stats count="0" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="14"
+                                        field-goals-made="5" field-goals-attempted="10"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="4" free-throws-attempted="5"
+                                        assists-total="0" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="11"
+                                        rebounds-offensive="2" rebounds-defensive="9"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="3"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1184">
+                            <player-metadata key="vendperson:l.nba.com-p.1184"
+                                position-event="spbkbposition:guard" uniform-number="4"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Randy Foye</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="3" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="6"
+                                        field-goals-made="2" field-goals-attempted="7"
+                                        three-pointers-made="2" three-pointers-attempted="6"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="4" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="1"
+                                        rebounds-offensive="0" rebounds-defensive="1"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1616">
+                            <player-metadata key="vendperson:l.nba.com-p.1616"
+                                position-event="spbkbposition:guard" uniform-number="3"
+                                status="spplayerstatus:starter">
+                                <name role="nrol:full">Ty Lawson</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="11"
+                                        field-goals-made="4" field-goals-attempted="8"
+                                        three-pointers-made="1" three-pointers-attempted="3"
+                                        free-throws-made="2" free-throws-attempted="2"
+                                        assists-total="8" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="1"
+                                        rebounds-offensive="0" rebounds-defensive="1"/>
+                                    <stats-basketball-defensive steals-total="2" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1467">
+                            <player-metadata key="vendperson:l.nba.com-p.1467"
+                                position-event="spbkbposition:center" uniform-number="7"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">J.J. Hickson</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="1" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="6"
+                                        field-goals-made="3" field-goals-attempted="9"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="1" turnovers-total="0"/>
+                                    <stats-basketball-rebounding rebounds-total="10"
+                                        rebounds-offensive="3" rebounds-defensive="7"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.871">
+                            <player-metadata key="vendperson:l.nba.com-p.871"
+                                position-event="spbkbposition:guard" uniform-number="28"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Jameer Nelson</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="9"
+                                        field-goals-made="4" field-goals-attempted="7"
+                                        three-pointers-made="0" three-pointers-attempted="3"
+                                        free-throws-made="1" free-throws-attempted="1"
+                                        assists-total="2" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="0"
+                                        rebounds-offensive="0" rebounds-defensive="0"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2256">
+                            <player-metadata key="vendperson:l.nba.com-p.2256"
+                                position-event="spbkbposition:guard" uniform-number="5"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Will Barton</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="4" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="2"
+                                        field-goals-made="0" field-goals-attempted="2"
+                                        three-pointers-made="0" three-pointers-attempted="1"
+                                        free-throws-made="2" free-throws-attempted="5"
+                                        assists-total="3" turnovers-total="3"/>
+                                    <stats-basketball-rebounding rebounds-total="3"
+                                        rebounds-offensive="0" rebounds-defensive="3"/>
+                                    <stats-basketball-defensive steals-total="2" blocks-total="1"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.1433">
+                            <player-metadata key="vendperson:l.nba.com-p.1433"
+                                position-event="spbkbposition:forward" uniform-number="00"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Darrell Arthur</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="2" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="8"
+                                        field-goals-made="4" field-goals-attempted="5"
+                                        three-pointers-made="0" three-pointers-attempted="0"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="1" turnovers-total="0"/>
+                                    <stats-basketball-rebounding rebounds-total="2"
+                                        rebounds-offensive="1" rebounds-defensive="1"/>
+                                    <stats-basketball-defensive steals-total="1" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2601">
+                            <player-metadata key="vendperson:l.nba.com-p.2601"
+                                position-event="spbkbposition:guard" uniform-number="14"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Gary Harris</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="1" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="0"
+                                        field-goals-made="0" field-goals-attempted="2"
+                                        three-pointers-made="0" three-pointers-attempted="1"
+                                        free-throws-made="0" free-throws-attempted="0"
+                                        assists-total="0" turnovers-total="1"/>
+                                    <stats-basketball-rebounding rebounds-total="1"
+                                        rebounds-offensive="1" rebounds-defensive="0"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                        <player id="l.nba.com-p.2418">
+                            <player-metadata key="vendperson:l.nba.com-p.2418"
+                                position-event="spbkbposition:guard" uniform-number="11"
+                                status="spplayerstatus:bench">
+                                <name role="nrol:full">Erick Green</name>
+                            </player-metadata>
+                            <player-stats>
+                                <penalty-stats count="0" type="technical fouls"/>
+                                <penalty-stats count="1" type="personal fouls"/>
+                                <player-stats-basketball>
+                                    <stats-basketball-offensive points-scored-total="4"
+                                        field-goals-made="1" field-goals-attempted="2"
+                                        three-pointers-made="1" three-pointers-attempted="2"
+                                        free-throws-made="1" free-throws-attempted="1"
+                                        assists-total="0" turnovers-total="0"/>
+                                    <stats-basketball-rebounding rebounds-total="0"
+                                        rebounds-offensive="0" rebounds-defensive="0"/>
+                                    <stats-basketball-defensive steals-total="0" blocks-total="0"/>
+                                </player-stats-basketball>
+                            </player-stats>
+                        </player>
+                    </team>
+                    <actions>
+                        <action class="spactionclass:score" id="play.337" sequence-number="337"
+                            period-value="4" period-time-remaining="4:51"
+                            comment="Ersan Ilyasova layup assisted by Khris Middleton."
+                            score-attempt-type="spbkbscoreattempt:fg" score-team="84"
+                            score-team-opposing="93" points="2">
+                            <participant idref="l.nba.com-p.1024" team-idref="l.nba.com-t.14"
+                                role="spbkbrole:scorer"/>
+                            <participant idref="l.nba.com-p.2289" team-idref="l.nba.com-t.14"
+                                role="spbkbrole:assist"/>
+                        </action>
+                    </actions>
+                </sports-event>
+            </sports-content>
+        </inlineXML>
+    </contentSet>
+</newsItem>
