@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<sports-content xmlns="http://iptc.org/std/nar/2006-10-01/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xts="http://www.xmlteam.com"
+    xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:bbc="http://www.bbc.co.uk/sport/sports-data"
+    xmlns:sportsml="http://iptc.org/std/SportsML/2008-04-01/"
+    xsi:schemaLocation="http://iptc.org/std/nar/2006-10-01/ ../../../3.0/specification/sportsml.xsd">
+    <sports-metadata date-time="2016-08-14T22:29:12-03:00"
+        doc-id="xt.bbc.odf.2016-08-14T222912-0300.13.2019.P.ATM001101.DT_RESULT.O"
+        fixture-key="venddoc:event-stats" document-class="venddoc:event-summary">
+        <sports-content-codes>
+            <sports-content-code code-type="spct:publisher" code-key="publisher:ioc.org"
+                code-name="International Olympic Committee"/>
+            <sports-content-code code-type="spct:distributor" code-key="distributor:xmlteam.com"
+                code-name="XML Team Solutions, Inc."/>
+            <sports-content-code code-type="spct:composite-games"
+                code-key="composite-games:cg.olympic.org" code-name="The Olympic Games"/>
+            <sports-content-code code-type="spct:season" code-key="season:2016" code-name="Summer"/>
+            <sports-content-code code-type="spct:sport" code-key="sport:15005000"
+                code-name="Athletics"/>
+            <sports-content-code code-type="spct:sport-category" code-key="sport-category:AT"
+                code-name="Athletics"/>
+            <sports-content-code code-type="spct:competition" code-key="competition:ATM001"
+                code-name="Men's 100m"/>
+            <sports-content-code code-type="spct:gender" code-key="gender:M" code-name="Men"/>
+            <sports-content-code code-type="spct:phase" code-key="phase:1"
+                code-name="Men's 100m Final"/>
+            <sports-content-code code-type="spct:unit" code-key="unit:01"
+                code-name="Men's 100m Final"/>
+        </sports-content-codes>
+    </sports-metadata>
+    <sports-event>
+        <event-metadata key="vendevent:cg.olympic.org-2016-e.CSOB32016ATM001101" event-number="01">
+            <sports-property formal-name="WIND_SPEED" value="+0.2"/>
+        </event-metadata>
+        <team>
+            <team-metadata key="vendteam:t.JAM">
+                <name role="nrol:full">Jamaica</name>
+            </team-metadata>
+            <player id="p.1056797">
+                <player-metadata key="vendperson:p.1056797" lineup-slot="1" nationality="JAM"
+                    uniform-number="2612" date-of-birth="1986-08-21">
+                    <name role="nrol:full">Usain Bolt</name>
+                </player-metadata>
+                <player-stats score="9.81" score-type="TIME">
+                    <rank type="vendor:rank" value="1"/>
+                    <sub-score score="0.155" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                    <event-record type="SB"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.USA">
+                <name role="nrol:full">United States of America</name>
+            </team-metadata>
+            <player id="p.1127210">
+                <player-metadata key="vendperson:p.1127210" lineup-slot="1" nationality="USA"
+                    uniform-number="3069" date-of-birth="1982-02-10">
+                    <name role="nrol:full">Justin Gatlin</name>
+                </player-metadata>
+                <player-stats score="9.89" score-type="TIME">
+                    <rank type="vendor:rank" value="2"/>
+                    <sub-score score="0.152" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.CAN">
+                <name role="nrol:full">Canada</name>
+            </team-metadata>
+            <player id="p.1109611">
+                <player-metadata key="vendperson:p.1109611" lineup-slot="1" nationality="CAN"
+                    uniform-number="2196" date-of-birth="1994-11-10">
+                    <name role="nrol:full">Andre de Grasse</name>
+                </player-metadata>
+                <player-stats score="9.91" score-type="TIME">
+                    <rank type="vendor:rank" value="3"/>
+                    <sub-score score="0.141" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                    <event-record type="PB"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.JAM">
+                <name role="nrol:full">Jamaica</name>
+            </team-metadata>
+            <player id="p.1056795">
+                <player-metadata key="vendperson:p.1056795" lineup-slot="1" nationality="JAM"
+                    uniform-number="2611" date-of-birth="1989-12-26">
+                    <name role="nrol:full">Yohan Blake</name>
+                </player-metadata>
+                <player-stats score="9.93" score-type="TIME">
+                    <rank type="vendor:rank" value="4"/>
+                    <sub-score score="0.145" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                    <event-record type="SB"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.RSA">
+                <name role="nrol:full">South Africa</name>
+            </team-metadata>
+            <player id="p.1051157">
+                <player-metadata key="vendperson:p.1051157" lineup-slot="1" nationality="RSA"
+                    uniform-number="2909" date-of-birth="1993-09-21">
+                    <name role="nrol:full">Akani Simbine</name>
+                </player-metadata>
+                <player-stats score="9.94" score-type="TIME">
+                    <rank type="vendor:rank" value="5"/>
+                    <sub-score score="0.128" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.CIV">
+                <name role="nrol:full">Cote d'Ivoire</name>
+            </team-metadata>
+            <player id="p.1136307">
+                <player-metadata key="vendperson:p.1136307" lineup-slot="1" nationality="CIV"
+                    uniform-number="2245" date-of-birth="1986-11-11">
+                    <name role="nrol:full">Ben Youssef Meite</name>
+                </player-metadata>
+                <player-stats score="9.96" score-type="TIME">
+                    <rank type="vendor:rank" value="6"/>
+                    <sub-score score="0.156" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                    <event-record type="NR"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.FRA">
+                <name role="nrol:full">France</name>
+            </team-metadata>
+            <player id="p.1162488">
+                <player-metadata key="vendperson:p.1162488" lineup-slot="1" nationality="FRA"
+                    uniform-number="2434" date-of-birth="1992-02-27">
+                    <name role="nrol:full">Jimmy Vicaut</name>
+                </player-metadata>
+                <player-stats score="10.04" score-type="TIME">
+                    <rank type="vendor:rank" value="7"/>
+                    <sub-score score="0.140" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                </player-stats>
+            </player>
+        </team>
+        <team>
+            <team-metadata key="vendteam:t.USA">
+                <name role="nrol:full">United States of America</name>
+            </team-metadata>
+            <player id="p.1160645">
+                <player-metadata key="vendperson:p.1160645" lineup-slot="1" nationality="USA"
+                    uniform-number="3054" date-of-birth="1995-07-10">
+                    <name role="nrol:full">Trayvon Bromell</name>
+                </player-metadata>
+                <player-stats score="10.06" score-type="TIME">
+                    <rank type="vendor:rank" value="8"/>
+                    <sub-score score="0.135" sub-score-type="scoretype:REACT_TIME"
+                        sub-score-name="REACT_TIME"/>
+                </player-stats>
+            </player>
+        </team>
+    </sports-event>
+</sports-content>
